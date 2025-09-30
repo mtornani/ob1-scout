@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OB1 Scout</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Inter", system-ui, -apple-system, sans-serif;
+      background: linear-gradient(160deg, #0f172a, #1e293b);
+      color: #e2e8f0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 16px;
+    }
+    .container {
+      max-width: 640px;
+      text-align: center;
+      background: rgba(15, 23, 42, 0.6);
+      border-radius: 24px;
+      padding: 48px 32px;
+      box-shadow: 0 30px 60px rgba(15, 23, 42, 0.4);
+      backdrop-filter: blur(12px);
+    }
+    h1 {
+      font-size: clamp(42px, 6vw, 64px);
+      margin: 0 0 16px;
+      background: linear-gradient(90deg, #38bdf8, #a855f7);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      letter-spacing: 1px;
+    }
+    p.subtitle {
+      margin: 0 0 32px;
+      font-size: 1.125rem;
+      color: #cbd5f5;
+    }
+    .price {
+      display: inline-block;
+      margin-bottom: 28px;
+      padding: 12px 32px;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.12);
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #f8fafc;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 36px;
+      text-align: left;
+      line-height: 1.8;
+      font-size: 1rem;
+    }
+    li::before {
+      content: "✔";
+      margin-right: 12px;
+      color: #34d399;
+      font-weight: 600;
+    }
+    a.cta {
+      display: inline-block;
+      padding: 14px 36px;
+      border-radius: 12px;
+      background: linear-gradient(90deg, #38bdf8, #6366f1);
+      color: #0f172a;
+      font-weight: 600;
+      text-decoration: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    a.cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 15px 30px rgba(99, 102, 241, 0.25);
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>OB1 Scout</h1>
+    <p class="subtitle">Weekly U20 Football Intelligence from 50+ Sources</p>
+    <div class="price">€89/month</div>
+    <ul>
+      <li>50+ sources scraped weekly</li>
+      <li>Curated signals on emerging talents</li>
+      <li>JSON + human-readable report</li>
+      <li>Delivered every Monday 9:00 CET</li>
+    </ul>
+    <a class="cta" href="mailto:info@matchanalysispro.online?subject=OB1%20Scout%20Subscription">Subscribe Now</a>
+  </main>
+</body>
+</html>
