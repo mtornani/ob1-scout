@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>OB1 Global Radar</title>
+    
+    <!-- PWA Setup -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0d1117">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="OB1 Global">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <!-- Header -->
+        <header class="glass-header">
+            <div class="logo-container">
+                <div class="pulse-ring"></div>
+                <h1>OB1 <span>GLOBAL</span></h1>
+            </div>
+            <div class="status-indicator">
+                <span id="last-updated">Syncing...</span>
+                <div class="dot online"></div>
+            </div>
+        </header>
+
+        <!-- Stats Overview -->
+        <section class="overview-cards">
+            <div class="glass-card stat-card">
+                <p class="stat-label">Active Anomalies</p>
+                <h2 id="total-anomalies">0</h2>
+            </div>
+            <div class="glass-card stat-card accent">
+                <p class="stat-label">Max Asymmetry</p>
+                <h2 id="max-score">0<span class="muted">/100</span></h2>
+            </div>
+            <div class="glass-card stat-card">
+                <p class="stat-label">Avg Lead Time</p>
+                <h2 id="avg-lead">+0<span class="muted">d</span></h2>
+            </div>
+        </section>
+
+        <!-- Main Feed -->
+        <main class="feed-container">
+            <div class="feed-header">
+                <h3>Priority Signals</h3>
+                <div class="filter-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
+                </div>
+            </div>
+
+            <div id="anomalies-list" class="anomalies-list">
+                <!-- Loader -->
+                <div class="loader-container">
+                    <div class="spinner"></div>
+                    <p>Scanning intelligence feed...</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
