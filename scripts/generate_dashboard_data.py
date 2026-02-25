@@ -27,11 +27,12 @@ def generate_json():
     c = conn.cursor()
     
     try:
-        # Fetch high-score anomalies
+        # Fetch high-score anomalies (High Purity Filter)
         c.execute('''
             SELECT a.*, l.lead_time_days, l.ob1_detection_date 
             FROM anomalies a
             JOIN lead_times l ON a.player_name = l.player_name
+            WHERE a.score >= 70
             ORDER BY a.score DESC, a.detection_date DESC
         ''')
         rows = c.fetchall()
