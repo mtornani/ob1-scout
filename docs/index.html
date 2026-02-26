@@ -30,7 +30,15 @@
         <!-- Header -->
         <header class="glass-header">
             <div class="logo-container">
-                <div class="pulse-ring"></div>
+                <div class="ouroboros-symbol">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2a10 10 0 1 1-6.31 17.76"></path>
+                        <path d="M11 2h2"></path>
+                        <path d="M12 22a10 10 0 0 1 0-20"></path>
+                        <circle cx="12" cy="12" r="3" fill="currentColor" fill-opacity="0.1"></circle>
+                    </svg>
+                </div>
                 <h1>OB1 <span>GLOBAL</span></h1>
             </div>
             <div class="header-actions">
@@ -51,18 +59,21 @@
         <!-- Tactical Guide Modal -->
         <div id="guide-modal" class="modal-overlay hidden">
             <div class="glass-card modal-content">
-                <h3>Tactical Intelligence Guide</h3>
+                <h3>OB1 RADAR: INITIATED</h3>
                 <div class="guide-section">
-                    <h4>📡 Asymmetry Score</h4>
-                    <p>Misura il gap tra il talento rilevato e la copertura mediatica. 100 significa che il giocatore è
-                        totalmente "invisibile" per il mercato mainstream.</p>
+                    <h4>📡 ASYMMETRY SCORE</h4>
+                    <p>Calculates the gap between "Ghost" talent and mainstream noise. Higher scores indicate maximum
+                        information asymmetry.</p>
                 </div>
                 <div class="guide-section">
-                    <h4>⏳ Lead Time</h4>
-                    <p>Il nostro vantaggio competitivo. Rappresenta il numero di giorni trascorsi dalla prima
-                        rilevazione OB1 alla comparsa sui radar tradizionali (es. Transfermarkt/Gazzetta).</p>
+                    <h4>⏳ LEAD TIME</h4>
+                    <p>Days elapsed since OB1 interception before mainstream detection. This is our edge.</p>
                 </div>
-                <button id="close-guide" class="accent-btn">UNDERSTOOD</button>
+                <div class="guide-section">
+                    <h4>🐍 OUROBOROS PROTOCOL</h4>
+                    <p>The system devours raw data to regenerate pure scouting intelligence in real-time.</p>
+                </div>
+                <button id="close-guide" class="accent-btn">ENTER THE RADAR</button>
             </div>
         </div>
 
