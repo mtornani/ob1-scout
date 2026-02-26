@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "id": 1,
+    "player_name": "Honest Ahanor",
+    "detection_date": "2026-02-25 21:50:15",
+    "source_url": "https://www.instagram.com/p/DVIxIZUElSq/",
+    "score": 94.0,
+    "raw_content": "Massima asimmetria informativa. Segnale intercettato da network locali nigeriani al compimento del 18° anno. Valutazione di mercato percepita internamente superiore ai professionisti della Bafana Bafana, ma assente dai radar mainstream europei. Tipico 'Ghost' con hype limitato a mercati chiusi.",
+    "region": "West Africa",
+    "status": "detected",
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-02-25T22:50:15.753466"
+  },
+  {
+    "id": 2,
+    "player_name": "Yan Diomandé",
+    "detection_date": "2026-02-25 21:50:16",
+    "source_url": "https://www.instagram.com/p/DVIxIZUElSq/",
+    "score": 76.0,
+    "raw_content": "Profilo in rapida ascesa definito 'nuova sensazione'. Sebbene ci siano rumor su grandi club, la mancanza di dati statistici consolidati in database pubblici lo rende un target ad alta asimmetria, ancora in fase di pre-esplosione mediatica.",
+    "region": "West Africa / Europe",
+    "status": "detected",
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-02-25T22:50:16.391719"
+  },
+  {
+    "id": 3,
+    "player_name": "Relebohile Mofokeng",
+    "detection_date": "2026-02-25 21:50:17",
+    "source_url": "https://www.instagram.com/p/DVIxIZUElSq/",
+    "score": 72.0,
+    "raw_content": "Identificato tramite report di scouting di nicchia. Mostra anomalie positive nel dribbling in spazi stretti e shooting success rate. Nonostante l'interesse locale, resta un profilo 'sotto-osservato' per i parametri delle Top 5 leghe.",
+    "region": "South Africa",
+    "status": "detected",
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-02-25T22:50:17.029448"
+  }
+]
