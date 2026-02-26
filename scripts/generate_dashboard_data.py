@@ -10,6 +10,7 @@ import logging
 from pathlib import Path
 
 # Setup logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 BASE_DIR = Path(__file__).parent.parent
