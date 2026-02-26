@@ -42,7 +42,7 @@ jobs:
       - name: Commit and Push Data Updates
         run: |
           git config --global user.name "OB1 Radar Bot"
-          git config --global user.name "bot@ob1-radar.com"
-          git add data/ob1_global.db docs/data/anomalies.json
+          git config --global user.email "bot@ob1-radar.com"
+          git add -f data/ob1_global.db docs/data/anomalies.json
           git commit -m "Update Radar Memex: $(date)" || echo "No changes to commit"
           git push

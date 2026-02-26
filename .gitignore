@@ -3,5 +3,6 @@ __pycache__/
 output/
 data/
 *.json
+!docs/data/anomalies.json
 *.csv
 .env
