@@ -88,8 +88,8 @@ class OB1Intelligence:
         # 1. Ingest latest data into the store (Bug 5: Real RAG)
         store_name = self.ingest_data(data_samples)
         if not store_name:
-            logger.warning("Falling back to context stuffing due to ingestion failure.")
-            # Fallback logic here if needed, but we aim for RAG
+            logger.warning("Falling back to basic prompt due to ingestion failure.")
+            # Basic fallback if needed, but we aim for RAG
             return []
 
         # 2. Query with File Search tool
@@ -100,7 +100,7 @@ class OB1Intelligence:
         """
 
         prompt = """
-        Analizza i nuovi documenti. Restituisci un JSON array di giocatori Under 20 promettenti.
+        Analizza i nuovi documenti. Restituisci un JSON array di giocatori Under 20 promettenti menzionati.
         
         REGOLE CRITICHE:
         1. PENALIZZA DURAMENTE (> -50 punti) giocatori già famosi.
@@ -114,14 +114,16 @@ class OB1Intelligence:
                 "score": 0-100,
                 "reason": "Spiegazione tecnica...",
                 "is_ghost": true/false,
-                "region": "Area geografica"
+                "region": "Area geografica",
+                "sources": ["URL1", "URL2"]
             }
         ]
         """
 
         try:
+            # Bug 5: Transition to gemini-2.5-flash as suggested in official snippet
             response = self.client.models.generate_content(
-                model=self.model_id,
+                model='gemini-2.5-flash',
                 contents=prompt,
                 config=types.GenerateContentConfig(
                     system_instruction=system_instruction,
@@ -130,12 +132,23 @@ class OB1Intelligence:
                     max_output_tokens=2048
                 )
             )
+            
+            # Extract citations/grounding metadata if available
+            grounding = response.candidates[0].grounding_metadata
+            found_sources = []
+            if grounding and grounding.grounding_chunks:
+                found_sources = list({c.retrieved_context.title for c in grounding.grounding_chunks if c.retrieved_context})
+            
             text = response.text.replace('```json', '').replace('```', '').strip()
-            # Find the first [ and last ] to extract JSON
             import re
             match = re.search(r'\[.*\]', text, re.DOTALL)
             if match:
-                return json.loads(match.group())
+                results = json.loads(match.group())
+                # Enrich with grounding sources if missing
+                for res in results:
+                    if 'sources' not in res or not res['sources']:
+                        res['sources'] = found_sources
+                return results
             return []
         except Exception as e:
             logger.error(f"Intelligence analysis failed: {e}")

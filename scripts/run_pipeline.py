@@ -102,12 +102,16 @@ async def main_pipeline():
         is_ghost = not await enricher.check_transfermarkt(player)
         final_score = enricher.calculate_asymmetry_score(base_score, is_ghost)
         
-        # HIGH-PURITY FILTER: Only progress if score > 70
+        # HIGH-PURITY FILTER: Only progress if score >= 70
         if final_score < 70:
             logger.info(f"⏭️ Skipping {player} (Score: {final_score:.1f}) - below purity threshold.")
             continue
             
         # 5. Enrichment & Database Storage
+        reason = anomaly.get('reason', 'N/A')
+        sources = anomaly.get('sources', [])
+        
+        # BUG 4: Specific source_url mapping
         # BUG 4: Specific source_url mapping
         matching_url = "N/A"
         for r in raw_results:
@@ -115,9 +119,9 @@ async def main_pipeline():
                 matching_url = r.get('url', 'N/A')
                 break
         
-        # If no direct match, use the first result as fallback (better than nothing, but we tried)
-        if matching_url == "N/A" and raw_results:
-            matching_url = raw_results[0].get('url', 'N/A')
+        # Use sources from RAG if matching_url is N/A
+        if matching_url == "N/A" and sources:
+            matching_url = sources[0]
 
         success = db.add_anomaly(
             player_name=player,
