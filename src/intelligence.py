@@ -143,11 +143,6 @@ class OB1Intelligence:
 
 if __name__ == "__main__":
     intelligence = OB1Intelligence()
-    samples = [{"title": "Test Anomaly", "content": "15yo breakout in Paraguay league.", "url": "test.com"}]
-    print(intelligence.analyze_scraped_data(samples))
-
-if __name__ == "__main__":
-    intelligence = OB1Intelligence()
     # Test data
     samples = [
         {"title": "Mora shines in Tijuana", "content": "15-year old Gilberto Mora scored a brace in his debut.", "url": "local-mx-news.com/123"}
