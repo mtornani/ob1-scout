@@ -6,7 +6,11 @@ Exports database content to JSON for the frontend HUD.
 
 import sqlite3
 import json
+import logging
 from pathlib import Path
+
+# Setup logging
+logger = logging.getLogger(__name__)
 
 BASE_DIR = Path(__file__).parent.parent
 DB_PATH = BASE_DIR / "data" / "ob1_global.db"

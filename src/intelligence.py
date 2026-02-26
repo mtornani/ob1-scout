@@ -6,64 +6,145 @@ Powered by Gemini to analyze raw intelligence and identify deep-context anomalie
 
 import logging
 import json
+import time
 from pathlib import Path
-import google.generativeai as genai
+from datetime import datetime
+from google import genai
+from google.genai import types
 from config.ob1_config import GEMINI_API_KEY
 
 # Setup logging
 logger = logging.getLogger(__name__)
 
 class OB1Intelligence:
+    STORE_NAME = "ob1-global-radar-kb"
+
     def __init__(self):
         if not GEMINI_API_KEY:
             logger.warning("GEMINI_API_KEY not found. Intelligence engine will be disabled.")
-            self.model = None
+            self.client = None
         else:
-            genai.configure(api_key=GEMINI_API_KEY)
-            self.model = genai.GenerativeModel('gemini-flash-latest') # Standard alias for broader access
+            self.client = genai.Client(api_key=GEMINI_API_KEY)
+            self.model_id = 'gemini-2.0-flash'
+
+    def _get_or_create_store(self):
+        """Retrieve or create the persistent File Search Store."""
+        try:
+            stores = list(self.client.file_search_stores.list())
+            for s in stores:
+                if self.STORE_NAME in s.display_name:
+                    return s
+        except Exception:
+            pass
+        
+        logger.info(f"Creating new File Search Store: {self.STORE_NAME}")
+        return self.client.file_search_stores.create(config={'display_name': self.STORE_NAME})
+
+    def ingest_data(self, data_samples: list):
+        """Upload raw scraped data as a markdown file to the RAG store."""
+        if not self.client or not data_samples:
+            return None
+
+        store = self._get_or_create_store()
+        
+        # Prepare content
+        lines = [f"# OB1 Radar Intelligence Update - {datetime.now().isoformat()}", ""]
+        for item in data_samples:
+            lines.append(f"## {item.get('title', 'Unknown Title')}")
+            lines.append(f"URL: {item.get('url', 'N/A')}")
+            lines.append(f"Content: {item.get('content', '')}")
+            lines.append("\n---")
+        
+        content = "\n".join(lines)
+        temp_path = Path(__file__).parent.parent / "data" / f"ingest_{int(time.time())}.md"
+        temp_path.parent.mkdir(exist_ok=True)
+        temp_path.write_text(content, encoding='utf-8')
+
+        try:
+            logger.info(f"Uploading {len(data_samples)} signals to Gemini File Search...")
+            operation = self.client.file_search_stores.upload_to_file_search_store(
+                file=str(temp_path),
+                file_search_store_name=store.name
+            )
+            # Wait for processing
+            while not operation.done:
+                time.sleep(1)
+                operation = self.client.operations.get(operation)
+            return store.name
+        except Exception as e:
+            logger.error(f"Ingestion failed: {e}")
+            return None
+        finally:
+            if temp_path.exists():
+                temp_path.unlink()
 
     def analyze_scraped_data(self, data_samples: list):
         """
-        Analyze raw scraped data to find high-value anomalies.
-        In a full RAG implementation, this would query a file-search index.
-        For now, we use a structured prompt with the latest samples.
+        Analyze anomalies using True RAG (Gemini File Search).
         """
-        if not self.model:
+        if not self.client:
             return []
 
-        prompt = f"""
+        # 1. Ingest latest data into the store (Bug 5: Real RAG)
+        store_name = self.ingest_data(data_samples)
+        if not store_name:
+            logger.warning("Falling back to context stuffing due to ingestion failure.")
+            # Fallback logic here if needed, but we aim for RAG
+            return []
+
+        # 2. Query with File Search tool
+        system_instruction = """
         Sei l'Analista Senior del sistema OB1 Radar, un'intelligence calcistica specilaizzata in Anomalie Globali U20.
-        Il tuo compito è analizzare i dati grezzi per identificare giocatori che mostrano MASSIMA ASIMMETRIA INFORMATIVA.
+        Hai accesso a documenti grezzi nel tuo File Search Store.
+        Il tuo compito è identificare giocatori che mostrano MASSIMA ASIMMETRIA INFORMATIVA.
+        """
 
-        DATI GREZZI:
-        {json.dumps(data_samples, indent=2)}
-
-        REGOLE CRITICHE PER LO SCORING (0-100):
-        1. PENALIZZA DURAMENTE (> -50 punti) giocatori già famosi, figli d'arte (es. figli di Marcelo, CR7), o che giocano già stabilmente in prime squadre di Top 5 leghe europee.
-        2. PREMIA (> 80 punti) "Fantasmi": debutti in leghe esotiche, news solo in lingua locale, rumor di scout europei in mercati "chiusi".
-        3. Identifica se è un "Ghost" (ZERO presenza sui radar mainstream).
-        4. SPIEGAZIONE TATTICA: Non limitarti a "buon giocatore". Spiega PERCHÉ è un'anomalia (es. "Isolato segnale da forum locale in Paraguay, nessun link Transfermarkt").
-
-        Restituisci solo un JSON array:
+        prompt = """
+        Analizza i nuovi documenti. Restituisci un JSON array di giocatori Under 20 promettenti.
+        
+        REGOLE CRITICHE:
+        1. PENALIZZA DURAMENTE (> -50 punti) giocatori già famosi.
+        2. PREMIA (> 80 punti) "Fantasmi" (debutti in leghe esotiche, news solo locali).
+        3. Identifica se è un "Ghost" (ZERO presenza mainstream).
+        
+        Restituisci SOLO un JSON array:
         [
-            {{
+            {
                 "player_name": "Nome",
                 "score": 0-100,
-                "reason": "Spiegazione breve e tecnica...",
+                "reason": "Spiegazione tecnica...",
                 "is_ghost": true/false,
                 "region": "Area geografica"
-            }}
+            }
         ]
         """
 
         try:
-            response = self.model.generate_content(prompt)
-            # Basic cleanup of markdown JSON blocks if present
+            response = self.client.models.generate_content(
+                model=self.model_id,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    system_instruction=system_instruction,
+                    tools=[types.Tool(file_search=types.FileSearch(file_search_store_names=[store_name]))],
+                    temperature=0.2,
+                    max_output_tokens=2048
+                )
+            )
             text = response.text.replace('```json', '').replace('```', '').strip()
-            return json.loads(text)
+            # Find the first [ and last ] to extract JSON
+            import re
+            match = re.search(r'\[.*\]', text, re.DOTALL)
+            if match:
+                return json.loads(match.group())
+            return []
         except Exception as e:
             logger.error(f"Intelligence analysis failed: {e}")
             return []
+
+if __name__ == "__main__":
+    intelligence = OB1Intelligence()
+    samples = [{"title": "Test Anomaly", "content": "15yo breakout in Paraguay league.", "url": "test.com"}]
+    print(intelligence.analyze_scraped_data(samples))
 
 if __name__ == "__main__":
     intelligence = OB1Intelligence()

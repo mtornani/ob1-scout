@@ -58,13 +58,22 @@ async def main_pipeline():
     intelligence = OB1Intelligence()
     enricher = OB1Enricher()
     
-    # 2. Define Queries (Dynamic/Global)
+    # 2. Define Queries (Dynamic/Global) - BUG 6: Multi-language coverage
     queries = [
-        "U17 breakout performance youth tournament",
-        "South America youth football prospects breakthrough",
+        # English
+        "U17 breakout performance youth tournament 2026",
         "Africa wonderkid talent scout report",
-        "unlinked youth prodigy debut goals",
-        "rising star football news global underground"
+        "rising star football news global underground",
+        # Portuguese (Brazil/Portugal)
+        "jovem promessa futebol sub-20 destaque gols 2026",
+        "revelação brasileirão série B scout report",
+        # Spanish (LatAm/Spain)
+        "joven promesa fútbol sudamericano debut goles",
+        "canterano revelación liga argentina 2026",
+        # French (Francophone Africa/Europe)
+        "jeune talent football africain repéré scout",
+        # Arabic (MENA region)
+        "موهبة كرة قدم شابة اكتشاف 2026"
     ]
     
     # 3. Asynchronous Scraping
@@ -98,11 +107,21 @@ async def main_pipeline():
             logger.info(f"⏭️ Skipping {player} (Score: {final_score:.1f}) - below purity threshold.")
             continue
             
-        # Store in DB
-        reason = anomaly.get('reason', '')
+        # 5. Enrichment & Database Storage
+        # BUG 4: Specific source_url mapping
+        matching_url = "N/A"
+        for r in raw_results:
+            if player.lower() in (r.get('title', '') + r.get('content', '')).lower():
+                matching_url = r.get('url', 'N/A')
+                break
+        
+        # If no direct match, use the first result as fallback (better than nothing, but we tried)
+        if matching_url == "N/A" and raw_results:
+            matching_url = raw_results[0].get('url', 'N/A')
+
         success = db.add_anomaly(
             player_name=player,
-            source_url=raw_results[0].get('url') if raw_results else "N/A", 
+            source_url=matching_url,
             score=final_score,
             raw_content=reason,
             region=anomaly.get('region', 'Global')
@@ -122,8 +141,12 @@ async def main_pipeline():
         msg += "\n\n🔗 [Tactical HUD Dashboard](https://mtornani.github.io/ob1-scout/)"
         send_telegram_notification(msg)
         logger.info(f"✅ Run complete. Notifications sent for {len(new_detections)} players.")
-    else:
-        logger.info("✅ Run complete. No new unique anomalies found.")
+    # 7. Export Dashboard JSON - BUG 3
+    from scripts.generate_dashboard_data import generate_json
+    logger.info("📊 Exporting dashboard data...")
+    generate_json()
+    
+    logger.info("🏁 Pipeline run complete.")
 
 if __name__ == "__main__":
     asyncio.run(main_pipeline())
