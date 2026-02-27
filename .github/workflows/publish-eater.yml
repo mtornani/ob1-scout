@@ -1,0 +1,43 @@
+name: Publish from Eater
+
+on:
+  workflow_dispatch:
+    inputs:
+      anomaly_id:
+        description: "ID dell'anomalia da pubblicare"
+        required: True
+      platforms:
+        description: 'Piattaforme (all, twitter, bluesky, telegram)'
+        default: 'all'
+        required: True
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r eater-of-logs/requirements.txt
+
+      - name: Run Eater Pusher
+        run: python eater-of-logs/pusher.py --anomaly_id "${{ github.event.inputs.anomaly_id }}" --platforms "${{ github.event.inputs.platforms }}"
+        env:
+          ANOMALIES_FILE: "ob1_serie_c/ob1-serie-c/src/data.json"
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_PUBLIC_CHANNEL_ID: ${{ secrets.TELEGRAM_PUBLIC_CHANNEL_ID }}
+          TELEGRAM_PUBLIC_LINK: "https://t.me/Ob1LegaPro_bot"
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
