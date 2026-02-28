@@ -1,0 +1,168 @@
+[
+  {
+    "opportunity_type": "svincolato",
+    "player_name": "Marco Sau",
+    "player_profile": {
+      "name": "Marco Sau",
+      "birth_year": 1987,
+      "role": "punta",
+      "current_club": "Svincolato",
+      "market_value": "€200k",
+      "contract_expiry": null,
+      "transfermarkt_url": "https://www.transfermarkt.it/marco-sau/profil/spieler/53444",
+      "agent_name": "Tinti"
+    },
+    "description": "L'ex bomber di Cagliari e Benevento è ancora senza squadra. Fisicamente integro, cerca un progetto ambizioso in C. Richiesta ingaggio ridotta.",
+    "relevance_score": 5,
+    "tactical_fit": 88,
+    "tactical_reason": "Esperienza infinita. Se sta bene, fa la differenza in C. Ideale come punta di movimento.",
+    "source_name": "TuttoC",
+    "reported_date": "2026-01-18",
+    "clubs_involved": [
+      "Benevento",
+      "Feralpisalò"
+    ]
+  },
+  {
+    "opportunity_type": "svincolato",
+    "player_name": "Andrey Galabinov",
+    "player_profile": {
+      "name": "Andrey Galabinov",
+      "birth_year": 1988,
+      "role": "punta",
+      "current_club": "Svincolato",
+      "market_value": "€150k",
+      "contract_expiry": null,
+      "transfermarkt_url": "https://www.transfermarkt.it/andrey-galabinov/profil/spieler/134175"
+    },
+    "description": "Il gigante bulgaro si propone in Lega Pro. Cerca una piazza calda. Ideale per chi cerca centimetri in area.",
+    "relevance_score": 4,
+    "tactical_fit": 65,
+    "tactical_reason": "Forte fisicamente ma statico. Non adatto al pressing alto del 4-3-3.",
+    "source_name": "Gazzetta dello Sport",
+    "reported_date": "2026-01-17",
+    "clubs_involved": [
+      "Avellino"
+    ]
+  },
+  {
+    "opportunity_type": "rescissione",
+    "player_name": "Jacopo Dezi",
+    "player_profile": {
+      "name": "Jacopo Dezi",
+      "birth_year": 1992,
+      "role": "centrocampista",
+      "current_club": "Padova",
+      "market_value": "€350k",
+      "contract_expiry": "2025"
+    },
+    "description": "Rottura totale con la società. Il centrocampista è fuori dal progetto tecnico e rescinderà a breve. Occasione d'oro per la mediana.",
+    "relevance_score": 5,
+    "tactical_fit": 95,
+    "tactical_reason": "Mezzala di categoria superiore (ex A e B). Inserimenti e tecnica perfetti.",
+    "source_name": "PadovaSport",
+    "reported_date": "2026-01-18",
+    "clubs_involved": [
+      "Padova",
+      "Triestina"
+    ]
+  },
+  {
+    "opportunity_type": "prestito",
+    "player_name": "Kevin Zeroli",
+    "player_profile": {
+      "name": "Kevin Zeroli",
+      "birth_year": 2005,
+      "role": "centrocampista",
+      "current_club": "Milan Futuro",
+      "market_value": "€2.00m",
+      "contract_expiry": "2027"
+    },
+    "description": "Il Milan valuta il prestito secco per fargli fare 6 mesi da titolare indiscusso in una C di vertice. Talento puro.",
+    "relevance_score": 5,
+    "tactical_fit": 82,
+    "tactical_reason": "Giovane, dinamico, ingaggio pagato dal Milan. Rischio: poca esperienza 'di provincia'.",
+    "source_name": "MilanNews",
+    "reported_date": "2026-01-16",
+    "clubs_involved": [
+      "Milan Futuro",
+      "Pescara"
+    ]
+  },
+  {
+    "opportunity_type": "talento_serie_d",
+    "player_name": "Nicola Cittadino",
+    "player_profile": {
+      "name": "Nicola Cittadino",
+      "birth_year": 2003,
+      "role": "trequartista",
+      "current_club": "Vado",
+      "market_value": "€75k"
+    },
+    "description": "Sta dominando il girone A di Serie D. 8 gol e 10 assist. Pronto per il salto nei Pro.",
+    "relevance_score": 3,
+    "tactical_fit": 70,
+    "tactical_reason": "Scommessa tecnica. Ruolo di trequartista difficile da collocare nel 4-3-3 puro.",
+    "source_name": "NotiziarioCalcio",
+    "reported_date": "2026-01-15",
+    "clubs_involved": [
+      "Vado"
+    ]
+  },
+  {
+    "opportunity_type": "svincolato",
+    "player_name": "Luca Paganini",
+    "player_profile": {
+      "name": "Luca Paganini",
+      "birth_year": 1993,
+      "role": "esterno_destro",
+      "current_club": "Latina",
+      "market_value": "€275k"
+    },
+    "description": "In uscita dal Latina per alleggerire il monte ingaggi. Esterno a tutta fascia, garantisce corsa e cross.",
+    "relevance_score": 4,
+    "tactical_fit": 90,
+    "tactical_reason": "Perfetto per il 4-3-3 o 3-5-2. Integrità fisica da verificare ma qualità top.",
+    "source_name": "TuttoLatina",
+    "reported_date": "2026-01-17",
+    "clubs_involved": [
+      "Latina"
+    ]
+  },
+  {
+    "opportunity_type": "infortunio",
+    "player_name": "Davide Merola",
+    "player_profile": {
+      "name": "Davide Merola",
+      "birth_year": 2000,
+      "role": "esterno_sinistro",
+      "current_club": "Pescara"
+    },
+    "description": "Problema muscolare per l'esterno del Pescara. Si teme stiramento. Il club potrebbe tornare sul mercato.",
+    "relevance_score": 4,
+    "tactical_fit": 0,
+    "tactical_reason": "INFORTUNATO - Non disponibile. Monitorare il sostituto.",
+    "source_name": "Rete8",
+    "reported_date": "2026-01-18",
+    "clubs_involved": [
+      "Pescara"
+    ]
+  },
+  {
+    "opportunity_type": "svincolato",
+    "player_name": "Ledian Memushaj",
+    "player_profile": {
+      "name": "Ledian Memushaj",
+      "birth_year": 1986,
+      "role": "centrocampista",
+      "current_club": "Svincolato"
+    },
+    "description": "Voci di un clamoroso ritorno al calcio giocato per l'ex capitano. Fisicamente un'incognita, ma leadership assoluta.",
+    "relevance_score": 2,
+    "tactical_fit": 40,
+    "tactical_reason": "Età avanzata (39). Scommessa romantica ma tatticamente rischiosa.",
+    "source_name": "Rumors",
+    "reported_date": "2026-01-14",
+    "clubs_involved": []
+  }
+]

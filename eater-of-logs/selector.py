@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 class AnomalySelector:
-    def __init__(self, anomalies_path="docs/data/anomalies.json"):
+    def __init__(self, anomalies_path="eater-of-logs/data.json"):
         self.anomalies_path = anomalies_path
 
     def load_anomalies(self):

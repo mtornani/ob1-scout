@@ -36,7 +36,7 @@ def main():
     # Configurazione percorsi
     # Se eseguito da GitHub Actions, il path relativo sarà dalla root del repo
     # In locale potrebbe variare.
-    anomalies_path = os.getenv("ANOMALIES_FILE", "docs/data/anomalies.json")
+    anomalies_path = os.getenv("ANOMALIES_FILE", "eater-of-logs/data.json")
     
     # 1. Inizializza Selector
     selector = AnomalySelector(anomalies_path=anomalies_path)

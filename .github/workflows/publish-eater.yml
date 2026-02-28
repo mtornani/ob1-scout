@@ -31,7 +31,7 @@ jobs:
       - name: Run Eater Pusher
         run: python eater-of-logs/pusher.py --anomaly_id "${{ github.event.inputs.anomaly_id }}" --platforms "${{ github.event.inputs.platforms }}"
         env:
-          ANOMALIES_FILE: "docs/data/anomalies.json"
+          ANOMALIES_FILE: "eater-of-logs/data.json"
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_PUBLIC_CHANNEL_ID: ${{ secrets.TELEGRAM_PUBLIC_CHANNEL_ID }}
           TELEGRAM_PUBLIC_LINK: "https://t.me/Ob1LegaPro_bot"

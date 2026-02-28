@@ -25,7 +25,7 @@ jobs:
       - name: Run Eater of Logs Proposal
         run: python eater-of-logs/eater.py
         env:
-          ANOMALIES_FILE: "docs/data/anomalies.json"
+          ANOMALIES_FILE: "eater-of-logs/data.json"
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_OFFICE_CHAT_ID: ${{ secrets.TELEGRAM_OFFICE_CHAT_ID }}
           TELEGRAM_PUBLIC_CHANNEL_ID: ${{ secrets.TELEGRAM_PUBLIC_CHANNEL_ID }}
