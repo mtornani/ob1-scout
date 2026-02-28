@@ -34,7 +34,7 @@ def main():
     logger.info(f"Avvio pubblicazione per anomalia ID: {args.anomaly_id} su piattaforme: {args.platforms}")
     
     # 1. Carica l'anomalia specifica
-    anomalies_path = os.getenv("ANOMALIES_FILE", "ob1_serie_c/ob1-serie-c/src/data.json")
+    anomalies_path = os.getenv("ANOMALIES_FILE", "docs/data/anomalies.json")
     selector = AnomalySelector(anomalies_path=anomalies_path)
     anomalies = selector.load_anomalies()
     

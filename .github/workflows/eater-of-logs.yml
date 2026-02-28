@@ -1,18 +1,12 @@
-name: Publish from Eater
+name: Eater of Logs
 
 on:
-  workflow_dispatch:
-    inputs:
-      anomaly_id:
-        description: "ID dell'anomalia da pubblicare"
-        required: True
-      platforms:
-        description: 'Piattaforme (all, twitter, bluesky, telegram)'
-        default: 'all'
-        required: True
+  schedule:
+    - cron: '0 8 * * 1,4'  # Lunedì e Giovedì alle 8:00 UTC
+  workflow_dispatch:      # Permette l'avvio manuale per testing
 
 jobs:
-  publish:
+  digest-and-propose:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -28,13 +22,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r eater-of-logs/requirements.txt
 
-      - name: Run Eater Pusher
-        run: python eater-of-logs/pusher.py --anomaly_id "${{ github.event.inputs.anomaly_id }}" --platforms "${{ github.event.inputs.platforms }}"
+      - name: Run Eater of Logs Proposal
+        run: python eater-of-logs/eater.py
         env:
           ANOMALIES_FILE: "docs/data/anomalies.json"
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OFFICE_CHAT_ID: ${{ secrets.TELEGRAM_OFFICE_CHAT_ID }}
           TELEGRAM_PUBLIC_CHANNEL_ID: ${{ secrets.TELEGRAM_PUBLIC_CHANNEL_ID }}
-          TELEGRAM_PUBLIC_LINK: "https://t.me/Ob1LegaPro_bot"
+          TELEGRAM_PUBLIC_LINK: "https://t.me/ob1scoutlegapro"
+          # Altri segreti (X, Bluesky) saranno usati dal Worker o in step successivi
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
