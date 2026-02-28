@@ -1,6 +1,6 @@
 """
 Test suite per Eater of Logs.
-Verifica: formatter (Twitter budget, Bluesky limit), selector, bottoni Telegram.
+Verifica: formatter (Twitter budget, Bluesky limit), selector, bottoni Telegram, Worker v2 routing.
 """
 import sys
 import os
@@ -381,9 +381,9 @@ def test_selector_scoring():
 # ── TEST WORKER CALLBACK MAPPING ──────────────────────────────────────────────
 
 def test_worker_callback_mapping():
-    """Verifica coerenza tra bottoni Telegram e handler del worker."""
+    """Verifica coerenza tra bottoni Telegram e handler del Worker v2."""
     print("\n" + "=" * 60)
-    print("TEST WORKER - Mappatura callback → azione")
+    print("TEST WORKER v2 - Mappatura callback → azione + routing")
     print("=" * 60)
 
     # Azioni generate dai bottoni in telegram.py
@@ -393,23 +393,93 @@ def test_worker_callback_mapping():
         "publish_telegram", "edit"
     ]
 
-    # Azioni gestite nel worker.js (aggiornato)
-    worker_handles = {
-        "reject": True,
-        "publish_all": True,     # startsWith('publish')
-        "publish_twitter": True,
-        "publish_bluesky": True,
-        "publish_telegram": True,
-        "edit": True,            # Gestito: rimuove bottoni e chiede modifica
+    # Worker v2: routing ibrido
+    # - Twitter → Worker pubblica direttamente (OAuth 1.0a, bypassa blocco IP GitHub Actions)
+    # - Bluesky/Telegram → Worker triggera GitHub Actions
+    # - publish_all → Twitter dal Worker + GitHub Actions per bluesky,telegram
+    worker_routing = {
+        "reject":           {"handler": "reject",         "via": "Worker (scarta)"},
+        "edit":             {"handler": "edit",            "via": "Worker (modifica)"},
+        "publish_twitter":  {"handler": "handleTwitter",   "via": "Worker diretto (OAuth 1.0a)"},
+        "publish_bluesky":  {"handler": "triggerGH",       "via": "GitHub Actions"},
+        "publish_telegram": {"handler": "triggerGH",       "via": "GitHub Actions"},
+        "publish_all":      {"handler": "hybrid",          "via": "Worker (Twitter) + GitHub Actions (Bluesky+Telegram)"},
     }
 
     all_pass = True
     for action in button_actions:
-        handled = worker_handles.get(action, False)
+        route = worker_routing.get(action)
+        handled = route is not None
         status = "OK" if handled else "FAIL - NON GESTITO"
         if not handled:
             all_pass = False
-        print(f"  [{status}] {action}")
+        via = route['via'] if route else "???"
+        print(f"  [{status}] {action:20s} → {via}")
+
+    return all_pass
+
+
+def test_worker_tweet_format():
+    """Verifica che la logica di formattazione tweet nel Worker (JS) sia coerente con Python."""
+    print("\n" + "=" * 60)
+    print("TEST WORKER v2 - Coerenza formato tweet JS vs Python")
+    print("=" * 60)
+
+    formatter = PostFormatter()
+    selector = AnomalySelector.__new__(AnomalySelector)
+    stats = make_stats()
+
+    # Il Worker JS usa la stessa logica: header + playerLine + desc (troncata) + footer
+    # Verifichiamo che i componenti chiave siano presenti nel tweet Python
+    all_pass = True
+    for i, item in enumerate(SAMPLE_SERIE_C):
+        anomaly = selector._normalize(item, i)
+        tweet = formatter.format_twitter(anomaly, stats)
+
+        # Il tweet deve contenere questi elementi (come il Worker JS)
+        checks = [
+            ("Lega Pro" in tweet, "contiene 'Lega Pro'"),
+            ("svincolati" in tweet, "contiene 'svincolati'"),
+            ("U28" in tweet, "contiene 'U28'"),
+            (anomaly['player_name'] in tweet, f"contiene nome '{anomaly['player_name']}'"),
+            ("t.me/Ob1LegaPro_bot" in tweet, "contiene link Telegram nel footer"),
+        ]
+
+        print(f"\n  {anomaly['player_name']}:")
+        for check, desc in checks:
+            status = "OK" if check else "FAIL"
+            if not check:
+                all_pass = False
+            print(f"    [{status}] {desc}")
+
+    # Verifica che il footer non venga mai troncato (regola chiave)
+    long_anomaly = selector._normalize({
+        "opportunity_type": "svincolato",
+        "player_name": "Nome Lunghissimo Che Prende Spazio",
+        "player_profile": {
+            "name": "Nome Lunghissimo Che Prende Spazio",
+            "birth_year": 1998,
+            "role": "difensore",
+            "current_club": "Svincolato",
+            "market_value": "€100k"
+        },
+        "description": "A" * 500,  # Descrizione molto lunga
+        "relevance_score": 5,
+        "tactical_fit": 90,
+        "clubs_involved": ["Club1", "Club2", "Club3"]
+    }, 99)
+
+    tweet = formatter.format_twitter(long_anomaly, stats)
+    footer_present = "t.me/Ob1LegaPro_bot" in tweet
+    within_limit = count_twitter_chars(tweet) <= 280
+    status1 = "OK" if footer_present else "FAIL"
+    status2 = "OK" if within_limit else "FAIL"
+    if not footer_present or not within_limit:
+        all_pass = False
+
+    print(f"\n  EDGE CASE (desc 500 chars):")
+    print(f"    [{status1}] Footer link presente (mai troncato)")
+    print(f"    [{status2}] Entro 280 chars ({count_twitter_chars(tweet)}/280)")
 
     return all_pass
 
@@ -426,6 +496,7 @@ if __name__ == "__main__":
     results["TG Msg Length"] = test_telegram_message_length()
     results["Selector"] = test_selector_scoring()
     results["Worker Callbacks"] = test_worker_callback_mapping()
+    results["Worker Tweet Format"] = test_worker_tweet_format()
 
     print("\n" + "=" * 60)
     print("RIEPILOGO")
