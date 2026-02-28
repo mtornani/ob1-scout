@@ -1,4 +1,6 @@
+import re
 import logging
+import unicodedata
 
 logger = logging.getLogger(__name__)
 
@@ -7,8 +9,18 @@ OPPORTUNITY_TYPE_LABEL = {
     "rescissione": "IN USCITA (rescissione)",
     "prestito": "DISPONIBILE IN PRESTITO",
     "talento_serie_d": "TALENTO DA SERIE D",
-    "infortunio": "MERCATO APERTO (infortuno squad)",
+    "infortunio": "MERCATO APERTO (infortunio squad)",
     "anomalia": "ANOMALIA RILEVATA",
+}
+
+# Label compatte per Twitter (280 char budget stretto)
+OPPORTUNITY_TYPE_SHORT = {
+    "svincolato": "SVINCOLATO",
+    "rescissione": "IN USCITA",
+    "prestito": "IN PRESTITO",
+    "talento_serie_d": "TALENTO SERIE D",
+    "infortunio": "MERCATO APERTO",
+    "anomalia": "ANOMALIA",
 }
 
 class PostFormatter:
@@ -48,44 +60,79 @@ class PostFormatter:
             "clubs_involved": clubs_involved,
         }
 
+    @staticmethod
+    def _twitter_len(text):
+        """Conta i caratteri come li conta X/Twitter.
+        URL → sempre 23 chars. Emoji (So) → 2 chars. Resto → 1 char.
+        """
+        urls = re.findall(r'https?://\S+', text)
+        text_clean = re.sub(r'https?://\S+', '', text)
+        normalized = unicodedata.normalize('NFC', text_clean)
+        count = sum(2 if unicodedata.category(ch).startswith('So') else 1 for ch in normalized)
+        return count + len(urls) * 23
+
     def format_twitter(self, anomaly, stats):
         info = self._get_player_info(anomaly)
+        opp_short = OPPORTUNITY_TYPE_SHORT.get(
+            anomaly.get('opportunity_type', ''), info['opp_type'])
         clubs_str = f" → {', '.join(info['clubs_involved'])}" if info['clubs_involved'] else ""
-        
-        # Twitter conta caratteri speciali (→, è, à...) come 2 chars.
-        # Usiamo un budget conservativo di 255 per evitare troncature lato X.
-        TWITTER_SAFE_LIMIT = 255
-        
-        header = (
-            f"Lega Pro, {stats['date']}. "
-            f"{stats['total']} svincolati nel sistema, {stats['under_28']} under 28.\n\n"
-        )
-        player_line = f"{info['name']}, {info['age']}a. {info['opp_type']}{clubs_str}.\n"
-        footer = f"\nL'algoritmo lo vede. Il tuo DS no.\nhttps://t.me/Ob1LegaPro_bot"
-        
-        fixed_len = len(header) + len(player_line) + len(footer)
-        budget = TWITTER_SAFE_LIMIT - fixed_len - 4  # -4 per "...\n"
-        
+
+        TWITTER_LIMIT = 280
+
+        date = stats.get('date_short', stats['date'])
+        header = f"Lega Pro {date}. {stats['total']} svincolati, {stats['under_28']} U28.\n\n"
+        player_line = f"{info['name']}, {info['age']}. {opp_short}{clubs_str}.\n"
+        footer = f"\nhttps://t.me/Ob1LegaPro_bot"
+
+        fixed_len = self._twitter_len(header + player_line + footer)
+        budget = TWITTER_LIMIT - fixed_len - 4  # -4 per "...\n"
+
         if budget > 0 and info['description']:
-            desc = info['description'][:budget] + ("..." if len(info['description']) > budget else "")
+            desc = info['description']
+            if self._twitter_len(desc) > budget:
+                while desc and self._twitter_len(desc) > budget:
+                    desc = desc[:-1]
+                desc = desc.rstrip() + "..."
             detail_line = f"{desc}\n"
         else:
             detail_line = ""
-        
+
         return header + player_line + detail_line + footer
 
+    @staticmethod
+    def _grapheme_len(text):
+        """Conta grapheme clusters (approssimato via NFC normalization)."""
+        return len(unicodedata.normalize('NFC', text))
+
     def format_bluesky(self, anomaly, stats):
+        """Genera post Bluesky entro 300 graphemes. Tronca la descrizione, mai il footer."""
         info = self._get_player_info(anomaly)
-        template = (
+        BSKY_LIMIT = 300
+
+        header = (
             f"Lega Pro, {stats['date']}.\n\n"
             f"{stats['total']} svincolati. {stats['under_28']} under 28.\n"
             f"{info['name']}, {info['age']} anni ({info['role']}). {info['opp_type']}.\n"
-            f"{info['detail']}\n\n"
-            f"Un algoritmo da 5$/mese. Nessun agente. Nessun pranzo.\n\n"
-            f"📢 Segui su Telegram: {self.telegram_link}"
         )
-        if len(template) > 300:
-            template = template[:297] + "..."
+        footer = (
+            f"\n\nUn algoritmo da 5$/mese. Nessun agente. Nessun pranzo.\n\n"
+            f"Segui su Telegram: {self.telegram_link}"
+        )
+
+        fixed_len = self._grapheme_len(header) + self._grapheme_len(footer)
+        budget = BSKY_LIMIT - fixed_len
+
+        desc = info['description']
+        if budget <= 10:
+            desc_line = ""
+        elif self._grapheme_len(desc) > budget:
+            while desc and self._grapheme_len(desc) > budget - 3:
+                desc = desc[:-1]
+            desc_line = desc.rstrip() + "..."
+        else:
+            desc_line = desc
+
+        template = header + desc_line + footer
         return template
 
     def format_telegram(self, anomaly, stats):

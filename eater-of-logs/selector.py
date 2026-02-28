@@ -100,7 +100,8 @@ class AnomalySelector:
             "total": total,
             "under_28": under_28 if under_28 > 0 else int(total * 0.4),
             "svincolati": svincolati,
-            "date": datetime.now().strftime("%d %B %Y")
+            "date": datetime.now().strftime("%d/%m/%Y"),
+            "date_short": datetime.now().strftime("%d/%m")
         }
 
 if __name__ == "__main__":
