@@ -7,9 +7,13 @@ Orchestrates the entire global radar workflow.
 import asyncio
 import logging
 import os
+import sys
 import requests
 from pathlib import Path
 from datetime import datetime
+
+# Ensure project root is on sys.path (needed when running from scripts/)
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.scraper_global import AsyncGlobalScraper
 from src.database import OB1Database

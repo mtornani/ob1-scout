@@ -40,6 +40,26 @@ class OB1Intelligence:
         logger.info(f"Creating new File Search Store: {self.STORE_NAME}")
         return self.client.file_search_stores.create(config={'display_name': self.STORE_NAME})
 
+    @staticmethod
+    def _extract_first_json_array(text: str) -> list:
+        """Extract the first balanced JSON array from text (handles duplicated/thinking output)."""
+        try:
+            start = text.index('[')
+        except ValueError:
+            return []
+        depth = 0
+        for i, ch in enumerate(text[start:], start):
+            if ch == '[':
+                depth += 1
+            elif ch == ']':
+                depth -= 1
+            if depth == 0:
+                try:
+                    return json.loads(text[start:i + 1])
+                except json.JSONDecodeError:
+                    return []
+        return []
+
     def ingest_data(self, data_samples: list):
         """Upload raw scraped data as a markdown file to the RAG store."""
         if not self.client or not data_samples:
@@ -64,7 +84,8 @@ class OB1Intelligence:
             logger.info(f"Uploading {len(data_samples)} signals to Gemini File Search...")
             operation = self.client.file_search_stores.upload_to_file_search_store(
                 file=str(temp_path),
-                file_search_store_name=store.name
+                file_search_store_name=store.name,
+                config={'mime_type': 'text/plain'}
             )
             # Wait for processing
             while not operation.done:
@@ -129,27 +150,19 @@ class OB1Intelligence:
                     system_instruction=system_instruction,
                     tools=[types.Tool(file_search=types.FileSearch(file_search_store_names=[store_name]))],
                     temperature=0.2,
-                    max_output_tokens=2048
+                    max_output_tokens=16384
                 )
             )
             
-            # Extract citations/grounding metadata if available
-            grounding = response.candidates[0].grounding_metadata
-            found_sources = []
-            if grounding and grounding.grounding_chunks:
-                found_sources = list({c.retrieved_context.title for c in grounding.grounding_chunks if c.retrieved_context})
-            
+            # Parse the first complete JSON array using balanced brackets
             text = response.text.replace('```json', '').replace('```', '').strip()
-            import re
-            match = re.search(r'\[.*\]', text, re.DOTALL)
-            if match:
-                results = json.loads(match.group())
-                # Enrich with grounding sources if missing
-                for res in results:
-                    if 'sources' not in res or not res['sources']:
-                        res['sources'] = found_sources
-                return results
-            return []
+            results = self._extract_first_json_array(text)
+
+            if not results:
+                logger.warning(f"Could not parse JSON from response ({len(text)} chars)")
+                return []
+
+            return results
         except Exception as e:
             logger.error(f"Intelligence analysis failed: {e}")
             return []

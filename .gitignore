@@ -1,8 +1,10 @@
 *.pyc
 __pycache__/
 output/
-data/
+/data/
 *.json
+!docs/data/
 !docs/data/anomalies.json
+!docs/manifest.json
 *.csv
 .env
