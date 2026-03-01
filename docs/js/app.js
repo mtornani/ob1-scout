@@ -49,9 +49,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const max = Math.max(...anomalies.map(a => a.score));
             ui.maxScore.innerHTML = `${Math.round(max)}<span class="muted">/100</span>`;
 
-            const totalLead = anomalies.reduce((acc, a) => acc + (a.lead_time_days || 0), 0);
-            const avg = Math.round(totalLead / anomalies.length);
-            ui.avgLead.innerHTML = `+${avg || 0}<span class="muted">d</span>`;
+            // Lead Time: show confirmed leads if any, otherwise "tracking"
+            const confirmed = anomalies.filter(a => a.lead_time_days && a.lead_time_days > 0);
+            if (confirmed.length > 0) {
+                const avgLead = Math.round(confirmed.reduce((s, a) => s + a.lead_time_days, 0) / confirmed.length);
+                ui.avgLead.innerHTML = `+${avgLead}<span class="muted">d</span>`;
+            } else {
+                ui.avgLead.innerHTML = `<span class="muted" style="font-size:0.9rem">tracking</span>`;
+            }
 
             const latest = anomalies[0].detection_date;
             if (latest) {
@@ -118,6 +123,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     </span>
                     <div class="item-badges">
                         ${isGhost ? '<span class="ghost-badge">GHOST PROTOCOL</span>' : ''}
+                        ${(anomaly.detection_count || 1) > 1 ? `<span class="track-badge">TRACKED x${anomaly.detection_count}</span>` : ''}
+                        ${anomaly.lead_time_days > 0 ? `<span class="lead-badge">LEAD +${anomaly.lead_time_days}d</span>` : ''}
                     </div>
                 </div>
                 <div class="player-score-container">
@@ -133,10 +140,10 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="item-metrics">
                 <div class="metric">
                     <span>Lead Time</span>
-                    <strong>+${anomaly.lead_time_days || 0}d</strong>
+                    <strong>${anomaly.lead_time_days > 0 ? `+${anomaly.lead_time_days}d` : 'tracking'}</strong>
                 </div>
                 <div class="metric">
-                    <span>Detected</span>
+                    <span>First Detected</span>
                     <strong>${dateStr}</strong>
                 </div>
             </div>

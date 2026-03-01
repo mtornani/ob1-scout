@@ -344,17 +344,33 @@ body {
     margin-top: 0.5rem;
 }
 
-.ghost-badge {
-    background: rgba(0, 242, 255, 0.1);
-    color: var(--accent-ghost);
-    border: 1px solid rgba(0, 242, 255, 0.3);
+.ghost-badge, .track-badge, .lead-badge {
     padding: 2px 8px;
     border-radius: 4px;
     font-size: 0.6rem;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.ghost-badge {
+    background: rgba(0, 242, 255, 0.1);
+    color: var(--accent-ghost);
+    border: 1px solid rgba(0, 242, 255, 0.3);
     box-shadow: 0 0 8px rgba(0, 242, 255, 0.1);
+}
+
+.track-badge {
+    background: rgba(255, 204, 0, 0.1);
+    color: var(--accent-gold);
+    border: 1px solid rgba(255, 204, 0, 0.3);
+}
+
+.lead-badge {
+    background: rgba(50, 215, 75, 0.1);
+    color: var(--accent-cyan);
+    border: 1px solid rgba(50, 215, 75, 0.3);
+    box-shadow: 0 0 8px rgba(50, 215, 75, 0.15);
 }
 
 .item-metrics {

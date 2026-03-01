@@ -91,6 +91,35 @@ def format_telegram_player(player, score, is_ghost, anomaly, stats_text):
     return "\n".join(lines)
 
 
+def filter_noise(results: list) -> list:
+    """Pre-Gemini noise filter: remove junk before wasting tokens."""
+    filtered = []
+    for r in results:
+        title = r.get('title', '')
+        content = r.get('content', '')
+        text = f"{title} {content}"
+
+        # Skip very short snippets (no real info)
+        if len(text.strip()) < 60:
+            continue
+        # Skip multi-player entries (commas in title = list, not a profile)
+        if title.count(',') >= 2:
+            continue
+        # Skip generic "Unknown" entries
+        if 'unknown' in title.lower() and len(title) < 40:
+            continue
+        # Skip pure video/gallery links with no text
+        if len(content.strip()) < 30:
+            continue
+
+        filtered.append(r)
+
+    removed = len(results) - len(filtered)
+    if removed > 0:
+        logger.info(f"[Noise] Filtered {removed}/{len(results)} low-quality items.")
+    return filtered
+
+
 async def main_pipeline():
     logger.info("OB1 GLOBAL RADAR - STARTING RUN")
 
@@ -116,6 +145,9 @@ async def main_pipeline():
     if not raw_results:
         logger.warning("No results found in scraping. Run aborted.")
         return
+
+    # 1b. Noise filter
+    raw_results = filter_noise(raw_results)
 
     # 2. Deep-Read
     urls_to_read = [r.get('url') for r in raw_results[:20] if r.get('url')]
@@ -143,6 +175,7 @@ async def main_pipeline():
     # 4. Enrichment + Storage
     logger.info(f"Found {len(anomalies)} potential anomalies. Enriching...")
     new_detections = []
+    updated_count = 0
 
     for anomaly in anomalies:
         player = anomaly.get('player_name')
@@ -172,7 +205,7 @@ async def main_pipeline():
         if stats_text:
             enriched_reason += f"\n\nStats: {stats_text[:500]}"
 
-        success = db.add_anomaly(
+        result = db.add_anomaly(
             player_name=player,
             source_url=matching_url,
             score=final_score,
@@ -186,19 +219,28 @@ async def main_pipeline():
             is_ghost=is_ghost
         )
 
-        if success:
+        if result == 'new':
             tg_block = format_telegram_player(player, final_score, is_ghost, anomaly, stats_text)
             new_detections.append(tg_block)
+        elif result == 'updated':
+            updated_count += 1
 
-    # 5. Telegram
+    # 5. Telegram (only for NEW detections, not updates)
     if new_detections:
         msg = "<b>OB1 GLOBAL RADAR</b>\n\n"
         msg += "\n\n---\n\n".join(new_detections)
         msg += '\n\n<a href="https://mtornani.github.io/ob1-scout/">Dashboard</a>'
         send_telegram_notification(msg)
-        logger.info(f"Run complete. Notifications sent for {len(new_detections)} players.")
+        logger.info(f"Run complete. {len(new_detections)} new, {updated_count} updated.")
+    elif updated_count > 0:
+        logger.info(f"Run complete. No new players, {updated_count} existing updated.")
 
-    # 6. Export dashboard
+    # 6. Mainstream Lead Time check
+    from scripts.check_mainstream import run_mainstream_check
+    logger.info("Running mainstream detection check...")
+    await run_mainstream_check()
+
+    # 7. Export dashboard
     from scripts.generate_dashboard_data import generate_json
     logger.info("Exporting dashboard data...")
     generate_json()
