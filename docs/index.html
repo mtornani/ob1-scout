@@ -97,11 +97,12 @@
         <main class="feed-container">
             <div class="feed-header">
                 <h3>Priority Signals</h3>
-                <div class="filter-btn">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
-                    </svg>
-                </div>
+            </div>
+            <div class="feed-filters">
+                <input type="text" id="search-input" class="filter-search" placeholder="Search player, club, region...">
+                <select id="region-filter" class="filter-select">
+                    <option value="">All Regions</option>
+                </select>
             </div>
 
             <div id="anomalies-list" class="anomalies-list">

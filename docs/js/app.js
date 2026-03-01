@@ -8,8 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
         list: document.getElementById('anomalies-list'),
         guideModal: document.getElementById('guide-modal'),
         guideTrigger: document.getElementById('guide-trigger'),
-        guideClose: document.getElementById('close-guide')
+        guideClose: document.getElementById('close-guide'),
+        searchInput: document.getElementById('search-input'),
+        regionFilter: document.getElementById('region-filter')
     };
+
+    let allAnomalies = [];
 
     // Modal logic
     const showGuide = () => ui.guideModal.classList.remove('hidden');
@@ -43,14 +47,46 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function renderDashboard(anomalies) {
-        ui.totalAnomalies.textContent = anomalies.length;
+        allAnomalies = anomalies;
 
-        if (anomalies.length > 0) {
-            const max = Math.max(...anomalies.map(a => a.score));
+        // Populate region filter (only on first load or if regions change)
+        const regions = [...new Set(anomalies.map(a => a.region).filter(Boolean))].sort();
+        const currentRegion = ui.regionFilter.value;
+        ui.regionFilter.innerHTML = '<option value="">All Regions</option>';
+        regions.forEach(r => {
+            const opt = document.createElement('option');
+            opt.value = r;
+            opt.textContent = r;
+            if (r === currentRegion) opt.selected = true;
+            ui.regionFilter.appendChild(opt);
+        });
+
+        applyFilters();
+    }
+
+    function applyFilters() {
+        const query = (ui.searchInput.value || '').toLowerCase();
+        const region = ui.regionFilter.value;
+
+        let filtered = allAnomalies;
+        if (query) {
+            filtered = filtered.filter(a => {
+                const haystack = [a.player_name, a.club, a.region, a.position, a.league]
+                    .filter(Boolean).join(' ').toLowerCase();
+                return haystack.includes(query);
+            });
+        }
+        if (region) {
+            filtered = filtered.filter(a => a.region === region);
+        }
+
+        ui.totalAnomalies.textContent = filtered.length;
+
+        if (filtered.length > 0) {
+            const max = Math.max(...filtered.map(a => a.score));
             ui.maxScore.innerHTML = `${Math.round(max)}<span class="muted">/100</span>`;
 
-            // Lead Time: show confirmed leads if any, otherwise "tracking"
-            const confirmed = anomalies.filter(a => a.lead_time_days && a.lead_time_days > 0);
+            const confirmed = filtered.filter(a => a.lead_time_days && a.lead_time_days > 0);
             if (confirmed.length > 0) {
                 const avgLead = Math.round(confirmed.reduce((s, a) => s + a.lead_time_days, 0) / confirmed.length);
                 ui.avgLead.innerHTML = `+${avgLead}<span class="muted">d</span>`;
@@ -58,19 +94,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 ui.avgLead.innerHTML = `<span class="muted" style="font-size:0.9rem">tracking</span>`;
             }
 
-            const latest = anomalies[0].detection_date;
+            const latest = filtered[0].detection_date;
             if (latest) {
                 const dt = new Date(latest);
                 ui.lastUpdated.textContent = dt.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
             }
 
             ui.list.innerHTML = '';
-            anomalies.sort((a, b) => b.score - a.score).forEach((anomaly, index) => {
-                const el = createAnomalyCard(anomaly, index * 0.1);
+            filtered.sort((a, b) => b.score - a.score).forEach((anomaly, index) => {
+                const el = createAnomalyCard(anomaly, index * 0.05);
                 ui.list.appendChild(el);
             });
         } else {
-            ui.list.innerHTML = `<div class="loader-container"><p>No anomalies detected in current cycle.</p></div>`;
+            ui.list.innerHTML = `<div class="loader-container"><p>No matches found.</p></div>`;
         }
     }
 
@@ -92,11 +128,21 @@ document.addEventListener('DOMContentLoaded', () => {
         // Build player subtitle (age | position | club)
         const subParts = [];
         if (anomaly.age) subParts.push(`${anomaly.age}y`);
-        if (anomaly.position) subParts.push(anomaly.position);
+        if (anomaly.position) {
+            // Clean position: take first word/abbreviation only
+            const pos = anomaly.position.split(/[\s(,/]/)[0];
+            subParts.push(pos);
+        }
         if (anomaly.club) {
-            let clubStr = anomaly.club;
-            if (anomaly.league) clubStr += ` (${anomaly.league})`;
+            // Clean club: take first part before parentheses, max 30 chars
+            let clubStr = anomaly.club.split(/[(\[]/)[0].trim();
+            if (clubStr.length > 30) clubStr = clubStr.substring(0, 28) + '…';
             subParts.push(clubStr);
+        }
+        if (anomaly.league) {
+            let leagueStr = anomaly.league.split(/[/]/)[0].trim();
+            if (leagueStr.length > 30) leagueStr = leagueStr.substring(0, 28) + '…';
+            subParts.push(leagueStr);
         }
         const subtitle = subParts.length > 0 ? subParts.join(' · ') : '';
 
@@ -117,6 +163,34 @@ document.addEventListener('DOMContentLoaded', () => {
                 statsHtml = `<div class="item-stats"><code>${parts.join(' · ')}</code></div>`;
             }
         }
+
+        // Sparkline from score_history
+        let sparklineHtml = '';
+        try {
+            const history = typeof anomaly.score_history === 'string'
+                ? JSON.parse(anomaly.score_history) : anomaly.score_history;
+            if (history && history.length >= 2) {
+                const scores = history.map(h => h.score);
+                const min = Math.min(...scores, 0);
+                const max = Math.max(...scores, 100);
+                const w = 120, h = 28, pad = 2;
+                const points = scores.map((s, i) => {
+                    const x = pad + (i / (scores.length - 1)) * (w - pad * 2);
+                    const y = pad + (1 - (s - min) / (max - min || 1)) * (h - pad * 2);
+                    return `${x},${y}`;
+                }).join(' ');
+                const last = scores[scores.length - 1];
+                const first = scores[0];
+                const color = last >= first ? 'var(--accent-green, #00ff88)' : 'var(--accent-red, #ff4444)';
+                sparklineHtml = `
+                    <div class="item-sparkline">
+                        <svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
+                            <polyline points="${points}" fill="none" stroke="${color}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+                        </svg>
+                        <span class="sparkline-label">${scores.length} detections</span>
+                    </div>`;
+            }
+        } catch(e) {}
 
         // Clean raw_content: strip the "Stats:" tail we appended in pipeline
         let reason = anomaly.raw_content || '';
@@ -159,6 +233,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             </div>
 
+            ${sparklineHtml}
+
             <div class="item-context">
                 ${reason || 'Analyzing information asymmetry...'}
             </div>
@@ -180,6 +256,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         return div;
     }
+
+    // Filter events
+    ui.searchInput.addEventListener('input', applyFilters);
+    ui.regionFilter.addEventListener('change', applyFilters);
 
     // Init
     loadData();

@@ -247,6 +247,52 @@ body {
     font-family: var(--font-mono);
 }
 
+/* Filter Bar */
+.feed-filters {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.filter-search {
+    flex: 1;
+    background: var(--bg-glass);
+    border: 1px solid var(--border-glass);
+    border-radius: 10px;
+    padding: 0.6rem 1rem;
+    color: var(--text-primary);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.filter-search::placeholder {
+    color: var(--text-muted);
+}
+
+.filter-search:focus {
+    border-color: rgba(255, 204, 0, 0.3);
+}
+
+.filter-select {
+    background: var(--bg-glass);
+    border: 1px solid var(--border-glass);
+    border-radius: 10px;
+    padding: 0.6rem 1rem;
+    color: var(--text-primary);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    outline: none;
+    cursor: pointer;
+    min-width: 140px;
+}
+
+.filter-select option {
+    background: #0d0e12;
+    color: var(--text-primary);
+}
+
 /* Player Cards & Score Ring */
 .anomaly-item {
     background: var(--bg-glass);
@@ -319,6 +365,26 @@ body {
     font-family: var(--font-mono);
     margin-bottom: 0.25rem;
     letter-spacing: 0.3px;
+}
+
+.item-sparkline {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.item-sparkline svg {
+    flex-shrink: 0;
+}
+
+.sparkline-label {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 .item-stats {
