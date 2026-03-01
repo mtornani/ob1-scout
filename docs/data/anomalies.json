@@ -1,134 +1,65 @@
 [
   {
-    "id": 7,
-    "player_name": "Unknown Nigerian Striker",
-    "detection_date": "2026-02-28 20:46:54",
-    "source_url": "https://example.com/3",
-    "score": 98.0,
-    "raw_content": "Esplicitamente descritto come 'sconosciuto', gioca in un campionato giovanile (NPFL youth league) per un club nigeriano locale (Kwara United). Questo si adatta perfettamente ai criteri di 'Fantasma' di zero presenza mainstream e alta asimmetria informativa.",
-    "region": "Africa (Nigeria)",
-    "status": "detected",
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-02-28T21:46:54.553857"
-  },
-  {
-    "id": 1,
-    "player_name": "Honest Ahanor",
-    "detection_date": "2026-02-25 21:50:15",
-    "source_url": "https://www.instagram.com/p/DVIxIZUElSq/",
-    "score": 94.0,
-    "raw_content": "Massima asimmetria informativa. Segnale intercettato da network locali nigeriani al compimento del 18° anno. Valutazione di mercato percepita internamente superiore ai professionisti della Bafana Bafana, ma assente dai radar mainstream europei. Tipico 'Ghost' con hype limitato a mercati chiusi.",
-    "region": "West Africa",
-    "status": "detected",
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-02-25T22:50:15.753466"
-  },
-  {
-    "id": 8,
-    "player_name": "Alysson",
-    "detection_date": "2026-03-01 09:49:19",
-    "source_url": "https://www.facebook.com/Fanaticoosporfutebol/videos/-promessas-do-brasileir%C3%A3o-2026-pra-ficar-de-olhov%C3%A1rios-clubes-seguem-apostando-f/1408452803668724/",
-    "score": 90.0,
-    "raw_content": "Menzionato come una delle 'promesse del Brasileirão 2025' che sono andate in Europa, senza ulteriori dettagli sul club o sulla lega. La mancanza di informazioni specifiche suggerisce una bassa presenza mediatica, rendendolo un 'fantasma' con potenziale non ancora esplorato a livello mainstream.",
-    "region": "Brasile/Europa",
-    "status": "detected",
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-03-01T10:49:19.673376"
-  },
-  {
-    "id": 10,
+    "id": 20,
     "player_name": "Saviolo",
-    "detection_date": "2026-03-01 09:49:21",
+    "detection_date": "2026-03-01 16:37:38",
     "source_url": "https://www.instagram.com/p/DVQklRbCPOg/",
-    "score": 85.0,
-    "raw_content": "Estremo del Vitória SC, eletto 'Jovem do Mês'. Il riconoscimento è a livello di club/lega locale (Portogallo), il che indica un profilo emergente ma non ancora mainstream a livello globale. Rappresenta un'ottima asimmetria informativa.",
-    "region": "Portogallo",
+    "score": 82.0,
+    "raw_content": "Estremo del Vitória SC, è stato eletto 'Jovem do Mês' (Giovane del Mese) della Liga Portugal per due mesi consecutivi (gennaio incluso). Questa distinzione è un indicatore molto forte di prestazioni eccezionali e costanti in un campionato europeo di buon livello. Sebbene l'età esatta non sia specificata, il premio 'Jovem do Mês' implica che sia Under 20. Il Vitória SC non è un club di punta in Europa, il che mantiene la sua visibilità internazionale relativamente bassa nonostante il successo domestico. Offre un'ottima asimmetria informativa.\n\nStats: Stats of Noah Saviolo 25/26. Competition. Appearances. Goals. Assists. Minutes per goal. Minutes. Logo Liga Portugal Liga Portugal. | These are the detailed performance data of Vitória Guimarães SC player Noah Saviolo. The website contains a statistic about the performance ... | These are the detailed performance data of Vitória Guimarães SC player Noah Saviolo. The website contains a statistic about the performance ...",
+    "region": "Europa (Portogallo)",
     "status": "detected",
+    "age": null,
+    "position": "LW",
+    "club": "Vitória SC",
+    "league": "Liga Portugal",
+    "stats_summary": "Stats of Noah Saviolo 25/26. Competition. Appearances. Goals. Assists. Minutes per goal. Minutes. Logo Liga Portugal Liga Portugal. | These are the detailed performance data of Vitória Guimarães SC player Noah Saviolo. The website contains a statistic about the performance ... | These are the detailed performance data of Vitória Guimarães SC player Noah Saviolo. The website contains a statistic about the performance ...",
+    "is_ghost": 0,
     "lead_time_days": null,
-    "ob1_detection_date": "2026-03-01T10:49:21.528183"
+    "ob1_detection_date": "2026-03-01T17:37:38.530758",
+    "sources": [
+      "https://www.instagram.com/p/DVQklRbCPOg/"
+    ]
   },
   {
-    "id": 13,
-    "player_name": "Honest Ahanor",
-    "detection_date": "2026-03-01 10:42:22",
-    "source_url": "https://www.facebook.com/groups/1302817700762286/posts/1624446568599396/",
-    "score": 80.0,
-    "raw_content": "Centrocampista nigeriano di 18 anni, è descritto come un 'wonderkid' dell'Atalanta e già considerato tra i giovani più preziosi al mondo. Sebbene sia in un club di Serie A, l'Atalanta non rientra tra i 'top club' che penalizzano il punteggio. La sua elevata valutazione e il potenziale per ottenere il passaporto italiano suggeriscono un talento eccezionale, ma la sua visibilità mediatica sembra ancora limitata a circoli di scouting e social media, non al grande pubblico internazionale. Mancano statistiche specifiche su gol/assist, ma la reputazione è molto alta.\n\nStats: Player stats of Honest Ahanor (Atalanta Bergamo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Stats of Honest Ahanor 25/26. Competition. Appearances. Goals. Assists. Minutes per goal. Minutes. Logo UEFA Champions League UEFA ... | 2025-2026. Serie A. Champions Lg. MP. 16. 7. Min. 1015. 329. Gls. 0. 0. Ast. 0. 0. * see our coverage note. Honest Ahanor Overview; More Honest Ahanor Pages.",
-    "region": "Italia/Nigeria",
-    "status": "detected",
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-02-25T22:50:15.753466"
-  },
-  {
-    "id": 5,
+    "id": 18,
     "player_name": "Bruno Baldini",
-    "detection_date": "2026-02-28 20:46:51",
+    "detection_date": "2026-03-01 16:37:33",
     "source_url": "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html",
-    "score": 78.0,
-    "raw_content": "Un difensore diciottenne di spicco per la squadra U20 dell'Avaí, conteso da importanti club brasiliani come Grêmio e Inter. Questo indica un forte riconoscimento locale ma un'esposizione internazionale limitata, offrendo una significativa asimmetria informativa.",
+    "score": 80.0,
+    "raw_content": "Difensore centrale di 18 anni, si è distinto nella squadra Under 20 dell'Avaí, un club non di primissima fascia in Brasile. Ha giocato 8 partite e segnato 1 gol nel 2026, mostrando concretezza. L'interesse di club più grandi come Grêmio e Internacional conferma il suo potenziale a livello nazionale, ma rimane sotto il radar internazionale, offrendo un'ottima asimmetria informativa. Non è ancora in un club top e non ha avuto trasferimenti costosi.\n\nStats: Stats of Bruno Baldini 2026. Competition. Appearances. Goals. Assists. Minutes per goal. Minutes. Logo Campeonato Catarinense Campeonato ... | Bruno Baldini football player profile displays all matches and competitions with statistics for all the matches Bruno Baldini played in. Most important stats ... | ... Bruno Baldini, Douglas da Silva Teixeira, Gabriel Pereira Simples, Jamerson ... There are also statistics for each player in all competitions with all total ...",
     "region": "Sud America (Brasile)",
     "status": "detected",
+    "age": 18,
+    "position": "CB",
+    "club": "Avaí",
+    "league": "Brasileirão Sub-20 / Campeonato Catarinense",
+    "stats_summary": "Stats of Bruno Baldini 2026. Competition. Appearances. Goals. Assists. Minutes per goal. Minutes. Logo Campeonato Catarinense Campeonato ... | Bruno Baldini football player profile displays all matches and competitions with statistics for all the matches Bruno Baldini played in. Most important stats ... | ... Bruno Baldini, Douglas da Silva Teixeira, Gabriel Pereira Simples, Jamerson ... There are also statistics for each player in all competitions with all total ...",
+    "is_ghost": 0,
     "lead_time_days": null,
-    "ob1_detection_date": "2026-02-28T21:46:51.469885"
+    "ob1_detection_date": "2026-03-01T17:37:33.264556",
+    "sources": [
+      "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html"
+    ]
   },
   {
-    "id": 2,
-    "player_name": "Yan Diomandé",
-    "detection_date": "2026-02-25 21:50:16",
-    "source_url": "https://www.instagram.com/p/DVIxIZUElSq/",
-    "score": 76.0,
-    "raw_content": "Profilo in rapida ascesa definito 'nuova sensazione'. Sebbene ci siano rumor su grandi club, la mancanza di dati statistici consolidati in database pubblici lo rende un target ad alta asimmetria, ancora in fase di pre-esplosione mediatica.",
-    "region": "West Africa / Europe",
-    "status": "detected",
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-02-25T22:50:16.391719"
-  },
-  {
-    "id": 17,
-    "player_name": "Josmar, Ryan Roberto, Guilherme",
-    "detection_date": "2026-03-01 12:49:48",
-    "source_url": "https://www.instagram.com/p/DVSk2ANDWR3/",
-    "score": 75.0,
-    "raw_content": "Menzionati per aver segnato gol in una partita U20 del Flamengo. Le informazioni sono troppo generiche e non forniscono dettagli sufficienti sulle prestazioni individuali o sul contesto per una valutazione approfondita.",
-    "region": "Brasile",
-    "status": "detected",
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-03-01T12:49:48.297338"
-  },
-  {
-    "id": 4,
+    "id": 19,
     "player_name": "Mateus Romero",
-    "detection_date": "2026-02-28 20:46:50",
+    "detection_date": "2026-03-01 16:37:35",
     "source_url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-mineiro/atletico/atletico-encaminha-contratacao-de-jogador-semifinalista-da-copinha-para-o-sub-20",
     "score": 75.0,
-    "raw_content": "Un diciannovenne semifinalista della Copa São Paulo de Futebol Júnior e in procinto di unirsi all'Atlético-MG U20. Sebbene abbia riconoscimento locale in Brasile, la sua presenza mainstream internazionale è probabilmente bassa, rappresentando una buona asimmetria informativa.",
+    "raw_content": "Centrocampista di 19 anni, è stato semifinalista della prestigiosa Copa São Paulo de Futebol Júnior 2026 con l'Ibrachina-SP, una squadra minore. Il suo imminente trasferimento all'Atlético-MG per la squadra U20 indica un riconoscimento del suo talento all'interno del calcio brasiliano. Sebbene manchino statistiche individuali dettagliate (gol/assist), la sua performance in un torneo giovanile di alto livello con un club meno noto suggerisce un'elevata asimmetria informativa per gli scout internazionali. Non è in un club top e non ha avuto trasferimenti costosi.\n\nStats: ... 2026. Stats of Mateus Romero. Competition. Appearances. Goals. Assists. Minutes per goal. Minutes. Logo Copinha Copinha · 7. 1. -. 630'. 630'. Total. 7. 1. | Squad Ibrachina FC U20 ; -. Ferroviária U20 · Mateus Romero. Midfielder. 19 ; -. Kayky. Defensive Midfield. 20 ; -. Nathan Yuri. Defensive Midfield. 18 ; - ... | ... Mateus Romero, Vitinho, Nathan Yuri, Vinicius Sanches, Vini Reis, André ... goal scorers and assistants, cards, substitutions, and match statistics.",
     "region": "Sud America (Brasile)",
     "status": "detected",
+    "age": 19,
+    "position": "CM",
+    "club": "Ibrachina-SP (in arrivo all'Atlético-MG U20)",
+    "league": "Copa São Paulo de Futebol Júnior",
+    "stats_summary": "... 2026. Stats of Mateus Romero. Competition. Appearances. Goals. Assists. Minutes per goal. Minutes. Logo Copinha Copinha · 7. 1. -. 630'. 630'. Total. 7. 1. | Squad Ibrachina FC U20 ; -. Ferroviária U20 · Mateus Romero. Midfielder. 19 ; -. Kayky. Defensive Midfield. 20 ; -. Nathan Yuri. Defensive Midfield. 18 ; - ... | ... Mateus Romero, Vitinho, Nathan Yuri, Vinicius Sanches, Vini Reis, André ... goal scorers and assistants, cards, substitutions, and match statistics.",
+    "is_ghost": 0,
     "lead_time_days": null,
-    "ob1_detection_date": "2026-02-28T21:46:50.776019"
-  },
-  {
-    "id": 6,
-    "player_name": "Levy Dias",
-    "detection_date": "2026-02-28 20:46:52",
-    "source_url": "https://www.instagram.com/p/DVRpeUHDlup/",
-    "score": 72.0,
-    "raw_content": "Un difensore diciassettenne che si unisce alle categorie U20 del Corinthians, un enorme club brasiliano. Ha riconoscimento locale nel calcio giovanile brasiliano ma è probabilmente sconosciuto a un pubblico internazionale più ampio.",
-    "region": "Sud America (Brasile)",
-    "status": "detected",
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-02-28T21:46:52.217842"
-  },
-  {
-    "id": 3,
-    "player_name": "Relebohile Mofokeng",
-    "detection_date": "2026-02-25 21:50:17",
-    "source_url": "https://www.instagram.com/p/DVIxIZUElSq/",
-    "score": 72.0,
-    "raw_content": "Identificato tramite report di scouting di nicchia. Mostra anomalie positive nel dribbling in spazi stretti e shooting success rate. Nonostante l'interesse locale, resta un profilo 'sotto-osservato' per i parametri delle Top 5 leghe.",
-    "region": "South Africa",
-    "status": "detected",
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-02-25T22:50:17.029448"
+    "ob1_detection_date": "2026-03-01T17:37:35.992716",
+    "sources": [
+      "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-mineiro/atletico/atletico-encaminha-contratacao-de-jogador-semifinalista-da-copinha-para-o-sub-20"
+    ]
   }
 ]
