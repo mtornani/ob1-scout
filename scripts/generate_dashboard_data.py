@@ -41,15 +41,24 @@ def generate_json():
 
         # Fetch high-score anomalies (High Purity Filter)
         c.execute('''
-            SELECT a.*, l.lead_time_days, l.ob1_detection_date 
+            SELECT a.*, l.lead_time_days, l.ob1_detection_date
             FROM anomalies a
-            JOIN lead_times l ON TRIM(a.player_name) = TRIM(l.player_name)
+            LEFT JOIN lead_times l ON TRIM(a.player_name) = TRIM(l.player_name)
             WHERE a.score >= 70
             ORDER BY a.score DESC, a.detection_date DESC
         ''')
         rows = c.fetchall()
-        
-        data = [dict(row) for row in rows]
+
+        data = []
+        for row in rows:
+            item = dict(row)
+            # Build source_url as a list for JS compatibility
+            url = item.get('source_url', '')
+            if url and url != 'N/A':
+                item['sources'] = [url]
+            else:
+                item['sources'] = []
+            data.append(item)
         
         with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)

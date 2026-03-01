@@ -143,13 +143,18 @@ Restituisci SOLO un JSON array:
 [
     {
         "player_name": "Nome Completo",
+        "age": 17,
+        "position": "CB/LW/CM/ST/GK/...",
+        "club": "Nome Club Attuale",
+        "league": "Nome Lega",
         "score": 0-100,
         "reason": "Analisi tecnica basata sui dati trovati negli articoli...",
         "is_ghost": true/false,
         "region": "Area geografica",
         "sources": ["URL1", "URL2"]
     }
-]"""
+]
+Se eta'/posizione/club non sono menzionati, usa null."""
 
         try:
             # Bug 5: Transition to gemini-2.5-flash as suggested in official snippet

@@ -82,31 +82,54 @@ document.addEventListener('DOMContentLoaded', () => {
         const dateObj = new Date(anomaly.detection_date);
         const dateStr = `${dateObj.getDate()}/${dateObj.getMonth() + 1} - ${dateObj.getHours()}:${String(dateObj.getMinutes()).padStart(2, '0')}`;
 
-        const isGhost = anomaly.is_ghost || score > 85;
+        const isGhost = !!anomaly.is_ghost;
+
+        // Build player subtitle (age | position | club)
+        const subParts = [];
+        if (anomaly.age) subParts.push(`${anomaly.age}y`);
+        if (anomaly.position) subParts.push(anomaly.position);
+        if (anomaly.club) {
+            let clubStr = anomaly.club;
+            if (anomaly.league) clubStr += ` (${anomaly.league})`;
+            subParts.push(clubStr);
+        }
+        const subtitle = subParts.length > 0 ? subParts.join(' · ') : '';
+
+        // Clean stats: take first snippet only
+        let statsHtml = '';
+        if (anomaly.stats_summary) {
+            const firstStat = anomaly.stats_summary.split(' | ')[0].substring(0, 200);
+            statsHtml = `<div class="item-stats"><code>${firstStat}</code></div>`;
+        }
+
+        // Clean raw_content: strip the "Stats:" tail we appended in pipeline
+        let reason = anomaly.raw_content || '';
+        const statsIdx = reason.indexOf('\n\nStats:');
+        if (statsIdx > 0) reason = reason.substring(0, statsIdx);
 
         div.innerHTML = `
             <div class="item-header">
                 <div class="player-info">
                     <h4>${anomaly.player_name}</h4>
+                    ${subtitle ? `<span class="item-subtitle">${subtitle}</span>` : ''}
                     <span class="item-region">
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20"></path><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
                         ${anomaly.region || 'Unknown Sector'}
                     </span>
                     <div class="item-badges">
                         ${isGhost ? '<span class="ghost-badge">GHOST PROTOCOL</span>' : ''}
-                        <span class="ghost-badge" style="background:rgba(255,204,0,0.1); color:var(--accent-gold); border-color:rgba(255,204,0,0.3)">RADAR SCAN: ACTIVE</span>
                     </div>
                 </div>
                 <div class="player-score-container">
                     <svg class="score-ring" width="60" height="60">
                         <circle class="ring-bg" cx="30" cy="30" r="${radius}" />
-                        <circle class="ring-fill" cx="30" cy="30" r="${radius}" 
+                        <circle class="ring-fill" cx="30" cy="30" r="${radius}"
                                 style="stroke-dasharray: ${circumference}; stroke-dashoffset: ${offset};" />
                     </svg>
                     <div class="score-value">${score}</div>
                 </div>
             </div>
-            
+
             <div class="item-metrics">
                 <div class="metric">
                     <span>Lead Time</span>
@@ -117,19 +140,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     <strong>${dateStr}</strong>
                 </div>
             </div>
-            
+
             <div class="item-context">
-                ${anomaly.raw_content || 'Analyzing information asymmetry...'}
+                ${reason || 'Analyzing information asymmetry...'}
             </div>
+
+            ${statsHtml}
 
             ${anomaly.sources && anomaly.sources.length > 0 ? `
                 <div class="item-sources">
                     <div class="sources-toggle">
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                        GROUNDING SOURCES
+                        SOURCE
                     </div>
                     <div class="sources-list">
-                        ${anomaly.sources.map(s => `<a href="${s}" target="_blank" class="source-link">${new URL(s).hostname.replace('www.', '')}</a>`).join('')}
+                        ${anomaly.sources.map(s => { try { return `<a href="${s}" target="_blank" class="source-link">${new URL(s).hostname.replace('www.', '')}</a>`; } catch(e) { return ''; } }).join('')}
                     </div>
                 </div>
             ` : ''}
