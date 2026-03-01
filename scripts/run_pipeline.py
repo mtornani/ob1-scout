@@ -7,6 +7,7 @@ Orchestrates the entire global radar workflow.
 import asyncio
 import logging
 import os
+import re
 import sys
 import requests
 from pathlib import Path
@@ -50,6 +51,32 @@ def send_telegram_notification(message):
         return False
 
 
+def _extract_clean_stats(stats_text):
+    """Extract key numbers from raw stats text into a compact line."""
+    if not stats_text:
+        return None
+    stats = {}
+    # Try to find appearances/matches played
+    mp = re.search(r'(?:MP|Appearances)[.\s:]*(\d+)', stats_text, re.IGNORECASE)
+    if mp:
+        stats['MP'] = mp.group(1)
+    # Goals
+    gls = re.search(r'(?:Gls|Goals)[.\s:]*(\d+)', stats_text, re.IGNORECASE)
+    if gls:
+        stats['G'] = gls.group(1)
+    # Assists
+    ast = re.search(r'(?:Ast|Assists)[.\s:]*(\d+)', stats_text, re.IGNORECASE)
+    if ast:
+        stats['A'] = ast.group(1)
+    # Minutes
+    mins = re.search(r"(?:Min|Minutes)[.\s:]*(\d[\d,']*)", stats_text, re.IGNORECASE)
+    if mins:
+        stats["'"] = mins.group(1)
+    if not stats:
+        return None
+    return " | ".join(f"{k}: {v}" for k, v in stats.items())
+
+
 def format_telegram_player(player, score, is_ghost, anomaly, stats_text):
     """Format a single player detection for Telegram (HTML mode)."""
     age = anomaly.get('age')
@@ -58,35 +85,43 @@ def format_telegram_player(player, score, is_ghost, anomaly, stats_text):
     league = anomaly.get('league')
     reason = anomaly.get('reason', '')
 
-    level = "CRITICAL" if score >= 90 else "HIGH"
-    ghost_tag = " [GHOST]" if is_ghost else ""
-    lines = [f"<b>{level}{ghost_tag}</b>"]
+    score_bar = ">" * (score // 10) + "-" * (10 - score // 10)
 
-    # Player info
-    info_parts = [f"<b>{player}</b> ({score:.0f}/100)"]
+    # Header: player name + score
+    lines = [f"<b>{player}</b>{' [GHOST]' if is_ghost else ''}"]
+
+    # Profile line: age · position · club
+    profile = []
     if age:
-        info_parts.append(f"{age}y")
+        profile.append(f"{age}y")
     if pos:
-        info_parts.append(pos)
-    lines.append(" | ".join(info_parts))
+        profile.append(pos)
+    if club:
+        profile.append(club)
+    if profile:
+        lines.append(" · ".join(profile))
 
-    # Club/League
-    if club or league:
-        club_str = club or "?"
-        league_str = league or ""
-        if league_str:
-            lines.append(f"{club_str} ({league_str})")
-        else:
-            lines.append(club_str)
+    if league:
+        lines.append(league)
 
-    # Reason
+    # Score bar
+    lines.append(f"[{score_bar}] {score:.0f}/100")
+
+    # Compact stats (extracted numbers only)
+    clean_stats = _extract_clean_stats(stats_text)
+    if clean_stats:
+        lines.append(clean_stats)
+
+    # Short reason (max 150 chars, no raw stat dumps)
     if reason:
-        lines.append(f"<i>{reason[:250]}</i>")
-
-    # Stats — only first clean snippet
-    if stats_text:
-        first_stat = stats_text.split(" | ")[0][:200]
-        lines.append(f"<code>{first_stat}</code>")
+        # Strip any stats appended to reason
+        stats_idx = reason.find('\n\nStats:')
+        if stats_idx > 0:
+            reason = reason[:stats_idx]
+        short = reason[:150].strip()
+        if len(reason) > 150:
+            short = short.rsplit(' ', 1)[0] + "..."
+        lines.append(f"<i>{short}</i>")
 
     return "\n".join(lines)
 
@@ -227,9 +262,14 @@ async def main_pipeline():
 
     # 5. Telegram (only for NEW detections, not updates)
     if new_detections:
-        msg = "<b>OB1 GLOBAL RADAR</b>\n\n"
-        msg += "\n\n---\n\n".join(new_detections)
-        msg += '\n\n<a href="https://mtornani.github.io/ob1-scout/">Dashboard</a>'
+        timestamp = datetime.now().strftime("%d/%m %H:%M")
+        msg = f"<b>OB1 GLOBAL RADAR</b>  {timestamp}\n"
+        msg += f"{len(new_detections)} new detection{'s' if len(new_detections) > 1 else ''}"
+        if updated_count > 0:
+            msg += f" + {updated_count} tracked"
+        msg += "\n\n"
+        msg += "\n\n----------\n\n".join(new_detections)
+        msg += '\n\n<a href="https://mtornani.github.io/ob1-scout/">Open Dashboard</a>'
         send_telegram_notification(msg)
         logger.info(f"Run complete. {len(new_detections)} new, {updated_count} updated.")
     elif updated_count > 0:
