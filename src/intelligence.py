@@ -67,10 +67,12 @@ class OB1Intelligence:
 
         store = self._get_or_create_store()
         
-        # Prepare content
+        # Prepare content — mark deep-read articles for richer analysis
         lines = [f"# OB1 Radar Intelligence Update - {datetime.now().isoformat()}", ""]
         for item in data_samples:
-            lines.append(f"## {item.get('title', 'Unknown Title')}")
+            is_deep = item.get('deep_read', False)
+            tag = "[FULL ARTICLE]" if is_deep else "[SNIPPET]"
+            lines.append(f"## {tag} {item.get('title', 'Unknown Title')}")
             lines.append(f"URL: {item.get('url', 'N/A')}")
             lines.append(f"Content: {item.get('content', '')}")
             lines.append("\n---")
@@ -114,32 +116,40 @@ class OB1Intelligence:
             return []
 
         # 2. Query with File Search tool
-        system_instruction = """
-        Sei l'Analista Senior del sistema OB1 Radar, un'intelligence calcistica specilaizzata in Anomalie Globali U20.
-        Hai accesso a documenti grezzi nel tuo File Search Store.
-        Il tuo compito è identificare giocatori che mostrano MASSIMA ASIMMETRIA INFORMATIVA.
-        """
+        system_instruction = """Sei il Direttore Sportivo del sistema OB1 Radar. Analizzi intelligence calcistica globale per identificare talenti Under 20 con MASSIMA ASIMMETRIA INFORMATIVA — giocatori il cui valore reale supera di gran lunga la loro visibilità mediatica.
 
-        prompt = """
-        Analizza i nuovi documenti. Restituisci un JSON array di giocatori Under 20 promettenti menzionati.
-        
-        REGOLE CRITICHE:
-        1. PENALIZZA DURAMENTE (> -50 punti) giocatori già famosi.
-        2. PREMIA (> 80 punti) "Fantasmi" (debutti in leghe esotiche, news solo locali).
-        3. Identifica se è un "Ghost" (ZERO presenza mainstream).
-        
-        Restituisci SOLO un JSON array:
-        [
-            {
-                "player_name": "Nome",
-                "score": 0-100,
-                "reason": "Spiegazione tecnica...",
-                "is_ghost": true/false,
-                "region": "Area geografica",
-                "sources": ["URL1", "URL2"]
-            }
-        ]
-        """
+Hai accesso a documenti nel File Search Store. Alcuni sono articoli completi [FULL ARTICLE], altri sono snippet brevi [SNIPPET]. Dai MOLTO PIU' PESO agli articoli completi perché contengono dettagli tattici, statistiche e contesto che gli snippet non hanno.
+
+Ragiona come un DS che cerca valore nascosto, non hype."""
+
+        prompt = """Analizza i documenti. Cerca giocatori Under 20 promettenti.
+
+PRIORITA' DI ANALISI:
+1. Dai precedenza ai documenti [FULL ARTICLE] — contengono dettagli reali.
+2. Cerca menzioni di statistiche concrete (gol, assist, minuti, prestazioni).
+3. Valuta il CONTESTO: sovraperformare in una squadra debole o lega minore vale di piu'.
+
+SCORING:
+- 85-100: Prestazioni eccezionali + zero presenza mainstream. "Fantasma totale".
+- 70-84: Talento confermato da dati concreti ma ancora sotto il radar internazionale.
+- 50-69: Menzione interessante ma dati insufficienti per confermare.
+- 0-49: Gia' noto al mainstream, nessuna asimmetria.
+
+PENALIZZAZIONI:
+- Giocatori gia' in club top (Real Madrid, Man City, PSG, Bayern): score <= 20
+- Giocatori con trasferimenti > 10M gia' completati: score <= 30
+
+Restituisci SOLO un JSON array:
+[
+    {
+        "player_name": "Nome Completo",
+        "score": 0-100,
+        "reason": "Analisi tecnica basata sui dati trovati negli articoli...",
+        "is_ghost": true/false,
+        "region": "Area geografica",
+        "sources": ["URL1", "URL2"]
+    }
+]"""
 
         try:
             # Bug 5: Transition to gemini-2.5-flash as suggested in official snippet

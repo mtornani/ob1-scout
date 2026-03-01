@@ -172,16 +172,55 @@ class AsyncGlobalScraper:
                             })
             return all_results
 
+    async def deep_read_urls(self, urls: list, max_urls: int = 10) -> dict:
+        """
+        Use Tavily extract API to get full article text for given URLs.
+        Returns dict mapping URL -> full text content.
+        Only extracts top max_urls unique URLs to manage API costs.
+        """
+        key = self.config.get('tavily_key')
+        if not key or len(key) < 5 or not urls:
+            logger.debug("Deep-read skipped: no Tavily key or no URLs.")
+            return {}
+
+        unique_urls = list(dict.fromkeys(urls))[:max_urls]
+        logger.info(f"📖 Deep-reading {len(unique_urls)} articles via Tavily extract...")
+
+        api_url = "https://api.tavily.com/extract"
+        payload = {"api_key": key, "urls": unique_urls}
+
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.post(api_url, json=payload,
+                                        timeout=aiohttp.ClientTimeout(total=60)) as resp:
+                    if resp.status == 200:
+                        data = await resp.json()
+                        extracted = {}
+                        for item in data.get('results', []):
+                            url = item.get('url', '')
+                            text = item.get('raw_content', '')
+                            if url and text:
+                                # Trim to ~1500 chars to keep upload size manageable
+                                extracted[url] = text[:1500]
+                        logger.info(f"📖 Deep-read complete: {len(extracted)}/{len(unique_urls)} articles extracted.")
+                        return extracted
+                    else:
+                        logger.warning(f"Tavily extract HTTP {resp.status}")
+                        return {}
+        except Exception as e:
+            logger.warning(f"Deep-read failed: {e}")
+            return {}
+
     async def run_batch(self, queries: list) -> list:
         """Run multiple queries concurrently."""
         logger.info(f"🚀 Starting async batch scrape for {len(queries)} queries...")
         tasks = [self.search_query(q) for q in queries]
         results_list = await asyncio.gather(*tasks)
-        
+
         flat_results = []
         for r in results_list:
             flat_results.extend(r)
-            
+
         logger.info(f"✅ Batch complete. Found {len(flat_results)} raw items across {len(queries)} queries.")
         return flat_results
 

@@ -95,6 +95,46 @@ class OB1Enricher:
                     logger.warning(f"Transfermarkt HTTP {response.status} for {player_name}")
                     return True  # Default to found on error
 
+    async def search_player_stats(self, player_name: str) -> str:
+        """
+        Search FBref/Sofascore/Transfermarkt for real statistics.
+        Returns a text summary of stats snippets, or empty string on failure.
+        Called only for high-purity players (score >= 70) to minimize API usage.
+        """
+        if not self.serper_key or len(self.serper_key) < 5:
+            return ""
+
+        url = "https://google.serper.dev/search"
+        payload = json.dumps({
+            "q": f'"{player_name}" stats goals assists 2026 site:fbref.com OR site:sofascore.com OR site:transfermarkt.com',
+            "num": 3
+        })
+        headers = {
+            'X-API-KEY': self.serper_key,
+            'Content-Type': 'application/json'
+        }
+
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.post(url, data=payload, headers=headers,
+                                        timeout=aiohttp.ClientTimeout(total=10)) as resp:
+                    if resp.status == 200:
+                        data = await resp.json()
+                        stats_parts = []
+                        for item in data.get('organic', []):
+                            snippet = item.get('snippet', '')
+                            if snippet:
+                                stats_parts.append(snippet)
+                        if stats_parts:
+                            combined = " | ".join(stats_parts)
+                            logger.info(f"[Stats] {player_name}: found {len(stats_parts)} stat snippets")
+                            return combined
+                    logger.debug(f"[Stats] No results for {player_name}")
+                    return ""
+        except Exception as e:
+            logger.debug(f"[Stats] Search failed for {player_name}: {e}")
+            return ""
+
     def calculate_asymmetry_score(self, base_score: float, is_ghost: bool) -> float:
         """Boost score if the player is a 'Ghost' in the matrix."""
         if is_ghost:
