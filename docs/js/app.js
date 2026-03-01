@@ -100,11 +100,22 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         const subtitle = subParts.length > 0 ? subParts.join(' · ') : '';
 
-        // Clean stats: take first snippet only
+        // Extract clean stat numbers from raw stats text
         let statsHtml = '';
         if (anomaly.stats_summary) {
-            const firstStat = anomaly.stats_summary.split(' | ')[0].substring(0, 200);
-            statsHtml = `<div class="item-stats"><code>${firstStat}</code></div>`;
+            const s = anomaly.stats_summary;
+            const parts = [];
+            const mp = s.match(/(?:MP|Appearances)[.\s:]*(\d+)/i);
+            if (mp) parts.push(`MP: ${mp[1]}`);
+            const gls = s.match(/(?:Gls|Goals)[.\s:]*(\d+)/i);
+            if (gls) parts.push(`G: ${gls[1]}`);
+            const ast = s.match(/(?:Ast|Assists)[.\s:]*(\d+)/i);
+            if (ast) parts.push(`A: ${ast[1]}`);
+            const mins = s.match(/(?:Min|Minutes)[.\s:]*(\d[\d,']*)/i);
+            if (mins) parts.push(`${mins[1]}'`);
+            if (parts.length > 0) {
+                statsHtml = `<div class="item-stats"><code>${parts.join(' · ')}</code></div>`;
+            }
         }
 
         // Clean raw_content: strip the "Stats:" tail we appended in pipeline
