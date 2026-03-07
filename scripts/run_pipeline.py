@@ -85,7 +85,7 @@ def format_telegram_player(player, score, is_ghost, anomaly, stats_text):
     league = anomaly.get('league')
     reason = anomaly.get('reason', '')
 
-    score_bar = ">" * (score // 10) + "-" * (10 - score // 10)
+    score_bar = ">" * int(score // 10) + "-" * (10 - int(score // 10))
 
     # Header: player name + score
     lines = [f"<b>{player}</b>{' [GHOST]' if is_ghost else ''}"]
