@@ -130,8 +130,8 @@ def filter_noise(results: list) -> list:
     """Pre-Gemini noise filter: remove junk before wasting tokens."""
     filtered = []
     for r in results:
-        title = r.get('title', '')
-        content = r.get('content', '')
+        title = r.get('title') or ''
+        content = r.get('content') or ''
         text = f"{title} {content}"
 
         # Skip very short snippets (no real info)
