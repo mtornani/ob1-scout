@@ -47,4 +47,5 @@ jobs:
           git config --global user.email "bot@ob1-radar.com"
           git add -f data/ob1_global.db docs/data/anomalies.json
           git commit -m "Update Radar Memex: $(date)" || echo "No changes to commit"
+          git pull --rebase origin main
           git push

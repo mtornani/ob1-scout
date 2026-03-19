@@ -214,6 +214,9 @@ async def main_pipeline():
 
     for anomaly in anomalies:
         player = anomaly.get('player_name')
+        if not player:
+            logger.debug("Skipping anomaly with missing player_name")
+            continue
         base_score = anomaly.get('score', 0)
 
         is_ghost = not await enricher.check_transfermarkt(player)
