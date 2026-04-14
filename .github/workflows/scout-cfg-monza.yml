@@ -1,0 +1,45 @@
+name: OB1 Scout — CFG / Monza / Triestina
+
+on:
+  workflow_dispatch:   # manual trigger from GitHub UI
+  schedule:
+    - cron: '0 7 * * 1'   # every Monday 07:00 UTC
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Scout Pipeline
+        env:
+          SERPER_API_KEY:     ${{ secrets.SERPER_API_KEY }}
+          TAVILY_API_KEY:     ${{ secrets.TAVILY_API_KEY }}
+          GEMINI_API_KEY:     ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+          PYTHONPATH:         ${{ github.workspace }}
+        run: python scripts/run_scout_pipeline.py
+
+      - name: Commit scout results
+        run: |
+          git config --global user.name  "OB1 Scout Bot"
+          git config --global user.email "bot@ob1-radar.com"
+          git add -f data/scout_results.json
+          git commit -m "Scout run: $(date -u '+%Y-%m-%d %H:%M UTC')" || echo "No changes to commit"
+          git pull --rebase origin ${{ github.ref_name }}
+          git push

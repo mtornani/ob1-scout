@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "generated_by": "Claude — Gemini Audit Relay",
+    "date": "2026-04-14",
+    "purpose": "Query config per OB1 Global Radar: scouting internazionale per gap strategici identificati da Gemini Research Intelligence",
+    "target_clubs": ["Palermo FC (CFG)", "AC Monza", "US Triestina"],
+    "output_format": "PLAYER_SCHEMA standard",
+    "note": "Questi profili sono per mercati non-top 5 e campionati periferici. Il Global Radar deve cercare dove gli altri non guardano."
+  },
+  "queries": [
+    {
+      "query_id": "PALERMO_GK_REPLACEMENT",
+      "target_club": "Palermo FC (City Football Group)",
+      "tier": "Serie B",
+      "strategic_context": "Integrazione nel network CFG. Joronen in scadenza 2026 — serve replacement con data-profile compatibile per eventuale spostamento intra-gruppo (Palermo → Girona → City).",
+      "critical_role": "Portiere — replacement Joronen",
+      "filters": {
+        "leagues": ["Eredivisie", "Jupiler Pro League", "Primeira Liga", "Championship", "MLS", "Allsvenskan", "Eliteserien"],
+        "position": ["GK"],
+        "age_range": [22, 27],
+        "contract_expires_before": "2027-06-30",
+        "market_value_max_eur": 3000000,
+        "min_appearances_season": 20,
+        "sort_by": "save_percentage_desc",
+        "max_results": 5
+      },
+      "scoring_boost": {
+        "patterns": {
+          "clean sheet": 3,
+          "distribuzione": 3,
+          "gioco con i piedi": 3,
+          "uscite": 2,
+          "riflessi": 2,
+          "cfgroup|city.*group|network": 3
+        },
+        "min_score": 4.0
+      },
+      "cfg_compatibility": {
+        "style_requirements": ["Gioco dal basso obbligatorio", "Distribuzione corta >60%", "Uscite alte"],
+        "data_profile_note": "CFG valuta portieri con metriche avanzate: expected goals prevented, pass completion %, cross claim rate. Privilegiare profili con dati disponibili."
+      },
+      "notes": "Palermo/CFG non compra portieri 'normali' — cercano un profilo con data footprint che permetta comparazione intra-network. Eredivisie e Primeira Liga sono i mercati ideali."
+    },
+    {
+      "query_id": "PALERMO_FB_REPLACEMENT",
+      "target_club": "Palermo FC (City Football Group)",
+      "tier": "Serie B",
+      "strategic_context": "Bereszyński in scadenza 2026. Serve terzino destro offensivo con profilo CFG.",
+      "critical_role": "Terzino destro — replacement Bereszyński",
+      "filters": {
+        "leagues": ["Eredivisie", "Jupiler Pro League", "Primeira Liga", "Championship", "Superliga Argentina", "Liga MX"],
+        "position": ["FB"],
+        "position_detail": ["Terzino destro", "Right-back", "Wing-back destro"],
+        "age_range": [21, 26],
+        "contract_expires_before": "2027-06-30",
+        "market_value_max_eur": 3000000,
+        "min_appearances_season": 18,
+        "sort_by": "assists_and_crosses_desc",
+        "max_results": 5
+      },
+      "scoring_boost": {
+        "patterns": {
+          "cross": 3,
+          "assist": 3,
+          "spinta offensiva": 2,
+          "progressione palla": 2,
+          "dribbling": 2,
+          "under.*nazionale": 2,
+          "sudamericano|argentino|brasiliano": 2
+        },
+        "min_score": 4.0
+      },
+      "cfg_compatibility": {
+        "style_requirements": ["Propensione offensiva", "Capacità 1v1 in fase di possesso", "Corsa e resistenza"],
+        "data_profile_note": "Metriche CFG prioritarie: progressive carries, expected assists, touches in final third."
+      },
+      "notes": "Sudamerica e Benelux sono i mercati naturali del CFG per questo ruolo. Argentina in particolare per il profilo terzino-ala."
+    },
+    {
+      "query_id": "MONZA_TREQUARTISTA_INTL",
+      "target_club": "AC Monza (Beckett Layne Ventures)",
+      "tier": "Serie B",
+      "strategic_context": "Transizione post-Berlusconi verso modello tech/entertainment. Cercano profili internazionali con appeal mediatico + metriche elevate.",
+      "critical_role": "Trequartista con appeal internazionale",
+      "filters": {
+        "leagues": ["Eredivisie", "Jupiler Pro League", "Primeira Liga", "Süper Lig", "Championship"],
+        "position": ["MF", "WG"],
+        "position_detail": ["Trequartista", "Fantasista", "Attacking midfielder", "Ala tecnica"],
+        "age_range": [21, 26],
+        "contract_expires_before": "2027-06-30",
+        "market_value_max_eur": 5000000,
+        "min_goal_contributions_season": 8,
+        "sort_by": "goal_contributions_desc",
+        "max_results": 5
+      },
+      "scoring_boost": {
+        "patterns": {
+          "dribbling": 3,
+          "key pass": 3,
+          "creatività": 2,
+          "nazionale": 2,
+          "social media|followers|brand": 3,
+          "highlights|virale": 2,
+          "tecnica": 2
+        },
+        "min_score": 5.0
+      },
+      "media_profile": {
+        "requirements": ["Giocatore con presenza social attiva", "Nazionalità con appeal globale (Brasile, Nigeria, Colombia, Giappone)", "Stile spettacolare che genera highlight"],
+        "note": "Berger/Beckett Layne ragiona anche in termini di content e brand value. Il giocatore deve 'vendere' anche fuori dal campo."
+      },
+      "notes": "Monza nuovo corso vuole il 'giocatore Instagram': tecnico, spettacolare, internazionale. Eredivisie e Portogallo sono i mercati ideali per questo profilo."
+    },
+    {
+      "query_id": "MONZA_CB_INTL",
+      "target_club": "AC Monza (Beckett Layne Ventures)",
+      "tier": "Serie B",
+      "strategic_context": "Serve struttura difensiva con profilo internazionale. Burdisso come SD ha connessioni sudamericane forti.",
+      "critical_role": "Difensore centrale internazionale",
+      "filters": {
+        "leagues": ["Eredivisie", "Jupiler Pro League", "Primeira Liga", "Superliga Argentina", "Brasileirão Série A"],
+        "position": ["CB"],
+        "position_detail": ["Difensore centrale", "Centre-back"],
+        "age_range": [22, 27],
+        "contract_expires_before": "2027-06-30",
+        "market_value_max_eur": 4000000,
+        "min_appearances_season": 20,
+        "sort_by": "duels_won_desc",
+        "max_results": 5
+      },
+      "scoring_boost": {
+        "patterns": {
+          "duelli vinti": 3,
+          "aereo": 2,
+          "impostazione": 3,
+          "leadership": 2,
+          "nazionale": 2,
+          "argentino|brasiliano|uruguaiano": 3,
+          "esperienza.*europa": 2
+        },
+        "min_score": 4.0
+      },
+      "burdisso_factor": {
+        "note": "Burdisso ha rete diretta in Argentina e Brasile. Privilegiare profili sudamericani dove il DS ha vantaggio informativo e relazionale.",
+        "priority_markets": ["Superliga Argentina", "Brasileirão"]
+      },
+      "notes": "Sudamerica first per il fattore Burdisso. Centrale che sa impostare (Monza vuole giocare) ma anche fisico per la B italiana."
+    },
+    {
+      "query_id": "TRIESTINA_USL_SCAN",
+      "target_club": "US Triestina",
+      "tier": "Serie C - Girone A",
+      "strategic_context": "House of Doge / Moneyball. Mercati non convenzionali: USL (USA) dove il talento è sottovalutato per il calcio europeo.",
+      "critical_role": "Profili USL con asimmetria transatlantica",
+      "filters": {
+        "leagues": ["USL Championship", "USL League One", "MLS NEXT Pro"],
+        "position": ["MF", "WG", "ST"],
+        "age_range": [19, 25],
+        "contract_expires_before": "2027-12-31",
+        "market_value_max_eur": 200000,
+        "nationality_filter": ["NOT USA"],
+        "nationality_note": "Privilegiare giocatori con passaporto europeo o doppia nazionalità — facilita il tesseramento in C italiana.",
+        "min_appearances_season": 15,
+        "sort_by": "goal_contributions_per_90_desc",
+        "max_results": 5
+      },
+      "scoring_boost": {
+        "patterns": {
+          "passaporto europeo|doppia nazionalità|dual national": 5,
+          "goal contribution": 3,
+          "assist": 2,
+          "mvp|best.*eleven": 3,
+          "non.*americano": 2,
+          "free agent|svincol": 4
+        },
+        "min_score": 5.0
+      },
+      "asymmetry_logic": "Giocatori stranieri in USL che performano ad alto livello ma non hanno visibilità europea. Con passaporto EU il costo di acquisizione è quasi zero.",
+      "notes": "Questo è il mercato più 'Moneyball' di tutti. Giocatori con doppio passaporto in USL che fanno numeri ma che nessuno in Europa monitora. House of Doge può fare arbitraggio geografico puro."
+    },
+    {
+      "query_id": "TRIESTINA_SCANDINAVIA",
+      "target_club": "US Triestina",
+      "tier": "Serie C - Girone A",
+      "strategic_context": "Secondo mercato non convenzionale per House of Doge: Scandinavia, dove i campionati invernali creano sfasamento temporale sfruttabile.",
+      "critical_role": "Profili scandinavi con sfasamento di mercato",
+      "filters": {
+        "leagues": ["Allsvenskan", "Eliteserien", "Veikkausliiga", "Superligaen"],
+        "position": ["MF", "ST", "WG", "FB"],
+        "age_range": [20, 25],
+        "contract_expires_before": "2027-06-30",
+        "market_value_max_eur": 400000,
+        "min_appearances_season": 15,
+        "sort_by": "goal_contributions_per_90_desc",
+        "max_results": 5
+      },
+      "scoring_boost": {
+        "patterns": {
+          "fine contratto": 4,
+          "free agent": 4,
+          "svincol": 4,
+          "stagione invernale": 2,
+          "passaporto.*eu": 3,
+          "doppia cifra": 3,
+          "under.*nazionale": 2
+        },
+        "min_score": 4.0
+      },
+      "timing_advantage": {
+        "note": "I campionati scandinavi giocano da marzo a novembre. A gennaio/febbraio ci sono giocatori in scadenza o fuori rosa che il mercato italiano non monitora perché il campionato è fermo.",
+        "optimal_window": "Dicembre-Febbraio per contratti in scadenza a fine stagione scandinava (Novembre)"
+      },
+      "notes": "Sfasamento temporale = vantaggio informativo. Quando il mercato italiano è chiuso, quello scandinavo è aperto e viceversa. House of Doge può 'comprare il dip'."
+    }
+  ]
+}
