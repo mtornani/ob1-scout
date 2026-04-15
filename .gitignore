@@ -6,5 +6,6 @@ output/
 !docs/data/
 !docs/data/anomalies.json
 !docs/manifest.json
+!config/*.json
 *.csv
 .env

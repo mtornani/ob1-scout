@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "generated_by": "Claude — Audit Phase 2",
+    "date": "2026-04-15",
+    "purpose": "Query config per OB1: Parma (Serie A), Ascoli (Serie C Gir. B), SS Cosmos (Campionato Sammarinese)",
+    "approach": "Scouting intelligence come 'consigli di investimento oggettivi' — il DS valida poi col proprio scouting",
+    "output_format": "PLAYER_SCHEMA standard"
+  },
+
+  "target_clubs_audit": [
+    {
+      "club": "Parma Calcio",
+      "tier": "Serie A",
+      "governance": {
+        "owner": "Kyle Krause (Krause Group)",
+        "ad": "Federico Cherubini",
+        "ds": "Alessandro Pettinà",
+        "coach": "Carlos Cuesta"
+      },
+      "strategic_context": "Modello plusvalenza attivo e dimostrato: Bonny (Inter, €26M), Leoni (Liverpool, €35M). Proprietà americana orientata al player trading. Cherubini (ex Juve) coordina la strategia. Cercano il prossimo asset da sviluppare e rivendere, con focus su profili U23 da campionati secondari.",
+      "ob1_focus": "OB1 Global Radar per profili internazionali U23 da campionati satellite (Eredivisie, Jupiler, Primeira, Sudamerica). OB1 Lega Pro per profili italiani pronti al salto in A.",
+      "critical_roles": ["Centravanti U23 (replacement Bonny)", "Difensore centrale U21 (replacement Leoni)", "Esterno offensivo con dati avanzati"]
+    },
+    {
+      "club": "Ascoli Calcio",
+      "tier": "Serie C - Girone B",
+      "governance": {
+        "owner": "Massimo Pulcinelli",
+        "ds": "Matteo Patti",
+        "coach": "Tomei"
+      },
+      "strategic_context": "2° in classifica (62 punti), in corsa per la promozione diretta in Serie B. DS Patti ha fatto 15 operazioni in entrata nell'estate 2025. Rosa con mix di esperienza (Corazza, Ndoj) e giovani (D'Uffizi, Palazzino). Servono rinforzi mirati per lo sprint finale playoff/promozione e pianificazione estate 2026 per la B.",
+      "ob1_focus": "OB1 Lega Pro per monitoraggio profili Serie C/D pronti per il salto in B. Focus su contratti in scadenza giugno 2026 per acquisti a zero.",
+      "critical_roles": ["Centrocampista di qualità (upgrade per la B)", "Terzino sinistro", "Punta da doppia cifra in caso cessione Corazza/Gori"]
+    },
+    {
+      "club": "SS Cosmos",
+      "tier": "Campionato Sammarinese",
+      "governance": {
+        "ds": "Da identificare (contatto diretto Mirko)",
+        "note": "Rosa 25 giocatori, 84% stranieri, valore totale €925K. Campo Sportivo di Montecchio (600 posti). 13° su 16 in classifica."
+      },
+      "strategic_context": "Club del Campionato Sammarinese con ambizioni di consolidamento. Il campionato non ha retrocessione. Budget minimo, mercato basato su svincolati e giocatori dal bacino Romagna/Marche/Emilia. L'obiettivo NON è vendere giocatori ma DIMOSTRARE IL METODO: come un approccio data-driven può ottimizzare le scelte anche con zero budget.",
+      "ob1_focus": "Dimostrazione del metodo OB1 applicato al micro-mercato: svincolati Serie D/Eccellenza Romagna-Marche, giocatori FSGC, profili con doppio tesseramento possibile.",
+      "critical_roles": ["Attaccante da Serie D/Eccellenza svincolato", "Centrocampista di esperienza (over 28, ex C/D)", "Qualsiasi ruolo con passaporto sammarinese (valore nazionale)"],
+      "demo_value": {
+        "what_to_prove": "Che anche con zero budget e un campionato di 16 squadre, il data scouting identifica asimmetrie invisibili ad occhio nudo",
+        "unique_angles": [
+          "Giocatori con passaporto sammarinese nel calcio italiano dilettantistico (valore FSGC/nazionale)",
+          "Svincolati Serie D Romagna (Rimini, Forlì, Ravenna bacino) con metriche sopra media",
+          "Giocatori con doppia cittadinanza IT/RSM non ancora tesserati FSGC",
+          "Pattern di rendimento: chi overperforma in Eccellenza Emilia-Romagna rispetto al valore rosa"
+        ]
+      }
+    }
+  ],
+
+  "queries": {
+
+    "PARMA_CF_REPLACEMENT": {
+      "target_club": "Parma Calcio",
+      "critical_role": "Centravanti U23 — replacement pipeline Bonny",
+      "filters": {
+        "leagues": ["Eredivisie", "Jupiler Pro League", "Primeira Liga", "Brasileirão Série A", "Superliga Argentina", "Serie B"],
+        "position": ["ST", "CF"],
+        "age_range": [19, 23],
+        "contract_expires_before": "2028-06-30",
+        "market_value_range_eur": [1000000, 8000000],
+        "min_goals_season": 8,
+        "sort_by": "goals_per_90_desc",
+        "max_results": 5
+      },
+      "scoring_boost": {
+        "patterns": {
+          "profondità": 3,
+          "pressing alto": 3,
+          "xG overperformance": 3,
+          "under.*nazionale": 2,
+          "progressione": 2,
+          "plusvalenza": 2
+        },
+        "min_score": 5.0
+      },
+      "reference": "Bonny (acquistato Serie B → venduto Inter €26M). Cercare il prossimo nella stessa fascia d'ingresso.",
+      "notes": "Parma-Cherubini ragiona come la Juve: comprare a 1-3M, sviluppare 18 mesi, vendere a 15-30M. Il profilo deve avere dati avanzati disponibili per convincere Cherubini."
+    },
+
+    "PARMA_CB_REPLACEMENT": {
+      "target_club": "Parma Calcio",
+      "critical_role": "Difensore centrale U21 — replacement pipeline Leoni",
+      "filters": {
+        "leagues": ["Eredivisie", "Jupiler Pro League", "Serie B", "Serie C", "Primeira Liga"],
+        "position": ["CB"],
+        "age_range": [18, 21],
+        "contract_expires_before": "2028-06-30",
+        "market_value_range_eur": [500000, 5000000],
+        "min_appearances_season": 15,
+        "sort_by": "duels_won_percentage_desc",
+        "max_results": 5
+      },
+      "scoring_boost": {
+        "patterns": {
+          "impostazione": 3,
+          "progressive passes": 3,
+          "aereo": 2,
+          "under.*nazionale": 3,
+          "fisicità": 2
+        },
+        "min_score": 5.0
+      },
+      "reference": "Leoni (acquistato settore giovanile → venduto Liverpool €35M). Profilo mancino o ambidestro preferito.",
+      "notes": "Leoni era un prodotto del vivaio. Per replicare serve un CB giovanissimo con dati progressivi sopra media e potenziale fisico in crescita."
+    },
+
+    "PARMA_WINGER": {
+      "target_club": "Parma Calcio",
+      "critical_role": "Esterno offensivo con metriche avanzate",
+      "filters": {
+        "leagues": ["Eredivisie", "Jupiler Pro League", "Primeira Liga", "Championship", "Brasileirão"],
+        "position": ["WG", "RW", "LW"],
+        "age_range": [20, 24],
+        "contract_expires_before": "2028-06-30",
+        "market_value_range_eur": [1000000, 6000000],
+        "min_goal_contributions_season": 8,
+        "sort_by": "goal_contributions_per_90_desc",
+        "max_results": 5
+      },
+      "scoring_boost": {
+        "patterns": {
+          "dribbling": 3,
+          "expected assists": 3,
+          "progressive carries": 3,
+          "1v1": 2,
+          "velocità": 2
+        },
+        "min_score": 5.0
+      },
+      "notes": "Cuesta gioca con esterni alti e larghi. Il profilo deve avere numeri in 1v1 e progressive carries."
+    },
+
+    "ASCOLI_CM_UPGRADE": {
+      "target_club": "Ascoli Calcio",
+      "critical_role": "Centrocampista di qualità — upgrade per la B",
+      "filters": {
+        "leagues": ["Serie C - Girone A", "Serie C - Girone B", "Serie C - Girone C", "Serie B"],
+        "position": ["MF", "CM"],
+        "age_range": [22, 28],
+        "contract_expires_before": "2027-06-30",
+        "min_appearances_season": 18,
+        "sort_by": "pass_accuracy_desc",
+        "max_results": 5
+      },
+      "scoring_boost": {
+        "patterns": {
+          "regia": 3,
+          "passaggi chiave": 3,
+          "assist": 2,
+          "esperienza.*serie b": 3,
+          "svincol": 4,
+          "scadenza 2026": 4
+        },
+        "min_score": 5.0
+      },
+      "notes": "Ascoli è in corsa promozione. Serve centrocampista che abbia già giocato in B o che sia il migliore della C attuale. Scadenze 2026 = priorità massima per costo zero estate."
+    },
+
+    "ASCOLI_LB": {
+      "target_club": "Ascoli Calcio",
+      "critical_role": "Terzino sinistro",
+      "filters": {
+        "leagues": ["Serie C - Girone A", "Serie C - Girone B", "Serie C - Girone C", "Serie B"],
+        "position": ["LB", "FB"],
+        "position_detail": ["Terzino sinistro"],
+        "age_range": [21, 27],
+        "contract_expires_before": "2027-06-30",
+        "foot": "sinistro",
+        "min_appearances_season": 15,
+        "sort_by": "crosses_per_90_desc",
+        "max_results": 5
+      },
+      "scoring_boost": {
+        "patterns": {
+          "piede sinistro": 4,
+          "cross": 3,
+          "spinta": 2,
+          "svincol": 4,
+          "scadenza 2026": 4
+        },
+        "min_score": 4.0
+      },
+      "notes": "Piede sinistro naturale è il requisito non negoziabile. Guiebre è il titolare attuale (contratto 2028). Serve alternativa/upgrade."
+    },
+
+    "ASCOLI_ST_REPLACEMENT": {
+      "target_club": "Ascoli Calcio",
+      "critical_role": "Punta da doppia cifra — eventuale sostituzione Corazza/Gori",
+      "filters": {
+        "leagues": ["Serie C - Girone A", "Serie C - Girone B", "Serie C - Girone C", "Serie D"],
+        "position": ["ST", "CF"],
+        "age_range": [20, 27],
+        "contract_expires_before": "2027-06-30",
+        "min_goals_season": 8,
+        "sort_by": "goals_desc",
+        "max_results": 5
+      },
+      "scoring_boost": {
+        "patterns": {
+          "doppia cifra": 4,
+          "capocannoniere": 3,
+          "serie c.*gol": 3,
+          "svincol": 4,
+          "fisicità": 2,
+          "esperienza.*serie b": 2
+        },
+        "min_score": 5.0
+      },
+      "notes": "Corazza (35y) e Gori sono le punte attuali. Se l'Ascoli sale in B, serve un upgrade. Stückler (Vicenza, 12 gol) e Caccavo (Lumezzane, 10 gol) sono benchmark del girone."
+    },
+
+    "COSMOS_DEMO_SVINCOLATI": {
+      "target_club": "SS Cosmos",
+      "critical_role": "Attaccante/centrocampista — svincolati bacino Romagna-Marche",
+      "filters": {
+        "leagues": ["Serie D Girone D", "Serie D Girone F", "Eccellenza Emilia-Romagna", "Eccellenza Marche"],
+        "position": ["ST", "MF", "WG"],
+        "age_range": [22, 32],
+        "opportunity_type": ["svincolato", "rescissione", "fine contratto giugno 2026"],
+        "geographic_radius": "Rimini, Forlì, Cesena, Pesaro, Fano, San Marino — max 50km",
+        "sort_by": "goal_contributions_desc",
+        "max_results": 10
+      },
+      "scoring_boost": {
+        "patterns": {
+          "svincolato": 5,
+          "rescissione": 4,
+          "sammarinese|san marino|rsm": 5,
+          "doppia cittadinanza": 4,
+          "serie d.*gol": 3,
+          "eccellenza.*gol": 3,
+          "rimini|forlì|cesena|pesaro|fano": 2
+        },
+        "min_score": 4.0
+      },
+      "demo_logic": "NON è un report di mercato tradizionale. È una DEMO del metodo: 'guarda cosa trova OB1 nel TUO bacino di reclutamento che i tuoi concorrenti non vedono'. L'obiettivo è mostrare pattern invisibili ad occhio nudo.",
+      "notes": "Cosmos ha 84% di stranieri in rosa — paradossalmente il valore più alto nel campionato sammarinese è un giocatore con passaporto RSM (valore nazionale). Cercare anche nei campionati giovanili FSGC."
+    },
+
+    "COSMOS_DEMO_RSM_PASSPORTS": {
+      "target_club": "SS Cosmos",
+      "critical_role": "Qualsiasi ruolo — giocatori con passaporto sammarinese nel calcio italiano",
+      "filters": {
+        "search_type": "nationality_scan",
+        "nationality": ["San Marino", "Sammarinese"],
+        "leagues_to_scan": ["Serie D", "Eccellenza", "Promozione", "Prima Categoria", "Campionato Sammarinese"],
+        "age_range": [17, 30],
+        "sort_by": "level_played_desc",
+        "max_results": 10
+      },
+      "scoring_boost": {
+        "patterns": {
+          "nazionale.*san marino": 5,
+          "convocato": 4,
+          "serie d": 3,
+          "eccellenza": 2,
+          "under.*san marino": 3,
+          "doppio tesseramento": 4
+        },
+        "min_score": 3.0
+      },
+      "titan_veritas_link": "Questa query si collega direttamente al progetto TITAN VERITAS: identificazione di oriundi sammarinesi nel calcio italiano e globale. I risultati possono alimentare sia il Cosmos che la FSGC.",
+      "notes": "Ogni giocatore con passaporto RSM ha valore doppio: per il club (quota nazionali) e per la FSGC (nazionale). Questo è l'angle che convince il DS del Cosmos: non stai solo cercando giocatori, stai identificando asset strategici per tutto il sistema calcistico sammarinese."
+    }
+  }
+}
