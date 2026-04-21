@@ -17,6 +17,7 @@ function Shell() {
   const [sortBy, setSortBy] = useState(TWEAKS_DEFAULTS.sortBy);
   const [tweaksOpen, setTweaksOpen] = useState(false);
   const [tweaks, setTweaks] = useState(TWEAKS_DEFAULTS);
+  const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
 
   // load data
   useEffect(() => {
@@ -184,6 +185,19 @@ function Shell() {
 
       {/* =============== CENTER =============== */}
       <main className="center">
+        {/* MOBILE SEARCH BAR */}
+        <div className="mobile-search-bar">
+          <input
+            className="filter-search"
+            placeholder=">_ player / club / league"
+            value={query}
+            onChange={e => setQuery(e.target.value)}
+          />
+          <button className={`chip ghost ${ghostOnly ? "active" : ""}`} onClick={() => setGhostOnly(g => !g)}>
+            ◎ Ghost
+          </button>
+        </div>
+
         {/* KPI INSTRUMENT CLUSTER */}
         <KpiCluster stats={stats} sparks={kpiSparks} />
 
@@ -207,7 +221,7 @@ function Shell() {
               a={a}
               ghostIntensity={tweaks.ghostIntensity}
               selected={a.id === selectedId}
-              onSelect={() => setSelectedId(a.id)}
+              onSelect={() => { setSelectedId(a.id); setMobileDrawerOpen(true); }}
             />
           ))}
           {!filtered.length && (
@@ -234,6 +248,22 @@ function Shell() {
           onChange={updateTweak}
           onClose={() => setTweaksOpen(false)}
         />
+      )}
+
+      {/* MOBILE DOSSIER DRAWER */}
+      {mobileDrawerOpen && selected && (
+        <div className="mobile-drawer">
+          <div className="mobile-drawer-backdrop" onClick={() => setMobileDrawerOpen(false)} />
+          <div className="mobile-drawer-panel">
+            <div className="mobile-drawer-handle">
+              <div className="mobile-drawer-grip" />
+              <button className="mobile-drawer-close" onClick={() => setMobileDrawerOpen(false)}>✕ CLOSE</button>
+            </div>
+            <div className="mobile-drawer-content">
+              <Dossier a={selected} />
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );
