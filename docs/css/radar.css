@@ -1046,10 +1046,16 @@ body::after {
   .signal-lead { display: none; } /* lead time shown in dossier drawer */
   .signal-score { padding: 14px 10px; }
   .signal-score-ring { display: none; }
+  /* ring hidden → override JSX inline marginTop so number sits centered */
   .signal-score-num { font-size: 24px; margin-top: 0 !important; }
   .signal-body { padding: 12px 14px; }
   .signal-name { font-size: 16px; }
-  .signal-reason { -webkit-line-clamp: 2; font-size: 11.5px; }
+  /* 3 lines gives enough context without requiring the drawer */
+  .signal-reason { -webkit-line-clamp: 3; font-size: 12px; line-height: 1.5; }
+  /* tighten subtitle dots on narrow viewport */
+  .signal-sub { font-size: 10px; gap: 2px 6px; }
+  /* region badge already implicit in subtitle — hide to reduce badge clutter */
+  .signal .badge-region { display: none; }
 
   /* Feed bar */
   .feed-bar { gap: 8px; flex-wrap: wrap; }
@@ -1120,4 +1126,29 @@ body::after {
   /* Dossier inside drawer: adjust sizes */
   .mobile-drawer-content .dossier-name { font-size: 18px; }
   .mobile-drawer-content .signal-trace-big { height: 60px; }
+}
+
+/* ============================================================
+   EXTRA-NARROW — iPhone SE / small Android (≤390px)
+   ============================================================ */
+@media (max-width: 390px) {
+  .center { padding: 10px 10px 100px; }
+
+  /* Score column: tighter */
+  .signal { grid-template-columns: 56px 1fr; }
+  .signal-score { padding: 12px 8px; }
+  .signal-score-num { font-size: 20px; }
+  .signal-score-label { font-size: 7.5px; letter-spacing: 0.15em; }
+
+  /* Body: breathe a bit less */
+  .signal-body { padding: 10px 11px; }
+  .signal-name { font-size: 15px; }
+  .signal-sub { font-size: 9.5px; }
+
+  /* Badges: smaller padding so they stay on one line */
+  .badge { padding: 2px 5px; font-size: 8px; letter-spacing: 0.1em; }
+
+  /* KPI: compress height slightly */
+  .kpi { padding: 12px 10px 10px; }
+  .kpi-value-num { font-size: 30px; }
 }
