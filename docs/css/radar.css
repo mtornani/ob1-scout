@@ -988,24 +988,24 @@ body::after {
 }
 
 @media (max-width: 820px) {
-  /* Layout */
+  /* ── Layout ── */
   .shell {
     grid-template-columns: 1fr;
     grid-template-areas: "topbar" "center";
   }
   .rail-left { display: none; }
-  .center { padding: 14px 14px 100px; }
+  .center { padding: 12px 12px 100px; }
 
-  /* Topbar: hide protocol text, compress */
+  /* ── Topbar ── */
   .topbar > div:nth-child(2) { display: none; }
-  .topbar-meta { gap: 12px; }
-  .topbar-meta-item { font-size: 9.5px; }
+  .topbar-meta { gap: 10px; }
+  .topbar-meta-item { font-size: 9px; }
 
-  /* Mobile search bar */
+  /* ── Mobile search bar ── */
   .mobile-search-bar {
     display: flex;
     gap: 8px;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
     align-items: center;
   }
   .mobile-search-bar .filter-search { flex: 1; }
@@ -1015,54 +1015,149 @@ body::after {
     padding: 7px 10px;
   }
 
-  /* KPI cluster: 3 columns compact, no stacking */
+  /* ── KPI cluster: 3 col compact ── */
   .kpi-cluster {
     grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 20px;
+    margin-bottom: 16px;
   }
   .kpi {
-    padding: 14px 12px 12px;
+    padding: 12px 10px 10px;
     border-right: 1px solid var(--line-weak);
     border-bottom: none;
   }
   .kpi:last-child { border-right: none; }
   .kpi-label {
-    font-size: 8.5px;
+    font-size: 8px;
     flex-direction: column;
     gap: 2px;
     margin-bottom: 8px;
   }
   .kpi-label-id { display: none; }
-  .kpi-value-num { font-size: 34px; }
-  .kpi-value-prefix { font-size: 20px; }
-  .kpi-value-unit { font-size: 13px; }
+  .kpi-value-num { font-size: 30px; }
+  .kpi-value-prefix { font-size: 18px; }
+  .kpi-value-unit { font-size: 12px; }
   .kpi-max, .kpi-lead { text-align: left; }
   .kpi-max .kpi-label, .kpi-lead .kpi-label { justify-content: flex-start; }
   .kpi-max .kpi-value, .kpi-lead .kpi-value { justify-content: flex-start; }
-  .kpi-sub { display: none; } /* sparks + secondary label hidden on mobile */
+  .kpi-sub { display: none; }
 
-  /* Signal card: 2-col, no lead-time panel */
-  .signal { grid-template-columns: 64px 1fr; }
-  .signal-lead { display: none; } /* lead time shown in dossier drawer */
-  .signal-score { padding: 14px 10px; }
-  .signal-score-ring { display: none; }
-  /* ring hidden → override JSX inline marginTop so number sits centered */
-  .signal-score-num { font-size: 24px; margin-top: 0 !important; }
-  .signal-body { padding: 12px 14px; }
-  .signal-name { font-size: 16px; }
-  /* 3 lines gives enough context without requiring the drawer */
-  .signal-reason { -webkit-line-clamp: 3; font-size: 12px; line-height: 1.5; }
-  /* tighten subtitle dots on narrow viewport */
-  .signal-sub { font-size: 10px; gap: 2px 6px; }
-  /* region badge already implicit in subtitle — hide to reduce badge clutter */
-  .signal .badge-region { display: none; }
-
-  /* Feed bar */
-  .feed-bar { gap: 8px; flex-wrap: wrap; }
+  /* ── Feed bar ── */
+  .feed-bar { gap: 8px; flex-wrap: wrap; padding: 8px 0 12px; }
   .feed-bar-sort { margin-left: 0; width: 100%; }
   .sort-chip { flex: 1; text-align: center; }
 
-  /* Mobile drawer: full bottom sheet */
+  /* ══════════════════════════════════════════
+     SIGNAL CARD — stacked layout
+     Score pinned top-right, body full-width,
+     lead time as footer strip
+     ══════════════════════════════════════════ */
+  .signal {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  /* Score: compact badge top-right corner */
+  .signal-score {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 3px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    z-index: 2;
+  }
+  .signal-score-ring { display: none; }
+  .signal-score-num {
+    font-size: 20px;
+    line-height: 1;
+    margin-top: 0 !important;
+  }
+  .signal-score-num .unit { font-size: 9px; }
+  .signal-score-label {
+    font-size: 7.5px;
+    letter-spacing: 0.15em;
+    align-self: flex-end;
+    margin-bottom: 1px;
+  }
+
+  /* Body: full width, pad right to clear score badge */
+  .signal-body {
+    padding: 14px 68px 12px 14px;
+    min-width: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Fix: inline-block causes overflow — force block on mobile */
+  .signal-name {
+    display: block;
+    font-size: 17px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .signal-sub {
+    font-size: 10px;
+    gap: 2px 6px;
+    margin-top: 4px;
+    flex-wrap: wrap;
+  }
+
+  .signal-badges { margin-top: 8px; }
+  /* Hide region badge — info already in subtitle */
+  .signal .badge-region { display: none; }
+
+  .signal-reason {
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 1.55;
+    -webkit-line-clamp: 3;
+  }
+
+  /* Lead time: footer strip (restored from hidden) */
+  .signal-lead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 14px;
+    border-top: 1px solid var(--line-faint);
+    border-left: none;
+    background: rgba(255, 255, 255, 0.015);
+  }
+  .signal-lead > div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .signal-lead-label {
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+    font-size: 8px;
+  }
+  .signal-lead-big {
+    margin-top: 0;
+    line-height: 1;
+  }
+  .signal-lead-num { font-size: 20px; letter-spacing: -0.02em; }
+  .signal-lead-prefix { font-size: 13px; }
+  .signal-lead-unit { font-size: 11px; }
+  .signal-lead-big.no-lead .signal-lead-num {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-shadow: none;
+  }
+  /* Hide trace sparkline in footer — too small to read */
+  .signal-trace { display: none; }
+
+  /* ── Mobile drawer: full bottom sheet ── */
   .mobile-drawer {
     display: block;
     position: fixed;
@@ -1123,32 +1218,7 @@ body::after {
   }
   .mobile-drawer-content::-webkit-scrollbar { display: none; }
 
-  /* Dossier inside drawer: adjust sizes */
+  /* Dossier inside drawer */
   .mobile-drawer-content .dossier-name { font-size: 18px; }
   .mobile-drawer-content .signal-trace-big { height: 60px; }
-}
-
-/* ============================================================
-   EXTRA-NARROW — iPhone SE / small Android (≤390px)
-   ============================================================ */
-@media (max-width: 390px) {
-  .center { padding: 10px 10px 100px; }
-
-  /* Score column: tighter */
-  .signal { grid-template-columns: 56px 1fr; }
-  .signal-score { padding: 12px 8px; }
-  .signal-score-num { font-size: 20px; }
-  .signal-score-label { font-size: 7.5px; letter-spacing: 0.15em; }
-
-  /* Body: breathe a bit less */
-  .signal-body { padding: 10px 11px; }
-  .signal-name { font-size: 15px; }
-  .signal-sub { font-size: 9.5px; }
-
-  /* Badges: smaller padding so they stay on one line */
-  .badge { padding: 2px 5px; font-size: 8px; letter-spacing: 0.1em; }
-
-  /* KPI: compress height slightly */
-  .kpi { padding: 12px 10px 10px; }
-  .kpi-value-num { font-size: 30px; }
 }
