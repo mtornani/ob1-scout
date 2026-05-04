@@ -1047,83 +1047,102 @@ body::after {
   .sort-chip { flex: 1; text-align: center; }
 
   /* ══════════════════════════════════════════
-     SIGNAL CARD — stacked layout
-     Score pinned top-right, body full-width,
-     lead time as footer strip
+     SIGNAL CARD — mobile redesign
      ══════════════════════════════════════════ */
   .signal {
-    display: flex;
-    flex-direction: column;
+    display: block;
     position: relative;
+    overflow: hidden;
   }
 
-  /* Score: compact badge top-right corner */
+  /* Score: small badge pinned top-right */
   .signal-score {
     position: absolute;
-    top: 14px;
-    right: 14px;
-    flex-direction: row;
-    align-items: baseline;
-    gap: 3px;
+    top: 12px;
+    right: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
     padding: 0;
     border: none;
     background: transparent;
     z-index: 2;
+    width: 44px;
   }
   .signal-score-ring { display: none; }
   .signal-score-num {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1;
     margin-top: 0 !important;
+    text-align: center;
   }
-  .signal-score-num .unit { font-size: 9px; }
+  .signal-score-num .unit { display: none; }
   .signal-score-label {
-    font-size: 7.5px;
+    font-size: 7px;
     letter-spacing: 0.15em;
-    align-self: flex-end;
-    margin-bottom: 1px;
   }
 
-  /* Body: full width, constrained — score overlays top-right */
+  /* Body: block, full width, right padding for score badge */
   .signal-body {
-    padding: 14px 14px 12px 14px;
-    min-width: 0;
-    max-width: 100%;
-    overflow: hidden;
+    display: block;
+    padding: 12px 56px 10px 12px;
     box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
   }
 
-  /* Fix: inline-block causes overflow — force block on mobile */
   .signal-name {
     display: block;
-    font-size: 17px;
-    max-width: calc(100% - 60px); /* leave room for score badge */
+    font-size: 16px;
+    line-height: 1.2;
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
+    max-width: 100%;
+    margin-bottom: 4px;
   }
 
   .signal-sub {
+    display: block;
     font-size: 10px;
-    gap: 2px 6px;
-    margin-top: 4px;
-    flex-wrap: wrap;
-    max-width: calc(100% - 60px); /* leave room for score badge */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    margin-top: 0;
+    gap: 0;
+  }
+  /* remove ::after dots — using ellipsis instead */
+  .signal-sub span::after { display: none; }
+  .signal-sub span:not(:last-child)::after { display: none; }
+
+  .signal-badges {
+    margin-top: 6px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 4px;
+    overflow: hidden;
   }
 
-  .signal-badges { margin-top: 8px; }
-  /* Hide region badge — info already in subtitle */
+  /* Hide region badge */
   .signal .badge-region { display: none; }
 
+  /* ── THE FIX: kill -webkit-box entirely on mobile ── */
   .signal-reason {
-    margin-top: 8px;
+    display: block !important;
+    -webkit-line-clamp: unset !important;
+    -webkit-box-orient: unset !important;
+    overflow: hidden;
+    max-height: calc(1.5em * 3);
     font-size: 12px;
-    line-height: 1.55;
-    -webkit-line-clamp: 3;
-    /* force text to wrap inside container, never overflow */
+    line-height: 1.5;
+    margin-top: 8px;
     word-break: break-word;
     overflow-wrap: break-word;
+    white-space: normal;
     max-width: 100%;
+    box-sizing: border-box;
   }
 
   /* Lead time: footer strip (restored from hidden) */
