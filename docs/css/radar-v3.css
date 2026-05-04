@@ -1047,28 +1047,34 @@ body::after {
   .sort-chip { flex: 1; text-align: center; }
 
   /* ══════════════════════════════════════════
-     SIGNAL CARD — mobile redesign
+     SIGNAL CARD — 2-column grid layout
+     col1 = body (minmax 0,1fr), col2 = score (44px)
+     row1 = [body|score], row2 = lead strip
+     minmax(0,1fr) is the key: forces grid cell
+     to shrink so text never overflows.
      ══════════════════════════════════════════ */
   .signal {
-    display: block;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 44px;
+    grid-template-rows: auto auto;
+    grid-template-areas: "body score" "lead lead";
     position: relative;
     overflow: hidden;
   }
 
-  /* Score: small badge pinned top-right */
+  /* Score: right column, static (no absolute) */
   .signal-score {
-    position: absolute;
-    top: 12px;
-    right: 12px;
+    grid-area: score;
+    position: static;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1px;
-    padding: 0;
+    justify-content: flex-start;
+    padding: 14px 6px 0 4px;
     border: none;
     background: transparent;
-    z-index: 2;
-    width: 44px;
+    width: auto;
+    gap: 2px;
   }
   .signal-score-ring { display: none; }
   .signal-score-num {
@@ -1078,17 +1084,14 @@ body::after {
     text-align: center;
   }
   .signal-score-num .unit { display: none; }
-  .signal-score-label {
-    font-size: 7px;
-    letter-spacing: 0.15em;
-  }
+  .signal-score-label { font-size: 7px; letter-spacing: 0.12em; }
 
-  /* Body: block, full width, right padding for score badge */
+  /* Body: left column, min-width:0 forces proper containment */
   .signal-body {
+    grid-area: body;
     display: block;
-    padding: 12px 56px 10px 12px;
-    box-sizing: border-box;
-    width: 100%;
+    padding: 12px 8px 10px 12px;
+    min-width: 0;
     overflow: hidden;
   }
 
@@ -1099,7 +1102,6 @@ body::after {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 100%;
     margin-bottom: 4px;
   }
 
@@ -1109,49 +1111,44 @@ body::after {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 100%;
     margin-top: 0;
     gap: 0;
   }
-  /* remove ::after dots — using ellipsis instead */
   .signal-sub span::after { display: none; }
-  .signal-sub span:not(:last-child)::after { display: none; }
 
   .signal-badges {
     margin-top: 6px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 4px;
     overflow: hidden;
   }
 
-  /* Hide region badge */
   .signal .badge-region { display: none; }
 
-  /* ── THE FIX: kill -webkit-box entirely on mobile ── */
+  /* Narrative text: kill -webkit-box, use block+max-height */
   .signal-reason {
     display: block !important;
     -webkit-line-clamp: unset !important;
     -webkit-box-orient: unset !important;
     overflow: hidden;
-    max-height: calc(1.5em * 3);
+    max-height: 4.5em;
     font-size: 12px;
     line-height: 1.5;
     margin-top: 8px;
     word-break: break-word;
     overflow-wrap: break-word;
     white-space: normal;
-    max-width: 100%;
-    box-sizing: border-box;
   }
 
-  /* Lead time: footer strip (restored from hidden) */
+  /* Lead: footer row spanning both columns */
   .signal-lead {
+    grid-area: lead;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 14px;
+    padding: 8px 12px;
     border-top: 1px solid var(--line-faint);
     border-left: none;
     background: rgba(255, 255, 255, 0.015);
@@ -1167,10 +1164,7 @@ body::after {
     align-items: center;
     font-size: 8px;
   }
-  .signal-lead-big {
-    margin-top: 0;
-    line-height: 1;
-  }
+  .signal-lead-big { margin-top: 0; line-height: 1; }
   .signal-lead-num { font-size: 20px; letter-spacing: -0.02em; }
   .signal-lead-prefix { font-size: 13px; }
   .signal-lead-unit { font-size: 11px; }
@@ -1179,7 +1173,6 @@ body::after {
     letter-spacing: 0.1em;
     text-shadow: none;
   }
-  /* Hide trace sparkline in footer — too small to read */
   .signal-trace { display: none; }
 
   /* ── Mobile drawer: full bottom sheet ── */
