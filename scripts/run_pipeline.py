@@ -293,6 +293,16 @@ async def main_pipeline():
         if not player:
             logger.debug("Skipping anomaly with missing player_name")
             continue
+        # Reject placeholder names from Gemini (no real identification)
+        if any(kw in player.lower() for kw in ('non identificato', 'unknown', 'giocatore', 'jugador', 'player unknown', 'unnamed')):
+            logger.info(f"Skipping unidentified player: {player!r}")
+            continue
+        # Reject players under 15 or in U12/U13 leagues (not scouting targets)
+        age = anomaly.get('age')
+        league = (anomaly.get('league') or '').lower()
+        if (age and age < 15) or any(u in league for u in ('u12', 'u13', 'u-12', 'u-13')):
+            logger.info(f"Skipping too-young player: {player}, age={age}, league={anomaly.get('league')}")
+            continue
         base_score = anomaly.get('score', 0)
 
         is_ghost = not await enricher.check_transfermarkt(player)

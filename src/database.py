@@ -140,7 +140,10 @@ class OB1Database:
                     history = history[-20:]
 
                     new_count = (existing.get('detection_count') or 1) + 1
-                    best_score = max(score, existing.get('score') or 0)
+                    # Use weighted average: 70% current + 30% historical peak
+                    # Prevents scores from being permanently frozen at inflated values
+                    old_score = existing.get('score') or score
+                    best_score = round(score * 0.7 + old_score * 0.3, 1)
 
                     cursor.execute('''
                         UPDATE anomalies SET
