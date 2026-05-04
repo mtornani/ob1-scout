@@ -263,11 +263,13 @@ async def main_pipeline():
         elif result == 'updated':
             updated_count += 1
 
-    # 5. Telegram (only for NEW detections, not updates)
+    # 5. Telegram alerts
+    timestamp = datetime.now().strftime("%d/%m %H:%M")
+
     if new_detections:
-        timestamp = datetime.now().strftime("%d/%m %H:%M")
+        # Immediate alert for new players
         msg = f"<b>OB1 GLOBAL RADAR</b>  {timestamp}\n"
-        msg += f"{len(new_detections)} new detection{'s' if len(new_detections) > 1 else ''}"
+        msg += f"🆕 {len(new_detections)} new signal{'s' if len(new_detections) > 1 else ''}"
         if updated_count > 0:
             msg += f" + {updated_count} tracked"
         msg += "\n\n"
@@ -275,8 +277,25 @@ async def main_pipeline():
         msg += '\n\n<a href="https://mtornani.github.io/ob1-scout/">Open Dashboard</a>'
         send_telegram_notification(msg)
         logger.info(f"Run complete. {len(new_detections)} new, {updated_count} updated.")
-    elif updated_count > 0:
-        logger.info(f"Run complete. No new players, {updated_count} existing updated.")
+    else:
+        # Daily digest at 06:xx UTC — send top signals even with no new detections
+        current_hour = datetime.utcnow().hour
+        if current_hour == 6:
+            top_players = db.get_top_anomalies(limit=5)
+            if top_players:
+                msg = f"<b>OB1 RADAR — Daily Digest</b>  {timestamp}\n"
+                msg += f"No new signals. {updated_count} tracked. Top active:\n\n"
+                for p in top_players:
+                    name = p.get('player_name', '?')
+                    score = round(p.get('score', 0))
+                    region = p.get('region', '?')
+                    count = p.get('detection_count', 1)
+                    msg += f"• <b>{name}</b> [{region}] — {score}/100 ({count}x)\n"
+                msg += f'\n<a href="https://mtornani.github.io/ob1-scout/">Dashboard</a>'
+                send_telegram_notification(msg)
+                logger.info(f"Daily digest sent. {updated_count} updated.")
+        elif updated_count > 0:
+            logger.info(f"Run complete. No new players, {updated_count} existing updated.")
 
     # 6. Mainstream Lead Time check
     from scripts.check_mainstream import run_mainstream_check

@@ -1,0 +1,16 @@
+{
+  "name": "OB1 Global Radar",
+  "short_name": "OB1 Radar",
+  "description": "Football intelligence — early signal detection",
+  "start_url": "/ob1-scout/",
+  "display": "standalone",
+  "background_color": "#050607",
+  "theme_color": "#050607",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%23050607' stroke='%23ff2a3f' stroke-width='4'/><circle cx='50' cy='50' r='18' fill='none' stroke='%23ff2a3f' stroke-width='2'/></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

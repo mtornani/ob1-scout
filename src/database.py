@@ -191,6 +191,19 @@ class OB1Database:
             logger.error(f"Error adding anomaly: {e}")
             return False
 
+    def get_top_anomalies(self, limit=5):
+        """Return top anomalies by score for digest messages."""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute('''
+                SELECT player_name, score, region, detection_count
+                FROM anomalies
+                ORDER BY score DESC, detection_count DESC
+                LIMIT ?
+            ''', (limit,))
+            cols = ['player_name', 'score', 'region', 'detection_count']
+            return [dict(zip(cols, row)) for row in cursor.fetchall()]
+
     def get_tracked_players(self):
         """Get all players currently being tracked for Lead Time."""
         with self._get_connection() as conn:
