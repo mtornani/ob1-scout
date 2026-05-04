@@ -136,9 +136,9 @@ class OB1Enricher:
             return ""
 
     def calculate_asymmetry_score(self, base_score: float, is_ghost: bool) -> float:
-        """Boost score if the player is a 'Ghost' in the matrix."""
+        """Apply ghost bonus: +8 points flat (not 1.5x which collapsed all scores to 100)."""
         if is_ghost:
-            return min(100.0, base_score * 1.5)
+            return min(100.0, base_score + 8.0)
         return base_score
 
 

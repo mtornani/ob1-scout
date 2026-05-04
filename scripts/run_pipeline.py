@@ -34,6 +34,65 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
+_REGION_MAP = {
+    # Brazil variants
+    "brasile": "Brazil", "brasil": "Brazil", "brazil": "Brazil",
+    "south america (brazil)": "Brazil", "sud america (brasile)": "Brazil",
+    "america del sud (brasile)": "Brazil",
+    # South America
+    "sud america": "South America", "south america": "South America",
+    "sudamerica": "South America", "america del sud": "South America",
+    "sudamérica": "South America",
+    # Argentina
+    "argentina": "Argentina",
+    # Colombia
+    "colombia": "Colombia",
+    # Mexico
+    "messico": "Mexico", "mexico": "Mexico", "méxico": "Mexico",
+    "mexico/brazil": "Latin America",
+    # Africa
+    "africa": "Africa", "africa subsahariana": "Africa",
+    "west africa": "West Africa", "africa occidentale": "West Africa",
+    "east africa": "East Africa", "africa orientale": "East Africa",
+    "north africa": "North Africa", "africa del nord": "North Africa",
+    # Specific African countries
+    "nigeria": "Nigeria", "ghana": "Ghana", "senegal": "Senegal",
+    "côte d'ivoire": "Ivory Coast", "ivory coast": "Ivory Coast",
+    "morocco": "Morocco", "marocco": "Morocco", "egypt": "Egypt", "egitto": "Egypt",
+    # Asia
+    "asia": "Asia", "southeast asia": "Southeast Asia",
+    "japan": "Japan", "giappone": "Japan", "japon": "Japan",
+    "south korea": "South Korea", "corea del sud": "South Korea", "korea": "South Korea",
+    "china": "China", "cina": "China",
+    "thailand": "Thailand", "tailandia": "Thailand",
+    "vietnam": "Vietnam", "indonesia": "Indonesia",
+    # Europe
+    "europa": "Europe", "europe": "Europe",
+    "france": "France", "francia": "France",
+    "germany": "Germany", "germania": "Germany",
+    "england": "England", "inghilterra": "England",
+    "spain": "Spain", "spagna": "Spain",
+    "portugal": "Portugal", "portogallo": "Portugal",
+    "serbia": "Serbia", "croatia": "Croatia", "croazia": "Croatia",
+    "netherlands": "Netherlands", "paesi bassi": "Netherlands",
+    "scandinavia": "Scandinavia",
+}
+
+def normalize_region(raw: str) -> str:
+    if not raw:
+        return "Global"
+    key = raw.strip().lower()
+    # Direct match
+    if key in _REGION_MAP:
+        return _REGION_MAP[key]
+    # Substring match (longest key wins)
+    matches = [(k, v) for k, v in _REGION_MAP.items() if k in key]
+    if matches:
+        return max(matches, key=lambda x: len(x[0]))[1]
+    # Capitalize as-is if nothing matches
+    return raw.strip().title()
+
+
 def send_telegram_notification(message):
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         logger.warning("Telegram config missing. Skipping notification.")
@@ -164,15 +223,32 @@ async def main_pipeline():
     enricher = OB1Enricher()
 
     queries = [
-        "U17 breakout performance youth tournament 2026",
-        "Africa wonderkid talent scout report",
-        "rising star football news global underground",
+        # South America — Brazil
         "jovem promessa futebol sub-20 destaque gols 2026",
-        "revelação brasileirão série B scout report",
-        "joven promesa fútbol sudamericano debut goles",
-        "canterano revelación liga argentina 2026",
-        "jeune talent football africain repéré scout",
-        "موهبة كرة قدم شابة اكتشاف 2026"
+        "revelação brasileirão série B menor clube 2026 scout",
+        "talento copinha sub-17 gols desconhecido 2026",
+        # South America — Spanish
+        "joven promesa fútbol sudamericano debut goles 2026",
+        "canterano revelación liga argentina colombia chile 2026",
+        "jugador sub-20 colombia ecuador peru goles scout report",
+        # Africa
+        "Africa U17 U20 wonderkid talent scout 2026",
+        "Nigeria Ghana Senegal young football talent breakthrough 2026",
+        "jeune talent football africain AFCON CAF U20 2026",
+        "Morocco Egypt North Africa young football prospect scout",
+        # Asia
+        "Japan J-League U23 young talent breakthrough 2026",
+        "South Korea K-League young player debut scout report 2026",
+        "Southeast Asia football talent Thailand Vietnam Indonesia 2026",
+        "AFC U20 Asian Cup young prospect underrated 2026",
+        # Europe — hidden gems
+        "Eastern Europe Serbia Croatia Poland young talent scout 2026",
+        "Ligue 2 lower league France young prospect debut 2026",
+        "Portugal Primeira Liga B youth academy talent 2026",
+        "Scandinavia young football talent Norway Denmark Sweden 2026",
+        # Global / generic
+        "U17 U19 breakout performance lesser-known club 2026",
+        "football wonderkid transfer target undervalued scout 2026",
     ]
 
     # 1. Scrape
@@ -248,7 +324,7 @@ async def main_pipeline():
             source_url=matching_url,
             score=final_score,
             raw_content=enriched_reason,
-            region=anomaly.get('region', 'Global'),
+            region=normalize_region(anomaly.get('region', '')),
             age=anomaly.get('age'),
             position=anomaly.get('position'),
             club=anomaly.get('club'),

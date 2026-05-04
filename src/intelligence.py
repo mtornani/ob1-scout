@@ -129,32 +129,35 @@ PRIORITA' DI ANALISI:
 2. Cerca menzioni di statistiche concrete (gol, assist, minuti, prestazioni).
 3. Valuta il CONTESTO: sovraperformare in una squadra debole o lega minore vale di piu'.
 
-SCORING:
-- 85-100: Prestazioni eccezionali + zero presenza mainstream. "Fantasma totale".
-- 70-84: Talento confermato da dati concreti ma ancora sotto il radar internazionale.
-- 50-69: Menzione interessante ma dati insufficienti per confermare.
-- 0-49: Gia' noto al mainstream, nessuna asimmetria.
+SCORING — sii preciso, non inflazionare:
+- 88-100: Statistiche eccezionali documentate + ZERO visibilità internazionale. Massima rarità.
+- 75-87: Dati concreti (gol/assist/minuti) + club minore o lega secondaria. Asimmetria reale.
+- 60-74: Menzione con qualche dato, ma contesto incerto o club semi-noto.
+- 0-59: Già noto, trasferimento completato, o dati insufficienti per valutare.
 
-PENALIZZAZIONI:
-- Giocatori gia' in club top (Real Madrid, Man City, PSG, Bayern): score <= 20
-- Giocatori con trasferimenti > 10M gia' completati: score <= 30
+PENALIZZAZIONI obbligatorie:
+- Club top (Real Madrid, Man City, PSG, Bayern, Barcellona, Juventus): score <= 20
+- Trasferimento > €5M già completato: score <= 30
+- Giocatore già con pagina Wikipedia internazionale estesa: score <= 40
+
+USA lo score intero range — non dare 80+ a tutto. Un 65 è legittimo.
 
 Restituisci SOLO un JSON array:
 [
     {
-        "player_name": "Nome Completo",
+        "player_name": "Full Name",
         "age": 17,
-        "position": "CB/LW/CM/ST/GK/...",
-        "club": "Nome Club Attuale",
-        "league": "Nome Lega",
+        "position": "CB/LB/RB/CM/CAM/CDM/LW/RW/ST/GK",
+        "club": "Current Club Name",
+        "league": "League Name",
         "score": 0-100,
-        "reason": "Analisi tecnica basata sui dati trovati negli articoli...",
+        "reason": "Technical analysis based on found data...",
         "is_ghost": true/false,
-        "region": "Area geografica",
+        "region": "English canonical: Brazil / Argentina / Nigeria / Japan / South Korea / France / Serbia / etc.",
         "sources": ["URL1", "URL2"]
     }
 ]
-Se eta'/posizione/club non sono menzionati, usa null."""
+If age/position/club are not mentioned, use null."""
 
         try:
             # Bug 5: Transition to gemini-2.5-flash as suggested in official snippet
