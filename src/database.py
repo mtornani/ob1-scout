@@ -4,6 +4,17 @@ OB1 Global Scout - SQLite Database Module
 Handles storage of detected anomalies, player deduplication, tracking, and Lead Time.
 """
 
+# ============================================================
+# FREEZE PILOTA K-SPORT
+# Dal 27 maggio 2026 fino a fine pilota (~settembre 2026):
+# - NON modificare pesi
+# - NON modificare soglie HOT/WARM/COLD
+# - NON modificare formule di scoring
+# - NON cambiare backend LLM
+# Solo monitoring, alerting, sanity checks, presentazione UX.
+# Vincolo Karpathy attivo.
+# ============================================================
+
 import sqlite3
 import json
 import logging

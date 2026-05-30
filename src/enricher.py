@@ -5,6 +5,17 @@ Cross-references detected players with Transfermarkt via Serper site-search.
 Falls back to direct HTTP if Serper is unavailable.
 """
 
+# ============================================================
+# FREEZE PILOTA K-SPORT
+# Dal 27 maggio 2026 fino a fine pilota (~settembre 2026):
+# - NON modificare pesi
+# - NON modificare soglie HOT/WARM/COLD
+# - NON modificare formule di scoring
+# - NON cambiare backend LLM
+# Solo monitoring, alerting, sanity checks, presentazione UX.
+# Vincolo Karpathy attivo.
+# ============================================================
+
 import aiohttp
 import asyncio
 import json

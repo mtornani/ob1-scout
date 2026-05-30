@@ -28,6 +28,7 @@ GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
 # Telegram Notifications
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '')
 TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID', '')
+TELEGRAM_OFFICE_CHAT_ID = os.getenv('TELEGRAM_OFFICE_CHAT_ID', '')
 
 # Brave Search (fallback 3)
 BRAVE_API_KEY = os.getenv('BRAVE_API_KEY', '')
