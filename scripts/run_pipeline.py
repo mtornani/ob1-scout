@@ -4,6 +4,17 @@ OB1 Global Scout - Master Pipeline
 Orchestrates the entire global radar workflow.
 """
 
+# ============================================================
+# FREEZE PILOTA K-SPORT
+# Dal 27 maggio 2026 fino a fine pilota (~settembre 2026):
+# - NON modificare pesi
+# - NON modificare soglie HOT/WARM/COLD
+# - NON modificare formule di scoring
+# - NON cambiare backend LLM
+# Solo monitoring, alerting, sanity checks, presentazione UX.
+# Vincolo Karpathy attivo.
+# ============================================================
+
 import asyncio
 import logging
 import os
@@ -19,6 +30,7 @@ from src.scraper_global import AsyncGlobalScraper
 from src.database import OB1Database
 from src.intelligence import OB1Intelligence
 from src.enricher import OB1Enricher
+from src.notifier import admin_alert
 from config.ob1_config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
 
 LOG_DIR = Path(__file__).parent.parent / "logs"
@@ -251,10 +263,15 @@ async def main_pipeline():
         "football wonderkid transfer target undervalued scout 2026",
     ]
 
+    # (c) Fallback chain check — warn if primary search API is absent
+    if not os.getenv('SERPER_API_KEY', ''):
+        admin_alert("WARN", "scraper", "SERPER_API_KEY not configured — running on fallback chain (Tavily/SearXNG). Signal quality may be degraded.")
+
     # 1. Scrape
     raw_results = await scraper.run_batch(queries)
     if not raw_results:
         logger.warning("No results found in scraping. Run aborted.")
+        admin_alert("CRITICAL", "scraper", "Scraping returned 0 results — pipeline aborted. Check API keys and search engine availability.")
         return
 
     # 1b. Noise filter
@@ -281,6 +298,7 @@ async def main_pipeline():
     anomalies = intelligence.analyze_scraped_data(enriched_results)
     if not anomalies:
         logger.warning("No anomalies identified by Gemini.")
+        admin_alert("CRITICAL", "intelligence", "Gemini analysis returned 0 anomalies — pipeline aborted. Check GEMINI_API_KEY quota and File Search Store.")
         return
 
     # 4. Enrichment + Storage
@@ -361,7 +379,9 @@ async def main_pipeline():
         msg += "\n\n"
         msg += "\n\n----------\n\n".join(new_detections)
         msg += '\n\n<a href="https://mtornani.github.io/ob1-scout/">Open Dashboard</a>'
-        send_telegram_notification(msg)
+        ok = send_telegram_notification(msg)
+        if not ok:
+            admin_alert("ERROR", "telegram", f"User-facing alert failed — {len(new_detections)} detection(s) not delivered to teams.")
         logger.info(f"Run complete. {len(new_detections)} new, {updated_count} updated.")
     else:
         # Daily digest at 06:xx UTC — send top signals even with no new detections
@@ -378,7 +398,9 @@ async def main_pipeline():
                     count = p.get('detection_count', 1)
                     msg += f"• <b>{name}</b> [{region}] — {score}/100 ({count}x)\n"
                 msg += f'\n<a href="https://mtornani.github.io/ob1-scout/">Dashboard</a>'
-                send_telegram_notification(msg)
+                ok = send_telegram_notification(msg)
+                if not ok:
+                    admin_alert("ERROR", "telegram", "Daily digest Telegram send failed.")
                 logger.info(f"Daily digest sent. {updated_count} updated.")
         elif updated_count > 0:
             logger.info(f"Run complete. No new players, {updated_count} existing updated.")

@@ -33,6 +33,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_OFFICE_CHAT_ID: ${{ secrets.TELEGRAM_OFFICE_CHAT_ID }}
           PYTHONPATH: ${{ github.workspace }}
         run: python scripts/run_pipeline.py
 
@@ -49,3 +50,10 @@ jobs:
           git commit -m "Update Radar Memex: $(date)" || echo "No changes to commit"
           git pull --rebase origin main
           git push
+
+      - name: Sanity Check — Verifica output post-pipeline
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OFFICE_CHAT_ID: ${{ secrets.TELEGRAM_OFFICE_CHAT_ID }}
+          PYTHONPATH: ${{ github.workspace }}
+        run: python scripts/sanity_check.py

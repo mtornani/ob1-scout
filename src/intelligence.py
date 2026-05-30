@@ -4,6 +4,17 @@ OB1 Global Scout - Intelligence Engine
 Powered by Gemini to analyze raw intelligence and identify deep-context anomalies.
 """
 
+# ============================================================
+# FREEZE PILOTA K-SPORT
+# Dal 27 maggio 2026 fino a fine pilota (~settembre 2026):
+# - NON modificare pesi
+# - NON modificare soglie HOT/WARM/COLD
+# - NON modificare formule di scoring
+# - NON cambiare backend LLM
+# Solo monitoring, alerting, sanity checks, presentazione UX.
+# Vincolo Karpathy attivo.
+# ============================================================
+
 import logging
 import json
 import time
@@ -12,6 +23,7 @@ from datetime import datetime
 from google import genai
 from google.genai import types
 from config.ob1_config import GEMINI_API_KEY
+from src.notifier import admin_alert
 
 # Setup logging
 logger = logging.getLogger(__name__)
@@ -112,7 +124,7 @@ class OB1Intelligence:
         store_name = self.ingest_data(data_samples)
         if not store_name:
             logger.warning("Falling back to basic prompt due to ingestion failure.")
-            # Basic fallback if needed, but we aim for RAG
+            admin_alert("ERROR", "intelligence/ingest", "Gemini File Search Store upload failed — analysis aborted. Check GEMINI_API_KEY and File Search Store quota.")
             return []
 
         # 2. Query with File Search tool
@@ -178,6 +190,7 @@ If age/position/club are not mentioned, use null."""
 
             if not results:
                 logger.warning(f"Could not parse JSON from response ({len(text)} chars)")
+                admin_alert("WARN", "intelligence/parse", f"Gemini JSON parse failed — response was {len(text)} chars. Anomaly detection skipped for this run.")
                 return []
 
             return results
