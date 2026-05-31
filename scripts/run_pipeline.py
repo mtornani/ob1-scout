@@ -263,10 +263,6 @@ async def main_pipeline():
         "football wonderkid transfer target undervalued scout 2026",
     ]
 
-    # (c) Fallback chain check — warn if primary search API is absent
-    if not os.getenv('SERPER_API_KEY', ''):
-        admin_alert("WARN", "scraper", "SERPER_API_KEY not configured — running on fallback chain (Tavily/SearXNG). Signal quality may be degraded.")
-
     # 1. Scrape
     raw_results = await scraper.run_batch(queries)
     if not raw_results:
