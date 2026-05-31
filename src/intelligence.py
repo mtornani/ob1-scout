@@ -17,19 +17,15 @@ Powered by Gemini to analyze raw intelligence and identify deep-context anomalie
 
 import logging
 import json
-import time
-from pathlib import Path
-from datetime import datetime
 from google import genai
 from google.genai import types
 from config.ob1_config import GEMINI_API_KEY
 from src.notifier import admin_alert
 
-# Setup logging
 logger = logging.getLogger(__name__)
 
+
 class OB1Intelligence:
-    STORE_NAME = "ob1-global-radar-kb"
 
     def __init__(self):
         if not GEMINI_API_KEY:
@@ -37,24 +33,10 @@ class OB1Intelligence:
             self.client = None
         else:
             self.client = genai.Client(api_key=GEMINI_API_KEY)
-            self.model_id = 'gemini-2.0-flash'
-
-    def _get_or_create_store(self):
-        """Retrieve or create the persistent File Search Store."""
-        try:
-            stores = list(self.client.file_search_stores.list())
-            for s in stores:
-                if self.STORE_NAME in s.display_name:
-                    return s
-        except Exception:
-            pass
-        
-        logger.info(f"Creating new File Search Store: {self.STORE_NAME}")
-        return self.client.file_search_stores.create(config={'display_name': self.STORE_NAME})
 
     @staticmethod
     def _extract_first_json_array(text: str) -> list:
-        """Extract the first balanced JSON array from text (handles duplicated/thinking output)."""
+        """Extract the first balanced JSON array from text."""
         try:
             start = text.index('[')
         except ValueError:
@@ -72,69 +54,34 @@ class OB1Intelligence:
                     return []
         return []
 
-    def ingest_data(self, data_samples: list):
-        """Upload raw scraped data as a markdown file to the RAG store."""
-        if not self.client or not data_samples:
-            return None
-
-        store = self._get_or_create_store()
-        
-        # Prepare content — mark deep-read articles for richer analysis
-        lines = [f"# OB1 Radar Intelligence Update - {datetime.now().isoformat()}", ""]
-        for item in data_samples:
-            is_deep = item.get('deep_read', False)
-            tag = "[FULL ARTICLE]" if is_deep else "[SNIPPET]"
-            lines.append(f"## {tag} {item.get('title', 'Unknown Title')}")
-            lines.append(f"URL: {item.get('url', 'N/A')}")
-            lines.append(f"Content: {item.get('content', '')}")
-            lines.append("\n---")
-        
-        content = "\n".join(lines)
-        temp_path = Path(__file__).parent.parent / "data" / f"ingest_{int(time.time())}.md"
-        temp_path.parent.mkdir(exist_ok=True)
-        temp_path.write_text(content, encoding='utf-8')
-
-        try:
-            logger.info(f"Uploading {len(data_samples)} signals to Gemini File Search...")
-            operation = self.client.file_search_stores.upload_to_file_search_store(
-                file=str(temp_path),
-                file_search_store_name=store.name,
-                config={'mime_type': 'text/plain'}
-            )
-            # Wait for processing
-            while not operation.done:
-                time.sleep(1)
-                operation = self.client.operations.get(operation)
-            return store.name
-        except Exception as e:
-            logger.error(f"Ingestion failed: {e}")
-            return None
-        finally:
-            if temp_path.exists():
-                temp_path.unlink()
-
-    def analyze_scraped_data(self, data_samples: list):
+    def analyze_scraped_data(self, data_samples: list) -> list:
         """
-        Analyze anomalies using True RAG (Gemini File Search).
+        Analyze scraped signals via Gemini direct context injection.
+        No File Search Store — content passed directly in the prompt.
         """
         if not self.client:
             return []
-
-        # 1. Ingest latest data into the store (Bug 5: Real RAG)
-        store_name = self.ingest_data(data_samples)
-        if not store_name:
-            logger.warning("Falling back to basic prompt due to ingestion failure.")
-            admin_alert("ERROR", "intelligence/ingest", "Gemini File Search Store upload failed — analysis aborted. Check GEMINI_API_KEY and File Search Store quota.")
+        if not data_samples:
+            logger.warning("No data samples to analyze.")
             return []
 
-        # 2. Query with File Search tool
+        # Build context — mark deep-read articles for richer analysis
+        lines = []
+        for item in data_samples:
+            tag = "[FULL ARTICLE]" if item.get('deep_read') else "[SNIPPET]"
+            lines.append(f"## {tag} {item.get('title', 'Unknown Title')}")
+            lines.append(f"URL: {item.get('url', 'N/A')}")
+            lines.append(f"Content: {item.get('content', '')}")
+            lines.append("---")
+        context = "\n".join(lines)
+
         system_instruction = """Sei il Direttore Sportivo del sistema OB1 Radar. Analizzi intelligence calcistica globale per identificare talenti Under 20 con MASSIMA ASIMMETRIA INFORMATIVA — giocatori il cui valore reale supera di gran lunga la loro visibilità mediatica.
 
-Hai accesso a documenti nel File Search Store. Alcuni sono articoli completi [FULL ARTICLE], altri sono snippet brevi [SNIPPET]. Dai MOLTO PIU' PESO agli articoli completi perché contengono dettagli tattici, statistiche e contesto che gli snippet non hanno.
+Alcuni articoli sono completi [FULL ARTICLE], altri sono snippet brevi [SNIPPET]. Dai MOLTO PIU' PESO agli articoli completi perché contengono dettagli tattici, statistiche e contesto che gli snippet non hanno.
 
 Ragiona come un DS che cerca valore nascosto, non hype."""
 
-        prompt = """Analizza i documenti. Cerca giocatori Under 20 promettenti.
+        prompt = f"""Analizza i seguenti segnali. Cerca giocatori Under 20 promettenti.
 
 PRIORITA' DI ANALISI:
 1. Dai precedenza ai documenti [FULL ARTICLE] — contengono dettagli reali.
@@ -156,7 +103,7 @@ USA lo score intero range — non dare 80+ a tutto. Un 65 è legittimo.
 
 Restituisci SOLO un JSON array:
 [
-    {
+    {{
         "player_name": "Full Name",
         "age": 17,
         "position": "CB/LB/RB/CM/CAM/CDM/LW/RW/ST/GK",
@@ -167,24 +114,24 @@ Restituisci SOLO un JSON array:
         "is_ghost": true/false,
         "region": "English canonical: Brazil / Argentina / Nigeria / Japan / South Korea / France / Serbia / etc.",
         "sources": ["URL1", "URL2"]
-    }
+    }}
 ]
-If age/position/club are not mentioned, use null."""
+If age/position/club are not mentioned, use null.
+
+--- SEGNALI ---
+{context}"""
 
         try:
-            # Bug 5: Transition to gemini-2.5-flash as suggested in official snippet
             response = self.client.models.generate_content(
                 model='gemini-2.5-flash',
                 contents=prompt,
                 config=types.GenerateContentConfig(
                     system_instruction=system_instruction,
-                    tools=[types.Tool(file_search=types.FileSearch(file_search_store_names=[store_name]))],
                     temperature=0.2,
                     max_output_tokens=16384
                 )
             )
-            
-            # Parse the first complete JSON array using balanced brackets
+
             text = response.text.replace('```json', '').replace('```', '').strip()
             results = self._extract_first_json_array(text)
 
@@ -198,9 +145,9 @@ If age/position/club are not mentioned, use null."""
             logger.error(f"Intelligence analysis failed: {e}")
             return []
 
+
 if __name__ == "__main__":
     intelligence = OB1Intelligence()
-    # Test data
     samples = [
         {"title": "Mora shines in Tijuana", "content": "15-year old Gilberto Mora scored a brace in his debut.", "url": "local-mx-news.com/123"}
     ]
