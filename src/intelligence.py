@@ -137,7 +137,7 @@ If age/position/club are not mentioned, use null.
 
             if not results:
                 logger.warning(f"Could not parse JSON from response ({len(text)} chars)")
-                admin_alert("WARN", "intelligence/parse", f"Gemini JSON parse failed — response was {len(text)} chars. Anomaly detection skipped for this run.")
+                admin_alert("WARN", "intelligence/parse", f"Gemini JSON parse failed — response was {len(text)} chars (expected JSON array). Anomaly detection skipped for this run.")
                 return []
 
             return results

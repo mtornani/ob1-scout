@@ -294,7 +294,7 @@ async def main_pipeline():
     anomalies = intelligence.analyze_scraped_data(enriched_results)
     if not anomalies:
         logger.warning("No anomalies identified by Gemini.")
-        admin_alert("CRITICAL", "intelligence", "Gemini analysis returned 0 anomalies — pipeline aborted. Check GEMINI_API_KEY quota and File Search Store.")
+        admin_alert("CRITICAL", "intelligence", "Gemini analysis returned 0 anomalies — pipeline aborted. Check GEMINI_API_KEY quota and content quality from scraper.")
         return
 
     # 4. Enrichment + Storage

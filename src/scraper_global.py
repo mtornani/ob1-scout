@@ -22,7 +22,7 @@ import logging
 from pathlib import Path
 from datetime import datetime
 
-from duckduckgo_search import DDGS
+from ddgs import DDGS
 from config.ob1_config import SEARXNG_INSTANCES, TIMEOUT_SECONDS
 
 LOG_DIR = Path(__file__).parent.parent / "logs"
@@ -36,6 +36,7 @@ class AsyncGlobalScraper:
     def __init__(self):
         self.searxng_instances = SEARXNG_INSTANCES
         self.timeout = aiohttp.ClientTimeout(total=TIMEOUT_SECONDS)
+        self.ddg_semaphore = asyncio.Semaphore(1)
 
     def _fetch_duckduckgo(self, query: str, max_results: int = 5) -> list:
         """DuckDuckGo search. Sync — called via asyncio.to_thread."""
@@ -56,7 +57,7 @@ class AsyncGlobalScraper:
             async with session.get(f"{instance}/search", params=params,
                                    headers=headers, timeout=self.timeout) as resp:
                 if resp.status == 200:
-                    data = await resp.json()
+                    data = await resp.json(content_type=None)
                     results = data.get('results', [])
                     logger.debug(f"[SearXNG] {len(results)} results for: {query}")
                     return results
@@ -67,7 +68,9 @@ class AsyncGlobalScraper:
 
     async def search_query(self, query: str) -> list:
         """DuckDuckGo primary, SearXNG fallback."""
-        raw = await asyncio.to_thread(self._fetch_duckduckgo, query)
+        async with self.ddg_semaphore:
+            raw = await asyncio.to_thread(self._fetch_duckduckgo, query)
+            await asyncio.sleep(1.0)
 
         if not raw:
             async with aiohttp.ClientSession() as session:
@@ -108,20 +111,23 @@ class AsyncGlobalScraper:
         extracted = {}
         headers = {'Accept': 'text/plain', 'User-Agent': 'OB1-Scout/2.0'}
 
+        async def fetch_url(session: aiohttp.ClientSession, url: str) -> tuple[str, str | None]:
+            try:
+                async with session.get(f"{JINA_BASE}{url}", headers=headers,
+                                       timeout=aiohttp.ClientTimeout(total=30)) as resp:
+                    if resp.status == 200:
+                        text = await resp.text()
+                        if text.strip():
+                            logger.debug(f"[Jina] OK: {url}")
+                            return url, text[:1500]
+                    logger.debug(f"[Jina] HTTP {resp.status}: {url}")
+            except Exception as e:
+                logger.debug(f"[Jina] Failed {url}: {e}")
+            return url, None
+
         async with aiohttp.ClientSession() as session:
-            for url in unique_urls:
-                try:
-                    async with session.get(f"{JINA_BASE}{url}", headers=headers,
-                                           timeout=aiohttp.ClientTimeout(total=30)) as resp:
-                        if resp.status == 200:
-                            text = await resp.text()
-                            if text.strip():
-                                extracted[url] = text[:1500]
-                                logger.debug(f"[Jina] OK: {url}")
-                        else:
-                            logger.debug(f"[Jina] HTTP {resp.status}: {url}")
-                except Exception as e:
-                    logger.debug(f"[Jina] Failed {url}: {e}")
+            pairs = await asyncio.gather(*[fetch_url(session, u) for u in unique_urls])
+            extracted = {url: text for url, text in pairs if text is not None}
 
         logger.info(f"Deep-read complete: {len(extracted)}/{len(unique_urls)} articles extracted.")
         return extracted
