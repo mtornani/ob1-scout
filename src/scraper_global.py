@@ -36,7 +36,13 @@ class AsyncGlobalScraper:
     def __init__(self):
         self.searxng_instances = SEARXNG_INSTANCES
         self.timeout = aiohttp.ClientTimeout(total=TIMEOUT_SECONDS)
-        self.ddg_semaphore = asyncio.Semaphore(1)
+        self._ddg_semaphore = None
+
+    @property
+    def ddg_semaphore(self) -> asyncio.Semaphore:
+        if self._ddg_semaphore is None:
+            self._ddg_semaphore = asyncio.Semaphore(1)
+        return self._ddg_semaphore
 
     def _fetch_duckduckgo(self, query: str, max_results: int = 5) -> list:
         """DuckDuckGo search. Sync — called via asyncio.to_thread."""
