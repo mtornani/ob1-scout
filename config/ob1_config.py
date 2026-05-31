@@ -11,6 +11,7 @@ load_dotenv()
 
 # API Keys
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
+SERPER_API_KEY = os.getenv('SERPER_API_KEY', '')
 
 # Telegram
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '')
