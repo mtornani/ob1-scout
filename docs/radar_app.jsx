@@ -64,8 +64,10 @@ function Shell() {
 
   const selected = filtered.find(a => a.id === selectedId) || filtered[0];
 
-  const now = new Date();
-  const nowStr = now.toLocaleTimeString("it-IT", { hour: "2-digit", minute: "2-digit", timeZone: "UTC" }) + " UTC";
+  const nowStr = useMemo(() => {
+    const now = new Date();
+    return now.toLocaleTimeString("it-IT", { hour: "2-digit", minute: "2-digit", timeZone: "UTC" }) + " UTC";
+  }, []);
 
   return (
     <div className="shell" data-screen-label="01 Radar Console">

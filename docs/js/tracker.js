@@ -13,7 +13,6 @@
 
   if (!TRACK_URL) return;
 
-  let sessionStart = Date.now();
   let activeSeconds = 0;
   let lastVisible = Date.now();
   let playersSeen = [];
@@ -55,7 +54,7 @@
       screen: d.screen,
       lang: d.lang,
       tz: d.tz,
-      ref: document.referrer ? new URL(document.referrer).hostname : "diretto",
+      ref: (function () { try { return document.referrer ? new URL(document.referrer).hostname : "diretto"; } catch (_) { return "diretto"; } })(),
       ...extra,
     };
     try {
