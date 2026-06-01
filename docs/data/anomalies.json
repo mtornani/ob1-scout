@@ -208,38 +208,38 @@
     "detection_count": 23,
     "score_history": "[{\"score\": 70, \"date\": \"2026-03-02T12:59:44.634481\"}, {\"score\": 80, \"date\": \"2026-03-03T12:58:49.819470\"}, {\"score\": 70, \"date\": \"2026-03-05T06:54:08.647598\"}, {\"score\": 70, \"date\": \"2026-03-05T19:18:13.960997\"}, {\"score\": 75, \"date\": \"2026-03-06T06:51:35.621986\"}, {\"score\": 72, \"date\": \"2026-03-07T08:58:40.935742\"}, {\"score\": 75, \"date\": \"2026-03-07T12:48:09.777522\"}, {\"score\": 78, \"date\": \"2026-03-07T18:35:11.375492\"}, {\"score\": 72, \"date\": \"2026-03-08T02:07:34.535579\"}, {\"score\": 72, \"date\": \"2026-03-08T06:43:30.698534\"}, {\"score\": 70, \"date\": \"2026-03-09T13:04:29.005725\"}, {\"score\": 88, \"date\": \"2026-03-10T13:01:52.996646\"}, {\"score\": 78, \"date\": \"2026-03-10T18:48:20.294168\"}, {\"score\": 78, \"date\": \"2026-03-11T02:00:52.321082\"}, {\"score\": 80, \"date\": \"2026-03-11T18:54:29.068438\"}, {\"score\": 78, \"date\": \"2026-03-12T02:07:12.637768\"}, {\"score\": 75, \"date\": \"2026-03-12T06:56:55.320684\"}, {\"score\": 80, \"date\": \"2026-03-15T18:40:14.250965\"}, {\"score\": 85, \"date\": \"2026-03-17T19:03:23.780348\"}, {\"score\": 82, \"date\": \"2026-03-18T02:11:26.549712\"}]",
     "source_count": 1,
-    "lead_time_days": null,
+    "lead_time_days": 91,
     "ob1_detection_date": "2026-03-01T19:00:00.487652",
-    "mainstream_source": null,
+    "mainstream_source": "https://www.lequipe.fr/fiche/kauan-toledo/143344",
     "sources": [
       "https://www.lance.com.br/botafogo/botafogo-colhe-bons-frutos-com-jovens-da-base-no-campeonato-carioca.html"
     ]
   },
   {
-    "id": 24,
-    "player_name": "Ryan Evaristo",
-    "detection_date": "2026-03-01 17:34:20",
-    "source_url": "https://www.instagram.com/p/DVRpeUHDlup/",
-    "score": 86.3,
-    "raw_content": "Attaccante ingaggiato dal Corinthians U20 dal Boavista, dove era considerato un 'highlight'. Mancano statistiche concrete per una valutazione più alta, ma la sua acquisizione da parte di un grande club brasiliano per la sua squadra giovanile è un segnale di potenziale.\n\nStats: Ryan Evaristo de Oliveira football player profile displays all matches and competitions with statistics for all the matches Ryan Evaristo de Oliveira played in. | ... Ryan Evaristo de Oliveira, Bernardo Ferreira, Vittorio Fregonese, João ... goal scorers and assistants, cards, substitutions, and match statistics. | Ryan Evaristo de Oliveira 51'. Pedro Cantarin Carrijo 42', 36'. Details ... goal scorers and assistants, cards, substitutions, and match statistics.",
-    "region": "Brazil",
+    "id": 45,
+    "player_name": "Londoño",
+    "detection_date": "2026-06-01 04:04:28",
+    "source_url": "https://chile.as.com/futbol/es-la-gran-promesa-de-colombia-y-llegara-al-futbol-chileno-17-anos-y-goleador-del-sudamericano-f202601-n/",
+    "score": 85.0,
+    "raw_content": "A 17-year-old Colombian striker, described as a 'gran promesa'. He was the second top scorer in the Sudamericano U17 2025 with 5 goals in 6 matches and scored 1 goal in 4 matches at the U17 World Cup. These are excellent concrete statistics at international youth level. His upcoming move to Chilean football (a secondary league) suggests real informational asymmetry, as he's known in South America but not yet globally, and not moving to a top-tier European club.\n\nStats: 2026. Primera A. Libertadores. MP. 11. 4. Min. 883. 360. Gls. 1. 0. Ast. 0. 0. * see our coverage note. Daniel Londoño Overview; More Daniel Londoño Pages. | This is the goal statistic of Atlético Bucaramanga player Kevin Londoño, which gives a detailed view on the goals the player has scored. | Stats of Daniel Londoño 2026. Competition. Appearances. Goals. Assists. Minutes per goal. Minutes. Logo Liga DIMAYOR I Liga DIMAYOR I · 2. -. -. -. 121 ...",
+    "region": "Colombia",
     "status": "detected",
     "age": 17,
-    "position": "Attacker",
-    "club": "Corinthians U20",
-    "league": "Brazilian U20 competitions",
-    "stats_summary": "Ryan Evaristo de Oliveira football player profile displays all matches and competitions with statistics for all the matches Ryan Evaristo de Oliveira played in. | ... Ryan Evaristo de Oliveira, Bernardo Ferreira, Vittorio Fregonese, João ... goal scorers and assistants, cards, substitutions, and match statistics. | Ryan Evaristo de Oliveira 51'. Pedro Cantarin Carrijo 42', 36'. Details ... goal scorers and assistants, cards, substitutions, and match statistics.",
-    "is_ghost": 1,
-    "first_detected": "2026-03-01T18:34:20.455948",
-    "last_seen": "2026-03-20T02:06:52.245529",
-    "detection_count": 47,
-    "score_history": "[{\"score\": 82.5, \"date\": \"2026-03-10T18:48:17.648871\"}, {\"score\": 82.5, \"date\": \"2026-03-11T18:54:36.464946\"}, {\"score\": 82.5, \"date\": \"2026-03-12T02:07:10.108963\"}, {\"score\": 90.0, \"date\": \"2026-03-12T06:56:52.400583\"}, {\"score\": 90.0, \"date\": \"2026-03-13T06:55:16.516837\"}, {\"score\": 97.5, \"date\": \"2026-03-13T12:59:43.788709\"}, {\"score\": 75.0, \"date\": \"2026-03-14T02:02:00.179135\"}, {\"score\": 75.0, \"date\": \"2026-03-14T12:52:53.242806\"}, {\"score\": 82.5, \"date\": \"2026-03-14T18:39:43.643139\"}, {\"score\": 82.5, \"date\": \"2026-03-15T06:58:32.463401\"}, {\"score\": 75, \"date\": \"2026-03-15T12:54:53.227884\"}, {\"score\": 90.0, \"date\": \"2026-03-15T18:40:22.005746\"}, {\"score\": 82.5, \"date\": \"2026-03-16T07:18:33.804452\"}, {\"score\": 82.5, \"date\": \"2026-03-16T13:13:55.305026\"}, {\"score\": 90.0, \"date\": \"2026-03-17T02:07:20.082196\"}, {\"score\": 97.5, \"date\": \"2026-03-17T19:03:19.251324\"}, {\"score\": 78, \"date\": \"2026-03-17T19:03:25.327786\"}, {\"score\": 87.0, \"date\": \"2026-03-18T02:11:31.946365\"}, {\"score\": 72, \"date\": \"2026-03-18T19:00:44.593973\"}, {\"score\": 82.5, \"date\": \"2026-03-20T02:06:52.245529\"}]",
+    "position": "ST",
+    "club": "Unnamed Chilean club (future)",
+    "league": "Chilean Primera División (future)",
+    "stats_summary": "2026. Primera A. Libertadores. MP. 11. 4. Min. 883. 360. Gls. 1. 0. Ast. 0. 0. * see our coverage note. Daniel Londoño Overview; More Daniel Londoño Pages. | This is the goal statistic of Atlético Bucaramanga player Kevin Londoño, which gives a detailed view on the goals the player has scored. | Stats of Daniel Londoño 2026. Competition. Appearances. Goals. Assists. Minutes per goal. Minutes. Logo Liga DIMAYOR I Liga DIMAYOR I · 2. -. -. -. 121 ...",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T04:04:28.693036",
+    "last_seen": "2026-06-01T04:04:28.693036",
+    "detection_count": 1,
+    "score_history": "[{\"score\": 85, \"date\": \"2026-06-01T04:04:28.693036\"}]",
     "source_count": 1,
     "lead_time_days": 0,
-    "ob1_detection_date": "2026-03-01T18:34:20.455948",
-    "mainstream_source": "https://www.bbc.com/audio/play/m001r17h",
+    "ob1_detection_date": "2026-06-01T04:04:28.693036",
+    "mainstream_source": "https://espndeportes.espn.com/video/clip/_/id/16768225",
     "sources": [
-      "https://www.instagram.com/p/DVRpeUHDlup/"
+      "https://chile.as.com/futbol/es-la-gran-promesa-de-colombia-y-llegara-al-futbol-chileno-17-anos-y-goleador-del-sudamericano-f202601-n/"
     ]
   },
   {
@@ -316,9 +316,9 @@
     "detection_count": 10,
     "score_history": "[{\"score\": 70, \"date\": \"2026-03-01T18:34:35.133698\"}, {\"score\": 70, \"date\": \"2026-03-01T18:44:28.350484\"}, {\"score\": 70, \"date\": \"2026-03-01T19:00:05.019942\"}, {\"score\": 70, \"date\": \"2026-03-02T06:59:14.366854\"}, {\"score\": 70, \"date\": \"2026-03-03T02:09:05.148993\"}, {\"score\": 70, \"date\": \"2026-03-03T12:58:54.100784\"}, {\"score\": 70, \"date\": \"2026-03-05T13:01:39.367629\"}, {\"score\": 85, \"date\": \"2026-03-09T13:04:34.960893\"}, {\"score\": 70, \"date\": \"2026-03-14T12:52:57.407272\"}]",
     "source_count": 1,
-    "lead_time_days": null,
+    "lead_time_days": 91,
     "ob1_detection_date": "2026-03-01T17:37:35.992716",
-    "mainstream_source": null,
+    "mainstream_source": "https://www.lequipe.fr/fiche/mateus-romero/128870",
     "sources": [
       "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-mineiro/atletico/atletico-encaminha-contratacao-de-jogador-semifinalista-da-copinha-para-o-sub-20"
     ]
@@ -429,6 +429,33 @@
     "mainstream_source": "https://espndeportes.espn.com/futbol/jugador/_/id/410817/noah-saviolo",
     "sources": [
       "https://www.instagram.com/p/DVQklRbCPOg/"
+    ]
+  },
+  {
+    "id": 44,
+    "player_name": "Davi Lima",
+    "detection_date": "2026-06-01 04:04:27",
+    "source_url": "https://ge.globo.com/futebol/copa-sp-de-futebol-junior/",
+    "score": 80.0,
+    "raw_content": "A 17-year-old center-back who was a 'destaque' (standout) in the last Copinha. Crucially, he made history as the first transfer from a club founded just over a year ago, indicating significant hidden value and high informational asymmetry. His transfer to a Portuguese club (not a top-5 league) suggests a promising but not yet globally visible trajectory. Good age for development.\n\nStats: Davi Leopoldo Tavares Grisoto Lima stats, ratings and goals. davi-lima. Davi ... goals, assists, cards and other relevant data are also displayed. About ... | Davi Lima e Silva Venturini football player profile displays all matches and competitions with statistics for all the matches Davi Lima e Silva Venturini played ... | -. Davi Lima Mittelfeld · SC Humaitá. free transfer. Anthony Goalkeeper · Fortaleza EC U20. loan transfer. All departures. Stats & facts. Go to club ...",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 17,
+    "position": "CB",
+    "club": "Unnamed Portuguese club",
+    "league": "Portuguese League (implied)",
+    "stats_summary": "Davi Leopoldo Tavares Grisoto Lima stats, ratings and goals. davi-lima. Davi ... goals, assists, cards and other relevant data are also displayed. About ... | Davi Lima e Silva Venturini football player profile displays all matches and competitions with statistics for all the matches Davi Lima e Silva Venturini played ... | -. Davi Lima Mittelfeld · SC Humaitá. free transfer. Anthony Goalkeeper · Fortaleza EC U20. loan transfer. All departures. Stats & facts. Go to club ...",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T04:04:27.385838",
+    "last_seen": "2026-06-01T04:04:27.385838",
+    "detection_count": 1,
+    "score_history": "[{\"score\": 80, \"date\": \"2026-06-01T04:04:27.385838\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-01T04:04:27.385838",
+    "mainstream_source": null,
+    "sources": [
+      "https://ge.globo.com/futebol/copa-sp-de-futebol-junior/"
     ]
   },
   {
@@ -559,11 +586,38 @@
     "detection_count": 1,
     "score_history": "[{\"score\": 78, \"date\": \"2026-03-20T02:06:56.795449\"}]",
     "source_count": 1,
-    "lead_time_days": null,
+    "lead_time_days": 73,
     "ob1_detection_date": "2026-03-20T02:06:56.795449",
-    "mainstream_source": null,
+    "mainstream_source": "https://www.espn.com/soccer/player/stats/_/id/300729/josmar-acosta",
     "sources": [
       "https://www.instagram.com/p/DWB9qN6AKT9/"
+    ]
+  },
+  {
+    "id": 24,
+    "player_name": "Ryan Evaristo",
+    "detection_date": "2026-03-01 17:34:20",
+    "source_url": "https://www.instagram.com/p/DVRpeUHDlup/",
+    "score": 74.9,
+    "raw_content": "Top scorer of Copinha 2025 with 10 goals, a significant achievement in a major Brazilian youth tournament. Aged 19 in 2026, he demonstrates concrete goal-scoring ability. While São Paulo is a prominent club, he is not yet a global star, offering some asymmetry. However, his status as a top scorer in Copinha means he's already well-known within Brazilian youth football circles.\n\nStats: These are the detailed performance data of FC São Paulo player Ryan Francisco. The website contains a statistic about the performance data of the player. | This is the performance data of Ryan Francisco from FC São Paulo. This page contains the data (goals, cards, etc.) of a player grouped by competitions. | Ryan Francisco is 19 years old (Nov 21, 2006), 175 cm tall and plays for São Paulo. Ryan Francisco prefers to play with left foot. His jersey number is 49.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 19,
+    "position": "ST",
+    "club": "São Paulo",
+    "league": "Copinha (Copa São Paulo de Futebol Júnior)",
+    "stats_summary": "These are the detailed performance data of FC São Paulo player Ryan Francisco. The website contains a statistic about the performance data of the player. | This is the performance data of Ryan Francisco from FC São Paulo. This page contains the data (goals, cards, etc.) of a player grouped by competitions. | Ryan Francisco is 19 years old (Nov 21, 2006), 175 cm tall and plays for São Paulo. Ryan Francisco prefers to play with left foot. His jersey number is 49.",
+    "is_ghost": 0,
+    "first_detected": "2026-03-01T18:34:20.455948",
+    "last_seen": "2026-06-01T04:04:26.287383",
+    "detection_count": 48,
+    "score_history": "[{\"score\": 82.5, \"date\": \"2026-03-11T18:54:36.464946\"}, {\"score\": 82.5, \"date\": \"2026-03-12T02:07:10.108963\"}, {\"score\": 90.0, \"date\": \"2026-03-12T06:56:52.400583\"}, {\"score\": 90.0, \"date\": \"2026-03-13T06:55:16.516837\"}, {\"score\": 97.5, \"date\": \"2026-03-13T12:59:43.788709\"}, {\"score\": 75.0, \"date\": \"2026-03-14T02:02:00.179135\"}, {\"score\": 75.0, \"date\": \"2026-03-14T12:52:53.242806\"}, {\"score\": 82.5, \"date\": \"2026-03-14T18:39:43.643139\"}, {\"score\": 82.5, \"date\": \"2026-03-15T06:58:32.463401\"}, {\"score\": 75, \"date\": \"2026-03-15T12:54:53.227884\"}, {\"score\": 90.0, \"date\": \"2026-03-15T18:40:22.005746\"}, {\"score\": 82.5, \"date\": \"2026-03-16T07:18:33.804452\"}, {\"score\": 82.5, \"date\": \"2026-03-16T13:13:55.305026\"}, {\"score\": 90.0, \"date\": \"2026-03-17T02:07:20.082196\"}, {\"score\": 97.5, \"date\": \"2026-03-17T19:03:19.251324\"}, {\"score\": 78, \"date\": \"2026-03-17T19:03:25.327786\"}, {\"score\": 87.0, \"date\": \"2026-03-18T02:11:31.946365\"}, {\"score\": 72, \"date\": \"2026-03-18T19:00:44.593973\"}, {\"score\": 82.5, \"date\": \"2026-03-20T02:06:52.245529\"}, {\"score\": 70, \"date\": \"2026-06-01T04:04:26.287383\"}]",
+    "source_count": 1,
+    "lead_time_days": 0,
+    "ob1_detection_date": "2026-03-01T18:34:20.455948",
+    "mainstream_source": "https://www.bbc.com/audio/play/m001r17h",
+    "sources": [
+      "https://www.instagram.com/p/DVRpeUHDlup/"
     ]
   },
   {
