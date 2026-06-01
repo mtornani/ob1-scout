@@ -313,7 +313,7 @@ function SignalCard({ a, selected, onSelect }) {
         <div>
           <div className="signal-lead-label">
             <span>VANTAGGIO</span>
-            <b>{a.lead_time_days > 0 ? "CONFERMATO" : "IN ATTESA"}</b>
+            <b>{a.lead_time_days > 0 ? "CONFERMATO" : "ESCLUSIVO"}</b>
           </div>
           {a.lead_time_days > 0 ? (
             <div className="signal-lead-big" title={`OB1 ha rilevato questo giocatore ${a.lead_time_days} giorni prima che comparisse sui media mainstream`}>
@@ -323,7 +323,7 @@ function SignalCard({ a, selected, onSelect }) {
             </div>
           ) : (
             <div className="signal-lead-big no-lead" title="Non ancora comparso sui media mainstream — il vantaggio è ancora aperto">
-              <span className="signal-lead-num" style={{ fontSize: 11 }}>In attesa</span>
+              <span className="signal-lead-num" style={{ fontSize: 11 }}>Non sui media</span>
             </div>
           )}
         </div>
@@ -363,7 +363,7 @@ function Dossier({ a }) {
         </div>
         <div className="dossier-cell lead" title="Giorni tra il rilevamento OB1 e la prima apparizione sui media mainstream (Transfermarkt, stampa, social). 'In attesa' = non ancora emerso pubblicamente.">
           <div className="dossier-cell-label">Vantaggio sui media</div>
-          <div className="dossier-cell-val">{a.lead_time_days > 0 ? `+${a.lead_time_days}gg` : "In attesa"}</div>
+          <div className="dossier-cell-val">{a.lead_time_days > 0 ? `+${a.lead_time_days}gg` : "Non sui media"}</div>
         </div>
         <div className="dossier-cell">
           <div className="dossier-cell-label">Rilevamenti</div>
