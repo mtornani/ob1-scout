@@ -183,16 +183,12 @@ def format_telegram_player(player, score, is_ghost, anomaly, stats_text):
     if clean_stats:
         lines.append(clean_stats)
 
-    # Short reason (max 150 chars, no raw stat dumps)
+    # Full reason — strip raw stat dumps only, no char truncation
     if reason:
-        # Strip any stats appended to reason
         stats_idx = reason.find('\n\nStats:')
         if stats_idx > 0:
             reason = reason[:stats_idx]
-        short = reason[:150].strip()
-        if len(reason) > 150:
-            short = short.rsplit(' ', 1)[0] + "..."
-        lines.append(f"<i>{short}</i>")
+        lines.append(f"<i>{reason.strip()}</i>")
 
     return "\n".join(lines)
 

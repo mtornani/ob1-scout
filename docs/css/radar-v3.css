@@ -165,10 +165,10 @@ body::after {
 
 .rail-section { margin-bottom: 28px; }
 .rail-h {
-  font-size: 10.5px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--text-lo);
+  font-size: 11px;
+  font-family: var(--font-sans);
+  letter-spacing: 0.01em;
+  color: var(--text-mid);
   margin-bottom: 10px;
   display: flex; align-items: center; gap: 6px;
   padding-bottom: 8px;
@@ -329,11 +329,10 @@ body::after {
 .kpi:last-child { border-right: none; }
 
 .kpi-label {
-  font-family: var(--font-mono);
+  font-family: var(--font-sans);
   font-size: 11px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--text-lo);
+  letter-spacing: 0.01em;
+  color: var(--text-mid);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -388,10 +387,10 @@ body::after {
 
 .kpi-sub {
   margin-top: 14px;
-  font-family: var(--font-mono);
+  font-family: var(--font-sans);
   font-size: 11px;
-  color: var(--text-lo);
-  letter-spacing: 0.03em;
+  color: var(--text-mid);
+  letter-spacing: 0.01em;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -518,9 +517,9 @@ body::after {
 .signal-score-label {
   font-family: var(--font-mono);
   font-size: 9.5px;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--text-lo);
+  color: var(--text-mid);
 }
 .signal-score-num {
   font-family: var(--font-mono);
@@ -640,9 +639,9 @@ body::after {
 .signal-lead-label {
   font-family: var(--font-mono);
   font-size: 9.5px;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--text-lo);
+  color: var(--text-mid);
   display: flex;
   justify-content: space-between;
 }
@@ -715,9 +714,9 @@ body::after {
   margin-bottom: 18px;
 }
 .dossier-meta {
-  font-size: 10.5px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  letter-spacing: 0.01em;
   color: var(--text-lo);
   display: flex;
   justify-content: space-between;
@@ -748,9 +747,9 @@ body::after {
   padding: 10px 12px;
 }
 .dossier-cell-label {
-  font-size: 10px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+  font-family: var(--font-sans);
+  font-size: 10.5px;
+  letter-spacing: 0.01em;
   color: var(--text-lo);
   margin-bottom: 4px;
 }
@@ -766,9 +765,10 @@ body::after {
 .dossier-cell.ghost .dossier-cell-val { color: var(--sig-ghost); }
 
 .dossier-section-h {
-  font-size: 10.5px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
   color: var(--text-lo);
   margin-bottom: 10px;
   display: flex; gap: 6px; align-items: center;
