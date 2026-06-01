@@ -361,7 +361,7 @@ function Dossier({ a }) {
           <div className="dossier-cell-label">Scout Score</div>
           <div className="dossier-cell-val">{Math.round(a.score)}<span style={{ fontSize: 10, color: "var(--text-lo)" }}>/100</span></div>
         </div>
-        <div className="dossier-cell lead" title="Giorni tra il rilevamento OB1 e la prima apparizione sui media mainstream (Transfermarkt, stampa, social). 'In attesa' = non ancora emerso pubblicamente.">
+        <div className="dossier-cell lead" title="Giorni tra il rilevamento OB1 e la prima apparizione sui media mainstream (Transfermarkt, stampa, social). 'Non sui media' = non ancora emerso pubblicamente.">
           <div className="dossier-cell-label">Vantaggio sui media</div>
           <div className="dossier-cell-val">{a.lead_time_days > 0 ? `+${a.lead_time_days}gg` : "Non sui media"}</div>
         </div>
