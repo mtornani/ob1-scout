@@ -403,7 +403,7 @@ function Dossier({ a }) {
           <div style={{ display: "grid", gridTemplateColumns: `repeat(${a.stats.length}, 1fr)`, gap: 1, background: "var(--line-weak)", border: "1px solid var(--line-weak)" }}>
             {a.stats.map(([k, v]) => (
               <div key={k} style={{ background: "var(--bg-deep)", padding: "8px 10px", textAlign: "center" }}>
-                <div style={{ fontSize: 8.5, color: "var(--text-lo)", letterSpacing: "0.2em" }}>{k}</div>
+                <div style={{ fontSize: 10, color: "var(--text-lo)", letterSpacing: "0.15em" }}>{k}</div>
                 <div style={{ fontFamily: "var(--font-mono)", fontSize: 14, color: "var(--text-hi)", marginTop: 2 }}>{v}</div>
               </div>
             ))}

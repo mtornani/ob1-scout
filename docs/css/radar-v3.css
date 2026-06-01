@@ -28,7 +28,7 @@
 
   --text-hi: #e8ebef;
   --text-mid: #8b929d;
-  --text-lo: #4a505b;
+  --text-lo: #606878;
   --text-ghost: #3a4048;
 
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
@@ -165,8 +165,8 @@ body::after {
 
 .rail-section { margin-bottom: 28px; }
 .rail-h {
-  font-size: 9.5px;
-  letter-spacing: 0.2em;
+  font-size: 10.5px;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--text-lo);
   margin-bottom: 10px;
@@ -330,8 +330,8 @@ body::after {
 
 .kpi-label {
   font-family: var(--font-mono);
-  font-size: 10px;
-  letter-spacing: 0.2em;
+  font-size: 11px;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--text-lo);
   display: flex;
@@ -389,9 +389,9 @@ body::after {
 .kpi-sub {
   margin-top: 14px;
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 11px;
   color: var(--text-lo);
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -517,8 +517,8 @@ body::after {
 }
 .signal-score-label {
   font-family: var(--font-mono);
-  font-size: 8.5px;
-  letter-spacing: 0.2em;
+  font-size: 9.5px;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--text-lo);
 }
@@ -639,8 +639,8 @@ body::after {
 }
 .signal-lead-label {
   font-family: var(--font-mono);
-  font-size: 8.5px;
-  letter-spacing: 0.2em;
+  font-size: 9.5px;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--text-lo);
   display: flex;
@@ -715,8 +715,8 @@ body::after {
   margin-bottom: 18px;
 }
 .dossier-meta {
-  font-size: 9.5px;
-  letter-spacing: 0.2em;
+  font-size: 10.5px;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--text-lo);
   display: flex;
@@ -748,8 +748,8 @@ body::after {
   padding: 10px 12px;
 }
 .dossier-cell-label {
-  font-size: 9px;
-  letter-spacing: 0.2em;
+  font-size: 10px;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--text-lo);
   margin-bottom: 4px;
@@ -766,8 +766,8 @@ body::after {
 .dossier-cell.ghost .dossier-cell-val { color: var(--sig-ghost); }
 
 .dossier-section-h {
-  font-size: 9.5px;
-  letter-spacing: 0.2em;
+  font-size: 10.5px;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--text-lo);
   margin-bottom: 10px;
