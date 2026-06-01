@@ -114,14 +114,6 @@ function parseHistory(raw) {
   } catch { return []; }
 }
 
-// tactical coordinate label from region/id
-function coordLabel(id) {
-  const x = ((id * 37) % 360 - 180).toFixed(2);
-  const y = ((id * 53) % 180 - 90).toFixed(2);
-  const sx = x >= 0 ? "E" : "W";
-  const sy = y >= 0 ? "N" : "S";
-  return `${Math.abs(y)}°${sy} ${Math.abs(x)}°${sx}`;
-}
 
 function fmtTime(iso) {
   if (!iso) return "--:--";
@@ -157,6 +149,6 @@ function parseStats(s) {
 Object.assign(window, {
   OuroGlyph, CrossHair,
   Sparkline, SignalTrace, MiniTrace,
-  parseHistory, coordLabel, fmtTime, fmtDate, fmtDT,
+  parseHistory, fmtTime, fmtDate, fmtDT,
   cleanNarrative, parseStats
 });
