@@ -54,7 +54,7 @@
       screen: d.screen,
       lang: d.lang,
       tz: d.tz,
-      ref: (function () { try { return document.referrer ? new URL(document.referrer).hostname : "diretto"; } catch (_) { return "diretto"; } })(),
+      ref: (() => { try { return new URL(document.referrer).hostname; } catch (_) { return "diretto"; } })(),
       ...extra,
     };
     try {
