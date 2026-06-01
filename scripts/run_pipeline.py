@@ -157,24 +157,25 @@ def format_telegram_player(player, score, is_ghost, anomaly, stats_text):
     league = anomaly.get('league')
     reason = anomaly.get('reason', '')
 
+    e = html.escape
     score_bar = ">" * int(score // 10) + "-" * (10 - int(score // 10))
 
     # Header: player name + score
-    lines = [f"<b>{player}</b>{' [GHOST]' if is_ghost else ''}"]
+    lines = [f"<b>{e(player)}</b>{' [GHOST]' if is_ghost else ''}"]
 
     # Profile line: age · position · club
     profile = []
     if age:
         profile.append(f"{age}y")
     if pos:
-        profile.append(pos)
+        profile.append(e(pos))
     if club:
-        profile.append(club)
+        profile.append(e(club))
     if profile:
         lines.append(" · ".join(profile))
 
     if league:
-        lines.append(league)
+        lines.append(e(league))
 
     # Score bar
     lines.append(f"[{score_bar}] {score:.0f}/100")
@@ -189,7 +190,7 @@ def format_telegram_player(player, score, is_ghost, anomaly, stats_text):
         stats_idx = reason.find('\n\nStats:')
         if stats_idx > 0:
             reason = reason[:stats_idx]
-        lines.append(f"<i>{html.escape(reason.strip())}</i>")
+        lines.append(f"<i>{e(reason.strip())}</i>")
 
     return "\n".join(lines)
 
