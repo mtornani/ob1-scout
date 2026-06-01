@@ -270,7 +270,7 @@ function SignalCard({ a, selected, onSelect }) {
   return (
     <article
       className={`signal ${a.is_ghost ? "ghost" : ""} ${selected ? "selected" : ""}`}
-      style={{ "--asym": rawAsym.toFixed(3), "--ghost-mix": a.is_ghost ? 1 : 0 }}
+      style={{ "--asym": rawAsym.toFixed(3) }}
       onClick={onSelect}
     >
       {/* LEFT: score */}
