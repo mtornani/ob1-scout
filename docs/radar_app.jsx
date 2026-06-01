@@ -62,7 +62,7 @@ function Shell() {
   const selected = filtered.find(a => a.id === selectedId) || filtered[0];
 
   const now = new Date();
-  const nowStr = now.toLocaleTimeString("it-IT", { hour: "2-digit", minute: "2-digit" }) + " UTC";
+  const nowStr = now.toLocaleTimeString("it-IT", { hour: "2-digit", minute: "2-digit", timeZone: "UTC" }) + " UTC";
 
   return (
     <div className="shell" data-screen-label="01 Radar Console">
@@ -140,6 +140,8 @@ function Shell() {
           </button>
         </div>
 
+        <TelegramCta />
+
         <KpiCluster stats={stats} />
 
         <div className="feed-bar">
@@ -168,8 +170,6 @@ function Shell() {
             </div>
           )}
         </div>
-
-        <TelegramCta />
       </main>
 
       {/* RIGHT RAIL (SCHEDA) */}
