@@ -168,6 +168,8 @@ function Shell() {
             </div>
           )}
         </div>
+
+        <TelegramCta />
       </main>
 
       {/* RIGHT RAIL (SCHEDA) */}
@@ -238,7 +240,7 @@ function KpiCluster({ stats }) {
           <span className="kpi-value-unit">giorni</span>
         </div>
         <div className="kpi-sub">
-          <span>Prima che la stampa mainstream li notasse</span>
+          <span>Giorni tra il nostro rilevamento e la prima uscita sulla stampa</span>
         </div>
       </div>
     </section>
@@ -309,13 +311,13 @@ function SignalCard({ a, selected, onSelect }) {
             <b>{a.lead_time_days > 0 ? "CONFERMATO" : "IN ATTESA"}</b>
           </div>
           {a.lead_time_days > 0 ? (
-            <div className="signal-lead-big">
+            <div className="signal-lead-big" title={`OB1 ha rilevato questo giocatore ${a.lead_time_days} giorni prima che comparisse sui media mainstream`}>
               <span className="signal-lead-prefix">+</span>
               <span className="signal-lead-num">{a.lead_time_days}</span>
               <span className="signal-lead-unit">gg</span>
             </div>
           ) : (
-            <div className="signal-lead-big no-lead">
+            <div className="signal-lead-big no-lead" title="Non ancora comparso sui media mainstream — il vantaggio è ancora aperto">
               <span className="signal-lead-num" style={{ fontSize: 11 }}>In attesa</span>
             </div>
           )}
@@ -354,9 +356,9 @@ function Dossier({ a }) {
           <div className="dossier-cell-label">Scout Score</div>
           <div className="dossier-cell-val">{Math.round(a.score)}<span style={{ fontSize: 10, color: "var(--text-lo)" }}>/100</span></div>
         </div>
-        <div className="dossier-cell lead">
-          <div className="dossier-cell-label">Vantaggio</div>
-          <div className="dossier-cell-val">{a.lead_time_days > 0 ? `+${a.lead_time_days}gg` : "—"}</div>
+        <div className="dossier-cell lead" title="Giorni tra il rilevamento OB1 e la prima apparizione sui media mainstream (Transfermarkt, stampa, social). 'In attesa' = non ancora emerso pubblicamente.">
+          <div className="dossier-cell-label">Vantaggio sui media</div>
+          <div className="dossier-cell-val">{a.lead_time_days > 0 ? `+${a.lead_time_days}gg` : "In attesa"}</div>
         </div>
         <div className="dossier-cell">
           <div className="dossier-cell-label">Rilevamenti</div>
@@ -434,6 +436,27 @@ function Dossier({ a }) {
         </div>
       )}
     </div>
+  );
+}
+
+/* TELEGRAM CTA */
+function TelegramCta() {
+  return (
+    <a
+      href="https://t.me/WorldOuroboros"
+      target="_blank"
+      rel="noreferrer"
+      className="tg-cta"
+    >
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L8.32 13.617l-2.96-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.828.942z"/>
+      </svg>
+      <div className="tg-cta-text">
+        <strong>Ricevi i segnali in tempo reale</strong>
+        <span>Ogni nuovo talento rilevato arriva direttamente su Telegram — prima che lo scopra qualcun altro. Unisciti al canale.</span>
+      </div>
+      <span className="tg-cta-arrow">→</span>
+    </a>
   );
 }
 
