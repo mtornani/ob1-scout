@@ -26,6 +26,8 @@ function Shell() {
       .catch(() => setData([]));
   }, []);
 
+  const track = window.OB1Track || {};
+
   const regions = useMemo(() => {
     const map = new Map();
     data.forEach(a => {
@@ -48,6 +50,7 @@ function Shell() {
       if (sortBy === "recent") return new Date(b.detection_date) - new Date(a.detection_date);
       return b.score - a.score;
     });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     return out;
   }, [data, query, region, ghostOnly, sortBy]);
 
@@ -62,7 +65,7 @@ function Shell() {
   const selected = filtered.find(a => a.id === selectedId) || filtered[0];
 
   const now = new Date();
-  const nowStr = now.toLocaleTimeString("it-IT", { hour: "2-digit", minute: "2-digit" }) + " UTC";
+  const nowStr = now.toLocaleTimeString("it-IT", { hour: "2-digit", minute: "2-digit", timeZone: "UTC" }) + " UTC";
 
   return (
     <div className="shell" data-screen-label="01 Radar Console">
@@ -91,7 +94,7 @@ function Shell() {
 
         <div className="rail-section">
           <div className="chip-row">
-            <button className={`chip ghost ${ghostOnly ? "active" : ""}`} onClick={() => setGhostOnly(g => !g)}>
+            <button className={`chip ghost ${ghostOnly ? "active" : ""}`} onClick={() => { const next = !ghostOnly; setGhostOnly(next); track.filterGhost?.(next); }}>
               ◎ Solo sconosciuti ai grandi club
             </button>
           </div>
@@ -105,7 +108,7 @@ function Shell() {
               <div className="region-bar"><div className="region-bar-fill" style={{ width: "100%" }}/></div>
             </div>
             {regions.map(([r, n]) => (
-              <div key={r} className={`region-row ${region === r ? "active" : ""}`} onClick={() => setRegion(region === r ? null : r)}>
+              <div key={r} className={`region-row ${region === r ? "active" : ""}`} onClick={() => { const next = region === r ? null : r; setRegion(next); track.filterRegion?.(next); }}>
                 <span>{r.toUpperCase()}</span><b>{n}</b>
                 <div className="region-bar"><div className="region-bar-fill" style={{ width: `${(n / data.length) * 100}%` }}/></div>
               </div>
@@ -140,6 +143,8 @@ function Shell() {
           </button>
         </div>
 
+        <TelegramCta />
+
         <KpiCluster stats={stats} />
 
         <div className="feed-bar">
@@ -147,9 +152,9 @@ function Shell() {
           <span className="feed-bar-count">{filtered.length.toString().padStart(3, "0")}</span>
           <span style={{ color: "var(--text-lo)" }}>· Ordina per</span>
           <div className="feed-bar-sort">
-            <button className={`sort-chip ${sortBy === "score" ? "active" : ""}`} onClick={() => setSortBy("score")}>SCORE</button>
-            <button className={`sort-chip ${sortBy === "lead" ? "active" : ""}`} onClick={() => setSortBy("lead")}>VANTAGGIO</button>
-            <button className={`sort-chip ${sortBy === "recent" ? "active" : ""}`} onClick={() => setSortBy("recent")}>RECENTI</button>
+            <button className={`sort-chip ${sortBy === "score" ? "active" : ""}`} onClick={() => { setSortBy("score"); track.sortChange?.("score"); }}>SCORE</button>
+            <button className={`sort-chip ${sortBy === "lead" ? "active" : ""}`} onClick={() => { setSortBy("lead"); track.sortChange?.("lead"); }}>VANTAGGIO</button>
+            <button className={`sort-chip ${sortBy === "recent" ? "active" : ""}`} onClick={() => { setSortBy("recent"); track.sortChange?.("recent"); }}>RECENTI</button>
           </div>
         </div>
 
@@ -159,7 +164,7 @@ function Shell() {
               key={a.id}
               a={a}
               selected={a.id === selectedId}
-              onSelect={() => { setSelectedId(a.id); setMobileDrawerOpen(true); }}
+              onSelect={() => { setSelectedId(a.id); setMobileDrawerOpen(true); track.playerView?.(a.player_name, Math.round(a.score), a.is_ghost); }}
             />
           ))}
           {!filtered.length && (
@@ -168,8 +173,6 @@ function Shell() {
             </div>
           )}
         </div>
-
-        <TelegramCta />
       </main>
 
       {/* RIGHT RAIL (SCHEDA) */}
@@ -267,7 +270,7 @@ function SignalCard({ a, selected, onSelect }) {
   return (
     <article
       className={`signal ${a.is_ghost ? "ghost" : ""} ${selected ? "selected" : ""}`}
-      style={{ "--asym": rawAsym.toFixed(3), "--ghost-mix": a.is_ghost ? 1 : 0 }}
+      style={{ "--asym": rawAsym.toFixed(3) }}
       onClick={onSelect}
     >
       {/* LEFT: score */}
@@ -400,7 +403,7 @@ function Dossier({ a }) {
           <div style={{ display: "grid", gridTemplateColumns: `repeat(${a.stats.length}, 1fr)`, gap: 1, background: "var(--line-weak)", border: "1px solid var(--line-weak)" }}>
             {a.stats.map(([k, v]) => (
               <div key={k} style={{ background: "var(--bg-deep)", padding: "8px 10px", textAlign: "center" }}>
-                <div style={{ fontSize: 8.5, color: "var(--text-lo)", letterSpacing: "0.2em" }}>{k}</div>
+                <div style={{ fontSize: 10, color: "var(--text-lo)", letterSpacing: "0.15em" }}>{k}</div>
                 <div style={{ fontFamily: "var(--font-mono)", fontSize: 14, color: "var(--text-hi)", marginTop: 2 }}>{v}</div>
               </div>
             ))}

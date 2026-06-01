@@ -28,7 +28,7 @@
 
   --text-hi: #e8ebef;
   --text-mid: #8b929d;
-  --text-lo: #4a505b;
+  --text-lo: #606878;
   --text-ghost: #3a4048;
 
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
@@ -122,9 +122,7 @@ body::after {
 .brand-glyph {
   width: 18px; height: 18px;
   color: var(--sig-primary);
-  animation: rotate 18s linear infinite;
 }
-@keyframes rotate { to { transform: rotate(360deg); } }
 
 .brand-sep { color: var(--sig-primary); }
 .brand-sub { color: var(--text-lo); font-weight: 400; }
@@ -167,8 +165,8 @@ body::after {
 
 .rail-section { margin-bottom: 28px; }
 .rail-h {
-  font-size: 9.5px;
-  letter-spacing: 0.2em;
+  font-size: 10.5px;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--text-lo);
   margin-bottom: 10px;
@@ -299,7 +297,7 @@ body::after {
 }
 
 .kpi-cluster::before {
-  /* scanning sweep */
+  /* subtle grid overlay */
   content: "";
   position: absolute;
   inset: 0;
@@ -321,19 +319,6 @@ body::after {
   pointer-events: none;
 }
 
-.kpi-cluster::after {
-  content: "";
-  position: absolute;
-  top: 0; bottom: 0; left: 0;
-  width: 180px;
-  background: linear-gradient(90deg, transparent, rgba(255,42,63,0.06), transparent);
-  pointer-events: none;
-  animation: sweep 6s linear infinite;
-}
-@keyframes sweep {
-  0% { transform: translateX(-180px); }
-  100% { transform: translateX(calc(100vw + 180px)); }
-}
 
 .kpi {
   padding: 28px 28px 24px;
@@ -345,8 +330,8 @@ body::after {
 
 .kpi-label {
   font-family: var(--font-mono);
-  font-size: 10px;
-  letter-spacing: 0.2em;
+  font-size: 11px;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--text-lo);
   display: flex;
@@ -391,14 +376,8 @@ body::after {
 .kpi-max { text-align: center; }
 .kpi-max .kpi-label { justify-content: center; gap: 12px; }
 .kpi-max .kpi-value { justify-content: center; }
-.kpi-max .kpi-value-num { color: var(--sig-ghost); text-shadow: 0 0 28px var(--sig-ghost-glow); animation: flicker 4s infinite; }
+.kpi-max .kpi-value-num { color: var(--sig-ghost); text-shadow: 0 0 28px var(--sig-ghost-glow); }
 .kpi-max .kpi-label-id { color: var(--sig-ghost); }
-@keyframes flicker {
-  0%, 96%, 100% { opacity: 1; }
-  97% { opacity: 0.3; }
-  98% { opacity: 1; }
-  99% { opacity: 0.6; }
-}
 
 /* KPI 3: Avg Lead Time — acid yellow */
 .kpi-lead { text-align: right; }
@@ -410,9 +389,9 @@ body::after {
 .kpi-sub {
   margin-top: 14px;
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 11px;
   color: var(--text-lo);
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -467,7 +446,7 @@ body::after {
 .sort-chip.active { color: var(--bg-void); background: var(--text-hi); border-color: var(--text-hi); }
 
 /* ============================================================
-   SIGNAL CARD — reacts to asymmetry score
+   SIGNAL CARD
    ============================================================ */
 .signal-list {
   display: flex;
@@ -476,42 +455,21 @@ body::after {
 }
 
 .signal {
-  --asym: 0.7;           /* 0..1 scaled from score */
-  --ghost-mix: 0;        /* 0 or 1 */
+  --asym: 0.7;           /* 0..1 scaled from score — used for left-bar fill */
   position: relative;
   display: grid;
   grid-template-columns: 88px 1fr 220px;
   gap: 0;
-  background:
-    linear-gradient(180deg,
-      color-mix(in oklab, var(--bg-panel), var(--bg-void) calc(var(--asym) * 50%)),
-      color-mix(in oklab, var(--bg-deep), var(--bg-void) calc(var(--asym) * 60%))
-    );
+  background: linear-gradient(180deg, var(--bg-panel), var(--bg-deep));
   border: 1px solid var(--line-weak);
-  /* Opacity of card frame dims as asymmetry rises — visually "invisible" */
-  --frame-op: calc(1 - var(--asym) * 0.35);
-  border-color: color-mix(in oklab, var(--line-mid), transparent calc(var(--asym) * 60%));
   cursor: pointer;
-  transition: border-color 180ms, transform 180ms, background 180ms;
+  transition: border-color 180ms, transform 180ms;
   overflow: hidden;
 }
 
-.signal::before {
-  /* scanline interference — intensifies with asymmetry */
-  content: "";
-  position: absolute; inset: 0;
-  pointer-events: none;
-  background: repeating-linear-gradient(
-    0deg,
-    transparent 0,
-    transparent 2px,
-    rgba(184, 255, 240, calc(var(--asym) * var(--ghost-mix) * 0.04)) 2px,
-    rgba(184, 255, 240, calc(var(--asym) * var(--ghost-mix) * 0.04)) 3px
-  );
-}
 
 .signal::after {
-  /* left-edge signal strength bar */
+  /* left-edge score bar — fill height proportional to score */
   content: "";
   position: absolute;
   left: 0; top: 0; bottom: 0;
@@ -545,7 +503,8 @@ body::after {
   box-shadow: 0 0 12px var(--sig-ghost-glow);
 }
 
-/* LEFT: score ring + asymmetry numeral */
+
+/* LEFT: score ring + score numeral */
 .signal-score {
   padding: 18px 14px;
   border-right: 1px solid var(--line-faint);
@@ -558,8 +517,8 @@ body::after {
 }
 .signal-score-label {
   font-family: var(--font-mono);
-  font-size: 8.5px;
-  letter-spacing: 0.2em;
+  font-size: 9.5px;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--text-lo);
 }
@@ -580,27 +539,6 @@ body::after {
 }
 .signal.ghost .signal-score-num { color: var(--sig-ghost); }
 
-/* ghosting: chromatic split on the number, stronger at higher asym */
-.signal-score-num::before,
-.signal-score-num::after {
-  content: attr(data-n);
-  position: absolute;
-  top: 0; left: 0;
-  font-size: inherit; font-weight: inherit;
-  pointer-events: none;
-  letter-spacing: inherit;
-  opacity: calc(var(--asym) * 0.55);
-}
-.signal-score-num::before {
-  color: var(--sig-ghost);
-  transform: translate(calc(var(--asym) * 1.5px), calc(var(--asym) * -1px));
-  mix-blend-mode: screen;
-}
-.signal-score-num::after {
-  color: var(--sig-primary);
-  transform: translate(calc(var(--asym) * -1.5px), calc(var(--asym) * 1px));
-  mix-blend-mode: screen;
-}
 
 .signal-score-ring {
   width: 56px; height: 56px;
@@ -608,7 +546,6 @@ body::after {
   position: absolute;
   top: 10px; left: 50%;
   margin-left: -28px;
-  opacity: calc(1 - var(--asym) * 0.5);
   pointer-events: none;
 }
 
@@ -625,20 +562,9 @@ body::after {
   font-weight: 600;
   letter-spacing: -0.01em;
   line-height: 1.05;
-  /* Invisibility: high asymmetry → reduced opacity + text-shadow ghosting */
-  color: color-mix(in oklab, var(--text-hi), transparent calc(var(--asym) * 35%));
-  text-shadow:
-    calc(var(--asym) * 1px) 0 0 rgba(255, 42, 63, calc(var(--asym) * 0.35)),
-    calc(var(--asym) * -1px) 0 0 rgba(184, 255, 240, calc(var(--asym) * 0.35));
+  color: var(--text-hi);
   position: relative;
   display: inline-block;
-}
-.signal.ghost .signal-name { animation: ghost-flicker 7s infinite; }
-@keyframes ghost-flicker {
-  0%, 93%, 100% { opacity: 1; }
-  94% { opacity: 0.55; }
-  96% { opacity: 1; }
-  97% { opacity: 0.7; }
 }
 
 .signal-sub {
@@ -693,7 +619,7 @@ body::after {
   margin-top: 12px;
   font-size: 12.5px;
   line-height: 1.55;
-  color: color-mix(in oklab, var(--text-mid), transparent calc(var(--asym) * 20%));
+  color: var(--text-mid);
   font-family: var(--font-sans);
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -713,8 +639,8 @@ body::after {
 }
 .signal-lead-label {
   font-family: var(--font-mono);
-  font-size: 8.5px;
-  letter-spacing: 0.2em;
+  font-size: 9.5px;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--text-lo);
   display: flex;
@@ -789,8 +715,8 @@ body::after {
   margin-bottom: 18px;
 }
 .dossier-meta {
-  font-size: 9.5px;
-  letter-spacing: 0.2em;
+  font-size: 10.5px;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--text-lo);
   display: flex;
@@ -822,8 +748,8 @@ body::after {
   padding: 10px 12px;
 }
 .dossier-cell-label {
-  font-size: 9px;
-  letter-spacing: 0.2em;
+  font-size: 10px;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--text-lo);
   margin-bottom: 4px;
@@ -840,8 +766,8 @@ body::after {
 .dossier-cell.ghost .dossier-cell-val { color: var(--sig-ghost); }
 
 .dossier-section-h {
-  font-size: 9.5px;
-  letter-spacing: 0.2em;
+  font-size: 10.5px;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--text-lo);
   margin-bottom: 10px;
@@ -909,58 +835,6 @@ body::after {
   animation: pulse 1.8s ease-in-out infinite;
 }
 
-/* ============================================================
-   TWEAKS PANEL
-   ============================================================ */
-.tweaks {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 280px;
-  background: var(--bg-deep);
-  border: 1px solid var(--sig-primary);
-  box-shadow: 0 0 40px var(--sig-primary-glow);
-  z-index: 200;
-  font-family: var(--font-mono);
-  font-size: 11px;
-  color: var(--text-mid);
-}
-.tweaks-h {
-  padding: 10px 12px;
-  font-size: 10px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--sig-primary);
-  border-bottom: 1px solid var(--line-weak);
-  display: flex; justify-content: space-between; align-items: center;
-}
-.tweaks-body { padding: 12px; display: flex; flex-direction: column; gap: 12px; }
-.tweak-row { display: flex; flex-direction: column; gap: 6px; }
-.tweak-row label {
-  font-size: 9.5px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--text-lo);
-  display: flex; justify-content: space-between;
-}
-.tweak-row label b { color: var(--text-hi); font-weight: 500; }
-.tweak-row input[type=range] { width: 100%; accent-color: var(--sig-primary); }
-.tweak-toggle { display: flex; gap: 4px; }
-.tweak-toggle button {
-  flex: 1;
-  background: transparent;
-  border: 1px solid var(--line-weak);
-  color: var(--text-mid);
-  padding: 5px 8px;
-  font-family: var(--font-mono);
-  font-size: 9.5px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-.tweak-toggle button.active {
-  color: var(--bg-void); background: var(--sig-primary); border-color: var(--sig-primary);
-}
 
 /* ============================================================
    MOBILE SEARCH BAR — only visible on mobile
