@@ -16,6 +16,7 @@ Orchestrates the entire global radar workflow.
 # ============================================================
 
 import asyncio
+import html
 import logging
 import os
 import re
@@ -183,12 +184,12 @@ def format_telegram_player(player, score, is_ghost, anomaly, stats_text):
     if clean_stats:
         lines.append(clean_stats)
 
-    # Full reason — strip raw stat dumps only, no char truncation
+    # Full reason — strip raw stat dumps only, escape HTML for Telegram parse_mode=HTML
     if reason:
         stats_idx = reason.find('\n\nStats:')
         if stats_idx > 0:
             reason = reason[:stats_idx]
-        lines.append(f"<i>{reason.strip()}</i>")
+        lines.append(f"<i>{html.escape(reason.strip())}</i>")
 
     return "\n".join(lines)
 
