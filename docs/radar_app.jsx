@@ -386,11 +386,11 @@ function Dossier({ a }) {
 
       <div className="dossier-section">
         <div className="dossier-section-h">Informazioni</div>
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8, fontSize: 10.5 }}>
-          <div><span style={{ color: "var(--text-lo)" }}>REGIONE</span><div style={{ color: "var(--text-hi)" }}>{(a.region || "—").toUpperCase()}</div></div>
-          <div><span style={{ color: "var(--text-lo)" }}>CLUB</span><div style={{ color: "var(--text-hi)" }}>{(a.club || "—").slice(0, 26)}</div></div>
-          <div><span style={{ color: "var(--text-lo)" }}>LEGA</span><div style={{ color: "var(--text-hi)" }}>{(a.league || "—").slice(0, 26)}</div></div>
-          <div><span style={{ color: "var(--text-lo)" }}>PRIMO RILEVAMENTO</span><div style={{ color: "var(--text-hi)" }}>{fmtDate(a.first_detected || a.detection_date)}</div></div>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8, fontSize: 10.5, fontFamily: "var(--font-sans)" }}>
+          <div><span style={{ color: "var(--text-lo)" }}>Regione</span><div style={{ color: "var(--text-hi)" }}>{(a.region || "—")}</div></div>
+          <div><span style={{ color: "var(--text-lo)" }}>Club</span><div style={{ color: "var(--text-hi)" }}>{(a.club || "—").slice(0, 26)}</div></div>
+          <div><span style={{ color: "var(--text-lo)" }}>Lega</span><div style={{ color: "var(--text-hi)" }}>{(a.league || "—").slice(0, 26)}</div></div>
+          <div><span style={{ color: "var(--text-lo)" }}>Primo rilevamento</span><div style={{ color: "var(--text-hi)" }}>{fmtDate(a.first_detected || a.detection_date)}</div></div>
         </div>
       </div>
 
