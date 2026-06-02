@@ -162,33 +162,6 @@
     ]
   },
   {
-    "id": 51,
-    "player_name": "Jordan Garcia",
-    "detection_date": "2026-06-01 21:34:25",
-    "source_url": "https://billionhands.com/es/ranking/deportes/jovenes-promesas-del-futbol-sudamericano-69cf5a558e5be409898599a6",
-    "score": 88.0,
-    "raw_content": "Liderou o 'Rating de Impacto' da 365Scores para jogadores Sub-20 sul-americanos em 2025, indicando um desempenho 'sobresaliente'. Esta é uma métrica de performance concreta de uma plataforma de dados. A ausência de menção ao clube ou liga específica, combinada com a alta performance, sugere uma assimetria informativa máxima e um verdadeiro 'ghost' talent.\n\nStats: Check out the latest domestic and international stats, match logs, goals, height, weight and more for Fortaleza FC and Club León playing for Jordan García ... | Jordan García is 20 years old (Jun 20, 2005), 186 cm tall and plays for Club León. Jordan García prefers to play with right foot. His jersey number is 1. | Jordan García football player profile displays all matches and competitions with statistics for all the matches Jordan García played in. Most important stats ...",
-    "region": "South America",
-    "status": "detected",
-    "age": null,
-    "position": null,
-    "club": null,
-    "league": null,
-    "stats_summary": "Check out the latest domestic and international stats, match logs, goals, height, weight and more for Fortaleza FC and Club León playing for Jordan García ... | Jordan García is 20 years old (Jun 20, 2005), 186 cm tall and plays for Club León. Jordan García prefers to play with right foot. His jersey number is 1. | Jordan García football player profile displays all matches and competitions with statistics for all the matches Jordan García played in. Most important stats ...",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T21:34:25.882153",
-    "last_seen": "2026-06-01T21:34:25.882153",
-    "detection_count": 1,
-    "score_history": "[{\"score\": 88, \"date\": \"2026-06-01T21:34:25.882153\"}]",
-    "source_count": 1,
-    "lead_time_days": 0,
-    "ob1_detection_date": "2026-06-01T21:34:25.882153",
-    "mainstream_source": "https://www.espn.com/soccer/player/_/id/378912/jordan-garcia",
-    "sources": [
-      "https://billionhands.com/es/ranking/deportes/jovenes-promesas-del-futbol-sudamericano-69cf5a558e5be409898599a6"
-    ]
-  },
-  {
     "id": 35,
     "player_name": "Kaique Zizero",
     "detection_date": "2026-03-14 02:02:03",
@@ -378,33 +351,6 @@
     ]
   },
   {
-    "id": 46,
-    "player_name": "Luis Benedetti",
-    "detection_date": "2026-06-01 05:31:43",
-    "source_url": "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/",
-    "score": 82.6,
-    "raw_content": "Zagueiro canhoto de 1,98m com boa saída de bola e excelente jogo aéreo, que marcou 10 gols no Sub-20 do Palmeiras em 2024. Estatísticas excepcionais e raras para um defensor, indicando um perfil único e de alto potencial. Embora jogue em um clube de ponta no Brasil, sua visibilidade internacional ainda é limitada, e o perfil de 'zagueiro artilheiro' gera grande assimetria.\n\nStats: Player stats of Luis Benedetti (SE Palmeiras São Paulo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Luis Benedetti is 19 years old (Jun 7, 2006), 197 cm tall and plays for Palmeiras. Luis Benedetti prefers to play with left foot. His jersey number is 43. | Check out the latest Luis Benedetti stats for all competitions like Série A, Copa Libertadores and FIFA Club World Cup and more on FBref.com.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 19,
-    "position": "CB",
-    "club": "Palmeiras",
-    "league": "Brasileirão",
-    "stats_summary": "Player stats of Luis Benedetti (SE Palmeiras São Paulo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Luis Benedetti is 19 years old (Jun 7, 2006), 197 cm tall and plays for Palmeiras. Luis Benedetti prefers to play with left foot. His jersey number is 43. | Check out the latest Luis Benedetti stats for all competitions like Série A, Copa Libertadores and FIFA Club World Cup and more on FBref.com.",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T05:31:43.066722",
-    "last_seen": "2026-06-01T21:34:23.476858",
-    "detection_count": 3,
-    "score_history": "[{\"score\": 75, \"date\": \"2026-06-01T05:31:43.066722\"}, {\"score\": 78, \"date\": \"2026-06-01T17:39:26.541438\"}, {\"score\": 85, \"date\": \"2026-06-01T21:34:23.476858\"}]",
-    "source_count": 1,
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-06-01T05:31:43.066722",
-    "mainstream_source": null,
-    "sources": [
-      "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
-    ]
-  },
-  {
     "id": 36,
     "player_name": "Tchola",
     "detection_date": "2026-03-14 02:02:05",
@@ -510,6 +456,60 @@
     "mainstream_source": "https://espndeportes.espn.com/futbol/jugador/_/id/410817/noah-saviolo",
     "sources": [
       "https://www.instagram.com/p/DVQklRbCPOg/"
+    ]
+  },
+  {
+    "id": 51,
+    "player_name": "Jordan Garcia",
+    "detection_date": "2026-06-01 21:34:25",
+    "source_url": "https://billionhands.com/es/ranking/deportes/jovenes-promesas-del-futbol-sudamericano-69cf5a558e5be409898599a6",
+    "score": 81.0,
+    "raw_content": "Ha 'liderado el 'Rating de Impacto' de 365Scores per giocatori Sub-20 sudamericani nel 2025, indicando un rendimento sobresaliente. L'assenza di un club specifico e di una posizione aumenta l'asimmetria informativa, rendendolo un potenziale talento nascosto con dati di performance concreti.\n\nStats: Check out the latest domestic and international stats, match logs, goals, height, weight and more for Fortaleza FC and Club León playing for Jordan García ... | Jordan García is 20 years old (Jun 20, 2005), 186 cm tall and plays for Club León. Jordan García prefers to play with right foot. His jersey number is 1. | Jordan García football player profile displays all matches and competitions with statistics for all the matches Jordan García played in. Most important stats ...",
+    "region": "South America",
+    "status": "detected",
+    "age": null,
+    "position": null,
+    "club": null,
+    "league": null,
+    "stats_summary": "Check out the latest domestic and international stats, match logs, goals, height, weight and more for Fortaleza FC and Club León playing for Jordan García ... | Jordan García is 20 years old (Jun 20, 2005), 186 cm tall and plays for Club León. Jordan García prefers to play with right foot. His jersey number is 1. | Jordan García football player profile displays all matches and competitions with statistics for all the matches Jordan García played in. Most important stats ...",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T21:34:25.882153",
+    "last_seen": "2026-06-02T16:26:03.461494",
+    "detection_count": 2,
+    "score_history": "[{\"score\": 88, \"date\": \"2026-06-01T21:34:25.882153\"}, {\"score\": 78, \"date\": \"2026-06-02T16:26:03.461494\"}]",
+    "source_count": 1,
+    "lead_time_days": 0,
+    "ob1_detection_date": "2026-06-01T21:34:25.882153",
+    "mainstream_source": "https://www.espn.com/soccer/player/_/id/378912/jordan-garcia",
+    "sources": [
+      "https://billionhands.com/es/ranking/deportes/jovenes-promesas-del-futbol-sudamericano-69cf5a558e5be409898599a6"
+    ]
+  },
+  {
+    "id": 46,
+    "player_name": "Luis Benedetti",
+    "detection_date": "2026-06-01 05:31:43",
+    "source_url": "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/",
+    "score": 80.8,
+    "raw_content": "Statistiche concrete e notevoli: 10 gol nel sub-20 nel 2024 per un difensore di 1.98m, descritto come 'canhoto' e con 'boa saída'. Ha debuttato nella stagione appena conclusa. Sebbene il club sia probabilmente il Palmeiras (un top club brasiliano), le statistiche sono eccezionali per un difensore Under 20 e la sua visibilità internazionale è ancora bassa, indicando una chiara asimmetria informativa.\n\nStats: Player stats of Luis Benedetti (SE Palmeiras São Paulo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Luis Benedetti career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Palmeiras ... | Check out the latest Luis Benedetti stats for all competitions like Série A, Copa Libertadores and FIFA Club World Cup and more on FBref.com.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 19,
+    "position": "CB/LB",
+    "club": "Alviverde (likely Palmeiras)",
+    "league": "Sub-20",
+    "stats_summary": "Player stats of Luis Benedetti (SE Palmeiras São Paulo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Luis Benedetti career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Palmeiras ... | Check out the latest Luis Benedetti stats for all competitions like Série A, Copa Libertadores and FIFA Club World Cup and more on FBref.com.",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T05:31:43.066722",
+    "last_seen": "2026-06-02T16:26:01.337071",
+    "detection_count": 4,
+    "score_history": "[{\"score\": 75, \"date\": \"2026-06-01T05:31:43.066722\"}, {\"score\": 78, \"date\": \"2026-06-01T17:39:26.541438\"}, {\"score\": 85, \"date\": \"2026-06-01T21:34:23.476858\"}, {\"score\": 80, \"date\": \"2026-06-02T16:26:01.337071\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-01T05:31:43.066722",
+    "mainstream_source": null,
+    "sources": [
+      "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
     ]
   },
   {
@@ -807,6 +807,33 @@
     "mainstream_source": "https://www.skysports.com/football/news/11835/8881310/santos-midfielder-alan-santos-confirms-real-madrid-offer",
     "sources": [
       "https://ge.globo.com/futebol/times/flamengo/noticia/2026/03/16/quem-sao-os-jovens-que-se-destacam-na-libertadores-sub-20-e-podem-aparecer-no-profissional-do-flamengo.ghtml"
+    ]
+  },
+  {
+    "id": 52,
+    "player_name": "Yan Diomande",
+    "detection_date": "2026-06-02 16:26:08",
+    "source_url": "https://www.latimes.com/espanol/deportes/articulo/2026-05-19/la-joven-promesa-yan-diomande-siguio-un-camino-loco-de-una-secundaria-de-florida-al-mundial",
+    "score": 70.0,
+    "raw_content": "Età molto giovane (15 anni) e una storia di un percorso 'loco' dal calcio scolastico in Florida al potenziale Mondiale, proveniente dalla Costa d'Avorio. Questo suggerisce un talento grezzo con un percorso non convenzionale e un'alta asimmetria informativa. Mancano statistiche concrete, ma il potenziale è intrigante.\n\nStats: Player stats of Yan Diomande (RasenBallsport Leipzig) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | 2025-2026. Bundesliga. MP. 33. Min. 2472. Gls. 12. Ast. 8. * see our coverage note. Yan Diomandé Menu. Yan Diomandé Overview; More Yan Diomandé Pages. Stats by ... | Yan Diomande is 19 years old (Nov 14, 2006), 180 cm tall and plays for RB Leipzig. Yan Diomande prefers to play with right foot. His jersey number is 49.",
+    "region": "Ivory Coast",
+    "status": "detected",
+    "age": 15,
+    "position": null,
+    "club": null,
+    "league": null,
+    "stats_summary": "Player stats of Yan Diomande (RasenBallsport Leipzig) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | 2025-2026. Bundesliga. MP. 33. Min. 2472. Gls. 12. Ast. 8. * see our coverage note. Yan Diomandé Menu. Yan Diomandé Overview; More Yan Diomandé Pages. Stats by ... | Yan Diomande is 19 years old (Nov 14, 2006), 180 cm tall and plays for RB Leipzig. Yan Diomande prefers to play with right foot. His jersey number is 49.",
+    "is_ghost": 0,
+    "first_detected": "2026-06-02T16:26:08.016372",
+    "last_seen": "2026-06-02T16:26:08.016372",
+    "detection_count": 1,
+    "score_history": "[{\"score\": 70, \"date\": \"2026-06-02T16:26:08.016372\"}]",
+    "source_count": 1,
+    "lead_time_days": 0,
+    "ob1_detection_date": "2026-06-02T16:26:08.016372",
+    "mainstream_source": "https://www.skysports.com/football/news/11095/13541524/yan-diomande-interview-on-the-world-cup-with-cote-divoire-his-gratitude-to-rb-leipzig-and-trials-with-crystal-palace",
+    "sources": [
+      "https://www.latimes.com/espanol/deportes/articulo/2026-05-19/la-joven-promesa-yan-diomande-siguio-un-camino-loco-de-una-secundaria-de-florida-al-mundial"
     ]
   }
 ]
