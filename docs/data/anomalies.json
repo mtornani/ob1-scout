@@ -378,6 +378,33 @@
     ]
   },
   {
+    "id": 56,
+    "player_name": "Jhonatan Spiff",
+    "detection_date": "2026-06-03 16:49:28",
+    "source_url": "https://www.tiktok.com/content/jhonatan-spiff-debut",
+    "score": 83.0,
+    "raw_content": "A forward who made his senior debut for River Plate in May 2026. His debut at a major club like River Plate strongly suggests he is U20 (likely 17-19 years old). His background (Argentine-Nigerian) adds an interesting profile. While River Plate is a prominent club, a recent debut means he's not yet widely known internationally, offering good informational asymmetry. The score is slightly tempered by playing for a big club (reducing informational asymmetry compared to a smaller club) and the absence of specific performance statistics beyond the debut itself.",
+    "region": "Argentina",
+    "status": "detected",
+    "age": null,
+    "position": "ST",
+    "club": "River Plate",
+    "league": "Argentine Primera División",
+    "stats_summary": null,
+    "is_ghost": 1,
+    "first_detected": "2026-06-03T16:49:28.387140",
+    "last_seen": "2026-06-03T16:49:28.387140",
+    "detection_count": 1,
+    "score_history": "[{\"score\": 83.0, \"date\": \"2026-06-03T16:49:28.387140\"}]",
+    "source_count": 1,
+    "lead_time_days": 0,
+    "ob1_detection_date": "2026-06-03T16:49:28.387140",
+    "mainstream_source": "https://www.goal.com/en-au/player/j-spiff/Uv4L5DpdnAqNkfmB4pAro",
+    "sources": [
+      "https://www.tiktok.com/content/jhonatan-spiff-debut"
+    ]
+  },
+  {
     "id": 36,
     "player_name": "Tchola",
     "detection_date": "2026-03-14 02:02:05",
@@ -483,6 +510,33 @@
     "mainstream_source": "https://www.espn.com/soccer/player/_/id/378912/jordan-garcia",
     "sources": [
       "https://billionhands.com/es/ranking/deportes/jovenes-promesas-del-futbol-sudamericano-69cf5a558e5be409898599a6"
+    ]
+  },
+  {
+    "id": 55,
+    "player_name": "Johan Martínez",
+    "detection_date": "2026-06-03 16:49:26",
+    "source_url": "https://www.tiktok.com/@creadorgenial101/video/7624564912437644575",
+    "score": 80.0,
+    "raw_content": "Identified as a 'joven promesa' (young promise) and 'futuro estrella' (future star) from Independiente del Valle, a renowned academy known for developing talent. He is part of the Ecuador U17 team for the Sudamericano in April 2026, confirming his U20 status (likely 16-17 years old). This indicates significant potential and national team recognition at a young age within a strong developmental club, but without widespread international media visibility. The lack of specific statistics (goals/assists) prevents a higher score, but the qualitative assessment is very strong, indicating real informational asymmetry.\n\nStats: Johan Martínez career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Real ... | These are the detailed performance data of Leones FC player Johan Martínez. The website contains a statistic about the performance data of the player. | Johan Martínez career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Leones ...",
+    "region": "Ecuador",
+    "status": "detected",
+    "age": 16,
+    "position": null,
+    "club": "Independiente del Valle",
+    "league": "Ecuadorian Serie A",
+    "stats_summary": "Johan Martínez career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Real ... | These are the detailed performance data of Leones FC player Johan Martínez. The website contains a statistic about the performance data of the player. | Johan Martínez career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Leones ...",
+    "is_ghost": 0,
+    "first_detected": "2026-06-03T16:49:26.441555",
+    "last_seen": "2026-06-03T16:49:26.441555",
+    "detection_count": 1,
+    "score_history": "[{\"score\": 80, \"date\": \"2026-06-03T16:49:26.441555\"}]",
+    "source_count": 1,
+    "lead_time_days": 0,
+    "ob1_detection_date": "2026-06-03T16:49:26.441555",
+    "mainstream_source": "https://www.bbc.com/sport/football/articles/cy011yq82ndo",
+    "sources": [
+      "https://www.tiktok.com/@creadorgenial101/video/7624564912437644575"
     ]
   },
   {
