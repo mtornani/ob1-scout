@@ -432,33 +432,6 @@
     ]
   },
   {
-    "id": 46,
-    "player_name": "Luis Benedetti",
-    "detection_date": "2026-06-01 05:31:43",
-    "source_url": "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/",
-    "score": 81.5,
-    "raw_content": "Emerging talent at a top Brazilian club with exceptional documented statistics for his position: 10 goals in U20 in 2024 as a central defender. He recently debuted for the senior team, indicating high potential with relatively low international visibility, representing significant information asymmetry.\n\nStats: Player stats of Luis Benedetti (SE Palmeiras São Paulo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Luis Benedetti career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player ... | Check out the latest Luis Benedetti stats for all competitions like Série A, Copa Libertadores and FIFA Club World Cup and more on FBref.com.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 19,
-    "position": "CB",
-    "club": "Palmeiras",
-    "league": "Brasileirão Série A",
-    "stats_summary": "Player stats of Luis Benedetti (SE Palmeiras São Paulo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Luis Benedetti career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player ... | Check out the latest Luis Benedetti stats for all competitions like Série A, Copa Libertadores and FIFA Club World Cup and more on FBref.com.",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T05:31:43.066722",
-    "last_seen": "2026-06-04T15:15:39.400921",
-    "detection_count": 8,
-    "score_history": "[{\"score\": 75, \"date\": \"2026-06-01T05:31:43.066722\"}, {\"score\": 78, \"date\": \"2026-06-01T17:39:26.541438\"}, {\"score\": 85, \"date\": \"2026-06-01T21:34:23.476858\"}, {\"score\": 80, \"date\": \"2026-06-02T16:26:01.337071\"}, {\"score\": 70, \"date\": \"2026-06-03T04:06:28.454149\"}, {\"score\": 78, \"date\": \"2026-06-03T10:59:48.736155\"}, {\"score\": 82, \"date\": \"2026-06-04T09:56:41.274685\"}, {\"score\": 82, \"date\": \"2026-06-04T15:15:39.400921\"}]",
-    "source_count": 1,
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-06-01T05:31:43.066722",
-    "mainstream_source": null,
-    "sources": [
-      "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
-    ]
-  },
-  {
     "id": 50,
     "player_name": "João Cruz",
     "detection_date": "2026-06-01 17:39:25",
@@ -675,6 +648,33 @@
     ]
   },
   {
+    "id": 46,
+    "player_name": "Luis Benedetti",
+    "detection_date": "2026-06-01 05:31:43",
+    "source_url": "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/",
+    "score": 79.0,
+    "raw_content": "Identificato come una 'joia' (gemma) in un articolo brasiliano di rilievo. Presenta statistiche concrete ed eccezionali per un difensore centrale: 10 gol nell'Under 20 nel 2024 e un debutto professionale nel 2025. Possiede attributi fisici importanti (1.98m, mancino, buona uscita palla al piede). Sebbene giochi in un club brasiliano di alto livello, non è ancora un nome riconosciuto a livello globale, indicando una significativa asimmetria informativa.\n\nStats: Player stats of Luis Benedetti (SE Palmeiras São Paulo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Luis Benedetti career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Palmeiras ... | Check out the latest Luis Benedetti stats for all competitions like Série A, Copa Libertadores and FIFA Club World Cup and more on FBref.com.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 19,
+    "position": "CB",
+    "club": "Palmeiras",
+    "league": "Brasileirão Série A",
+    "stats_summary": "Player stats of Luis Benedetti (SE Palmeiras São Paulo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Luis Benedetti career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Palmeiras ... | Check out the latest Luis Benedetti stats for all competitions like Série A, Copa Libertadores and FIFA Club World Cup and more on FBref.com.",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T05:31:43.066722",
+    "last_seen": "2026-06-06T03:29:58.242184",
+    "detection_count": 9,
+    "score_history": "[{\"score\": 75, \"date\": \"2026-06-01T05:31:43.066722\"}, {\"score\": 78, \"date\": \"2026-06-01T17:39:26.541438\"}, {\"score\": 85, \"date\": \"2026-06-01T21:34:23.476858\"}, {\"score\": 80, \"date\": \"2026-06-02T16:26:01.337071\"}, {\"score\": 70, \"date\": \"2026-06-03T04:06:28.454149\"}, {\"score\": 78, \"date\": \"2026-06-03T10:59:48.736155\"}, {\"score\": 82, \"date\": \"2026-06-04T09:56:41.274685\"}, {\"score\": 82, \"date\": \"2026-06-04T15:15:39.400921\"}, {\"score\": 78, \"date\": \"2026-06-06T03:29:58.242184\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-01T05:31:43.066722",
+    "mainstream_source": null,
+    "sources": [
+      "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
+    ]
+  },
+  {
     "id": 49,
     "player_name": "Mikael",
     "detection_date": "2026-06-01 11:34:17",
@@ -802,9 +802,9 @@
     "detection_count": 2,
     "score_history": "[{\"score\": 78, \"date\": \"2026-06-01T06:01:15.061613\"}, {\"score\": 72, \"date\": \"2026-06-01T11:34:18.751143\"}]",
     "source_count": 1,
-    "lead_time_days": null,
+    "lead_time_days": 4,
     "ob1_detection_date": "2026-06-01T06:01:15.061613",
-    "mainstream_source": null,
+    "mainstream_source": "https://www.lequipe.fr/fiche/axel-alfonzo/142708",
     "sources": [
       "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/"
     ]
