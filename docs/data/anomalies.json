@@ -621,6 +621,33 @@
     ]
   },
   {
+    "id": 58,
+    "player_name": "Kadir do Panamá",
+    "detection_date": "2026-06-07 08:56:43",
+    "source_url": "https://www.tiktok.com/@karlusdanieu/video/7289858173102591237",
+    "score": 78.0,
+    "raw_content": "Giocatore Under 20, 'grande destaque' (grande protagonista) con la maglia numero 9 nel Botafogo Sub 20. La sua origine da Panama suggerisce una minore visibilità internazionale rispetto ai talenti brasiliani. Sebbene manchino statistiche concrete (gol/assist), la menzione come 'highlight' in un contesto giovanile di un club brasiliano noto indica un potenziale valore nascosto. Merita un approfondimento.",
+    "region": "Panama",
+    "status": "detected",
+    "age": 19,
+    "position": "ST",
+    "club": "Botafogo Sub 20",
+    "league": "Copa Rio Sub-20",
+    "stats_summary": null,
+    "is_ghost": 1,
+    "first_detected": "2026-06-07T08:56:43.152008",
+    "last_seen": "2026-06-07T08:56:43.152008",
+    "detection_count": 1,
+    "score_history": "[{\"score\": 78.0, \"date\": \"2026-06-07T08:56:43.152008\"}]",
+    "source_count": 1,
+    "lead_time_days": 0,
+    "ob1_detection_date": "2026-06-07T08:56:43.152008",
+    "mainstream_source": "https://www.espn.com/soccer/player/_/id/411290/jose-kadir",
+    "sources": [
+      "https://www.tiktok.com/@karlusdanieu/video/7289858173102591237"
+    ]
+  },
+  {
     "id": 49,
     "player_name": "Mikael",
     "detection_date": "2026-06-01 11:34:17",
