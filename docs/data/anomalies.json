@@ -405,6 +405,33 @@
     ]
   },
   {
+    "id": 47,
+    "player_name": "Axel Alfonzo",
+    "detection_date": "2026-06-01 06:01:15",
+    "source_url": "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/",
+    "score": 83.5,
+    "raw_content": "Described as a 'joven promesa internacional' who joined Limache. Crucially, in the 2025 season, he played 19 matches for Olimpia (a prominent Paraguayan club), starting 15 of them, demonstrating significant senior team experience at a young age. This concrete data, combined with his move to a less prominent Chilean club (Limache), suggests high potential with relatively low international visibility, making him a strong candidate for informational asymmetry.",
+    "region": "Paraguay",
+    "status": "detected",
+    "age": 19,
+    "position": null,
+    "club": "Limache",
+    "league": "Chilean League",
+    "stats_summary": "Axel Alfonzo is 22 years old (May 7, 2004), 182 cm tall and plays for Deportes Limache. Axel Alfonzo prefers to play with right foot. | Goals by new players. New arrivals. New signings this season: 2025/2026 ... Axel Alfonzo. Defender. Olimpia ... Club Guaraní, 66. 1748411855. View stats. Table ... | The squad overview lists all player stats for a selected season. The ... Axel Alfonzo · A. Alfonzo. Centre-Back. 22, 12, 11, -, 626'. 7. Deportes ...",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T06:01:15.061613",
+    "last_seen": "2026-06-12T14:59:16.925421",
+    "detection_count": 8,
+    "score_history": "[{\"score\": 78, \"date\": \"2026-06-01T06:01:15.061613\"}, {\"score\": 72, \"date\": \"2026-06-01T11:34:18.751143\"}, {\"score\": 78, \"date\": \"2026-06-06T19:23:52.267957\"}, {\"score\": 85, \"date\": \"2026-06-09T09:44:05.301766\"}, {\"score\": 80, \"date\": \"2026-06-09T14:52:12.242671\"}, {\"score\": 80, \"date\": \"2026-06-10T03:42:59.762007\"}, {\"score\": 80, \"date\": \"2026-06-10T20:31:12.873091\"}, {\"score\": 85, \"date\": \"2026-06-12T14:59:16.925421\"}]",
+    "source_count": 1,
+    "lead_time_days": 4,
+    "ob1_detection_date": "2026-06-01T06:01:15.061613",
+    "mainstream_source": "https://www.lequipe.fr/fiche/axel-alfonzo/142708",
+    "sources": [
+      "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/"
+    ]
+  },
+  {
     "id": 56,
     "player_name": "Jhonatan Spiff",
     "detection_date": "2026-06-03 16:49:28",
@@ -591,33 +618,6 @@
     "mainstream_source": null,
     "sources": [
       "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
-    ]
-  },
-  {
-    "id": 47,
-    "player_name": "Axel Alfonzo",
-    "detection_date": "2026-06-01 06:01:15",
-    "source_url": "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/",
-    "score": 80.1,
-    "raw_content": "Described as a 'joven promesa internacional' who gained significant experience in 2025, playing 19 matches (15 as a starter) for Olimpia's main squad. This indicates concrete playing time at a high level in South America. His subsequent move to Limache (a Chilean club, likely not top-tier) suggests he's not yet on the radar of major European clubs, providing excellent information asymmetry despite his solid performance data. Age is implied U20 by 'joven promesa'.",
-    "region": "Paraguay",
-    "status": "detected",
-    "age": 19,
-    "position": null,
-    "club": "Limache",
-    "league": "Chilean league",
-    "stats_summary": "Axel Alfonzo is 22 years old (May 7, 2004), 182 cm tall and plays for Deportes Limache. Axel Alfonzo prefers to play with right foot. | Goals by new players. New arrivals. New signings this season: 2025/2026 ... Axel Alfonzo. Defender. Olimpia ... Club Guaraní, 66. 1748411855. View stats. Table ... | The squad overview lists all player stats for a selected season. The ... Axel Alfonzo · A. Alfonzo. Centre-Back. 22, 12, 11, -, 626'. 7. Deportes ...",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T06:01:15.061613",
-    "last_seen": "2026-06-10T20:31:12.873091",
-    "detection_count": 7,
-    "score_history": "[{\"score\": 78, \"date\": \"2026-06-01T06:01:15.061613\"}, {\"score\": 72, \"date\": \"2026-06-01T11:34:18.751143\"}, {\"score\": 78, \"date\": \"2026-06-06T19:23:52.267957\"}, {\"score\": 85, \"date\": \"2026-06-09T09:44:05.301766\"}, {\"score\": 80, \"date\": \"2026-06-09T14:52:12.242671\"}, {\"score\": 80, \"date\": \"2026-06-10T03:42:59.762007\"}, {\"score\": 80, \"date\": \"2026-06-10T20:31:12.873091\"}]",
-    "source_count": 1,
-    "lead_time_days": 4,
-    "ob1_detection_date": "2026-06-01T06:01:15.061613",
-    "mainstream_source": "https://www.lequipe.fr/fiche/axel-alfonzo/142708",
-    "sources": [
-      "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/"
     ]
   },
   {
@@ -834,6 +834,33 @@
     "mainstream_source": "https://www.goal.com/br/not%C3%ADcias/quanto-o-palmeiras-vai-pagar-ao-milan-para-ter-gustavo-gomez-ate-2024/1syf3iy9r8w991o2jobk1qincw",
     "sources": [
       "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/06/athletico-renova-com-o-meia-gustavo-gomes-promessa-da-base.ghtml"
+    ]
+  },
+  {
+    "id": 65,
+    "player_name": "Gabriel Mec",
+    "detection_date": "2026-06-12 14:59:14",
+    "source_url": "https://www.gremionews.com.br/geral/4519-joia-milionaria-do-gremio-destaque-da-selecao-sub-20",
+    "score": 78.0,
+    "raw_content": "Described as a 'joia milionária' (millionaire jewel) of Grêmio and a standout for the Brazil U20 national team. He was decisive in a friendly against Chile, coming on as a substitute and winning the penalty that led to the only goal. This shows concrete impact in an international youth setting. While the 'milionária' tag suggests some internal valuation, he is not yet globally known, offering good informational asymmetry.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 20,
+    "position": null,
+    "club": "Grêmio",
+    "league": "Brazilian Youth Leagues / Brazil U20",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-06-12T14:59:14.299313",
+    "last_seen": "2026-06-12T14:59:14.299313",
+    "detection_count": 1,
+    "score_history": "[{\"score\": 78, \"date\": \"2026-06-12T14:59:14.299313\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-12T14:59:14.299313",
+    "mainstream_source": null,
+    "sources": [
+      "https://www.gremionews.com.br/geral/4519-joia-milionaria-do-gremio-destaque-da-selecao-sub-20"
     ]
   },
   {
@@ -1058,19 +1085,19 @@
     "detection_date": "2026-06-12 10:14:17",
     "source_url": "https://spfc24horas.com.br/conheca-os-jogadores-do-sub-17-que-disputarao-a-copinha-2026/",
     "score": 70.0,
-    "raw_content": "Um jogador de 16 anos sendo considerado para a Copinha Sub-20, com uma característica notável de 'finalização', indica alto potencial e progressão precoce. Embora não haja estatísticas concretas ainda, jogar duas categorias acima em um torneio significativo é um forte sinal para o desenvolvimento futuro. O clube é o São Paulo, uma entidade conhecida, mas a idade e o contexto do jogador oferecem boa assimetria.",
+    "raw_content": "A left-back from Grêmio, he was called up to the Brazil U20 squad for a friendly. However, he remained on the bench and was not utilized. While a national team call-up is positive, the lack of playing time or specific performance details in the given article reduces his score compared to Gabriel Mec. Still, his presence in the U20 national setup indicates potential.",
     "region": "Brazil",
     "status": "detected",
-    "age": 16,
-    "position": "Forward",
-    "club": "São Paulo",
-    "league": "Copinha (U20 tournament)",
+    "age": 20,
+    "position": "LB",
+    "club": "Grêmio",
+    "league": "Brazilian Youth Leagues / Brazil U20",
     "stats_summary": null,
     "is_ghost": 0,
     "first_detected": "2026-06-12T10:14:17.417292",
-    "last_seen": "2026-06-12T10:14:17.417292",
-    "detection_count": 1,
-    "score_history": "[{\"score\": 70, \"date\": \"2026-06-12T10:14:17.417292\"}]",
+    "last_seen": "2026-06-12T14:59:14.846335",
+    "detection_count": 2,
+    "score_history": "[{\"score\": 70, \"date\": \"2026-06-12T10:14:17.417292\"}, {\"score\": 70, \"date\": \"2026-06-12T14:59:14.846335\"}]",
     "source_count": 1,
     "lead_time_days": null,
     "ob1_detection_date": "2026-06-12T10:14:17.417292",
