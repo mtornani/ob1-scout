@@ -270,33 +270,6 @@
     ]
   },
   {
-    "id": 39,
-    "player_name": "Mora",
-    "detection_date": "2026-03-17 19:03:30",
-    "source_url": "ingest_1773731069.md",
-    "score": 85.0,
-    "raw_content": "Giocatore messicano che ha segnato 3 gol nella Coppa del Mondo Sub-20 del 2025. Descritto con 'visione di gioco apurada e passes precisos', suggerendo qualità tecniche elevate. Le prestazioni in un torneo internazionale sono un forte indicatore di talento. La mancanza di un club di alto profilo europeo e la sua nazionalità messicana contribuiscono a mantenere un'asimmetria informativa significativa.\n\nStats: Player stats of Rodrigo Mora (FC Porto) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | 2025-2026. Primeira Liga. Europa Lg. MP. 21. 8. Min. 876. 389. Gls. 1. 3. Ast. 1. 1. * see our coverage note. Rodrigo Mora Overview; More Rodrigo Mora Pages. | Player stats of Lautaro Mora (Club Atlético Huracán II) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data.",
-    "region": "Mexico",
-    "status": "detected",
-    "age": null,
-    "position": "Midfielder/Playmaker",
-    "club": null,
-    "league": "International U20",
-    "stats_summary": "Player stats of Rodrigo Mora (FC Porto) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | 2025-2026. Primeira Liga. Europa Lg. MP. 21. 8. Min. 876. 389. Gls. 1. 3. Ast. 1. 1. * see our coverage note. Rodrigo Mora Overview; More Rodrigo Mora Pages. | Player stats of Lautaro Mora (Club Atlético Huracán II) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data.",
-    "is_ghost": 0,
-    "first_detected": "2026-03-17T19:03:30.174168",
-    "last_seen": "2026-03-19T13:06:02.569840",
-    "detection_count": 3,
-    "score_history": "[{\"score\": 70, \"date\": \"2026-03-17T19:03:30.174168\"}, {\"score\": 85, \"date\": \"2026-03-18T02:11:27.964468\"}, {\"score\": 78, \"date\": \"2026-03-19T13:06:02.569840\"}]",
-    "source_count": 1,
-    "lead_time_days": 0,
-    "ob1_detection_date": "2026-03-17T19:03:30.174168",
-    "mainstream_source": "https://www.marca.com/futbol/betis/2026/03/15/morante-recoge-testigo-joaquin-lidera-generacion-campeona.html",
-    "sources": [
-      "ingest_1773731069.md"
-    ]
-  },
-  {
     "id": 33,
     "player_name": "Fode Diallo",
     "detection_date": "2026-03-10 06:51:55",
@@ -942,6 +915,33 @@
     "mainstream_source": null,
     "sources": [
       "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_B"
+    ]
+  },
+  {
+    "id": 39,
+    "player_name": "Mora",
+    "detection_date": "2026-03-17 19:03:30",
+    "source_url": "ingest_1773731069.md",
+    "score": 78.0,
+    "raw_content": "Ha fornito un assist nel match inaugurale del Mondiale 2026 per il Messico ed è descritto come 'la joven promesa que ilusiona al país'. Questa è una performance concreta e di alto impatto in un torneo globale. La mancanza di informazioni sul suo club o campionato attuale suggerisce che potrebbe non giocare in un club di primissima fascia europea, mantenendo un'asimmetria informativa significativa nonostante la visibilità del Mondiale.",
+    "region": "Mexico",
+    "status": "detected",
+    "age": 19,
+    "position": "CAM",
+    "club": null,
+    "league": "International U20",
+    "stats_summary": "Player stats of Rodrigo Mora (FC Porto) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | 2025-2026. Primeira Liga. Europa Lg. MP. 21. 8. Min. 876. 389. Gls. 1. 3. Ast. 1. 1. * see our coverage note. Rodrigo Mora Overview; More Rodrigo Mora Pages. | Player stats of Lautaro Mora (Club Atlético Huracán II) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data.",
+    "is_ghost": 0,
+    "first_detected": "2026-03-17T19:03:30.174168",
+    "last_seen": "2026-06-12T03:59:14.001264",
+    "detection_count": 4,
+    "score_history": "[{\"score\": 70, \"date\": \"2026-03-17T19:03:30.174168\"}, {\"score\": 85, \"date\": \"2026-03-18T02:11:27.964468\"}, {\"score\": 78, \"date\": \"2026-03-19T13:06:02.569840\"}, {\"score\": 75, \"date\": \"2026-06-12T03:59:14.001264\"}]",
+    "source_count": 1,
+    "lead_time_days": 0,
+    "ob1_detection_date": "2026-03-17T19:03:30.174168",
+    "mainstream_source": "https://www.marca.com/futbol/betis/2026/03/15/morante-recoge-testigo-joaquin-lidera-generacion-campeona.html",
+    "sources": [
+      "ingest_1773731069.md"
     ]
   },
   {
