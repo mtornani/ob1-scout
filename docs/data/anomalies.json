@@ -216,33 +216,6 @@
     ]
   },
   {
-    "id": 30,
-    "player_name": "Luiz Fernando (Luizinho)",
-    "detection_date": "2026-03-07 08:58:34",
-    "source_url": "https://www.meutimao.com.br/noticias-do-corinthians/528411/atacante-se-isola-na-artilharia-do-sub-20-do-corinthians-em-2026-e-dupla-entra-na-lista-confira",
-    "score": 87.4,
-    "raw_content": "Nominato 'Best player' della Copa São Paulo de Futebol Júnior 2026, una delle più prestigiose competizioni giovanili brasiliane. Questo riconoscimento è un indicatore molto forte di talento e potenziale. Sebbene giochi in un top club brasiliano (Cruzeiro), la competizione è giovanile e la sua pagina Wikipedia non è estesa a livello internazionale, suggerendo una buona asimmetria informativa per un giocatore con un tale riconoscimento.\n\nStats: Player stats of Fernando Brandán (Club Atlético Temperley) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | 2026. Série A. Sudamericana. MP. 8. 5. Min. 188. 221. Gls. 2. 3. Ast. 1. 2. * see our coverage note. Fernando Menu. Fernando Overview; More Fernando Pages. | Fernando Mimbacas ; Stats by Competition. All Competitions · Domestic Leagues · International Cups ; Match Logs. 2024-2025 · 2025 · 2026 ; Goal Logs. All ...",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 20,
-    "position": "Attacker",
-    "club": "Cruzeiro",
-    "league": "Copa São Paulo de Futebol Júnior",
-    "stats_summary": "Player stats of Fernando Brandán (Club Atlético Temperley) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | 2026. Série A. Sudamericana. MP. 8. 5. Min. 188. 221. Gls. 2. 3. Ast. 1. 2. * see our coverage note. Fernando Menu. Fernando Overview; More Fernando Pages. | Fernando Mimbacas ; Stats by Competition. All Competitions · Domestic Leagues · International Cups ; Match Logs. 2024-2025 · 2025 · 2026 ; Goal Logs. All ...",
-    "is_ghost": 0,
-    "first_detected": "2026-03-07T08:58:34.836776",
-    "last_seen": "2026-06-09T09:44:06.370074",
-    "detection_count": 49,
-    "score_history": "[{\"score\": 100.0, \"date\": \"2026-03-14T12:52:45.907421\"}, {\"score\": 100.0, \"date\": \"2026-03-14T18:39:35.773911\"}, {\"score\": 100.0, \"date\": \"2026-03-15T02:27:19.226159\"}, {\"score\": 100.0, \"date\": \"2026-03-15T06:58:26.821225\"}, {\"score\": 100.0, \"date\": \"2026-03-15T12:54:55.512414\"}, {\"score\": 100.0, \"date\": \"2026-03-15T18:40:07.240084\"}, {\"score\": 100.0, \"date\": \"2026-03-16T02:28:18.497310\"}, {\"score\": 100.0, \"date\": \"2026-03-16T07:18:29.349585\"}, {\"score\": 100.0, \"date\": \"2026-03-16T13:13:44.626063\"}, {\"score\": 100.0, \"date\": \"2026-03-17T02:07:14.300371\"}, {\"score\": 100.0, \"date\": \"2026-03-17T07:05:18.305877\"}, {\"score\": 100.0, \"date\": \"2026-03-17T19:03:10.615958\"}, {\"score\": 100.0, \"date\": \"2026-03-18T02:11:21.179927\"}, {\"score\": 100.0, \"date\": \"2026-03-18T13:13:29.560750\"}, {\"score\": 100.0, \"date\": \"2026-03-18T19:00:37.170940\"}, {\"score\": 100.0, \"date\": \"2026-03-19T02:12:17.319166\"}, {\"score\": 100.0, \"date\": \"2026-03-19T13:05:56.357296\"}, {\"score\": 100.0, \"date\": \"2026-03-19T18:59:58.881636\"}, {\"score\": 100.0, \"date\": \"2026-03-20T02:06:42.891894\"}, {\"score\": 82, \"date\": \"2026-06-09T09:44:06.370074\"}]",
-    "source_count": 1,
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-03-07T08:58:34.836776",
-    "mainstream_source": null,
-    "sources": [
-      "https://www.meutimao.com.br/noticias-do-corinthians/528411/atacante-se-isola-na-artilharia-do-sub-20-do-corinthians-em-2026-e-dupla-entra-na-lista-confira"
-    ]
-  },
-  {
     "id": 51,
     "player_name": "Jordan Garcia",
     "detection_date": "2026-06-01 21:34:25",
@@ -618,6 +591,33 @@
     "mainstream_source": null,
     "sources": [
       "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
+    ]
+  },
+  {
+    "id": 67,
+    "player_name": "Keiber Lamadrid",
+    "detection_date": "2026-06-13 08:59:14",
+    "source_url": "https://www.tiktok.com/@javier_epp/video/7606737829107895573",
+    "score": 80.0,
+    "raw_content": "Descritto come 'juvenil fútbol Venezuela', 'promesa' e 'joven talento venezolano'. Ha segnato un 'debut gol' per il West Ham United nella Premier League 2. Questo è un dato concreto e positivo in un campionato giovanile competitivo. Il club è noto ma non 'top' per le penalità, e la sua visibilità è ancora bassa a livello internazionale, indicando un'alta asimmetria informativa.",
+    "region": "Venezuela",
+    "status": "detected",
+    "age": null,
+    "position": "ST/CAM/LW/RW",
+    "club": "West Ham United",
+    "league": "Premier League 2",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-06-13T08:59:14.737398",
+    "last_seen": "2026-06-13T08:59:14.737398",
+    "detection_count": 1,
+    "score_history": "[{\"score\": 80, \"date\": \"2026-06-13T08:59:14.737398\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-13T08:59:14.737398",
+    "mainstream_source": null,
+    "sources": [
+      "https://www.tiktok.com/@javier_epp/video/7606737829107895573"
     ]
   },
   {
@@ -1077,6 +1077,33 @@
     "mainstream_source": null,
     "sources": [
       "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
+    ]
+  },
+  {
+    "id": 30,
+    "player_name": "Luiz Fernando (Luizinho)",
+    "detection_date": "2026-03-07 08:58:34",
+    "source_url": "https://www.meutimao.com.br/noticias-do-corinthians/528411/atacante-se-isola-na-artilharia-do-sub-20-do-corinthians-em-2026-e-dupla-entra-na-lista-confira",
+    "score": 75.2,
+    "raw_content": "Mencionado como 'ponta habilidoso' que 'resolveu o primeiro jogo' para o Corinthians. Embora não haja estatistiche dettagliate o età specifica, il contesto di 'promessa' in un club brasiliano di alto livello come il Corinthians suggerisce un talento Under 20 con potenziale. La visibilità è limitata a un TikTok brasiliano, indicando una buona asimmetria informativa a livello internazionale.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 20,
+    "position": "RW/LW",
+    "club": "Corinthians",
+    "league": "Brasileirão",
+    "stats_summary": "Player stats of Fernando Brandán (Club Atlético Temperley) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | 2026. Série A. Sudamericana. MP. 8. 5. Min. 188. 221. Gls. 2. 3. Ast. 1. 2. * see our coverage note. Fernando Menu. Fernando Overview; More Fernando Pages. | Fernando Mimbacas ; Stats by Competition. All Competitions · Domestic Leagues · International Cups ; Match Logs. 2024-2025 · 2025 · 2026 ; Goal Logs. All ...",
+    "is_ghost": 0,
+    "first_detected": "2026-03-07T08:58:34.836776",
+    "last_seen": "2026-06-13T08:59:14.608336",
+    "detection_count": 50,
+    "score_history": "[{\"score\": 100.0, \"date\": \"2026-03-14T18:39:35.773911\"}, {\"score\": 100.0, \"date\": \"2026-03-15T02:27:19.226159\"}, {\"score\": 100.0, \"date\": \"2026-03-15T06:58:26.821225\"}, {\"score\": 100.0, \"date\": \"2026-03-15T12:54:55.512414\"}, {\"score\": 100.0, \"date\": \"2026-03-15T18:40:07.240084\"}, {\"score\": 100.0, \"date\": \"2026-03-16T02:28:18.497310\"}, {\"score\": 100.0, \"date\": \"2026-03-16T07:18:29.349585\"}, {\"score\": 100.0, \"date\": \"2026-03-16T13:13:44.626063\"}, {\"score\": 100.0, \"date\": \"2026-03-17T02:07:14.300371\"}, {\"score\": 100.0, \"date\": \"2026-03-17T07:05:18.305877\"}, {\"score\": 100.0, \"date\": \"2026-03-17T19:03:10.615958\"}, {\"score\": 100.0, \"date\": \"2026-03-18T02:11:21.179927\"}, {\"score\": 100.0, \"date\": \"2026-03-18T13:13:29.560750\"}, {\"score\": 100.0, \"date\": \"2026-03-18T19:00:37.170940\"}, {\"score\": 100.0, \"date\": \"2026-03-19T02:12:17.319166\"}, {\"score\": 100.0, \"date\": \"2026-03-19T13:05:56.357296\"}, {\"score\": 100.0, \"date\": \"2026-03-19T18:59:58.881636\"}, {\"score\": 100.0, \"date\": \"2026-03-20T02:06:42.891894\"}, {\"score\": 82, \"date\": \"2026-06-09T09:44:06.370074\"}, {\"score\": 70, \"date\": \"2026-06-13T08:59:14.608336\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-03-07T08:58:34.836776",
+    "mainstream_source": null,
+    "sources": [
+      "https://www.meutimao.com.br/noticias-do-corinthians/528411/atacante-se-isola-na-artilharia-do-sub-20-do-corinthians-em-2026-e-dupla-entra-na-lista-confira"
     ]
   },
   {
