@@ -459,6 +459,33 @@
     ]
   },
   {
+    "id": 49,
+    "player_name": "Mikael",
+    "detection_date": "2026-06-01 11:34:17",
+    "source_url": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_B",
+    "score": 82.8,
+    "raw_content": "Identified as the 'Melhor marcador' (top scorer) of the Brasileirão Série B 2026 with 9 goals. This is concrete and exceptional performance in a national secondary league. His Wikipedia link is a 'redlink' (page does not exist), indicating extremely low international visibility and high informational asymmetry. Age is not explicitly stated, but assumed to be U20 as per search criteria, making him a prime target.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": null,
+    "position": "ST",
+    "club": "CRB",
+    "league": "Brasileirão Série B",
+    "stats_summary": "Become a Stathead & surf this site ad-free. 2026. Série B. MP. 7. Min. 488. Gls. 3. Ast. 1. * see our coverage note. Mikael Overview; More Mikael Pages. Stats ... | Mikael is 32 years old (Aug 20, 1993), 184 cm tall and plays for Tai Po. Mikael prefers to play with right foot. His jersey number is 25. | Mikael career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Barra FC U20 ...",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T11:34:17.264645",
+    "last_seen": "2026-06-14T19:28:14.840982",
+    "detection_count": 5,
+    "score_history": "[{\"score\": 78, \"date\": \"2026-06-01T11:34:17.264645\"}, {\"score\": 85, \"date\": \"2026-06-11T10:25:06.487440\"}, {\"score\": 85, \"date\": \"2026-06-14T04:04:38.922915\"}, {\"score\": 75, \"date\": \"2026-06-14T14:03:26.308314\"}, {\"score\": 85, \"date\": \"2026-06-14T19:28:14.840982\"}]",
+    "source_count": 1,
+    "lead_time_days": 0,
+    "ob1_detection_date": "2026-06-01T11:34:17.264645",
+    "mainstream_source": "https://www.espn.com/video/clip/_/id/48774664/mikael-granlund-scores-give-ducks-hope-game-6",
+    "sources": [
+      "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_B"
+    ]
+  },
+  {
     "id": 36,
     "player_name": "Tchola",
     "detection_date": "2026-03-14 02:02:05",
@@ -969,33 +996,6 @@
     "mainstream_source": "https://www.bbc.com/audio/play/m001r17h",
     "sources": [
       "https://www.instagram.com/p/DVRpeUHDlup/"
-    ]
-  },
-  {
-    "id": 49,
-    "player_name": "Mikael",
-    "detection_date": "2026-06-01 11:34:17",
-    "source_url": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_B",
-    "score": 77.8,
-    "raw_content": "Capocannoniere della Série B 2026 con 9 gol, giocando per il CRB, un club di lega minore. La sua pagina Wikipedia è un 'redlink', indicando una visibilità internazionale praticamente nulla. Le statistiche sono concrete e di alto livello per la lega. L'unica incertezza è l'età, non specificata, ma il contesto di 'promesse' in altri articoli suggerisce un profilo giovane. Se confermato Under 20, il suo valore sarebbe estremamente elevato.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": null,
-    "position": "ST",
-    "club": "CRB",
-    "league": "Brasileirão Série B",
-    "stats_summary": "Become a Stathead & surf this site ad-free. 2026. Série B. MP. 7. Min. 488. Gls. 3. Ast. 1. * see our coverage note. Mikael Overview; More Mikael Pages. Stats ... | Mikael is 32 years old (Aug 20, 1993), 184 cm tall and plays for Tai Po. Mikael prefers to play with right foot. His jersey number is 25. | Mikael career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Barra FC U20 ...",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T11:34:17.264645",
-    "last_seen": "2026-06-14T14:03:26.308314",
-    "detection_count": 4,
-    "score_history": "[{\"score\": 78, \"date\": \"2026-06-01T11:34:17.264645\"}, {\"score\": 85, \"date\": \"2026-06-11T10:25:06.487440\"}, {\"score\": 85, \"date\": \"2026-06-14T04:04:38.922915\"}, {\"score\": 75, \"date\": \"2026-06-14T14:03:26.308314\"}]",
-    "source_count": 1,
-    "lead_time_days": 0,
-    "ob1_detection_date": "2026-06-01T11:34:17.264645",
-    "mainstream_source": "https://www.espn.com/video/clip/_/id/48774664/mikael-granlund-scores-give-ducks-hope-game-6",
-    "sources": [
-      "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_B"
     ]
   },
   {
