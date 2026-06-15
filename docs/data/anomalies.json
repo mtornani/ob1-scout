@@ -162,6 +162,33 @@
     ]
   },
   {
+    "id": 31,
+    "player_name": "Gustavo Gomes",
+    "detection_date": "2026-03-07 08:58:35",
+    "source_url": "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/06/athletico-renova-com-o-meia-gustavo-gomes-promessa-da-base.ghtml",
+    "score": 89.0,
+    "raw_content": "An outstanding U17 midfielder who is the top scorer of the Paulista Sub-17 with 16 goals. Playing for Sfera FC, a less known club, and being highlighted only on TikTok, indicates extremely high information asymmetry and significant hidden value. Exceptional statistics for his age and position.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 16,
+    "position": "CM/CAM",
+    "club": "Sfera FC",
+    "league": "Paulista Sub-17",
+    "stats_summary": "This is the performance data of Gustavo Gomes from Araguaína Futebol e Regatas (TO). This page contains the data (goals, cards, etc.) | These are the detailed performance data of Karriereende player Gustavo Gomes. The website contains a statistic about the performance data of the player. | Gustavo Gomes da Silvas fodboldspillerprofil viser alle kampe og konkurrencer med statistik over alle kampene som Gustavo Gomes da Silva har spillet i. De ...",
+    "is_ghost": 0,
+    "first_detected": "2026-03-07T08:58:35.986874",
+    "last_seen": "2026-06-15T12:14:45.444917",
+    "detection_count": 45,
+    "score_history": "[{\"score\": 75, \"date\": \"2026-03-15T02:27:20.785288\"}, {\"score\": 70, \"date\": \"2026-03-15T06:58:28.018542\"}, {\"score\": 80, \"date\": \"2026-03-15T12:54:57.534965\"}, {\"score\": 75, \"date\": \"2026-03-15T18:40:09.167252\"}, {\"score\": 70, \"date\": \"2026-03-16T02:28:20.135850\"}, {\"score\": 70, \"date\": \"2026-03-16T07:18:30.716080\"}, {\"score\": 75, \"date\": \"2026-03-16T13:13:47.285885\"}, {\"score\": 75, \"date\": \"2026-03-17T02:07:15.630259\"}, {\"score\": 70, \"date\": \"2026-03-17T07:05:19.623827\"}, {\"score\": 70, \"date\": \"2026-03-17T19:03:13.139507\"}, {\"score\": 78, \"date\": \"2026-03-18T02:11:22.584390\"}, {\"score\": 70, \"date\": \"2026-03-18T13:13:30.822414\"}, {\"score\": 78, \"date\": \"2026-03-18T19:00:39.277332\"}, {\"score\": 70, \"date\": \"2026-03-19T02:12:18.878141\"}, {\"score\": 70, \"date\": \"2026-03-19T13:05:58.439837\"}, {\"score\": 70, \"date\": \"2026-03-19T19:00:01.246459\"}, {\"score\": 70, \"date\": \"2026-03-20T02:06:44.325963\"}, {\"score\": 78, \"date\": \"2026-06-11T10:25:07.168077\"}, {\"score\": 90, \"date\": \"2026-06-15T04:17:27.856725\"}, {\"score\": 90, \"date\": \"2026-06-15T12:14:45.444917\"}]",
+    "source_count": 1,
+    "lead_time_days": 91,
+    "ob1_detection_date": "2026-03-07T08:58:35.986874",
+    "mainstream_source": "https://www.goal.com/br/not%C3%ADcias/quanto-o-palmeiras-vai-pagar-ao-milan-para-ter-gustavo-gomez-ate-2024/1syf3iy9r8w991o2jobk1qincw",
+    "sources": [
+      "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/06/athletico-renova-com-o-meia-gustavo-gomes-promessa-da-base.ghtml"
+    ]
+  },
+  {
     "id": 35,
     "player_name": "Kaique Zizero",
     "detection_date": "2026-03-14 02:02:03",
@@ -213,33 +240,6 @@
     "mainstream_source": "https://www.lequipe.fr/fiche/kauan-toledo/143344",
     "sources": [
       "https://www.lance.com.br/botafogo/botafogo-colhe-bons-frutos-com-jovens-da-base-no-campeonato-carioca.html"
-    ]
-  },
-  {
-    "id": 31,
-    "player_name": "Gustavo Gomes",
-    "detection_date": "2026-03-07 08:58:35",
-    "source_url": "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/06/athletico-renova-com-o-meia-gustavo-gomes-promessa-da-base.ghtml",
-    "score": 86.6,
-    "raw_content": "Centrocampista di 16 anni, capocannoniere del Paulista Sub-17 con 16 gol. Queste sono statistiche eccezionali per un centrocampista a livello Under 17. Gioca per Sfera FC, un club brasiliano di profilo molto basso in una lega giovanile regionale, garantendo una visibilità internazionale quasi nulla. Rappresenta un'asimmetria informativa massima e un valore nascosto di altissimo livello.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 16,
-    "position": "CM",
-    "club": "Sfera FC",
-    "league": "Paulista Sub-17",
-    "stats_summary": "This is the performance data of Gustavo Gomes from Araguaína Futebol e Regatas (TO). This page contains the data (goals, cards, etc.) | These are the detailed performance data of Karriereende player Gustavo Gomes. The website contains a statistic about the performance data of the player. | Gustavo Gomes da Silvas fodboldspillerprofil viser alle kampe og konkurrencer med statistik over alle kampene som Gustavo Gomes da Silva har spillet i. De ...",
-    "is_ghost": 0,
-    "first_detected": "2026-03-07T08:58:35.986874",
-    "last_seen": "2026-06-15T04:17:27.856725",
-    "detection_count": 44,
-    "score_history": "[{\"score\": 70, \"date\": \"2026-03-14T18:39:37.428558\"}, {\"score\": 75, \"date\": \"2026-03-15T02:27:20.785288\"}, {\"score\": 70, \"date\": \"2026-03-15T06:58:28.018542\"}, {\"score\": 80, \"date\": \"2026-03-15T12:54:57.534965\"}, {\"score\": 75, \"date\": \"2026-03-15T18:40:09.167252\"}, {\"score\": 70, \"date\": \"2026-03-16T02:28:20.135850\"}, {\"score\": 70, \"date\": \"2026-03-16T07:18:30.716080\"}, {\"score\": 75, \"date\": \"2026-03-16T13:13:47.285885\"}, {\"score\": 75, \"date\": \"2026-03-17T02:07:15.630259\"}, {\"score\": 70, \"date\": \"2026-03-17T07:05:19.623827\"}, {\"score\": 70, \"date\": \"2026-03-17T19:03:13.139507\"}, {\"score\": 78, \"date\": \"2026-03-18T02:11:22.584390\"}, {\"score\": 70, \"date\": \"2026-03-18T13:13:30.822414\"}, {\"score\": 78, \"date\": \"2026-03-18T19:00:39.277332\"}, {\"score\": 70, \"date\": \"2026-03-19T02:12:18.878141\"}, {\"score\": 70, \"date\": \"2026-03-19T13:05:58.439837\"}, {\"score\": 70, \"date\": \"2026-03-19T19:00:01.246459\"}, {\"score\": 70, \"date\": \"2026-03-20T02:06:44.325963\"}, {\"score\": 78, \"date\": \"2026-06-11T10:25:07.168077\"}, {\"score\": 90, \"date\": \"2026-06-15T04:17:27.856725\"}]",
-    "source_count": 1,
-    "lead_time_days": 91,
-    "ob1_detection_date": "2026-03-07T08:58:35.986874",
-    "mainstream_source": "https://www.goal.com/br/not%C3%ADcias/quanto-o-palmeiras-vai-pagar-ao-milan-para-ter-gustavo-gomez-ate-2024/1syf3iy9r8w991o2jobk1qincw",
-    "sources": [
-      "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/06/athletico-renova-com-o-meia-gustavo-gomes-promessa-da-base.ghtml"
     ]
   },
   {
@@ -834,6 +834,33 @@
     "mainstream_source": "https://www.marca.com/futbol/betis/2026/03/15/morante-recoge-testigo-joaquin-lidera-generacion-campeona.html",
     "sources": [
       "ingest_1773731069.md"
+    ]
+  },
+  {
+    "id": 69,
+    "player_name": "KG9",
+    "detection_date": "2026-06-15 12:14:44",
+    "source_url": "https://www.tiktok.com/@sferafc/video/7613476382705847559",
+    "score": 78.0,
+    "raw_content": "A young forward (U17) who scored in the Paulista Sub-17 for Sfera FC, a less prominent club. His mention on TikTok suggests very low mainstream media visibility, making him a strong candidate for information asymmetry. Concrete performance data (a goal) is present.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 16,
+    "position": "ST/LW/RW",
+    "club": "Sfera FC",
+    "league": "Paulista Sub-17",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-06-15T12:14:44.591546",
+    "last_seen": "2026-06-15T12:14:44.591546",
+    "detection_count": 1,
+    "score_history": "[{\"score\": 78, \"date\": \"2026-06-15T12:14:44.591546\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-15T12:14:44.591546",
+    "mainstream_source": null,
+    "sources": [
+      "https://www.tiktok.com/@sferafc/video/7613476382705847559"
     ]
   },
   {
