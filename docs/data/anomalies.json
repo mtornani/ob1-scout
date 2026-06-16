@@ -540,6 +540,33 @@
     ]
   },
   {
+    "id": 24,
+    "player_name": "Ryan Evaristo",
+    "detection_date": "2026-03-01 17:34:20",
+    "source_url": "https://www.instagram.com/p/DVRpeUHDlup/",
+    "score": 82.9,
+    "raw_content": "Capocannoniere della Copinha 2025 con 10 gol, un torneo giovanile di grande rilevanza in Brasile. È stato 'pezzo chiave' per il pentacampionato del São Paulo. Le sue statistiche sono eccezionali per il livello giovanile. Sebbene sia noto nel contesto calcistico brasiliano, la sua visibilità internazionale è ancora contenuta, rendendolo un profilo con elevata asimmetria informativa e potenziale di crescita.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 19,
+    "position": "ST",
+    "club": "São Paulo",
+    "league": "Copinha (U20 Tournament)",
+    "stats_summary": "These are the detailed performance data of FC São Paulo player Ryan Francisco. The website contains a statistic about the performance data of the player. | Ryan Francisco is 19 years old (Nov 21, 2006), 175 cm tall and plays for São Paulo. Ryan Francisco prefers to play with left foot. His jersey number is 49. | #49 Ryan Francisco ; Date of birth/Age: 21/11/2006 (19) ; Citizenship: Brazil ; Height: 1,75 m ; Position: Centre-Forward ; Agent: Roc Nation Sports verified.",
+    "is_ghost": 0,
+    "first_detected": "2026-03-01T18:34:20.455948",
+    "last_seen": "2026-06-16T11:13:03.793942",
+    "detection_count": 58,
+    "score_history": "[{\"score\": 90.0, \"date\": \"2026-03-15T18:40:22.005746\"}, {\"score\": 82.5, \"date\": \"2026-03-16T07:18:33.804452\"}, {\"score\": 82.5, \"date\": \"2026-03-16T13:13:55.305026\"}, {\"score\": 90.0, \"date\": \"2026-03-17T02:07:20.082196\"}, {\"score\": 97.5, \"date\": \"2026-03-17T19:03:19.251324\"}, {\"score\": 78, \"date\": \"2026-03-17T19:03:25.327786\"}, {\"score\": 87.0, \"date\": \"2026-03-18T02:11:31.946365\"}, {\"score\": 72, \"date\": \"2026-03-18T19:00:44.593973\"}, {\"score\": 82.5, \"date\": \"2026-03-20T02:06:52.245529\"}, {\"score\": 70, \"date\": \"2026-06-01T04:04:26.287383\"}, {\"score\": 70, \"date\": \"2026-06-03T20:56:59.145852\"}, {\"score\": 70, \"date\": \"2026-06-04T15:15:40.440212\"}, {\"score\": 80, \"date\": \"2026-06-07T03:56:28.989508\"}, {\"score\": 70, \"date\": \"2026-06-10T15:35:27.551256\"}, {\"score\": 75, \"date\": \"2026-06-11T10:25:07.651031\"}, {\"score\": 78, \"date\": \"2026-06-12T10:14:16.718725\"}, {\"score\": 82, \"date\": \"2026-06-13T19:26:34.961730\"}, {\"score\": 77, \"date\": \"2026-06-14T04:04:39.624654\"}, {\"score\": 78, \"date\": \"2026-06-14T14:03:26.713161\"}, {\"score\": 85, \"date\": \"2026-06-16T11:13:03.793942\"}]",
+    "source_count": 1,
+    "lead_time_days": 0,
+    "ob1_detection_date": "2026-03-01T18:34:20.455948",
+    "mainstream_source": "https://www.bbc.com/audio/play/m001r17h",
+    "sources": [
+      "https://www.instagram.com/p/DVRpeUHDlup/"
+    ]
+  },
+  {
     "id": 49,
     "player_name": "Mikael",
     "detection_date": "2026-06-01 11:34:17",
@@ -837,6 +864,33 @@
     ]
   },
   {
+    "id": 68,
+    "player_name": "Eduardo",
+    "detection_date": "2026-06-14 04:04:39",
+    "source_url": "https://www.palmeiras.com.br/noticias/destaque-na-copinha-eduardo-assina-primeiro-contrato-profissional-com-palmeiras/",
+    "score": 79.1,
+    "raw_content": "Giovane promessa (circa 17 anni) del settore giovanile del Palmeiras. Ha registrato statistiche concrete e promettenti: 13 gol in 38 partite con l'Under 17 nel 2025. È stato 'destaque na Copinha 2026' ed è il 'più giovane del gruppo', suggerendo un talento precoce. Nonostante il Palmeiras sia un club noto, la sua visibilità internazionale è ancora bassa, offrendo una buona asimmetria informativa per un giocatore con dati concreti a livello giovanile.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 17,
+    "position": "ST/CAM/LW/RW",
+    "club": "Palmeiras",
+    "league": "Brazilian Youth Leagues",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-06-14T04:04:39.208579",
+    "last_seen": "2026-06-16T11:13:03.088319",
+    "detection_count": 3,
+    "score_history": "[{\"score\": 75, \"date\": \"2026-06-14T04:04:39.208579\"}, {\"score\": 78, \"date\": \"2026-06-15T20:56:47.521646\"}, {\"score\": 80, \"date\": \"2026-06-16T11:13:03.088319\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-14T04:04:39.208579",
+    "mainstream_source": null,
+    "sources": [
+      "https://www.palmeiras.com.br/noticias/destaque-na-copinha-eduardo-assina-primeiro-contrato-profissional-com-palmeiras/"
+    ]
+  },
+  {
     "id": 69,
     "player_name": "KG9",
     "detection_date": "2026-06-15 12:14:44",
@@ -999,33 +1053,6 @@
     ]
   },
   {
-    "id": 24,
-    "player_name": "Ryan Evaristo",
-    "detection_date": "2026-03-01 17:34:20",
-    "source_url": "https://www.instagram.com/p/DVRpeUHDlup/",
-    "score": 78.0,
-    "raw_content": "Capocannoniere della Copinha 2025 con 10 gol, un torneo Under 20 di grande rilevanza in Brasile. Le statistiche sono concrete e dimostrano un'ottima capacità realizzativa. Gioca in un club brasiliano di alto livello come il São Paulo, ma non è ancora un nome di risonanza internazionale. L'età è implicita come Under 20 data la natura del torneo.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 19,
-    "position": "ST",
-    "club": "São Paulo",
-    "league": "Brazilian Youth Leagues",
-    "stats_summary": "These are the detailed performance data of FC São Paulo player Ryan Francisco. The website contains a statistic about the performance data of the player. | Ryan Francisco is 19 years old (Nov 21, 2006), 175 cm tall and plays for São Paulo. Ryan Francisco prefers to play with left foot. His jersey number is 49. | #49 Ryan Francisco ; Date of birth/Age: 21/11/2006 (19) ; Citizenship: Brazil ; Height: 1,75 m ; Position: Centre-Forward ; Agent: Roc Nation Sports verified.",
-    "is_ghost": 0,
-    "first_detected": "2026-03-01T18:34:20.455948",
-    "last_seen": "2026-06-14T14:03:26.713161",
-    "detection_count": 57,
-    "score_history": "[{\"score\": 75, \"date\": \"2026-03-15T12:54:53.227884\"}, {\"score\": 90.0, \"date\": \"2026-03-15T18:40:22.005746\"}, {\"score\": 82.5, \"date\": \"2026-03-16T07:18:33.804452\"}, {\"score\": 82.5, \"date\": \"2026-03-16T13:13:55.305026\"}, {\"score\": 90.0, \"date\": \"2026-03-17T02:07:20.082196\"}, {\"score\": 97.5, \"date\": \"2026-03-17T19:03:19.251324\"}, {\"score\": 78, \"date\": \"2026-03-17T19:03:25.327786\"}, {\"score\": 87.0, \"date\": \"2026-03-18T02:11:31.946365\"}, {\"score\": 72, \"date\": \"2026-03-18T19:00:44.593973\"}, {\"score\": 82.5, \"date\": \"2026-03-20T02:06:52.245529\"}, {\"score\": 70, \"date\": \"2026-06-01T04:04:26.287383\"}, {\"score\": 70, \"date\": \"2026-06-03T20:56:59.145852\"}, {\"score\": 70, \"date\": \"2026-06-04T15:15:40.440212\"}, {\"score\": 80, \"date\": \"2026-06-07T03:56:28.989508\"}, {\"score\": 70, \"date\": \"2026-06-10T15:35:27.551256\"}, {\"score\": 75, \"date\": \"2026-06-11T10:25:07.651031\"}, {\"score\": 78, \"date\": \"2026-06-12T10:14:16.718725\"}, {\"score\": 82, \"date\": \"2026-06-13T19:26:34.961730\"}, {\"score\": 77, \"date\": \"2026-06-14T04:04:39.624654\"}, {\"score\": 78, \"date\": \"2026-06-14T14:03:26.713161\"}]",
-    "source_count": 1,
-    "lead_time_days": 0,
-    "ob1_detection_date": "2026-03-01T18:34:20.455948",
-    "mainstream_source": "https://www.bbc.com/audio/play/m001r17h",
-    "sources": [
-      "https://www.instagram.com/p/DVRpeUHDlup/"
-    ]
-  },
-  {
     "id": 27,
     "player_name": "Felipe",
     "detection_date": "2026-03-03 02:08:53",
@@ -1050,33 +1077,6 @@
     "mainstream_source": "https://espndeportes.espn.com/mma/peleador/_/id/4916248/felipe-bunes",
     "sources": [
       "https://portalbrazuca.com.br/promessa-do-santos-ganha-destaque-em-jornal-europeu/"
-    ]
-  },
-  {
-    "id": 68,
-    "player_name": "Eduardo",
-    "detection_date": "2026-06-14 04:04:39",
-    "source_url": "https://www.palmeiras.com.br/noticias/destaque-na-copinha-eduardo-assina-primeiro-contrato-profissional-com-palmeiras/",
-    "score": 77.1,
-    "raw_content": "Atleta mais jovem (16 anos) a ser inscrito na Copinha de 2026, já com contrato profissional. Destacou-se no Sub-17 em 2025 com 13 gols em 38 partidas. Sua idade e desempenho em categorias de base de um clube grande como o Palmeiras, somados à sua participação na Copinha (torneio Sub-20), sugerem um potencial muito alto com visibilidade ainda predominantemente nacional. Boa assimetria.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 16,
-    "position": "CAM/ST",
-    "club": "Palmeiras",
-    "league": "Brasileirão (Youth)",
-    "stats_summary": null,
-    "is_ghost": 0,
-    "first_detected": "2026-06-14T04:04:39.208579",
-    "last_seen": "2026-06-15T20:56:47.521646",
-    "detection_count": 2,
-    "score_history": "[{\"score\": 75, \"date\": \"2026-06-14T04:04:39.208579\"}, {\"score\": 78, \"date\": \"2026-06-15T20:56:47.521646\"}]",
-    "source_count": 1,
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-06-14T04:04:39.208579",
-    "mainstream_source": null,
-    "sources": [
-      "https://www.palmeiras.com.br/noticias/destaque-na-copinha-eduardo-assina-primeiro-contrato-profissional-com-palmeiras/"
     ]
   },
   {
