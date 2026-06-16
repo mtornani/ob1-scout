@@ -243,33 +243,6 @@
     ]
   },
   {
-    "id": 46,
-    "player_name": "Luis Benedetti",
-    "detection_date": "2026-06-01 05:31:43",
-    "source_url": "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/",
-    "score": 86.0,
-    "raw_content": "Difensore centrale di 19 anni con statistiche offensive eccezionali per il suo ruolo (10 gol nell'U20 nel 2024). Alto 1,98m, ha già debuttato in prima squadra e vinto titoli U17. Gioca in un club di alto livello in Brasile, ma la sua visibilità internazionale è ancora bassa, creando un'asimmetria informativa significativa. Il suo profilo di difensore goleador è raro e molto ricercato.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 19,
-    "position": "CB",
-    "club": "Palmeiras",
-    "league": "Brasileirão Série A",
-    "stats_summary": "Player stats of Luis Benedetti (SE Palmeiras São Paulo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Become a Stathead & surf this site ad-free. 2026. Série A. MP. 1. Min. 8. Gls. 0. Ast. 0. * see our coverage note. Luis Benedetti Overview; More Luis Benedetti ... | Luis Benedetti career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Palmeiras ...",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T05:31:43.066722",
-    "last_seen": "2026-06-16T04:06:41.891162",
-    "detection_count": 21,
-    "score_history": "[{\"score\": 78, \"date\": \"2026-06-01T17:39:26.541438\"}, {\"score\": 85, \"date\": \"2026-06-01T21:34:23.476858\"}, {\"score\": 80, \"date\": \"2026-06-02T16:26:01.337071\"}, {\"score\": 70, \"date\": \"2026-06-03T04:06:28.454149\"}, {\"score\": 78, \"date\": \"2026-06-03T10:59:48.736155\"}, {\"score\": 82, \"date\": \"2026-06-04T09:56:41.274685\"}, {\"score\": 82, \"date\": \"2026-06-04T15:15:39.400921\"}, {\"score\": 78, \"date\": \"2026-06-06T03:29:58.242184\"}, {\"score\": 75, \"date\": \"2026-06-06T19:23:49.241057\"}, {\"score\": 75, \"date\": \"2026-06-07T03:56:26.382148\"}, {\"score\": 78, \"date\": \"2026-06-08T10:55:09.389072\"}, {\"score\": 80, \"date\": \"2026-06-09T09:44:03.925898\"}, {\"score\": 78, \"date\": \"2026-06-10T10:00:49.305960\"}, {\"score\": 82, \"date\": \"2026-06-10T15:35:27.413674\"}, {\"score\": 87, \"date\": \"2026-06-13T19:26:33.043161\"}, {\"score\": 78, \"date\": \"2026-06-14T04:04:38.183243\"}, {\"score\": 82, \"date\": \"2026-06-14T14:03:25.853339\"}, {\"score\": 80, \"date\": \"2026-06-15T04:17:26.769676\"}, {\"score\": 82, \"date\": \"2026-06-15T20:56:47.274917\"}, {\"score\": 88, \"date\": \"2026-06-16T04:06:41.891162\"}]",
-    "source_count": 1,
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-06-01T05:31:43.066722",
-    "mainstream_source": null,
-    "sources": [
-      "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
-    ]
-  },
-  {
     "id": 51,
     "player_name": "Jordan Garcia",
     "detection_date": "2026-06-01 21:34:25",
@@ -618,6 +591,33 @@
     "mainstream_source": null,
     "sources": [
       "https://www.instagram.com/p/DVtLuiJDQRg/"
+    ]
+  },
+  {
+    "id": 71,
+    "player_name": "Gonzalo Petit",
+    "detection_date": "2026-06-16 16:52:57",
+    "source_url": "https://www.tiktok.com/@santibenitez_juv/video/7500633509426662661",
+    "score": 82.0,
+    "raw_content": "Attaccante di 18 anni che ha segnato un 'Gol Espectacular' con la prima squadra del Nacional, uno dei club più importanti dell'Uruguay. La visibilità è ancora bassa a livello internazionale (menzionato su TikTok), ma l'aver segnato con la squadra senior a un'età così giovane in un campionato secondario come quello uruguaiano indica un'elevata asimmetria informativa e un potenziale significativo.",
+    "region": "Uruguay",
+    "status": "detected",
+    "age": 18,
+    "position": "ST",
+    "club": "Nacional",
+    "league": "Uruguayan Primera División",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-06-16T16:52:57.665170",
+    "last_seen": "2026-06-16T16:52:57.665170",
+    "detection_count": 1,
+    "score_history": "[{\"score\": 82, \"date\": \"2026-06-16T16:52:57.665170\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-16T16:52:57.665170",
+    "mainstream_source": null,
+    "sources": [
+      "https://www.tiktok.com/@santibenitez_juv/video/7500633509426662661"
     ]
   },
   {
@@ -1158,6 +1158,33 @@
     "mainstream_source": null,
     "sources": [
       "https://www.meutimao.com.br/noticias-do-corinthians/528411/atacante-se-isola-na-artilharia-do-sub-20-do-corinthians-em-2026-e-dupla-entra-na-lista-confira"
+    ]
+  },
+  {
+    "id": 46,
+    "player_name": "Luis Benedetti",
+    "detection_date": "2026-06-01 05:31:43",
+    "source_url": "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/",
+    "score": 74.8,
+    "raw_content": "Zagueiro canhoto di 19 anni con ottima uscita palla e un'impressionante capacità nel gioco aereo (1,98m), evidenziata dai 10 gol segnati nell'Under 20 nel 2024. Ha già debuttato in prima squadra nel 2025. Sebbene giochi in un club di alto profilo come il Palmeiras (che riduce l'asimmetria informativa), le sue statistiche specifiche come difensore sono eccezionali e suggeriscono un potenziale elevatissimo. Non è ancora su liste internazionali di rilievo.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 19,
+    "position": "CB",
+    "club": "Palmeiras",
+    "league": "Brasileirão Série A",
+    "stats_summary": "Player stats of Luis Benedetti (SE Palmeiras São Paulo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Become a Stathead & surf this site ad-free. 2026. Série A. MP. 1. Min. 8. Gls. 0. Ast. 0. * see our coverage note. Luis Benedetti Overview; More Luis Benedetti ... | Luis Benedetti career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Palmeiras ...",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T05:31:43.066722",
+    "last_seen": "2026-06-16T16:52:55.019552",
+    "detection_count": 22,
+    "score_history": "[{\"score\": 85, \"date\": \"2026-06-01T21:34:23.476858\"}, {\"score\": 80, \"date\": \"2026-06-02T16:26:01.337071\"}, {\"score\": 70, \"date\": \"2026-06-03T04:06:28.454149\"}, {\"score\": 78, \"date\": \"2026-06-03T10:59:48.736155\"}, {\"score\": 82, \"date\": \"2026-06-04T09:56:41.274685\"}, {\"score\": 82, \"date\": \"2026-06-04T15:15:39.400921\"}, {\"score\": 78, \"date\": \"2026-06-06T03:29:58.242184\"}, {\"score\": 75, \"date\": \"2026-06-06T19:23:49.241057\"}, {\"score\": 75, \"date\": \"2026-06-07T03:56:26.382148\"}, {\"score\": 78, \"date\": \"2026-06-08T10:55:09.389072\"}, {\"score\": 80, \"date\": \"2026-06-09T09:44:03.925898\"}, {\"score\": 78, \"date\": \"2026-06-10T10:00:49.305960\"}, {\"score\": 82, \"date\": \"2026-06-10T15:35:27.413674\"}, {\"score\": 87, \"date\": \"2026-06-13T19:26:33.043161\"}, {\"score\": 78, \"date\": \"2026-06-14T04:04:38.183243\"}, {\"score\": 82, \"date\": \"2026-06-14T14:03:25.853339\"}, {\"score\": 80, \"date\": \"2026-06-15T04:17:26.769676\"}, {\"score\": 82, \"date\": \"2026-06-15T20:56:47.274917\"}, {\"score\": 88, \"date\": \"2026-06-16T04:06:41.891162\"}, {\"score\": 70, \"date\": \"2026-06-16T16:52:55.019552\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-01T05:31:43.066722",
+    "mainstream_source": null,
+    "sources": [
+      "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
     ]
   },
   {
