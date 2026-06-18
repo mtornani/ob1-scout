@@ -918,6 +918,33 @@
     ]
   },
   {
+    "id": 73,
+    "player_name": "Miguelito",
+    "detection_date": "2026-06-18 10:21:53",
+    "source_url": "https://www.tiktok.com/@diego.aquinox/video/7626168492852628757",
+    "score": 78.0,
+    "raw_content": "Described as a 'Joven Promesa del Fútbol Sudamericano' and a 'pieza fundamental' (fundamental player) within Santos' professional squad in 2026. This indicates significant impact and importance at a young age for a historically important Brazilian club. While mentioned on TikTok, his international visibility is likely still low, offering good information asymmetry. Specific age and position are not provided, but the qualitative data is strong.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": null,
+    "position": null,
+    "club": "Santos",
+    "league": "Brazilian Serie A",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-06-18T10:21:53.480483",
+    "last_seen": "2026-06-18T10:21:53.480483",
+    "detection_count": 1,
+    "score_history": "[{\"score\": 78, \"date\": \"2026-06-18T10:21:53.480483\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-18T10:21:53.480483",
+    "mainstream_source": null,
+    "sources": [
+      "https://www.tiktok.com/@diego.aquinox/video/7626168492852628757"
+    ]
+  },
+  {
     "id": 69,
     "player_name": "KG9",
     "detection_date": "2026-06-15 12:14:44",
@@ -1134,33 +1161,6 @@
     ]
   },
   {
-    "id": 57,
-    "player_name": "Douglas Telles",
-    "detection_date": "2026-06-06 13:43:55",
-    "source_url": "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/",
-    "score": 75.6,
-    "raw_content": "Snippet mentions scoring in a final round game with young players and having an 'agitated' (busy/successful) 2025 season. Age 18, playing at a level where he's considered a 'jewel' in Brazil. The club is identified only by a nickname ('Rubro-Negro'), which increases informational asymmetry. Low international visibility, despite national recognition as a prospect.\n\nStats: Check out the latest domestic and international stats, match logs, goals, height, weight and more for CR Flamengo playing for Douglas Telles in the Série A. | Detailed stats of Douglas Telles ; 2026, Campeonato Carioca · CR Flamengo · 4 ; 2026, CBF Brasileiro U20 · CR Flamengo U20 · 2 ... | Alongside squad call-ups and actual games played, the page also lists information such as minutes played and goals scored. ... Douglas Telles. Right Winger. 19 ...",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 18,
-    "position": "ST",
-    "club": "Brazilian club (Rubro-Negro nickname, e.g., Flamengo, Athletico-PR, Sport, Vitória)",
-    "league": "Brazilian Youth/Senior League",
-    "stats_summary": "Check out the latest domestic and international stats, match logs, goals, height, weight and more for CR Flamengo playing for Douglas Telles in the Série A. | Detailed stats of Douglas Telles ; 2026, Campeonato Carioca · CR Flamengo · 4 ; 2026, CBF Brasileiro U20 · CR Flamengo U20 · 2 ... | Alongside squad call-ups and actual games played, the page also lists information such as minutes played and goals scored. ... Douglas Telles. Right Winger. 19 ...",
-    "is_ghost": 0,
-    "first_detected": "2026-06-06T13:43:55.807655",
-    "last_seen": "2026-06-10T03:42:54.634751",
-    "detection_count": 2,
-    "score_history": "[{\"score\": 70, \"date\": \"2026-06-06T13:43:55.807655\"}, {\"score\": 78, \"date\": \"2026-06-10T03:42:54.634751\"}]",
-    "source_count": 1,
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-06-06T13:43:55.807655",
-    "mainstream_source": null,
-    "sources": [
-      "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
-    ]
-  },
-  {
     "id": 30,
     "player_name": "Luiz Fernando (Luizinho)",
     "detection_date": "2026-03-07 08:58:34",
@@ -1239,6 +1239,33 @@
     "mainstream_source": "https://www.skysports.com/football/news/11835/8881310/santos-midfielder-alan-santos-confirms-real-madrid-offer",
     "sources": [
       "https://ge.globo.com/futebol/times/flamengo/noticia/2026/03/16/quem-sao-os-jovens-que-se-destacam-na-libertadores-sub-20-e-podem-aparecer-no-profissional-do-flamengo.ghtml"
+    ]
+  },
+  {
+    "id": 57,
+    "player_name": "Douglas Telles",
+    "detection_date": "2026-06-06 13:43:55",
+    "source_url": "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/",
+    "score": 71.7,
+    "raw_content": "Scored a goal in a senior match for a major Brazilian club (likely a Serie A champion, referred to as 'Rubro-Negro') at age 18/19, having been promoted to the U20 squad. Mentioned as a 'jewel' in Brazilian football, indicating potential but not yet significant international visibility. While concrete statistics are minimal (one goal mentioned), gaining playing time in a strong domestic context at this age is a positive signal for hidden value.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 19,
+    "position": "ST",
+    "club": "Brazilian Serie A Club",
+    "league": "Brazil Serie A",
+    "stats_summary": "Check out the latest domestic and international stats, match logs, goals, height, weight and more for CR Flamengo playing for Douglas Telles in the Série A. | Detailed stats of Douglas Telles ; 2026, Campeonato Carioca · CR Flamengo · 4 ; 2026, CBF Brasileiro U20 · CR Flamengo U20 · 2 ... | Alongside squad call-ups and actual games played, the page also lists information such as minutes played and goals scored. ... Douglas Telles. Right Winger. 19 ...",
+    "is_ghost": 0,
+    "first_detected": "2026-06-06T13:43:55.807655",
+    "last_seen": "2026-06-18T10:21:51.382839",
+    "detection_count": 3,
+    "score_history": "[{\"score\": 70, \"date\": \"2026-06-06T13:43:55.807655\"}, {\"score\": 78, \"date\": \"2026-06-10T03:42:54.634751\"}, {\"score\": 70, \"date\": \"2026-06-18T10:21:51.382839\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-06T13:43:55.807655",
+    "mainstream_source": null,
+    "sources": [
+      "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
     ]
   },
   {
