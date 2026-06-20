@@ -540,30 +540,30 @@
     ]
   },
   {
-    "id": 71,
-    "player_name": "Gonzalo Petit",
-    "detection_date": "2026-06-16 16:52:57",
-    "source_url": "https://www.tiktok.com/@santibenitez_juv/video/7500633509426662661",
+    "id": 76,
+    "player_name": "Francisco Sorondo",
+    "detection_date": "2026-06-20 19:27:19",
+    "source_url": "https://www.tiktok.com/@santibenitez_juv/video/7652164719108689159",
     "score": 82.0,
-    "raw_content": "Attaccante di 18 anni che ha segnato un 'Gol Espectacular' con la prima squadra del Nacional, uno dei club più importanti dell'Uruguay. La visibilità è ancora bassa a livello internazionale (menzionato su TikTok), ma l'aver segnato con la squadra senior a un'età così giovane in un campionato secondario come quello uruguaiano indica un'elevata asimmetria informativa e un potenziale significativo.",
+    "raw_content": "Zagueiro de 17 anos (nascido em 2008, portanto 18 em 2026) que é 'titular' no Defensor Sporting e fez sua estreia em um torneio sul-americano. Ser titular em um clube profissional como o Defensor Sporting (conhecido por sua base) com apenas 17 anos é um indicador muito forte de talento e minutos consistentes. A visibilidade é principalmente regional, garantindo alta assimetria informativa para um jogador com tal nível de protagonismo em tenra idade.",
     "region": "Uruguay",
     "status": "detected",
     "age": 18,
-    "position": "ST",
-    "club": "Nacional",
-    "league": "Uruguayan Primera División",
+    "position": "CB",
+    "club": "Defensor Sporting",
+    "league": "Uruguayan Primera División / South American Youth Tournaments",
     "stats_summary": null,
     "is_ghost": 0,
-    "first_detected": "2026-06-16T16:52:57.665170",
-    "last_seen": "2026-06-16T16:52:57.665170",
+    "first_detected": "2026-06-20T19:27:19.694852",
+    "last_seen": "2026-06-20T19:27:19.694852",
     "detection_count": 1,
-    "score_history": "[{\"score\": 82, \"date\": \"2026-06-16T16:52:57.665170\"}]",
+    "score_history": "[{\"score\": 82, \"date\": \"2026-06-20T19:27:19.694852\"}]",
     "source_count": 1,
     "lead_time_days": null,
-    "ob1_detection_date": "2026-06-16T16:52:57.665170",
+    "ob1_detection_date": "2026-06-20T19:27:19.694852",
     "mainstream_source": null,
     "sources": [
-      "https://www.tiktok.com/@santibenitez_juv/video/7500633509426662661"
+      "https://www.tiktok.com/@santibenitez_juv/video/7652164719108689159"
     ]
   },
   {
@@ -891,6 +891,33 @@
     ]
   },
   {
+    "id": 71,
+    "player_name": "Gonzalo Petit",
+    "detection_date": "2026-06-16 16:52:57",
+    "source_url": "https://www.tiktok.com/@santibenitez_juv/video/7500633509426662661",
+    "score": 79.2,
+    "raw_content": "Delantero de 18 anos (em maio de 2025, portanto 19 em 2026) que marcou um 'Gol Espectacular' pelo Nacional e fez sua estreia em um torneio sul-americano. O Nacional é um clube tradicional, mas não um gigante europeu, e a menção em um TikTok sugere visibilidade local/regional, não internacional. Sua idade e performance destacada indicam um talento com potencial significativo e assimetria informativa real.",
+    "region": "Uruguay",
+    "status": "detected",
+    "age": 19,
+    "position": "ST",
+    "club": "Nacional",
+    "league": "Uruguayan Primera División / South American Youth Tournaments",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-06-16T16:52:57.665170",
+    "last_seen": "2026-06-20T19:27:18.912193",
+    "detection_count": 2,
+    "score_history": "[{\"score\": 82, \"date\": \"2026-06-16T16:52:57.665170\"}, {\"score\": 78, \"date\": \"2026-06-20T19:27:18.912193\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-16T16:52:57.665170",
+    "mainstream_source": null,
+    "sources": [
+      "https://www.tiktok.com/@santibenitez_juv/video/7500633509426662661"
+    ]
+  },
+  {
     "id": 68,
     "player_name": "Eduardo",
     "detection_date": "2026-06-14 04:04:39",
@@ -915,6 +942,33 @@
     "mainstream_source": null,
     "sources": [
       "https://www.palmeiras.com.br/noticias/destaque-na-copinha-eduardo-assina-primeiro-contrato-profissional-com-palmeiras/"
+    ]
+  },
+  {
+    "id": 44,
+    "player_name": "Davi Lima",
+    "detection_date": "2026-06-01 04:04:27",
+    "source_url": "https://ge.globo.com/futebol/copa-sp-de-futebol-junior/",
+    "score": 78.2,
+    "raw_content": "Zagueiro de 17 anos, destaque na última Copinha SP 2026, o que indica performance notável em um torneio de base de alto nível no Brasil. Sua transferência para um clube português, embora não nomeado, sugere um passo à frente na carreira, mas a falta de detalhes e a origem de um 'clube fundado há pouco mais de um ano' indicam altíssima assimetria informativa. É um talento promissor que está saindo de um contexto de baixa visibilidade para um cenário europeu, ainda sem grande alarde.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 17,
+    "position": "CB",
+    "club": "Unnamed Portuguese Club (ex-Brazilian club founded recently)",
+    "league": "Copinha SP (Brazil, youth) / Unspecified Portuguese League",
+    "stats_summary": "Davi Leopoldo Tavares Grisoto Lima stats, ratings and goals. davi-lima. Davi ... goals, assists, cards and other relevant data are also displayed. About ... | Davi Lima · Date of birth/Age: 17/04/2009 (17) · Citizenship: Brazil. | DISCOVER World Cup 2026 TRANSFERS & RUMOURS MARKET VALUES COMPETITIONS STATISTICS FORUM GAMING Live 3 ... Davi Lima. Defender. 17, 6, 6, -, 516'. -. Kayo · Kayo.",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T04:04:27.385838",
+    "last_seen": "2026-06-20T19:27:17.789036",
+    "detection_count": 5,
+    "score_history": "[{\"score\": 80, \"date\": \"2026-06-01T04:04:27.385838\"}, {\"score\": 78, \"date\": \"2026-06-07T13:53:05.009192\"}, {\"score\": 85, \"date\": \"2026-06-15T04:17:27.478760\"}, {\"score\": 70, \"date\": \"2026-06-16T20:51:39.187789\"}, {\"score\": 80, \"date\": \"2026-06-20T19:27:17.789036\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-01T04:04:27.385838",
+    "mainstream_source": null,
+    "sources": [
+      "https://ge.globo.com/futebol/copa-sp-de-futebol-junior/"
     ]
   },
   {
@@ -1158,33 +1212,6 @@
     "mainstream_source": null,
     "sources": [
       "https://www.meutimao.com.br/noticias-do-corinthians/528411/atacante-se-isola-na-artilharia-do-sub-20-do-corinthians-em-2026-e-dupla-entra-na-lista-confira"
-    ]
-  },
-  {
-    "id": 44,
-    "player_name": "Davi Lima",
-    "detection_date": "2026-06-01 04:04:27",
-    "source_url": "https://ge.globo.com/futebol/copa-sp-de-futebol-junior/",
-    "score": 73.9,
-    "raw_content": "Zagueiro de 17 anos que foi destaque na Copinha e firmou contrato com um clube português. A origem de um clube 'fundado há pouco mais de um ano' sugere um nível de assimetria informativa muito alto. A falta de estatísticas concretas (gols/assistências) além de ser 'destaque' impede uma pontuação mais alta, mas o potencial é claro.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 17,
-    "position": "CB",
-    "club": "Unnamed Portuguese club",
-    "league": "Copinha (Brazil Youth), Campeonato Capixaba Sub-20 (Brazil Youth)",
-    "stats_summary": "Davi Leopoldo Tavares Grisoto Lima stats, ratings and goals. davi-lima. Davi ... goals, assists, cards and other relevant data are also displayed. About ... | Davi Lima · Date of birth/Age: 17/04/2009 (17) · Citizenship: Brazil. | DISCOVER World Cup 2026 TRANSFERS & RUMOURS MARKET VALUES COMPETITIONS STATISTICS FORUM GAMING Live 3 ... Davi Lima. Defender. 17, 6, 6, -, 516'. -. Kayo · Kayo.",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T04:04:27.385838",
-    "last_seen": "2026-06-16T20:51:39.187789",
-    "detection_count": 4,
-    "score_history": "[{\"score\": 80, \"date\": \"2026-06-01T04:04:27.385838\"}, {\"score\": 78, \"date\": \"2026-06-07T13:53:05.009192\"}, {\"score\": 85, \"date\": \"2026-06-15T04:17:27.478760\"}, {\"score\": 70, \"date\": \"2026-06-16T20:51:39.187789\"}]",
-    "source_count": 1,
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-06-01T04:04:27.385838",
-    "mainstream_source": null,
-    "sources": [
-      "https://ge.globo.com/futebol/copa-sp-de-futebol-junior/"
     ]
   },
   {
