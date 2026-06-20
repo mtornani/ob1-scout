@@ -243,6 +243,33 @@
     ]
   },
   {
+    "id": 74,
+    "player_name": "Kukri",
+    "detection_date": "2026-06-20 03:39:51",
+    "source_url": "https://ge.globo.com/futebol/copa-sp-de-futebol-junior/",
+    "score": 85.0,
+    "raw_content": "19-year-old indigenous promise recently signed by Coritiba for their U20 team. This profile presents high informational asymmetry: young, specific age, U20 team, unique background (indigenous), and recent signing implies he's not yet widely known. No specific performance statistics yet, but the context is highly promising for a hidden gem.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 19,
+    "position": null,
+    "club": "Coritiba (sub-20)",
+    "league": "Brazilian Youth Football (Copinha)",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-06-20T03:39:51.811477",
+    "last_seen": "2026-06-20T03:39:51.811477",
+    "detection_count": 1,
+    "score_history": "[{\"score\": 85, \"date\": \"2026-06-20T03:39:51.811477\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-20T03:39:51.811477",
+    "mainstream_source": null,
+    "sources": [
+      "https://ge.globo.com/futebol/copa-sp-de-futebol-junior/"
+    ]
+  },
+  {
     "id": 66,
     "player_name": "Gustavogoes",
     "detection_date": "2026-06-12 20:12:12",
@@ -481,33 +508,6 @@
     "lead_time_days": 0,
     "ob1_detection_date": "2026-06-07T13:53:03.718882",
     "mainstream_source": "https://www.lequipe.fr/fiche/clarinha/135556",
-    "sources": [
-      "https://conmeboltv.com.br/brasil-campeao-sul-americano-sub-20-feminino-2026/"
-    ]
-  },
-  {
-    "id": 59,
-    "player_name": "Tainá",
-    "detection_date": "2026-06-07 13:53:02",
-    "source_url": "https://conmeboltv.com.br/brasil-campeao-sul-americano-sub-20-feminino-2026/",
-    "score": 82.8,
-    "raw_content": "Ha segnato il gol di apertura nella finale del Campionato Sudamericano Sub-20 Femminile 2026, contribuendo alla vittoria del Brasile. Prestazione concreta e decisiva in un torneo internazionale giovanile di alto livello. L'assenza di menzioni sul club o campionato di appartenenza, unita alla minore visibilità mediatica del calcio femminile rispetto a quello maschile, indica un'elevata asimmetria informativa e un potenziale valore nascosto.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": null,
-    "position": "ST",
-    "club": "Brazil U20 Women's National Team",
-    "league": "CONMEBOL U20 Women's Championship",
-    "stats_summary": "Tainá Maranhão is 21 years old (Aug 18, 2004), 160 cm tall and plays for Palmeiras. Tainá Maranhão prefers to play with right foot. His jersey number is 11. | Tainá football player profile displays all matches and competitions with statistics for all the matches Tainá played in. Most important stats for each ... | Tainá Borges is 31 years old (May 1, 1995), 189 cm tall and plays for Palmeiras. Tainá Borges prefers to play with right foot. His jersey number is 1.",
-    "is_ghost": 0,
-    "first_detected": "2026-06-07T13:53:02.824439",
-    "last_seen": "2026-06-17T10:57:24.865266",
-    "detection_count": 3,
-    "score_history": "[{\"score\": 93.0, \"date\": \"2026-06-07T13:53:02.824439\"}, {\"score\": 88.0, \"date\": \"2026-06-07T19:23:08.017189\"}, {\"score\": 80, \"date\": \"2026-06-17T10:57:24.865266\"}]",
-    "source_count": 1,
-    "lead_time_days": 0,
-    "ob1_detection_date": "2026-06-07T13:53:02.824439",
-    "mainstream_source": "https://www.espn.com/soccer/player/_/id/227368/taina",
     "sources": [
       "https://conmeboltv.com.br/brasil-campeao-sul-americano-sub-20-feminino-2026/"
     ]
@@ -864,6 +864,33 @@
     ]
   },
   {
+    "id": 47,
+    "player_name": "Axel Alfonzo",
+    "detection_date": "2026-06-01 06:01:15",
+    "source_url": "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/",
+    "score": 79.3,
+    "raw_content": "New signing for Limache in 2026. In 2025, he accumulated significant senior team experience, playing 19 matches (15 as a starter) for Olimpia. This provides concrete data on his professional exposure at a young age (implied U20 by 'joven promesa'). Moving to a potentially less prominent club (Limache) after gaining experience at a major South American club (Olimpia) suggests a real opportunity for informational asymmetry.",
+    "region": "Paraguay",
+    "status": "detected",
+    "age": 19,
+    "position": null,
+    "club": "Limache",
+    "league": "Chilean Primera División / Paraguayan Primera División",
+    "stats_summary": "Axel Alfonzo is 22 years old (May 7, 2004), 182 cm tall and plays for Deportes Limache. Axel Alfonzo prefers to play with right foot. | Goals by new players. New arrivals. New signings this season: 2025/2026 ... Axel Alfonzo. Defender. Olimpia ... Club Guaraní, 66. 1748411855. View stats. Table ... | The squad overview lists all player stats for a selected season. The ... Axel Alfonzo · A. Alfonzo. Centre-Back. 22, 12, 11, -, 626'. 7. Deportes ...",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T06:01:15.061613",
+    "last_seen": "2026-06-20T03:39:51.946300",
+    "detection_count": 14,
+    "score_history": "[{\"score\": 78, \"date\": \"2026-06-01T06:01:15.061613\"}, {\"score\": 72, \"date\": \"2026-06-01T11:34:18.751143\"}, {\"score\": 78, \"date\": \"2026-06-06T19:23:52.267957\"}, {\"score\": 85, \"date\": \"2026-06-09T09:44:05.301766\"}, {\"score\": 80, \"date\": \"2026-06-09T14:52:12.242671\"}, {\"score\": 80, \"date\": \"2026-06-10T03:42:59.762007\"}, {\"score\": 80, \"date\": \"2026-06-10T20:31:12.873091\"}, {\"score\": 85, \"date\": \"2026-06-12T14:59:16.925421\"}, {\"score\": 78, \"date\": \"2026-06-12T20:12:12.950897\"}, {\"score\": 78, \"date\": \"2026-06-13T14:00:59.872151\"}, {\"score\": 80, \"date\": \"2026-06-13T19:26:35.543150\"}, {\"score\": 76, \"date\": \"2026-06-14T14:03:27.157522\"}, {\"score\": 78, \"date\": \"2026-06-18T15:25:16.429868\"}, {\"score\": 80, \"date\": \"2026-06-20T03:39:51.946300\"}]",
+    "source_count": 1,
+    "lead_time_days": 4,
+    "ob1_detection_date": "2026-06-01T06:01:15.061613",
+    "mainstream_source": "https://www.lequipe.fr/fiche/axel-alfonzo/142708",
+    "sources": [
+      "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/"
+    ]
+  },
+  {
     "id": 68,
     "player_name": "Eduardo",
     "detection_date": "2026-06-14 04:04:39",
@@ -1080,33 +1107,6 @@
     ]
   },
   {
-    "id": 47,
-    "player_name": "Axel Alfonzo",
-    "detection_date": "2026-06-01 06:01:15",
-    "source_url": "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/",
-    "score": 77.7,
-    "raw_content": "Descritto come una 'joven promesa internacional' che ha accumulato una significativa esperienza in prima squadra (19 partite, 15 da titolare) con l'Olimpia, un importante club paraguaiano, nel 2025. Il suo successivo trasferimento al Limache, probabilmente un club cileno minore, suggerisce che potrebbe essere sfuggito all'attenzione dei principali scout europei nonostante il prezioso minutaggio. La mancanza di un'età esplicita è un piccolo svantaggio, ma 'joven promesa' implica fortemente Under 20. Questo profilo presenta una buona asimmetria informativa.",
-    "region": "Paraguay / Chile",
-    "status": "detected",
-    "age": 19,
-    "position": null,
-    "club": "Limache",
-    "league": "Chilean league",
-    "stats_summary": "Axel Alfonzo is 22 years old (May 7, 2004), 182 cm tall and plays for Deportes Limache. Axel Alfonzo prefers to play with right foot. | Goals by new players. New arrivals. New signings this season: 2025/2026 ... Axel Alfonzo. Defender. Olimpia ... Club Guaraní, 66. 1748411855. View stats. Table ... | The squad overview lists all player stats for a selected season. The ... Axel Alfonzo · A. Alfonzo. Centre-Back. 22, 12, 11, -, 626'. 7. Deportes ...",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T06:01:15.061613",
-    "last_seen": "2026-06-18T15:25:16.429868",
-    "detection_count": 13,
-    "score_history": "[{\"score\": 78, \"date\": \"2026-06-01T06:01:15.061613\"}, {\"score\": 72, \"date\": \"2026-06-01T11:34:18.751143\"}, {\"score\": 78, \"date\": \"2026-06-06T19:23:52.267957\"}, {\"score\": 85, \"date\": \"2026-06-09T09:44:05.301766\"}, {\"score\": 80, \"date\": \"2026-06-09T14:52:12.242671\"}, {\"score\": 80, \"date\": \"2026-06-10T03:42:59.762007\"}, {\"score\": 80, \"date\": \"2026-06-10T20:31:12.873091\"}, {\"score\": 85, \"date\": \"2026-06-12T14:59:16.925421\"}, {\"score\": 78, \"date\": \"2026-06-12T20:12:12.950897\"}, {\"score\": 78, \"date\": \"2026-06-13T14:00:59.872151\"}, {\"score\": 80, \"date\": \"2026-06-13T19:26:35.543150\"}, {\"score\": 76, \"date\": \"2026-06-14T14:03:27.157522\"}, {\"score\": 78, \"date\": \"2026-06-18T15:25:16.429868\"}]",
-    "source_count": 1,
-    "lead_time_days": 4,
-    "ob1_detection_date": "2026-06-01T06:01:15.061613",
-    "mainstream_source": "https://www.lequipe.fr/fiche/axel-alfonzo/142708",
-    "sources": [
-      "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/"
-    ]
-  },
-  {
     "id": 27,
     "player_name": "Felipe",
     "detection_date": "2026-03-03 02:08:53",
@@ -1212,6 +1212,33 @@
     "mainstream_source": "https://www.bbc.com/audio/play/m001r17h",
     "sources": [
       "https://www.instagram.com/p/DVRpeUHDlup/"
+    ]
+  },
+  {
+    "id": 59,
+    "player_name": "Tainá",
+    "detection_date": "2026-06-07 13:53:02",
+    "source_url": "https://conmeboltv.com.br/brasil-campeao-sul-americano-sub-20-feminino-2026/",
+    "score": 73.8,
+    "raw_content": "Scored a goal in the CONMEBOL U20 Women's Championship final for Brazil, which they won. This is a concrete performance in a significant youth tournament for an U20 player. However, no club information is provided, and while not explicitly excluded, the primary focus for club scouting is typically men's football. Her visibility is moderate due to winning a continental title.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": null,
+    "position": "ST",
+    "club": "Brazil U20 Women's National Team",
+    "league": "CONMEBOL U20 Women's Championship",
+    "stats_summary": "Tainá Maranhão is 21 years old (Aug 18, 2004), 160 cm tall and plays for Palmeiras. Tainá Maranhão prefers to play with right foot. His jersey number is 11. | Tainá football player profile displays all matches and competitions with statistics for all the matches Tainá played in. Most important stats for each ... | Tainá Borges is 31 years old (May 1, 1995), 189 cm tall and plays for Palmeiras. Tainá Borges prefers to play with right foot. His jersey number is 1.",
+    "is_ghost": 0,
+    "first_detected": "2026-06-07T13:53:02.824439",
+    "last_seen": "2026-06-20T03:39:52.064914",
+    "detection_count": 4,
+    "score_history": "[{\"score\": 93.0, \"date\": \"2026-06-07T13:53:02.824439\"}, {\"score\": 88.0, \"date\": \"2026-06-07T19:23:08.017189\"}, {\"score\": 80, \"date\": \"2026-06-17T10:57:24.865266\"}, {\"score\": 70, \"date\": \"2026-06-20T03:39:52.064914\"}]",
+    "source_count": 1,
+    "lead_time_days": 0,
+    "ob1_detection_date": "2026-06-07T13:53:02.824439",
+    "mainstream_source": "https://www.espn.com/soccer/player/_/id/227368/taina",
+    "sources": [
+      "https://conmeboltv.com.br/brasil-campeao-sul-americano-sub-20-feminino-2026/"
     ]
   },
   {
