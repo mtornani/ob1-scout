@@ -1296,6 +1296,33 @@
     ]
   },
   {
+    "id": 75,
+    "player_name": "Hugo Sochurek",
+    "detection_date": "2026-06-20 14:04:12",
+    "source_url": "https://www.record.com.mx/historia/mundial-2026-las-jovenes-promesas-de-la-copa-del-mundo-2026061522114888840",
+    "score": 70.0,
+    "raw_content": "Playing in the World Cup at 18 years old is a strong indicator of talent and potential. Sparta Praga is a known club but not a 'top club' in a major European league, which offers some informational asymmetry. However, the snippet provides no concrete performance statistics (goals, assists, minutes), only his age and participation. Being mentioned as a 'joven promesa del Mundial' also means he's already on the radar.",
+    "region": "Czech Republic",
+    "status": "detected",
+    "age": 18,
+    "position": "CM",
+    "club": "Sparta Praga",
+    "league": "Czech First League",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-06-20T14:04:12.453142",
+    "last_seen": "2026-06-20T14:04:12.453142",
+    "detection_count": 1,
+    "score_history": "[{\"score\": 70, \"date\": \"2026-06-20T14:04:12.453142\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-20T14:04:12.453142",
+    "mainstream_source": null,
+    "sources": [
+      "https://www.record.com.mx/historia/mundial-2026-las-jovenes-promesas-de-la-copa-del-mundo-2026061522114888840"
+    ]
+  },
+  {
     "id": 70,
     "player_name": "Gui Amorim",
     "detection_date": "2026-06-16 04:06:42",
