@@ -11,6 +11,7 @@ import os
 import sqlite3
 import sys
 import time
+from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -98,11 +99,51 @@ def check_db_count() -> tuple:
     return True, f"{current_count} righe (nessuno stato precedente)"
 
 
+def check_db_activity() -> tuple:
+    """Condizione 4: l'ultima attività sul DB (last_seen) è recente.
+
+    Cattura il punto cieco in cui la pipeline GIRA ma Gemini non produce nulla
+    (es. 429/quota esaurita): il JSON viene comunque riscritto e i check 1-3
+    passano, ma nessuna riga viene aggiunta/aggiornata e MAX(last_seen) resta
+    indietro. Soglia volutamente generosa (default 18h = 3 cicli da 6h) per non
+    allarmare su un singolo run quieto, ma beccare un'outage prolungata.
+    """
+    try:
+        max_age_hours = int(os.getenv('SANITY_MAX_ACTIVITY_HOURS', '18'))
+    except (ValueError, TypeError):
+        logger.warning("SANITY_MAX_ACTIVITY_HOURS non parsabile, uso default 18h")
+        max_age_hours = 18
+
+    if not DB_PATH.exists():
+        return False, f"DB non trovato: {DB_PATH}"
+    try:
+        conn = sqlite3.connect(str(DB_PATH))
+        row = conn.execute("SELECT MAX(last_seen) FROM anomalies").fetchone()
+        conn.close()
+    except Exception as e:
+        return False, f"errore lettura DB: {e}"
+
+    last_seen = row[0] if row else None
+    if not last_seen:
+        # Nessun timestamp (DB pre-migrazione mai aggiornato): non blocco, segnalo
+        return True, "last_seen non disponibile — check saltato"
+    try:
+        age_hours = (datetime.now() - datetime.fromisoformat(last_seen)).total_seconds() / 3600
+    except (ValueError, TypeError):
+        return True, f"last_seen non parsabile ({last_seen!r}) — check saltato"
+
+    if age_hours > max_age_hours:
+        return False, (f"nessuna attività DB da {age_hours:.1f}h (max {max_age_hours}h) — "
+                       f"la pipeline gira ma non produce rilevamenti (possibile quota/errore Gemini)")
+    return True, f"ultima attività DB {age_hours:.1f}h fa (max {max_age_hours}h)"
+
+
 def run_checks() -> bool:
     checks = [
         ("check_json",      check_json_output),
         ("check_freshness", check_output_freshness),
         ("check_db",        check_db_count),
+        ("check_activity",  check_db_activity),
     ]
 
     failures = []
