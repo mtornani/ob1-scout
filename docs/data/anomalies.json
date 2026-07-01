@@ -594,6 +594,33 @@
     ]
   },
   {
+    "id": 47,
+    "player_name": "Axel Alfonzo",
+    "detection_date": "2026-06-01 06:01:15",
+    "source_url": "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/",
+    "score": 80.8,
+    "raw_content": "Identificato come 'joven promesa internacional' con un significativo minutaggio nella stagione 2025 (19 partite, 15 da titolare) con l'Olimpia, prima del trasferimento al Limache. Questo indica un talento emergente con esperienza concreta in un campionato sudamericano, ma con bassa visibilità mediatica internazionale. L'età è stimata a 19 anni per il 2026, coerente con la definizione di 'joven promesa' e il contesto Under 20.",
+    "region": "South America",
+    "status": "detected",
+    "age": 19,
+    "position": null,
+    "club": "Limache",
+    "league": "Chilean League",
+    "stats_summary": "Axel Alfonzo is 22 years old (May 7, 2004), 182 cm tall and plays for Deportes Limache. Axel Alfonzo prefers to play with right foot. | Goals by new players. New arrivals. New signings this season: 2025/2026 ... Axel Alfonzo. Defender. Olimpia ... Club Guaraní, 66. 1748411855. View stats. Table ... | The squad overview lists all player stats for a selected season. The ... Axel Alfonzo · A. Alfonzo. Centre-Back. 22, 12, 11, -, 626'. 7. Deportes ...",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T06:01:15.061613",
+    "last_seen": "2026-07-01T19:56:29.610520",
+    "detection_count": 17,
+    "score_history": "[{\"score\": 78, \"date\": \"2026-06-01T06:01:15.061613\"}, {\"score\": 72, \"date\": \"2026-06-01T11:34:18.751143\"}, {\"score\": 78, \"date\": \"2026-06-06T19:23:52.267957\"}, {\"score\": 85, \"date\": \"2026-06-09T09:44:05.301766\"}, {\"score\": 80, \"date\": \"2026-06-09T14:52:12.242671\"}, {\"score\": 80, \"date\": \"2026-06-10T03:42:59.762007\"}, {\"score\": 80, \"date\": \"2026-06-10T20:31:12.873091\"}, {\"score\": 85, \"date\": \"2026-06-12T14:59:16.925421\"}, {\"score\": 78, \"date\": \"2026-06-12T20:12:12.950897\"}, {\"score\": 78, \"date\": \"2026-06-13T14:00:59.872151\"}, {\"score\": 80, \"date\": \"2026-06-13T19:26:35.543150\"}, {\"score\": 76, \"date\": \"2026-06-14T14:03:27.157522\"}, {\"score\": 78, \"date\": \"2026-06-18T15:25:16.429868\"}, {\"score\": 80, \"date\": \"2026-06-20T03:39:51.946300\"}, {\"score\": 77, \"date\": \"2026-07-01T03:53:23.943259\"}, {\"score\": 78, \"date\": \"2026-07-01T14:37:29.350633\"}, {\"score\": 82, \"date\": \"2026-07-01T19:56:29.610520\"}]",
+    "source_count": 1,
+    "lead_time_days": 4,
+    "ob1_detection_date": "2026-06-01T06:01:15.061613",
+    "mainstream_source": "https://www.lequipe.fr/fiche/axel-alfonzo/142708",
+    "sources": [
+      "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/"
+    ]
+  },
+  {
     "id": 72,
     "player_name": "Kevin Viveros",
     "detection_date": "2026-06-18 03:58:48",
@@ -864,6 +891,33 @@
     ]
   },
   {
+    "id": 78,
+    "player_name": "Nelson Andrade",
+    "detection_date": "2026-07-01 19:56:29",
+    "source_url": "https://www.soy502.com/articulo/nelson-andrade-joven-promesa-futbol-guatemala-101999",
+    "score": 78.0,
+    "raw_content": "Descritto come 'joven promesa del futbol de Guatemala' con 'velocidad y técnica', ha giocato per il Malacateco nel Clausura 2026. La sua militanza in un campionato minore come quello guatemalteco garantisce un'altissima asimmetria informativa. Sebbene le statistiche concrete siano meno dettagliate ('jugó' anziché numero specifico di partite), il contesto di 'promesa' e la regione poco battuta lo rendono un profilo di grande interesse. L'età è stimata a 18 anni per il 2026, coerente con la definizione di 'joven promesa' e il contesto Under 20.",
+    "region": "Guatemala",
+    "status": "detected",
+    "age": 18,
+    "position": null,
+    "club": "Malacateco",
+    "league": "Guatemalan League",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-07-01T19:56:29.735740",
+    "last_seen": "2026-07-01T19:56:29.735740",
+    "detection_count": 1,
+    "score_history": "[{\"score\": 78, \"date\": \"2026-07-01T19:56:29.735740\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-07-01T19:56:29.735740",
+    "mainstream_source": null,
+    "sources": [
+      "https://www.soy502.com/articulo/nelson-andrade-joven-promesa-futbol-guatemala-101999"
+    ]
+  },
+  {
     "id": 73,
     "player_name": "Miguelito",
     "detection_date": "2026-06-18 10:21:53",
@@ -1023,33 +1077,6 @@
     "mainstream_source": null,
     "sources": [
       "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_B"
-    ]
-  },
-  {
-    "id": 47,
-    "player_name": "Axel Alfonzo",
-    "detection_date": "2026-06-01 06:01:15",
-    "source_url": "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/",
-    "score": 77.9,
-    "raw_content": "Identificato come 'joven promesa internacional' con un'esperienza significativa nel 2025, disputando 19 partite (15 da titolare) con la prima squadra dell'Olimpia (Paraguay). Il suo trasferimento a Limache, probabilmente in una lega cilena inferiore, aumenta l'asimmetria informativa. Il minutaggio concreto in un club rispettabile sudamericano a un'età presumibilmente Under 20 lo rende un profilo molto interessante per il valore nascosto.",
-    "region": "Paraguay / Chile",
-    "status": "detected",
-    "age": 19,
-    "position": null,
-    "club": "Limache",
-    "league": "Liga de Ascenso de Chile",
-    "stats_summary": "Axel Alfonzo is 22 years old (May 7, 2004), 182 cm tall and plays for Deportes Limache. Axel Alfonzo prefers to play with right foot. | Goals by new players. New arrivals. New signings this season: 2025/2026 ... Axel Alfonzo. Defender. Olimpia ... Club Guaraní, 66. 1748411855. View stats. Table ... | The squad overview lists all player stats for a selected season. The ... Axel Alfonzo · A. Alfonzo. Centre-Back. 22, 12, 11, -, 626'. 7. Deportes ...",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T06:01:15.061613",
-    "last_seen": "2026-07-01T14:37:29.350633",
-    "detection_count": 16,
-    "score_history": "[{\"score\": 78, \"date\": \"2026-06-01T06:01:15.061613\"}, {\"score\": 72, \"date\": \"2026-06-01T11:34:18.751143\"}, {\"score\": 78, \"date\": \"2026-06-06T19:23:52.267957\"}, {\"score\": 85, \"date\": \"2026-06-09T09:44:05.301766\"}, {\"score\": 80, \"date\": \"2026-06-09T14:52:12.242671\"}, {\"score\": 80, \"date\": \"2026-06-10T03:42:59.762007\"}, {\"score\": 80, \"date\": \"2026-06-10T20:31:12.873091\"}, {\"score\": 85, \"date\": \"2026-06-12T14:59:16.925421\"}, {\"score\": 78, \"date\": \"2026-06-12T20:12:12.950897\"}, {\"score\": 78, \"date\": \"2026-06-13T14:00:59.872151\"}, {\"score\": 80, \"date\": \"2026-06-13T19:26:35.543150\"}, {\"score\": 76, \"date\": \"2026-06-14T14:03:27.157522\"}, {\"score\": 78, \"date\": \"2026-06-18T15:25:16.429868\"}, {\"score\": 80, \"date\": \"2026-06-20T03:39:51.946300\"}, {\"score\": 77, \"date\": \"2026-07-01T03:53:23.943259\"}, {\"score\": 78, \"date\": \"2026-07-01T14:37:29.350633\"}]",
-    "source_count": 1,
-    "lead_time_days": 4,
-    "ob1_detection_date": "2026-06-01T06:01:15.061613",
-    "mainstream_source": "https://www.lequipe.fr/fiche/axel-alfonzo/142708",
-    "sources": [
-      "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/"
     ]
   },
   {
