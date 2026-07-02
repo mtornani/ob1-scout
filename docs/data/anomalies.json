@@ -351,33 +351,6 @@
     ]
   },
   {
-    "id": 65,
-    "player_name": "Gabriel Mec",
-    "detection_date": "2026-06-12 14:59:14",
-    "source_url": "https://www.gremionews.com.br/geral/4519-joia-milionaria-do-gremio-destaque-da-selecao-sub-20",
-    "score": 83.3,
-    "raw_content": "Exceptional goal and assist statistics (17 goals, 4 assists in 24 games, 21 direct goal contributions) for a U20 attacking midfielder ('camisa 10'). Integrated into the senior squad of a major Brazilian club (Cruzeiro) and has played in the U20 World Cup. The primary source (TikTok) indicates lower mainstream media visibility, enhancing information asymmetry.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 20,
-    "position": "CAM",
-    "club": "Cruzeiro",
-    "league": "Brasileirão Série A",
-    "stats_summary": null,
-    "is_ghost": 0,
-    "first_detected": "2026-06-12T14:59:14.299313",
-    "last_seen": "2026-07-01T09:47:55.227324",
-    "detection_count": 3,
-    "score_history": "[{\"score\": 78, \"date\": \"2026-06-12T14:59:14.299313\"}, {\"score\": 80, \"date\": \"2026-07-01T03:53:22.516367\"}, {\"score\": 85, \"date\": \"2026-07-01T09:47:55.227324\"}]",
-    "source_count": 1,
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-06-12T14:59:14.299313",
-    "mainstream_source": null,
-    "sources": [
-      "https://www.gremionews.com.br/geral/4519-joia-milionaria-do-gremio-destaque-da-selecao-sub-20"
-    ]
-  },
-  {
     "id": 56,
     "player_name": "Jhonatan Spiff",
     "detection_date": "2026-06-03 16:49:28",
@@ -753,6 +726,33 @@
     "mainstream_source": "https://www.gazzetta.it/Calcio/Serie-A/Inter/22-02-2026/loerdana-bellugi-intervista-moglie-mauro-inter.shtml",
     "sources": [
       "https://nossopalestra.com.br/noticias/palmeiras-negocia-emprestimo-de-sorriso-com-clube-da-serie-b/"
+    ]
+  },
+  {
+    "id": 65,
+    "player_name": "Gabriel Mec",
+    "detection_date": "2026-06-12 14:59:14",
+    "source_url": "https://www.gremionews.com.br/geral/4519-joia-milionaria-do-gremio-destaque-da-selecao-sub-20",
+    "score": 79.6,
+    "raw_content": "Jovem atacante diestro di 17 anni dell'Atlético-MG, Gabriel Veneno, si è distinto nelle categorie giovanili (maggior parte delle partite nell'U17, partecipazione nell'U20) e si allena con la prima squadra. È riconosciuto per la sua velocità e abilità nel dribbling. L'interesse del Barcellona indica un talento promettente, ma anche una visibilità crescente, sebbene non sia ancora un nome globalmente conosciuto. La mancanza di statistiche concrete di gol/assist a livello professionistico o U20 impedisce un punteggio più alto, ma il contesto di un club brasiliano di prima fascia e l'interesse di un gigante europeo sono forti indicatori di asimmetria informativa.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 17,
+    "position": "Attacker",
+    "club": "Atlético-MG",
+    "league": "Campeonato Brasileiro Série A",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-06-12T14:59:14.299313",
+    "last_seen": "2026-07-02T08:56:34.968035",
+    "detection_count": 4,
+    "score_history": "[{\"score\": 78, \"date\": \"2026-06-12T14:59:14.299313\"}, {\"score\": 80, \"date\": \"2026-07-01T03:53:22.516367\"}, {\"score\": 85, \"date\": \"2026-07-01T09:47:55.227324\"}, {\"score\": 78, \"date\": \"2026-07-02T08:56:34.968035\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-12T14:59:14.299313",
+    "mainstream_source": null,
+    "sources": [
+      "https://www.gremionews.com.br/geral/4519-joia-milionaria-do-gremio-destaque-da-selecao-sub-20"
     ]
   },
   {
