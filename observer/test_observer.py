@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Test unitari per observer_monitor — statistica pura, nessun accesso git/rete."""
 
+import sqlite3
 import sys
+import tempfile
 import unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -160,6 +162,64 @@ class TestCalibrationLogic(unittest.TestCase):
         self.assertEqual(len(events), 1)
         expected_crossing = (T0 + timedelta(hours=6 + 4 * 6)).isoformat()
         self.assertEqual(events[0]["ts"], expected_crossing)
+
+
+class TestFailureAsSignal(unittest.TestCase):
+    """Review Gemini, disposizione 1: uno snapshot corrotto non viene mai
+    saltato in silenzio — record d'errore esplicito, contato, serie coerente."""
+
+    def test_corrupt_blob_produces_error_record_and_is_counted(self):
+        commits = [
+            {"sha": "good1", "ts": (T0 + timedelta(hours=0)).isoformat()},
+            {"sha": "corrupt", "ts": (T0 + timedelta(hours=6)).isoformat()},
+            {"sha": "good2", "ts": (T0 + timedelta(hours=12)).isoformat()},
+        ]
+
+        def fake_extract(sha):
+            if sha == "corrupt":
+                raise sqlite3.DatabaseError("file is not a database")
+            return {"n_rows": 10, "sum_det": 20, "region_det": {"Brazil": 20}}
+
+        old = (om.OBSERVATIONS, om.list_db_commits, om.extract_metrics)
+        with tempfile.TemporaryDirectory() as td:
+            om.OBSERVATIONS = Path(td) / "observations.jsonl"
+            om.list_db_commits = lambda ref="HEAD": commits
+            om.extract_metrics = fake_extract
+            try:
+                series, failures = om.build_series()  # nessun crash
+                # ri-run: l'errore identico non viene duplicato in cache
+                series2, failures2 = om.build_series()
+                records = om.load_jsonl(om.OBSERVATIONS)
+            finally:
+                om.OBSERVATIONS, om.list_db_commits, om.extract_metrics = old
+
+        self.assertEqual(failures, 1)
+        self.assertEqual(failures2, 1)
+        self.assertEqual([s["sha"] for s in series], ["good1", "good2"])
+        self.assertEqual([s["sha"] for s in series2], ["good1", "good2"])
+        errors = [r for r in records if "extract_error" in r]
+        self.assertEqual(len(errors), 1)  # niente righe d'errore duplicate
+        self.assertEqual(errors[0]["sha"], "corrupt")
+        self.assertEqual(errors[0]["ts"], commits[1]["ts"])
+        self.assertIn("not a database", errors[0]["extract_error"])
+
+    def test_all_corrupt_raises_noisy_systemexit(self):
+        # disposizione 4: serie vuota = guasto rumoroso, distinto dal degrado
+        commits = [{"sha": "c1", "ts": T0.isoformat()}]
+
+        def fake_extract(sha):
+            raise sqlite3.DatabaseError("boom")
+
+        old = (om.OBSERVATIONS, om.list_db_commits, om.extract_metrics)
+        with tempfile.TemporaryDirectory() as td:
+            om.OBSERVATIONS = Path(td) / "observations.jsonl"
+            om.list_db_commits = lambda ref="HEAD": commits
+            om.extract_metrics = fake_extract
+            try:
+                with self.assertRaises(SystemExit):
+                    om.build_series()
+            finally:
+                om.OBSERVATIONS, om.list_db_commits, om.extract_metrics = old
 
 
 if __name__ == "__main__":

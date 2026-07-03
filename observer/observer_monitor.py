@@ -74,7 +74,7 @@ logger = logging.getLogger(__name__)
 def _git(*args, binary=False):
     res = subprocess.run(["git", "-C", str(ROOT), *args],
                          check=True, capture_output=True)
-    return res.stdout if binary else res.stdout.decode()
+    return res.stdout if binary else res.stdout.decode("utf-8", errors="replace")
 
 
 def parse_ts(s: str) -> datetime:
@@ -121,7 +121,7 @@ def extract_metrics(sha: str) -> dict:
     try:
         tmp.write(blob)
         tmp.close()
-        conn = sqlite3.connect(f"file:{tmp.name}?mode=ro", uri=True)
+        conn = sqlite3.connect(Path(tmp.name).as_uri() + "?mode=ro", uri=True)
         try:
             cols = {r[1] for r in conn.execute("PRAGMA table_info(anomalies)")}
             det = "COALESCE(detection_count,1)" if "detection_count" in cols else "1"
@@ -138,22 +138,48 @@ def extract_metrics(sha: str) -> dict:
     return {"n_rows": n_rows, "sum_det": sum_det, "region_det": region_det}
 
 
-def build_series(ref: str = "HEAD") -> list:
-    """Serie completa snapshot (cache append-only in observations.jsonl)."""
+def build_series(ref: str = "HEAD") -> tuple:
+    """
+    Serie completa snapshot (cache append-only in observations.jsonl).
+    Ritorna (series, extract_failures).
+
+    Failure-as-signal (review Gemini, disposizione 1): uno snapshot non
+    estraibile NON viene mai saltato in silenzio — produce un record
+    esplicito {"sha","ts","extract_error"} nelle osservazioni, è escluso
+    dai calcoli ma contato in extract_failures (heartbeat e summary).
+    Un errore già registrato identico non viene duplicato; a ogni run si
+    ritenta l'estrazione (gli errori transitori guariscono con un record
+    di successo che supersede, last-wins).
+    """
     cache = {r["sha"]: r for r in load_jsonl(OBSERVATIONS)}
     commits = list_db_commits(ref)
     new = []
     for c in commits:
-        if c["sha"] not in cache:
+        cached = cache.get(c["sha"])
+        if cached is not None and "extract_error" not in cached:
+            continue
+        try:
             m = extract_metrics(c["sha"])
             rec = {"sha": c["sha"], "ts": c["ts"], **m}
-            cache[c["sha"]] = rec
-            new.append(rec)
+        except Exception as e:
+            rec = {"sha": c["sha"], "ts": c["ts"], "extract_error": str(e)}
+            logger.error(f"estrazione fallita per snapshot {c['sha'][:12]}: {e}")
+            if cached is not None and cached.get("extract_error") == rec["extract_error"]:
+                continue  # errore identico già registrato: non duplicare
+        cache[c["sha"]] = rec
+        new.append(rec)
     if new:
         append_jsonl(OBSERVATIONS, new)
-        logger.info(f"cache osservazioni: +{len(new)} snapshot (tot {len(cache)})")
-    series = [cache[c["sha"]] for c in commits]
-    return series
+        logger.info(f"cache osservazioni: +{len(new)} record (tot {len(cache)})")
+    series = [cache[c["sha"]] for c in commits
+              if "extract_error" not in cache[c["sha"]]]
+    failures = sum(1 for c in commits
+                   if "extract_error" in cache.get(c["sha"], {}))
+    if not series:
+        # Guasto rumoroso (disposizione 4): distinto dal degrado parziale
+        # sopra — senza serie l'observer non può osservare nulla.
+        raise SystemExit("nessuno snapshot estraibile: serie vuota")
+    return series, failures
 
 
 # ----------------------------------------------------------------------
@@ -303,7 +329,8 @@ def delta_in_window(d: dict, start: str, end: str, excludes: list) -> bool:
     return not episode_overlaps(d["prev_ts"], d["ts"], excludes)
 
 
-def calibrate(series: list, start: str, end: str, excludes: list) -> dict:
+def calibrate(series: list, start: str, end: str, excludes: list,
+              extract_failures: int = 0) -> dict:
     """Calcola soglie P1/P3 su finestra pulita. Appende a calibration.jsonl."""
     deltas = compute_deltas(series)
     win = [d for d in deltas if delta_in_window(d, start, end, excludes)]
@@ -333,6 +360,7 @@ def calibrate(series: list, start: str, end: str, excludes: list) -> dict:
         "type": "calibration",
         "window": {"start": start, "end": end, "excludes": excludes},
         "n_snapshots": len(win),
+        "extract_failures": extract_failures,
         "gap_slots_distribution": _gap_histogram(win),
         "p1": {"max_clean_streak_slots": max_clean_streak,
                "margin_slots": P1_MARGIN_SLOTS,
@@ -416,7 +444,8 @@ def evaluate_p1_episodes(deltas: list, calib: dict) -> list:
 # Retrodizione
 # ----------------------------------------------------------------------
 
-def retrodict(series: list, calib: dict, labels: list) -> dict:
+def retrodict(series: list, calib: dict, labels: list,
+              extract_failures: int = 0) -> dict:
     """Applica la calibrazione a tutta la storia. Positivi etichettati in `labels`."""
     deltas = compute_deltas(series)
     p1 = evaluate_p1_episodes(deltas, calib)
@@ -450,6 +479,7 @@ def retrodict(series: list, calib: dict, labels: list) -> dict:
         "calibration_ts": calib["ts"],
         "history": {"start": series[0]["ts"], "end": series[-1]["ts"],
                     "n_snapshots": len(series), "days": round(total_days, 1)},
+        "extract_failures": extract_failures,
         "labels": labels,
         "p1": {"events": p1, "hits": len(p1_hits), "false_alarms": len(p1_fa)},
         "p2": {"events": p2, "hits": len(p2_hits), "false_alarms": len(p2_fa)},
@@ -480,13 +510,15 @@ def notify(severity: str, message: str) -> None:
 
 def observe(ref: str = "HEAD", now: datetime | None = None) -> dict:
     now = now or datetime.now(timezone.utc)
-    series = build_series(ref)
+    series, extract_failures = build_series(ref)
     calib = load_calibration()
     if not calib:
         notify("WARN", "heartbeat DEGRADATO: nessuna calibrazione trovata")
         append_jsonl(HEARTBEAT, [{"ts": now.isoformat(), "type": "heartbeat",
-                                  "status": "no-calibration"}])
-        return {"status": "no-calibration"}
+                                  "status": "no-calibration",
+                                  "extract_failures": extract_failures}])
+        return {"status": "no-calibration",
+                "extract_failures": extract_failures}
 
     deltas = compute_deltas(series)
     known = {(a["type"], a.get("episode_start") or a.get("sha") or a["ts"])
@@ -529,12 +561,16 @@ def observe(ref: str = "HEAD", now: datetime | None = None) -> dict:
     hb = {"ts": now.isoformat(), "type": "heartbeat", "status": "alive",
           "last_snapshot_ts": series[-1]["ts"] if series else None,
           "n_snapshots": len(series), "current_streak_slots": streak,
-          "new_alarms": len(new_alarms)}
+          "new_alarms": len(new_alarms), "extract_failures": extract_failures}
     append_jsonl(HEARTBEAT, [hb])
-    notify("INFO" if not new_alarms else "WARN",
+    degraded = extract_failures > 0
+    notify("INFO" if not (new_alarms or degraded) else "WARN",
            f"heartbeat {now.date()}: {len(series)} snapshot, streak {streak} slot, "
-           f"{len(new_alarms)} alarm nuovi")
-    return {"status": "ok", "streak": streak, "new_alarms": new_alarms}
+           f"{len(new_alarms)} alarm nuovi"
+           + (f" — ATTENZIONE: {extract_failures} snapshot non estraibili"
+              if degraded else ""))
+    return {"status": "ok", "streak": streak, "new_alarms": new_alarms,
+            "extract_failures": extract_failures}
 
 
 # ----------------------------------------------------------------------
@@ -563,17 +599,19 @@ def main():
     if args.calibrate:
         if not (args.start and args.end):
             ap.error("--calibrate richiede --start e --end")
-        series = build_series(args.ref)
+        series, failures = build_series(args.ref)
         rec = calibrate(series, parse_ts(args.start).isoformat(),
                         parse_ts(args.end).isoformat(),
-                        [_parse_span(x) for x in args.exclude])
+                        [_parse_span(x) for x in args.exclude],
+                        extract_failures=failures)
         print(json.dumps(rec, indent=2, ensure_ascii=False))
     elif args.retrodict:
-        series = build_series(args.ref)
+        series, failures = build_series(args.ref)
         calib = load_calibration()
         if not calib:
             raise SystemExit("nessuna calibrazione: eseguire prima --calibrate")
-        rec = retrodict(series, calib, [_parse_span(x) for x in args.label])
+        rec = retrodict(series, calib, [_parse_span(x) for x in args.label],
+                        extract_failures=failures)
         print(json.dumps(rec, indent=2, ensure_ascii=False))
     else:
         res = observe(args.ref)
