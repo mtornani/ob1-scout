@@ -1,0 +1,47 @@
+# OB1 Observer — Symbiont M2 (§5.3)
+# Autorizzato da emendamento v1.3 §5.0 (Gate 2a): file NUOVO, zero modifiche
+# ai workflow esistenti, zero segreti nuovi, schedule proprio.
+# Read-only sulla pipeline: legge solo la storia git; scrive solo /observer/.
+
+name: OB1 Observer - Symbiont M2
+
+on:
+  schedule:
+    # Giornaliero, dopo la run radar delle 06:xx UTC e il suo commit
+    - cron: '45 7 * * *'
+  workflow_dispatch:
+
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout (storia completa per gli snapshot)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies (solo notifier)
+        run: pip install requests
+
+      - name: Run Observer (observe + heartbeat doppio canale)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_OFFICE_CHAT_ID: ${{ secrets.TELEGRAM_OFFICE_CHAT_ID }}
+        run: python observer/observer_monitor.py
+
+      - name: Commit observer data (liveness via git — secondo canale heartbeat)
+        run: |
+          git config --global user.name "OB1 Observer"
+          git config --global user.email "observer@ob1-radar.com"
+          git add observer/*.jsonl
+          git commit -m "[OBSERVER] daily observation $(date -u +%F)" || echo "No changes to commit"
+          git pull --rebase origin main
+          git push
