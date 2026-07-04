@@ -891,6 +891,33 @@
     ]
   },
   {
+    "id": 31,
+    "player_name": "Gustavo Gomes",
+    "detection_date": "2026-03-07 08:58:35",
+    "source_url": "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/06/athletico-renova-com-o-meia-gustavo-gomes-promessa-da-base.ghtml",
+    "score": 79.9,
+    "raw_content": "U17 attacking midfielder playing in the U20 Copinha, demonstrating ability above his age group. Possesses good shot from outside the box and dribbling skills. Has attracted attention from top European clubs (monitored by Barcelona at U15, exchange with Stuttgart), indicating high potential. Despite some European visibility, he remains at São Paulo, maintaining significant informational asymmetry for a player of his profile and age.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 17,
+    "position": "CAM/RW",
+    "club": "São Paulo",
+    "league": "Copinha (U20 tournament)",
+    "stats_summary": "This is the performance data of Gustavo Gomes from Araguaína Futebol e Regatas (TO). This page contains the data (goals, cards, etc.) | These are the detailed performance data of Karriereende player Gustavo Gomes. The website contains a statistic about the performance data of the player. | Gustavo Gomes da Silvas fodboldspillerprofil viser alle kampe og konkurrencer med statistik over alle kampene som Gustavo Gomes da Silva har spillet i. De ...",
+    "is_ghost": 0,
+    "first_detected": "2026-03-07T08:58:35.986874",
+    "last_seen": "2026-07-04T13:26:08.313328",
+    "detection_count": 49,
+    "score_history": "[{\"score\": 70, \"date\": \"2026-03-16T02:28:20.135850\"}, {\"score\": 70, \"date\": \"2026-03-16T07:18:30.716080\"}, {\"score\": 75, \"date\": \"2026-03-16T13:13:47.285885\"}, {\"score\": 75, \"date\": \"2026-03-17T02:07:15.630259\"}, {\"score\": 70, \"date\": \"2026-03-17T07:05:19.623827\"}, {\"score\": 70, \"date\": \"2026-03-17T19:03:13.139507\"}, {\"score\": 78, \"date\": \"2026-03-18T02:11:22.584390\"}, {\"score\": 70, \"date\": \"2026-03-18T13:13:30.822414\"}, {\"score\": 78, \"date\": \"2026-03-18T19:00:39.277332\"}, {\"score\": 70, \"date\": \"2026-03-19T02:12:18.878141\"}, {\"score\": 70, \"date\": \"2026-03-19T13:05:58.439837\"}, {\"score\": 70, \"date\": \"2026-03-19T19:00:01.246459\"}, {\"score\": 70, \"date\": \"2026-03-20T02:06:44.325963\"}, {\"score\": 78, \"date\": \"2026-06-11T10:25:07.168077\"}, {\"score\": 90, \"date\": \"2026-06-15T04:17:27.856725\"}, {\"score\": 90, \"date\": \"2026-06-15T12:14:45.444917\"}, {\"score\": 90, \"date\": \"2026-06-16T20:51:39.718100\"}, {\"score\": 85, \"date\": \"2026-06-21T04:13:12.411630\"}, {\"score\": 70, \"date\": \"2026-07-03T19:23:26.451241\"}, {\"score\": 82, \"date\": \"2026-07-04T13:26:08.313328\"}]",
+    "source_count": 1,
+    "lead_time_days": 91,
+    "ob1_detection_date": "2026-03-07T08:58:35.986874",
+    "mainstream_source": "https://www.goal.com/br/not%C3%ADcias/quanto-o-palmeiras-vai-pagar-ao-milan-para-ter-gustavo-gomez-ate-2024/1syf3iy9r8w991o2jobk1qincw",
+    "sources": [
+      "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/06/athletico-renova-com-o-meia-gustavo-gomes-promessa-da-base.ghtml"
+    ]
+  },
+  {
     "id": 42,
     "player_name": "Josmar",
     "detection_date": "2026-03-20 02:06:56",
@@ -977,7 +1004,7 @@
     "detection_date": "2026-07-03 19:23:26",
     "source_url": "https://www.ogol.com.br/edicao/seletiva-copinha-sub-20-2026/216080",
     "score": 78.0,
-    "raw_content": "Artilheiro da Seletiva Copinha Sub-20 2026 com 10 gols. Embora o torneio seja de qualificação, 10 gols são um dado concreto e forte. A ausência de um clube especificado e a natureza do torneio indicam baixa visibilidade, gerando boa assimetria. Assumido Sub-20 pela natureza da competição.",
+    "raw_content": "Top scorer in the Seletiva Copinha Sub-20 2026 with 10 goals. This is concrete statistical evidence of high performance in an Under 20 competition. The absence of a mentioned club and limited media visibility (only a snippet mention) indicates very high informational asymmetry. While his exact age is not specified, the competition name confirms he is Under 20.",
     "region": "Brazil",
     "status": "detected",
     "age": null,
@@ -987,9 +1014,9 @@
     "stats_summary": null,
     "is_ghost": 0,
     "first_detected": "2026-07-03T19:23:26.235226",
-    "last_seen": "2026-07-03T19:23:26.235226",
-    "detection_count": 1,
-    "score_history": "[{\"score\": 78, \"date\": \"2026-07-03T19:23:26.235226\"}]",
+    "last_seen": "2026-07-04T13:26:09.150846",
+    "detection_count": 2,
+    "score_history": "[{\"score\": 78, \"date\": \"2026-07-03T19:23:26.235226\"}, {\"score\": 78, \"date\": \"2026-07-04T13:26:09.150846\"}]",
     "source_count": 1,
     "lead_time_days": null,
     "ob1_detection_date": "2026-07-03T19:23:26.235226",
@@ -1320,33 +1347,6 @@
     "mainstream_source": null,
     "sources": [
       "https://www.futboltotal.com.mx/futbol-mexicano/liga-mx/cesar-garza-lleno-el-ojo-a-matias-almeyda-rayados-monterrey/2026/06/"
-    ]
-  },
-  {
-    "id": 31,
-    "player_name": "Gustavo Gomes",
-    "detection_date": "2026-03-07 08:58:35",
-    "source_url": "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/06/athletico-renova-com-o-meia-gustavo-gomes-promessa-da-base.ghtml",
-    "score": 74.9,
-    "raw_content": "Jovem talento (Sub-17) que disputará a Copinha (Sub-20) por um grande clube brasileiro (São Paulo). Teve intercâmbio com o Stuttgart, indicando reconhecimento de potencial. Embora promissor, faltam estatísticas concretas de gols/assistências para a temporada atual, o que limita um score mais alto. A visibilidade é ainda restrita ao cenário nacional.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 17,
-    "position": "CAM/RW",
-    "club": "São Paulo",
-    "league": "Paulista Sub-17",
-    "stats_summary": "This is the performance data of Gustavo Gomes from Araguaína Futebol e Regatas (TO). This page contains the data (goals, cards, etc.) | These are the detailed performance data of Karriereende player Gustavo Gomes. The website contains a statistic about the performance data of the player. | Gustavo Gomes da Silvas fodboldspillerprofil viser alle kampe og konkurrencer med statistik over alle kampene som Gustavo Gomes da Silva har spillet i. De ...",
-    "is_ghost": 0,
-    "first_detected": "2026-03-07T08:58:35.986874",
-    "last_seen": "2026-07-03T19:23:26.451241",
-    "detection_count": 48,
-    "score_history": "[{\"score\": 75, \"date\": \"2026-03-15T18:40:09.167252\"}, {\"score\": 70, \"date\": \"2026-03-16T02:28:20.135850\"}, {\"score\": 70, \"date\": \"2026-03-16T07:18:30.716080\"}, {\"score\": 75, \"date\": \"2026-03-16T13:13:47.285885\"}, {\"score\": 75, \"date\": \"2026-03-17T02:07:15.630259\"}, {\"score\": 70, \"date\": \"2026-03-17T07:05:19.623827\"}, {\"score\": 70, \"date\": \"2026-03-17T19:03:13.139507\"}, {\"score\": 78, \"date\": \"2026-03-18T02:11:22.584390\"}, {\"score\": 70, \"date\": \"2026-03-18T13:13:30.822414\"}, {\"score\": 78, \"date\": \"2026-03-18T19:00:39.277332\"}, {\"score\": 70, \"date\": \"2026-03-19T02:12:18.878141\"}, {\"score\": 70, \"date\": \"2026-03-19T13:05:58.439837\"}, {\"score\": 70, \"date\": \"2026-03-19T19:00:01.246459\"}, {\"score\": 70, \"date\": \"2026-03-20T02:06:44.325963\"}, {\"score\": 78, \"date\": \"2026-06-11T10:25:07.168077\"}, {\"score\": 90, \"date\": \"2026-06-15T04:17:27.856725\"}, {\"score\": 90, \"date\": \"2026-06-15T12:14:45.444917\"}, {\"score\": 90, \"date\": \"2026-06-16T20:51:39.718100\"}, {\"score\": 85, \"date\": \"2026-06-21T04:13:12.411630\"}, {\"score\": 70, \"date\": \"2026-07-03T19:23:26.451241\"}]",
-    "source_count": 1,
-    "lead_time_days": 91,
-    "ob1_detection_date": "2026-03-07T08:58:35.986874",
-    "mainstream_source": "https://www.goal.com/br/not%C3%ADcias/quanto-o-palmeiras-vai-pagar-ao-milan-para-ter-gustavo-gomez-ate-2024/1syf3iy9r8w991o2jobk1qincw",
-    "sources": [
-      "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/06/athletico-renova-com-o-meia-gustavo-gomes-promessa-da-base.ghtml"
     ]
   },
   {
