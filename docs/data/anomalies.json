@@ -108,33 +108,6 @@
     ]
   },
   {
-    "id": 18,
-    "player_name": "Bruno Baldini",
-    "detection_date": "2026-03-01 16:37:33",
-    "source_url": "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html",
-    "score": 90.5,
-    "raw_content": "Top scorer of the Brasileirão Série B in 2026 with 11 goals. This is an exceptional performance in a professional secondary league. His club, Londrina, is not a prominent team, and his own Wikipedia page is a redlink, indicating extremely low international visibility despite his strong statistics. This represents maximum information asymmetry.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 18,
-    "position": "ST",
-    "club": "Londrina Esporte Clube",
-    "league": "Brasileirão Série B",
-    "stats_summary": "Player stats of Bruno Baldini (Avaí FC (SC)) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | ... Bruno Baldini, Gabriel Simples, Jamerson dos Santos Nascimento, Gabriel ... There are also statistics for each player in all competitions with all total played ...",
-    "is_ghost": 0,
-    "first_detected": null,
-    "last_seen": "2026-07-06T10:21:42.464703",
-    "detection_count": 71,
-    "score_history": "[{\"score\": 78, \"date\": \"2026-03-14T12:52:54.586054\"}, {\"score\": 70, \"date\": \"2026-03-15T02:27:24.278297\"}, {\"score\": 80, \"date\": \"2026-03-15T02:27:26.560739\"}, {\"score\": 85, \"date\": \"2026-03-15T12:55:00.253504\"}, {\"score\": 77, \"date\": \"2026-03-15T18:40:12.589282\"}, {\"score\": 82, \"date\": \"2026-03-15T18:40:19.851853\"}, {\"score\": 72, \"date\": \"2026-03-16T07:18:36.393044\"}, {\"score\": 75, \"date\": \"2026-03-16T07:18:39.708432\"}, {\"score\": 78, \"date\": \"2026-03-16T13:13:50.944776\"}, {\"score\": 80, \"date\": \"2026-03-16T13:14:07.307038\"}, {\"score\": 80, \"date\": \"2026-03-17T02:07:21.652637\"}, {\"score\": 72, \"date\": \"2026-03-17T07:05:23.321824\"}, {\"score\": 80, \"date\": \"2026-03-17T19:03:21.579232\"}, {\"score\": 75, \"date\": \"2026-03-18T02:11:25.280255\"}, {\"score\": 75, \"date\": \"2026-03-18T13:13:39.629940\"}, {\"score\": 70, \"date\": \"2026-03-19T02:12:20.544260\"}, {\"score\": 75, \"date\": \"2026-03-19T13:06:05.442879\"}, {\"score\": 70, \"date\": \"2026-03-20T02:06:53.601432\"}, {\"score\": 88, \"date\": \"2026-07-05T03:23:38.946077\"}, {\"score\": 92, \"date\": \"2026-07-06T10:21:42.464703\"}]",
-    "source_count": 1,
-    "lead_time_days": 17,
-    "ob1_detection_date": "2026-03-01T17:37:33.264556",
-    "mainstream_source": "https://www.goal.com/br/jogador/b-baldini/H66kOeBYcv2g_SyuKQB4W",
-    "sources": [
-      "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html"
-    ]
-  },
-  {
     "id": 35,
     "player_name": "Kaique Zizero",
     "detection_date": "2026-03-14 02:02:03",
@@ -213,6 +186,33 @@
     "mainstream_source": null,
     "sources": [
       "https://www.gremionews.com.br/geral/4519-joia-milionaria-do-gremio-destaque-da-selecao-sub-20"
+    ]
+  },
+  {
+    "id": 18,
+    "player_name": "Bruno Baldini",
+    "detection_date": "2026-03-01 16:37:33",
+    "source_url": "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html",
+    "score": 86.6,
+    "raw_content": "Melhor marcador da Série B com 11 gols. Esta é uma estatística excepcional e concreta em uma liga secundária competitiva. O fato de seu nome ser um 'redlink' na Wikipedia (página não existe) indica visibilidade internacional extremamente baixa, apesar de sua performance destacada. Idade não especificada, mas o contexto de 'jovens talentos' e a busca por Sub-20 o tornam um alvo de alto valor se for Sub-20.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 18,
+    "position": "ST",
+    "club": "Londrina Esporte Clube",
+    "league": "Campeonato Brasileiro Série B",
+    "stats_summary": "Player stats of Bruno Baldini (Avaí FC (SC)) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | ... Bruno Baldini, Gabriel Simples, Jamerson dos Santos Nascimento, Gabriel ... There are also statistics for each player in all competitions with all total played ...",
+    "is_ghost": 0,
+    "first_detected": null,
+    "last_seen": "2026-07-06T15:33:15.650669",
+    "detection_count": 72,
+    "score_history": "[{\"score\": 70, \"date\": \"2026-03-15T02:27:24.278297\"}, {\"score\": 80, \"date\": \"2026-03-15T02:27:26.560739\"}, {\"score\": 85, \"date\": \"2026-03-15T12:55:00.253504\"}, {\"score\": 77, \"date\": \"2026-03-15T18:40:12.589282\"}, {\"score\": 82, \"date\": \"2026-03-15T18:40:19.851853\"}, {\"score\": 72, \"date\": \"2026-03-16T07:18:36.393044\"}, {\"score\": 75, \"date\": \"2026-03-16T07:18:39.708432\"}, {\"score\": 78, \"date\": \"2026-03-16T13:13:50.944776\"}, {\"score\": 80, \"date\": \"2026-03-16T13:14:07.307038\"}, {\"score\": 80, \"date\": \"2026-03-17T02:07:21.652637\"}, {\"score\": 72, \"date\": \"2026-03-17T07:05:23.321824\"}, {\"score\": 80, \"date\": \"2026-03-17T19:03:21.579232\"}, {\"score\": 75, \"date\": \"2026-03-18T02:11:25.280255\"}, {\"score\": 75, \"date\": \"2026-03-18T13:13:39.629940\"}, {\"score\": 70, \"date\": \"2026-03-19T02:12:20.544260\"}, {\"score\": 75, \"date\": \"2026-03-19T13:06:05.442879\"}, {\"score\": 70, \"date\": \"2026-03-20T02:06:53.601432\"}, {\"score\": 88, \"date\": \"2026-07-05T03:23:38.946077\"}, {\"score\": 92, \"date\": \"2026-07-06T10:21:42.464703\"}, {\"score\": 85, \"date\": \"2026-07-06T15:33:15.650669\"}]",
+    "source_count": 1,
+    "lead_time_days": 17,
+    "ob1_detection_date": "2026-03-01T17:37:33.264556",
+    "mainstream_source": "https://www.goal.com/br/jogador/b-baldini/H66kOeBYcv2g_SyuKQB4W",
+    "sources": [
+      "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html"
     ]
   },
   {
@@ -837,6 +837,33 @@
     ]
   },
   {
+    "id": 50,
+    "player_name": "João Cruz",
+    "detection_date": "2026-06-01 17:39:25",
+    "source_url": "https://br.bolavip.com/futebol/joao-cruz-destaque-do-athletico-pr-lidera-ranking-de-participacoes-em-gols-entre-atletas-sub-20-no-brasil",
+    "score": 79.6,
+    "raw_content": "Lidera o ranking de participações em gols entre atletas Sub-20 no Brasil, atuando em um clube da Série A. Isso indica um impacto ofensivo significativo e concreto em uma liga de bom nível. A visibilidade é nacional, mas ainda baixa internacionalmente, o que representa uma alta assimetria informativa.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 15,
+    "position": "CAM/LW/RW/ST",
+    "club": "Athletico-PR",
+    "league": "Brasileirão Série A",
+    "stats_summary": "2025-2026. Primeira Liga. Champions Lg. MP. 18. 10. Min. 756. 647. Gls. 0. 0. Ast. 1. 0. * see our coverage note. João Simões Menu. João Simões Overview; More ... | João Simões is 19 years old (Jan 6, 2007), 178 cm tall and plays for Sporting CP. João Simões prefers to play with left foot. His jersey number is 52. | Check out 2025-2026's records, goals, statistics and playing time for João Simões Match Logs.",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T17:39:25.162813",
+    "last_seen": "2026-07-06T15:33:14.796541",
+    "detection_count": 27,
+    "score_history": "[{\"score\": 73.0, \"date\": \"2026-06-06T19:23:51.124193\"}, {\"score\": 82, \"date\": \"2026-06-08T10:55:08.310251\"}, {\"score\": 82, \"date\": \"2026-06-08T20:16:22.579482\"}, {\"score\": 73.0, \"date\": \"2026-06-08T20:16:26.965033\"}, {\"score\": 73.0, \"date\": \"2026-06-09T09:44:09.555594\"}, {\"score\": 73.0, \"date\": \"2026-06-10T03:42:56.713315\"}, {\"score\": 80, \"date\": \"2026-06-11T10:25:05.786824\"}, {\"score\": 85, \"date\": \"2026-06-12T10:14:15.237886\"}, {\"score\": 85, \"date\": \"2026-06-13T19:26:31.088651\"}, {\"score\": 85, \"date\": \"2026-06-16T04:06:42.036671\"}, {\"score\": 85, \"date\": \"2026-06-18T03:58:47.994965\"}, {\"score\": 85, \"date\": \"2026-06-20T08:57:30.916619\"}, {\"score\": 82, \"date\": \"2026-06-29T04:55:56.524074\"}, {\"score\": 85, \"date\": \"2026-06-29T15:47:08.017187\"}, {\"score\": 70, \"date\": \"2026-07-01T03:53:22.830735\"}, {\"score\": 80, \"date\": \"2026-07-01T09:47:54.528593\"}, {\"score\": 82, \"date\": \"2026-07-03T19:23:25.498948\"}, {\"score\": 85, \"date\": \"2026-07-05T03:23:38.259071\"}, {\"score\": 70, \"date\": \"2026-07-05T03:23:41.936221\"}, {\"score\": 82, \"date\": \"2026-07-06T15:33:14.796541\"}]",
+    "source_count": 1,
+    "lead_time_days": 0,
+    "ob1_detection_date": "2026-06-01T17:39:25.162813",
+    "mainstream_source": "https://www.espn.com/soccer/player/_/id/361359/joao-cruz",
+    "sources": [
+      "https://br.bolavip.com/futebol/joao-cruz-destaque-do-athletico-pr-lidera-ranking-de-participacoes-em-gols-entre-atletas-sub-20-no-brasil"
+    ]
+  },
+  {
     "id": 42,
     "player_name": "Josmar",
     "detection_date": "2026-03-20 02:06:56",
@@ -1347,33 +1374,6 @@
     "mainstream_source": null,
     "sources": [
       "https://www.futboltotal.com.mx/futbol-mexicano/liga-mx/cesar-garza-lleno-el-ojo-a-matias-almeyda-rayados-monterrey/2026/06/"
-    ]
-  },
-  {
-    "id": 50,
-    "player_name": "João Cruz",
-    "detection_date": "2026-06-01 17:39:25",
-    "source_url": "https://br.bolavip.com/futebol/joao-cruz-destaque-do-athletico-pr-lidera-ranking-de-participacoes-em-gols-entre-atletas-sub-20-no-brasil",
-    "score": 74.1,
-    "raw_content": "Defesa central de 15 anos do Paços de Ferreira, um clube da segunda divisão portuguesa. Mede 1,87m. A menção em um site dedicado a 'jovens promessas' indica reconhecimento local, mas a falta de estatísticas de desempenho concretas impede um score mais alto. O contexto do clube e da liga oferece boa assimetria.",
-    "region": "Portugal",
-    "status": "detected",
-    "age": 15,
-    "position": "CB",
-    "club": "Futebol Clube Paços de Ferreira",
-    "league": "Liga Portugal 2",
-    "stats_summary": "2025-2026. Primeira Liga. Champions Lg. MP. 18. 10. Min. 756. 647. Gls. 0. 0. Ast. 1. 0. * see our coverage note. João Simões Menu. João Simões Overview; More ... | João Simões is 19 years old (Jan 6, 2007), 178 cm tall and plays for Sporting CP. João Simões prefers to play with left foot. His jersey number is 52. | Check out 2025-2026's records, goals, statistics and playing time for João Simões Match Logs.",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T17:39:25.162813",
-    "last_seen": "2026-07-05T03:23:41.936221",
-    "detection_count": 26,
-    "score_history": "[{\"score\": 82, \"date\": \"2026-06-04T20:07:13.576022\"}, {\"score\": 73.0, \"date\": \"2026-06-06T19:23:51.124193\"}, {\"score\": 82, \"date\": \"2026-06-08T10:55:08.310251\"}, {\"score\": 82, \"date\": \"2026-06-08T20:16:22.579482\"}, {\"score\": 73.0, \"date\": \"2026-06-08T20:16:26.965033\"}, {\"score\": 73.0, \"date\": \"2026-06-09T09:44:09.555594\"}, {\"score\": 73.0, \"date\": \"2026-06-10T03:42:56.713315\"}, {\"score\": 80, \"date\": \"2026-06-11T10:25:05.786824\"}, {\"score\": 85, \"date\": \"2026-06-12T10:14:15.237886\"}, {\"score\": 85, \"date\": \"2026-06-13T19:26:31.088651\"}, {\"score\": 85, \"date\": \"2026-06-16T04:06:42.036671\"}, {\"score\": 85, \"date\": \"2026-06-18T03:58:47.994965\"}, {\"score\": 85, \"date\": \"2026-06-20T08:57:30.916619\"}, {\"score\": 82, \"date\": \"2026-06-29T04:55:56.524074\"}, {\"score\": 85, \"date\": \"2026-06-29T15:47:08.017187\"}, {\"score\": 70, \"date\": \"2026-07-01T03:53:22.830735\"}, {\"score\": 80, \"date\": \"2026-07-01T09:47:54.528593\"}, {\"score\": 82, \"date\": \"2026-07-03T19:23:25.498948\"}, {\"score\": 85, \"date\": \"2026-07-05T03:23:38.259071\"}, {\"score\": 70, \"date\": \"2026-07-05T03:23:41.936221\"}]",
-    "source_count": 1,
-    "lead_time_days": 0,
-    "ob1_detection_date": "2026-06-01T17:39:25.162813",
-    "mainstream_source": "https://www.espn.com/soccer/player/_/id/361359/joao-cruz",
-    "sources": [
-      "https://br.bolavip.com/futebol/joao-cruz-destaque-do-athletico-pr-lidera-ranking-de-participacoes-em-gols-entre-atletas-sub-20-no-brasil"
     ]
   },
   {
