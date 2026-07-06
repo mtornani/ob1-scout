@@ -108,6 +108,33 @@
     ]
   },
   {
+    "id": 18,
+    "player_name": "Bruno Baldini",
+    "detection_date": "2026-03-01 16:37:33",
+    "source_url": "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html",
+    "score": 90.5,
+    "raw_content": "Top scorer of the Brasileirão Série B in 2026 with 11 goals. This is an exceptional performance in a professional secondary league. His club, Londrina, is not a prominent team, and his own Wikipedia page is a redlink, indicating extremely low international visibility despite his strong statistics. This represents maximum information asymmetry.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 18,
+    "position": "ST",
+    "club": "Londrina Esporte Clube",
+    "league": "Brasileirão Série B",
+    "stats_summary": "Player stats of Bruno Baldini (Avaí FC (SC)) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | ... Bruno Baldini, Gabriel Simples, Jamerson dos Santos Nascimento, Gabriel ... There are also statistics for each player in all competitions with all total played ...",
+    "is_ghost": 0,
+    "first_detected": null,
+    "last_seen": "2026-07-06T10:21:42.464703",
+    "detection_count": 71,
+    "score_history": "[{\"score\": 78, \"date\": \"2026-03-14T12:52:54.586054\"}, {\"score\": 70, \"date\": \"2026-03-15T02:27:24.278297\"}, {\"score\": 80, \"date\": \"2026-03-15T02:27:26.560739\"}, {\"score\": 85, \"date\": \"2026-03-15T12:55:00.253504\"}, {\"score\": 77, \"date\": \"2026-03-15T18:40:12.589282\"}, {\"score\": 82, \"date\": \"2026-03-15T18:40:19.851853\"}, {\"score\": 72, \"date\": \"2026-03-16T07:18:36.393044\"}, {\"score\": 75, \"date\": \"2026-03-16T07:18:39.708432\"}, {\"score\": 78, \"date\": \"2026-03-16T13:13:50.944776\"}, {\"score\": 80, \"date\": \"2026-03-16T13:14:07.307038\"}, {\"score\": 80, \"date\": \"2026-03-17T02:07:21.652637\"}, {\"score\": 72, \"date\": \"2026-03-17T07:05:23.321824\"}, {\"score\": 80, \"date\": \"2026-03-17T19:03:21.579232\"}, {\"score\": 75, \"date\": \"2026-03-18T02:11:25.280255\"}, {\"score\": 75, \"date\": \"2026-03-18T13:13:39.629940\"}, {\"score\": 70, \"date\": \"2026-03-19T02:12:20.544260\"}, {\"score\": 75, \"date\": \"2026-03-19T13:06:05.442879\"}, {\"score\": 70, \"date\": \"2026-03-20T02:06:53.601432\"}, {\"score\": 88, \"date\": \"2026-07-05T03:23:38.946077\"}, {\"score\": 92, \"date\": \"2026-07-06T10:21:42.464703\"}]",
+    "source_count": 1,
+    "lead_time_days": 17,
+    "ob1_detection_date": "2026-03-01T17:37:33.264556",
+    "mainstream_source": "https://www.goal.com/br/jogador/b-baldini/H66kOeBYcv2g_SyuKQB4W",
+    "sources": [
+      "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html"
+    ]
+  },
+  {
     "id": 35,
     "player_name": "Kaique Zizero",
     "detection_date": "2026-03-14 02:02:03",
@@ -159,33 +186,6 @@
     "mainstream_source": "https://www.lequipe.fr/fiche/kauan-toledo/143344",
     "sources": [
       "https://www.lance.com.br/botafogo/botafogo-colhe-bons-frutos-com-jovens-da-base-no-campeonato-carioca.html"
-    ]
-  },
-  {
-    "id": 18,
-    "player_name": "Bruno Baldini",
-    "detection_date": "2026-03-01 16:37:33",
-    "source_url": "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html",
-    "score": 87.1,
-    "raw_content": "Melhor marcador da Série B com 11 gols, uma estatística concreta e excepcional em uma liga secundária, mas competitiva. A performance em uma liga de menor visibilidade global, combinada com a liderança na artilharia, sugere uma assimetria informativa muito alta. A idade não é explicitamente mencionada, mas o contexto de 'jovens talentos' na Série B e a busca por U20 nos leva a considerá-lo. Necessita confirmação de idade para validação total.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 18,
-    "position": "ST",
-    "club": "Londrina Esporte Clube",
-    "league": "Brasileirão Série B",
-    "stats_summary": "Player stats of Bruno Baldini (Avaí FC (SC)) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | ... Bruno Baldini, Gabriel Simples, Jamerson dos Santos Nascimento, Gabriel ... There are also statistics for each player in all competitions with all total played ...",
-    "is_ghost": 0,
-    "first_detected": null,
-    "last_seen": "2026-07-05T03:23:38.946077",
-    "detection_count": 70,
-    "score_history": "[{\"score\": 82, \"date\": \"2026-03-14T12:52:50.314545\"}, {\"score\": 78, \"date\": \"2026-03-14T12:52:54.586054\"}, {\"score\": 70, \"date\": \"2026-03-15T02:27:24.278297\"}, {\"score\": 80, \"date\": \"2026-03-15T02:27:26.560739\"}, {\"score\": 85, \"date\": \"2026-03-15T12:55:00.253504\"}, {\"score\": 77, \"date\": \"2026-03-15T18:40:12.589282\"}, {\"score\": 82, \"date\": \"2026-03-15T18:40:19.851853\"}, {\"score\": 72, \"date\": \"2026-03-16T07:18:36.393044\"}, {\"score\": 75, \"date\": \"2026-03-16T07:18:39.708432\"}, {\"score\": 78, \"date\": \"2026-03-16T13:13:50.944776\"}, {\"score\": 80, \"date\": \"2026-03-16T13:14:07.307038\"}, {\"score\": 80, \"date\": \"2026-03-17T02:07:21.652637\"}, {\"score\": 72, \"date\": \"2026-03-17T07:05:23.321824\"}, {\"score\": 80, \"date\": \"2026-03-17T19:03:21.579232\"}, {\"score\": 75, \"date\": \"2026-03-18T02:11:25.280255\"}, {\"score\": 75, \"date\": \"2026-03-18T13:13:39.629940\"}, {\"score\": 70, \"date\": \"2026-03-19T02:12:20.544260\"}, {\"score\": 75, \"date\": \"2026-03-19T13:06:05.442879\"}, {\"score\": 70, \"date\": \"2026-03-20T02:06:53.601432\"}, {\"score\": 88, \"date\": \"2026-07-05T03:23:38.946077\"}]",
-    "source_count": 1,
-    "lead_time_days": 17,
-    "ob1_detection_date": "2026-03-01T17:37:33.264556",
-    "mainstream_source": "https://www.goal.com/br/jogador/b-baldini/H66kOeBYcv2g_SyuKQB4W",
-    "sources": [
-      "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html"
     ]
   },
   {
@@ -675,33 +675,6 @@
     ]
   },
   {
-    "id": 46,
-    "player_name": "Luis Benedetti",
-    "detection_date": "2026-06-01 05:31:43",
-    "source_url": "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/",
-    "score": 81.0,
-    "raw_content": "Zagueiro canhoto de 1.98m com boa saída de bola e jogo aéreo. Marcou impressionantes 10 gols no Sub-20 em 2024 e estreou no time profissional em 2025. Embora jogue em um clube de ponta no Brasil, sua visibilidade internacional ainda é limitada, e os dados concretos de gols para um zagueiro são uma assimetria informativa significativa. É visto como a próxima grande revelação do Palmeiras após uma venda de alto valor na mesma posição.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 19,
-    "position": "CB",
-    "club": "Palmeiras",
-    "league": "Brasileirão Série A",
-    "stats_summary": "Player stats of Luis Benedetti (SE Palmeiras São Paulo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Become a Stathead & surf this site ad-free. 2026. Série A. MP. 1. Min. 8. Gls. 0. Ast. 0. * see our coverage note. Luis Benedetti Overview; More Luis Benedetti ... | Luis Benedetti career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Palmeiras ...",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T05:31:43.066722",
-    "last_seen": "2026-07-06T03:31:37.488075",
-    "detection_count": 41,
-    "score_history": "[{\"score\": 70, \"date\": \"2026-06-16T16:52:55.019552\"}, {\"score\": 80, \"date\": \"2026-06-16T20:51:37.138982\"}, {\"score\": 78, \"date\": \"2026-06-17T15:30:13.367135\"}, {\"score\": 82, \"date\": \"2026-06-18T15:25:16.207507\"}, {\"score\": 80, \"date\": \"2026-06-18T20:26:41.564192\"}, {\"score\": 80, \"date\": \"2026-06-19T10:27:04.757873\"}, {\"score\": 78, \"date\": \"2026-06-21T04:13:12.936210\"}, {\"score\": 78, \"date\": \"2026-06-21T14:11:33.398119\"}, {\"score\": 90, \"date\": \"2026-06-29T15:47:09.658024\"}, {\"score\": 75, \"date\": \"2026-06-29T19:59:12.495841\"}, {\"score\": 78, \"date\": \"2026-06-30T03:38:52.660669\"}, {\"score\": 82, \"date\": \"2026-06-30T09:36:18.932898\"}, {\"score\": 70, \"date\": \"2026-06-30T19:59:07.871375\"}, {\"score\": 78, \"date\": \"2026-07-03T09:18:32.618828\"}, {\"score\": 80, \"date\": \"2026-07-04T02:54:02.204844\"}, {\"score\": 85, \"date\": \"2026-07-04T08:37:47.732041\"}, {\"score\": 78, \"date\": \"2026-07-04T19:14:03.737134\"}, {\"score\": 80, \"date\": \"2026-07-05T08:52:53.190804\"}, {\"score\": 78, \"date\": \"2026-07-05T13:39:28.458234\"}, {\"score\": 82, \"date\": \"2026-07-06T03:31:37.488075\"}]",
-    "source_count": 1,
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-06-01T05:31:43.066722",
-    "mainstream_source": null,
-    "sources": [
-      "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
-    ]
-  },
-  {
     "id": 44,
     "player_name": "Davi Lima",
     "detection_date": "2026-06-01 04:04:27",
@@ -918,6 +891,33 @@
     ]
   },
   {
+    "id": 46,
+    "player_name": "Luis Benedetti",
+    "detection_date": "2026-06-01 05:31:43",
+    "source_url": "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/",
+    "score": 78.9,
+    "raw_content": "Central defender with an impressive 10 goals in U20 in 2024, indicating strong aerial presence and offensive contribution. Plays for Palmeiras, a top Brazilian club known for developing talent, but is not yet a globally recognized name. His professional debut suggests readiness for higher levels. Good stats for a defender, but club visibility slightly reduces information asymmetry.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 19,
+    "position": "CB",
+    "club": "Palmeiras",
+    "league": "Brasileirão (Youth/Professional Debut)",
+    "stats_summary": "Player stats of Luis Benedetti (SE Palmeiras São Paulo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Become a Stathead & surf this site ad-free. 2026. Série A. MP. 1. Min. 8. Gls. 0. Ast. 0. * see our coverage note. Luis Benedetti Overview; More Luis Benedetti ... | Luis Benedetti career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Palmeiras ...",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T05:31:43.066722",
+    "last_seen": "2026-07-06T10:21:42.074835",
+    "detection_count": 42,
+    "score_history": "[{\"score\": 80, \"date\": \"2026-06-16T20:51:37.138982\"}, {\"score\": 78, \"date\": \"2026-06-17T15:30:13.367135\"}, {\"score\": 82, \"date\": \"2026-06-18T15:25:16.207507\"}, {\"score\": 80, \"date\": \"2026-06-18T20:26:41.564192\"}, {\"score\": 80, \"date\": \"2026-06-19T10:27:04.757873\"}, {\"score\": 78, \"date\": \"2026-06-21T04:13:12.936210\"}, {\"score\": 78, \"date\": \"2026-06-21T14:11:33.398119\"}, {\"score\": 90, \"date\": \"2026-06-29T15:47:09.658024\"}, {\"score\": 75, \"date\": \"2026-06-29T19:59:12.495841\"}, {\"score\": 78, \"date\": \"2026-06-30T03:38:52.660669\"}, {\"score\": 82, \"date\": \"2026-06-30T09:36:18.932898\"}, {\"score\": 70, \"date\": \"2026-06-30T19:59:07.871375\"}, {\"score\": 78, \"date\": \"2026-07-03T09:18:32.618828\"}, {\"score\": 80, \"date\": \"2026-07-04T02:54:02.204844\"}, {\"score\": 85, \"date\": \"2026-07-04T08:37:47.732041\"}, {\"score\": 78, \"date\": \"2026-07-04T19:14:03.737134\"}, {\"score\": 80, \"date\": \"2026-07-05T08:52:53.190804\"}, {\"score\": 78, \"date\": \"2026-07-05T13:39:28.458234\"}, {\"score\": 82, \"date\": \"2026-07-06T03:31:37.488075\"}, {\"score\": 78, \"date\": \"2026-07-06T10:21:42.074835\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-01T05:31:43.066722",
+    "mainstream_source": null,
+    "sources": [
+      "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
+    ]
+  },
+  {
     "id": 31,
     "player_name": "Gustavo Gomes",
     "detection_date": "2026-03-07 08:58:35",
@@ -942,6 +942,33 @@
     "mainstream_source": "https://www.goal.com/br/not%C3%ADcias/quanto-o-palmeiras-vai-pagar-ao-milan-para-ter-gustavo-gomez-ate-2024/1syf3iy9r8w991o2jobk1qincw",
     "sources": [
       "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/06/athletico-renova-com-o-meia-gustavo-gomes-promessa-da-base.ghtml"
+    ]
+  },
+  {
+    "id": 47,
+    "player_name": "Axel Alfonzo",
+    "detection_date": "2026-06-01 06:01:15",
+    "source_url": "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/",
+    "score": 78.4,
+    "raw_content": "A 'joven promesa internacional' who gained significant professional experience in 2025, playing 19 matches (15 as a starter) for Olimpia in Paraguay. His transfer to Limache in Chile suggests a move for continued development or more playing time. Solid professional minutes in a regional league, indicating real potential with moderate international visibility.",
+    "region": "Paraguay",
+    "status": "detected",
+    "age": 19,
+    "position": null,
+    "club": "Limache",
+    "league": "Chilean League",
+    "stats_summary": "Axel Alfonzo is 22 years old (May 7, 2004), 182 cm tall and plays for Deportes Limache. Axel Alfonzo prefers to play with right foot. | Goals by new players. New arrivals. New signings this season: 2025/2026 ... Axel Alfonzo. Defender. Olimpia ... Club Guaraní, 66. 1748411855. View stats. Table ... | The squad overview lists all player stats for a selected season. The ... Axel Alfonzo · A. Alfonzo. Centre-Back. 22, 12, 11, -, 626'. 7. Deportes ...",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T06:01:15.061613",
+    "last_seen": "2026-07-06T10:21:42.864376",
+    "detection_count": 21,
+    "score_history": "[{\"score\": 72, \"date\": \"2026-06-01T11:34:18.751143\"}, {\"score\": 78, \"date\": \"2026-06-06T19:23:52.267957\"}, {\"score\": 85, \"date\": \"2026-06-09T09:44:05.301766\"}, {\"score\": 80, \"date\": \"2026-06-09T14:52:12.242671\"}, {\"score\": 80, \"date\": \"2026-06-10T03:42:59.762007\"}, {\"score\": 80, \"date\": \"2026-06-10T20:31:12.873091\"}, {\"score\": 85, \"date\": \"2026-06-12T14:59:16.925421\"}, {\"score\": 78, \"date\": \"2026-06-12T20:12:12.950897\"}, {\"score\": 78, \"date\": \"2026-06-13T14:00:59.872151\"}, {\"score\": 80, \"date\": \"2026-06-13T19:26:35.543150\"}, {\"score\": 76, \"date\": \"2026-06-14T14:03:27.157522\"}, {\"score\": 78, \"date\": \"2026-06-18T15:25:16.429868\"}, {\"score\": 80, \"date\": \"2026-06-20T03:39:51.946300\"}, {\"score\": 77, \"date\": \"2026-07-01T03:53:23.943259\"}, {\"score\": 78, \"date\": \"2026-07-01T14:37:29.350633\"}, {\"score\": 82, \"date\": \"2026-07-01T19:56:29.610520\"}, {\"score\": 82, \"date\": \"2026-07-04T08:37:51.833489\"}, {\"score\": 82, \"date\": \"2026-07-05T03:23:39.347548\"}, {\"score\": 75, \"date\": \"2026-07-05T13:39:32.554395\"}, {\"score\": 79, \"date\": \"2026-07-06T10:21:42.864376\"}]",
+    "source_count": 1,
+    "lead_time_days": 4,
+    "ob1_detection_date": "2026-06-01T06:01:15.061613",
+    "mainstream_source": "https://www.lequipe.fr/fiche/axel-alfonzo/142708",
+    "sources": [
+      "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/"
     ]
   },
   {
@@ -1131,33 +1158,6 @@
     "mainstream_source": null,
     "sources": [
       "https://www.palmeiras.com.br/noticias/destaque-na-copinha-eduardo-assina-primeiro-contrato-profissional-com-palmeiras/"
-    ]
-  },
-  {
-    "id": 47,
-    "player_name": "Axel Alfonzo",
-    "detection_date": "2026-06-01 06:01:15",
-    "source_url": "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/",
-    "score": 77.1,
-    "raw_content": "Jovem promessa que somou 19 partidas no plantel principal do Olimpia em 2025, sendo 15 como titular. Essa experiência significativa em um clube sul-americano de renome, em tenra idade, é um dado concreto valioso. Sua transferência para o Limache, um clube chileno, pode manter sua visibilidade em um nível controlável, preservando alguma assimetria informativa.",
-    "region": "Paraguay",
-    "status": "detected",
-    "age": 19,
-    "position": null,
-    "club": "Limache",
-    "league": "Chilean League (unspecified)",
-    "stats_summary": "Axel Alfonzo is 22 years old (May 7, 2004), 182 cm tall and plays for Deportes Limache. Axel Alfonzo prefers to play with right foot. | Goals by new players. New arrivals. New signings this season: 2025/2026 ... Axel Alfonzo. Defender. Olimpia ... Club Guaraní, 66. 1748411855. View stats. Table ... | The squad overview lists all player stats for a selected season. The ... Axel Alfonzo · A. Alfonzo. Centre-Back. 22, 12, 11, -, 626'. 7. Deportes ...",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T06:01:15.061613",
-    "last_seen": "2026-07-05T13:39:32.554395",
-    "detection_count": 20,
-    "score_history": "[{\"score\": 78, \"date\": \"2026-06-01T06:01:15.061613\"}, {\"score\": 72, \"date\": \"2026-06-01T11:34:18.751143\"}, {\"score\": 78, \"date\": \"2026-06-06T19:23:52.267957\"}, {\"score\": 85, \"date\": \"2026-06-09T09:44:05.301766\"}, {\"score\": 80, \"date\": \"2026-06-09T14:52:12.242671\"}, {\"score\": 80, \"date\": \"2026-06-10T03:42:59.762007\"}, {\"score\": 80, \"date\": \"2026-06-10T20:31:12.873091\"}, {\"score\": 85, \"date\": \"2026-06-12T14:59:16.925421\"}, {\"score\": 78, \"date\": \"2026-06-12T20:12:12.950897\"}, {\"score\": 78, \"date\": \"2026-06-13T14:00:59.872151\"}, {\"score\": 80, \"date\": \"2026-06-13T19:26:35.543150\"}, {\"score\": 76, \"date\": \"2026-06-14T14:03:27.157522\"}, {\"score\": 78, \"date\": \"2026-06-18T15:25:16.429868\"}, {\"score\": 80, \"date\": \"2026-06-20T03:39:51.946300\"}, {\"score\": 77, \"date\": \"2026-07-01T03:53:23.943259\"}, {\"score\": 78, \"date\": \"2026-07-01T14:37:29.350633\"}, {\"score\": 82, \"date\": \"2026-07-01T19:56:29.610520\"}, {\"score\": 82, \"date\": \"2026-07-04T08:37:51.833489\"}, {\"score\": 82, \"date\": \"2026-07-05T03:23:39.347548\"}, {\"score\": 75, \"date\": \"2026-07-05T13:39:32.554395\"}]",
-    "source_count": 1,
-    "lead_time_days": 4,
-    "ob1_detection_date": "2026-06-01T06:01:15.061613",
-    "mainstream_source": "https://www.lequipe.fr/fiche/axel-alfonzo/142708",
-    "sources": [
-      "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/"
     ]
   },
   {
@@ -1404,6 +1404,33 @@
     ]
   },
   {
+    "id": 24,
+    "player_name": "Ryan Evaristo",
+    "detection_date": "2026-03-01 17:34:20",
+    "source_url": "https://www.instagram.com/p/DVRpeUHDlup/",
+    "score": 72.8,
+    "raw_content": "Top scorer of Copinha 2025 with 10 goals, playing a key role in São Paulo's championship. This is an excellent performance in a major Brazilian youth tournament. While his club is prominent and his achievement brings national recognition, he is not yet widely known internationally, offering real asymmetry.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 19,
+    "position": "ST",
+    "club": "São Paulo",
+    "league": "Copinha (U20 Tournament)",
+    "stats_summary": "These are the detailed performance data of FC São Paulo player Ryan Francisco. The website contains a statistic about the performance data of the player. | Ryan Francisco is 19 years old (Nov 21, 2006), 175 cm tall and plays for São Paulo. Ryan Francisco prefers to play with left foot. His jersey number is 49. | #49 Ryan Francisco ; Date of birth/Age: 21/11/2006 (19) ; Citizenship: Brazil ; Height: 1,75 m ; Position: Centre-Forward ; Agent: Roc Nation Sports verified.",
+    "is_ghost": 0,
+    "first_detected": "2026-03-01T18:34:20.455948",
+    "last_seen": "2026-07-06T10:21:42.597729",
+    "detection_count": 65,
+    "score_history": "[{\"score\": 72, \"date\": \"2026-03-18T19:00:44.593973\"}, {\"score\": 82.5, \"date\": \"2026-03-20T02:06:52.245529\"}, {\"score\": 70, \"date\": \"2026-06-01T04:04:26.287383\"}, {\"score\": 70, \"date\": \"2026-06-03T20:56:59.145852\"}, {\"score\": 70, \"date\": \"2026-06-04T15:15:40.440212\"}, {\"score\": 80, \"date\": \"2026-06-07T03:56:28.989508\"}, {\"score\": 70, \"date\": \"2026-06-10T15:35:27.551256\"}, {\"score\": 75, \"date\": \"2026-06-11T10:25:07.651031\"}, {\"score\": 78, \"date\": \"2026-06-12T10:14:16.718725\"}, {\"score\": 82, \"date\": \"2026-06-13T19:26:34.961730\"}, {\"score\": 77, \"date\": \"2026-06-14T04:04:39.624654\"}, {\"score\": 78, \"date\": \"2026-06-14T14:03:26.713161\"}, {\"score\": 85, \"date\": \"2026-06-16T11:13:03.793942\"}, {\"score\": 70, \"date\": \"2026-06-19T10:27:05.527836\"}, {\"score\": 78, \"date\": \"2026-06-29T19:59:17.571750\"}, {\"score\": 70, \"date\": \"2026-06-30T03:38:53.770936\"}, {\"score\": 70, \"date\": \"2026-07-04T02:54:05.135340\"}, {\"score\": 70, \"date\": \"2026-07-05T03:23:41.343468\"}, {\"score\": 70, \"date\": \"2026-07-06T03:31:38.382271\"}, {\"score\": 74, \"date\": \"2026-07-06T10:21:42.597729\"}]",
+    "source_count": 1,
+    "lead_time_days": 0,
+    "ob1_detection_date": "2026-03-01T18:34:20.455948",
+    "mainstream_source": "https://www.bbc.com/audio/play/m001r17h",
+    "sources": [
+      "https://www.instagram.com/p/DVRpeUHDlup/"
+    ]
+  },
+  {
     "id": 84,
     "player_name": "Tiago Camargo",
     "detection_date": "2026-07-05 03:23:40",
@@ -1482,33 +1509,6 @@
     "mainstream_source": null,
     "sources": [
       "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
-    ]
-  },
-  {
-    "id": 24,
-    "player_name": "Ryan Evaristo",
-    "detection_date": "2026-03-01 17:34:20",
-    "source_url": "https://www.instagram.com/p/DVRpeUHDlup/",
-    "score": 70.1,
-    "raw_content": "Artilheiro da Copinha de 2025 com 10 gols, sendo peça-chave no pentacampeonato do São Paulo. Embora seja um dado concreto e impressionante, ser o artilheiro de um torneio de base tão importante no Brasil confere-lhe uma visibilidade considerável a nível nacional, diminuindo a assimetria informativa para um 'ghost'.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 19,
-    "position": "ST",
-    "club": "São Paulo",
-    "league": "Brasileirão Série A (Base)",
-    "stats_summary": "These are the detailed performance data of FC São Paulo player Ryan Francisco. The website contains a statistic about the performance data of the player. | Ryan Francisco is 19 years old (Nov 21, 2006), 175 cm tall and plays for São Paulo. Ryan Francisco prefers to play with left foot. His jersey number is 49. | #49 Ryan Francisco ; Date of birth/Age: 21/11/2006 (19) ; Citizenship: Brazil ; Height: 1,75 m ; Position: Centre-Forward ; Agent: Roc Nation Sports verified.",
-    "is_ghost": 0,
-    "first_detected": "2026-03-01T18:34:20.455948",
-    "last_seen": "2026-07-06T03:31:38.382271",
-    "detection_count": 64,
-    "score_history": "[{\"score\": 87.0, \"date\": \"2026-03-18T02:11:31.946365\"}, {\"score\": 72, \"date\": \"2026-03-18T19:00:44.593973\"}, {\"score\": 82.5, \"date\": \"2026-03-20T02:06:52.245529\"}, {\"score\": 70, \"date\": \"2026-06-01T04:04:26.287383\"}, {\"score\": 70, \"date\": \"2026-06-03T20:56:59.145852\"}, {\"score\": 70, \"date\": \"2026-06-04T15:15:40.440212\"}, {\"score\": 80, \"date\": \"2026-06-07T03:56:28.989508\"}, {\"score\": 70, \"date\": \"2026-06-10T15:35:27.551256\"}, {\"score\": 75, \"date\": \"2026-06-11T10:25:07.651031\"}, {\"score\": 78, \"date\": \"2026-06-12T10:14:16.718725\"}, {\"score\": 82, \"date\": \"2026-06-13T19:26:34.961730\"}, {\"score\": 77, \"date\": \"2026-06-14T04:04:39.624654\"}, {\"score\": 78, \"date\": \"2026-06-14T14:03:26.713161\"}, {\"score\": 85, \"date\": \"2026-06-16T11:13:03.793942\"}, {\"score\": 70, \"date\": \"2026-06-19T10:27:05.527836\"}, {\"score\": 78, \"date\": \"2026-06-29T19:59:17.571750\"}, {\"score\": 70, \"date\": \"2026-06-30T03:38:53.770936\"}, {\"score\": 70, \"date\": \"2026-07-04T02:54:05.135340\"}, {\"score\": 70, \"date\": \"2026-07-05T03:23:41.343468\"}, {\"score\": 70, \"date\": \"2026-07-06T03:31:38.382271\"}]",
-    "source_count": 1,
-    "lead_time_days": 0,
-    "ob1_detection_date": "2026-03-01T18:34:20.455948",
-    "mainstream_source": "https://www.bbc.com/audio/play/m001r17h",
-    "sources": [
-      "https://www.instagram.com/p/DVRpeUHDlup/"
     ]
   },
   {
