@@ -108,6 +108,60 @@
     ]
   },
   {
+    "id": 85,
+    "player_name": "Rian Santana",
+    "detection_date": "2026-07-08 14:06:54",
+    "source_url": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_D",
+    "score": 90.0,
+    "raw_content": "Artilheiro da Série D do Campeonato Brasileiro de 2026 com 10 gols. Joga em um clube de uma liga de quarto escalão (CSA na Série D), o que representa um contexto de visibilidade extremamente baixa. A ausência de uma página na Wikipedia (redlink) e a falta de menção em fontes internacionais indicam uma assimetria informativa muito alta. A idade não é especificada, mas o contexto de 'promessas' e 'melhor marcador' em uma liga de acesso sugere um jogador jovem.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": null,
+    "position": "ST",
+    "club": "CSA",
+    "league": "Brasileirão Série D",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-07-08T14:06:54.401295",
+    "last_seen": "2026-07-08T14:06:54.401295",
+    "detection_count": 1,
+    "score_history": "[{\"score\": 90, \"date\": \"2026-07-08T14:06:54.401295\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-07-08T14:06:54.401295",
+    "mainstream_source": null,
+    "sources": [
+      "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_D"
+    ]
+  },
+  {
+    "id": 26,
+    "player_name": "Kauan Toledo",
+    "detection_date": "2026-03-01 18:00:00",
+    "source_url": "https://www.lance.com.br/botafogo/botafogo-colhe-bons-frutos-com-jovens-da-base-no-campeonato-carioca.html",
+    "score": 89.4,
+    "raw_content": "Artilheiro da Série D do Campeonato Brasileiro de 2026 com 10 gols. Joga em um clube de uma liga de quarto escalão (Piauí na Série D), o que representa um contexto de visibilidade extremamente baixa. A ausência de uma página na Wikipedia (redlink) e a falta de menção em fontes internacionais indicam uma assimetria informativa muito alta. A idade não é especificada, mas o contexto de 'promessas' e 'melhor marcador' em uma liga de acesso sugere um jogador jovem.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": null,
+    "position": "ST",
+    "club": "Piauí Esporte Clube",
+    "league": "Brasileirão Série D",
+    "stats_summary": "Detailed stats of Kauan Toledo ; 6, 08/02/26, A ; Squad: 6, Starting eleven: 2, Substituted in: 2, On the bench: 2, Suspended: 0, Injured: 0, Absence: 0 ... | Detailed stats of Kauan Toledo. This page contains ... 2026, CBF Brasileiro U20 ... Stats by club. Club, Appearances, Goals, Assists ... | Check out the latest domestic and international stats, match logs, goals, height, weight and more for Botafogo de Futebol e Regatas playing for Kauan Toledo ...",
+    "is_ghost": 0,
+    "first_detected": "2026-03-01T19:00:00.487652",
+    "last_seen": "2026-07-08T14:06:53.678645",
+    "detection_count": 24,
+    "score_history": "[{\"score\": 80, \"date\": \"2026-03-03T12:58:49.819470\"}, {\"score\": 70, \"date\": \"2026-03-05T06:54:08.647598\"}, {\"score\": 70, \"date\": \"2026-03-05T19:18:13.960997\"}, {\"score\": 75, \"date\": \"2026-03-06T06:51:35.621986\"}, {\"score\": 72, \"date\": \"2026-03-07T08:58:40.935742\"}, {\"score\": 75, \"date\": \"2026-03-07T12:48:09.777522\"}, {\"score\": 78, \"date\": \"2026-03-07T18:35:11.375492\"}, {\"score\": 72, \"date\": \"2026-03-08T02:07:34.535579\"}, {\"score\": 72, \"date\": \"2026-03-08T06:43:30.698534\"}, {\"score\": 70, \"date\": \"2026-03-09T13:04:29.005725\"}, {\"score\": 88, \"date\": \"2026-03-10T13:01:52.996646\"}, {\"score\": 78, \"date\": \"2026-03-10T18:48:20.294168\"}, {\"score\": 78, \"date\": \"2026-03-11T02:00:52.321082\"}, {\"score\": 80, \"date\": \"2026-03-11T18:54:29.068438\"}, {\"score\": 78, \"date\": \"2026-03-12T02:07:12.637768\"}, {\"score\": 75, \"date\": \"2026-03-12T06:56:55.320684\"}, {\"score\": 80, \"date\": \"2026-03-15T18:40:14.250965\"}, {\"score\": 85, \"date\": \"2026-03-17T19:03:23.780348\"}, {\"score\": 82, \"date\": \"2026-03-18T02:11:26.549712\"}, {\"score\": 90, \"date\": \"2026-07-08T14:06:53.678645\"}]",
+    "source_count": 1,
+    "lead_time_days": 91,
+    "ob1_detection_date": "2026-03-01T19:00:00.487652",
+    "mainstream_source": "https://www.lequipe.fr/fiche/kauan-toledo/143344",
+    "sources": [
+      "https://www.lance.com.br/botafogo/botafogo-colhe-bons-frutos-com-jovens-da-base-no-campeonato-carioca.html"
+    ]
+  },
+  {
     "id": 35,
     "player_name": "Kaique Zizero",
     "detection_date": "2026-03-14 02:02:03",
@@ -132,60 +186,6 @@
     "mainstream_source": "https://africa.espn.com/soccer/player/matches/_/id/364879/kaique-zizero",
     "sources": [
       "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/13/athletico-vai-receber-dois-jogadores-do-america-mg-na-negociacao-por-mastriani-saiba-quem-sao.ghtml"
-    ]
-  },
-  {
-    "id": 26,
-    "player_name": "Kauan Toledo",
-    "detection_date": "2026-03-01 18:00:00",
-    "source_url": "https://www.lance.com.br/botafogo/botafogo-colhe-bons-frutos-com-jovens-da-base-no-campeonato-carioca.html",
-    "score": 88.0,
-    "raw_content": "Attaccante proveniente dal Sub-20 del Botafogo che si è distinto nel Campionato Carioca (lega senior statale), mostrando 'qualità nell'uno contro uno e differenza tecnica'. Questa performance contro avversari senior è un forte indicatore di potenziale e di prontezza per livelli superiori.\n\nStats: Detailed stats of Kauan Toledo ; 6, 08/02/26, A ; Squad: 6, Starting eleven: 2, Substituted in: 2, On the bench: 2, Suspended: 0, Injured: 0, Absence: 0 ... | Detailed stats of Kauan Toledo. This page contains ... 2026, CBF Brasileiro U20 ... Stats by club. Club, Appearances, Goals, Assists ... | Check out the latest domestic and international stats, match logs, goals, height, weight and more for Botafogo de Futebol e Regatas playing for Kauan Toledo ...",
-    "region": "Brazil",
-    "status": "detected",
-    "age": null,
-    "position": "Attaccante",
-    "club": "Botafogo",
-    "league": "Campionato Carioca",
-    "stats_summary": "Detailed stats of Kauan Toledo ; 6, 08/02/26, A ; Squad: 6, Starting eleven: 2, Substituted in: 2, On the bench: 2, Suspended: 0, Injured: 0, Absence: 0 ... | Detailed stats of Kauan Toledo. This page contains ... 2026, CBF Brasileiro U20 ... Stats by club. Club, Appearances, Goals, Assists ... | Check out the latest domestic and international stats, match logs, goals, height, weight and more for Botafogo de Futebol e Regatas playing for Kauan Toledo ...",
-    "is_ghost": 0,
-    "first_detected": "2026-03-01T19:00:00.487652",
-    "last_seen": "2026-03-18T02:11:26.549712",
-    "detection_count": 23,
-    "score_history": "[{\"score\": 70, \"date\": \"2026-03-02T12:59:44.634481\"}, {\"score\": 80, \"date\": \"2026-03-03T12:58:49.819470\"}, {\"score\": 70, \"date\": \"2026-03-05T06:54:08.647598\"}, {\"score\": 70, \"date\": \"2026-03-05T19:18:13.960997\"}, {\"score\": 75, \"date\": \"2026-03-06T06:51:35.621986\"}, {\"score\": 72, \"date\": \"2026-03-07T08:58:40.935742\"}, {\"score\": 75, \"date\": \"2026-03-07T12:48:09.777522\"}, {\"score\": 78, \"date\": \"2026-03-07T18:35:11.375492\"}, {\"score\": 72, \"date\": \"2026-03-08T02:07:34.535579\"}, {\"score\": 72, \"date\": \"2026-03-08T06:43:30.698534\"}, {\"score\": 70, \"date\": \"2026-03-09T13:04:29.005725\"}, {\"score\": 88, \"date\": \"2026-03-10T13:01:52.996646\"}, {\"score\": 78, \"date\": \"2026-03-10T18:48:20.294168\"}, {\"score\": 78, \"date\": \"2026-03-11T02:00:52.321082\"}, {\"score\": 80, \"date\": \"2026-03-11T18:54:29.068438\"}, {\"score\": 78, \"date\": \"2026-03-12T02:07:12.637768\"}, {\"score\": 75, \"date\": \"2026-03-12T06:56:55.320684\"}, {\"score\": 80, \"date\": \"2026-03-15T18:40:14.250965\"}, {\"score\": 85, \"date\": \"2026-03-17T19:03:23.780348\"}, {\"score\": 82, \"date\": \"2026-03-18T02:11:26.549712\"}]",
-    "source_count": 1,
-    "lead_time_days": 91,
-    "ob1_detection_date": "2026-03-01T19:00:00.487652",
-    "mainstream_source": "https://www.lequipe.fr/fiche/kauan-toledo/143344",
-    "sources": [
-      "https://www.lance.com.br/botafogo/botafogo-colhe-bons-frutos-com-jovens-da-base-no-campeonato-carioca.html"
-    ]
-  },
-  {
-    "id": 18,
-    "player_name": "Bruno Baldini",
-    "detection_date": "2026-03-01 16:37:33",
-    "source_url": "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html",
-    "score": 87.8,
-    "raw_content": "Artilheiro do Campeonato Brasileiro Série B de 2026 com 11 gols, um feito notável em uma liga profissional secundária. A menção de sua página na Wikipédia como 'redlink' (página não existe) indica visibilidade internacional praticamente nula, o que representa a máxima assimetria informativa. O contexto de um clube menor e liga secundária aumenta o valor da sua performance.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 19,
-    "position": "ST",
-    "club": "Londrina Esporte Clube",
-    "league": "Campeonato Brasileiro Série B",
-    "stats_summary": "Player stats of Bruno Baldini (Avaí FC (SC)) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | ... Bruno Baldini, Gabriel Simples, Jamerson dos Santos Nascimento, Gabriel ... There are also statistics for each player in all competitions with all total played ...",
-    "is_ghost": 0,
-    "first_detected": null,
-    "last_seen": "2026-07-08T02:39:57.535689",
-    "detection_count": 76,
-    "score_history": "[{\"score\": 82, \"date\": \"2026-03-15T18:40:19.851853\"}, {\"score\": 72, \"date\": \"2026-03-16T07:18:36.393044\"}, {\"score\": 75, \"date\": \"2026-03-16T07:18:39.708432\"}, {\"score\": 78, \"date\": \"2026-03-16T13:13:50.944776\"}, {\"score\": 80, \"date\": \"2026-03-16T13:14:07.307038\"}, {\"score\": 80, \"date\": \"2026-03-17T02:07:21.652637\"}, {\"score\": 72, \"date\": \"2026-03-17T07:05:23.321824\"}, {\"score\": 80, \"date\": \"2026-03-17T19:03:21.579232\"}, {\"score\": 75, \"date\": \"2026-03-18T02:11:25.280255\"}, {\"score\": 75, \"date\": \"2026-03-18T13:13:39.629940\"}, {\"score\": 70, \"date\": \"2026-03-19T02:12:20.544260\"}, {\"score\": 75, \"date\": \"2026-03-19T13:06:05.442879\"}, {\"score\": 70, \"date\": \"2026-03-20T02:06:53.601432\"}, {\"score\": 88, \"date\": \"2026-07-05T03:23:38.946077\"}, {\"score\": 92, \"date\": \"2026-07-06T10:21:42.464703\"}, {\"score\": 85, \"date\": \"2026-07-06T15:33:15.650669\"}, {\"score\": 85, \"date\": \"2026-07-06T19:57:56.315384\"}, {\"score\": 80, \"date\": \"2026-07-07T03:22:18.167586\"}, {\"score\": 90, \"date\": \"2026-07-07T14:33:46.886346\"}, {\"score\": 88, \"date\": \"2026-07-08T02:39:57.535689\"}]",
-    "source_count": 1,
-    "lead_time_days": 17,
-    "ob1_detection_date": "2026-03-01T17:37:33.264556",
-    "mainstream_source": "https://www.goal.com/br/jogador/b-baldini/H66kOeBYcv2g_SyuKQB4W",
-    "sources": [
-      "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html"
     ]
   },
   {
@@ -243,6 +243,33 @@
     ]
   },
   {
+    "id": 18,
+    "player_name": "Bruno Baldini",
+    "detection_date": "2026-03-01 16:37:33",
+    "source_url": "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html",
+    "score": 85.8,
+    "raw_content": "Artilheiro da Série B do Campeonato Brasileiro de 2026 com 11 gols. Atua em um clube de uma liga secundária (Londrina na Série B), o que indica um bom desempenho em um contexto de menor visibilidade. A ausência de uma página na Wikipedia (redlink) e a falta de menção em fontes internacionais sugerem uma alta assimetria informativa. A idade não é especificada, mas o contexto de 'promessas' e 'melhor marcador' em uma liga de acesso sugere um jogador jovem.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 19,
+    "position": "ST",
+    "club": "Londrina Esporte Clube",
+    "league": "Brasileirão Série B",
+    "stats_summary": "Player stats of Bruno Baldini (Avaí FC (SC)) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | ... Bruno Baldini, Gabriel Simples, Jamerson dos Santos Nascimento, Gabriel ... There are also statistics for each player in all competitions with all total played ...",
+    "is_ghost": 0,
+    "first_detected": null,
+    "last_seen": "2026-07-08T14:06:52.662792",
+    "detection_count": 77,
+    "score_history": "[{\"score\": 72, \"date\": \"2026-03-16T07:18:36.393044\"}, {\"score\": 75, \"date\": \"2026-03-16T07:18:39.708432\"}, {\"score\": 78, \"date\": \"2026-03-16T13:13:50.944776\"}, {\"score\": 80, \"date\": \"2026-03-16T13:14:07.307038\"}, {\"score\": 80, \"date\": \"2026-03-17T02:07:21.652637\"}, {\"score\": 72, \"date\": \"2026-03-17T07:05:23.321824\"}, {\"score\": 80, \"date\": \"2026-03-17T19:03:21.579232\"}, {\"score\": 75, \"date\": \"2026-03-18T02:11:25.280255\"}, {\"score\": 75, \"date\": \"2026-03-18T13:13:39.629940\"}, {\"score\": 70, \"date\": \"2026-03-19T02:12:20.544260\"}, {\"score\": 75, \"date\": \"2026-03-19T13:06:05.442879\"}, {\"score\": 70, \"date\": \"2026-03-20T02:06:53.601432\"}, {\"score\": 88, \"date\": \"2026-07-05T03:23:38.946077\"}, {\"score\": 92, \"date\": \"2026-07-06T10:21:42.464703\"}, {\"score\": 85, \"date\": \"2026-07-06T15:33:15.650669\"}, {\"score\": 85, \"date\": \"2026-07-06T19:57:56.315384\"}, {\"score\": 80, \"date\": \"2026-07-07T03:22:18.167586\"}, {\"score\": 90, \"date\": \"2026-07-07T14:33:46.886346\"}, {\"score\": 88, \"date\": \"2026-07-08T02:39:57.535689\"}, {\"score\": 85, \"date\": \"2026-07-08T14:06:52.662792\"}]",
+    "source_count": 1,
+    "lead_time_days": 17,
+    "ob1_detection_date": "2026-03-01T17:37:33.264556",
+    "mainstream_source": "https://www.goal.com/br/jogador/b-baldini/H66kOeBYcv2g_SyuKQB4W",
+    "sources": [
+      "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html"
+    ]
+  },
+  {
     "id": 51,
     "player_name": "Jordan Garcia",
     "detection_date": "2026-06-01 21:34:25",
@@ -267,33 +294,6 @@
     "mainstream_source": "https://www.espn.com/soccer/player/_/id/378912/jordan-garcia",
     "sources": [
       "https://billionhands.com/es/ranking/deportes/jovenes-promesas-del-futbol-sudamericano-69cf5a558e5be409898599a6"
-    ]
-  },
-  {
-    "id": 83,
-    "player_name": "Kauê",
-    "detection_date": "2026-07-03 19:23:26",
-    "source_url": "https://www.ogol.com.br/edicao/seletiva-copinha-sub-20-2026/216080",
-    "score": 85.4,
-    "raw_content": "Capocannoniere della Seletiva Copinha Sub-20 2026 con 10 gol. Le statistiche sono eccellenti per un torneo giovanile. Il club non è menzionato, il che indica una visibilità molto bassa e un'elevata asimmetria informativa. È un 'ghost' con dati concreti di performance, rendendolo un obiettivo primario per OB1 Radar.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 19,
-    "position": "ST",
-    "club": null,
-    "league": "Brazilian youth league",
-    "stats_summary": null,
-    "is_ghost": 0,
-    "first_detected": "2026-07-03T19:23:26.235226",
-    "last_seen": "2026-07-08T08:28:39.446244",
-    "detection_count": 6,
-    "score_history": "[{\"score\": 78, \"date\": \"2026-07-03T19:23:26.235226\"}, {\"score\": 78, \"date\": \"2026-07-04T13:26:09.150846\"}, {\"score\": 87, \"date\": \"2026-07-04T19:14:07.588457\"}, {\"score\": 85, \"date\": \"2026-07-05T19:18:24.411810\"}, {\"score\": 87, \"date\": \"2026-07-06T19:57:56.600768\"}, {\"score\": 85, \"date\": \"2026-07-08T08:28:39.446244\"}]",
-    "source_count": 1,
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-07-03T19:23:26.235226",
-    "mainstream_source": null,
-    "sources": [
-      "https://www.ogol.com.br/edicao/seletiva-copinha-sub-20-2026/216080"
     ]
   },
   {
@@ -648,6 +648,33 @@
     ]
   },
   {
+    "id": 83,
+    "player_name": "Kauê",
+    "detection_date": "2026-07-03 19:23:26",
+    "source_url": "https://www.ogol.com.br/edicao/seletiva-copinha-sub-20-2026/216080",
+    "score": 81.6,
+    "raw_content": "Artilheiro da Seletiva Copinha Sub-20 2026 com 10 gols. O fato de ser o artilheiro de uma fase seletiva para um torneio sub-20, sem menção de clube, sugere um desempenho forte em um contexto de baixa visibilidade. A falta de informações sobre o clube e a ausência em listas de destaque aumentam a assimetria informativa. A idade é inferida como 19, sendo U20 em 2026.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 19,
+    "position": "ST",
+    "club": null,
+    "league": "Brazilian youth league",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-07-03T19:23:26.235226",
+    "last_seen": "2026-07-08T14:06:56.576518",
+    "detection_count": 7,
+    "score_history": "[{\"score\": 78, \"date\": \"2026-07-03T19:23:26.235226\"}, {\"score\": 78, \"date\": \"2026-07-04T13:26:09.150846\"}, {\"score\": 87, \"date\": \"2026-07-04T19:14:07.588457\"}, {\"score\": 85, \"date\": \"2026-07-05T19:18:24.411810\"}, {\"score\": 87, \"date\": \"2026-07-06T19:57:56.600768\"}, {\"score\": 85, \"date\": \"2026-07-08T08:28:39.446244\"}, {\"score\": 80, \"date\": \"2026-07-08T14:06:56.576518\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-07-03T19:23:26.235226",
+    "mainstream_source": null,
+    "sources": [
+      "https://www.ogol.com.br/edicao/seletiva-copinha-sub-20-2026/216080"
+    ]
+  },
+  {
     "id": 39,
     "player_name": "Mora",
     "detection_date": "2026-03-17 19:03:30",
@@ -672,33 +699,6 @@
     "mainstream_source": "https://www.marca.com/futbol/betis/2026/03/15/morante-recoge-testigo-joaquin-lidera-generacion-campeona.html",
     "sources": [
       "ingest_1773731069.md"
-    ]
-  },
-  {
-    "id": 44,
-    "player_name": "Davi Lima",
-    "detection_date": "2026-06-01 04:04:27",
-    "source_url": "https://ge.globo.com/futebol/copa-sp-de-futebol-junior/",
-    "score": 80.9,
-    "raw_content": "Zagueiro de 17 anos que se destacou na última Copinha. O ponto crucial para a assimetria é que ele firmou contrato com um clube português vindo de um clube 'fundado há pouco mais de um ano', indicando uma origem de baixíssima visibilidade. Embora a transferência para Portugal aumente sua visibilidade, o contexto de sua descoberta e a idade jovem o tornam um alvo de alto valor com assimetria informativa real.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 17,
-    "position": "CB",
-    "club": "Unnamed Portuguese Club (ex-Brazilian club founded recently)",
-    "league": "Portuguese League (unspecified)",
-    "stats_summary": "Davi Leopoldo Tavares Grisoto Lima stats, ratings and goals. davi-lima. Davi ... goals, assists, cards and other relevant data are also displayed. About ... | Davi Lima · Date of birth/Age: 17/04/2009 (17) · Citizenship: Brazil. | DISCOVER World Cup 2026 TRANSFERS & RUMOURS MARKET VALUES COMPETITIONS STATISTICS FORUM GAMING Live 3 ... Davi Lima. Defender. 17, 6, 6, -, 516'. -. Kayo · Kayo.",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T04:04:27.385838",
-    "last_seen": "2026-07-05T13:39:31.279663",
-    "detection_count": 10,
-    "score_history": "[{\"score\": 80, \"date\": \"2026-06-01T04:04:27.385838\"}, {\"score\": 78, \"date\": \"2026-06-07T13:53:05.009192\"}, {\"score\": 85, \"date\": \"2026-06-15T04:17:27.478760\"}, {\"score\": 70, \"date\": \"2026-06-16T20:51:39.187789\"}, {\"score\": 80, \"date\": \"2026-06-20T19:27:17.789036\"}, {\"score\": 78, \"date\": \"2026-07-01T03:53:23.436032\"}, {\"score\": 70, \"date\": \"2026-07-01T09:47:58.276794\"}, {\"score\": 82, \"date\": \"2026-07-04T19:14:06.591027\"}, {\"score\": 78, \"date\": \"2026-07-05T03:23:40.042999\"}, {\"score\": 82, \"date\": \"2026-07-05T13:39:31.279663\"}]",
-    "source_count": 1,
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-06-01T04:04:27.385838",
-    "mainstream_source": null,
-    "sources": [
-      "https://ge.globo.com/futebol/copa-sp-de-futebol-junior/"
     ]
   },
   {
@@ -1242,33 +1242,6 @@
     ]
   },
   {
-    "id": 46,
-    "player_name": "Luis Benedetti",
-    "detection_date": "2026-06-01 05:31:43",
-    "source_url": "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/",
-    "score": 75.4,
-    "raw_content": "Difensore centrale mancino con notevoli capacità nel gioco aereo (1.98m) e buona impostazione. Ha segnato 10 gol nell'Under 20 nel 2024, un dato eccezionale per un difensore, e ha debuttato nel professionismo. Sebbene il Palmeiras sia un club brasiliano di alto livello e sia stato menzionato in una lista nazionale di 'gioielli da tenere d'occhio', non è ancora un nome riconosciuto a livello globale, offrendo una reale asimmetria per un giocatore con dati concreti di performance.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 19,
-    "position": "CB",
-    "club": "Palmeiras",
-    "league": "Brasileirão Série A",
-    "stats_summary": "Player stats of Luis Benedetti (SE Palmeiras São Paulo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Become a Stathead & surf this site ad-free. 2026. Série A. MP. 1. Min. 8. Gls. 0. Ast. 0. * see our coverage note. Luis Benedetti Overview; More Luis Benedetti ... | Luis Benedetti career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Palmeiras ...",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T05:31:43.066722",
-    "last_seen": "2026-07-07T19:55:41.345028",
-    "detection_count": 44,
-    "score_history": "[{\"score\": 82, \"date\": \"2026-06-18T15:25:16.207507\"}, {\"score\": 80, \"date\": \"2026-06-18T20:26:41.564192\"}, {\"score\": 80, \"date\": \"2026-06-19T10:27:04.757873\"}, {\"score\": 78, \"date\": \"2026-06-21T04:13:12.936210\"}, {\"score\": 78, \"date\": \"2026-06-21T14:11:33.398119\"}, {\"score\": 90, \"date\": \"2026-06-29T15:47:09.658024\"}, {\"score\": 75, \"date\": \"2026-06-29T19:59:12.495841\"}, {\"score\": 78, \"date\": \"2026-06-30T03:38:52.660669\"}, {\"score\": 82, \"date\": \"2026-06-30T09:36:18.932898\"}, {\"score\": 70, \"date\": \"2026-06-30T19:59:07.871375\"}, {\"score\": 78, \"date\": \"2026-07-03T09:18:32.618828\"}, {\"score\": 80, \"date\": \"2026-07-04T02:54:02.204844\"}, {\"score\": 85, \"date\": \"2026-07-04T08:37:47.732041\"}, {\"score\": 78, \"date\": \"2026-07-04T19:14:03.737134\"}, {\"score\": 80, \"date\": \"2026-07-05T08:52:53.190804\"}, {\"score\": 78, \"date\": \"2026-07-05T13:39:28.458234\"}, {\"score\": 82, \"date\": \"2026-07-06T03:31:37.488075\"}, {\"score\": 78, \"date\": \"2026-07-06T10:21:42.074835\"}, {\"score\": 85, \"date\": \"2026-07-07T14:33:47.803916\"}, {\"score\": 72, \"date\": \"2026-07-07T19:55:41.345028\"}]",
-    "source_count": 1,
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-06-01T05:31:43.066722",
-    "mainstream_source": null,
-    "sources": [
-      "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
-    ]
-  },
-  {
     "id": 78,
     "player_name": "Nelson Andrade",
     "detection_date": "2026-07-01 19:56:29",
@@ -1404,6 +1377,33 @@
     ]
   },
   {
+    "id": 44,
+    "player_name": "Davi Lima",
+    "detection_date": "2026-06-01 04:04:27",
+    "source_url": "https://ge.globo.com/futebol/copa-sp-de-futebol-junior/",
+    "score": 73.3,
+    "raw_content": "Zagueiro de 17 anos, destaque na última Copinha. Firmou contrato com um clube português (não especificado), sendo a primeira transferência da história de um clube fundado há pouco mais de um ano. O destaque na Copinha e a transferência para a Europa (mesmo que para um clube obscuro) aumentam sua visibilidade, mas a pouca informação sobre o clube de destino mantém um bom nível de assimetria.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 17,
+    "position": "CB",
+    "club": "Unnamed Portuguese Club (ex-Brazilian club founded recently)",
+    "league": "Portuguese League (unspecified)",
+    "stats_summary": "Davi Leopoldo Tavares Grisoto Lima stats, ratings and goals. davi-lima. Davi ... goals, assists, cards and other relevant data are also displayed. About ... | Davi Lima · Date of birth/Age: 17/04/2009 (17) · Citizenship: Brazil. | DISCOVER World Cup 2026 TRANSFERS & RUMOURS MARKET VALUES COMPETITIONS STATISTICS FORUM GAMING Live 3 ... Davi Lima. Defender. 17, 6, 6, -, 516'. -. Kayo · Kayo.",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T04:04:27.385838",
+    "last_seen": "2026-07-08T14:06:57.674344",
+    "detection_count": 11,
+    "score_history": "[{\"score\": 80, \"date\": \"2026-06-01T04:04:27.385838\"}, {\"score\": 78, \"date\": \"2026-06-07T13:53:05.009192\"}, {\"score\": 85, \"date\": \"2026-06-15T04:17:27.478760\"}, {\"score\": 70, \"date\": \"2026-06-16T20:51:39.187789\"}, {\"score\": 80, \"date\": \"2026-06-20T19:27:17.789036\"}, {\"score\": 78, \"date\": \"2026-07-01T03:53:23.436032\"}, {\"score\": 70, \"date\": \"2026-07-01T09:47:58.276794\"}, {\"score\": 82, \"date\": \"2026-07-04T19:14:06.591027\"}, {\"score\": 78, \"date\": \"2026-07-05T03:23:40.042999\"}, {\"score\": 82, \"date\": \"2026-07-05T13:39:31.279663\"}, {\"score\": 70, \"date\": \"2026-07-08T14:06:57.674344\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-01T04:04:27.385838",
+    "mainstream_source": null,
+    "sources": [
+      "https://ge.globo.com/futebol/copa-sp-de-futebol-junior/"
+    ]
+  },
+  {
     "id": 84,
     "player_name": "Tiago Camargo",
     "detection_date": "2026-07-05 03:23:40",
@@ -1506,6 +1506,33 @@
     "source_count": 1,
     "lead_time_days": null,
     "ob1_detection_date": "2026-06-06T13:43:55.807655",
+    "mainstream_source": null,
+    "sources": [
+      "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
+    ]
+  },
+  {
+    "id": 46,
+    "player_name": "Luis Benedetti",
+    "detection_date": "2026-06-01 05:31:43",
+    "source_url": "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/",
+    "score": 71.6,
+    "raw_content": "Zagueiro canhoto de 1,98m com boa saída de bola e destaque no jogo aéreo. Marcou 10 gols no sub-20 em 2024, um número impressionante para um defensor. Campeão sub-17 do Brasileirão e Copa do Brasil. Embora jogue em um clube de ponta brasileiro (Palmeiras), sua visibilidade internacional ainda é limitada, e o artigo o destaca como a próxima 'joia' após uma venda milionária, indicando alto potencial. Não há menção de transferência ou página Wikipedia internacional.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 19,
+    "position": "CB",
+    "club": "Palmeiras",
+    "league": "Brasileirão Série A",
+    "stats_summary": "Player stats of Luis Benedetti (SE Palmeiras São Paulo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Become a Stathead & surf this site ad-free. 2026. Série A. MP. 1. Min. 8. Gls. 0. Ast. 0. * see our coverage note. Luis Benedetti Overview; More Luis Benedetti ... | Luis Benedetti career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Palmeiras ...",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T05:31:43.066722",
+    "last_seen": "2026-07-08T14:06:50.006750",
+    "detection_count": 45,
+    "score_history": "[{\"score\": 80, \"date\": \"2026-06-18T20:26:41.564192\"}, {\"score\": 80, \"date\": \"2026-06-19T10:27:04.757873\"}, {\"score\": 78, \"date\": \"2026-06-21T04:13:12.936210\"}, {\"score\": 78, \"date\": \"2026-06-21T14:11:33.398119\"}, {\"score\": 90, \"date\": \"2026-06-29T15:47:09.658024\"}, {\"score\": 75, \"date\": \"2026-06-29T19:59:12.495841\"}, {\"score\": 78, \"date\": \"2026-06-30T03:38:52.660669\"}, {\"score\": 82, \"date\": \"2026-06-30T09:36:18.932898\"}, {\"score\": 70, \"date\": \"2026-06-30T19:59:07.871375\"}, {\"score\": 78, \"date\": \"2026-07-03T09:18:32.618828\"}, {\"score\": 80, \"date\": \"2026-07-04T02:54:02.204844\"}, {\"score\": 85, \"date\": \"2026-07-04T08:37:47.732041\"}, {\"score\": 78, \"date\": \"2026-07-04T19:14:03.737134\"}, {\"score\": 80, \"date\": \"2026-07-05T08:52:53.190804\"}, {\"score\": 78, \"date\": \"2026-07-05T13:39:28.458234\"}, {\"score\": 82, \"date\": \"2026-07-06T03:31:37.488075\"}, {\"score\": 78, \"date\": \"2026-07-06T10:21:42.074835\"}, {\"score\": 85, \"date\": \"2026-07-07T14:33:47.803916\"}, {\"score\": 72, \"date\": \"2026-07-07T19:55:41.345028\"}, {\"score\": 70, \"date\": \"2026-07-08T14:06:50.006750\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-01T05:31:43.066722",
     "mainstream_source": null,
     "sources": [
       "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
