@@ -243,33 +243,6 @@
     ]
   },
   {
-    "id": 18,
-    "player_name": "Bruno Baldini",
-    "detection_date": "2026-03-01 16:37:33",
-    "source_url": "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html",
-    "score": 85.8,
-    "raw_content": "Artilheiro da Série B do Campeonato Brasileiro de 2026 com 11 gols. Atua em um clube de uma liga secundária (Londrina na Série B), o que indica um bom desempenho em um contexto de menor visibilidade. A ausência de uma página na Wikipedia (redlink) e a falta de menção em fontes internacionais sugerem uma alta assimetria informativa. A idade não é especificada, mas o contexto de 'promessas' e 'melhor marcador' em uma liga de acesso sugere um jogador jovem.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 19,
-    "position": "ST",
-    "club": "Londrina Esporte Clube",
-    "league": "Brasileirão Série B",
-    "stats_summary": "Player stats of Bruno Baldini (Avaí FC (SC)) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | ... Bruno Baldini, Gabriel Simples, Jamerson dos Santos Nascimento, Gabriel ... There are also statistics for each player in all competitions with all total played ...",
-    "is_ghost": 0,
-    "first_detected": null,
-    "last_seen": "2026-07-08T14:06:52.662792",
-    "detection_count": 77,
-    "score_history": "[{\"score\": 72, \"date\": \"2026-03-16T07:18:36.393044\"}, {\"score\": 75, \"date\": \"2026-03-16T07:18:39.708432\"}, {\"score\": 78, \"date\": \"2026-03-16T13:13:50.944776\"}, {\"score\": 80, \"date\": \"2026-03-16T13:14:07.307038\"}, {\"score\": 80, \"date\": \"2026-03-17T02:07:21.652637\"}, {\"score\": 72, \"date\": \"2026-03-17T07:05:23.321824\"}, {\"score\": 80, \"date\": \"2026-03-17T19:03:21.579232\"}, {\"score\": 75, \"date\": \"2026-03-18T02:11:25.280255\"}, {\"score\": 75, \"date\": \"2026-03-18T13:13:39.629940\"}, {\"score\": 70, \"date\": \"2026-03-19T02:12:20.544260\"}, {\"score\": 75, \"date\": \"2026-03-19T13:06:05.442879\"}, {\"score\": 70, \"date\": \"2026-03-20T02:06:53.601432\"}, {\"score\": 88, \"date\": \"2026-07-05T03:23:38.946077\"}, {\"score\": 92, \"date\": \"2026-07-06T10:21:42.464703\"}, {\"score\": 85, \"date\": \"2026-07-06T15:33:15.650669\"}, {\"score\": 85, \"date\": \"2026-07-06T19:57:56.315384\"}, {\"score\": 80, \"date\": \"2026-07-07T03:22:18.167586\"}, {\"score\": 90, \"date\": \"2026-07-07T14:33:46.886346\"}, {\"score\": 88, \"date\": \"2026-07-08T02:39:57.535689\"}, {\"score\": 85, \"date\": \"2026-07-08T14:06:52.662792\"}]",
-    "source_count": 1,
-    "lead_time_days": 17,
-    "ob1_detection_date": "2026-03-01T17:37:33.264556",
-    "mainstream_source": "https://www.goal.com/br/jogador/b-baldini/H66kOeBYcv2g_SyuKQB4W",
-    "sources": [
-      "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html"
-    ]
-  },
-  {
     "id": 51,
     "player_name": "Jordan Garcia",
     "detection_date": "2026-06-01 21:34:25",
@@ -294,6 +267,33 @@
     "mainstream_source": "https://www.espn.com/soccer/player/_/id/378912/jordan-garcia",
     "sources": [
       "https://billionhands.com/es/ranking/deportes/jovenes-promesas-del-futbol-sudamericano-69cf5a558e5be409898599a6"
+    ]
+  },
+  {
+    "id": 18,
+    "player_name": "Bruno Baldini",
+    "detection_date": "2026-03-01 16:37:33",
+    "source_url": "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html",
+    "score": 85.2,
+    "raw_content": "Capocannoniere del Campeonato Brasileiro Série B 2026 con 11 gol per il Londrina, un club di seconda divisione. Nonostante sia il miglior marcatore di un campionato professionistico, la sua pagina Wikipedia è un 'redlink' (non esistente), indicando una visibilità internazionale estremamente bassa. L'età non è specificata, ma le statistiche concrete in un campionato professionistico, unite alla bassa visibilità, suggeriscono un'altissima asimmetria informativa se fosse Under 20.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 19,
+    "position": "ST",
+    "club": "Londrina Esporte Clube",
+    "league": "Campeonato Brasileiro Série B",
+    "stats_summary": "Player stats of Bruno Baldini (Avaí FC (SC)) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | ... Bruno Baldini, Gabriel Simples, Jamerson dos Santos Nascimento, Gabriel ... There are also statistics for each player in all competitions with all total played ...",
+    "is_ghost": 0,
+    "first_detected": null,
+    "last_seen": "2026-07-09T09:40:40.819571",
+    "detection_count": 78,
+    "score_history": "[{\"score\": 75, \"date\": \"2026-03-16T07:18:39.708432\"}, {\"score\": 78, \"date\": \"2026-03-16T13:13:50.944776\"}, {\"score\": 80, \"date\": \"2026-03-16T13:14:07.307038\"}, {\"score\": 80, \"date\": \"2026-03-17T02:07:21.652637\"}, {\"score\": 72, \"date\": \"2026-03-17T07:05:23.321824\"}, {\"score\": 80, \"date\": \"2026-03-17T19:03:21.579232\"}, {\"score\": 75, \"date\": \"2026-03-18T02:11:25.280255\"}, {\"score\": 75, \"date\": \"2026-03-18T13:13:39.629940\"}, {\"score\": 70, \"date\": \"2026-03-19T02:12:20.544260\"}, {\"score\": 75, \"date\": \"2026-03-19T13:06:05.442879\"}, {\"score\": 70, \"date\": \"2026-03-20T02:06:53.601432\"}, {\"score\": 88, \"date\": \"2026-07-05T03:23:38.946077\"}, {\"score\": 92, \"date\": \"2026-07-06T10:21:42.464703\"}, {\"score\": 85, \"date\": \"2026-07-06T15:33:15.650669\"}, {\"score\": 85, \"date\": \"2026-07-06T19:57:56.315384\"}, {\"score\": 80, \"date\": \"2026-07-07T03:22:18.167586\"}, {\"score\": 90, \"date\": \"2026-07-07T14:33:46.886346\"}, {\"score\": 88, \"date\": \"2026-07-08T02:39:57.535689\"}, {\"score\": 85, \"date\": \"2026-07-08T14:06:52.662792\"}, {\"score\": 85, \"date\": \"2026-07-09T09:40:40.819571\"}]",
+    "source_count": 1,
+    "lead_time_days": 17,
+    "ob1_detection_date": "2026-03-01T17:37:33.264556",
+    "mainstream_source": "https://www.goal.com/br/jogador/b-baldini/H66kOeBYcv2g_SyuKQB4W",
+    "sources": [
+      "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html"
     ]
   },
   {
@@ -348,6 +348,33 @@
     "mainstream_source": null,
     "sources": [
       "https://www.tiktok.com/@sferafc/video/7613476382705847559"
+    ]
+  },
+  {
+    "id": 45,
+    "player_name": "Londoño",
+    "detection_date": "2026-06-01 04:04:28",
+    "source_url": "https://chile.as.com/futbol/es-la-gran-promesa-de-colombia-y-llegara-al-futbol-chileno-17-anos-y-goleador-del-sudamericano-f202601-n/",
+    "score": 85.0,
+    "raw_content": "Descritto come 'la gran promesa de Colombia' a 17 anni. È stato capocannoniere del Sudamericano U17 (5 gol in 6 partite, secondo miglior marcatore) e ha segnato un gol al Mondiale U17. Si sta trasferendo in un club cileno, il che indica che non è ancora approdato in un campionato di alto profilo europeo. Statistiche concrete a livello giovanile internazionale e bassa visibilità a livello di club/lega lo rendono un candidato con altissima asimmetria informativa.",
+    "region": "Colombia",
+    "status": "detected",
+    "age": 17,
+    "position": "ST",
+    "club": "Unnamed Chilean club",
+    "league": "Chilean League (future)",
+    "stats_summary": "2026. Liga FUTVE. Libertadores. MP. 16. 6. Min. 1114. 446. Gls. 4. 2. Ast. 0. * see our coverage note. Flabián Londoño Menu. Flabián Londoño Overview; More ... | 2026. Serie A. MP. 9. Min. 463. Gls. 1. Ast. 1. * see our coverage note. Azarias Londoño Overview; More Azarias Londoño Pages. Stats by Competition. All ... | Player stats of Flabián Londoño (Deportivo La Guaira) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data.",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T04:04:28.693036",
+    "last_seen": "2026-07-09T09:40:41.741308",
+    "detection_count": 21,
+    "score_history": "[{\"score\": 80, \"date\": \"2026-06-01T05:31:45.337362\"}, {\"score\": 80, \"date\": \"2026-06-02T03:59:06.620851\"}, {\"score\": 85, \"date\": \"2026-06-02T10:24:41.882524\"}, {\"score\": 85, \"date\": \"2026-06-02T20:50:47.320947\"}, {\"score\": 88, \"date\": \"2026-06-03T20:56:56.977561\"}, {\"score\": 80, \"date\": \"2026-06-04T04:00:54.002216\"}, {\"score\": 85, \"date\": \"2026-06-04T09:56:42.567210\"}, {\"score\": 82, \"date\": \"2026-06-06T08:34:15.680893\"}, {\"score\": 90, \"date\": \"2026-06-07T13:53:06.430174\"}, {\"score\": 85, \"date\": \"2026-06-07T19:23:11.589485\"}, {\"score\": 85, \"date\": \"2026-06-08T04:01:15.969530\"}, {\"score\": 85, \"date\": \"2026-06-08T10:55:11.211402\"}, {\"score\": 85, \"date\": \"2026-06-08T15:53:28.917588\"}, {\"score\": 82, \"date\": \"2026-06-11T03:58:57.636572\"}, {\"score\": 85, \"date\": \"2026-06-11T16:02:12.294991\"}, {\"score\": 86, \"date\": \"2026-06-20T08:57:35.936955\"}, {\"score\": 85, \"date\": \"2026-06-29T04:55:57.165533\"}, {\"score\": 80, \"date\": \"2026-07-02T03:34:47.887799\"}, {\"score\": 80, \"date\": \"2026-07-07T09:41:17.240319\"}, {\"score\": 87, \"date\": \"2026-07-09T09:40:41.741308\"}]",
+    "source_count": 1,
+    "lead_time_days": 0,
+    "ob1_detection_date": "2026-06-01T04:04:28.693036",
+    "mainstream_source": "https://espndeportes.espn.com/video/clip/_/id/16768225",
+    "sources": [
+      "https://chile.as.com/futbol/es-la-gran-promesa-de-colombia-y-llegara-al-futbol-chileno-17-anos-y-goleador-del-sudamericano-f202601-n/"
     ]
   },
   {
@@ -699,33 +726,6 @@
     "mainstream_source": "https://www.marca.com/futbol/betis/2026/03/15/morante-recoge-testigo-joaquin-lidera-generacion-campeona.html",
     "sources": [
       "ingest_1773731069.md"
-    ]
-  },
-  {
-    "id": 45,
-    "player_name": "Londoño",
-    "detection_date": "2026-06-01 04:04:28",
-    "source_url": "https://chile.as.com/futbol/es-la-gran-promesa-de-colombia-y-llegara-al-futbol-chileno-17-anos-y-goleador-del-sudamericano-f202601-n/",
-    "score": 80.5,
-    "raw_content": "A 17-year-old 'gran promesa' from Colombia, top scorer in the Sudamericano U17 (5 goals in 6 games) and scored in the U17 World Cup (1 goal in 4 games). He is set to join an unnamed Chilean club, which offers real informational asymmetry compared to a move to a top European league. Excellent concrete statistics for his age.",
-    "region": "Colombia",
-    "status": "detected",
-    "age": 17,
-    "position": "ST",
-    "club": "Unnamed Chilean club",
-    "league": "Chilean League",
-    "stats_summary": "2026. Liga FUTVE. Libertadores. MP. 16. 6. Min. 1114. 446. Gls. 4. 2. Ast. 0. * see our coverage note. Flabián Londoño Menu. Flabián Londoño Overview; More ... | 2026. Serie A. MP. 9. Min. 463. Gls. 1. Ast. 1. * see our coverage note. Azarias Londoño Overview; More Azarias Londoño Pages. Stats by Competition. All ... | Player stats of Flabián Londoño (Deportivo La Guaira) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data.",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T04:04:28.693036",
-    "last_seen": "2026-07-07T09:41:17.240319",
-    "detection_count": 20,
-    "score_history": "[{\"score\": 85, \"date\": \"2026-06-01T04:04:28.693036\"}, {\"score\": 80, \"date\": \"2026-06-01T05:31:45.337362\"}, {\"score\": 80, \"date\": \"2026-06-02T03:59:06.620851\"}, {\"score\": 85, \"date\": \"2026-06-02T10:24:41.882524\"}, {\"score\": 85, \"date\": \"2026-06-02T20:50:47.320947\"}, {\"score\": 88, \"date\": \"2026-06-03T20:56:56.977561\"}, {\"score\": 80, \"date\": \"2026-06-04T04:00:54.002216\"}, {\"score\": 85, \"date\": \"2026-06-04T09:56:42.567210\"}, {\"score\": 82, \"date\": \"2026-06-06T08:34:15.680893\"}, {\"score\": 90, \"date\": \"2026-06-07T13:53:06.430174\"}, {\"score\": 85, \"date\": \"2026-06-07T19:23:11.589485\"}, {\"score\": 85, \"date\": \"2026-06-08T04:01:15.969530\"}, {\"score\": 85, \"date\": \"2026-06-08T10:55:11.211402\"}, {\"score\": 85, \"date\": \"2026-06-08T15:53:28.917588\"}, {\"score\": 82, \"date\": \"2026-06-11T03:58:57.636572\"}, {\"score\": 85, \"date\": \"2026-06-11T16:02:12.294991\"}, {\"score\": 86, \"date\": \"2026-06-20T08:57:35.936955\"}, {\"score\": 85, \"date\": \"2026-06-29T04:55:57.165533\"}, {\"score\": 80, \"date\": \"2026-07-02T03:34:47.887799\"}, {\"score\": 80, \"date\": \"2026-07-07T09:41:17.240319\"}]",
-    "source_count": 1,
-    "lead_time_days": 0,
-    "ob1_detection_date": "2026-06-01T04:04:28.693036",
-    "mainstream_source": "https://espndeportes.espn.com/video/clip/_/id/16768225",
-    "sources": [
-      "https://chile.as.com/futbol/es-la-gran-promesa-de-colombia-y-llegara-al-futbol-chileno-17-anos-y-goleador-del-sudamericano-f202601-n/"
     ]
   },
   {
