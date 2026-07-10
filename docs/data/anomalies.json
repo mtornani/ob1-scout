@@ -999,6 +999,33 @@
     ]
   },
   {
+    "id": 86,
+    "player_name": "Cauazinn_.08",
+    "detection_date": "2026-07-10 14:26:49",
+    "source_url": "https://www.tiktok.com/@sferafc/video/7613476382705847559",
+    "score": 78.0,
+    "raw_content": "Attaccante Under 20 di un club minore (Sfera FC) che milita in un campionato giovanile statale (Paulista Sub-20). La sua menzione è limitata a un video TikTok che mostra un singolo gol. Questo contesto suggerisce un'altissima asimmetria informativa, in quanto è quasi certamente sconosciuto al di fuori del circuito locale. Le statistiche sono limitate a un solo gol menzionato, ma il contesto è ideale per un talento nascosto.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": null,
+    "position": "ST",
+    "club": "Sfera Futebol Clube",
+    "league": "Paulista Sub-20",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-07-10T14:26:49.300291",
+    "last_seen": "2026-07-10T14:26:49.300291",
+    "detection_count": 1,
+    "score_history": "[{\"score\": 78, \"date\": \"2026-07-10T14:26:49.300291\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-07-10T14:26:49.300291",
+    "mainstream_source": null,
+    "sources": [
+      "https://www.tiktok.com/@sferafc/video/7613476382705847559"
+    ]
+  },
+  {
     "id": 73,
     "player_name": "Miguelito",
     "detection_date": "2026-06-18 10:21:53",
@@ -1347,6 +1374,60 @@
     "mainstream_source": null,
     "sources": [
       "https://www.meutimao.com.br/noticias-do-corinthians/528411/atacante-se-isola-na-artilharia-do-sub-20-do-corinthians-em-2026-e-dupla-entra-na-lista-confira"
+    ]
+  },
+  {
+    "id": 88,
+    "player_name": "Nicholas",
+    "detection_date": "2026-07-10 14:26:51",
+    "source_url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/taubate/noticia/2022/12/22/em-preparacao-para-a-copinha-sub-20-do-taubate-perde-para-o-sao-paulo-em-cotia.ghtml",
+    "score": 75.0,
+    "raw_content": "Giocatore Under 20 di un club minore (Taubaté), menzionato in un breve snippet di notizie locali per aver segnato un gol in un'amichevole contro il São Paulo U20. Questo indica un'elevata asimmetria informativa. Le statistiche sono limitate a un singolo gol in una partita di preparazione, ma il contesto di un club minore e di una lega giovanile locale lo rende un potenziale 'ghost'.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": null,
+    "position": null,
+    "club": "Taubaté",
+    "league": "Youth Football",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-07-10T14:26:51.362879",
+    "last_seen": "2026-07-10T14:26:51.362879",
+    "detection_count": 1,
+    "score_history": "[{\"score\": 75, \"date\": \"2026-07-10T14:26:51.362879\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-07-10T14:26:51.362879",
+    "mainstream_source": null,
+    "sources": [
+      "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/taubate/noticia/2022/12/22/em-preparacao-para-a-copinha-sub-20-do-taubate-perde-para-o-sao-paulo-em-cotia.ghtml"
+    ]
+  },
+  {
+    "id": 87,
+    "player_name": "Emanoel",
+    "detection_date": "2026-07-10 14:26:50",
+    "source_url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/taubate/noticia/2022/12/22/em-preparacao-para-a-copinha-sub-20-do-taubate-perde-para-o-sao-paulo-em-cotia.ghtml",
+    "score": 75.0,
+    "raw_content": "Giocatore Under 20 di un club minore (Taubaté), menzionato in un breve snippet di notizie locali per aver segnato un gol in un'amichevole contro il São Paulo U20. Questo indica un'elevata asimmetria informativa. Le statistiche sono limitate a un singolo gol in una partita di preparazione, ma il contesto di un club minore e di una lega giovanile locale lo rende un potenziale 'ghost'.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": null,
+    "position": null,
+    "club": "Taubaté",
+    "league": "Youth Football",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-07-10T14:26:50.066007",
+    "last_seen": "2026-07-10T14:26:50.066007",
+    "detection_count": 1,
+    "score_history": "[{\"score\": 75, \"date\": \"2026-07-10T14:26:50.066007\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-07-10T14:26:50.066007",
+    "mainstream_source": null,
+    "sources": [
+      "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/taubate/noticia/2022/12/22/em-preparacao-para-a-copinha-sub-20-do-taubate-perde-para-o-sao-paulo-em-cotia.ghtml"
     ]
   },
   {
