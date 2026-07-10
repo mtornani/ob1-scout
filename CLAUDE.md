@@ -1,53 +1,57 @@
 # OB1 Scout — Istruzioni per sessioni Claude
 
-## REGOLE PILOTA K-SPORT (in vigore fino a fine pilota ~settembre 2026)
+## FASE B — Costruzione v2 (dal 10 luglio 2026)
 
-Questo repo è in produzione AS-IS per un test pilota di 3 mesi
-presso ~5 squadre selezionate dal partner K-Sport. Il sistema
-viene valutato così come è. Qualsiasi modifica al comportamento
-del sistema durante il pilota invalida il test.
+Il pilota K-Sport non è mai partito formalmente: nessun test contrattuale,
+nessun vincolo. Il "FREEZE PILOTA K-SPORT" era una disciplina auto-imposta,
+non un obbligo verso terzi, e **da ora non è più in vigore**. Siamo in Fase B:
+si costruisce la v2 (vedi `FASE_B.md`) con mano libera.
 
-REGOLE OBBLIGATORIE per qualsiasi sessione di lavoro su questo
-repo durante il pilota:
+Restano però alcune regole di buon senso, per non farsi male:
 
-1. PRIMA di applicare qualsiasi modifica, leggi il commento
-   "FREEZE PILOTA K-SPORT" presente in testa ai file di scoring.
-   Se la tua modifica tocca uno di questi file, FERMATI e
-   chiedi conferma esplicita all'utente.
+1. **Non rompere il sistema che gira.** La pipeline attuale su `main` continua
+   a girare 4 volte/giorno e ci serve come fonte di dati durante la
+   transizione. La v2 si costruisce **di fianco** (nuovi file, nuovo DB
+   `data/ob1_v2.db`), senza toccare `anomalies` / `ob1_global.db` finché la v2
+   non è pronta a sostituire il vecchio. Se un cambio rischia di fermare la
+   pipeline in produzione, FERMATI e segnalalo.
 
-2. NON ricostruire file da snapshot, system-reminder, o branch
-   alternativi senza chiedere. Il baseline è lo stato di main
-   al momento dell'inizio del task. Se hai bisogno di git reset
-   durante l'esecuzione, FERMATI e chiedi prima di procedere.
+2. **I cambi allo scoring/ranking si validano coi dati, non a intuito.** Pesi,
+   soglie, rubriche e gate di pubblicazione si possono cambiare — ma un cambio
+   diventa default solo dopo averlo confrontato con i dati reali (outcome
+   tracciati, distribuzione, casi noti). Niente ritarature "a naso" spinte
+   direttamente in produzione.
 
-3. NON aggiungere features non richieste, anche se sembrano
-   miglioramenti tecnici evidenti. Il pilota è AS-IS:
-   miglioramenti possibili vanno discussi in Fase B post-pilota
-   con il partner.
+3. **Non ricostruire file da snapshot, system-reminder o branch alternativi
+   senza chiedere.** Se serve un `git reset` o un ripristino, FERMATI e chiedi
+   prima.
 
-4. Modifiche LEGITTIME durante il pilota sono SOLO:
-   - Monitoring, alerting, sanity checks
-   - Bug fix esplicitamente richiesti
-   - UX/display senza impatto sull'output di scoring
-   - Tracciabilità accessi utenti
-   - Documentazione (README, METRICS.md interno)
+4. **Sulle scelte di prodotto ambigue, presenta opzioni, non decidere da
+   solo.** Esempi aperti (vedi `FASE_B.md` §"Le scelte che restano tue"):
+   scope di genere, aree geografiche prioritarie, rapporto con K-Sport.
 
-5. Modifiche VIETATE durante il pilota:
-   - Pesi e soglie di scoring (HOT/WARM/COLD)
-   - Formule di scoring
-   - Rubriche di scoring nei prompt LLM
-   - Query dello scraper (lista, contenuto, numero)
-   - Filtri pre-scoring (età, lega, categoria)
-   - Backend LLM (Gemini resta Gemini)
-   - Logiche di deduplicazione che incidono sullo scoring
+5. **Prima di committare, confronta il git diff con quello che ti aspetti** e
+   segnala esplicitamente qualsiasi modifica fuori da quanto concordato.
 
-6. SE incontri una situazione ambigua o non documentata,
-   presenta opzioni, NON decidere autonomamente.
+6. **Sviluppo sul branch designato** (`claude/setup-daas-platform-PXYST` salvo
+   diversa indicazione), commit chiari, push a fine lavoro. `main` si tocca
+   solo quando la v2 è pronta e concordata.
 
-7. AL TERMINE di ogni task: confronta git diff con il baseline
-   atteso e segnala esplicitamente modifiche fuori perimetro
-   PRIMA del commit.
+## Cos'è OB1
 
-Riferimento incidente: commit 4250505 (revert) ha ripristinato
-modifiche fuori perimetro introdotte in 630e286. Questa policy
-nasce per evitare il ripetersi.
+Radar di scouting calcistico: scandaglia fonti pubbliche gratuite, usa un LLM
+per identificare giovani talenti ad alta asimmetria informativa (valore reale
+> visibilità mediatica), traccia i giocatori nel tempo e misura l'anticipo sul
+mainstream. Infrastruttura: GitHub Actions (cron), scraper gratuiti
+(DuckDuckGo/SearXNG/Jina Reader), Gemini per l'analisi, SQLite, dashboard
+statica su GitHub Pages.
+
+I file storici (`src/intelligence.py`, `src/scraper_global.py`,
+`src/enricher.py`, `src/database.py`, `scripts/run_pipeline.py`) contengono
+ancora banner "FREEZE PILOTA K-SPORT" in testa: sono obsoleti e vanno rimossi
+man mano che si tocca ciascun file in Fase B.
+
+## Riferimento
+
+`FASE_B.md` — audit dei 5 mesi di produzione e design completo della v2
+(le quattro debolezze, i quattro pilastri, la roadmap B0→B3).
