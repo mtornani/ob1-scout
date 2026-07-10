@@ -15,6 +15,7 @@ Schema:
   outcomes  — eventi verificabili (mainstream_hype / transfer / call_up / debut)
 """
 
+import json
 import sqlite3
 import unicodedata
 from pathlib import Path
@@ -124,6 +125,9 @@ class OB1DatabaseV2:
                     corroborated INTEGER DEFAULT 0,
                     publishable INTEGER DEFAULT 0,
                     review_flags TEXT,
+                    stats_json TEXT,
+                    score INTEGER,
+                    confidence REAL,
                     legacy_id INTEGER,
                     created_at TEXT
                 )
@@ -152,6 +156,16 @@ class OB1DatabaseV2:
                     suspect INTEGER DEFAULT 0,
                     note TEXT,
                     FOREIGN KEY (player_id) REFERENCES players(id)
+                )
+            """)
+            # Delta tracking: item (articolo/URL) già visti per fonte, così a
+            # ogni run si estrae SOLO il nuovo.
+            c.execute("""
+                CREATE TABLE IF NOT EXISTS seen_items (
+                    source_id TEXT NOT NULL,
+                    item_key TEXT NOT NULL,
+                    first_seen TEXT,
+                    PRIMARY KEY (source_id, item_key)
                 )
             """)
             c.execute("CREATE INDEX IF NOT EXISTS idx_ev_player ON evidences(player_id)")
@@ -216,6 +230,127 @@ class OB1DatabaseV2:
                   1 if suspect else 0, note))
             conn.commit()
             return cur.lastrowid
+
+
+    # ---- Delta tracking (Fase B2) ----
+    def filter_new_items(self, source_id: str, keys: list) -> list:
+        """Ritorna solo le item_key non ancora viste per questa fonte."""
+        if not keys:
+            return []
+        with self._conn() as conn:
+            seen = {r[0] for r in conn.execute(
+                "SELECT item_key FROM seen_items WHERE source_id=?", (source_id,))}
+        return [k for k in keys if k not in seen]
+
+    def mark_seen(self, source_id: str, keys: list, when: str = None):
+        with self._conn() as conn:
+            conn.executemany(
+                "INSERT OR IGNORE INTO seen_items (source_id, item_key, first_seen) VALUES (?, ?, ?)",
+                [(source_id, k, when) for k in keys])
+            conn.commit()
+
+    # ---- Risoluzione entità (Fase B2) ----
+    def _names_match(self, a: str, b: str) -> bool:
+        """Match prudente (evita di fondere omonimi diversi)."""
+        a, b = normalize_name(a), normalize_name(b)
+        if not a or not b:
+            return False
+        if a == b or a in b or b in a:
+            return True
+        pa = {t for t in a.split() if len(t) > 2}
+        pb = {t for t in b.split() if len(t) > 2}
+        return bool(pa and pb and len(pa & pb) >= 2)
+
+    def find_player(self, name: str):
+        with self._conn() as conn:
+            rows = conn.execute("SELECT id, canonical_name FROM players").fetchall()
+        for pid, cname in rows:
+            if self._names_match(name, cname):
+                return pid
+        return None
+
+    def _recompute(self, conn, pid: int):
+        """Ricalcola fonti-distinte, gate e punteggio v2 per un giocatore."""
+        from src.scoring_v2 import score_player  # lazy: evita cicli d'import
+        p = conn.execute("""SELECT canonical_name, age, club, league, is_ghost, stats_json
+                            FROM players WHERE id=?""", (pid,)).fetchone()
+        name, age, club, league, is_ghost, stats_json = p
+        n_sources = conn.execute(
+            "SELECT COUNT(DISTINCT source_domain) FROM evidences WHERE player_id=? AND source_domain!=''",
+            (pid,)).fetchone()[0] or 1
+        ev_count = conn.execute(
+            "SELECT COUNT(*) FROM evidences WHERE player_id=?", (pid,)).fetchone()[0]
+        stats = json.loads(stats_json) if stats_json else {}
+
+        idn = assess_identity(name, club, age, n_sources)
+        sc = score_player(age=age, is_ghost=bool(is_ghost), club=club, league=league,
+                          stats=stats, n_sources=n_sources, detection_count=ev_count)
+        conn.execute("""UPDATE players SET evidence_count=?, identity_complete=?,
+                        corroborated=?, publishable=?, review_flags=?, score=?, confidence=?
+                        WHERE id=?""",
+                     (ev_count, 1 if idn["identity_complete"] else 0,
+                      1 if idn["corroborated"] else 0, 1 if idn["publishable"] else 0,
+                      idn["review_flags"], sc["score"], sc["confidence"], pid))
+
+    def ingest_observation(self, obs: dict) -> tuple:
+        """
+        Assorbe un'osservazione (dall'estrattore) nello store entità-centrico:
+        risolve l'entità (fuzzy per nome), aggiunge la prova, riempie i campi
+        mancanti, fonde le statistiche, e ricalcola gate + punteggio.
+        Ritorna (player_id, 'new'|'updated'|'skipped').
+        """
+        name = (obs.get("name") or "").strip()
+        if not name:
+            return None, "skipped"
+        src_url = obs.get("source_url") or ""
+        dom = domain_of(src_url)
+        new_stats = obs.get("stats") or {}
+
+        pid = self.find_player(name)
+        with self._conn() as conn:
+            status = "updated"
+            if pid is None:
+                cur = conn.execute("""
+                    INSERT INTO players
+                    (canonical_name, normalized_name, name_token_count, gender, age,
+                     position, club, league, region, is_ghost, detection_count,
+                     evidence_count, stats_json, created_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 0, 1, 0, ?, ?)
+                """, (name, normalize_name(name), len([t for t in name.split() if t]),
+                      obs.get("gender") or "unknown", obs.get("age"),
+                      obs.get("position"), obs.get("club"), obs.get("league"),
+                      obs.get("region"), json.dumps(new_stats) if new_stats else None,
+                      obs.get("observed_at")))
+                pid = cur.lastrowid
+                status = "new"
+            else:
+                # riempi solo i campi mancanti + fondi le statistiche (max per chiave)
+                cur_stats = conn.execute("SELECT stats_json FROM players WHERE id=?", (pid,)).fetchone()[0]
+                merged = json.loads(cur_stats) if cur_stats else {}
+                for k, v in new_stats.items():
+                    if isinstance(v, (int, float)):
+                        merged[k] = max(merged.get(k, 0), v)
+                conn.execute("""
+                    UPDATE players SET
+                        age = COALESCE(age, ?), position = COALESCE(position, ?),
+                        club = COALESCE(club, ?), league = COALESCE(league, ?),
+                        region = COALESCE(region, ?),
+                        gender = CASE WHEN gender='unknown' THEN ? ELSE gender END,
+                        stats_json = ?
+                    WHERE id=?
+                """, (obs.get("age"), obs.get("position"), obs.get("club"),
+                      obs.get("league"), obs.get("region"),
+                      obs.get("gender") or "unknown",
+                      json.dumps(merged) if merged else None, pid))
+
+            conn.execute("""INSERT INTO evidences
+                (player_id, source_url, source_domain, observed_at, raw_content, origin)
+                VALUES (?, ?, ?, ?, ?, 'extractor')""",
+                (pid, src_url, dom, obs.get("observed_at"),
+                 obs.get("evidence_quote"), ))
+            self._recompute(conn, pid)
+            conn.commit()
+        return pid, status
 
 
 if __name__ == "__main__":
