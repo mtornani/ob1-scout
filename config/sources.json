@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "purpose": "Registro fonti curate (Fase B2). Discovery SOURCE-FIRST: si monitorano fonti note per regione, non si cerca a caso su Google. La ricerca generica serve solo a SCOPRIRE fonti nuove da aggiungere qui.",
+    "tier": "primary = federazione/campionato/stampa locale con cronaca vera; secondary = aggregatori (utili a corroborare identità e fare il 2° fonte del gate).",
+    "validated": "false = da verificare che produca davvero contenuto estraibile sui giovani. Il monitor lo aggiorna.",
+    "note_bias": "Seminato apposta oltre il Brasile: la Fase A copriva 58% Brasile, 0% Africa/Asia. Qui si allarga a Sud America ispanofono, Africa Ovest e Balcani."
+  },
+  "sources": [
+    {"id": "ar_promiedos", "name": "Promiedos", "region": "Argentina", "country": "AR", "type": "results_stats", "tier": "primary", "lang": "es", "url": "https://www.promiedos.com.ar/", "active": true, "validated": false},
+    {"id": "ar_afa_juveniles", "name": "AFA — Selecciones Juveniles", "region": "Argentina", "country": "AR", "type": "federation", "tier": "primary", "lang": "es", "url": "https://www.afa.com.ar/es/pages/selecciones-juveniles", "active": true, "validated": false},
+    {"id": "co_fcf", "name": "Federación Colombiana de Fútbol", "region": "Colombia", "country": "CO", "type": "federation", "tier": "primary", "lang": "es", "url": "https://fcf.com.co/", "active": true, "validated": false},
+    {"id": "uy_auf", "name": "AUF — Selecciones Juveniles", "region": "Uruguay", "country": "UY", "type": "federation", "tier": "primary", "lang": "es", "url": "https://www.auf.org.uy/", "active": true, "validated": false},
+    {"id": "cl_anfp", "name": "ANFP Chile", "region": "Chile", "country": "CL", "type": "federation", "tier": "primary", "lang": "es", "url": "https://www.anfp.cl/", "active": true, "validated": false},
+    {"id": "br_ogol", "name": "oGol Brasil", "region": "Brazil", "country": "BR", "type": "results_stats", "tier": "primary", "lang": "pt", "url": "https://www.ogol.com.br/", "active": true, "validated": false},
+    {"id": "ng_nff", "name": "Nigeria Football Federation", "region": "Nigeria", "country": "NG", "type": "federation", "tier": "primary", "lang": "en", "url": "https://thenff.com/", "active": true, "validated": false},
+    {"id": "ng_completesports", "name": "Complete Sports Nigeria", "region": "Nigeria", "country": "NG", "type": "local_press", "tier": "primary", "lang": "en", "url": "https://www.completesports.com/", "active": true, "validated": false},
+    {"id": "gh_gfa", "name": "Ghana Football Association", "region": "Ghana", "country": "GH", "type": "federation", "tier": "primary", "lang": "en", "url": "https://www.ghanafa.org/", "active": true, "validated": false},
+    {"id": "sn_fsf", "name": "Fédération Sénégalaise de Football", "region": "Senegal", "country": "SN", "type": "federation", "tier": "primary", "lang": "fr", "url": "https://fsfoot.sn/", "active": true, "validated": false},
+    {"id": "ci_fif", "name": "Fédération Ivoirienne de Football", "region": "Ivory Coast", "country": "CI", "type": "federation", "tier": "primary", "lang": "fr", "url": "https://www.fif.ci/", "active": true, "validated": false},
+    {"id": "rs_fss", "name": "Fudbalski savez Srbije", "region": "Serbia", "country": "RS", "type": "federation", "tier": "primary", "lang": "sr", "url": "https://fss.rs/", "active": true, "validated": false},
+    {"id": "hr_hns", "name": "Hrvatski nogometni savez", "region": "Croatia", "country": "HR", "type": "federation", "tier": "primary", "lang": "hr", "url": "https://hns-cff.hr/", "active": true, "validated": false},
+
+    {"id": "agg_transfermarkt", "name": "Transfermarkt", "region": "Global", "country": "XX", "type": "aggregator", "tier": "secondary", "lang": "en", "url": "https://www.transfermarkt.com/", "active": true, "validated": true},
+    {"id": "agg_soccerway", "name": "Soccerway", "region": "Global", "country": "XX", "type": "aggregator", "tier": "secondary", "lang": "en", "url": "https://int.soccerway.com/", "active": true, "validated": true},
+    {"id": "agg_besoccer", "name": "BeSoccer", "region": "Global", "country": "XX", "type": "aggregator", "tier": "secondary", "lang": "en", "url": "https://www.besoccer.com/", "active": true, "validated": true},
+    {"id": "agg_sofascore", "name": "Sofascore", "region": "Global", "country": "XX", "type": "aggregator", "tier": "secondary", "lang": "en", "url": "https://www.sofascore.com/", "active": true, "validated": true},
+    {"id": "agg_fbref", "name": "FBref", "region": "Global", "country": "XX", "type": "aggregator", "tier": "secondary", "lang": "en", "url": "https://fbref.com/", "active": true, "validated": true}
+  ]
+}
