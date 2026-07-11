@@ -1,0 +1,85 @@
+name: OB1 v2 — Ingest test (isolato)
+
+# Test manuale della pipeline v2 source-first. NON tocca la produzione:
+# scrive su ob1_v2.db (separato), non committa nulla, non manda Telegram.
+# Solo trigger manuale: non brucia quota Gemini da solo.
+on:
+  workflow_dispatch:
+    inputs:
+      limit_sources:
+        description: "Numero di fonti da provare (vuoto = tutte)"
+        required: false
+        default: "6"
+      max_articles:
+        description: "Max articoli nuovi per fonte"
+        required: false
+        default: "4"
+      llm_budget:
+        description: "Max chiamate LLM per run (free tier Gemini = 20/giorno)"
+        required: false
+        default: "15"
+
+jobs:
+  ingest-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run v2 ingest (source-first)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          # Fallback opzionale (capacità gratis extra quando Gemini free è finito):
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          INGEST_LLM_BUDGET: ${{ github.event.inputs.llm_budget }}
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          python scripts/ingest_v2.py \
+            --limit-sources "${{ github.event.inputs.limit_sources }}" \
+            --max-articles "${{ github.event.inputs.max_articles }}"
+
+      - name: Report — giocatori estratti (top per punteggio)
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          python - <<'PY'
+          import sqlite3, os
+          db = "data/ob1_v2.db"
+          if not os.path.exists(db):
+              print("Nessun DB v2 generato (nessun articolo nuovo o LLM non configurato).")
+              raise SystemExit(0)
+          c = sqlite3.connect(db)
+          tot = c.execute("SELECT COUNT(*) FROM players").fetchone()[0]
+          pub = c.execute("SELECT COUNT(*) FROM players WHERE publishable=1").fetchone()[0]
+          print(f"Giocatori totali: {tot} — pubblicabili (>=2 fonti + identita): {pub}\n")
+          print(f"{'GIOCATORE':26} {'SCORE':>5} {'FONTI':>5}  GATE")
+          rows = c.execute("""SELECT canonical_name, COALESCE(score,0),
+                              (SELECT COUNT(DISTINCT source_domain) FROM evidences e WHERE e.player_id=players.id),
+                              publishable
+                              FROM players ORDER BY score DESC NULLS LAST LIMIT 25""").fetchall()
+          for name, sc, nsrc, pubf in rows:
+              gate = "PUBBLICABILE" if pubf else "da corroborare"
+              print(f"{name[:26]:26} {sc:>5} {nsrc:>5}  {gate}")
+          c.close()
+          PY
+
+      - name: Upload v2 DB + risultati
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ob1-v2-ingest
+          path: data/ob1_v2.db
+          if-no-files-found: ignore
+          retention-days: 7
