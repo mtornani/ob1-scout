@@ -48,6 +48,10 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
     stamp = datetime.now().isoformat()
     stats = Counter()
     calls_used = 0
+    # Ritmo tra chiamate LLM: il free tier Groq ha un tetto di token/minuto
+    # (~12k TPM). Una pausa tiene le chiamate sotto il limite invece di prendere
+    # 429. Configurabile; 0 per disattivare.
+    call_delay = float(os.getenv("INGEST_CALL_DELAY", "7"))
 
     for src in sources:
         if calls_used >= llm_budget:
@@ -66,6 +70,8 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
                 break  # budget finito: lascia il resto al prossimo run (delta)
             obs_list = extractor.extract_from_source(text, url)
             calls_used += 1
+            if call_delay and calls_used < llm_budget:
+                await asyncio.sleep(call_delay)
             if obs_list is None:
                 # estrazione fallita (quota/errore): NON marcare visto → si ritenta
                 stats["extract_failed"] += 1

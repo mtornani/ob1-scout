@@ -22,7 +22,10 @@ CONFIG = Path(__file__).parent.parent / "config" / "sources.json"
 _ARTICLE_HINT = re.compile(r"/(\d{4}|noticias?|news|jugador|player|spieler|"
                            r"giocatore|profil|notizie|artic|story|match)", re.I)
 _SKIP_HINT = re.compile(r"(facebook|twitter|instagram|youtube|tiktok|whatsapp|"
-                        r"linkedin|/tag/|/category/|mailto:|\.(jpg|png|gif|pdf|css|js)$)", re.I)
+                        r"linkedin|/tag/|/category/|mailto:|"
+                        r"//api\.|/images?/|/img/|/assets/|/static/|/uploads/|"
+                        r"/portaldeclubes|/socios|/tienda|/mayores|/senior|"
+                        r"\.(jpg|jpeg|png|gif|webp|svg|pdf|css|js|ico)(\?|$))", re.I)
 
 
 def load_registry(path: Path = CONFIG, only_active: bool = True) -> list:
@@ -57,6 +60,11 @@ def discover_item_urls(markdown: str, source_url: str = "", max_items: int = 25)
         if u in seen or _SKIP_HINT.search(u):
             continue
         seen.add(u)
+        # Scarta le homepage / root di sezione (path vuoto o troppo corto):
+        # un articolo/profilo ha uno slug, non "dominio.it/".
+        path = urlparse(u).path.strip("/")
+        if len(path) < 8:
+            continue
         same_dom = base_dom and base_dom in _domain(u)
         if same_dom or _ARTICLE_HINT.search(u):
             out.append(u)
