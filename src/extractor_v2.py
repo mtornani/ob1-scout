@@ -189,8 +189,13 @@ class OB1Extractor:
         return resp.json()["choices"][0]["message"]["content"] or ""
 
     def extract_from_source(self, source_text: str, source_url: str = "",
-                            max_chars: int = 6000) -> list:
-        """Una estrazione (Gemini o fallback) → osservazioni normalizzate."""
+                            max_chars: int = 6000):
+        """
+        Una estrazione (Gemini o fallback) → lista di osservazioni normalizzate.
+        Ritorna [] se l'estrazione è riuscita ma non ha trovato giocatori (fonte
+        legittimamente vuota → si può marcare 'vista'). Ritorna None se TUTTI i
+        provider hanno fallito (quota/errore) → l'orchestratore la ritenta dopo.
+        """
         if not source_text:
             return []
         prompt = EXTRACTION_PROMPT.format(
@@ -219,7 +224,7 @@ class OB1Extractor:
                 logger.error(f"Fallback error {source_url}: {e}")
 
         self.stats["failed"] += 1
-        return []
+        return None  # nessun provider disponibile: NON marcare visto, ritenta
 
     def available(self) -> bool:
         return bool(self.client) or bool(self.fallback)

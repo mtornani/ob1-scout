@@ -66,6 +66,10 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
                 break  # budget finito: lascia il resto al prossimo run (delta)
             obs_list = extractor.extract_from_source(text, url)
             calls_used += 1
+            if obs_list is None:
+                # estrazione fallita (quota/errore): NON marcare visto → si ritenta
+                stats["extract_failed"] += 1
+                continue
             processed.append(url)
             for obs in obs_list:
                 obs["region"] = obs.get("region") or src.get("region")
@@ -73,7 +77,7 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
                 _, status = db.ingest_observation(obs)
                 stats[f"obs_{status}"] += 1
                 stats["observations"] += 1
-        # marca visti SOLO gli articoli davvero processati
+        # marca visti SOLO gli articoli estratti con successo
         if processed:
             db.mark_seen(src["id"], processed, stamp)
             stats["articles"] += len(processed)
