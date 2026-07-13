@@ -131,9 +131,11 @@ def resolve_fallback(explicit: dict = None) -> dict | None:
     if explicit:
         return explicit
     if os.getenv("GROQ_API_KEY"):
+        # 8b-instant: tetto token/minuto molto più alto del 70b sul free tier,
+        # ampiamente sufficiente per l'estrazione strutturata da testo pulito.
         return {"base_url": "https://api.groq.com/openai/v1",
                 "api_key": os.getenv("GROQ_API_KEY"),
-                "model": os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile"),
+                "model": os.getenv("GROQ_MODEL", "llama-3.1-8b-instant"),
                 "label": "groq"}
     if os.getenv("OPENROUTER_API_KEY"):
         return {"base_url": "https://openrouter.ai/api/v1",
