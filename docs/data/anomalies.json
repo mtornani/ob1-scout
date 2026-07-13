@@ -405,33 +405,6 @@
     ]
   },
   {
-    "id": 46,
-    "player_name": "Luis Benedetti",
-    "detection_date": "2026-06-01 05:31:43",
-    "source_url": "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/",
-    "score": 84.8,
-    "raw_content": "Difensore centrale di 19 anni con statistiche eccezionali per la sua posizione: 10 gol nell'U20 nel 2024. Ha già debuttato a livello professionistico nel 2025. Gioca in un club brasiliano di alto livello ma non rientra tra i 'top club' globali soggetti a penalizzazione. Non ha visibilità internazionale significativa, indicando un'alta asimmetria informativa.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 19,
-    "position": "CB",
-    "club": "Palmeiras",
-    "league": "Campeonato Brasileiro Série A",
-    "stats_summary": "Player stats of Luis Benedetti (SE Palmeiras São Paulo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Become a Stathead & surf this site ad-free. 2026. Série A. MP. 1. Min. 8. Gls. 0. Ast. 0. * see our coverage note. Luis Benedetti Overview; More Luis Benedetti ... | Luis Benedetti career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Palmeiras ...",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T05:31:43.066722",
-    "last_seen": "2026-07-13T14:34:17.537301",
-    "detection_count": 54,
-    "score_history": "[{\"score\": 78, \"date\": \"2026-07-03T09:18:32.618828\"}, {\"score\": 80, \"date\": \"2026-07-04T02:54:02.204844\"}, {\"score\": 85, \"date\": \"2026-07-04T08:37:47.732041\"}, {\"score\": 78, \"date\": \"2026-07-04T19:14:03.737134\"}, {\"score\": 80, \"date\": \"2026-07-05T08:52:53.190804\"}, {\"score\": 78, \"date\": \"2026-07-05T13:39:28.458234\"}, {\"score\": 82, \"date\": \"2026-07-06T03:31:37.488075\"}, {\"score\": 78, \"date\": \"2026-07-06T10:21:42.074835\"}, {\"score\": 85, \"date\": \"2026-07-07T14:33:47.803916\"}, {\"score\": 72, \"date\": \"2026-07-07T19:55:41.345028\"}, {\"score\": 70, \"date\": \"2026-07-08T14:06:50.006750\"}, {\"score\": 78, \"date\": \"2026-07-08T19:26:05.953297\"}, {\"score\": 78, \"date\": \"2026-07-09T02:58:56.755706\"}, {\"score\": 82, \"date\": \"2026-07-09T14:59:39.708780\"}, {\"score\": 80, \"date\": \"2026-07-10T19:27:58.593568\"}, {\"score\": 78, \"date\": \"2026-07-11T02:37:06.767044\"}, {\"score\": 80, \"date\": \"2026-07-11T07:55:53.152495\"}, {\"score\": 85, \"date\": \"2026-07-12T13:19:26.984983\"}, {\"score\": 85, \"date\": \"2026-07-13T09:26:58.702413\"}, {\"score\": 85, \"date\": \"2026-07-13T14:34:17.537301\"}]",
-    "source_count": 1,
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-06-01T05:31:43.066722",
-    "mainstream_source": null,
-    "sources": [
-      "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
-    ]
-  },
-  {
     "id": 63,
     "player_name": "Thaylon",
     "detection_date": "2026-06-10 03:42:58",
@@ -456,6 +429,33 @@
     "mainstream_source": null,
     "sources": [
       "https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2otdWFLcUVSR3RBclpYbnlBQXlpZ0FQAQ?hl=pt-BR&gl=BR&ceid=BR:pt-419"
+    ]
+  },
+  {
+    "id": 78,
+    "player_name": "Nelson Andrade",
+    "detection_date": "2026-07-01 19:56:29",
+    "source_url": "https://www.soy502.com/articulo/nelson-andrade-joven-promesa-futbol-guatemala-101999",
+    "score": 83.5,
+    "raw_content": "Descritto come una 'joven promesa' del calcio guatemalteco, con 'velocidad y técnica'. Ha segnato due gol al suo debutto con il Puntarenas. Il contesto di una lega minore (probabilmente Guatemala o Costa Rica) e la bassa visibilità mediatica internazionale (menzionato solo da un sito locale) indicano un'elevata asimmetria informativa. Le statistiche concrete (due gol al debutto) sono un segnale forte di potenziale in un ambiente meno scoutizzato.",
+    "region": "Guatemala",
+    "status": "detected",
+    "age": 19,
+    "position": "ST/RW/LW",
+    "club": "Puntarenas",
+    "league": "Guatemala",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-07-01T19:56:29.735740",
+    "last_seen": "2026-07-13T19:23:43.804509",
+    "detection_count": 5,
+    "score_history": "[{\"score\": 78, \"date\": \"2026-07-01T19:56:29.735740\"}, {\"score\": 75, \"date\": \"2026-07-05T03:23:40.493262\"}, {\"score\": 75, \"date\": \"2026-07-06T19:57:57.588712\"}, {\"score\": 82, \"date\": \"2026-07-13T02:45:39.029686\"}, {\"score\": 85, \"date\": \"2026-07-13T19:23:43.804509\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-07-01T19:56:29.735740",
+    "mainstream_source": null,
+    "sources": [
+      "https://www.soy502.com/articulo/nelson-andrade-joven-promesa-futbol-guatemala-101999"
     ]
   },
   {
@@ -726,33 +726,6 @@
     "mainstream_source": "https://www.marca.com/futbol/betis/2026/03/15/morante-recoge-testigo-joaquin-lidera-generacion-campeona.html",
     "sources": [
       "ingest_1773731069.md"
-    ]
-  },
-  {
-    "id": 78,
-    "player_name": "Nelson Andrade",
-    "detection_date": "2026-07-01 19:56:29",
-    "source_url": "https://www.soy502.com/articulo/nelson-andrade-joven-promesa-futbol-guatemala-101999",
-    "score": 80.0,
-    "raw_content": "Identificato come 'joven promesa del futbol de Guatemala', Andrade ha mostrato un impatto immediato segnando due gol al suo debutto con il Puntarenas. Le sue qualità di 'velocidad y técnica' sono state evidenziate. Giocando in una lega con bassa visibilità internazionale (Guatemala) e con un club minore, presenta un'elevata asimmetria informativa. Sebbene l'età esatta non sia specificata, la dicitura 'joven promesa' e il contesto del debutto suggeriscono fortemente che sia Under 20. Le statistiche concrete (2 gol al debutto) in un contesto di bassa visibilità giustificano un punteggio elevato.",
-    "region": "Guatemala",
-    "status": "detected",
-    "age": 19,
-    "position": "ST/RW/LW",
-    "club": "Puntarenas",
-    "league": "Guatemala",
-    "stats_summary": null,
-    "is_ghost": 0,
-    "first_detected": "2026-07-01T19:56:29.735740",
-    "last_seen": "2026-07-13T02:45:39.029686",
-    "detection_count": 4,
-    "score_history": "[{\"score\": 78, \"date\": \"2026-07-01T19:56:29.735740\"}, {\"score\": 75, \"date\": \"2026-07-05T03:23:40.493262\"}, {\"score\": 75, \"date\": \"2026-07-06T19:57:57.588712\"}, {\"score\": 82, \"date\": \"2026-07-13T02:45:39.029686\"}]",
-    "source_count": 1,
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-07-01T19:56:29.735740",
-    "mainstream_source": null,
-    "sources": [
-      "https://www.soy502.com/articulo/nelson-andrade-joven-promesa-futbol-guatemala-101999"
     ]
   },
   {
@@ -1350,33 +1323,6 @@
     ]
   },
   {
-    "id": 80,
-    "player_name": "Yastin Cuevas",
-    "detection_date": "2026-07-03 02:57:38",
-    "source_url": "https://chile.as.com/futbol/colo-colo-se-salva-gracias-a-su-juventud-f202602-n/",
-    "score": 75.0,
-    "raw_content": "Descrito como 'canterano revelación' de Colo Colo, un club importante in Cile. Ha marcado el gol de la victoria (1-0), demostrando un impatto immediato. Se presume Under 20. Il club è noto, ma non è un top club europeo, mantenendo una buona asimmetria informativa per il suo potenziale.",
-    "region": "Chile",
-    "status": "detected",
-    "age": 18,
-    "position": "Forward",
-    "club": "Colo Colo",
-    "league": "Chilean Primera División",
-    "stats_summary": null,
-    "is_ghost": 0,
-    "first_detected": "2026-07-03T02:57:38.854065",
-    "last_seen": "2026-07-03T02:57:38.854065",
-    "detection_count": 1,
-    "score_history": "[{\"score\": 75, \"date\": \"2026-07-03T02:57:38.854065\"}]",
-    "source_count": 1,
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-07-03T02:57:38.854065",
-    "mainstream_source": null,
-    "sources": [
-      "https://chile.as.com/futbol/colo-colo-se-salva-gracias-a-su-juventud-f202602-n/"
-    ]
-  },
-  {
     "id": 79,
     "player_name": "César Garza",
     "detection_date": "2026-07-02 19:24:55",
@@ -1401,6 +1347,33 @@
     "mainstream_source": null,
     "sources": [
       "https://www.futboltotal.com.mx/futbol-mexicano/liga-mx/cesar-garza-lleno-el-ojo-a-matias-almeyda-rayados-monterrey/2026/06/"
+    ]
+  },
+  {
+    "id": 46,
+    "player_name": "Luis Benedetti",
+    "detection_date": "2026-06-01 05:31:43",
+    "source_url": "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/",
+    "score": 74.4,
+    "raw_content": "Difensore centrale mancino di 1.98m con buona impostazione e ottimo gioco aereo. Ha segnato 10 gol nell'U20 nel 2024, un dato notevole per un difensore, e ha debuttato in prima squadra nel 2025. È già campione U17 del Brasileirão e della Copa do Brasil. Sebbene il Palmeiras sia un club di alto profilo in Brasile e la sua menzione in 'joias' riduca l'asimmetria informativa a livello nazionale, non è ancora un nome noto a livello internazionale, offrendo un buon potenziale di valore nascosto.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 19,
+    "position": "CB",
+    "club": "Palmeiras",
+    "league": "Brasileirão Série A",
+    "stats_summary": "Player stats of Luis Benedetti (SE Palmeiras São Paulo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Become a Stathead & surf this site ad-free. 2026. Série A. MP. 1. Min. 8. Gls. 0. Ast. 0. * see our coverage note. Luis Benedetti Overview; More Luis Benedetti ... | Luis Benedetti career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Palmeiras ...",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T05:31:43.066722",
+    "last_seen": "2026-07-13T19:23:42.001089",
+    "detection_count": 55,
+    "score_history": "[{\"score\": 80, \"date\": \"2026-07-04T02:54:02.204844\"}, {\"score\": 85, \"date\": \"2026-07-04T08:37:47.732041\"}, {\"score\": 78, \"date\": \"2026-07-04T19:14:03.737134\"}, {\"score\": 80, \"date\": \"2026-07-05T08:52:53.190804\"}, {\"score\": 78, \"date\": \"2026-07-05T13:39:28.458234\"}, {\"score\": 82, \"date\": \"2026-07-06T03:31:37.488075\"}, {\"score\": 78, \"date\": \"2026-07-06T10:21:42.074835\"}, {\"score\": 85, \"date\": \"2026-07-07T14:33:47.803916\"}, {\"score\": 72, \"date\": \"2026-07-07T19:55:41.345028\"}, {\"score\": 70, \"date\": \"2026-07-08T14:06:50.006750\"}, {\"score\": 78, \"date\": \"2026-07-08T19:26:05.953297\"}, {\"score\": 78, \"date\": \"2026-07-09T02:58:56.755706\"}, {\"score\": 82, \"date\": \"2026-07-09T14:59:39.708780\"}, {\"score\": 80, \"date\": \"2026-07-10T19:27:58.593568\"}, {\"score\": 78, \"date\": \"2026-07-11T02:37:06.767044\"}, {\"score\": 80, \"date\": \"2026-07-11T07:55:53.152495\"}, {\"score\": 85, \"date\": \"2026-07-12T13:19:26.984983\"}, {\"score\": 85, \"date\": \"2026-07-13T09:26:58.702413\"}, {\"score\": 85, \"date\": \"2026-07-13T14:34:17.537301\"}, {\"score\": 70, \"date\": \"2026-07-13T19:23:42.001089\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-01T05:31:43.066722",
+    "mainstream_source": null,
+    "sources": [
+      "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
     ]
   },
   {
@@ -1482,6 +1455,33 @@
     "mainstream_source": "https://www.bbc.com/sport/football/articles/cx2kkm3md21o",
     "sources": [
       "https://www.meutimao.com.br/noticias-do-corinthians/528696/executivo-do-corinthians-projeta-evolucao-de-zagueiro-promessa-do-sub-20"
+    ]
+  },
+  {
+    "id": 80,
+    "player_name": "Yastin Cuevas",
+    "detection_date": "2026-07-03 02:57:38",
+    "source_url": "https://chile.as.com/futbol/colo-colo-se-salva-gracias-a-su-juventud-f202602-n/",
+    "score": 72.9,
+    "raw_content": "Descritto come la 'canterano revelación' del Colo Colo, un club importante in Cile. È stato determinante nella vittoria per 1-0 contro l'Unión La Calera, suggerendo un contributo diretto (gol o assist). Sebbene il Colo Colo sia un club noto a livello regionale e AS Chile sia una fonte mediatica importante, la sua visibilità internazionale è ancora limitata. Le informazioni sono un po' vaghe ma indicano un impatto immediato in prima squadra.",
+    "region": "Chile",
+    "status": "detected",
+    "age": 18,
+    "position": "Forward",
+    "club": "Colo Colo",
+    "league": "Chilean Primera División",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-07-03T02:57:38.854065",
+    "last_seen": "2026-07-13T19:23:44.418165",
+    "detection_count": 2,
+    "score_history": "[{\"score\": 75, \"date\": \"2026-07-03T02:57:38.854065\"}, {\"score\": 72, \"date\": \"2026-07-13T19:23:44.418165\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-07-03T02:57:38.854065",
+    "mainstream_source": null,
+    "sources": [
+      "https://chile.as.com/futbol/colo-colo-se-salva-gracias-a-su-juventud-f202602-n/"
     ]
   },
   {
