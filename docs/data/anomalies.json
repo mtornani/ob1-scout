@@ -729,6 +729,33 @@
     ]
   },
   {
+    "id": 78,
+    "player_name": "Nelson Andrade",
+    "detection_date": "2026-07-01 19:56:29",
+    "source_url": "https://www.soy502.com/articulo/nelson-andrade-joven-promesa-futbol-guatemala-101999",
+    "score": 80.0,
+    "raw_content": "Identificato come 'joven promesa del futbol de Guatemala', Andrade ha mostrato un impatto immediato segnando due gol al suo debutto con il Puntarenas. Le sue qualità di 'velocidad y técnica' sono state evidenziate. Giocando in una lega con bassa visibilità internazionale (Guatemala) e con un club minore, presenta un'elevata asimmetria informativa. Sebbene l'età esatta non sia specificata, la dicitura 'joven promesa' e il contesto del debutto suggeriscono fortemente che sia Under 20. Le statistiche concrete (2 gol al debutto) in un contesto di bassa visibilità giustificano un punteggio elevato.",
+    "region": "Guatemala",
+    "status": "detected",
+    "age": 19,
+    "position": "ST/RW/LW",
+    "club": "Puntarenas",
+    "league": "Guatemala",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-07-01T19:56:29.735740",
+    "last_seen": "2026-07-13T02:45:39.029686",
+    "detection_count": 4,
+    "score_history": "[{\"score\": 78, \"date\": \"2026-07-01T19:56:29.735740\"}, {\"score\": 75, \"date\": \"2026-07-05T03:23:40.493262\"}, {\"score\": 75, \"date\": \"2026-07-06T19:57:57.588712\"}, {\"score\": 82, \"date\": \"2026-07-13T02:45:39.029686\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-07-01T19:56:29.735740",
+    "mainstream_source": null,
+    "sources": [
+      "https://www.soy502.com/articulo/nelson-andrade-joven-promesa-futbol-guatemala-101999"
+    ]
+  },
+  {
     "id": 67,
     "player_name": "Keiber Lamadrid",
     "detection_date": "2026-06-13 08:59:14",
@@ -1239,33 +1266,6 @@
     "mainstream_source": "https://www.lequipe.fr/fiche/axel-alfonzo/142708",
     "sources": [
       "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/"
-    ]
-  },
-  {
-    "id": 78,
-    "player_name": "Nelson Andrade",
-    "detection_date": "2026-07-01 19:56:29",
-    "source_url": "https://www.soy502.com/articulo/nelson-andrade-joven-promesa-futbol-guatemala-101999",
-    "score": 75.3,
-    "raw_content": "Descritto come una 'joven promesa' del calcio guatemalteco, ha giocato con il Malacateco nel Clausura 2026. Opera in una lega minore con bassa visibilità internazionale. Sebbene manchino statistiche specifiche (partite, gol, assist), il contesto di 'promessa' in una lega meno esposta suggerisce potenziale e asimmetria.",
-    "region": "Guatemala",
-    "status": "detected",
-    "age": 19,
-    "position": null,
-    "club": "Malacateco",
-    "league": "Liga Nacional de Guatemala",
-    "stats_summary": null,
-    "is_ghost": 0,
-    "first_detected": "2026-07-01T19:56:29.735740",
-    "last_seen": "2026-07-06T19:57:57.588712",
-    "detection_count": 3,
-    "score_history": "[{\"score\": 78, \"date\": \"2026-07-01T19:56:29.735740\"}, {\"score\": 75, \"date\": \"2026-07-05T03:23:40.493262\"}, {\"score\": 75, \"date\": \"2026-07-06T19:57:57.588712\"}]",
-    "source_count": 1,
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-07-01T19:56:29.735740",
-    "mainstream_source": null,
-    "sources": [
-      "https://www.soy502.com/articulo/nelson-andrade-joven-promesa-futbol-guatemala-101999"
     ]
   },
   {
