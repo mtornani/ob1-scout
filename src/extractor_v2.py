@@ -131,11 +131,12 @@ def resolve_fallback(explicit: dict = None) -> dict | None:
     if explicit:
         return explicit
     if os.getenv("GROQ_API_KEY"):
-        # 8b-instant: tetto token/minuto molto più alto del 70b sul free tier,
-        # ampiamente sufficiente per l'estrazione strutturata da testo pulito.
+        # 70b-versatile: sul free tier ha il tetto token/minuto più alto (12k)
+        # tra i modelli Groq. Il vero vincolo è la DIMENSIONE del prompt: va
+        # tenuta sotto il TPM (vedi max_chars ridotto in extract_from_source).
         return {"base_url": "https://api.groq.com/openai/v1",
                 "api_key": os.getenv("GROQ_API_KEY"),
-                "model": os.getenv("GROQ_MODEL", "llama-3.1-8b-instant"),
+                "model": os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile"),
                 "label": "groq"}
     if os.getenv("OPENROUTER_API_KEY"):
         return {"base_url": "https://openrouter.ai/api/v1",
@@ -191,7 +192,7 @@ class OB1Extractor:
         return resp.json()["choices"][0]["message"]["content"] or ""
 
     def extract_from_source(self, source_text: str, source_url: str = "",
-                            max_chars: int = 6000):
+                            max_chars: int = 2800):
         """
         Una estrazione (Gemini o fallback) → lista di osservazioni normalizzate.
         Ritorna [] se l'estrazione è riuscita ma non ha trovato giocatori (fonte

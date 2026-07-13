@@ -55,7 +55,7 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
     # (~12k TPM). Una pausa tiene le chiamate sotto il limite invece di prendere
     # 429. Configurabile; 0 per disattivare.
     try:
-        call_delay = max(0.0, float(os.getenv("INGEST_CALL_DELAY", "7")))
+        call_delay = max(0.0, float(os.getenv("INGEST_CALL_DELAY", "12")))
     except (ValueError, TypeError):
         call_delay = 7.0
 
