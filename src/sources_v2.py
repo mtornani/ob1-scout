@@ -22,7 +22,10 @@ CONFIG = Path(__file__).parent.parent / "config" / "sources.json"
 _ARTICLE_HINT = re.compile(r"/(\d{4}|noticias?|news|jugador|player|spieler|"
                            r"giocatore|profil|notizie|artic|story|match)", re.I)
 _SKIP_HINT = re.compile(r"(facebook|twitter|instagram|youtube|tiktok|whatsapp|"
-                        r"linkedin|/tag/|/category/|mailto:|\.(jpg|png|gif|pdf|css|js)$)", re.I)
+                        r"linkedin|/tag/|/category/|mailto:|"
+                        r"//api\.|/images?/|/img/|/assets/|/static/|/uploads/|"
+                        r"/portaldeclubes|/socios|/tienda|/mayores|/senior|"
+                        r"\.(jpg|jpeg|png|gif|webp|svg|pdf|css|js|ico)(\?|$))", re.I)
 
 
 def load_registry(path: Path = CONFIG, only_active: bool = True) -> list:
@@ -37,6 +40,25 @@ def _domain(url: str) -> str:
         return h[4:] if h.startswith("www.") else h
     except Exception:
         return ""
+
+
+def _same_domain(url: str, base_dom: str) -> bool:
+    """True se url è sul dominio base o un suo sottodominio (no falsi positivi
+    tipo fif.ci.attacker.com per base fif.ci)."""
+    d = _domain(url)
+    return bool(base_dom) and (d == base_dom or d.endswith("." + base_dom))
+
+
+def _has_article_path(url: str) -> bool:
+    """Un articolo/profilo ha uno slug, non è la root. Path corti ammessi solo
+    se hanno cifre (ID/data) o sotto-segmenti — così non si scartano URL validi
+    tipo /news/12345 pur bocciando homepage e sezioni-radice."""
+    path = urlparse(url).path.strip("/")
+    if not path:
+        return False
+    if len(path) >= 8:
+        return True
+    return any(ch.isdigit() for ch in path) or "/" in path
 
 
 def discover_item_urls(markdown: str, source_url: str = "", max_items: int = 25) -> list:
@@ -57,30 +79,61 @@ def discover_item_urls(markdown: str, source_url: str = "", max_items: int = 25)
         if u in seen or _SKIP_HINT.search(u):
             continue
         seen.add(u)
-        same_dom = base_dom and base_dom in _domain(u)
-        if same_dom or _ARTICLE_HINT.search(u):
+        if not _has_article_path(u):   # scarta homepage / root di sezione
+            continue
+        if _same_domain(u, base_dom) or _ARTICLE_HINT.search(u):
             out.append(u)
         if len(out) >= max_items:
             break
     return out
 
 
+# Termini "giovanili" per lingua, per la ricerca ristretta al dominio.
+YOUTH_TERMS = {
+    "es": "juvenil sub-20 sub-17 cantera promesa",
+    "pt": "juvenil sub-20 sub-17 base revelação",
+    "en": "youth U20 U17 academy prospect",
+    "fr": "jeune U20 U17 espoir formation",
+    "sr": "omladinac U19 U17 talenat",
+    "hr": "mladi U19 U17 talent",
+}
+
+
 class SourceMonitor:
-    """Fetch di una fonte via Jina Reader + scoperta articoli nuovi (delta)."""
+    """Scoperta articoli nuovi per una fonte (delta) + fetch via Jina."""
 
     JINA = "https://r.jina.ai/"
 
     def __init__(self, db, scraper=None):
         self.db = db            # OB1DatabaseV2 (per il delta seen_items)
-        self.scraper = scraper  # AsyncGlobalScraper (per deep_read_urls), opzionale
+        self.scraper = scraper  # AsyncGlobalScraper (search + deep_read), opzionale
 
     async def new_items(self, source: dict) -> list:
-        """Ritorna gli URL articolo NUOVI per questa fonte (non ancora visti)."""
-        if self.scraper is None:
+        """
+        URL articolo NUOVI per questa fonte. Discovery robusta: ricerca ristretta
+        al dominio (site:) con termini giovanili nella lingua della fonte — così
+        si trovano gli articoli veri anche su siti JS-pesanti dove lo scraping
+        della homepage non elenca i link. Le pagine di homepage/asset restano
+        filtrate. Gli aggregatori (tier secondary) non si spazzano in discovery.
+        """
+        if self.scraper is None or source.get("tier") == "secondary":
             return []
-        page = await self.scraper.deep_read_urls([source["url"]], max_urls=1)
-        markdown = next(iter(page.values()), "") if page else ""
-        found = discover_item_urls(markdown, source["url"])
+        dom = _domain(source["url"])
+        terms = YOUTH_TERMS.get(source.get("lang"), YOUTH_TERMS["en"])
+        query = f"site:{dom} {terms} 2026"
+
+        results = await self.scraper.search_query(query)
+        found = []
+        for r in results:
+            u = (r.get("url") or "").rstrip(".,);]")
+            if not u or _SKIP_HINT.search(u):
+                continue
+            if not _same_domain(u, dom):        # dominio esatto o sottodominio
+                continue
+            if not _has_article_path(u):        # scarta root/homepage
+                continue
+            found.append(u)
+        found = list(dict.fromkeys(found))
         return self.db.filter_new_items(source["id"], found)
 
 

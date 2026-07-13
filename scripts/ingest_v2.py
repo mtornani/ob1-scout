@@ -48,6 +48,13 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
     stamp = datetime.now().isoformat()
     stats = Counter()
     calls_used = 0
+    # Ritmo tra chiamate LLM: il free tier Groq ha un tetto di token/minuto
+    # (~12k TPM). Una pausa tiene le chiamate sotto il limite invece di prendere
+    # 429. Configurabile; 0 per disattivare.
+    try:
+        call_delay = max(0.0, float(os.getenv("INGEST_CALL_DELAY", "7")))
+    except (ValueError, TypeError):
+        call_delay = 7.0
 
     for src in sources:
         if calls_used >= llm_budget:
@@ -66,6 +73,12 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
                 break  # budget finito: lascia il resto al prossimo run (delta)
             obs_list = extractor.extract_from_source(text, url)
             calls_used += 1
+            if call_delay and calls_used < llm_budget:
+                await asyncio.sleep(call_delay)
+            if obs_list is None:
+                # estrazione fallita (quota/errore): NON marcare visto → si ritenta
+                stats["extract_failed"] += 1
+                continue
             processed.append(url)
             for obs in obs_list:
                 obs["region"] = obs.get("region") or src.get("region")
@@ -73,7 +86,7 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
                 _, status = db.ingest_observation(obs)
                 stats[f"obs_{status}"] += 1
                 stats["observations"] += 1
-        # marca visti SOLO gli articoli davvero processati
+        # marca visti SOLO gli articoli estratti con successo
         if processed:
             db.mark_seen(src["id"], processed, stamp)
             stats["articles"] += len(processed)
