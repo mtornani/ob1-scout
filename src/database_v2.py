@@ -353,6 +353,26 @@ class OB1DatabaseV2:
         return pid, status
 
 
+    # ---- Corroborazione attiva (Fase B3+) ----
+    def player_domains(self, pid: int) -> set:
+        """Domini-fonte già associati a un giocatore."""
+        with self._conn() as conn:
+            return {r[0] for r in conn.execute(
+                "SELECT DISTINCT source_domain FROM evidences WHERE player_id=? AND source_domain!=''",
+                (pid,))}
+
+    def players_to_corroborate(self, limit: int = 100) -> list:
+        """(id, nome) dei giocatori con nome completo ma < 2 fonti distinte."""
+        with self._conn() as conn:
+            rows = conn.execute("""
+                SELECT p.id, p.canonical_name,
+                       (SELECT COUNT(DISTINCT e.source_domain) FROM evidences e
+                        WHERE e.player_id = p.id AND e.source_domain != '') AS nsrc
+                FROM players p WHERE p.name_token_count >= 2
+            """).fetchall()
+        return [(r[0], r[1]) for r in rows if (r[2] or 0) < 2][:limit]
+
+
 if __name__ == "__main__":
     db = OB1DatabaseV2()
     print(f"Schema v2 inizializzato: {db.db_path}")
