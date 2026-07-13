@@ -42,6 +42,25 @@ def _domain(url: str) -> str:
         return ""
 
 
+def _same_domain(url: str, base_dom: str) -> bool:
+    """True se url è sul dominio base o un suo sottodominio (no falsi positivi
+    tipo fif.ci.attacker.com per base fif.ci)."""
+    d = _domain(url)
+    return bool(base_dom) and (d == base_dom or d.endswith("." + base_dom))
+
+
+def _has_article_path(url: str) -> bool:
+    """Un articolo/profilo ha uno slug, non è la root. Path corti ammessi solo
+    se hanno cifre (ID/data) o sotto-segmenti — così non si scartano URL validi
+    tipo /news/12345 pur bocciando homepage e sezioni-radice."""
+    path = urlparse(url).path.strip("/")
+    if not path:
+        return False
+    if len(path) >= 8:
+        return True
+    return any(ch.isdigit() for ch in path) or "/" in path
+
+
 def discover_item_urls(markdown: str, source_url: str = "", max_items: int = 25) -> list:
     """
     Estrae dai contenuti di una pagina-fonte (markdown di Jina Reader) i link
@@ -60,13 +79,9 @@ def discover_item_urls(markdown: str, source_url: str = "", max_items: int = 25)
         if u in seen or _SKIP_HINT.search(u):
             continue
         seen.add(u)
-        # Scarta le homepage / root di sezione (path vuoto o troppo corto):
-        # un articolo/profilo ha uno slug, non "dominio.it/".
-        path = urlparse(u).path.strip("/")
-        if len(path) < 8:
+        if not _has_article_path(u):   # scarta homepage / root di sezione
             continue
-        same_dom = base_dom and base_dom in _domain(u)
-        if same_dom or _ARTICLE_HINT.search(u):
+        if _same_domain(u, base_dom) or _ARTICLE_HINT.search(u):
             out.append(u)
         if len(out) >= max_items:
             break
@@ -113,9 +128,9 @@ class SourceMonitor:
             u = (r.get("url") or "").rstrip(".,);]")
             if not u or _SKIP_HINT.search(u):
                 continue
-            if dom not in _domain(u):
+            if not _same_domain(u, dom):        # dominio esatto o sottodominio
                 continue
-            if len(urlparse(u).path.strip("/")) < 8:   # scarta root/homepage
+            if not _has_article_path(u):        # scarta root/homepage
                 continue
             found.append(u)
         found = list(dict.fromkeys(found))

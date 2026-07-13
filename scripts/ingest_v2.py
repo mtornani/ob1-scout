@@ -51,7 +51,10 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
     # Ritmo tra chiamate LLM: il free tier Groq ha un tetto di token/minuto
     # (~12k TPM). Una pausa tiene le chiamate sotto il limite invece di prendere
     # 429. Configurabile; 0 per disattivare.
-    call_delay = float(os.getenv("INGEST_CALL_DELAY", "7"))
+    try:
+        call_delay = max(0.0, float(os.getenv("INGEST_CALL_DELAY", "7")))
+    except (ValueError, TypeError):
+        call_delay = 7.0
 
     for src in sources:
         if calls_used >= llm_budget:
