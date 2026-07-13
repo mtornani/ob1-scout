@@ -73,22 +73,52 @@ def discover_item_urls(markdown: str, source_url: str = "", max_items: int = 25)
     return out
 
 
+# Termini "giovanili" per lingua, per la ricerca ristretta al dominio.
+YOUTH_TERMS = {
+    "es": "juvenil sub-20 sub-17 cantera promesa",
+    "pt": "juvenil sub-20 sub-17 base revelação",
+    "en": "youth U20 U17 academy prospect",
+    "fr": "jeune U20 U17 espoir formation",
+    "sr": "omladinac U19 U17 talenat",
+    "hr": "mladi U19 U17 talent",
+}
+
+
 class SourceMonitor:
-    """Fetch di una fonte via Jina Reader + scoperta articoli nuovi (delta)."""
+    """Scoperta articoli nuovi per una fonte (delta) + fetch via Jina."""
 
     JINA = "https://r.jina.ai/"
 
     def __init__(self, db, scraper=None):
         self.db = db            # OB1DatabaseV2 (per il delta seen_items)
-        self.scraper = scraper  # AsyncGlobalScraper (per deep_read_urls), opzionale
+        self.scraper = scraper  # AsyncGlobalScraper (search + deep_read), opzionale
 
     async def new_items(self, source: dict) -> list:
-        """Ritorna gli URL articolo NUOVI per questa fonte (non ancora visti)."""
-        if self.scraper is None:
+        """
+        URL articolo NUOVI per questa fonte. Discovery robusta: ricerca ristretta
+        al dominio (site:) con termini giovanili nella lingua della fonte — così
+        si trovano gli articoli veri anche su siti JS-pesanti dove lo scraping
+        della homepage non elenca i link. Le pagine di homepage/asset restano
+        filtrate. Gli aggregatori (tier secondary) non si spazzano in discovery.
+        """
+        if self.scraper is None or source.get("tier") == "secondary":
             return []
-        page = await self.scraper.deep_read_urls([source["url"]], max_urls=1)
-        markdown = next(iter(page.values()), "") if page else ""
-        found = discover_item_urls(markdown, source["url"])
+        dom = _domain(source["url"])
+        terms = YOUTH_TERMS.get(source.get("lang"), YOUTH_TERMS["en"])
+        query = f"site:{dom} {terms} 2026"
+
+        results = await self.scraper.search_query(query)
+        found = []
+        for r in results:
+            u = (r.get("url") or "").rstrip(".,);]")
+            if not u or _SKIP_HINT.search(u):
+                continue
+            if dom not in _domain(u):
+                continue
+            if len(urlparse(u).path.strip("/")) < 8:   # scarta root/homepage
+                continue
+            found.append(u)
+        found = list(dict.fromkeys(found))
         return self.db.filter_new_items(source["id"], found)
 
 
