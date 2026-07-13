@@ -36,6 +36,9 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
 
     if llm_budget is None:
         llm_budget = int(os.getenv("INGEST_LLM_BUDGET", "15"))
+    # Riserva ~1/3 del budget alla corroborazione, così l'estrazione delle fonti
+    # non lo esaurisce lasciando i giocatori a 1 fonte.
+    extract_budget = max(1, llm_budget * 2 // 3)
 
     if not extractor.available():
         print("Nessun LLM configurato (GEMINI_API_KEY o fallback). Stop.")
@@ -57,7 +60,7 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
         call_delay = 7.0
 
     for src in sources:
-        if calls_used >= llm_budget:
+        if calls_used >= extract_budget:
             stats["sources_skipped_budget"] += 1
             continue
         new_urls = await monitor.new_items(src)
@@ -69,8 +72,8 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
         texts = await scraper.deep_read_urls(new_urls, max_urls=len(new_urls))
         processed = []
         for url, text in texts.items():
-            if calls_used >= llm_budget:
-                break  # budget finito: lascia il resto al prossimo run (delta)
+            if calls_used >= extract_budget:
+                break  # tetto estrazione: il resto del budget va alla corroborazione
             obs_list = extractor.extract_from_source(text, url)
             calls_used += 1
             if call_delay and calls_used < llm_budget:
