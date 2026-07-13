@@ -91,6 +91,34 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
             db.mark_seen(src["id"], processed, stamp)
             stats["articles"] += len(processed)
 
+    # --- Corroborazione attiva: cerca i giocatori a 1 fonte sugli aggregatori ---
+    from src.corroborate_v2 import find_profile
+    for pid, name in db.players_to_corroborate():
+        if calls_used >= llm_budget:
+            stats["corr_skipped_budget"] += 1
+            continue
+        prof = await find_profile(scraper, name, exclude_domains=db.player_domains(pid))
+        if not prof:
+            stats["corr_not_found"] += 1
+            continue
+        texts = await scraper.deep_read_urls([prof], max_urls=1)
+        text = texts.get(prof)
+        if not text:
+            continue
+        obs_list = extractor.extract_from_source(text, prof)
+        calls_used += 1
+        if call_delay and calls_used < llm_budget:
+            await asyncio.sleep(call_delay)
+        if not obs_list:
+            continue
+        # ingerisci solo l'osservazione che corrisponde a questo giocatore
+        for o in obs_list:
+            if db._names_match(o.get("name", ""), name):
+                o["observed_at"] = stamp
+                db.ingest_observation(o)
+                stats["corroborated"] += 1
+                break
+
     stats["llm_calls"] = calls_used
     for provider, n in extractor.stats.items():
         stats[f"via_{provider}"] = n
