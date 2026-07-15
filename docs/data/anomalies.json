@@ -459,6 +459,33 @@
     ]
   },
   {
+    "id": 45,
+    "player_name": "Londoño",
+    "detection_date": "2026-06-01 04:04:28",
+    "source_url": "https://chile.as.com/futbol/es-la-gran-promesa-de-colombia-y-llegara-al-futbol-chileno-17-anos-y-goleador-del-sudamericano-f202601-n/",
+    "score": 83.1,
+    "raw_content": "Identificato come Londoño, attaccante colombiano di 17 anni. È stato il secondo miglior marcatore nel Campionato Sudamericano U17 all'inizio del 2025 con 5 gol in 6 partite, e ha segnato anche 1 gol in 4 partite al Mondiale U17. È considerato una 'grande promessa' e sta per unirsi a un club cileno. Questo rappresenta un'asimmetria informativa significativa: statistiche concrete e impressionanti a livello giovanile internazionale, età molto giovane e un trasferimento imminente verso un campionato non di punta europeo (campionato cileno), il che significa che il suo valore è probabile che esploda se si affermerà in Cile. Nonostante una certa visibilità a livello giovanile, non è ancora un nome noto a livello internazionale.",
+    "region": "Colombia",
+    "status": "detected",
+    "age": 17,
+    "position": "ST",
+    "club": "Chilean Club (unnamed, imminent transfer)",
+    "league": "Chilean Primera División (implied)",
+    "stats_summary": "2026. Liga FUTVE. Libertadores. MP. 16. 6. Min. 1114. 446. Gls. 4. 2. Ast. 0. * see our coverage note. Flabián Londoño Menu. Flabián Londoño Overview; More ... | 2026. Serie A. MP. 9. Min. 463. Gls. 1. Ast. 1. * see our coverage note. Azarias Londoño Overview; More Azarias Londoño Pages. Stats by Competition. All ... | Player stats of Flabián Londoño (Deportivo La Guaira) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data.",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T04:04:28.693036",
+    "last_seen": "2026-07-15T19:11:14.706241",
+    "detection_count": 26,
+    "score_history": "[{\"score\": 80, \"date\": \"2026-06-04T04:00:54.002216\"}, {\"score\": 85, \"date\": \"2026-06-04T09:56:42.567210\"}, {\"score\": 82, \"date\": \"2026-06-06T08:34:15.680893\"}, {\"score\": 90, \"date\": \"2026-06-07T13:53:06.430174\"}, {\"score\": 85, \"date\": \"2026-06-07T19:23:11.589485\"}, {\"score\": 85, \"date\": \"2026-06-08T04:01:15.969530\"}, {\"score\": 85, \"date\": \"2026-06-08T10:55:11.211402\"}, {\"score\": 85, \"date\": \"2026-06-08T15:53:28.917588\"}, {\"score\": 82, \"date\": \"2026-06-11T03:58:57.636572\"}, {\"score\": 85, \"date\": \"2026-06-11T16:02:12.294991\"}, {\"score\": 86, \"date\": \"2026-06-20T08:57:35.936955\"}, {\"score\": 85, \"date\": \"2026-06-29T04:55:57.165533\"}, {\"score\": 80, \"date\": \"2026-07-02T03:34:47.887799\"}, {\"score\": 80, \"date\": \"2026-07-07T09:41:17.240319\"}, {\"score\": 87, \"date\": \"2026-07-09T09:40:41.741308\"}, {\"score\": 95, \"date\": \"2026-07-09T14:59:53.686411\"}, {\"score\": 82, \"date\": \"2026-07-10T19:28:00.405827\"}, {\"score\": 78, \"date\": \"2026-07-14T13:43:29.910636\"}, {\"score\": 78, \"date\": \"2026-07-14T19:20:58.409615\"}, {\"score\": 85, \"date\": \"2026-07-15T19:11:14.706241\"}]",
+    "source_count": 1,
+    "lead_time_days": 0,
+    "ob1_detection_date": "2026-06-01T04:04:28.693036",
+    "mainstream_source": "https://espndeportes.espn.com/video/clip/_/id/16768225",
+    "sources": [
+      "https://chile.as.com/futbol/es-la-gran-promesa-de-colombia-y-llegara-al-futbol-chileno-17-anos-y-goleador-del-sudamericano-f202601-n/"
+    ]
+  },
+  {
     "id": 56,
     "player_name": "Jhonatan Spiff",
     "detection_date": "2026-06-03 16:49:28",
@@ -942,33 +969,6 @@
     "mainstream_source": null,
     "sources": [
       "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A"
-    ]
-  },
-  {
-    "id": 45,
-    "player_name": "Londoño",
-    "detection_date": "2026-06-01 04:04:28",
-    "source_url": "https://chile.as.com/futbol/es-la-gran-promesa-de-colombia-y-llegara-al-futbol-chileno-17-anos-y-goleador-del-sudamericano-f202601-n/",
-    "score": 78.6,
-    "raw_content": "Descrito como 'gran promesa de Colombia' e 'goleador del Sudamericano' Sub-17 (5 gols em 6 jogos), com um gol também no Mundial Sub-17. Aos 17 anos, está se transferindo para o futebol chileno, uma liga que oferece assimetria informativa em comparação com as grandes ligas europeias. Embora já tenha alguma visibilidade regional, seu perfil de desempenho e idade o tornam um alvo interessante.",
-    "region": "Colombia",
-    "status": "detected",
-    "age": 17,
-    "position": "ST",
-    "club": "Unnamed Chilean club",
-    "league": "Chilean league",
-    "stats_summary": "2026. Liga FUTVE. Libertadores. MP. 16. 6. Min. 1114. 446. Gls. 4. 2. Ast. 0. * see our coverage note. Flabián Londoño Menu. Flabián Londoño Overview; More ... | 2026. Serie A. MP. 9. Min. 463. Gls. 1. Ast. 1. * see our coverage note. Azarias Londoño Overview; More Azarias Londoño Pages. Stats by Competition. All ... | Player stats of Flabián Londoño (Deportivo La Guaira) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data.",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T04:04:28.693036",
-    "last_seen": "2026-07-14T19:20:58.409615",
-    "detection_count": 25,
-    "score_history": "[{\"score\": 88, \"date\": \"2026-06-03T20:56:56.977561\"}, {\"score\": 80, \"date\": \"2026-06-04T04:00:54.002216\"}, {\"score\": 85, \"date\": \"2026-06-04T09:56:42.567210\"}, {\"score\": 82, \"date\": \"2026-06-06T08:34:15.680893\"}, {\"score\": 90, \"date\": \"2026-06-07T13:53:06.430174\"}, {\"score\": 85, \"date\": \"2026-06-07T19:23:11.589485\"}, {\"score\": 85, \"date\": \"2026-06-08T04:01:15.969530\"}, {\"score\": 85, \"date\": \"2026-06-08T10:55:11.211402\"}, {\"score\": 85, \"date\": \"2026-06-08T15:53:28.917588\"}, {\"score\": 82, \"date\": \"2026-06-11T03:58:57.636572\"}, {\"score\": 85, \"date\": \"2026-06-11T16:02:12.294991\"}, {\"score\": 86, \"date\": \"2026-06-20T08:57:35.936955\"}, {\"score\": 85, \"date\": \"2026-06-29T04:55:57.165533\"}, {\"score\": 80, \"date\": \"2026-07-02T03:34:47.887799\"}, {\"score\": 80, \"date\": \"2026-07-07T09:41:17.240319\"}, {\"score\": 87, \"date\": \"2026-07-09T09:40:41.741308\"}, {\"score\": 95, \"date\": \"2026-07-09T14:59:53.686411\"}, {\"score\": 82, \"date\": \"2026-07-10T19:28:00.405827\"}, {\"score\": 78, \"date\": \"2026-07-14T13:43:29.910636\"}, {\"score\": 78, \"date\": \"2026-07-14T19:20:58.409615\"}]",
-    "source_count": 1,
-    "lead_time_days": 0,
-    "ob1_detection_date": "2026-06-01T04:04:28.693036",
-    "mainstream_source": "https://espndeportes.espn.com/video/clip/_/id/16768225",
-    "sources": [
-      "https://chile.as.com/futbol/es-la-gran-promesa-de-colombia-y-llegara-al-futbol-chileno-17-anos-y-goleador-del-sudamericano-f202601-n/"
     ]
   },
   {
