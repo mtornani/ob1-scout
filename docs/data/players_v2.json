@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-07-16T15:38:43.286819+00:00",
- "total": 79,
+ "generated_at": "2026-07-16T19:47:38.619528+00:00",
+ "total": 94,
  "publishable": 1,
- "tracking": 78,
+ "tracking": 93,
  "players": [
   {
    "name": "Mateus Romero",
@@ -45,6 +45,48 @@
    "review_flags": "",
    "first_detected": null,
    "last_seen": "2026-06-17T15:30:13.619531"
+  },
+  {
+   "name": "Fode Diallo",
+   "age": 14,
+   "position": "Attacker",
+   "club": null,
+   "league": "Youth League (U13)",
+   "region": "Global",
+   "gender": "male",
+   "score": 18,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 20.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "facebook.com",
+     "url": "https://www.facebook.com/InsideMasia/posts/fode-diallo-scouting-report-by-lamasiapolski-think-this-name-has-already-hit-you/1307148481467618/",
+     "seen": "2026-03-10T06:51:55.040509"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/fode-diallo/profil/spieler/1527842",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante",
+   "first_detected": "2026-03-10T06:51:55.040509",
+   "last_seen": "2026-03-10T06:51:55.040509"
   },
   {
    "name": "Pirituba",
@@ -99,6 +141,90 @@
    "last_seen": "2026-03-20T02:06:58.552325"
   },
   {
+   "name": "Felipe",
+   "age": 16,
+   "position": "Attacker",
+   "club": "Colo Colo",
+   "league": "Copa Chile",
+   "region": "Chile",
+   "gender": "male",
+   "score": 16,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "portalbrazuca.com.br",
+     "url": "https://portalbrazuca.com.br/promessa-do-santos-ganha-destaque-em-jornal-europeu/",
+     "seen": "2026-03-03T02:08:53.868938"
+    },
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "nome_singolo",
+   "first_detected": "2026-03-03T02:08:53.868938",
+   "last_seen": "2026-07-02T19:24:53.953976"
+  },
+  {
+   "name": "Eduardo",
+   "age": 17,
+   "position": "CAM/ST",
+   "club": "Palmeiras",
+   "league": "Campeonato Brasileiro Série A",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 14,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "palmeiras.com.br",
+     "url": "https://www.palmeiras.com.br/noticias/destaque-na-copinha-eduardo-assina-primeiro-contrato-profissional-com-palmeiras/",
+     "seen": "2026-06-14T04:04:39.208579"
+    },
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "nome_singolo",
+   "first_detected": "2026-06-14T04:04:39.208579",
+   "last_seen": "2026-07-09T14:59:50.616756"
+  },
+  {
    "name": "Kadir do Panamá",
    "age": 19,
    "position": "ST",
@@ -129,38 +255,6 @@
    "review_flags": "fonte_singola",
    "first_detected": "2026-06-07T08:56:43.152008",
    "last_seen": "2026-06-07T08:56:43.152008"
-  },
-  {
-   "name": "Fode Diallo",
-   "age": 14,
-   "position": "Attacker",
-   "club": null,
-   "league": "Youth League (U13)",
-   "region": "Global",
-   "gender": "unknown",
-   "score": 13,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 20.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "facebook.com",
-     "url": "https://www.facebook.com/InsideMasia/posts/fode-diallo-scouting-report-by-lamasiapolski-think-this-name-has-already-hit-you/1307148481467618/",
-     "seen": "2026-03-10T06:51:55.040509"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola",
-   "first_detected": "2026-03-10T06:51:55.040509",
-   "last_seen": "2026-03-10T06:51:55.040509"
   },
   {
    "name": "Dulce Maria",
@@ -257,38 +351,6 @@
    "review_flags": "club_mancante,fonte_singola",
    "first_detected": "2026-03-01T18:34:38.117964",
    "last_seen": "2026-03-15T12:55:03.609821"
-  },
-  {
-   "name": "Felipe",
-   "age": 16,
-   "position": "Attacker",
-   "club": "Colo Colo",
-   "league": "Copa Chile",
-   "region": "Chile",
-   "gender": "unknown",
-   "score": 12,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 18.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "portalbrazuca.com.br",
-     "url": "https://portalbrazuca.com.br/promessa-do-santos-ganha-destaque-em-jornal-europeu/",
-     "seen": "2026-03-03T02:08:53.868938"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "nome_singolo,fonte_singola",
-   "first_detected": "2026-03-03T02:08:53.868938",
-   "last_seen": "2026-07-02T19:24:53.953976"
   },
   {
    "name": "Gustavogoes",
@@ -637,38 +699,6 @@
    "last_seen": "2026-06-10T10:00:49.849819"
   },
   {
-   "name": "Eduardo",
-   "age": 17,
-   "position": "CAM/ST",
-   "club": "Palmeiras",
-   "league": "Campeonato Brasileiro Série A",
-   "region": "Brazil",
-   "gender": "unknown",
-   "score": 10,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "palmeiras.com.br",
-     "url": "https://www.palmeiras.com.br/noticias/destaque-na-copinha-eduardo-assina-primeiro-contrato-profissional-com-palmeiras/",
-     "seen": "2026-06-14T04:04:39.208579"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "nome_singolo,fonte_singola",
-   "first_detected": "2026-06-14T04:04:39.208579",
-   "last_seen": "2026-07-09T14:59:50.616756"
-  },
-  {
    "name": "Gui Amorim",
    "age": 17,
    "position": "CM",
@@ -773,6 +803,48 @@
    "review_flags": "eta_mancante",
    "first_detected": "2026-03-01T19:00:00.487652",
    "last_seen": "2026-07-08T14:06:53.678645"
+  },
+  {
+   "name": "Samu",
+   "age": null,
+   "position": null,
+   "club": "Atlético Nacional",
+   "league": null,
+   "region": "Spain",
+   "gender": "male",
+   "score": 9,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "tiktok.com",
+     "url": "https://www.tiktok.com/@bolanatrave.2.0/video/7641373248290098448",
+     "seen": "2026-07-11T13:18:59.344151"
+    },
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "nome_singolo,eta_mancante",
+   "first_detected": "2026-07-11T13:18:59.344151",
+   "last_seen": "2026-07-11T13:18:59.344151"
   },
   {
    "name": "Diego Reyes",
@@ -1477,6 +1549,561 @@
    "review_flags": "nome_singolo,fonte_singola",
    "first_detected": "2026-07-14T08:05:34.863583",
    "last_seen": "2026-07-14T08:05:34.863583"
+  },
+  {
+   "name": "Luigi Joel Ortiz Mañunga",
+   "age": null,
+   "position": null,
+   "club": "Deportivo Cali",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "first_detected": null,
+   "last_seen": null
+  },
+  {
+   "name": "Gilberto Adrián Saavedra Garcés",
+   "age": null,
+   "position": null,
+   "club": "Real Soacha Cundinamarca",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "first_detected": null,
+   "last_seen": null
+  },
+  {
+   "name": "Edwin Estrella De La Rosa",
+   "age": null,
+   "position": null,
+   "club": "Belen La Nubia – Arco Zaragoza",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "first_detected": null,
+   "last_seen": null
+  },
+  {
+   "name": "John Mauricio Maturana Carabalí",
+   "age": null,
+   "position": null,
+   "club": "Internacional De Palmira",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "first_detected": null,
+   "last_seen": null
+  },
+  {
+   "name": "Simón Alejandro Rojas Merchán",
+   "age": null,
+   "position": null,
+   "club": "Atlético Nacional",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "first_detected": null,
+   "last_seen": null
+  },
+  {
+   "name": "José Rafael Escor",
+   "age": null,
+   "position": null,
+   "club": "Atlético Nacional",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "first_detected": null,
+   "last_seen": null
+  },
+  {
+   "name": "Santiago Vallecilla González",
+   "age": null,
+   "position": null,
+   "club": "Deportivo Cali",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "first_detected": null,
+   "last_seen": null
+  },
+  {
+   "name": "Santiago Pérez Castaño",
+   "age": null,
+   "position": null,
+   "club": "Internacional FC",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "first_detected": null,
+   "last_seen": null
+  },
+  {
+   "name": "Juan José Fori Viveros",
+   "age": null,
+   "position": null,
+   "club": "C.D Estudiantil",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "first_detected": null,
+   "last_seen": null
+  },
+  {
+   "name": "Anderson Yair Murillo Mosquera",
+   "age": null,
+   "position": null,
+   "club": "Deportivo Independiente Medellín",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "first_detected": null,
+   "last_seen": null
+  },
+  {
+   "name": "Eider Luis Carrillo Córdoba",
+   "age": null,
+   "position": null,
+   "club": "Deportivo Independiente Medellín",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "first_detected": null,
+   "last_seen": null
+  },
+  {
+   "name": "Jean Karlo Rojas Pérez",
+   "age": null,
+   "position": null,
+   "club": "Alianza Valledupar",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "first_detected": null,
+   "last_seen": null
+  },
+  {
+   "name": "Jerson Balanta Guaza",
+   "age": null,
+   "position": null,
+   "club": "Orsomarso S.C",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "first_detected": null,
+   "last_seen": null
+  },
+  {
+   "name": "Miguel Ángel Agámez Cabarcas",
+   "age": null,
+   "position": null,
+   "club": "Barranquilla F.C",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "first_detected": null,
+   "last_seen": null
+  },
+  {
+   "name": "Juan David Altamiranda Vásquez",
+   "age": null,
+   "position": null,
+   "club": "Atlético Nacional",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "first_detected": null,
+   "last_seen": null
   },
   {
    "name": "Saviolo",
@@ -2201,38 +2828,6 @@
    "review_flags": "club_mancante,eta_mancante,fonte_singola",
    "first_detected": "2026-07-03T09:18:37.487425",
    "last_seen": "2026-07-03T09:18:37.487425"
-  },
-  {
-   "name": "Samu",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Spain",
-   "gender": "unknown",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "tiktok.com",
-     "url": "https://www.tiktok.com/@bolanatrave.2.0/video/7641373248290098448",
-     "seen": "2026-07-11T13:18:59.344151"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "nome_singolo,club_mancante,eta_mancante,fonte_singola",
-   "first_detected": "2026-07-11T13:18:59.344151",
-   "last_seen": "2026-07-11T13:18:59.344151"
   },
   {
    "name": "Juan Villalba",
