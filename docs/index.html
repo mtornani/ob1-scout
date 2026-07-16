@@ -122,7 +122,8 @@
   document.getElementById('st-pub').textContent = data.publishable ?? 0;
   document.getElementById('st-trk').textContent = data.tracking ?? 0;
   const upd = data.generated_at ? new Date(data.generated_at) : null;
-  document.getElementById('st-upd').textContent = upd
+  const validDate = upd && !isNaN(upd.getTime());
+  document.getElementById('st-upd').textContent = validDate
     ? upd.toLocaleDateString('it-IT', {day: '2-digit', month: '2-digit'}) : '–';
   document.getElementById('stats').hidden = false;
   document.getElementById('foot').hidden = false;

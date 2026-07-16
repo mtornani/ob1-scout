@@ -134,10 +134,9 @@ class OB1DatabaseV2:
                 )
             """)
             # Migrazione leggera per DB v2 creati prima della colonna notified
-            try:
+            cols = {row[1] for row in c.execute("PRAGMA table_info(players)")}
+            if "notified" not in cols:
                 c.execute("ALTER TABLE players ADD COLUMN notified INTEGER DEFAULT 0")
-            except sqlite3.OperationalError:
-                pass
             c.execute("""
                 CREATE TABLE IF NOT EXISTS evidences (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
