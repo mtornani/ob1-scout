@@ -28,17 +28,21 @@ def export(db_path: Path, out_path: Path) -> dict:
     conn = sqlite3.connect(str(db_path))
     conn.row_factory = sqlite3.Row
 
+    # Pre-carica le fonti in una sola query (evita N+1 col crescere del DB)
+    sources_by_player = {}
+    for r in conn.execute(
+            """SELECT player_id, source_domain, source_url,
+                      MIN(observed_at) AS observed_at
+               FROM evidences WHERE source_domain != ''
+               GROUP BY player_id, source_domain ORDER BY observed_at"""):
+        sources_by_player.setdefault(r["player_id"], []).append(
+            {"domain": r["source_domain"], "url": r["source_url"],
+             "seen": r["observed_at"]})
+
     players = []
     for p in conn.execute("SELECT * FROM players ORDER BY score DESC"):
         pid = p["id"]
-        sources = [
-            {"domain": r["source_domain"], "url": r["source_url"],
-             "seen": r["observed_at"]}
-            for r in conn.execute(
-                """SELECT source_domain, source_url, MIN(observed_at) AS observed_at
-                   FROM evidences WHERE player_id=? AND source_domain != ''
-                   GROUP BY source_domain ORDER BY observed_at""", (pid,))
-        ]
+        sources = sources_by_player.get(pid, [])
         stats = json.loads(p["stats_json"]) if p["stats_json"] else {}
         sc = score_player(
             age=p["age"], is_ghost=bool(p["is_ghost"]), club=p["club"],
