@@ -1,9 +1,8 @@
-name: OB1 Global Radar - Automated Scan
+name: OB1 Global Radar v1 (pensionata - solo manuale)
 
+# PENSIONATA il 20/07/2026: sostituita da global-radar-v2.yml.
+# Il cron e' spento; resta il trigger manuale come archivio/confronto.
 on:
-  schedule:
-    # Runs every 6 hours (UTC)
-    - cron: '0 */6 * * *'
   workflow_dispatch: # Allows manual trigger
 
 jobs:

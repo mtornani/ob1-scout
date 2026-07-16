@@ -128,10 +128,16 @@ class OB1DatabaseV2:
                     stats_json TEXT,
                     score INTEGER,
                     confidence REAL,
+                    notified INTEGER DEFAULT 0,
                     legacy_id INTEGER,
                     created_at TEXT
                 )
             """)
+            # Migrazione leggera per DB v2 creati prima della colonna notified
+            try:
+                c.execute("ALTER TABLE players ADD COLUMN notified INTEGER DEFAULT 0")
+            except sqlite3.OperationalError:
+                pass
             c.execute("""
                 CREATE TABLE IF NOT EXISTS evidences (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -352,6 +358,25 @@ class OB1DatabaseV2:
             conn.commit()
         return pid, status
 
+
+    # ---- Notifiche (cutover) ----
+    def publishable_to_notify(self) -> list:
+        """Giocatori pubblicabili non ancora notificati: lista di dict."""
+        with self._conn() as conn:
+            conn.row_factory = sqlite3.Row
+            rows = conn.execute("""
+                SELECT id, canonical_name, age, position, club, league, region, score
+                FROM players WHERE publishable=1 AND COALESCE(notified,0)=0
+                ORDER BY score DESC""").fetchall()
+            return [dict(r) for r in rows]
+
+    def mark_notified(self, ids: list):
+        if not ids:
+            return
+        with self._conn() as conn:
+            conn.executemany("UPDATE players SET notified=1 WHERE id=?",
+                             [(i,) for i in ids])
+            conn.commit()
 
     # ---- Corroborazione attiva (Fase B3+) ----
     def player_domains(self, pid: int) -> set:

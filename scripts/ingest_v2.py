@@ -122,6 +122,34 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
                 stats["corroborated"] += 1
                 break
 
+    # --- Notifica Telegram: nuovi giocatori PUBBLICABILI (una volta sola) ---
+    to_notify = db.publishable_to_notify()
+    if to_notify:
+        token = os.getenv("TELEGRAM_BOT_TOKEN", "")
+        chat_id = os.getenv("TELEGRAM_CHAT_ID", "")
+        if token and chat_id:
+            import requests
+            lines = [f"<b>OB1 SCOUT v2</b>  {datetime.now().strftime('%d/%m %H:%M')}",
+                     f"✅ {len(to_notify)} nuovo/i profilo/i verificato/i (≥2 fonti):", ""]
+            for p in to_notify[:8]:
+                bits = [str(p.get("age") or "?") + "y", p.get("position") or "?",
+                        p.get("club") or "?"]
+                lines.append(f"• <b>{p['canonical_name']}</b> — {' · '.join(bits)} [{p['score']}]")
+            lines.append('\n<a href="https://mtornani.github.io/ob1-scout/">Dashboard</a>')
+            try:
+                r = requests.post(
+                    f"https://api.telegram.org/bot{token}/sendMessage",
+                    json={"chat_id": chat_id, "text": "\n".join(lines),
+                          "parse_mode": "HTML"}, timeout=10)
+                if r.status_code == 200:
+                    db.mark_notified([p["id"] for p in to_notify])
+                    stats["notified"] = len(to_notify)
+            except Exception as e:
+                print(f"Notifica Telegram fallita (non bloccante): {e}")
+        else:
+            # niente config Telegram: non marcare, riprova al prossimo run
+            stats["notify_skipped_no_config"] = len(to_notify)
+
     stats["llm_calls"] = calls_used
     for provider, n in extractor.stats.items():
         stats[f"via_{provider}"] = n

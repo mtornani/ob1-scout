@@ -1,0 +1,72 @@
+name: OB1 Scout v2 - Radar
+
+# Pipeline v2 in produzione: source-first, gate a 2 fonti, corroborazione
+# attiva. Sostituisce la v1 (pensionata: global-radar.yml resta solo manuale).
+on:
+  schedule:
+    - cron: '30 */6 * * *'   # ogni 6 ore (offset :30 per evitare i picchi GH)
+  workflow_dispatch:
+    inputs:
+      llm_budget:
+        description: "Max chiamate LLM per run"
+        required: false
+        default: "15"
+
+concurrency:
+  group: radar-v2
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Seed v2 DB (solo primo run — migra i 67 giocatori v1)
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          if [ ! -f data/ob1_v2.db ]; then
+            echo "Primo run: seed dalla produzione v1"
+            python scripts/migrate_to_v2.py
+          else
+            echo "DB v2 presente, nessun seed"
+          fi
+
+      - name: Run v2 ingest (source-first + corroborazione)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          INGEST_LLM_BUDGET: ${{ github.event.inputs.llm_budget || '15' }}
+          PYTHONPATH: ${{ github.workspace }}
+        run: python scripts/ingest_v2.py
+
+      - name: Export dashboard v2
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: python scripts/export_dashboard_v2.py
+
+      - name: Commit e push dati
+        run: |
+          git config --global user.name "OB1 Scout Bot"
+          git config --global user.email "bot@ob1-radar.com"
+          git add -f data/ob1_v2.db docs/data/players_v2.json
+          git commit -m "Radar v2: $(date -u '+%Y-%m-%d %H:%M UTC')" || echo "Nessun cambiamento"
+          git pull --rebase origin main
+          git push

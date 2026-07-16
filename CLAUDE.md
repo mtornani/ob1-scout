@@ -1,53 +1,50 @@
 # OB1 Scout — Istruzioni per sessioni Claude
 
-## REGOLE PILOTA K-SPORT (in vigore fino a fine pilota ~settembre 2026)
+## STATO: v2 in produzione (dal 20 luglio 2026) — v1 pensionata
 
-Questo repo è in produzione AS-IS per un test pilota di 3 mesi
-presso ~5 squadre selezionate dal partner K-Sport. Il sistema
-viene valutato così come è. Qualsiasi modifica al comportamento
-del sistema durante il pilota invalida il test.
+Il "FREEZE PILOTA K-SPORT" non è più in vigore: il pilota non è mai partito
+formalmente e la disciplina auto-imposta si è chiusa con la Fase B. La v2 è
+il sistema principale; la v1 è pensionata (il suo workflow resta solo
+manuale, come archivio).
 
-REGOLE OBBLIGATORIE per qualsiasi sessione di lavoro su questo
-repo durante il pilota:
+## Il sistema (v2)
 
-1. PRIMA di applicare qualsiasi modifica, leggi il commento
-   "FREEZE PILOTA K-SPORT" presente in testa ai file di scoring.
-   Se la tua modifica tocca uno di questi file, FERMATI e
-   chiedi conferma esplicita all'utente.
+Radar di scouting source-first: monitora fonti curate (config/sources.json),
+estrae giocatori con l'LLM usato SOLO come estrattore tipizzato, accumula
+prove per entità, e pubblica solo profili con identità completa e ≥2 fonti
+indipendenti (gate). Scoring trasparente in codice (merito × confidenza).
+Promessa di prodotto: "ogni nome che diamo regge una telefonata di verifica".
 
-2. NON ricostruire file da snapshot, system-reminder, o branch
-   alternativi senza chiedere. Il baseline è lo stato di main
-   al momento dell'inizio del task. Se hai bisogno di git reset
-   durante l'esecuzione, FERMATI e chiedi prima di procedere.
+- Pipeline: `.github/workflows/global-radar-v2.yml` (cron 6h) →
+  `scripts/ingest_v2.py` → `data/ob1_v2.db` → `scripts/export_dashboard_v2.py`
+  → `docs/data/players_v2.json` → dashboard `docs/index.html`
+- Core: `src/{database,scoring,extractor,sources,outcomes,corroborate}_v2.py`
+- Strumenti: `scripts/dossier_v2.py` (dossier on-demand), `scripts/rank_v2.py`,
+  `scripts/compare_llm.py`, `scripts/player_lookup.py`
+- LLM: Gemini free tier primario, fallback Groq su 429 (prompt ridotto a
+  GROQ_MAX_CHARS per il TPM). Budget chiamate per run: INGEST_LLM_BUDGET.
+- Design di riferimento: FASE_B.md (audit Fase A + architettura v2).
 
-3. NON aggiungere features non richieste, anche se sembrano
-   miglioramenti tecnici evidenti. Il pilota è AS-IS:
-   miglioramenti possibili vanno discussi in Fase B post-pilota
-   con il partner.
+## Regole di lavoro
 
-4. Modifiche LEGITTIME durante il pilota sono SOLO:
-   - Monitoring, alerting, sanity checks
-   - Bug fix esplicitamente richiesti
-   - UX/display senza impatto sull'output di scoring
-   - Tracciabilità accessi utenti
-   - Documentazione (README, METRICS.md interno)
+1. **Non rompere la produzione.** La pipeline v2 gira da `main` ogni 6h.
+   Se un cambio rischia di fermarla, FERMATI e segnalalo. La v1
+   (`scripts/run_pipeline.py`, `src/intelligence.py`, ecc.) è pensionata:
+   non svilupparci sopra, non riattivarne il cron senza richiesta esplicita.
 
-5. Modifiche VIETATE durante il pilota:
-   - Pesi e soglie di scoring (HOT/WARM/COLD)
-   - Formule di scoring
-   - Rubriche di scoring nei prompt LLM
-   - Query dello scraper (lista, contenuto, numero)
-   - Filtri pre-scoring (età, lega, categoria)
-   - Backend LLM (Gemini resta Gemini)
-   - Logiche di deduplicazione che incidono sullo scoring
+2. **I cambi a scoring/gate si validano coi dati, non a intuito.** Pesi,
+   soglie e gate si possono cambiare, ma un cambio diventa default solo dopo
+   un confronto su dati reali (rank_v2, outcome). Niente ritarature "a naso".
 
-6. SE incontri una situazione ambigua o non documentata,
-   presenta opzioni, NON decidere autonomamente.
+3. **Non ricostruire file da snapshot o branch alternativi senza chiedere.**
+   Per git reset/ripristini, FERMATI e chiedi prima.
 
-7. AL TERMINE di ogni task: confronta git diff con il baseline
-   atteso e segnala esplicitamente modifiche fuori perimetro
-   PRIMA del commit.
+4. **Sulle scelte di prodotto ambigue, presenta opzioni.** Aperte: scope di
+   genere (oggi 'unknown', non filtrato), regioni prioritarie del registro
+   fonti, eventuale budget pay-as-you-go per superare i limiti free tier.
 
-Riferimento incidente: commit 4250505 (revert) ha ripristinato
-modifiche fuori perimetro introdotte in 630e286. Questa policy
-nasce per evitare il ripetersi.
+5. **Prima del commit, confronta il git diff con l'atteso** e segnala
+   modifiche fuori perimetro.
+
+6. I banner "FREEZE PILOTA K-SPORT" ancora presenti nei file v1 sono
+   obsoleti: ignorali (e rimuovili se capita di toccare quei file).
