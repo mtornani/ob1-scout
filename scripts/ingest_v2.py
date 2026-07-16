@@ -57,7 +57,7 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
     try:
         call_delay = max(0.0, float(os.getenv("INGEST_CALL_DELAY", "12")))
     except (ValueError, TypeError):
-        call_delay = 7.0
+        call_delay = 12.0
 
     for src in sources:
         if calls_used >= extract_budget:
