@@ -621,33 +621,6 @@
     ]
   },
   {
-    "id": 50,
-    "player_name": "João Cruz",
-    "detection_date": "2026-06-01 17:39:25",
-    "source_url": "https://br.bolavip.com/futebol/joao-cruz-destaque-do-athletico-pr-lidera-ranking-de-participacoes-em-gols-entre-atletas-sub-20-no-brasil",
-    "score": 82.3,
-    "raw_content": "Lidera o ranking de participações em gols entre atletas sub-20 no Brasil, indicando um desempenho ofensivo excepcional. Joga em um clube brasileiro de destaque, mas não um gigante europeu, o que sugere uma assimetria informativa real para o mercado internacional. A falta de menção de idade exata (apenas 'sub-20') e posição específica mantém um certo grau de 'ghost' potencial.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 19,
-    "position": "CAM/LW/RW/ST",
-    "club": "Athletico-PR",
-    "league": "Brasileirão Série A",
-    "stats_summary": "2025-2026. Primeira Liga. Champions Lg. MP. 18. 10. Min. 756. 647. Gls. 0. 0. Ast. 1. 0. * see our coverage note. João Simões Menu. João Simões Overview; More ... | João Simões is 19 years old (Jan 6, 2007), 178 cm tall and plays for Sporting CP. João Simões prefers to play with left foot. His jersey number is 52. | Check out 2025-2026's records, goals, statistics and playing time for João Simões Match Logs.",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T17:39:25.162813",
-    "last_seen": "2026-07-14T19:20:54.926245",
-    "detection_count": 35,
-    "score_history": "[{\"score\": 85, \"date\": \"2026-06-13T19:26:31.088651\"}, {\"score\": 85, \"date\": \"2026-06-16T04:06:42.036671\"}, {\"score\": 85, \"date\": \"2026-06-18T03:58:47.994965\"}, {\"score\": 85, \"date\": \"2026-06-20T08:57:30.916619\"}, {\"score\": 82, \"date\": \"2026-06-29T04:55:56.524074\"}, {\"score\": 85, \"date\": \"2026-06-29T15:47:08.017187\"}, {\"score\": 70, \"date\": \"2026-07-01T03:53:22.830735\"}, {\"score\": 80, \"date\": \"2026-07-01T09:47:54.528593\"}, {\"score\": 82, \"date\": \"2026-07-03T19:23:25.498948\"}, {\"score\": 85, \"date\": \"2026-07-05T03:23:38.259071\"}, {\"score\": 70, \"date\": \"2026-07-05T03:23:41.936221\"}, {\"score\": 82, \"date\": \"2026-07-06T15:33:14.796541\"}, {\"score\": 82, \"date\": \"2026-07-07T14:33:48.907225\"}, {\"score\": 82, \"date\": \"2026-07-08T02:39:57.127601\"}, {\"score\": 85, \"date\": \"2026-07-09T14:59:37.317095\"}, {\"score\": 80, \"date\": \"2026-07-11T02:37:06.416586\"}, {\"score\": 80, \"date\": \"2026-07-11T13:18:58.597144\"}, {\"score\": 78, \"date\": \"2026-07-12T19:06:31.037095\"}, {\"score\": 85, \"date\": \"2026-07-14T08:05:31.480169\"}, {\"score\": 82, \"date\": \"2026-07-14T19:20:54.926245\"}]",
-    "source_count": 1,
-    "lead_time_days": 0,
-    "ob1_detection_date": "2026-06-01T17:39:25.162813",
-    "mainstream_source": "https://www.espn.com/soccer/player/_/id/361359/joao-cruz",
-    "sources": [
-      "https://br.bolavip.com/futebol/joao-cruz-destaque-do-athletico-pr-lidera-ranking-de-participacoes-em-gols-entre-atletas-sub-20-no-brasil"
-    ]
-  },
-  {
     "id": 76,
     "player_name": "Francisco Sorondo",
     "detection_date": "2026-06-20 19:27:19",
@@ -780,6 +753,33 @@
     "mainstream_source": "https://www.marca.com/futbol/betis/2026/03/15/morante-recoge-testigo-joaquin-lidera-generacion-campeona.html",
     "sources": [
       "ingest_1773731069.md"
+    ]
+  },
+  {
+    "id": 50,
+    "player_name": "João Cruz",
+    "detection_date": "2026-06-01 17:39:25",
+    "source_url": "https://br.bolavip.com/futebol/joao-cruz-destaque-do-athletico-pr-lidera-ranking-de-participacoes-em-gols-entre-atletas-sub-20-no-brasil",
+    "score": 80.7,
+    "raw_content": "Lidera o ranking nacional sub-20 de participações em gols no Brasil. Desempenho estatístico concreto e de destaque em uma liga nacional competitiva (Série A), por um clube de bom nível, mas sem visibilidade internacional massiva. A idade é confirmada como 'sub-20' pelo artigo.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 19,
+    "position": "CAM/LW/RW/ST",
+    "club": "Athletico-PR",
+    "league": "Brasileirão Série A",
+    "stats_summary": "2025-2026. Primeira Liga. Champions Lg. MP. 18. 10. Min. 756. 647. Gls. 0. 0. Ast. 1. 0. * see our coverage note. João Simões Menu. João Simões Overview; More ... | João Simões is 19 years old (Jan 6, 2007), 178 cm tall and plays for Sporting CP. João Simões prefers to play with left foot. His jersey number is 52. | Check out 2025-2026's records, goals, statistics and playing time for João Simões Match Logs.",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T17:39:25.162813",
+    "last_seen": "2026-07-16T08:13:32.907386",
+    "detection_count": 36,
+    "score_history": "[{\"score\": 85, \"date\": \"2026-06-16T04:06:42.036671\"}, {\"score\": 85, \"date\": \"2026-06-18T03:58:47.994965\"}, {\"score\": 85, \"date\": \"2026-06-20T08:57:30.916619\"}, {\"score\": 82, \"date\": \"2026-06-29T04:55:56.524074\"}, {\"score\": 85, \"date\": \"2026-06-29T15:47:08.017187\"}, {\"score\": 70, \"date\": \"2026-07-01T03:53:22.830735\"}, {\"score\": 80, \"date\": \"2026-07-01T09:47:54.528593\"}, {\"score\": 82, \"date\": \"2026-07-03T19:23:25.498948\"}, {\"score\": 85, \"date\": \"2026-07-05T03:23:38.259071\"}, {\"score\": 70, \"date\": \"2026-07-05T03:23:41.936221\"}, {\"score\": 82, \"date\": \"2026-07-06T15:33:14.796541\"}, {\"score\": 82, \"date\": \"2026-07-07T14:33:48.907225\"}, {\"score\": 82, \"date\": \"2026-07-08T02:39:57.127601\"}, {\"score\": 85, \"date\": \"2026-07-09T14:59:37.317095\"}, {\"score\": 80, \"date\": \"2026-07-11T02:37:06.416586\"}, {\"score\": 80, \"date\": \"2026-07-11T13:18:58.597144\"}, {\"score\": 78, \"date\": \"2026-07-12T19:06:31.037095\"}, {\"score\": 85, \"date\": \"2026-07-14T08:05:31.480169\"}, {\"score\": 82, \"date\": \"2026-07-14T19:20:54.926245\"}, {\"score\": 80, \"date\": \"2026-07-16T08:13:32.907386\"}]",
+    "source_count": 1,
+    "lead_time_days": 0,
+    "ob1_detection_date": "2026-06-01T17:39:25.162813",
+    "mainstream_source": "https://www.espn.com/soccer/player/_/id/361359/joao-cruz",
+    "sources": [
+      "https://br.bolavip.com/futebol/joao-cruz-destaque-do-athletico-pr-lidera-ranking-de-participacoes-em-gols-entre-atletas-sub-20-no-brasil"
     ]
   },
   {
@@ -942,6 +942,33 @@
     "mainstream_source": null,
     "sources": [
       "https://www.palmeiras.com.br/noticias/destaque-na-copinha-eduardo-assina-primeiro-contrato-profissional-com-palmeiras/"
+    ]
+  },
+  {
+    "id": 64,
+    "player_name": "Pedro Ferreira",
+    "detection_date": "2026-06-12 10:14:17",
+    "source_url": "https://spfc24horas.com.br/conheca-os-jogadores-do-sub-17-que-disputarao-a-copinha-2026/",
+    "score": 78.9,
+    "raw_content": "Atacante de 18 anos com estatísticas concretas e impressionantes: 20 gols no ano passado, incluindo 6 na Copa do Brasil Sub-20 de 2024 e um gol decisivo na final. Joga em um grande clube brasileiro (São Paulo), mas ainda com boa assimetria informativa a nível internacional.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 18,
+    "position": "Attacker",
+    "club": "São Paulo",
+    "league": "Brasileirão Série A",
+    "stats_summary": null,
+    "is_ghost": 0,
+    "first_detected": "2026-06-12T10:14:17.417292",
+    "last_seen": "2026-07-16T08:13:33.452923",
+    "detection_count": 6,
+    "score_history": "[{\"score\": 70, \"date\": \"2026-06-12T10:14:17.417292\"}, {\"score\": 70, \"date\": \"2026-06-12T14:59:14.846335\"}, {\"score\": 70, \"date\": \"2026-06-14T14:03:28.007423\"}, {\"score\": 78, \"date\": \"2026-07-15T13:43:51.016267\"}, {\"score\": 70, \"date\": \"2026-07-16T02:34:28.388538\"}, {\"score\": 82, \"date\": \"2026-07-16T08:13:33.452923\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-12T10:14:17.417292",
+    "mainstream_source": null,
+    "sources": [
+      "https://spfc24horas.com.br/conheca-os-jogadores-do-sub-17-que-disputarao-a-copinha-2026/"
     ]
   },
   {
@@ -1617,33 +1644,6 @@
     "mainstream_source": "https://www.skysports.com/football/news/11835/8881310/santos-midfielder-alan-santos-confirms-real-madrid-offer",
     "sources": [
       "https://ge.globo.com/futebol/times/flamengo/noticia/2026/03/16/quem-sao-os-jovens-que-se-destacam-na-libertadores-sub-20-e-podem-aparecer-no-profissional-do-flamengo.ghtml"
-    ]
-  },
-  {
-    "id": 64,
-    "player_name": "Pedro Ferreira",
-    "detection_date": "2026-06-12 10:14:17",
-    "source_url": "https://spfc24horas.com.br/conheca-os-jogadores-do-sub-17-que-disputarao-a-copinha-2026/",
-    "score": 71.7,
-    "raw_content": "Jugador muy joven (16 años) que ya está siendo considerado para la Copinha, un torneo juvenil de gran relevancia en Brasil. Su principal característica es la 'finalización', lo que sugiere un perfil goleador. A pesar de estar en un club grande como São Paulo, su corta edad y el inicio de su carrera en la Copinha indican una baja visibilidad internacional y un alto potencial de crecimiento.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 16,
-    "position": "ST/CAM",
-    "club": "São Paulo",
-    "league": "Campeonato Brasileiro Série A (youth)",
-    "stats_summary": null,
-    "is_ghost": 0,
-    "first_detected": "2026-06-12T10:14:17.417292",
-    "last_seen": "2026-07-16T02:34:28.388538",
-    "detection_count": 5,
-    "score_history": "[{\"score\": 70, \"date\": \"2026-06-12T10:14:17.417292\"}, {\"score\": 70, \"date\": \"2026-06-12T14:59:14.846335\"}, {\"score\": 70, \"date\": \"2026-06-14T14:03:28.007423\"}, {\"score\": 78, \"date\": \"2026-07-15T13:43:51.016267\"}, {\"score\": 70, \"date\": \"2026-07-16T02:34:28.388538\"}]",
-    "source_count": 1,
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-06-12T10:14:17.417292",
-    "mainstream_source": null,
-    "sources": [
-      "https://spfc24horas.com.br/conheca-os-jogadores-do-sub-17-que-disputarao-a-copinha-2026/"
     ]
   },
   {
