@@ -26,6 +26,11 @@ logger = logging.getLogger(__name__)
 
 VALID_GENDERS = {"male", "female", "unknown"}
 
+# Tetto input per il SOLO fallback Groq: il free tier limita i token/minuto
+# (12k sul 70b) e una richiesta troppo grande fallisce con 413. Gemini invece
+# riceve il testo pieno (max_chars della chiamata). ~2800 char ≈ 2.2k token.
+GROQ_MAX_CHARS = 2800
+
 EXTRACTION_SYSTEM = """Sei un estrattore di dati calcistici. Leggi il testo di UNA fonte
 ed estrai OGNI giovane calciatore/calciatrice citato come soggetto (non allenatori,
 dirigenti, o giocatori nominati solo di sfuggita).
@@ -191,23 +196,30 @@ class OB1Extractor:
             raise RuntimeError(f"fallback HTTP {resp.status_code}: {resp.text[:200]}")
         return resp.json()["choices"][0]["message"]["content"] or ""
 
+    def _prompt(self, source_text: str, source_url: str, max_chars: int) -> str:
+        return EXTRACTION_PROMPT.format(
+            source_url=source_url or "n/d", source_text=source_text[:max_chars])
+
     def extract_from_source(self, source_text: str, source_url: str = "",
-                            max_chars: int = 2800):
+                            max_chars: int = 6000):
         """
         Una estrazione (Gemini o fallback) → lista di osservazioni normalizzate.
         Ritorna [] se l'estrazione è riuscita ma non ha trovato giocatori (fonte
         legittimamente vuota → si può marcare 'vista'). Ritorna None se TUTTI i
         provider hanno fallito (quota/errore) → l'orchestratore la ritenta dopo.
+
+        Gemini (primario) riceve il testo pieno (max_chars). Il fallback Groq lo
+        riceve ridotto a GROQ_MAX_CHARS per stare sotto il tetto token/minuto del
+        free tier — il limite stretto serve solo lì, non penalizza Gemini.
         """
         if not source_text:
             return []
-        prompt = EXTRACTION_PROMPT.format(
-            source_url=source_url or "n/d", source_text=source_text[:max_chars])
 
-        # 1) Gemini, se disponibile e non già esaurito
+        # 1) Gemini, se disponibile e non già esaurito — testo pieno
         if self.client and not self.gemini_exhausted:
             try:
-                raw = _extract_first_json_array(self._call_gemini(prompt))
+                raw = _extract_first_json_array(
+                    self._call_gemini(self._prompt(source_text, source_url, max_chars)))
                 self.stats["gemini"] += 1
                 return normalize_observations(raw, source_url)
             except Exception as e:
@@ -217,10 +229,12 @@ class OB1Extractor:
                 else:
                     logger.error(f"Gemini error {source_url}: {e}")
 
-        # 2) Fallback OpenAI-compatible
+        # 2) Fallback OpenAI-compatible (Groq) — testo ridotto per il TPM
         if self.fallback:
             try:
-                raw = _extract_first_json_array(self._call_fallback(prompt))
+                fb_chars = min(max_chars, GROQ_MAX_CHARS)
+                raw = _extract_first_json_array(
+                    self._call_fallback(self._prompt(source_text, source_url, fb_chars)))
                 self.stats["fallback"] += 1
                 return normalize_observations(raw, source_url)
             except Exception as e:
