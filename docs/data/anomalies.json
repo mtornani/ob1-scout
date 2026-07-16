@@ -216,33 +216,6 @@
     ]
   },
   {
-    "id": 45,
-    "player_name": "Londoño",
-    "detection_date": "2026-06-01 04:04:28",
-    "source_url": "https://chile.as.com/futbol/es-la-gran-promesa-de-colombia-y-llegara-al-futbol-chileno-17-anos-y-goleador-del-sudamericano-f202601-n/",
-    "score": 86.5,
-    "raw_content": "Identificado como 'la gran promesa de Colombia' a los 17 años, con estadísticas excepcionales en torneos juveniles internacionales: 5 goles en 6 partidos en el Sudamericano Sub-17 y 1 gol en 4 partidos del Mundial. Su inminente transferencia a una liga chilena, en lugar de un club europeo de élite, sugiere que su valor real aún no ha sido completamente descubierto por los grandes mercados, ofreciendo una máxima asimetría informativa.",
-    "region": "Colombia",
-    "status": "detected",
-    "age": 17,
-    "position": "ST",
-    "club": "Unnamed Chilean club",
-    "league": "Liga de Primera (Chile)",
-    "stats_summary": "2026. Liga FUTVE. Libertadores. MP. 16. 6. Min. 1114. 446. Gls. 4. 2. Ast. 0. * see our coverage note. Flabián Londoño Menu. Flabián Londoño Overview; More ... | 2026. Serie A. MP. 9. Min. 463. Gls. 1. Ast. 1. * see our coverage note. Azarias Londoño Overview; More Azarias Londoño Pages. Stats by Competition. All ... | Player stats of Flabián Londoño (Deportivo La Guaira) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data.",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T04:04:28.693036",
-    "last_seen": "2026-07-16T02:34:27.268311",
-    "detection_count": 27,
-    "score_history": "[{\"score\": 85, \"date\": \"2026-06-04T09:56:42.567210\"}, {\"score\": 82, \"date\": \"2026-06-06T08:34:15.680893\"}, {\"score\": 90, \"date\": \"2026-06-07T13:53:06.430174\"}, {\"score\": 85, \"date\": \"2026-06-07T19:23:11.589485\"}, {\"score\": 85, \"date\": \"2026-06-08T04:01:15.969530\"}, {\"score\": 85, \"date\": \"2026-06-08T10:55:11.211402\"}, {\"score\": 85, \"date\": \"2026-06-08T15:53:28.917588\"}, {\"score\": 82, \"date\": \"2026-06-11T03:58:57.636572\"}, {\"score\": 85, \"date\": \"2026-06-11T16:02:12.294991\"}, {\"score\": 86, \"date\": \"2026-06-20T08:57:35.936955\"}, {\"score\": 85, \"date\": \"2026-06-29T04:55:57.165533\"}, {\"score\": 80, \"date\": \"2026-07-02T03:34:47.887799\"}, {\"score\": 80, \"date\": \"2026-07-07T09:41:17.240319\"}, {\"score\": 87, \"date\": \"2026-07-09T09:40:41.741308\"}, {\"score\": 95, \"date\": \"2026-07-09T14:59:53.686411\"}, {\"score\": 82, \"date\": \"2026-07-10T19:28:00.405827\"}, {\"score\": 78, \"date\": \"2026-07-14T13:43:29.910636\"}, {\"score\": 78, \"date\": \"2026-07-14T19:20:58.409615\"}, {\"score\": 85, \"date\": \"2026-07-15T19:11:14.706241\"}, {\"score\": 88, \"date\": \"2026-07-16T02:34:27.268311\"}]",
-    "source_count": 1,
-    "lead_time_days": 0,
-    "ob1_detection_date": "2026-06-01T04:04:28.693036",
-    "mainstream_source": "https://espndeportes.espn.com/video/clip/_/id/16768225",
-    "sources": [
-      "https://chile.as.com/futbol/es-la-gran-promesa-de-colombia-y-llegara-al-futbol-chileno-17-anos-y-goleador-del-sudamericano-f202601-n/"
-    ]
-  },
-  {
     "id": 51,
     "player_name": "Jordan Garcia",
     "detection_date": "2026-06-01 21:34:25",
@@ -267,6 +240,33 @@
     "mainstream_source": "https://www.espn.com/soccer/player/_/id/378912/jordan-garcia",
     "sources": [
       "https://billionhands.com/es/ranking/deportes/jovenes-promesas-del-futbol-sudamericano-69cf5a558e5be409898599a6"
+    ]
+  },
+  {
+    "id": 45,
+    "player_name": "Londoño",
+    "detection_date": "2026-06-01 04:04:28",
+    "source_url": "https://chile.as.com/futbol/es-la-gran-promesa-de-colombia-y-llegara-al-futbol-chileno-17-anos-y-goleador-del-sudamericano-f202601-n/",
+    "score": 85.4,
+    "raw_content": "Jovem promessa colombiana de 17 anos, goleador do Sul-Americano Sub-17 de 2025 com 5 gols em 6 partidas (segundo maior artilheiro) e 1 gol em 4 jogos no Mundial Sub-17. Estatísticas de gol muito fortes em competições internacionais de base. Está a caminho do futebol chileno, uma liga de menor visibilidade global, o que pode proporcionar mais minutos e desenvolvimento longe dos holofotes europeus. Embora seja uma 'grande promessa' em sua região, a visibilidade internacional ainda não é máxima, indicando boa assimetria.",
+    "region": "Colombia",
+    "status": "detected",
+    "age": 17,
+    "position": "ST",
+    "club": "Unnamed Chilean club",
+    "league": "Chilean league",
+    "stats_summary": "2026. Liga FUTVE. Libertadores. MP. 16. 6. Min. 1114. 446. Gls. 4. 2. Ast. 0. * see our coverage note. Flabián Londoño Menu. Flabián Londoño Overview; More ... | 2026. Serie A. MP. 9. Min. 463. Gls. 1. Ast. 1. * see our coverage note. Azarias Londoño Overview; More Azarias Londoño Pages. Stats by Competition. All ... | Player stats of Flabián Londoño (Deportivo La Guaira) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data.",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T04:04:28.693036",
+    "last_seen": "2026-07-16T13:49:44.496250",
+    "detection_count": 28,
+    "score_history": "[{\"score\": 82, \"date\": \"2026-06-06T08:34:15.680893\"}, {\"score\": 90, \"date\": \"2026-06-07T13:53:06.430174\"}, {\"score\": 85, \"date\": \"2026-06-07T19:23:11.589485\"}, {\"score\": 85, \"date\": \"2026-06-08T04:01:15.969530\"}, {\"score\": 85, \"date\": \"2026-06-08T10:55:11.211402\"}, {\"score\": 85, \"date\": \"2026-06-08T15:53:28.917588\"}, {\"score\": 82, \"date\": \"2026-06-11T03:58:57.636572\"}, {\"score\": 85, \"date\": \"2026-06-11T16:02:12.294991\"}, {\"score\": 86, \"date\": \"2026-06-20T08:57:35.936955\"}, {\"score\": 85, \"date\": \"2026-06-29T04:55:57.165533\"}, {\"score\": 80, \"date\": \"2026-07-02T03:34:47.887799\"}, {\"score\": 80, \"date\": \"2026-07-07T09:41:17.240319\"}, {\"score\": 87, \"date\": \"2026-07-09T09:40:41.741308\"}, {\"score\": 95, \"date\": \"2026-07-09T14:59:53.686411\"}, {\"score\": 82, \"date\": \"2026-07-10T19:28:00.405827\"}, {\"score\": 78, \"date\": \"2026-07-14T13:43:29.910636\"}, {\"score\": 78, \"date\": \"2026-07-14T19:20:58.409615\"}, {\"score\": 85, \"date\": \"2026-07-15T19:11:14.706241\"}, {\"score\": 88, \"date\": \"2026-07-16T02:34:27.268311\"}, {\"score\": 85, \"date\": \"2026-07-16T13:49:44.496250\"}]",
+    "source_count": 1,
+    "lead_time_days": 0,
+    "ob1_detection_date": "2026-06-01T04:04:28.693036",
+    "mainstream_source": "https://espndeportes.espn.com/video/clip/_/id/16768225",
+    "sources": [
+      "https://chile.as.com/futbol/es-la-gran-promesa-de-colombia-y-llegara-al-futbol-chileno-17-anos-y-goleador-del-sudamericano-f202601-n/"
     ]
   },
   {
@@ -456,33 +456,6 @@
     "mainstream_source": null,
     "sources": [
       "https://www.soy502.com/articulo/nelson-andrade-joven-promesa-futbol-guatemala-101999"
-    ]
-  },
-  {
-    "id": 46,
-    "player_name": "Luis Benedetti",
-    "detection_date": "2026-06-01 05:31:43",
-    "source_url": "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/",
-    "score": 83.3,
-    "raw_content": "Zaguero central zurdo de 1.98m con un impresionante registro goleador para su posición (10 goles en el Sub-20 en 2024). Ha ganado títulos Sub-17 y está proyectado para ganar más minutos en el primer equipo del Palmeiras en 2026. Aunque juega en un club brasileño de primera línea, su visibilidad internacional es aún baja, y sus estadísticas concretas y atributos físicos lo convierten en un talento con alta asimetría informativa antes de su consolidación en el fútbol profesional.",
-    "region": "Brazil",
-    "status": "detected",
-    "age": 19,
-    "position": "CB",
-    "club": "Palmeiras",
-    "league": "Campeonato Brasileiro Série A (youth/debuted)",
-    "stats_summary": "Player stats of Luis Benedetti (SE Palmeiras São Paulo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Become a Stathead & surf this site ad-free. 2026. Série A. MP. 1. Min. 8. Gls. 0. Ast. 0. * see our coverage note. Luis Benedetti Overview; More Luis Benedetti ... | Luis Benedetti career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Palmeiras ...",
-    "is_ghost": 0,
-    "first_detected": "2026-06-01T05:31:43.066722",
-    "last_seen": "2026-07-16T02:34:27.617165",
-    "detection_count": 61,
-    "score_history": "[{\"score\": 78, \"date\": \"2026-07-06T10:21:42.074835\"}, {\"score\": 85, \"date\": \"2026-07-07T14:33:47.803916\"}, {\"score\": 72, \"date\": \"2026-07-07T19:55:41.345028\"}, {\"score\": 70, \"date\": \"2026-07-08T14:06:50.006750\"}, {\"score\": 78, \"date\": \"2026-07-08T19:26:05.953297\"}, {\"score\": 78, \"date\": \"2026-07-09T02:58:56.755706\"}, {\"score\": 82, \"date\": \"2026-07-09T14:59:39.708780\"}, {\"score\": 80, \"date\": \"2026-07-10T19:27:58.593568\"}, {\"score\": 78, \"date\": \"2026-07-11T02:37:06.767044\"}, {\"score\": 80, \"date\": \"2026-07-11T07:55:53.152495\"}, {\"score\": 85, \"date\": \"2026-07-12T13:19:26.984983\"}, {\"score\": 85, \"date\": \"2026-07-13T09:26:58.702413\"}, {\"score\": 85, \"date\": \"2026-07-13T14:34:17.537301\"}, {\"score\": 70, \"date\": \"2026-07-13T19:23:42.001089\"}, {\"score\": 88, \"date\": \"2026-07-14T08:05:36.033364\"}, {\"score\": 75, \"date\": \"2026-07-14T13:43:25.755862\"}, {\"score\": 78, \"date\": \"2026-07-15T02:26:55.118631\"}, {\"score\": 78, \"date\": \"2026-07-15T08:10:20.490726\"}, {\"score\": 80, \"date\": \"2026-07-15T13:43:50.194619\"}, {\"score\": 85, \"date\": \"2026-07-16T02:34:27.617165\"}]",
-    "source_count": 1,
-    "lead_time_days": null,
-    "ob1_detection_date": "2026-06-01T05:31:43.066722",
-    "mainstream_source": null,
-    "sources": [
-      "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
     ]
   },
   {
@@ -753,6 +726,33 @@
     "mainstream_source": "https://www.marca.com/futbol/betis/2026/03/15/morante-recoge-testigo-joaquin-lidera-generacion-campeona.html",
     "sources": [
       "ingest_1773731069.md"
+    ]
+  },
+  {
+    "id": 46,
+    "player_name": "Luis Benedetti",
+    "detection_date": "2026-06-01 05:31:43",
+    "source_url": "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/",
+    "score": 81.0,
+    "raw_content": "Zagueiro canhoto de 1,98m com excelente jogo aéreo e boa saída de bola. Destaque por ter marcado 10 gols no sub-20 em 2024, estatística excepcional para um defensor. Já estreou no profissional. Embora jogue em um clube grande brasileiro, ainda não tem visibilidade internacional massiva, indicando boa assimetria informativa. As estatísticas concretas são muito fortes.",
+    "region": "Brazil",
+    "status": "detected",
+    "age": 19,
+    "position": "CB",
+    "club": "Palmeiras",
+    "league": "Brasileirão Série A",
+    "stats_summary": "Player stats of Luis Benedetti (SE Palmeiras São Paulo) ➤ Goals ➤ Assists ➤ Matches played ➤ All performance data. | Become a Stathead & surf this site ad-free. 2026. Série A. MP. 1. Min. 8. Gls. 0. Ast. 0. * see our coverage note. Luis Benedetti Overview; More Luis Benedetti ... | Luis Benedetti career statistics, match ratings, heatmap and goals are available on Sofascore for current and previous seasons. Last player match was Palmeiras ...",
+    "is_ghost": 0,
+    "first_detected": "2026-06-01T05:31:43.066722",
+    "last_seen": "2026-07-16T13:49:44.169910",
+    "detection_count": 62,
+    "score_history": "[{\"score\": 85, \"date\": \"2026-07-07T14:33:47.803916\"}, {\"score\": 72, \"date\": \"2026-07-07T19:55:41.345028\"}, {\"score\": 70, \"date\": \"2026-07-08T14:06:50.006750\"}, {\"score\": 78, \"date\": \"2026-07-08T19:26:05.953297\"}, {\"score\": 78, \"date\": \"2026-07-09T02:58:56.755706\"}, {\"score\": 82, \"date\": \"2026-07-09T14:59:39.708780\"}, {\"score\": 80, \"date\": \"2026-07-10T19:27:58.593568\"}, {\"score\": 78, \"date\": \"2026-07-11T02:37:06.767044\"}, {\"score\": 80, \"date\": \"2026-07-11T07:55:53.152495\"}, {\"score\": 85, \"date\": \"2026-07-12T13:19:26.984983\"}, {\"score\": 85, \"date\": \"2026-07-13T09:26:58.702413\"}, {\"score\": 85, \"date\": \"2026-07-13T14:34:17.537301\"}, {\"score\": 70, \"date\": \"2026-07-13T19:23:42.001089\"}, {\"score\": 88, \"date\": \"2026-07-14T08:05:36.033364\"}, {\"score\": 75, \"date\": \"2026-07-14T13:43:25.755862\"}, {\"score\": 78, \"date\": \"2026-07-15T02:26:55.118631\"}, {\"score\": 78, \"date\": \"2026-07-15T08:10:20.490726\"}, {\"score\": 80, \"date\": \"2026-07-15T13:43:50.194619\"}, {\"score\": 85, \"date\": \"2026-07-16T02:34:27.617165\"}, {\"score\": 80, \"date\": \"2026-07-16T13:49:44.169910\"}]",
+    "source_count": 1,
+    "lead_time_days": null,
+    "ob1_detection_date": "2026-06-01T05:31:43.066722",
+    "mainstream_source": null,
+    "sources": [
+      "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/"
     ]
   },
   {
