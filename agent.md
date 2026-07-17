@@ -43,4 +43,7 @@ User Profile (Peterson Big Five)
 
 ## Next step prodotto
 
-Qualità shortlist + run stabili. Cliente. Non più codice decorative.
+Codice shortlist v2 **shippato** (gate ≥2, corr-first, circuit breaker free-tier,
+FAQ/assessment, omonimi guard). Prossimo lavoro **non è codice**:
+cliente pagante + eventuale budget LLM se free tier blocca i run di giorno.
+Non più feature decorative.
