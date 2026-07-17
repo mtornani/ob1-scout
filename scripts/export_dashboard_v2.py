@@ -24,6 +24,74 @@ from src.scoring_v2 import score_player
 ROOT = Path(__file__).parent.parent
 
 
+def assess_player(p: dict, evidence_count: int = 1) -> dict:
+    """
+    "Perché sì / cautele / prossimi passi" per la scheda giocatore.
+    Derivato in CODICE dagli stessi segnali del punteggio (mai da un LLM):
+    non può contraddire il numero, non costa nulla, ed è testabile.
+    """
+    pros, cautions, steps = [], [], []
+    flags = set((p.get("review_flags") or "").split(","))
+    stats = p.get("stats") or {}
+    bd = p.get("breakdown") or {}
+    age = p.get("age")
+    n_src = p.get("n_sources") or 0
+
+    # --- Perché sì ---
+    if age is not None and age <= 17:
+        pros.append(f"Molto giovane ({age} anni): ampio margine di sviluppo")
+    elif age is not None and age <= 19:
+        pros.append(f"Giovane ({age} anni)")
+    if stats.get("goals") or stats.get("assists"):
+        det = " e ".join(x for x in [
+            f"{stats['goals']} gol" if stats.get("goals") else "",
+            f"{stats['assists']} assist" if stats.get("assists") else ""] if x)
+        suffix = f" in {stats['apps']} presenze" if stats.get("apps") else ""
+        pros.append(f"Produzione documentata: {det}{suffix}")
+    elif stats.get("apps"):
+        pros.append(f"Continuità documentata: {stats['apps']} presenze")
+    asym = bd.get("asymmetry") or 0
+    if asym >= 12:
+        pros.append("Fuori dai radar mainstream: alta asimmetria informativa")
+    elif asym >= 6:
+        pros.append("Contesto minore: valore potenzialmente sottoprezzato")
+    if n_src >= 2:
+        pros.append(f"Identità confermata da {n_src} fonti indipendenti")
+    if evidence_count >= 5:
+        pros.append(f"Segnale persistente: {evidence_count} rilevamenti")
+
+    # --- Cautele ---
+    if n_src < 2:
+        cautions.append("Una sola fonte: non ancora corroborato")
+    if not stats:
+        cautions.append("Nessuna statistica di rendimento documentata")
+    if "eta_mancante" in flags or age is None:
+        cautions.append("Età non confermata")
+    if "club_mancante" in flags:
+        cautions.append("Club non identificato")
+    if "nome_singolo" in flags or "handle_o_soprannome" in flags:
+        cautions.append("Identità debole: nome incompleto o soprannome")
+    if asym < 0:
+        cautions.append("Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile")
+
+    # --- Prossimi passi (azioni da scout, in ordine di blocco) ---
+    if "nome_singolo" in flags or "handle_o_soprannome" in flags:
+        steps.append("Risolvere l'identità: serve un nome completo verificabile")
+    if "club_mancante" in flags:
+        steps.append("Verificare il club attuale")
+    if "eta_mancante" in flags or age is None:
+        steps.append("Confermare l'anno di nascita con la società")
+    if n_src < 2:
+        steps.append("Trovare una seconda fonte indipendente (aggregatori, stampa locale)")
+    if not stats:
+        steps.append("Recuperare statistiche di rendimento (referti gara)")
+    if p.get("publishable"):
+        steps.append("Richiedere video o programmare una visione diretta")
+        steps.append("Telefonata al club: conferma anagrafica e status contrattuale")
+
+    return {"pros": pros[:4], "cautions": cautions[:4], "next_steps": steps[:3]}
+
+
 def export(db_path: Path, out_path: Path) -> dict:
     conn = sqlite3.connect(str(db_path))
     conn.row_factory = sqlite3.Row
@@ -72,7 +140,7 @@ def export(db_path: Path, out_path: Path) -> dict:
         name = (p["canonical_name"] or "").strip()
         if len(name) < 3:
             continue
-        players.append({
+        entry = {
             "name": name,
             "age": p["age"], "position": p["position"], "club": p["club"],
             "league": p["league"], "region": p["region"],
@@ -85,7 +153,9 @@ def export(db_path: Path, out_path: Path) -> dict:
             "identity_complete": bool(p["identity_complete"]),
             "review_flags": p["review_flags"] or "",
             "first_detected": p["first_detected"], "last_seen": p["last_seen"],
-        })
+        }
+        entry["assessment"] = assess_player(entry, p["evidence_count"] or 1)
+        players.append(entry)
     conn.close()
 
     players.sort(key=lambda x: (not x["publishable"], -x["score"]))
