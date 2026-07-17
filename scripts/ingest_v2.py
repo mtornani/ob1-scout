@@ -186,7 +186,8 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
                 lines.append(f"• <b>{p['canonical_name']}</b> — {' · '.join(bits)} [{p['score']}]")
             if len(to_notify) > 8:
                 lines.append(f"<i>…e altri {len(to_notify) - 8} profili in dashboard.</i>")
-            lines.append('\n<a href="https://ob1global.matchanalysispro.online/">Dashboard</a>')
+            lines.append("")
+            lines.append('<a href="https://ob1global.matchanalysispro.online/">Dashboard</a>')
             try:
                 r = requests.post(
                     f"https://api.telegram.org/bot{token}/sendMessage",

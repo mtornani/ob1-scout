@@ -28,12 +28,12 @@ AGE_TOLERANCE = 2
 # Oltre questa età non è un target early-warning (profilo aggregatore sbagliato).
 MAX_YOUTH_AGE = 23
 
-# Path che sono liste/ricerche, non schede giocatore.
-_LIST_MARKERS = (
-    "/country/", "/competitions/", "/squads/", "/stathead/", "/search/",
-    "/statistik/", "/marktwerte/", "/wettbewerb/", "/verein/", "/teams/",
-    "/league/", "/category/", "/division/",
-)
+# Segmenti path tipici di liste/ricerche (match esatto sul segmento, no trailing slash).
+_LIST_MARKERS = {
+    "country", "competitions", "squads", "stathead", "search",
+    "statistik", "marktwerte", "wettbewerb", "verein", "teams",
+    "league", "category", "division",
+}
 
 
 def _domain(url: str) -> str:
@@ -49,19 +49,20 @@ def looks_like_player_profile(url: str) -> bool:
     u = (url or "").lower()
     if not u.startswith("http"):
         return False
-    if any(m in u for m in _LIST_MARKERS):
-        return False
     path = urlparse(u).path
+    path_segments = [p for p in path.split("/") if p]
+    if any(seg in _LIST_MARKERS for seg in path_segments):
+        return False
     # Transfermarkt: /name/profil/spieler/12345
     if "transfermarkt" in u:
         return "/profil/spieler/" in path and any(ch.isdigit() for ch in path)
-    # FBref: /en/players/<8charid>/Name — non /country/players/
+    # FBref: /en/players/<8charid>/Name — non /country/players/ né /players/search
     if "fbref" in u:
-        parts = [p for p in path.split("/") if p]
-        # ... players <id> <name>
         try:
-            i = parts.index("players")
-            return i + 1 < len(parts) and len(parts[i + 1]) >= 6 and parts[i + 1] != "country"
+            i = path_segments.index("players")
+            return (i + 1 < len(path_segments)
+                    and len(path_segments[i + 1]) >= 6
+                    and path_segments[i + 1] != "country")
         except ValueError:
             return False
     # Soccerway / BeSoccer: tipicamente /player/ o /players/ con slug+id
@@ -70,9 +71,11 @@ def looks_like_player_profile(url: str) -> bool:
             return False
         return any(ch.isdigit() for ch in path)
     # fallback generico: path profilo con id numerico
-    return any(p in path for p in ("/player/", "/players/", "/giocatore/",
-                                   "/jugador/", "/fiche/", "/footballer/")) \
+    return (
+        any(p in path for p in ("/player/", "/players/", "/giocatore/",
+                                "/jugador/", "/fiche/", "/footballer/"))
         and any(ch.isdigit() for ch in path)
+    )
 
 
 def url_matches_name(url: str, name: str) -> bool:
@@ -186,6 +189,12 @@ if __name__ == "__main__":
         "https://www.transfermarkt.com/bruno-baldini/profil/spieler/1362669")
     assert not looks_like_player_profile(
         "https://fbref.com/en/country/players/PAN/Panama-Football-Players")
+    assert not looks_like_player_profile(
+        "https://fbref.com/en/players/search")
+    assert not looks_like_player_profile(
+        "https://fbref.com/en/search?q=test")
+    assert looks_like_player_profile(
+        "https://fbref.com/en/players/a1b2c3d4/Some-Player")
     assert observation_fits_target(
         {"name": "Bruno Baldini", "age": 19, "club": "Londrina"},
         "Bruno Baldini", age=19, club="Londrina")
