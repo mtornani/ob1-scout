@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-16T19:47:38.619528+00:00",
+ "generated_at": "2026-07-17T03:10:45.984817+00:00",
  "total": 94,
  "publishable": 1,
  "tracking": 93,
@@ -139,6 +139,48 @@
    "review_flags": "nome_singolo,fonte_singola",
    "first_detected": "2026-03-20T02:06:58.552325",
    "last_seen": "2026-03-20T02:06:58.552325"
+  },
+  {
+   "name": "André Maia",
+   "age": 16,
+   "position": "Attacker",
+   "club": null,
+   "league": "Copa São Paulo",
+   "region": "South America",
+   "gender": "male",
+   "score": 16,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/reel/DVUPm-BCVdk/",
+     "seen": "2026-03-01T18:34:38.117964"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/nuno-fonseca/spieleGegeneinander/spieler/34805/gegner/25399/kriterium/2/wettbewerb/liga/0/",
+     "seen": "2026-07-17T03:06:23.962625"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante",
+   "first_detected": "2026-03-01T18:34:38.117964",
+   "last_seen": "2026-03-15T12:55:03.609821"
   },
   {
    "name": "Felipe",
@@ -319,38 +361,6 @@
    "review_flags": "eta_mancante,fonte_singola",
    "first_detected": "2026-06-03T16:49:28.387140",
    "last_seen": "2026-06-03T16:49:28.387140"
-  },
-  {
-   "name": "André Maia",
-   "age": 16,
-   "position": "Attacker",
-   "club": null,
-   "league": "Copa São Paulo",
-   "region": "South America",
-   "gender": "unknown",
-   "score": 12,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 18.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "instagram.com",
-     "url": "https://www.instagram.com/reel/DVUPm-BCVdk/",
-     "seen": "2026-03-01T18:34:38.117964"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola",
-   "first_detected": "2026-03-01T18:34:38.117964",
-   "last_seen": "2026-03-15T12:55:03.609821"
   },
   {
    "name": "Gustavogoes",
