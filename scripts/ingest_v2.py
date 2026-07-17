@@ -68,6 +68,9 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
     except (ValueError, TypeError):
         call_delay = 12.0
 
+    # Evita di ritentare gli stessi pid se _corroborate gira 2× (pre + post discovery).
+    attempted_pids: set[int] = set()
+
     async def _pace():
         nonlocal calls_used
         if call_delay and calls_used < llm_budget and extractor.llm_usable():
@@ -79,12 +82,18 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
         from src.corroborate_v2 import find_profile, observation_fits_target
         for row in db.players_to_corroborate():
             pid, name = row["id"], row["name"]
+            if pid in attempted_pids:
+                continue
+            attempted_pids.add(pid)
             age, club = row.get("age"), row.get("club")
             if calls_used >= call_cap or calls_used >= llm_budget:
                 stats["corr_skipped_budget"] += 1
+                # Non contare come "tentato" se non abbiamo nemmeno iniziato
+                attempted_pids.discard(pid)
                 break
             if not extractor.llm_usable():
                 stats["corr_skipped_exhausted"] += 1
+                attempted_pids.discard(pid)
                 break
             prof = await find_profile(scraper, name, exclude_domains=db.player_domains(pid))
             if not prof:

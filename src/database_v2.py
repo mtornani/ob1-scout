@@ -400,26 +400,21 @@ class OB1DatabaseV2:
         """
         Dict {id, name, age, club} dei giocatori con nome completo ma < 2 fonti.
         Priorità: identity_complete (un passo dal gate) → score alto → recenti.
+        Filtro nsrc + LIMIT in SQL (niente full-scan in Python).
         """
         with self._conn() as conn:
             rows = conn.execute("""
-                SELECT p.id, p.canonical_name, p.age, p.club,
-                       (SELECT COUNT(DISTINCT e.source_domain) FROM evidences e
-                        WHERE e.player_id = p.id AND e.source_domain != '') AS nsrc
+                SELECT p.id, p.canonical_name, p.age, p.club
                 FROM players p
                 WHERE p.name_token_count >= 2
+                  AND (SELECT COUNT(DISTINCT e.source_domain) FROM evidences e
+                       WHERE e.player_id = p.id AND e.source_domain != '') < 2
                 ORDER BY p.identity_complete DESC,
                          COALESCE(p.score, 0) DESC,
                          p.last_seen DESC
-            """).fetchall()
-        out = []
-        for r in rows:
-            if (r[4] or 0) >= 2:
-                continue
-            out.append({"id": r[0], "name": r[1], "age": r[2], "club": r[3]})
-            if len(out) >= limit:
-                break
-        return out
+                LIMIT ?
+            """, (limit,)).fetchall()
+        return [{"id": r[0], "name": r[1], "age": r[2], "club": r[3]} for r in rows]
 
 
 if __name__ == "__main__":
