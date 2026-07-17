@@ -22,13 +22,18 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src.database_v2 import normalize_name
 
 AGGREGATORS = ("transfermarkt", "soccerway", "besoccer", "fbref")
-PROFILE_PATHS = ("/profil/spieler/", "/spieler/", "/player/", "/players/",
-                 "/giocatore/", "/jugador/", "/fiche/", "/footballer/")
 
 # Scarto se età estratta e età nota divergono oltre questa soglia.
 AGE_TOLERANCE = 2
 # Oltre questa età non è un target early-warning (profilo aggregatore sbagliato).
 MAX_YOUTH_AGE = 23
+
+# Path che sono liste/ricerche, non schede giocatore.
+_LIST_MARKERS = (
+    "/country/", "/competitions/", "/squads/", "/stathead/", "/search/",
+    "/statistik/", "/marktwerte/", "/wettbewerb/", "/verein/", "/teams/",
+    "/league/", "/category/", "/division/",
+)
 
 
 def _domain(url: str) -> str:
@@ -37,6 +42,37 @@ def _domain(url: str) -> str:
         return h[4:] if h.startswith("www.") else h
     except Exception:
         return ""
+
+
+def looks_like_player_profile(url: str) -> bool:
+    """True solo per schede giocatore, non liste paese/competizione."""
+    u = (url or "").lower()
+    if not u.startswith("http"):
+        return False
+    if any(m in u for m in _LIST_MARKERS):
+        return False
+    path = urlparse(u).path
+    # Transfermarkt: /name/profil/spieler/12345
+    if "transfermarkt" in u:
+        return "/profil/spieler/" in path and any(ch.isdigit() for ch in path)
+    # FBref: /en/players/<8charid>/Name — non /country/players/
+    if "fbref" in u:
+        parts = [p for p in path.split("/") if p]
+        # ... players <id> <name>
+        try:
+            i = parts.index("players")
+            return i + 1 < len(parts) and len(parts[i + 1]) >= 6 and parts[i + 1] != "country"
+        except ValueError:
+            return False
+    # Soccerway / BeSoccer: tipicamente /player/ o /players/ con slug+id
+    if any(x in u for x in ("soccerway", "besoccer")):
+        if "/player" not in path:
+            return False
+        return any(ch.isdigit() for ch in path)
+    # fallback generico: path profilo con id numerico
+    return any(p in path for p in ("/player/", "/players/", "/giocatore/",
+                                   "/jugador/", "/fiche/", "/footballer/")) \
+        and any(ch.isdigit() for ch in path)
 
 
 def url_matches_name(url: str, name: str) -> bool:
@@ -121,7 +157,7 @@ async def find_profile(scraper, name: str, aggregators=AGGREGATORS,
             u = (r.get("url") or "").rstrip(".,);]")
             if agg not in _domain(u):
                 continue
-            if not any(p in u.lower() for p in PROFILE_PATHS):
+            if not looks_like_player_profile(u):
                 continue
             if not url_matches_name(u, name):
                 continue
@@ -146,6 +182,10 @@ if __name__ == "__main__":
     assert not url_matches_name(
         "https://www.transfermarkt.com/random-player/profil/spieler/1",
         "Bruno Baldini")
+    assert looks_like_player_profile(
+        "https://www.transfermarkt.com/bruno-baldini/profil/spieler/1362669")
+    assert not looks_like_player_profile(
+        "https://fbref.com/en/country/players/PAN/Panama-Football-Players")
     assert observation_fits_target(
         {"name": "Bruno Baldini", "age": 19, "club": "Londrina"},
         "Bruno Baldini", age=19, club="Londrina")
