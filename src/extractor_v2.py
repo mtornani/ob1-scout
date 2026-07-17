@@ -162,6 +162,7 @@ class OB1Extractor:
         self.model = model
         self.client = None
         self.gemini_exhausted = False          # una volta a quota, non ritenta Gemini
+        self.fallback_exhausted = False        # idem per Groq/OpenRouter (TPD/TPM)
         self.fallback = resolve_fallback(fallback)
         self.stats = Counter()                 # {gemini, fallback, failed}
         if api_key:
@@ -215,6 +216,11 @@ class OB1Extractor:
         if not source_text:
             return []
 
+        # Entrambi esauriti: non martellare l'API (ogni 429 brucia tempo e budget).
+        if not self.llm_usable():
+            self.stats["failed"] += 1
+            return None
+
         # 1) Gemini, se disponibile e non già esaurito — testo pieno
         if self.client and not self.gemini_exhausted:
             try:
@@ -230,7 +236,7 @@ class OB1Extractor:
                     logger.error(f"Gemini error {source_url}: {e}")
 
         # 2) Fallback OpenAI-compatible (Groq) — testo ridotto per il TPM
-        if self.fallback:
+        if self.fallback and not self.fallback_exhausted:
             try:
                 fb_chars = min(max_chars, GROQ_MAX_CHARS)
                 raw = _extract_first_json_array(
@@ -239,9 +245,18 @@ class OB1Extractor:
                 return normalize_observations(raw, source_url)
             except Exception as e:
                 logger.error(f"Fallback error {source_url}: {e}")
+                if _is_quota_error(e):
+                    logger.warning("Fallback quota/rate-limit esaurita — stop provider.")
+                    self.fallback_exhausted = True
 
         self.stats["failed"] += 1
         return None  # nessun provider disponibile: NON marcare visto, ritenta
+
+    def llm_usable(self) -> bool:
+        """True se almeno un provider può ancora essere chiamato in questo run."""
+        gemini_ok = bool(self.client) and not self.gemini_exhausted
+        fb_ok = bool(self.fallback) and not self.fallback_exhausted
+        return gemini_ok or fb_ok
 
     def available(self) -> bool:
         return bool(self.client) or bool(self.fallback)
