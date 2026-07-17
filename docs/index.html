@@ -11,6 +11,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="OB1 Scout">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -80,6 +82,27 @@
   .srcs a{color:var(--accent);text-decoration:none}
   .srcs a:hover{text-decoration:underline}
 
+  .why{margin-top:10px;padding-top:10px;border-top:1px solid var(--line-soft)}
+  .why summary{font-size:11.5px;font-weight:600;color:var(--muted);cursor:pointer;
+    letter-spacing:.03em;list-style:none;display:flex;align-items:center;gap:6px}
+  .why summary::before{content:'▸';color:var(--accent);font-size:10px;transition:transform .15s}
+  .why[open] summary::before{transform:rotate(90deg)}
+  .why .wh{margin-top:9px}
+  .why h4{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);
+    font-weight:600;margin-bottom:3px}
+  .why ul{margin:0;padding-left:16px;font-size:12.5px;color:#33383e}
+  .why li{margin-bottom:2px}
+  .why .wh.caut ul{color:#8a6d3b}
+
+  .faq{margin-top:34px}
+  .faq details{border-top:1px solid var(--line);padding:11px 2px}
+  .faq details:last-of-type{border-bottom:1px solid var(--line)}
+  .faq summary{font-size:13.5px;font-weight:600;cursor:pointer;list-style:none;
+    display:flex;align-items:center;justify-content:space-between}
+  .faq summary::after{content:'+';color:var(--accent);font-family:var(--mono)}
+  .faq details[open] summary::after{content:'–'}
+  .faq p{font-size:13px;color:var(--muted);margin-top:7px;line-height:1.55}
+
   .empty{text-align:center;color:var(--muted);font-size:14px;padding:40px 10px}
   footer{margin-top:22px;text-align:center;font-size:11px;color:var(--faint)}
 </style>
@@ -100,6 +123,44 @@
 </header>
 
 <main id="app"><div class="empty">Caricamento…</div></main>
+
+<section class="faq">
+  <div class="sec"><h2>Come funziona</h2><div class="rule"></div></div>
+  <details>
+    <summary>Cosa fa OB1 Scout?</summary>
+    <p>Monitora fonti curate — federazioni, campionati giovanili, stampa locale — e accumula
+    prove sui giovani calciatori, un giro ogni 6 ore. Ogni profilo cresce solo con
+    l'evidenza: più fonti indipendenti lo confermano, più sale.</p>
+  </details>
+  <details>
+    <summary>Cosa significa "Verificato"?</summary>
+    <p>Identità completa (nome vero, club, età) <b>e</b> almeno 2 fonti indipendenti,
+    che trovi linkate sulla scheda. È la nostra promessa: ogni nome verificato regge
+    una telefonata di controllo alla società.</p>
+  </details>
+  <details>
+    <summary>E "Da corroborare"?</summary>
+    <p>Profili reali ma con una sola fonte o identità incompleta. Il sistema non li
+    spinge: restano in tracking finché una seconda fonte non li conferma — o non li
+    conferma mai, e va bene così.</p>
+  </details>
+  <details>
+    <summary>Come nasce il punteggio?</summary>
+    <p>Una formula trasparente, non un'opinione: <b>merito</b> (gioventù + produzione
+    documentata + invisibilità ai radar mainstream) <b>× confidenza</b> (quante fonti,
+    da quanto tempo). La barra colorata sotto ogni nome è il perché del numero.</p>
+  </details>
+  <details>
+    <summary>Cosa NON fa?</summary>
+    <p>Non guarda video, non giudica la qualità tecnica, non sostituisce lo scout.
+    Lavora solo su dati pubblici: trova prima, verifica l'identità e ti dice cosa manca —
+    la valutazione sul campo resta un mestiere umano.</p>
+  </details>
+  <details>
+    <summary>Ogni quanto si aggiorna?</summary>
+    <p>Ogni 6 ore, in autonomia. La data dell'ultimo giro è in alto a destra.</p>
+  </details>
+</section>
 
 <footer id="foot" hidden>OB1 Scout · v2 · discovery da fonti curate, pubblicazione solo con ≥2 fonti</footer>
 
@@ -147,6 +208,14 @@
     const stats = p.stats && Object.keys(p.stats).length
       ? `<span class="chip">${['goals','assists','apps'].filter(k=>p.stats[k])
           .map(k=>p.stats[k]+' '+({goals:'gol',assists:'assist',apps:'pres.'}[k])).join(' · ')}</span>` : '';
+    const a = p.assessment || {};
+    const li = xs => (xs||[]).map(x => `<li>${esc(x)}</li>`).join('');
+    const why = (a.pros?.length || a.cautions?.length || a.next_steps?.length)
+      ? `<details class="why"><summary>Perché · cosa manca</summary>
+          ${a.pros?.length ? `<div class="wh"><h4>Perché sì</h4><ul>${li(a.pros)}</ul></div>` : ''}
+          ${a.cautions?.length ? `<div class="wh caut"><h4>Cautele</h4><ul>${li(a.cautions)}</ul></div>` : ''}
+          ${a.next_steps?.length ? `<div class="wh"><h4>Per proseguire</h4><ul>${li(a.next_steps)}</ul></div>` : ''}
+        </details>` : '';
     return `<div class="card${mutedClass}">
       <div class="row1">
         <div class="rank">${mutedClass ? '—' : String(i+1).padStart(2,'0')}</div>
@@ -164,6 +233,7 @@
         <span class="gate ${p.publishable ? 'ok' : 'no'}">${p.publishable ? 'Verificato' : 'Da corroborare'}</span>
       </div>
       ${srcs ? `<div class="srcs">${srcs}</div>` : ''}
+      ${why}
     </div>`;
   }
 
