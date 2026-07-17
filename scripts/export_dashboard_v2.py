@@ -94,6 +94,13 @@ def assess_player(p: dict, evidence_count: int = 1) -> dict:
 
 
 def export(db_path: Path, out_path: Path) -> dict:
+    # Heal score NULL così priorità tracking e rank non restano a zero
+    try:
+        from src.database_v2 import OB1DatabaseV2
+        OB1DatabaseV2(str(db_path)).heal_scores()
+    except Exception:
+        pass
+
     conn = sqlite3.connect(str(db_path))
     conn.row_factory = sqlite3.Row
 
@@ -109,32 +116,44 @@ def export(db_path: Path, out_path: Path) -> dict:
              "seen": r["observed_at"]})
 
     def _clean_sources(raw):
-        """Solo URL http(s) con domain: niente path inventati / rumore."""
+        """Domain unici; URL http se c'è, altrimenti domain-only (chip senza link)."""
         out, seen = [], set()
         for s in raw or []:
             url = (s.get("url") or "").strip()
             dom = (s.get("domain") or "").strip()
-            if not url.startswith(("http://", "https://")):
-                continue
             if not dom:
                 continue
             key = dom.lower()
             if key in seen:
                 continue
             seen.add(key)
+            if not url.startswith(("http://", "https://")):
+                url = ""
             out.append({"domain": dom, "url": url, "seen": s.get("seen")})
             if len(out) >= 4:
                 break
         return out
 
+    def _tracking_rank(p: dict) -> tuple:
+        """Prima identity quasi-gate, poi fonti, poi score. Rumore in coda."""
+        flags = p.get("review_flags") or ""
+        weak = ("nome_singolo" in flags) or ("handle_o_soprannome" in flags)
+        return (
+            0 if p.get("identity_complete") else 1,
+            0 if (p.get("n_sources") or 0) >= 1 else 1,
+            1 if weak else 0,
+            -(p.get("score") or 0),
+        )
+
     players = []
     for p in conn.execute("SELECT * FROM players ORDER BY score DESC"):
         pid = p["id"]
         sources = _clean_sources(sources_by_player.get(pid, []))
+        n_sources = len(sources)
         stats = json.loads(p["stats_json"]) if p["stats_json"] else {}
         sc = score_player(
             age=p["age"], is_ghost=bool(p["is_ghost"]), club=p["club"],
-            league=p["league"], stats=stats, n_sources=max(len(sources), 1),
+            league=p["league"], stats=stats, n_sources=max(n_sources, 1),
             detection_count=p["evidence_count"] or 1,
         )
         # Nome senza contenuto utile → non in dashboard pubblica
@@ -148,7 +167,7 @@ def export(db_path: Path, out_path: Path) -> dict:
             "gender": p["gender"],
             "score": sc["score"], "confidence": sc["confidence"],
             "breakdown": sc["breakdown"],
-            "n_sources": len(sources), "sources": sources,
+            "n_sources": n_sources, "sources": sources,
             "stats": stats,
             "publishable": bool(p["publishable"]),
             "identity_complete": bool(p["identity_complete"]),
@@ -162,7 +181,7 @@ def export(db_path: Path, out_path: Path) -> dict:
     players.sort(key=lambda x: (not x["publishable"], -x["score"]))
     # Shortlist pubblica: tutti i verificati + top tracking (resto resta in DB)
     pub = [x for x in players if x["publishable"]]
-    trk = [x for x in players if not x["publishable"]]
+    trk = sorted([x for x in players if not x["publishable"]], key=_tracking_rank)
     TRACK_CAP = 15
     shown = pub + trk[:TRACK_CAP]
     doc = {

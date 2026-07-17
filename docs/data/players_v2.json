@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-17T14:17:47.197589+00:00",
+ "generated_at": "2026-07-17T14:50:16.095402+00:00",
  "total": 96,
  "publishable": 2,
  "tracking": 94,
@@ -121,318 +121,6 @@
    }
   },
   {
-   "name": "Fode Diallo",
-   "age": 14,
-   "position": "Attacker",
-   "club": null,
-   "league": "Youth League (U13)",
-   "region": "Global",
-   "gender": "male",
-   "score": 18,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 20.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "facebook.com",
-     "url": "https://www.facebook.com/InsideMasia/posts/fode-diallo-scouting-report-by-lamasiapolski-think-this-name-has-already-hit-you/1307148481467618/",
-     "seen": "2026-03-10T06:51:55.040509"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/fode-diallo/profil/spieler/1527842",
-     "seen": "2026-07-16T19:42:31.108991"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante",
-   "first_detected": "2026-03-10T06:51:55.040509",
-   "last_seen": "2026-03-10T06:51:55.040509",
-   "assessment": {
-    "pros": [
-     "Molto giovane (14 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Pirituba",
-   "age": 16,
-   "position": "Right-back",
-   "club": "Ibrachina",
-   "league": null,
-   "region": "Brazil",
-   "gender": "unknown",
-   "score": 18,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 18.0,
-    "production": 0.0,
-    "asymmetry": 23.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 0,
-   "sources": [],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "nome_singolo,fonte_singola",
-   "first_detected": "2026-03-16T13:14:08.365987",
-   "last_seen": "2026-03-16T13:14:08.365987",
-   "assessment": {
-    "pros": [
-     "Molto giovane (16 anni): ampio margine di sviluppo",
-     "Fuori dai radar mainstream: alta asimmetria informativa"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Identità debole: nome incompleto o soprannome"
-    ],
-    "next_steps": [
-     "Risolvere l'identità: serve un nome completo verificabile",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Dinics",
-   "age": 17,
-   "position": "Box-to-box Midfielder",
-   "club": "Atenas",
-   "league": "Brazilian U17 League (lesser-known)",
-   "region": "Brazil",
-   "gender": "unknown",
-   "score": 17,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 23.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 0,
-   "sources": [],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "nome_singolo,fonte_singola",
-   "first_detected": "2026-03-20T02:06:58.552325",
-   "last_seen": "2026-03-20T02:06:58.552325",
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Fuori dai radar mainstream: alta asimmetria informativa"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Identità debole: nome incompleto o soprannome"
-    ],
-    "next_steps": [
-     "Risolvere l'identità: serve un nome completo verificabile",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "André Maia",
-   "age": 16,
-   "position": "Attacker",
-   "club": null,
-   "league": "Copa São Paulo",
-   "region": "South America",
-   "gender": "male",
-   "score": 16,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 18.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "instagram.com",
-     "url": "https://www.instagram.com/reel/DVUPm-BCVdk/",
-     "seen": "2026-03-01T18:34:38.117964"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/nuno-fonseca/spieleGegeneinander/spieler/34805/gegner/25399/kriterium/2/wettbewerb/liga/0/",
-     "seen": "2026-07-17T03:06:23.962625"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante",
-   "first_detected": "2026-03-01T18:34:38.117964",
-   "last_seen": "2026-03-15T12:55:03.609821",
-   "assessment": {
-    "pros": [
-     "Molto giovane (16 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Felipe",
-   "age": 16,
-   "position": "Attacker",
-   "club": "Colo Colo",
-   "league": "Copa Chile",
-   "region": "Chile",
-   "gender": "male",
-   "score": 16,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 18.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "portalbrazuca.com.br",
-     "url": "https://portalbrazuca.com.br/promessa-do-santos-ganha-destaque-em-jornal-europeu/",
-     "seen": "2026-03-03T02:08:53.868938"
-    },
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
-     "seen": "2026-07-16T19:42:31.108991"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "nome_singolo",
-   "first_detected": "2026-03-03T02:08:53.868938",
-   "last_seen": "2026-07-02T19:24:53.953976",
-   "assessment": {
-    "pros": [
-     "Molto giovane (16 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Identità debole: nome incompleto o soprannome"
-    ],
-    "next_steps": [
-     "Risolvere l'identità: serve un nome completo verificabile",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Eduardo",
-   "age": 17,
-   "position": "CAM/ST",
-   "club": "Palmeiras",
-   "league": "Campeonato Brasileiro Série A",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 14,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "palmeiras.com.br",
-     "url": "https://www.palmeiras.com.br/noticias/destaque-na-copinha-eduardo-assina-primeiro-contrato-profissional-com-palmeiras/",
-     "seen": "2026-06-14T04:04:39.208579"
-    },
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
-     "seen": "2026-07-16T19:42:31.108991"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "nome_singolo",
-   "first_detected": "2026-06-14T04:04:39.208579",
-   "last_seen": "2026-07-09T14:59:50.616756",
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Identità debole: nome incompleto o soprannome"
-    ],
-    "next_steps": [
-     "Risolvere l'identità: serve un nome completo verificabile",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
    "name": "Kadir do Panamá",
    "age": 19,
    "position": "ST",
@@ -473,196 +161,6 @@
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Dulce Maria",
-   "age": null,
-   "position": "Attacker",
-   "club": "Corinthians U20",
-   "league": "U20 competition",
-   "region": "Brazil",
-   "gender": "unknown",
-   "score": 13,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 23.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "instagram.com",
-     "url": "https://www.instagram.com/reel/DV1rH_Gga7g/",
-     "seen": "2026-03-20T02:06:49.668180"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola",
-   "first_detected": "2026-03-20T02:06:49.668180",
-   "last_seen": "2026-03-20T02:06:49.668180",
-   "assessment": {
-    "pros": [
-     "Fuori dai radar mainstream: alta asimmetria informativa"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Jhonatan Spiff",
-   "age": null,
-   "position": "ST",
-   "club": "River Plate",
-   "league": "Argentine Primera División",
-   "region": "Argentina",
-   "gender": "unknown",
-   "score": 13,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 23.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "tiktok.com",
-     "url": "https://www.tiktok.com/content/jhonatan-spiff-debut",
-     "seen": "2026-06-03T16:49:28.387140"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola",
-   "first_detected": "2026-06-03T16:49:28.387140",
-   "last_seen": "2026-06-03T16:49:28.387140",
-   "assessment": {
-    "pros": [
-     "Fuori dai radar mainstream: alta asimmetria informativa"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Gustavogoes",
-   "age": 16,
-   "position": "CAM",
-   "club": "Raio Amado",
-   "league": "Paulista Sub-17",
-   "region": "Brazil",
-   "gender": "unknown",
-   "score": 12,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 18.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "tiktok.com",
-     "url": "https://www.tiktok.com/@sferafc/video/7613476382705847559",
-     "seen": "2026-06-12T20:12:12.180745"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "nome_singolo,fonte_singola",
-   "first_detected": "2026-06-12T20:12:12.180745",
-   "last_seen": "2026-06-12T20:12:12.180745",
-   "assessment": {
-    "pros": [
-     "Molto giovane (16 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Identità debole: nome incompleto o soprannome"
-    ],
-    "next_steps": [
-     "Risolvere l'identità: serve un nome completo verificabile",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "KG9",
-   "age": 16,
-   "position": "ST/LW/RW",
-   "club": "Sfera FC",
-   "league": "Paulista Sub-17",
-   "region": "Brazil",
-   "gender": "unknown",
-   "score": 12,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 18.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "tiktok.com",
-     "url": "https://www.tiktok.com/@sferafc/video/7613476382705847559",
-     "seen": "2026-06-15T12:14:44.591546"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "nome_singolo,handle_o_soprannome,fonte_singola",
-   "first_detected": "2026-06-15T12:14:44.591546",
-   "last_seen": "2026-06-15T12:14:44.591546",
-   "assessment": {
-    "pros": [
-     "Molto giovane (16 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Identità debole: nome incompleto o soprannome"
-    ],
-    "next_steps": [
-     "Risolvere l'identità: serve un nome completo verificabile",
      "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
      "Recuperare statistiche di rendimento (referti gara)"
     ]
@@ -761,48 +259,6 @@
    }
   },
   {
-   "name": "Mora",
-   "age": 17,
-   "position": "Forward",
-   "club": "Club Tijuana",
-   "league": "Liga MX",
-   "region": "Mexico",
-   "gender": "unknown",
-   "score": 10,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 0,
-   "sources": [],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "nome_singolo,fonte_singola",
-   "first_detected": "2026-03-17T19:03:30.174168",
-   "last_seen": "2026-07-05T19:18:24.173328",
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Identità debole: nome incompleto o soprannome"
-    ],
-    "next_steps": [
-     "Risolvere l'identità: serve un nome completo verificabile",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
    "name": "Davi Lima",
    "age": 17,
    "position": "CB",
@@ -836,6 +292,512 @@
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Johan Martínez",
+   "age": 17,
+   "position": null,
+   "club": "Independiente del Valle",
+   "league": "CONMEBOL U17 Tournament",
+   "region": "South America",
+   "gender": "unknown",
+   "score": 10,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "tiktok.com",
+     "url": "https://www.tiktok.com/@creadorgenial101/video/7624564912437644575",
+     "seen": "2026-06-03T16:49:26.441555"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": "2026-06-03T16:49:26.441555",
+   "last_seen": "2026-07-03T02:57:38.714046",
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Gui Amorim",
+   "age": 17,
+   "position": "CM",
+   "club": "Corinthians",
+   "league": "Copinha (Youth Tournament)",
+   "region": "Brazil",
+   "gender": "unknown",
+   "score": 10,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "placar.com.br",
+     "url": "https://placar.com.br/copinha/em-quem-ficar-de-olho-na-copinha-de-2026/",
+     "seen": "2026-06-16T04:06:42.168560"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": "2026-06-16T04:06:42.168560",
+   "last_seen": "2026-06-21T14:11:33.702679",
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Tiago Camargo",
+   "age": 17,
+   "position": "CAM/RW",
+   "club": "Grupo Desportivo Estoril Praia",
+   "league": "Primeira Liga (Portugal)",
+   "region": "Portugal",
+   "gender": "unknown",
+   "score": 10,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "jovenspromessas.pt",
+     "url": "https://jovenspromessas.pt/",
+     "seen": "2026-07-05T03:23:40.915578"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": "2026-07-05T03:23:40.915578",
+   "last_seen": "2026-07-05T03:23:40.915578",
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Diego Reyes",
+   "age": 18,
+   "position": "Attacker",
+   "club": "Flamengo U20",
+   "league": "Brazilian U20 competitions / Mexican U21 league",
+   "region": "Latin America",
+   "gender": "unknown",
+   "score": 9,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "terra.com.br",
+     "url": "https://www.terra.com.br/esportes/flamengo/flamengo-contrata-promessa-do-futebol-mexicano,65432d95e608a314e94f84ffd00d25fc5llw2fo6.html",
+     "seen": "2026-03-03T12:58:52.925498"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": "2026-03-03T12:58:52.925498",
+   "last_seen": "2026-03-20T02:06:45.700754",
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Pedro Ferreira",
+   "age": 18,
+   "position": "Attacker",
+   "club": "São Paulo",
+   "league": "Brasileirão Série A",
+   "region": "Brazil",
+   "gender": "unknown",
+   "score": 9,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "spfc24horas.com.br",
+     "url": "https://spfc24horas.com.br/conheca-os-jogadores-do-sub-17-que-disputarao-a-copinha-2026/",
+     "seen": "2026-06-12T10:14:17.417292"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": "2026-06-12T10:14:17.417292",
+   "last_seen": "2026-07-16T08:13:33.452923",
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Gabriel Mec",
+   "age": 18,
+   "position": "CAM",
+   "club": "Bahia",
+   "league": "Campeonato Brasileiro Série A (youth)",
+   "region": "Brazil",
+   "gender": "unknown",
+   "score": 9,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "gremionews.com.br",
+     "url": "https://www.gremionews.com.br/geral/4519-joia-milionaria-do-gremio-destaque-da-selecao-sub-20",
+     "seen": "2026-06-12T14:59:14.299313"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": "2026-06-12T14:59:14.299313",
+   "last_seen": "2026-07-16T02:34:28.134895",
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Hugo Sochurek",
+   "age": 18,
+   "position": "CM",
+   "club": "Sparta Praga",
+   "league": "Czech First League",
+   "region": "Czech Republic",
+   "gender": "unknown",
+   "score": 9,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "record.com.mx",
+     "url": "https://www.record.com.mx/historia/mundial-2026-las-jovenes-promesas-de-la-copa-del-mundo-2026061522114888840",
+     "seen": "2026-06-20T14:04:12.453142"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": "2026-06-20T14:04:12.453142",
+   "last_seen": "2026-07-13T14:34:18.013530",
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Francisco Sorondo",
+   "age": 18,
+   "position": "CB",
+   "club": "Defensor Sporting",
+   "league": "Uruguayan Primera División / South American Youth Tournaments",
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 9,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "tiktok.com",
+     "url": "https://www.tiktok.com/@santibenitez_juv/video/7652164719108689159",
+     "seen": "2026-06-20T19:27:19.694852"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": "2026-06-20T19:27:19.694852",
+   "last_seen": "2026-06-20T19:27:19.694852",
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Yastin Cuevas",
+   "age": 18,
+   "position": "Forward",
+   "club": "Colo Colo",
+   "league": "Chilean Primera División",
+   "region": "Chile",
+   "gender": "unknown",
+   "score": 9,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "chile.as.com",
+     "url": "https://chile.as.com/futbol/colo-colo-se-salva-gracias-a-su-juventud-f202602-n/",
+     "seen": "2026-07-03T02:57:38.854065"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": "2026-07-03T02:57:38.854065",
+   "last_seen": "2026-07-13T19:23:44.418165",
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Bruno Baldini",
+   "age": 19,
+   "position": "ST",
+   "club": "Londrina",
+   "league": "Brasileirão Série B",
+   "region": "Brazil",
+   "gender": "unknown",
+   "score": 7,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "gauchazh.clicrbs.com.br",
+     "url": "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html",
+     "seen": null
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": null,
+   "last_seen": "2026-07-15T13:43:50.530680",
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Ryan Evaristo",
+   "age": 19,
+   "position": "ST",
+   "club": "São Paulo",
+   "league": "Youth (Copinha)",
+   "region": "Brazil",
+   "gender": "unknown",
+   "score": 7,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/p/DVRpeUHDlup/",
+     "seen": "2026-03-01T18:34:20.455948"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": "2026-03-01T18:34:20.455948",
+   "last_seen": "2026-07-15T13:43:51.528923",
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato"
     ],
     "cautions": [

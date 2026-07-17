@@ -9,6 +9,12 @@ Il ciclo completo della v2:
 A differenza della v1 NON cerca giocatori a caso: parte dalle fonti curate.
 Richiede rete + GEMINI_API_KEY (gira in produzione / Actions).
 
+Ordine del budget LLM (free tier):
+  1) corroborazione prioritaria (identity_complete a 1 fonte → gate)
+  2) discovery/estrazione nuove fonti col resto
+Così un giorno con quota stretta converte profili quasi-pronti invece di
+bruciare token su articoli nuovi che restano monofonte.
+
 Uso:
     python scripts/ingest_v2.py [--limit-sources N] [--max-articles N]
 """
@@ -36,13 +42,16 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
 
     if llm_budget is None:
         llm_budget = int(os.getenv("INGEST_LLM_BUDGET", "15"))
-    # Riserva ~1/3 del budget alla corroborazione, così l'estrazione delle fonti
-    # non lo esaurisce lasciando i giocatori a 1 fonte.
-    extract_budget = max(1, llm_budget * 2 // 3)
+    # Riserva ~1/3 del budget alla corroborazione (eseguita PRIMA della discovery).
+    corr_budget = max(1, llm_budget // 3)
 
     if not extractor.available():
         print("Nessun LLM configurato (GEMINI_API_KEY o fallback). Stop.")
         return
+
+    healed = db.heal_scores()
+    if healed:
+        print(f"heal_scores: ricalcolati {healed} profili con score NULL")
 
     sources = load_registry()
     if limit_sources:
@@ -59,10 +68,63 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
     except (ValueError, TypeError):
         call_delay = 12.0
 
+    async def _pace():
+        nonlocal calls_used
+        if call_delay and calls_used < llm_budget and extractor.llm_usable():
+            await asyncio.sleep(call_delay)
+
+    async def _corroborate(call_cap: int):
+        """Cerca seconda fonte per profili a 1 fonte. call_cap = max calls_used assoluto."""
+        nonlocal calls_used
+        from src.corroborate_v2 import find_profile, observation_fits_target
+        for row in db.players_to_corroborate():
+            pid, name = row["id"], row["name"]
+            age, club = row.get("age"), row.get("club")
+            if calls_used >= call_cap or calls_used >= llm_budget:
+                stats["corr_skipped_budget"] += 1
+                break
+            if not extractor.llm_usable():
+                stats["corr_skipped_exhausted"] += 1
+                break
+            prof = await find_profile(scraper, name, exclude_domains=db.player_domains(pid))
+            if not prof:
+                stats["corr_not_found"] += 1
+                continue
+            texts = await scraper.deep_read_urls([prof], max_urls=1)
+            text = texts.get(prof)
+            if not text:
+                continue
+            obs_list = extractor.extract_from_source(text, prof)
+            calls_used += 1
+            await _pace()
+            if obs_list is None:
+                stats["extract_failed"] += 1
+                if not extractor.llm_usable():
+                    stats["llm_exhausted_stop"] += 1
+                    return
+                continue
+            # Solo osservazioni che reggono nome+età(+club): no omonimi pro
+            matched = False
+            for o in obs_list:
+                if observation_fits_target(
+                        o, name, age=age, club=club,
+                        names_match_fn=db._names_match):
+                    o["observed_at"] = stamp
+                    db.ingest_observation(o)
+                    stats["corroborated"] += 1
+                    matched = True
+                    break
+            if not matched:
+                stats["corr_rejected_mismatch"] += 1
+
+    # --- 1) Corroborazione prima: converte identity_complete → publishable ---
+    await _corroborate(corr_budget)
+
+    # --- 2) Discovery: estrazione nuove fonti col budget residuo ---
     for src in sources:
-        if calls_used >= extract_budget:
+        if calls_used >= llm_budget or not extractor.llm_usable():
             stats["sources_skipped_budget"] += 1
-            continue
+            break
         new_urls = await monitor.new_items(src)
         new_urls = new_urls[:max_articles]
         if not new_urls:
@@ -72,15 +134,17 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
         texts = await scraper.deep_read_urls(new_urls, max_urls=len(new_urls))
         processed = []
         for url, text in texts.items():
-            if calls_used >= extract_budget:
-                break  # tetto estrazione: il resto del budget va alla corroborazione
+            if calls_used >= llm_budget or not extractor.llm_usable():
+                break
             obs_list = extractor.extract_from_source(text, url)
             calls_used += 1
-            if call_delay and calls_used < llm_budget:
-                await asyncio.sleep(call_delay)
+            await _pace()
             if obs_list is None:
                 # estrazione fallita (quota/errore): NON marcare visto → si ritenta
                 stats["extract_failed"] += 1
+                if not extractor.llm_usable():
+                    stats["llm_exhausted_stop"] += 1
+                    break
                 continue
             processed.append(url)
             for obs in obs_list:
@@ -94,33 +158,9 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
             db.mark_seen(src["id"], processed, stamp)
             stats["articles"] += len(processed)
 
-    # --- Corroborazione attiva: cerca i giocatori a 1 fonte sugli aggregatori ---
-    from src.corroborate_v2 import find_profile
-    for pid, name in db.players_to_corroborate():
-        if calls_used >= llm_budget:
-            stats["corr_skipped_budget"] += 1
-            continue
-        prof = await find_profile(scraper, name, exclude_domains=db.player_domains(pid))
-        if not prof:
-            stats["corr_not_found"] += 1
-            continue
-        texts = await scraper.deep_read_urls([prof], max_urls=1)
-        text = texts.get(prof)
-        if not text:
-            continue
-        obs_list = extractor.extract_from_source(text, prof)
-        calls_used += 1
-        if call_delay and calls_used < llm_budget:
-            await asyncio.sleep(call_delay)
-        if not obs_list:
-            continue
-        # ingerisci solo l'osservazione che corrisponde a questo giocatore
-        for o in obs_list:
-            if db._names_match(o.get("name", ""), name):
-                o["observed_at"] = stamp
-                db.ingest_observation(o)
-                stats["corroborated"] += 1
-                break
+    # --- 3) Corroborazione extra con eventuale budget rimasto ---
+    if calls_used < llm_budget and extractor.llm_usable():
+        await _corroborate(llm_budget)
 
     # --- Notifica Telegram: nuovi giocatori PUBBLICABILI (una volta sola) ---
     to_notify = db.publishable_to_notify()

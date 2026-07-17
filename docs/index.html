@@ -205,7 +205,10 @@
     const meta = [p.age ? p.age + ' anni' : null, p.position, p.club, p.league]
       .filter(Boolean).map(esc).join(' · ') || '—';
     const srcs = (p.sources||[]).map(s =>
-      `<a href="${esc(s.url)}" target="_blank" rel="noopener">◆ ${esc(s.domain)}</a>`).join('');
+      s.url
+        ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">◆ ${esc(s.domain)}</a>`
+        : `<span class="chip">◆ ${esc(s.domain)}</span>`
+    ).join('');
     const stats = p.stats && Object.keys(p.stats).length
       ? `<span class="chip">${['goals','assists','apps'].filter(k=>p.stats[k])
           .map(k=>p.stats[k]+' '+({goals:'gol',assists:'assist',apps:'pres.'}[k])).join(' · ')}</span>` : '';
