@@ -61,8 +61,7 @@ def looks_like_player_profile(url: str) -> bool:
         try:
             i = path_segments.index("players")
             return (i + 1 < len(path_segments)
-                    and len(path_segments[i + 1]) >= 6
-                    and path_segments[i + 1] != "country")
+                    and len(path_segments[i + 1]) >= 6)
         except ValueError:
             return False
     # Soccerway / BeSoccer: tipicamente /player/ o /players/ con slug+id

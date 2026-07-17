@@ -84,17 +84,14 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
             pid, name = row["id"], row["name"]
             if pid in attempted_pids:
                 continue
-            attempted_pids.add(pid)
-            age, club = row.get("age"), row.get("club")
             if calls_used >= call_cap or calls_used >= llm_budget:
                 stats["corr_skipped_budget"] += 1
-                # Non contare come "tentato" se non abbiamo nemmeno iniziato
-                attempted_pids.discard(pid)
                 break
             if not extractor.llm_usable():
                 stats["corr_skipped_exhausted"] += 1
-                attempted_pids.discard(pid)
                 break
+            attempted_pids.add(pid)
+            age, club = row.get("age"), row.get("club")
             prof = await find_profile(scraper, name, exclude_domains=db.player_domains(pid))
             if not prof:
                 stats["corr_not_found"] += 1
