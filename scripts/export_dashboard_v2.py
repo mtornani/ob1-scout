@@ -51,7 +51,7 @@ def assess_player(p: dict, evidence_count: int = 1) -> dict:
         pros.append(f"Produzione documentata: {det}{suffix}")
     elif stats.get("apps"):
         pros.append(f"Continuità documentata: {stats['apps']} presenze")
-    asym = bd.get("asymmetry", 0)
+    asym = bd.get("asymmetry") or 0  # 'or' voluto: coerce anche un eventuale None
     if asym >= 12:
         pros.append("Fuori dai radar mainstream: alta asimmetria informativa")
     elif asym >= 6:
