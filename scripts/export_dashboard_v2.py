@@ -31,8 +31,9 @@ def assess_player(p: dict, evidence_count: int = 1) -> dict:
     non può contraddire il numero, non costa nulla, ed è testabile.
     """
     pros, cautions, steps = [], [], []
-    flags = set((p.get("review_flags") or "").split(","))
+    flags = {f for f in (p.get("review_flags") or "").split(",") if f}
     stats = p.get("stats") or {}
+    has_stats = any(stats.values())
     bd = p.get("breakdown") or {}
     age = p.get("age")
     n_src = p.get("n_sources") or 0
@@ -50,7 +51,7 @@ def assess_player(p: dict, evidence_count: int = 1) -> dict:
         pros.append(f"Produzione documentata: {det}{suffix}")
     elif stats.get("apps"):
         pros.append(f"Continuità documentata: {stats['apps']} presenze")
-    asym = bd.get("asymmetry") or 0
+    asym = bd.get("asymmetry", 0)
     if asym >= 12:
         pros.append("Fuori dai radar mainstream: alta asimmetria informativa")
     elif asym >= 6:
@@ -63,7 +64,7 @@ def assess_player(p: dict, evidence_count: int = 1) -> dict:
     # --- Cautele ---
     if n_src < 2:
         cautions.append("Una sola fonte: non ancora corroborato")
-    if not stats:
+    if not has_stats:
         cautions.append("Nessuna statistica di rendimento documentata")
     if "eta_mancante" in flags or age is None:
         cautions.append("Età non confermata")
@@ -83,7 +84,7 @@ def assess_player(p: dict, evidence_count: int = 1) -> dict:
         steps.append("Confermare l'anno di nascita con la società")
     if n_src < 2:
         steps.append("Trovare una seconda fonte indipendente (aggregatori, stampa locale)")
-    if not stats:
+    if not has_stats:
         steps.append("Recuperare statistiche di rendimento (referti gara)")
     if p.get("publishable"):
         steps.append("Richiedere video o programmare una visione diretta")
