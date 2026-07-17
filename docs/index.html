@@ -173,10 +173,16 @@
   if (pub.length) {
     html += '<div class="sec"><h2>In evidenza</h2><div class="rule"></div></div>';
     html += pub.map((p, i) => card(p, i, '')).join('');
+  } else {
+    html += '<div class="empty">Nessun profilo verificato in questo giro.<br>Servono ≥2 fonti indipendenti e identità completa.</div>';
   }
   if (trk.length) {
     html += '<div class="sec"><h2>Da corroborare</h2><div class="rule"></div></div>';
     html += trk.map((p, i) => card(p, i, ' muted')).join('');
+    const extra = data.tracking_capped || 0;
+    if (extra > 0) {
+      html += `<div class="empty" style="padding:12px 10px">+${extra} altri in tracking (non mostrati — priorità ai più forti).</div>`;
+    }
   }
   app.innerHTML = html;
 })();

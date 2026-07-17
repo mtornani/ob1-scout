@@ -5,6 +5,11 @@ output/
 *.json
 !docs/data/
 !docs/data/anomalies.json
+!docs/data/players_v2.json
 !docs/manifest.json
+!config/sources.json
 *.csv
 .env
+venv/
+*.log
+logs/

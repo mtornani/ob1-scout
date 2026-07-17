@@ -39,24 +39,47 @@ def export(db_path: Path, out_path: Path) -> dict:
             {"domain": r["source_domain"], "url": r["source_url"],
              "seen": r["observed_at"]})
 
+    def _clean_sources(raw):
+        """Solo URL http(s) con domain: niente path inventati / rumore."""
+        out, seen = [], set()
+        for s in raw or []:
+            url = (s.get("url") or "").strip()
+            dom = (s.get("domain") or "").strip()
+            if not url.startswith(("http://", "https://")):
+                continue
+            if not dom:
+                continue
+            key = dom.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append({"domain": dom, "url": url, "seen": s.get("seen")})
+            if len(out) >= 4:
+                break
+        return out
+
     players = []
     for p in conn.execute("SELECT * FROM players ORDER BY score DESC"):
         pid = p["id"]
-        sources = sources_by_player.get(pid, [])
+        sources = _clean_sources(sources_by_player.get(pid, []))
         stats = json.loads(p["stats_json"]) if p["stats_json"] else {}
         sc = score_player(
             age=p["age"], is_ghost=bool(p["is_ghost"]), club=p["club"],
             league=p["league"], stats=stats, n_sources=max(len(sources), 1),
             detection_count=p["evidence_count"] or 1,
         )
+        # Nome senza contenuto utile → non in dashboard pubblica
+        name = (p["canonical_name"] or "").strip()
+        if len(name) < 3:
+            continue
         players.append({
-            "name": p["canonical_name"],
+            "name": name,
             "age": p["age"], "position": p["position"], "club": p["club"],
             "league": p["league"], "region": p["region"],
             "gender": p["gender"],
             "score": sc["score"], "confidence": sc["confidence"],
             "breakdown": sc["breakdown"],
-            "n_sources": len(sources), "sources": sources[:4],
+            "n_sources": len(sources), "sources": sources,
             "stats": stats,
             "publishable": bool(p["publishable"]),
             "identity_complete": bool(p["identity_complete"]),
@@ -66,12 +89,19 @@ def export(db_path: Path, out_path: Path) -> dict:
     conn.close()
 
     players.sort(key=lambda x: (not x["publishable"], -x["score"]))
+    # Shortlist pubblica: tutti i verificati + top tracking (resto resta in DB)
+    pub = [x for x in players if x["publishable"]]
+    trk = [x for x in players if not x["publishable"]]
+    TRACK_CAP = 15
+    shown = pub + trk[:TRACK_CAP]
     doc = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "total": len(players),
-        "publishable": sum(1 for x in players if x["publishable"]),
-        "tracking": sum(1 for x in players if not x["publishable"]),
-        "players": players,
+        "publishable": len(pub),
+        "tracking": len(trk),
+        "shown": len(shown),
+        "tracking_capped": max(0, len(trk) - TRACK_CAP),
+        "players": shown,
     }
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")

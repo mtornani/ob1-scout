@@ -46,5 +46,8 @@ Promessa di prodotto: "ogni nome che diamo regge una telefonata di verifica".
 5. **Prima del commit, confronta il git diff con l'atteso** e segnala
    modifiche fuori perimetro.
 
-6. I banner "FREEZE PILOTA K-SPORT" ancora presenti nei file v1 sono
-   obsoleti: ignorali (e rimuovili se capita di toccare quei file).
+6. Prodotto autonomo: niente brand/integrazioni partner in UI, README o
+   feed pubblico. Partner eventuali si innestano dopo, sul valore già chiaro.
+
+7. Entry point unico: v2. File v1 = archivio. Dashboard = `docs/index.html` +
+   `players_v2.json` only.

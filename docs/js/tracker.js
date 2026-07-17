@@ -86,7 +86,7 @@
     });
   });
 
-  // ── Public API (called from radar_app.jsx) ───────────────────────────────
+  // ── Public API (optional hooks from page scripts) ────────────────────────
   window.OB1Track = {
     playerView(name, score, is_ghost) {
       if (!playersSeen.includes(name)) playersSeen.push(name);
