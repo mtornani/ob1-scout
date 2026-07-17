@@ -98,8 +98,8 @@ def export(db_path: Path, out_path: Path) -> dict:
     try:
         from src.database_v2 import OB1DatabaseV2
         OB1DatabaseV2(str(db_path)).heal_scores()
-    except Exception:
-        pass
+    except Exception as e:
+        print(f"Warning: heal_scores failed: {e}")
 
     conn = sqlite3.connect(str(db_path))
     conn.row_factory = sqlite3.Row
