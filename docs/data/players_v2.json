@@ -1,11 +1,182 @@
 {
- "generated_at": "2026-07-17T19:41:53.021198+00:00",
+ "generated_at": "2026-07-18T03:44:14.276404+00:00",
  "total": 96,
- "publishable": 2,
- "tracking": 94,
- "shown": 17,
- "tracking_capped": 79,
+ "publishable": 5,
+ "tracking": 91,
+ "shown": 20,
+ "tracking_capped": 76,
  "players": [
+  {
+   "name": "Gustavo Gomes",
+   "age": 17,
+   "position": "CAM/CM",
+   "club": "Raio Amado",
+   "league": "Paulista Sub-17",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 14,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "ge.globo.com",
+     "url": "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/06/athletico-renova-com-o-meia-gustavo-gomes-promessa-da-base.ghtml",
+     "seen": "2026-03-07T08:58:35.986874"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/gustavo-gomes/KErB2vi9/",
+     "seen": "2026-07-18T03:42:09.534103"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": "2026-03-07T08:58:35.986874",
+   "last_seen": "2026-07-07T03:22:18.663706",
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Iago Machado",
+   "age": 17,
+   "position": "Defender",
+   "club": "Flamengo",
+   "league": "Brazil (Youth/Professional)",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 14,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "meutimao.com.br",
+     "url": "https://www.meutimao.com.br/noticias-do-corinthians/528696/executivo-do-corinthians-projeta-evolucao-de-zagueiro-promessa-do-sub-20",
+     "seen": "2026-03-16T13:13:57.556669"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/iago-machado/profil/spieler/1497709",
+     "seen": "2026-07-18T03:42:09.534103"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": "2026-03-16T13:13:57.556669",
+   "last_seen": "2026-07-12T02:44:15.551386",
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Tiago Camargo",
+   "age": 17,
+   "position": "CAM/RW",
+   "club": "Grupo Desportivo Estoril Praia",
+   "league": "Primeira Liga (Portugal)",
+   "region": "Portugal",
+   "gender": "male",
+   "score": 14,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "jovenspromessas.pt",
+     "url": "https://jovenspromessas.pt/",
+     "seen": "2026-07-05T03:23:40.915578"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/tiago-camargo/profil/spieler/1531329",
+     "seen": "2026-07-18T03:42:09.534103"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": "2026-07-05T03:23:40.915578",
+   "last_seen": "2026-07-05T03:23:40.915578",
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
   {
    "name": "Mateus Romero",
    "age": 18,
@@ -167,98 +338,6 @@
    }
   },
   {
-   "name": "Gustavo Gomes",
-   "age": 17,
-   "position": "CAM/CM",
-   "club": "Raio Amado",
-   "league": "Paulista Sub-17",
-   "region": "Brazil",
-   "gender": "unknown",
-   "score": 10,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "ge.globo.com",
-     "url": "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/06/athletico-renova-com-o-meia-gustavo-gomes-promessa-da-base.ghtml",
-     "seen": "2026-03-07T08:58:35.986874"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": "2026-03-07T08:58:35.986874",
-   "last_seen": "2026-07-07T03:22:18.663706",
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Iago Machado",
-   "age": 17,
-   "position": "Defender",
-   "club": "Flamengo",
-   "league": "Brazil (Youth/Professional)",
-   "region": "Brazil",
-   "gender": "unknown",
-   "score": 10,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "meutimao.com.br",
-     "url": "https://www.meutimao.com.br/noticias-do-corinthians/528696/executivo-do-corinthians-projeta-evolucao-de-zagueiro-promessa-do-sub-20",
-     "seen": "2026-03-16T13:13:57.556669"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": "2026-03-16T13:13:57.556669",
-   "last_seen": "2026-07-12T02:44:15.551386",
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
    "name": "Davi Lima",
    "age": 17,
    "position": "CB",
@@ -381,52 +460,6 @@
    "review_flags": "fonte_singola",
    "first_detected": "2026-06-16T04:06:42.168560",
    "last_seen": "2026-06-21T14:11:33.702679",
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Tiago Camargo",
-   "age": 17,
-   "position": "CAM/RW",
-   "club": "Grupo Desportivo Estoril Praia",
-   "league": "Primeira Liga (Portugal)",
-   "region": "Portugal",
-   "gender": "unknown",
-   "score": 10,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "jovenspromessas.pt",
-     "url": "https://jovenspromessas.pt/",
-     "seen": "2026-07-05T03:23:40.915578"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": "2026-07-05T03:23:40.915578",
-   "last_seen": "2026-07-05T03:23:40.915578",
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -795,6 +828,144 @@
    "review_flags": "fonte_singola",
    "first_detected": "2026-03-01T18:34:20.455948",
    "last_seen": "2026-07-15T13:43:51.528923",
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Luis Benedetti",
+   "age": 19,
+   "position": "CB",
+   "club": "Palmeiras",
+   "league": "Brasileirão Série A",
+   "region": "Brazil",
+   "gender": "unknown",
+   "score": 7,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "trivela.com.br",
+     "url": "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/",
+     "seen": "2026-06-01T05:31:43.066722"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": "2026-06-01T05:31:43.066722",
+   "last_seen": "2026-07-16T13:49:44.169910",
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Axel Alfonzo",
+   "age": 19,
+   "position": null,
+   "club": "Limache (ex-Olimpia)",
+   "league": "Chile (unnamed)",
+   "region": "Paraguay",
+   "gender": "unknown",
+   "score": 7,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "alairelibre.cl",
+     "url": "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/",
+     "seen": "2026-06-01T06:01:15.061613"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": "2026-06-01T06:01:15.061613",
+   "last_seen": "2026-07-12T02:44:16.822132",
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "João Cruz",
+   "age": 19,
+   "position": "CAM/LW/RW/ST",
+   "club": "Athletico-PR",
+   "league": "Brasileirão Série A",
+   "region": "Brazil",
+   "gender": "unknown",
+   "score": 7,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "br.bolavip.com",
+     "url": "https://br.bolavip.com/futebol/joao-cruz-destaque-do-athletico-pr-lidera-ranking-de-participacoes-em-gols-entre-atletas-sub-20-no-brasil",
+     "seen": "2026-06-01T17:39:25.162813"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": "2026-06-01T17:39:25.162813",
+   "last_seen": "2026-07-16T08:13:32.907386",
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
