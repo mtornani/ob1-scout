@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-07-18T03:44:14.276404+00:00",
- "total": 96,
- "publishable": 5,
- "tracking": 91,
- "shown": 20,
- "tracking_capped": 76,
+ "generated_at": "2026-07-18T08:28:00.515101+00:00",
+ "total": 115,
+ "publishable": 7,
+ "tracking": 108,
+ "shown": 22,
+ "tracking_capped": 93,
  "players": [
   {
    "name": "Gustavo Gomes",
@@ -104,6 +104,63 @@
    "review_flags": "",
    "first_detected": "2026-03-16T13:13:57.556669",
    "last_seen": "2026-07-12T02:44:15.551386",
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Davi Lima",
+   "age": 17,
+   "position": "CB",
+   "club": "Unspecified Portuguese Club",
+   "league": "Portugal (Youth/Lower League)",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 14,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "ge.globo.com",
+     "url": "https://ge.globo.com/futebol/copa-sp-de-futebol-junior/",
+     "seen": "2026-06-01T04:04:27.385838"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/davi-lima/profil/spieler/1077138",
+     "seen": "2026-07-18T08:21:52.280337"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": "2026-06-01T04:04:27.385838",
+   "last_seen": "2026-07-12T13:19:27.929274",
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -292,6 +349,63 @@
    }
   },
   {
+   "name": "Gabriel Mec",
+   "age": 18,
+   "position": "CAM",
+   "club": "Bahia",
+   "league": "Campeonato Brasileiro Série A (youth)",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "gremionews.com.br",
+     "url": "https://www.gremionews.com.br/geral/4519-joia-milionaria-do-gremio-destaque-da-selecao-sub-20",
+     "seen": "2026-06-12T14:59:14.299313"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/gabriel-mec/profil/spieler/1228661",
+     "seen": "2026-07-18T08:21:52.280337"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": "2026-06-12T14:59:14.299313",
+   "last_seen": "2026-07-16T02:34:28.134895",
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
    "name": "Kadir do Panamá",
    "age": 19,
    "position": "ST",
@@ -338,17 +452,119 @@
    }
   },
   {
-   "name": "Davi Lima",
-   "age": 17,
-   "position": "CB",
-   "club": "Unspecified Portuguese Club",
-   "league": "Portugal (Youth/Lower League)",
-   "region": "Brazil",
-   "gender": "unknown",
-   "score": 10,
+   "name": "Juan José Fori Viveros",
+   "age": 16,
+   "position": null,
+   "club": "C.D Estudiantil",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 12,
    "confidence": 0.45,
    "breakdown": {
-    "youth": 15.0,
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Miguel Ángel Agámez Cabarcas",
+   "age": 16,
+   "position": null,
+   "club": "Barranquilla F.C",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Hermen Andrés Landázuri Landázuri",
+   "age": 16,
+   "position": null,
+   "club": "Atlético Boca Juniors",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 18.0,
     "production": 0.0,
     "asymmetry": 8.0,
     "n_sources": 1,
@@ -357,20 +573,280 @@
    "n_sources": 1,
    "sources": [
     {
-     "domain": "ge.globo.com",
-     "url": "https://ge.globo.com/futebol/copa-sp-de-futebol-junior/",
-     "seen": "2026-06-01T04:04:27.385838"
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
     }
    ],
-   "stats": {},
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
    "publishable": false,
    "identity_complete": true,
    "review_flags": "fonte_singola",
-   "first_detected": "2026-06-01T04:04:27.385838",
-   "last_seen": "2026-07-12T13:19:27.929274",
+   "first_detected": null,
+   "last_seen": null,
    "assessment": {
     "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Óscar Yesid Gómez Hinestroza",
+   "age": 16,
+   "position": null,
+   "club": "Atl. Huila",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Rafael de Jesús Granados Socarras",
+   "age": 16,
+   "position": null,
+   "club": "C.D. Estudiantil",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Jorman Camilo Mendoza Garrido",
+   "age": 16,
+   "position": null,
+   "club": "Envigado F.C.",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Tomás Martínez Rodríguez",
+   "age": 16,
+   "position": null,
+   "club": "Tigre",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Jhan Carlos BlandIón Moreno",
+   "age": 16,
+   "position": null,
+   "club": "E.D.P Ind. Medellín",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato"
     ],
     "cautions": [
@@ -476,315 +952,44 @@
    }
   },
   {
-   "name": "Diego Reyes",
-   "age": 18,
-   "position": "Attacker",
-   "club": "Flamengo U20",
-   "league": "Brazilian U20 competitions / Mexican U21 league",
-   "region": "Latin America",
-   "gender": "unknown",
-   "score": 9,
+   "name": "Santiago Vallecilla González",
+   "age": 17,
+   "position": null,
+   "club": "Deportivo Cali",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 10,
    "confidence": 0.45,
    "breakdown": {
-    "youth": 11.0,
+    "youth": 15.0,
     "production": 0.0,
     "asymmetry": 8.0,
     "n_sources": 1,
-    "detection_count": 1
+    "detection_count": 2
    },
    "n_sources": 1,
    "sources": [
     {
-     "domain": "terra.com.br",
-     "url": "https://www.terra.com.br/esportes/flamengo/flamengo-contrata-promessa-do-futebol-mexicano,65432d95e608a314e94f84ffd00d25fc5llw2fo6.html",
-     "seen": "2026-03-03T12:58:52.925498"
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
     }
    ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": "2026-03-03T12:58:52.925498",
-   "last_seen": "2026-03-20T02:06:45.700754",
-   "assessment": {
-    "pros": [
-     "Giovane (18 anni)",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Pedro Ferreira",
-   "age": 18,
-   "position": "Attacker",
-   "club": "São Paulo",
-   "league": "Brasileirão Série A",
-   "region": "Brazil",
-   "gender": "unknown",
-   "score": 9,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
    },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "spfc24horas.com.br",
-     "url": "https://spfc24horas.com.br/conheca-os-jogadores-do-sub-17-que-disputarao-a-copinha-2026/",
-     "seen": "2026-06-12T10:14:17.417292"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": "2026-06-12T10:14:17.417292",
-   "last_seen": "2026-07-16T08:13:33.452923",
-   "assessment": {
-    "pros": [
-     "Giovane (18 anni)",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Gabriel Mec",
-   "age": 18,
-   "position": "CAM",
-   "club": "Bahia",
-   "league": "Campeonato Brasileiro Série A (youth)",
-   "region": "Brazil",
-   "gender": "unknown",
-   "score": 9,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "gremionews.com.br",
-     "url": "https://www.gremionews.com.br/geral/4519-joia-milionaria-do-gremio-destaque-da-selecao-sub-20",
-     "seen": "2026-06-12T14:59:14.299313"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": "2026-06-12T14:59:14.299313",
-   "last_seen": "2026-07-16T02:34:28.134895",
-   "assessment": {
-    "pros": [
-     "Giovane (18 anni)",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Hugo Sochurek",
-   "age": 18,
-   "position": "CM",
-   "club": "Sparta Praga",
-   "league": "Czech First League",
-   "region": "Czech Republic",
-   "gender": "unknown",
-   "score": 9,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "record.com.mx",
-     "url": "https://www.record.com.mx/historia/mundial-2026-las-jovenes-promesas-de-la-copa-del-mundo-2026061522114888840",
-     "seen": "2026-06-20T14:04:12.453142"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": "2026-06-20T14:04:12.453142",
-   "last_seen": "2026-07-13T14:34:18.013530",
-   "assessment": {
-    "pros": [
-     "Giovane (18 anni)",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Francisco Sorondo",
-   "age": 18,
-   "position": "CB",
-   "club": "Defensor Sporting",
-   "league": "Uruguayan Primera División / South American Youth Tournaments",
-   "region": "Uruguay",
-   "gender": "unknown",
-   "score": 9,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "tiktok.com",
-     "url": "https://www.tiktok.com/@santibenitez_juv/video/7652164719108689159",
-     "seen": "2026-06-20T19:27:19.694852"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": "2026-06-20T19:27:19.694852",
-   "last_seen": "2026-06-20T19:27:19.694852",
-   "assessment": {
-    "pros": [
-     "Giovane (18 anni)",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Yastin Cuevas",
-   "age": 18,
-   "position": "Forward",
-   "club": "Colo Colo",
-   "league": "Chilean Primera División",
-   "region": "Chile",
-   "gender": "unknown",
-   "score": 9,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "chile.as.com",
-     "url": "https://chile.as.com/futbol/colo-colo-se-salva-gracias-a-su-juventud-f202602-n/",
-     "seen": "2026-07-03T02:57:38.854065"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": "2026-07-03T02:57:38.854065",
-   "last_seen": "2026-07-13T19:23:44.418165",
-   "assessment": {
-    "pros": [
-     "Giovane (18 anni)",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Bruno Baldini",
-   "age": 19,
-   "position": "ST",
-   "club": "Londrina",
-   "league": "Brasileirão Série B",
-   "region": "Brazil",
-   "gender": "unknown",
-   "score": 7,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "gauchazh.clicrbs.com.br",
-     "url": "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html",
-     "seen": null
-    }
-   ],
-   "stats": {},
    "publishable": false,
    "identity_complete": true,
    "review_flags": "fonte_singola",
    "first_detected": null,
-   "last_seen": "2026-07-15T13:43:50.530680",
+   "last_seen": null,
    "assessment": {
     "pros": [
-     "Giovane (19 anni)",
+     "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato"
     ],
     "cautions": [
@@ -798,131 +1003,44 @@
    }
   },
   {
-   "name": "Ryan Evaristo",
-   "age": 19,
-   "position": "ST",
-   "club": "São Paulo",
-   "league": "Youth (Copinha)",
-   "region": "Brazil",
-   "gender": "unknown",
-   "score": 7,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "instagram.com",
-     "url": "https://www.instagram.com/p/DVRpeUHDlup/",
-     "seen": "2026-03-01T18:34:20.455948"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": "2026-03-01T18:34:20.455948",
-   "last_seen": "2026-07-15T13:43:51.528923",
-   "assessment": {
-    "pros": [
-     "Giovane (19 anni)",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Luis Benedetti",
-   "age": 19,
-   "position": "CB",
-   "club": "Palmeiras",
-   "league": "Brasileirão Série A",
-   "region": "Brazil",
-   "gender": "unknown",
-   "score": 7,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "trivela.com.br",
-     "url": "https://trivela.com.br/brasil/joias-futebol-brasileiro-2026-promessas/",
-     "seen": "2026-06-01T05:31:43.066722"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": "2026-06-01T05:31:43.066722",
-   "last_seen": "2026-07-16T13:49:44.169910",
-   "assessment": {
-    "pros": [
-     "Giovane (19 anni)",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Axel Alfonzo",
-   "age": 19,
+   "name": "Kevin Angulo Angulo",
+   "age": 17,
    "position": null,
-   "club": "Limache (ex-Olimpia)",
-   "league": "Chile (unnamed)",
-   "region": "Paraguay",
-   "gender": "unknown",
-   "score": 7,
+   "club": "América S.A.",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 10,
    "confidence": 0.45,
    "breakdown": {
-    "youth": 7.0,
+    "youth": 15.0,
     "production": 0.0,
     "asymmetry": 8.0,
     "n_sources": 1,
-    "detection_count": 1
+    "detection_count": 2
    },
    "n_sources": 1,
    "sources": [
     {
-     "domain": "alairelibre.cl",
-     "url": "https://www.alairelibre.cl/futbol/axel-alfonzo-nuevo-fichaje-limache-2026/",
-     "seen": "2026-06-01T06:01:15.061613"
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
     }
    ],
-   "stats": {},
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
    "publishable": false,
    "identity_complete": true,
    "review_flags": "fonte_singola",
-   "first_detected": "2026-06-01T06:01:15.061613",
-   "last_seen": "2026-07-12T02:44:16.822132",
+   "first_detected": null,
+   "last_seen": null,
    "assessment": {
     "pros": [
-     "Giovane (19 anni)",
+     "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato"
     ],
     "cautions": [
@@ -936,17 +1054,17 @@
    }
   },
   {
-   "name": "João Cruz",
-   "age": 19,
-   "position": "CAM/LW/RW/ST",
-   "club": "Athletico-PR",
-   "league": "Brasileirão Série A",
-   "region": "Brazil",
-   "gender": "unknown",
-   "score": 7,
+   "name": "Damián Steven Zapata Ortiz",
+   "age": 17,
+   "position": null,
+   "club": "América S.A.",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 10,
    "confidence": 0.45,
    "breakdown": {
-    "youth": 7.0,
+    "youth": 15.0,
     "production": 0.0,
     "asymmetry": 8.0,
     "n_sources": 1,
@@ -955,20 +1073,76 @@
    "n_sources": 1,
    "sources": [
     {
-     "domain": "br.bolavip.com",
-     "url": "https://br.bolavip.com/futebol/joao-cruz-destaque-do-athletico-pr-lidera-ranking-de-participacoes-em-gols-entre-atletas-sub-20-no-brasil",
-     "seen": "2026-06-01T17:39:25.162813"
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
     }
    ],
-   "stats": {},
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
    "publishable": false,
    "identity_complete": true,
    "review_flags": "fonte_singola",
-   "first_detected": "2026-06-01T17:39:25.162813",
-   "last_seen": "2026-07-16T08:13:32.907386",
+   "first_detected": null,
+   "last_seen": null,
    "assessment": {
     "pros": [
-     "Giovane (19 anni)",
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Cristian David Flórez Palacios",
+   "age": 17,
+   "position": null,
+   "club": "Atl. Nacional",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 10,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato"
     ],
     "cautions": [
