@@ -1,11 +1,68 @@
 {
- "generated_at": "2026-07-18T19:51:56.072929+00:00",
- "total": 127,
- "publishable": 12,
- "tracking": 115,
- "shown": 27,
- "tracking_capped": 100,
+ "generated_at": "2026-07-19T04:10:10.118190+00:00",
+ "total": 138,
+ "publishable": 13,
+ "tracking": 125,
+ "shown": 28,
+ "tracking_capped": 110,
  "players": [
+  {
+   "name": "Juan José Fori Viveros",
+   "age": 16,
+   "position": null,
+   "club": "C.D Estudiantil",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 19,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/juan-fori/profil/spieler/1531673",
+     "seen": "2026-07-19T04:04:37.790338"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
   {
    "name": "Miguel Ángel Agámez Cabarcas",
    "age": 16,
@@ -737,57 +794,6 @@
    }
   },
   {
-   "name": "Juan José Fori Viveros",
-   "age": 16,
-   "position": null,
-   "club": "C.D Estudiantil",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 12,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 18.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 2
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
-     "seen": "2026-07-16T19:42:31.108991"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Molto giovane (16 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
    "name": "Hermen Andrés Landázuri Landázuri",
    "age": 16,
    "position": null,
@@ -1415,6 +1421,57 @@
     "asymmetry": 8.0,
     "n_sources": 1,
     "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Nilder Yankarlos Zapata Olarte",
+   "age": 17,
+   "position": null,
+   "club": "Dep. Tolima",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 10,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 2
    },
    "n_sources": 1,
    "sources": [
