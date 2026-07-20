@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-07-20T04:30:38.424301+00:00",
+ "generated_at": "2026-07-20T09:50:21.650408+00:00",
  "total": 157,
- "publishable": 17,
- "tracking": 140,
- "shown": 32,
- "tracking_capped": 125,
+ "publishable": 18,
+ "tracking": 139,
+ "shown": 33,
+ "tracking_capped": 124,
  "players": [
   {
    "name": "Juan José Fori Viveros",
@@ -902,6 +902,63 @@
    "review_flags": "",
    "first_detected": "2026-06-20T14:04:12.453142",
    "last_seen": "2026-07-13T14:34:18.013530",
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Francisco Sorondo",
+   "age": 18,
+   "position": "CB",
+   "club": "Defensor Sporting",
+   "league": "Uruguayan Primera División / South American Youth Tournaments",
+   "region": "Uruguay",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "tiktok.com",
+     "url": "https://www.tiktok.com/@santibenitez_juv/video/7652164719108689159",
+     "seen": "2026-06-20T19:27:19.694852"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/francisco-sorondo/profil/spieler/1379673",
+     "seen": "2026-07-20T09:42:48.018685"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": "2026-06-20T19:27:19.694852",
+   "last_seen": "2026-06-20T19:27:19.694852",
    "assessment": {
     "pros": [
      "Giovane (18 anni)",
