@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-07-19T19:46:52.177284+00:00",
- "total": 145,
- "publishable": 15,
- "tracking": 130,
- "shown": 30,
- "tracking_capped": 115,
+ "generated_at": "2026-07-20T04:30:38.424301+00:00",
+ "total": 157,
+ "publishable": 17,
+ "tracking": 140,
+ "shown": 32,
+ "tracking_capped": 125,
  "players": [
   {
    "name": "Juan José Fori Viveros",
@@ -205,6 +205,63 @@
      "domain": "transfermarkt.com",
      "url": "https://www.transfermarkt.com/kevin-angulo/profil/spieler/659787",
      "seen": "2026-07-18T19:43:47.999709"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Brait García Lobo",
+   "age": 17,
+   "position": null,
+   "club": "Deportivo Cali",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 17,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/brait-garcia-3616691",
+     "seen": "2026-07-20T04:23:18.085592"
     }
    ],
    "stats": {
@@ -845,6 +902,63 @@
    "review_flags": "",
    "first_detected": "2026-06-20T14:04:12.453142",
    "last_seen": "2026-07-13T14:34:18.013530",
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Yastin Cuevas",
+   "age": 18,
+   "position": "Forward",
+   "club": "Colo Colo",
+   "league": "Chilean Primera División",
+   "region": "Chile",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "chile.as.com",
+     "url": "https://chile.as.com/futbol/colo-colo-se-salva-gracias-a-su-juventud-f202602-n/",
+     "seen": "2026-07-03T02:57:38.854065"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/yastin-cuevas/profil/spieler/1177408",
+     "seen": "2026-07-20T04:23:18.085592"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": "2026-07-03T02:57:38.854065",
+   "last_seen": "2026-07-13T19:23:44.418165",
    "assessment": {
     "pros": [
      "Giovane (18 anni)",
@@ -1571,7 +1685,7 @@
    }
   },
   {
-   "name": "Brait García Lobo",
+   "name": "Santiago Mondragón Alzate",
    "age": 17,
    "position": null,
    "club": "Deportivo Cali",
@@ -1585,7 +1699,7 @@
     "production": 0.0,
     "asymmetry": 8.0,
     "n_sources": 1,
-    "detection_count": 2
+    "detection_count": 1
    },
    "n_sources": 1,
    "sources": [
