@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-07-24T20:01:10.569655+00:00",
+ "generated_at": "2026-07-25T03:56:05.899383+00:00",
  "total": 164,
- "publishable": 25,
- "tracking": 139,
- "shown": 40,
- "tracking_capped": 124,
+ "publishable": 26,
+ "tracking": 138,
+ "shown": 41,
+ "tracking_capped": 123,
  "players": [
   {
    "name": "Juan José Fori Viveros",
@@ -902,6 +902,63 @@
    "review_flags": "",
    "first_detected": "2026-03-14T02:02:03.134054",
    "last_seen": "2026-03-18T19:00:45.883944",
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Pedro Ferreira",
+   "age": 18,
+   "position": "Attacker",
+   "club": "São Paulo",
+   "league": "Brasileirão Série A",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "spfc24horas.com.br",
+     "url": "https://spfc24horas.com.br/conheca-os-jogadores-do-sub-17-que-disputarao-a-copinha-2026/",
+     "seen": "2026-06-12T10:14:17.417292"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/ferreira-pedro/6c4bxMuJ/",
+     "seen": "2026-07-25T03:49:53.481212"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": "2026-06-12T10:14:17.417292",
+   "last_seen": "2026-07-16T08:13:33.452923",
    "assessment": {
     "pros": [
      "Giovane (18 anni)",
