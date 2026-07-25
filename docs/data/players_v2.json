@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-07-25T03:56:05.899383+00:00",
- "total": 164,
+ "generated_at": "2026-07-25T08:40:04.849044+00:00",
+ "total": 167,
  "publishable": 26,
- "tracking": 138,
+ "tracking": 141,
  "shown": 41,
- "tracking_capped": 123,
+ "tracking_capped": 126,
  "players": [
   {
    "name": "Juan José Fori Viveros",
@@ -21,7 +21,7 @@
     "production": 0.0,
     "asymmetry": 8.0,
     "n_sources": 2,
-    "detection_count": 3
+    "detection_count": 4
    },
    "n_sources": 2,
    "sources": [
@@ -1535,6 +1535,261 @@
    }
   },
   {
+   "name": "Luigi Joel Ortiz Mañunga",
+   "age": 17,
+   "position": null,
+   "club": "Deportivo Cali",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 3
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "John Mauricio Maturana Carabalí",
+   "age": 17,
+   "position": null,
+   "club": "Internacional De Palmira",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 3
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Simón Alejandro Rojas Merchán",
+   "age": 17,
+   "position": null,
+   "club": "Atlético Nacional",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 3
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "José Rafael Escor",
+   "age": 17,
+   "position": null,
+   "club": "Atlético Nacional",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 4
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Eider Luis Carrillo Córdoba",
+   "age": 17,
+   "position": null,
+   "club": "Deportivo Independiente Medellín",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 3
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
    "name": "Darwin Daez Torres Redondo",
    "age": 17,
    "position": null,
@@ -1892,61 +2147,10 @@
    }
   },
   {
-   "name": "Damián Steven Zapata Ortiz",
+   "name": "Gilberto Adrián Saavedra Garcés",
    "age": 17,
    "position": null,
-   "club": "América S.A.",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 10,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
-     "seen": "2026-07-18T08:21:52.280337"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Cristian David Flórez Palacios",
-   "age": 17,
-   "position": null,
-   "club": "Atl. Nacional",
+   "club": "Real Soacha Cundinamarca",
    "league": null,
    "region": "Colombia",
    "gender": "male",
@@ -1963,8 +2167,8 @@
    "sources": [
     {
      "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
-     "seen": "2026-07-18T08:21:52.280337"
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
     }
    ],
    "stats": {
@@ -1994,10 +2198,10 @@
    }
   },
   {
-   "name": "Feder Luis Rivas Correa",
+   "name": "Edwin Estrella De La Rosa",
    "age": 17,
    "position": null,
-   "club": "Atl. Nacional",
+   "club": "Belen La Nubia – Arco Zaragoza",
    "league": null,
    "region": "Colombia",
    "gender": "male",
@@ -2014,8 +2218,8 @@
    "sources": [
     {
      "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
-     "seen": "2026-07-18T08:21:52.280337"
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
     }
    ],
    "stats": {
@@ -2024,205 +2228,6 @@
     "apps": 0,
     "minutes": 0
    },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Jerónimo Moreno Bonilla",
-   "age": 17,
-   "position": null,
-   "club": "C.D. Estudiantil",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 10,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
-     "seen": "2026-07-18T08:21:52.280337"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Nilder Yankarlos Zapata Olarte",
-   "age": 17,
-   "position": null,
-   "club": "Dep. Tolima",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 10,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 2
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
-     "seen": "2026-07-18T08:21:52.280337"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Santiago Mondragón Alzate",
-   "age": 17,
-   "position": null,
-   "club": "Deportivo Cali",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 10,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 2
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
-     "seen": "2026-07-18T08:21:52.280337"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Jhusstyn Derian Rentería Mosquera",
-   "age": 17,
-   "position": null,
-   "club": "Atl. Nacional",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 10,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
-     "seen": "2026-07-21T09:11:23.011662"
-    }
-   ],
-   "stats": {},
    "publishable": false,
    "identity_complete": true,
    "review_flags": "fonte_singola",
