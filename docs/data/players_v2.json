@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-07-26T14:11:34.896579+00:00",
+ "generated_at": "2026-07-26T19:58:12.353904+00:00",
  "total": 174,
- "publishable": 31,
- "tracking": 143,
- "shown": 46,
- "tracking_capped": 128,
+ "publishable": 33,
+ "tracking": 141,
+ "shown": 48,
+ "tracking_capped": 126,
  "players": [
   {
    "name": "Juan José Fori Viveros",
@@ -738,6 +738,120 @@
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Matias Caicedo Sinisterra",
+   "age": 16,
+   "position": null,
+   "club": "Independiente Yumbo",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 16,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/",
+     "seen": "2026-07-26T08:58:15.224553"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/matias-caicedo/profil/spieler/1531678",
+     "seen": "2026-07-26T19:45:13.397131"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Julio Andrés Sinisterra Cuero",
+   "age": 16,
+   "position": null,
+   "club": "Fortaleza C.F",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 16,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/",
+     "seen": "2026-07-26T08:58:15.224553"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/julio-sinisterra/profil/spieler/1506692",
+     "seen": "2026-07-26T19:45:13.397131"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Identità confermata da 2 fonti indipendenti"
     ],
@@ -2437,17 +2551,17 @@
    }
   },
   {
-   "name": "Matias Caicedo Sinisterra",
-   "age": 16,
+   "name": "Damián Steven Zapata Ortiz",
+   "age": 17,
    "position": null,
-   "club": "Independiente Yumbo",
+   "club": "América S.A.",
    "league": null,
    "region": "Colombia",
    "gender": "male",
-   "score": 12,
+   "score": 10,
    "confidence": 0.45,
    "breakdown": {
-    "youth": 18.0,
+    "youth": 15.0,
     "production": 0.0,
     "asymmetry": 8.0,
     "n_sources": 1,
@@ -2457,8 +2571,8 @@
    "sources": [
     {
      "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/",
-     "seen": "2026-07-26T08:58:15.224553"
+     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
     }
    ],
    "stats": {
@@ -2474,7 +2588,7 @@
    "last_seen": null,
    "assessment": {
     "pros": [
-     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato"
     ],
     "cautions": [
@@ -2488,28 +2602,28 @@
    }
   },
   {
-   "name": "Julio Andrés Sinisterra Cuero",
-   "age": 16,
+   "name": "Cristian David Flórez Palacios",
+   "age": 17,
    "position": null,
-   "club": "Fortaleza C.F",
+   "club": "Atl. Nacional",
    "league": null,
    "region": "Colombia",
    "gender": "male",
-   "score": 12,
+   "score": 10,
    "confidence": 0.45,
    "breakdown": {
-    "youth": 18.0,
+    "youth": 15.0,
     "production": 0.0,
     "asymmetry": 8.0,
     "n_sources": 1,
-    "detection_count": 1
+    "detection_count": 2
    },
    "n_sources": 1,
    "sources": [
     {
      "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/",
-     "seen": "2026-07-26T08:58:15.224553"
+     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
     }
    ],
    "stats": {
@@ -2525,7 +2639,7 @@
    "last_seen": null,
    "assessment": {
     "pros": [
-     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato"
     ],
     "cautions": [
