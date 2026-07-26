@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-07-26T09:08:26.449039+00:00",
+ "generated_at": "2026-07-26T14:11:34.896579+00:00",
  "total": 174,
- "publishable": 30,
- "tracking": 144,
- "shown": 45,
- "tracking_capped": 129,
+ "publishable": 31,
+ "tracking": 143,
+ "shown": 46,
+ "tracking_capped": 128,
  "players": [
   {
    "name": "Juan José Fori Viveros",
@@ -207,6 +207,63 @@
      "domain": "transfermarkt.com",
      "url": "https://www.transfermarkt.com/luigi-ortiz/profil/spieler/1531669",
      "seen": "2026-07-25T14:11:15.071449"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Edwin Estrella De La Rosa",
+   "age": 17,
+   "position": null,
+   "club": "Belen La Nubia – Arco Zaragoza",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 17,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 4
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/edwin-estrella/profil/spieler/1531672",
+     "seen": "2026-07-26T14:10:12.857220"
     }
    ],
    "stats": {
@@ -1818,57 +1875,6 @@
    }
   },
   {
-   "name": "Edwin Estrella De La Rosa",
-   "age": 17,
-   "position": null,
-   "club": "Belen La Nubia – Arco Zaragoza",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 13,
-   "confidence": 0.55,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 3
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
-     "seen": "2026-07-16T19:42:31.108991"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
    "name": "John Mauricio Maturana Carabalí",
    "age": 17,
    "position": null,
@@ -2435,6 +2441,57 @@
    "age": 16,
    "position": null,
    "club": "Independiente Yumbo",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/",
+     "seen": "2026-07-26T08:58:15.224553"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Julio Andrés Sinisterra Cuero",
+   "age": 16,
+   "position": null,
+   "club": "Fortaleza C.F",
    "league": null,
    "region": "Colombia",
    "gender": "male",
