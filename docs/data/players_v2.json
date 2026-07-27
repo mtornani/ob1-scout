@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-07-27T10:36:33.589090+00:00",
+ "generated_at": "2026-07-27T15:36:50.882106+00:00",
  "total": 182,
- "publishable": 33,
- "tracking": 149,
- "shown": 48,
- "tracking_capped": 134,
+ "publishable": 35,
+ "tracking": 147,
+ "shown": 50,
+ "tracking_capped": 132,
  "players": [
   {
    "name": "Juan José Fori Viveros",
@@ -398,6 +398,63 @@
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Identità confermata da 2 fonti indipendenti",
      "Segnale persistente: 5 rilevamenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Anderson Yair Murillo Mosquera",
+   "age": 17,
+   "position": null,
+   "club": "Deportivo Independiente Medellín",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 17,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 4
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/anderson-murillo/profil/spieler/1531674",
+     "seen": "2026-07-27T15:25:26.644504"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata"
@@ -1778,6 +1835,63 @@
    }
   },
   {
+   "name": "João Cruz",
+   "age": 19,
+   "position": "CAM/LW/RW/ST",
+   "club": "Athletico-PR",
+   "league": "Brasileirão Série A",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 9,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "br.bolavip.com",
+     "url": "https://br.bolavip.com/futebol/joao-cruz-destaque-do-athletico-pr-lidera-ranking-de-participacoes-em-gols-entre-atletas-sub-20-no-brasil",
+     "seen": "2026-06-01T17:39:25.162813"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/joao-cruz-1020815",
+     "seen": "2026-07-27T15:25:26.644504"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": "2026-06-01T17:39:25.162813",
+   "last_seen": "2026-07-16T08:13:32.907386",
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
    "name": "Gonzalo Petit",
    "age": 19,
    "position": "ST",
@@ -2080,57 +2194,6 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Segnale persistente: 5 rilevamenti"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
-   "name": "Anderson Yair Murillo Mosquera",
-   "age": 17,
-   "position": null,
-   "club": "Deportivo Independiente Medellín",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 13,
-   "confidence": 0.55,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 3
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
-     "seen": "2026-07-16T19:42:31.108991"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
     ],
     "cautions": [
      "Una sola fonte: non ancora corroborato",
@@ -2603,6 +2666,57 @@
   },
   {
    "name": "Cristian David Flórez Palacios",
+   "age": 17,
+   "position": null,
+   "club": "Atl. Nacional",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 10,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Feder Luis Rivas Correa",
    "age": 17,
    "position": null,
    "club": "Atl. Nacional",
