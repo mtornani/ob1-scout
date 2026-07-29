@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-07-29T03:58:11.887456+00:00",
- "total": 186,
- "publishable": 40,
- "tracking": 146,
- "shown": 55,
- "tracking_capped": 131,
+ "generated_at": "2026-07-29T09:33:57.377543+00:00",
+ "total": 191,
+ "publishable": 44,
+ "tracking": 147,
+ "shown": 59,
+ "tracking_capped": 132,
  "players": [
   {
    "name": "Juan José Fori Viveros",
@@ -2160,6 +2160,230 @@
    "review_flags": "",
    "first_detected": "2026-07-02T19:24:55.993595",
    "last_seen": "2026-07-02T19:24:55.993595",
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Fabricio Iacovich",
+   "age": 24,
+   "position": "Arquero",
+   "club": "Estudiantes de La Plata",
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "origin.app.promiedos.com.ar",
+     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh",
+     "seen": "2026-07-29T09:23:20.822740"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/fabricio-iacovich/profil/spieler/1050051",
+     "seen": "2026-07-29T09:23:20.822740"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Rodrigo Borzone",
+   "age": 21,
+   "position": "Arquero",
+   "club": "Estudiantes de La Plata",
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "origin.app.promiedos.com.ar",
+     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh",
+     "seen": "2026-07-29T09:23:20.822740"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/rodrigo-borzone/profil/spieler/1181926",
+     "seen": "2026-07-29T09:23:20.822740"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Santiago Flores",
+   "age": 25,
+   "position": "Defensa Central",
+   "club": "Estudiantes de La Plata",
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "origin.app.promiedos.com.ar",
+     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh",
+     "seen": "2026-07-29T09:23:20.822740"
+    },
+    {
+     "domain": "transfermarkt.de",
+     "url": "https://www.transfermarkt.de/santiago-flores/profil/spieler/1400394",
+     "seen": "2026-07-29T09:23:20.822740"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Santiago Núñez",
+   "age": 26,
+   "position": "Defensa Central",
+   "club": "Estudiantes de La Plata",
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "origin.app.promiedos.com.ar",
+     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh",
+     "seen": "2026-07-29T09:23:20.822740"
+    },
+    {
+     "domain": "transfermarkt.pe",
+     "url": "https://www.transfermarkt.pe/santiago-nunez/profil/spieler/959208",
+     "seen": "2026-07-29T09:23:20.822740"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": null,
+   "last_seen": null,
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
