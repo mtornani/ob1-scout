@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-07-30T20:15:01.028387+00:00",
- "total": 192,
- "publishable": 48,
- "tracking": 144,
- "shown": 63,
- "tracking_capped": 129,
+ "generated_at": "2026-07-31T04:09:53.632026+00:00",
+ "total": 207,
+ "publishable": 49,
+ "tracking": 158,
+ "shown": 64,
+ "tracking_capped": 143,
  "players": [
   {
    "name": "Juan José Fori Viveros",
@@ -2348,6 +2348,62 @@
    }
   },
   {
+   "name": "Luiz Fernando (Luizinho)",
+   "age": 20,
+   "position": "RW/LW",
+   "club": "Corinthians",
+   "league": "Brasileirão",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "meutimao.com.br",
+     "url": "https://www.meutimao.com.br/noticias-do-corinthians/528411/atacante-se-isola-na-artilharia-do-sub-20-do-corinthians-em-2026-e-dupla-entra-na-lista-confira",
+     "seen": "2026-03-07T08:58:34.836776"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/luiz-fernando-260950",
+     "seen": "2026-07-31T04:02:04.097438"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": "2026-03-07T08:58:34.836776",
+   "last_seen": "2026-06-13T08:59:14.608336",
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
    "name": "César Garza",
    "age": 20,
    "position": "CDM",
@@ -2956,7 +3012,7 @@
     "production": 0.0,
     "asymmetry": 8.0,
     "n_sources": 1,
-    "detection_count": 3
+    "detection_count": 4
    },
    "n_sources": 1,
    "sources": [
