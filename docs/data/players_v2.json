@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-07-31T04:09:53.632026+00:00",
+ "generated_at": "2026-07-31T09:37:23.189373+00:00",
  "total": 207,
- "publishable": 49,
- "tracking": 158,
- "shown": 64,
- "tracking_capped": 143,
+ "publishable": 50,
+ "tracking": 157,
+ "shown": 65,
+ "tracking_capped": 142,
  "players": [
   {
    "name": "Juan José Fori Viveros",
@@ -2655,6 +2655,62 @@
      "domain": "transfermarkt.pe",
      "url": "https://www.transfermarkt.pe/santiago-nunez/profil/spieler/959208",
      "seen": "2026-07-29T09:23:20.822740"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Gastón Benedetti",
+   "age": 25,
+   "position": "Defensa Lateral Izquierdo",
+   "club": "Estudiantes de La Plata",
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "origin.app.promiedos.com.ar",
+     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh",
+     "seen": "2026-07-29T09:23:20.822740"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/gaston-benedetti/profil/spieler/843156",
+     "seen": "2026-07-31T09:25:55.883241"
     }
    ],
    "stats": {
