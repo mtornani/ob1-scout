@@ -46,8 +46,12 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
     corr_budget = max(1, llm_budget // 3)
 
     if not extractor.available():
-        print("Nessun LLM configurato (GEMINI_API_KEY o fallback). Stop.")
+        print("Nessun LLM configurato (chiave free o GEMINI_API_KEY). Stop.")
         return
+
+    chain = [p["label"] for p in extractor.free_providers]
+    print(f"LLM mode: {extractor.mode} · catena gratuita: {chain or 'nessuna'} · "
+          f"Gemini: {'sì' if extractor.client else 'no'}")
 
     healed = db.heal_scores()
     if healed:

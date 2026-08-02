@@ -243,6 +243,14 @@ Due avvertenze oneste:
 La pipeline v2 gira ogni 6 ore da `main`. Nessuno di questi passi la ferma; ognuno ha un criterio
 di uscita misurabile e un modo per tornare indietro.
 
+**C0 — Catena gratuita prima di Gemini** *(fatto)*
+`src/llm_free_chain.py` + `src/extractor_v2.py` in modalità `free_first`: i
+provider gratuiti vengono provati per primi, Gemini resta rete di sicurezza (o
+niente, con `free_only`). Risolve il problema immediato — il billing Google —
+senza aspettare il resto della Fase C. È la versione tattica di ciò che
+`llm_pool_v2.py` farà in modo contabilizzato: quando il pool entrerà in
+produzione (C3), la catena diventerà un suo caso particolare.
+
 **C1 — Prefiltro e pool, in ombra** *(questo commit)*
 `src/prefilter_v2.py` e `src/llm_pool_v2.py` esistono, sono testati offline, e **non sono
 collegati a `ingest_v2.py`**: la produzione è byte-per-byte quella di prima. Il passo successivo

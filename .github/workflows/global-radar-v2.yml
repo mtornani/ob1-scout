@@ -49,11 +49,19 @@ jobs:
 
       - name: Run v2 ingest (source-first + corroborazione)
         env:
+          # Zero-cost: i provider gratuiti vengono provati PRIMA di Gemini, che
+          # con il billing attivo sul progetto Google fattura oltre il free tier.
+          # free_only = Gemini non viene mai chiamato (costo zero garantito).
+          OB1_LLM_MODE: free_first
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           INGEST_LLM_BUDGET: ${{ github.event.inputs.llm_budget || '15' }}
+          INGEST_CALL_DELAY: "12"
           PYTHONPATH: ${{ github.workspace }}
         run: python scripts/ingest_v2.py
 
