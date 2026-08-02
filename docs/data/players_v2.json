@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-02T04:20:15.280595+00:00",
+ "generated_at": "2026-08-02T09:13:05.090751+00:00",
  "total": 207,
- "publishable": 51,
- "tracking": 156,
- "shown": 66,
- "tracking_capped": 141,
+ "publishable": 53,
+ "tracking": 154,
+ "shown": 68,
+ "tracking_capped": 139,
  "players": [
   {
    "name": "Juan José Fori Viveros",
@@ -231,6 +231,61 @@
     ],
     "next_steps": [
      "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Eidy Ruíz",
+   "age": 17,
+   "position": "delantera",
+   "club": "Dep. Cali W",
+   "league": "Liga Women",
+   "region": "Colombia",
+   "gender": "female",
+   "score": 18,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 5.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-17-conmebol-sub-17-2026/",
+     "seen": "2026-07-20T04:23:18.085592"
+    },
+    {
+     "domain": "sg.soccerway.com",
+     "url": "https://sg.soccerway.com/player/ruiz-eidy/h06z8cdl/",
+     "seen": "2026-08-02T08:56:21.179010"
+    }
+   ],
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 2,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Produzione documentata: 1 gol in 2 presenze",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [],
+    "next_steps": [
      "Richiedere video o programmare una visione diretta",
      "Telefonata al club: conferma anagrafica e status contrattuale"
     ]
@@ -1590,6 +1645,63 @@
    "review_flags": "",
    "first_detected": "2026-07-05T03:23:40.915578",
    "last_seen": "2026-07-05T03:23:40.915578",
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Juan Pablo Mosquera Cortes",
+   "age": 17,
+   "position": null,
+   "club": "C.D. Estudiantil",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 14,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
+     "seen": "2026-07-21T09:11:23.011662"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/juan-mosquera/profil/spieler/924898",
+     "seen": "2026-08-02T08:56:21.179010"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": null,
+   "last_seen": null,
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
