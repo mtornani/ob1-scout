@@ -8,6 +8,7 @@ output/
 !docs/data/players_v2.json
 !docs/manifest.json
 !config/sources.json
+!config/llm_providers.json
 *.csv
 .env
 venv/
