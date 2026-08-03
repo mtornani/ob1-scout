@@ -49,11 +49,22 @@ jobs:
 
       - name: Run v2 ingest (source-first + corroborazione)
         env:
+          # Zero-cost per costruzione: free_only significa che Gemini non viene
+          # MAI chiamato, quindi nessun percorso può generare una fattura —
+          # indipendentemente da quali chiavi finiscono nei secret. Verificato
+          # sul run del 3 ago 2026: la catena free copre già il lavoro
+          # (via_fallback 6 su 7 chiamate). Per riabilitare Gemini come rete di
+          # sicurezza serve un cambio esplicito qui: free_first.
+          OB1_LLM_MODE: free_only
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           INGEST_LLM_BUDGET: ${{ github.event.inputs.llm_budget || '15' }}
+          INGEST_CALL_DELAY: "12"
           PYTHONPATH: ${{ github.workspace }}
         run: python scripts/ingest_v2.py
 

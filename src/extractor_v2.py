@@ -1,35 +1,44 @@
 #!/usr/bin/env python3
 """
-OB1 v2 — Estrattore (Fase B1 + ottimizzazione free tier B3)
+OB1 v2 — Estrattore (Fase B1 + zero-cost)
 
 L'LLM fa UNA cosa sola: leggere il testo di una fonte ed estrarne i giocatori
 citati come dati TIPIZZATI. NON dà punteggi (quello è scoring_v2.py).
 
-Economia free tier:
+Economia:
   - una chiamata per FONTE (non per giocatore);
-  - CATENA DI FALLBACK: Gemini primario → su 429/quota passa a un provider
-    gratuito OpenAI-compatible (Groq/OpenRouter/generico). Non solo resilienza:
-    è capacità gratuita aggiuntiva quando il free tier Gemini (20/giorno) è finito.
+  - CATENA DI PROVIDER GRATUITI (src/llm_free_chain.py) provata PRIMA di Gemini.
+    Non è solo resilienza: con il billing attivo sul progetto Google, Gemini
+    oltre il free tier fattura. Chiamandolo per ultimo (o mai, in free_only) il
+    costo resta zero per costruzione, non per fortuna;
   - il budget di chiamate per run lo impone chi orchestra (ingest_v2.py).
 
-normalize_observations() è codice puro, testabile senza rete.
+Modalità, via OB1_LLM_MODE: free_first (default se c'è una chiave free),
+free_only (mai Gemini), gemini_first (comportamento storico).
+
+normalize_observations() è codice puro, testabile senza rete: invariata.
 """
 
 import json
 import logging
 import os
+import sys
 from collections import Counter
+from pathlib import Path
 
-import requests
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from src.llm_free_chain import (FREE_MAX_CHARS, call_free_chain, is_quota_error,
+                                resolve_free_providers, resolve_llm_mode)
 
 logger = logging.getLogger(__name__)
 
 VALID_GENDERS = {"male", "female", "unknown"}
 
-# Tetto input per il SOLO fallback Groq: il free tier limita i token/minuto
-# (12k sul 70b) e una richiesta troppo grande fallisce con 413. Gemini invece
-# riceve il testo pieno (max_chars della chiamata). ~2800 char ≈ 2.2k token.
-GROQ_MAX_CHARS = 2800
+# Tetto input per i provider gratuiti: i free tier limitano i token/minuto
+# (12k sul 70b Groq) e una richiesta troppo grande fallisce con 413/429. Gemini,
+# quando lo si usa, riceve il testo pieno (max_chars della chiamata).
+# Nome storico mantenuto per retro-compatibilità con chi lo importa.
+GROQ_MAX_CHARS = FREE_MAX_CHARS
 
 EXTRACTION_SYSTEM = """Sei un estrattore di dati calcistici. Leggi il testo di UNA fonte
 ed estrai OGNI giovane calciatore/calciatrice citato come soggetto (non allenatori,
@@ -124,55 +133,75 @@ def normalize_observations(raw: list, source_url: str = "") -> list:
 
 
 def _is_quota_error(exc: Exception) -> bool:
-    s = str(exc).lower()
-    return "429" in s or "resource_exhausted" in s or "quota" in s
+    """Retro-compat: la logica vera sta in llm_free_chain.is_quota_error()."""
+    return is_quota_error(exc)
 
 
 def resolve_fallback(explicit: dict = None) -> dict | None:
     """
-    Config del provider di fallback OpenAI-compatible. Ordine: esplicito →
-    GROQ_API_KEY → OPENROUTER_API_KEY → COMPARE_* generico → None.
+    Retro-compatibilità: il "fallback" singolo di prima è il primo anello della
+    catena gratuita di oggi. Tenuto perché script diagnostici lo importano.
     """
     if explicit:
         return explicit
-    if os.getenv("GROQ_API_KEY"):
-        # 70b-versatile: sul free tier ha il tetto token/minuto più alto (12k)
-        # tra i modelli Groq. Il vero vincolo è la DIMENSIONE del prompt: va
-        # tenuta sotto il TPM (vedi max_chars ridotto in extract_from_source).
-        return {"base_url": "https://api.groq.com/openai/v1",
-                "api_key": os.getenv("GROQ_API_KEY"),
-                "model": os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile"),
-                "label": "groq"}
-    if os.getenv("OPENROUTER_API_KEY"):
-        return {"base_url": "https://openrouter.ai/api/v1",
-                "api_key": os.getenv("OPENROUTER_API_KEY"),
-                "model": os.getenv("OPENROUTER_MODEL", "meta-llama/llama-3.3-70b-instruct:free"),
-                "label": "openrouter"}
-    if os.getenv("COMPARE_BASE_URL") and os.getenv("COMPARE_API_KEY"):
-        return {"base_url": os.getenv("COMPARE_BASE_URL"),
-                "api_key": os.getenv("COMPARE_API_KEY"),
-                "model": os.getenv("COMPARE_MODEL", "gpt-4o-mini"),
-                "label": "custom"}
-    return None
+    chain = resolve_free_providers()
+    return chain[0] if chain else None
 
 
 class OB1Extractor:
-    def __init__(self, api_key: str = None, model: str = "gemini-2.5-flash",
-                 fallback: dict = None):
-        self.model = model
+    """
+    Ordine dei provider secondo la modalità:
+      free_first    catena gratuita → Gemini (solo se tutta la catena fallisce)
+      free_only     catena gratuita e basta: Gemini non viene mai chiamato
+      gemini_first  Gemini → catena gratuita (comportamento storico)
+    """
+
+    def __init__(self, api_key: str = None, model: str = None,
+                 fallback: dict = None, mode: str = None):
+        self.model = model or os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+        self.mode = resolve_llm_mode(mode)
         self.client = None
         self.gemini_exhausted = False          # una volta a quota, non ritenta Gemini
-        self.fallback_exhausted = False        # idem per Groq/OpenRouter (TPD/TPM)
-        self.fallback = resolve_fallback(fallback)
-        self.stats = Counter()                 # {gemini, fallback, failed}
-        if api_key:
+        self.free_providers = resolve_free_providers()
+        if fallback:                           # provider esplicito: ha la precedenza
+            self.free_providers = [fallback] + self.free_providers
+        self._dead_free = set()                # label dei free già esauriti nel run
+        self.stats = Counter()                 # {groq, cerebras, gemini, failed, ...}
+
+        api_key = os.getenv("GEMINI_API_KEY", "") if api_key is None else api_key
+        if api_key and self.mode != "free_only":
             try:
                 from google import genai
                 self.client = genai.Client(api_key=api_key)
             except Exception as e:
                 logger.warning(f"Gemini non disponibile: {e}")
+        elif api_key and self.mode == "free_only":
+            logger.info("Modalità free_only: GEMINI_API_KEY presente ma non verrà usata.")
 
-    # --- provider primario ---
+    # --- stato ---
+
+    @property
+    def free_exhausted(self) -> bool:
+        """True se ogni provider gratuito configurato è fuori uso per questo run."""
+        return bool(self.free_providers) and \
+            all(p["label"] in self._dead_free for p in self.free_providers)
+
+    def _gemini_ok(self) -> bool:
+        return bool(self.client) and not self.gemini_exhausted and self.mode != "free_only"
+
+    def _free_ok(self) -> bool:
+        return bool(self.free_providers) and not self.free_exhausted
+
+    def llm_usable(self) -> bool:
+        """True se almeno un provider può ancora essere chiamato in questo run."""
+        return self._gemini_ok() or self._free_ok()
+
+    def available(self) -> bool:
+        """True se esiste una configurazione utilizzabile (prima di iniziare)."""
+        return bool(self.free_providers) or (bool(self.client) and self.mode != "free_only")
+
+    # --- chiamate ---
+
     def _call_gemini(self, prompt: str) -> str:
         from google.genai import types
         resp = self.client.models.generate_content(
@@ -182,84 +211,67 @@ class OB1Extractor:
                 max_output_tokens=8192))
         return resp.text or ""
 
-    # --- provider di fallback (OpenAI-compatible) ---
-    def _call_fallback(self, prompt: str) -> str:
-        fb = self.fallback
-        resp = requests.post(
-            fb["base_url"].rstrip("/") + "/chat/completions",
-            headers={"Authorization": f"Bearer {fb['api_key']}",
-                     "Content-Type": "application/json"},
-            json={"model": fb["model"], "temperature": 0.0, "max_tokens": 8192,
-                  "messages": [{"role": "system", "content": EXTRACTION_SYSTEM},
-                               {"role": "user", "content": prompt}]},
-            timeout=120)
-        if resp.status_code != 200:
-            raise RuntimeError(f"fallback HTTP {resp.status_code}: {resp.text[:200]}")
-        return resp.json()["choices"][0]["message"]["content"] or ""
-
     def _prompt(self, source_text: str, source_url: str, max_chars: int) -> str:
         return EXTRACTION_PROMPT.format(
             source_url=source_url or "n/d", source_text=source_text[:max_chars])
 
+    def _try_free(self, source_text: str, source_url: str, max_chars: int):
+        """Catena gratuita. Ritorna la lista normalizzata, o None se nessuno risponde."""
+        if not self._free_ok():
+            return None
+        free_chars = min(max_chars, FREE_MAX_CHARS)
+        text, label = call_free_chain(
+            self.free_providers, EXTRACTION_SYSTEM,
+            self._prompt(source_text, source_url, free_chars), dead=self._dead_free)
+        if text is None:
+            return None
+        self.stats[label] += 1
+        return normalize_observations(_extract_first_json_array(text), source_url)
+
+    def _try_gemini(self, source_text: str, source_url: str, max_chars: int):
+        """Gemini col testo pieno. Ritorna la lista normalizzata, o None."""
+        if not self._gemini_ok():
+            return None
+        try:
+            raw = _extract_first_json_array(
+                self._call_gemini(self._prompt(source_text, source_url, max_chars)))
+            self.stats["gemini"] += 1
+            return normalize_observations(raw, source_url)
+        except Exception as e:
+            if is_quota_error(e):
+                logger.warning("Gemini quota esaurita → resta la catena gratuita.")
+                self.gemini_exhausted = True
+            else:
+                logger.error(f"Gemini error {source_url}: {e}")
+            return None
+
     def extract_from_source(self, source_text: str, source_url: str = "",
                             max_chars: int = 6000):
         """
-        Una estrazione (Gemini o fallback) → lista di osservazioni normalizzate.
+        Una estrazione → lista di osservazioni normalizzate.
         Ritorna [] se l'estrazione è riuscita ma non ha trovato giocatori (fonte
         legittimamente vuota → si può marcare 'vista'). Ritorna None se TUTTI i
-        provider hanno fallito (quota/errore) → l'orchestratore la ritenta dopo.
+        provider ammessi hanno fallito (quota/errore) → l'orchestratore ritenta.
 
-        Gemini (primario) riceve il testo pieno (max_chars). Il fallback Groq lo
-        riceve ridotto a GROQ_MAX_CHARS per stare sotto il tetto token/minuto del
-        free tier — il limite stretto serve solo lì, non penalizza Gemini.
+        I provider gratuiti ricevono il testo ridotto a FREE_MAX_CHARS (tetto
+        token/minuto dei free tier); Gemini, quando lo si usa, riceve max_chars.
         """
         if not source_text:
             return []
 
-        # Entrambi esauriti: non martellare l'API (ogni 429 brucia tempo e budget).
         if not self.llm_usable():
             self.stats["failed"] += 1
-            return None
+            return None   # niente provider vivi: non martellare le API
 
-        # 1) Gemini, se disponibile e non già esaurito — testo pieno
-        if self.client and not self.gemini_exhausted:
-            try:
-                raw = _extract_first_json_array(
-                    self._call_gemini(self._prompt(source_text, source_url, max_chars)))
-                self.stats["gemini"] += 1
-                return normalize_observations(raw, source_url)
-            except Exception as e:
-                if _is_quota_error(e):
-                    logger.warning("Gemini quota esaurita → passo al fallback.")
-                    self.gemini_exhausted = True
-                else:
-                    logger.error(f"Gemini error {source_url}: {e}")
-
-        # 2) Fallback OpenAI-compatible (Groq) — testo ridotto per il TPM
-        if self.fallback and not self.fallback_exhausted:
-            try:
-                fb_chars = min(max_chars, GROQ_MAX_CHARS)
-                raw = _extract_first_json_array(
-                    self._call_fallback(self._prompt(source_text, source_url, fb_chars)))
-                self.stats["fallback"] += 1
-                return normalize_observations(raw, source_url)
-            except Exception as e:
-                logger.error(f"Fallback error {source_url}: {e}")
-                if _is_quota_error(e):
-                    logger.warning("Fallback quota/rate-limit esaurita — stop provider.")
-                    self.fallback_exhausted = True
+        order = ((self._try_gemini, self._try_free) if self.mode == "gemini_first"
+                 else (self._try_free, self._try_gemini))
+        for attempt in order:
+            obs = attempt(source_text, source_url, max_chars)
+            if obs is not None:
+                return obs
 
         self.stats["failed"] += 1
         return None  # nessun provider disponibile: NON marcare visto, ritenta
-
-    def llm_usable(self) -> bool:
-        """True se almeno un provider può ancora essere chiamato in questo run."""
-        gemini_ok = bool(self.client) and not self.gemini_exhausted
-        fb_ok = bool(self.fallback) and not self.fallback_exhausted
-        return gemini_ok or fb_ok
-
-    def available(self) -> bool:
-        return bool(self.client) or bool(self.fallback)
 
 
 if __name__ == "__main__":
@@ -269,5 +281,53 @@ if __name__ == "__main__":
         {"name": None, "nickname": "Pirituba", "confidence": "low"},
     ], "https://example.com")
     print(f"Estratti {len(norm)}/2 (1 scartato).")
-    fb = resolve_fallback()
-    print("Fallback configurato:", fb["label"] if fb else "nessuno (imposta GROQ_API_KEY)")
+
+    # --- ordine dei provider per modalità, senza toccare la rete ---
+    def _extractor(mode, free_labels, with_gemini=True):
+        e = OB1Extractor.__new__(OB1Extractor)      # niente __init__: niente env, niente client
+        e.model, e.mode = "gemini-2.5-flash", mode
+        e.client = object() if (with_gemini and mode != "free_only") else None
+        e.gemini_exhausted = False
+        e.free_providers = [{"label": l, "base_url": "http://x/v1", "api_key": "k",
+                             "model": "m"} for l in free_labels]
+        e._dead_free, e.stats = set(), Counter()
+        return e
+
+    called = []
+    globals()["call_free_chain"] = lambda providers, system, prompt, dead=None, **k: (
+        called.append("free") or ('[{"name": "Kauan Ribeiro", "club": "Athletico", "age": 17}]',
+                                  providers[0]["label"]))
+    OB1Extractor._call_gemini = lambda self, prompt: called.append("gemini") or "[]"
+
+    for mode, expected_first in (("free_first", "free"), ("free_only", "free"),
+                                 ("gemini_first", "gemini")):
+        called.clear()
+        ex = _extractor(mode, ["groq", "cerebras"])
+        obs = ex.extract_from_source("testo della fonte", "https://ex.com/a")
+        assert called[0] == expected_first, (mode, called)
+        print(f"{mode:13} → primo provider: {called[0]:6} · estratti: {len(obs)} "
+              f"· stats: {dict(ex.stats)}")
+
+    # free_only non chiama Gemini nemmeno quando la catena gratuita è morta
+    called.clear()
+    ex = _extractor("free_only", ["groq"])
+    ex._dead_free.add("groq")
+    assert ex.extract_from_source("testo", "https://ex.com/b") is None
+    assert called == [], called
+    assert ex.free_exhausted and not ex.llm_usable()
+
+    # free_first: catena morta → Gemini interviene (rete di sicurezza, non default)
+    called.clear()
+    ex = _extractor("free_first", ["groq"])
+    ex._dead_free.add("groq")
+    ex.extract_from_source("testo", "https://ex.com/c")
+    assert called == ["gemini"], called
+
+    # Senza chiavi free e senza Gemini non si finge di poter lavorare
+    ex = _extractor("free_first", [], with_gemini=False)
+    assert not ex.available() and not ex.llm_usable()
+
+    print(f"\nmodalità con l'ambiente attuale: {resolve_llm_mode()}")
+    chain = resolve_free_providers()
+    print(f"catena gratuita: {[p['label'] for p in chain] or 'nessuna (imposta GROQ_API_KEY)'}")
+    print("OK — self-test estrattore superato.")

@@ -21,9 +21,17 @@ Promessa di prodotto: "ogni nome che diamo regge una telefonata di verifica".
 - Core: `src/{database,scoring,extractor,sources,outcomes,corroborate}_v2.py`
 - Strumenti: `scripts/dossier_v2.py` (dossier on-demand), `scripts/rank_v2.py`,
   `scripts/compare_llm.py`, `scripts/player_lookup.py`
-- LLM: Gemini free tier primario, fallback Groq su 429 (prompt ridotto a
-  GROQ_MAX_CHARS per il TPM). Budget chiamate per run: INGEST_LLM_BUDGET.
-- Design di riferimento: FASE_B.md (audit Fase A + architettura v2).
+- LLM zero-cost: catena di provider GRATUITI (`src/llm_free_chain.py`: Groq →
+  Cerebras → OpenRouter → NVIDIA) provata PRIMA di Gemini. Modalità via
+  `OB1_LLM_MODE` = free_first (default CI) | free_only | gemini_first.
+  Prompt ai free ridotto a FREE_MAX_CHARS (2800) per il TPM.
+  Budget chiamate per run: INGEST_LLM_BUDGET.
+  ⚠️ Gemini con billing ATTIVO fattura oltre il free tier: non va chiamato per
+  primo. Se il billing non si può spegnere, usare `free_only`.
+- Design di riferimento: FASE_B.md (audit Fase A + architettura v2),
+  FASE_C.md (architettura di produzione a scala: pool provider + ledger di
+  quota + prefiltro; `src/llm_pool_v2.py` e `src/prefilter_v2.py` sono pronti
+  ma NON ancora collegati alla pipeline).
 
 ## Regole di lavoro
 
