@@ -81,9 +81,34 @@ un giovane. Spot-check su quattro fonti vere del registro (pagine lette via Jina
 | ghanafa.org | 109.571 | 71.675 | 2.496 | sì |
 
 Su queste quattro pagine, oggi spenderemmo 4 chiamate da ~1.500 token (6.000 char). Con
-prefiltro + condensazione: 2 chiamate da ~650 token. **Circa un quinto dei token per lo stesso
-risultato.** Quattro pagine non sono una misura — sono un indizio abbastanza forte da dire che
-è qui che va guardato per primo, e da imporre di misurarlo sul serio (vedi C1, shadow mode).
+prefiltro + condensazione: 2 chiamate da ~650 token.
+
+### La misura vera (3 agosto 2026, 17 pagine del nostro storico)
+
+Le quattro pagine sopra erano un indizio. La misura l'ho fatta sul corpus giusto: gli articoli
+che la pipeline **ha già processato**, di cui sappiamo l'esito — 11 che avevano prodotto un
+giocatore poi diventato `identity_complete`, 6 viste senza esito, riscaricate oggi via Jina.
+
+| | oggi (`text[:6000]`) | con prefiltro + condensazione |
+|---|---|---|
+| chiamate | 17 | 14 |
+| token inviati | ~14.650 | ~4.050 |
+| | | **−73%** |
+
+Due cose che questa misura dice, e che vanno dette anche se scomode:
+
+**Il risparmio viene dalla condensazione, non dallo scarto.** Delle 6 pagine "viste senza
+esito" il prefiltro ne ha tenute 6 su 6: sono pagine di federazione piene di "sub-17" e di nomi
+propri, che *sembrano* rilevanti e non lo sono. L'ipotesi che il prefiltro scartasse metà del
+lavoro **non regge**: scarta poco, ma taglia i tre quarti dei token di ciò che tiene. Il calcolo
+del tetto più sotto va letto con questo numero, non con quello che avevo stimato.
+
+**Ha tre falsi negativi, tutti social.** Instagram e TikTok (454, 563, 2.060 char scaricati)
+vengono scartati come "nessun segnale giovanile" — ma erano pagine che in passato avevano
+prodotto profili verificati. Oggi Jina da quegli URL non riporta più contenuto utile, quindi la
+chiamata sarebbe sprecata comunque; resta che **la regola del prefiltro non può valere per i
+social**, che vanno trattati a parte (o tenuti sempre) prima di attivarlo in produzione. È
+esattamente il tipo di cosa che il criterio di uscita di C1 deve bloccare.
 
 ---
 
@@ -194,6 +219,34 @@ scoprire quale provider produce estrazioni che il validatore scarta (e retrocede
 riconoscere il giorno in cui un free tier cambia in silenzio — perché succederà.
 
 ---
+
+## Cosa hanno detto le API vere (3 agosto 2026)
+
+Tutto il resto di questo documento nasce da numeri dichiarati. Questa sezione no: sono le
+risposte delle API con le nostre chiavi, e correggono tre cose.
+
+**1. Il catalogo cambia sotto i piedi.** Il modello Cerebras che avevo messo come default
+(`llama-3.3-70b`) non esiste più: `/v1/models` oggi risponde `gemma-4-31b`, `zai-glm-4.7`,
+`gpt-oss-120b`. Un modello sbagliato non degrada, **fallisce 404 e brucia un anello della
+catena**. È la ragione per cui il registro deve restare configurazione e non codice.
+
+**2. Il free tier Cerebras non è attivo sul nostro account.** Ogni modello risponde
+`402 payment_required — Visit your billing tab`. Il milione di token al giorno su cui poggia
+metà del calcolo di capacità **oggi non ce l'abbiamo**: va sbloccato dal pannello Cerebras
+prima di contarci.
+
+**3. La chiave Groq è già satura, e il limite è a finestra scorrevole.** Il 429 dice:
+`tokens per day (TPD): Limit 100000, Used 99573`. Non è un caso: la pipeline attuale manda
+6.000 caratteri per articolo (~2.000 token) e gira quattro volte al giorno — **consuma da sola
+l'intero tetto giornaliero gratuito di Groq**. Ed è un tetto che si riapre a gocce: lo stesso
+errore suggeriva "riprova tra 3.456s" in un caso e "tra 1h2m30s" in un altro. Trattarlo come
+"finito per oggi", che è ciò che il codice faceva, buttava via un giorno intero di capacità —
+e in `free_first` avrebbe spinto il lavoro su Gemini, cioè sulla fattura. Ora il cooldown segue
+il suggerimento del provider e la catena aspetta e riprova quando l'attesa è di secondi.
+
+La conseguenza pratica è che **la condensazione non è un'ottimizzazione, è la condizione per
+restare a costo zero**: a ~300 token di input invece di ~2.000, gli stessi 100k/giorno di Groq
+passano da ~50 estrazioni a oltre 150.
 
 ## Il tetto reale a costo zero
 

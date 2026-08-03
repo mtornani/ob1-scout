@@ -15,12 +15,20 @@
       "base_url": "https://api.cerebras.ai/v1",
       "api_key_env": "CEREBRAS_API_KEY",
       "model": "gpt-oss-120b",
-      "classes": ["fast"],
+      "classes": [
+        "fast"
+      ],
       "priority": 10,
-      "limits": {"rpm": 30, "rpd": null, "tpm": 60000, "tpd": 1000000, "max_input_chars": 24000},
+      "limits": {
+        "rpm": 30,
+        "rpd": null,
+        "tpm": 60000,
+        "tpd": 1000000,
+        "max_input_chars": 24000
+      },
       "active": true,
       "verified": false,
-      "note": "Il free tier più capiente a token/giorno (1M). Context cap ~8k token sul free: il testo va condensato prima (prefilter_v2)."
+      "note": "Catalogo free verificato il 3 ago 2026 (/v1/models): gemma-4-31b, zai-glm-4.7, gpt-oss-120b — i Llama non ci sono più. ATTENZIONE: sull'account OB1 ogni modello risponde 402 payment_required, cioè il free tier non risulta attivo: va sbloccato dalla billing tab prima di contarci per la capacità di massa."
     },
     {
       "id": "groq",
@@ -29,12 +37,21 @@
       "base_url": "https://api.groq.com/openai/v1",
       "api_key_env": "GROQ_API_KEY",
       "model": "llama-3.3-70b-versatile",
-      "classes": ["fast", "mid"],
+      "classes": [
+        "fast",
+        "mid"
+      ],
       "priority": 20,
-      "limits": {"rpm": 30, "rpd": 1000, "tpm": 12000, "tpd": 100000, "max_input_chars": 2800},
+      "limits": {
+        "rpm": 30,
+        "rpd": 1000,
+        "tpm": 12000,
+        "tpd": 100000,
+        "max_input_chars": 2800
+      },
       "active": true,
       "verified": true,
-      "note": "Già in produzione come fallback. Il vincolo vero è TPM 12k: prompt corti o 429."
+      "note": "Limiti confermati live il 3 ago 2026 dagli header della risposta: 1000 RPD, 12k TPM, 100k TPD. Il tetto che morde è il TPD, ed è a finestra scorrevole: quando è pieno il 429 dice quando riprovare (secondi o ore), non 'torna domani'."
     },
     {
       "id": "gemini",
@@ -43,9 +60,18 @@
       "base_url": null,
       "api_key_env": "GEMINI_API_KEY",
       "model": "gemini-2.5-flash",
-      "classes": ["mid", "frontier"],
+      "classes": [
+        "mid",
+        "frontier"
+      ],
       "priority": 30,
-      "limits": {"rpm": 10, "rpd": 250, "tpm": 250000, "tpd": null, "max_input_chars": 24000},
+      "limits": {
+        "rpm": 10,
+        "rpd": 250,
+        "tpm": 250000,
+        "tpd": null,
+        "max_input_chars": 24000
+      },
       "active": true,
       "verified": true,
       "note": "Oggi è il primario e il collo di bottiglia. In Fase C smette di essere il default dell'estrazione di massa e diventa riserva per identità/dossier."
@@ -57,9 +83,17 @@
       "base_url": "https://openrouter.ai/api/v1",
       "api_key_env": "OPENROUTER_API_KEY",
       "model": "meta-llama/llama-3.3-70b-instruct:free",
-      "classes": ["mid"],
+      "classes": [
+        "mid"
+      ],
       "priority": 40,
-      "limits": {"rpm": 20, "rpd": 50, "tpm": null, "tpd": null, "max_input_chars": 12000},
+      "limits": {
+        "rpm": 20,
+        "rpd": 50,
+        "tpm": null,
+        "tpd": null,
+        "max_input_chars": 12000
+      },
       "active": true,
       "verified": false,
       "note": "50 richieste/giorno finché l'account non ha mai comprato crediti. Poca quota, ma tanti modelli dietro un endpoint solo: utile come jolly."
@@ -71,9 +105,17 @@
       "base_url": "https://models.github.ai/inference",
       "api_key_env": "GITHUB_MODELS_TOKEN",
       "model": "openai/gpt-4o",
-      "classes": ["frontier"],
+      "classes": [
+        "frontier"
+      ],
       "priority": 50,
-      "limits": {"rpm": 10, "rpd": 50, "tpm": null, "tpd": null, "max_input_chars": 24000},
+      "limits": {
+        "rpm": 10,
+        "rpd": 50,
+        "tpm": null,
+        "tpd": null,
+        "max_input_chars": 24000
+      },
       "active": false,
       "verified": false,
       "note": "Modelli di frontiera con il token GitHub (8k in / 4k out per richiesta). Poche richieste: tenerlo per il matching identità, non per l'estrazione. Attivare dopo aver verificato i limiti sul nostro account."
@@ -85,9 +127,17 @@
       "base_url": "https://integrate.api.nvidia.com/v1",
       "api_key_env": "NVIDIA_API_KEY",
       "model": "deepseek-ai/deepseek-r1",
-      "classes": ["frontier"],
+      "classes": [
+        "frontier"
+      ],
       "priority": 60,
-      "limits": {"rpm": 40, "rpd": null, "tpm": null, "tpd": null, "max_input_chars": 24000},
+      "limits": {
+        "rpm": 40,
+        "rpd": null,
+        "tpm": null,
+        "tpd": null,
+        "max_input_chars": 24000
+      },
       "active": false,
       "verified": false,
       "note": "Crediti una tantum (1000, estendibili), non quota ricorrente: si esaurisce e non torna. Da usare solo per compiti dove la qualità cambia l'esito."
@@ -99,9 +149,17 @@
       "base_url": "http://127.0.0.1:8080/v1",
       "api_key_env": "LOCAL_LLM_KEY",
       "model": "qwen3-1.7b-instruct-q4",
-      "classes": ["fast"],
+      "classes": [
+        "fast"
+      ],
       "priority": 90,
-      "limits": {"rpm": null, "rpd": null, "tpm": null, "tpd": null, "max_input_chars": 6000},
+      "limits": {
+        "rpm": null,
+        "rpd": null,
+        "tpm": null,
+        "tpd": null,
+        "max_input_chars": 6000
+      },
       "active": false,
       "verified": false,
       "note": "Capacità di riserva senza tetto: llama.cpp dentro il job Actions. Costa minuti di runner (gratis su repo pubblico), non quota. Lento (~30-60s/articolo) e qualità da validare con compare_llm prima di attivarlo."
