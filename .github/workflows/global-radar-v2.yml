@@ -49,10 +49,13 @@ jobs:
 
       - name: Run v2 ingest (source-first + corroborazione)
         env:
-          # Zero-cost: i provider gratuiti vengono provati PRIMA di Gemini, che
-          # con il billing attivo sul progetto Google fattura oltre il free tier.
-          # free_only = Gemini non viene mai chiamato (costo zero garantito).
-          OB1_LLM_MODE: free_first
+          # Zero-cost per costruzione: free_only significa che Gemini non viene
+          # MAI chiamato, quindi nessun percorso può generare una fattura —
+          # indipendentemente da quali chiavi finiscono nei secret. Verificato
+          # sul run del 3 ago 2026: la catena free copre già il lavoro
+          # (via_fallback 6 su 7 chiamate). Per riabilitare Gemini come rete di
+          # sicurezza serve un cambio esplicito qui: free_first.
+          OB1_LLM_MODE: free_only
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-2.5-flash
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
