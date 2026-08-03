@@ -51,7 +51,8 @@ Architettura a scala (pool multi-provider, ledger di quota, prefiltro): `FASE_C.
 
 - `OB1_LLM_MODE` (`free_first` nel workflow)
 - `GROQ_API_KEY` (consigliato: free, senza carta)
-- `CEREBRAS_API_KEY`, `OPENROUTER_API_KEY`, `NVIDIA_API_KEY` (opz., più quota gratis)
+- `CEREBRAS_API_KEY`, `OPENROUTER_API_KEY` (opz., più quota gratis)
+- `NVIDIA_API_KEY` (+ `NVIDIA_MODEL`): free tier a crediti, ultimo anello
 - `GEMINI_API_KEY` (solo free tier, billing OFF) + `GEMINI_MODEL`
 - `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID` (alert opz.)
 - `INGEST_LLM_BUDGET` (default 15) · `INGEST_CALL_DELAY` (default 12s)

@@ -40,6 +40,14 @@ VALID_MODES = ("free_first", "free_only", "gemini_first")
 # provider dice quando riprovare e l'attesa è breve, si aspetta e si riprova.
 FREE_RETRY_WAIT_MAX = float(os.getenv("FREE_RETRY_WAIT_MAX", "20"))
 
+# "Il provider è pieno adesso" ≠ "abbiamo finito la quota". La prima è una coda
+# momentanea (NVIDIA risponde "Worker local total request limit reached (33/32)"),
+# e va aspettata qualche secondo, non pagata escludendo il provider dal run.
+TRANSIENT_CAPACITY = re.compile(
+    r"resource\s*exhausted|request limit reached|worker local|overloaded|"
+    r"capacity|no healthy upstream|temporarily unavailable|try again later", re.I)
+TRANSIENT_WAIT = float(os.getenv("FREE_TRANSIENT_WAIT", "5"))
+
 # L'unità non può essere seguita da una lettera (così "5m45.6s" si legge
 # tutto, e "12000 TPM" non diventa una durata).
 _DURATION = re.compile(r"(\d+(?:\.\d+)?)\s*(ms|s|m|h)(?![A-Za-z])", re.I)
@@ -63,9 +71,22 @@ FREE_PROVIDER_SPECS = [
      "CEREBRAS_MODEL", "gpt-oss-120b", "cerebras"),
     ("OPENROUTER_API_KEY", "https://openrouter.ai/api/v1",
      "OPENROUTER_MODEL", "meta-llama/llama-3.3-70b-instruct:free", "openrouter"),
+    # NVIDIA NIM: verificato 3 ago 2026. nemotron-3-ultra risponde in ~7s;
+    # l'endpoint meta/llama-3.3-70b è servito molto più lentamente (fino al
+    # timeout), quindi non è il default. Il free tier NVIDIA è a CREDITI, non a
+    # quota ricorrente: sta in fondo alla catena, si consuma e non torna.
     ("NVIDIA_API_KEY", "https://integrate.api.nvidia.com/v1",
-     "NVIDIA_MODEL", "meta/llama-3.3-70b-instruct", "nvidia"),
+     "NVIDIA_MODEL", "nvidia/nemotron-3-ultra-550b-a55b", "nvidia"),
 ]
+
+# Parametri extra per provider, quando l'endpoint OpenAI-compatible non basta.
+# I modelli "reasoning" vanno messi in modalità non pensante: sull'estrazione
+# tipizzata producono lo STESSO JSON spendendo ~3,5x i token di output
+# (misurato su nemotron-3-ultra il 3 ago 2026: 1176 token con thinking, 339
+# senza). Il ragionamento serve dove la decisione è difficile, non qui.
+PROVIDER_EXTRA_BODY = {
+    "nvidia": {"chat_template_kwargs": {"enable_thinking": False}},
+}
 
 
 def resolve_free_providers(env: dict = None) -> list:
@@ -169,7 +190,9 @@ def call_openai_chat(provider: dict, system: str, prompt: str,
             headers={"Authorization": f"Bearer {provider['api_key']}",
                      "Content-Type": "application/json"},
             json={"model": provider["model"], "temperature": temperature,
-                  "max_tokens": max_tokens, "messages": messages},
+                  "max_tokens": max_tokens, "messages": messages,
+                  **PROVIDER_EXTRA_BODY.get(provider["label"], {}),
+                  **(provider.get("extra_body") or {})},
             timeout=timeout)
     except requests.RequestException as e:
         raise ProviderCallError(f"{provider['label']}: rete/timeout: {e}") from e
@@ -210,6 +233,13 @@ def call_free_chain(providers: list, system: str, prompt: str,
                     logger.error(f"{p['label']}: chiave rifiutata → escluso dal run.")
                     dead.add(p["label"])
                     break
+                if TRANSIENT_CAPACITY.search(str(e)) and attempt == 1:
+                    # Non è quota nostra: è il provider momentaneamente pieno
+                    # (NVIDIA: "Worker local total request limit reached 33/32").
+                    # Escluderlo per tutto il run sarebbe sprecare capacità viva.
+                    logger.warning(f"{p['label']}: provider pieno, riprovo tra {TRANSIENT_WAIT}s.")
+                    time.sleep(TRANSIENT_WAIT)
+                    continue
                 if is_quota_error(e, e.status):
                     wait = e.retry_after
                     if attempt == 1 and wait is not None and wait <= FREE_RETRY_WAIT_MAX:

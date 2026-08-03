@@ -126,8 +126,9 @@
       "kind": "openai",
       "base_url": "https://integrate.api.nvidia.com/v1",
       "api_key_env": "NVIDIA_API_KEY",
-      "model": "deepseek-ai/deepseek-r1",
+      "model": "nvidia/nemotron-3-ultra-550b-a55b",
       "classes": [
+        "mid",
         "frontier"
       ],
       "priority": 60,
@@ -136,11 +137,16 @@
         "rpd": null,
         "tpm": null,
         "tpd": null,
-        "max_input_chars": 24000
+        "max_input_chars": 12000
       },
-      "active": false,
-      "verified": false,
-      "note": "Crediti una tantum (1000, estendibili), non quota ricorrente: si esaurisce e non torna. Da usare solo per compiti dove la qualità cambia l'esito."
+      "active": true,
+      "verified": true,
+      "note": "Verificato live il 3 ago 2026: nemotron-3-ultra risponde in ~7s, deepseek-v4-flash in ~1s, mentre l'endpoint meta/llama-3.3-70b è servito lentissimo (timeout a 180s). Il modello è 'reasoning': va chiamato con enable_thinking=false, altrimenti spende ~3,5x i token di output per lo stesso JSON. Free tier a CREDITI, non ricorrente: riserva per identità/dossier, non estrazione di massa. Errore 'Worker local total request limit reached' = provider pieno adesso, si riprova tra pochi secondi, non è quota nostra finita.",
+      "extra_body": {
+        "chat_template_kwargs": {
+          "enable_thinking": false
+        }
+      }
     },
     {
       "id": "local",
