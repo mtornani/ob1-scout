@@ -27,9 +27,13 @@ Tutto ciò che non è rete è codice puro e testabile: python src/llm_pool_v2.py
 import json
 import logging
 import os
+import sys
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from src.llm_free_chain import parse_retry_seconds
 
 logger = logging.getLogger(__name__)
 
@@ -133,6 +137,8 @@ class QuotaLedger:
                 st["tokens_in"] = 0
                 st["tokens_out"] = 0
                 st["errors"] = 0
+                st.pop("obs_tokens_left", None)
+                st.pop("obs_calls_left", None)
             self.data["date"] = _today()
 
     def state(self, pid: str) -> dict:
@@ -170,7 +176,36 @@ class QuotaLedger:
             "tokens": None if tpd is None else max(0, tpd - used_tokens),
         }
 
+    def window_room(self, pid: str) -> dict:
+        """
+        Quanto resta nella FINESTRA CORRENTE del provider (minuto, di solito),
+        misurato dagli header x-ratelimit-remaining-*. Non è quota giornaliera:
+        Groq riporta 12.000 token/minuto su un tetto di 100.000 al giorno, e
+        confondere le due cose farebbe credere al pool che la giornata è finita
+        dopo la prima chiamata. Serve solo a non partire con una richiesta che
+        sappiamo già che verrà rifiutata.
+        """
+        st = self.state(pid)
+        return {"tokens": st.get("obs_tokens_left"), "calls": st.get("obs_calls_left")}
+
     # --- scritture ---
+
+    def observe(self, pid: str, headers: dict):
+        """
+        Registra la capienza residua della finestra corrente, dichiarata dal
+        provider negli header x-ratelimit-remaining-*. È l'unica misura vera che
+        abbiamo: i numeri di config/llm_providers.json sono solo dichiarazioni.
+        """
+        st = self.state(pid)
+        for header, field in (("x-ratelimit-remaining-tokens", "obs_tokens_left"),
+                              ("x-ratelimit-remaining-requests", "obs_calls_left")):
+            raw = (headers or {}).get(header) or (headers or {}).get(header.title())
+            if raw is None:
+                continue
+            try:
+                st[field] = int(float(raw))
+            except (TypeError, ValueError):
+                pass
 
     def record(self, pid: str, tokens_in: int, tokens_out: int):
         st = self.state(pid)
@@ -190,10 +225,16 @@ class QuotaLedger:
 # Classificazione errori
 # --------------------------------------------------------------------------
 
-def classify_error(status: int = None, message: str = "") -> tuple:
+def classify_error(status: int = None, message: str = "", headers: dict = None) -> tuple:
     """
     (cooldown_seconds, etichetta). Distinguere serve: un limite giornaliero e un
     limite al minuto si assomigliano nel testo ma vanno trattati all'opposto.
+
+    Il provider ha sempre ragione sul quando riprovare: se il messaggio o gli
+    header dicono "try again in 3.4s", quello vince anche se il testo parla di
+    tokens per day. Verificato su Groq (3 ago 2026): il suo 429 cita il TPD ma
+    la finestra è scorrevole e si riapre in pochi secondi — spegnere il provider
+    fino a mezzanotte butterebbe via un giorno di capacità gratuita.
     """
     m = (message or "").lower()
     if status in (401, 403) or "invalid api key" in m or "unauthorized" in m:
@@ -202,7 +243,10 @@ def classify_error(status: int = None, message: str = "") -> tuple:
         return 0, "too_large"            # non è quota: si riprova più corto
     daily = any(w in m for w in ("per day", "daily", "rpd", "tpd", "quota exceeded",
                                  "resource_exhausted", "requests per day"))
-    if status == 429 or "rate limit" in m or "quota" in m or daily:
+    if status in (429, 402) or "rate limit" in m or "quota" in m or daily:
+        hinted = parse_retry_seconds(message or "", headers)
+        if hinted is not None:
+            return max(1, int(hinted) + 1), "rate_hinted"
         return (_seconds_to_utc_midnight() if daily else COOLDOWN_RATE,
                 "daily" if daily else "rate")
     return COOLDOWN_TRANSPORT, "transport"
@@ -242,6 +286,9 @@ class LLMPool:
                 continue
             if rem["tokens"] is not None and rem["tokens"] < max(1, need_tokens):
                 continue
+            win = self.ledger.window_room(p["id"])
+            if need_tokens and win["tokens"] is not None and win["tokens"] < need_tokens:
+                continue        # la finestra corrente non ci sta: prova un altro
             out.append(p)
         return out
 
@@ -318,7 +365,7 @@ class LLMPool:
                             "tokens_in": tin or need, "tokens_out": tout or est_tokens(text)}
                 except ProviderError as e:
                     self._last_call[p["id"]] = time.time()
-                    cooldown, kind = classify_error(e.status, str(e))
+                    cooldown, kind = classify_error(e.status, str(e), getattr(e, "headers", None))
                     if kind == "too_large" and attempt == 1:
                         max_chars = max(1200, max_chars // 2)
                         logger.warning(f"{p['id']}: input troppo lungo, riprovo a {max_chars} char")
@@ -350,10 +397,13 @@ class LLMPool:
         except Exception as e:                       # rete/timeout
             raise ProviderError(str(e), status=None)
         if r.status_code != 200:
-            raise ProviderError(r.text[:300], status=r.status_code)
+            raise ProviderError(r.text[:300], status=r.status_code, headers=dict(r.headers))
         body = r.json()
         usage = body.get("usage") or {}
         text = (body.get("choices") or [{}])[0].get("message", {}).get("content") or ""
+        # I provider dicono negli header quanta quota resta DAVVERO: vale più di
+        # qualunque numero dichiarato in config/llm_providers.json.
+        self.ledger.observe(p["id"], dict(r.headers))
         return text, usage.get("prompt_tokens"), usage.get("completion_tokens")
 
     def _call_gemini(self, p, system, prompt, max_output_tokens, temperature):
@@ -385,9 +435,10 @@ class LLMPool:
 
 
 class ProviderError(RuntimeError):
-    def __init__(self, message, status=None):
+    def __init__(self, message, status=None, headers=None):
         super().__init__(message)
         self.status = status
+        self.headers = headers or {}
 
 
 # --------------------------------------------------------------------------
@@ -431,7 +482,25 @@ if __name__ == "__main__":
     assert [p["id"] for p in pool.candidates("frontier")] == []
     assert "groq" in [p["id"] for p in pool.candidates("mid")]
 
-    # Un 429 "per day" spegne fino a mezzanotte UTC, uno al minuto no
+    # Il "quando riprovare" del provider batte la nostra classificazione: il 429
+    # di Groq cita il TPD ma si riapre in 3.456s → 4s di cooldown, non 19 ore.
+    groq_429 = ("Rate limit reached on tokens per day (TPD): Limit 100000, Used 99870, "
+                "Requested 134. Please try again in 3.456s.")
+    assert classify_error(429, groq_429) == (4, "rate_hinted"), classify_error(429, groq_429)
+
+    # La finestra corrente (header) non va confusa con la quota del giorno:
+    # Groq riporta ~12k token/minuto su un tetto di 100k al giorno.
+    day_before = pool.ledger.remaining(fake[1])["tokens"]
+    pool.ledger.observe("groq", {"x-ratelimit-remaining-tokens": "11944",
+                                 "x-ratelimit-remaining-requests": "996"})
+    assert pool.ledger.remaining(fake[1])["tokens"] == day_before   # il giorno non cambia
+    assert pool.ledger.window_room("groq")["tokens"] == 11944
+    assert "groq" in [p["id"] for p in pool.candidates("fast", need_tokens=5000)]
+    pool.ledger.observe("groq", {"x-ratelimit-remaining-tokens": "800"})
+    assert "groq" not in [p["id"] for p in pool.candidates("fast", need_tokens=5000)]
+    pool.ledger.observe("groq", {"x-ratelimit-remaining-tokens": "11944"})
+
+    # Un 429 "per day" senza suggerimenti spegne fino a mezzanotte UTC
     assert classify_error(429, "You exceeded your requests per day")[1] == "daily"
     assert classify_error(429, "rate limit reached for 12000 TPM")[1] == "rate"
     assert classify_error(413, "request too large")[0] == 0
