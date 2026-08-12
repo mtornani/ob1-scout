@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-12T08:09:21.866789+00:00",
+ "generated_at": "2026-08-12T14:03:45.292959+00:00",
  "total": 243,
- "publishable": 53,
- "tracking": 190,
- "shown": 68,
- "tracking_capped": 175,
+ "publishable": 54,
+ "tracking": 189,
+ "shown": 69,
+ "tracking_capped": 174,
  "players": [
   {
    "name": "Juan José Fori Viveros",
@@ -1137,6 +1137,63 @@
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ]
+   }
+  },
+  {
+   "name": "Rafael de Jesús Granados Socarras",
+   "age": 16,
+   "position": null,
+   "club": "C.D. Estudiantil",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 16,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/rafael-granados/profil/spieler/823285",
+     "seen": "2026-08-12T13:58:27.654919"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Identità confermata da 2 fonti indipendenti"
     ],
@@ -3327,57 +3384,6 @@
    }
   },
   {
-   "name": "Rafael de Jesús Granados Socarras",
-   "age": 16,
-   "position": null,
-   "club": "C.D. Estudiantil",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 12,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 18.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
-     "seen": "2026-07-18T08:21:52.280337"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Molto giovane (16 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ]
-   }
-  },
-  {
    "name": "Tomás Martínez Rodríguez",
    "age": 16,
    "position": null,
@@ -3765,6 +3771,52 @@
     "apps": 0,
     "minutes": 0
    },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "first_detected": null,
+   "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ]
+   }
+  },
+  {
+   "name": "Jhusstyn Derian Rentería Mosquera",
+   "age": 17,
+   "position": null,
+   "club": "Atl. Nacional",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 10,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
+     "seen": "2026-07-21T09:11:23.011662"
+    }
+   ],
+   "stats": {},
    "publishable": false,
    "identity_complete": true,
    "review_flags": "fonte_singola",
