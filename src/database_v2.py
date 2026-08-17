@@ -33,6 +33,24 @@ def normalize_name(name: str) -> str:
     return ascii_name.lower().strip()
 
 
+def surname_candidates(tokens: list) -> list:
+    """
+    Token che possono contare come cognome, non come nome di battesimo.
+
+    Con 2 token è "Nome Cognome": solo l'ultimo conta. Con ≥3 token
+    l'ultimo NON è sempre il solo cognome utile: l'anagrafica ispanica usa
+    spesso due cognomi (paterno + materno), e in gran parte della pool
+    sudamericana capita che una fonte usi solo il primo dei due — quindi
+    si accettano gli ultimi due token come "zona cognome". Scarta comunque
+    un match che cade solo nella parte nome-di-battesimo, dove vivono le
+    collisioni tipo "Juan José" (comune in America Latina, non la stessa
+    persona).
+    """
+    if len(tokens) >= 3:
+        return tokens[-2:]
+    return tokens[-1:]
+
+
 def domain_of(url: str) -> str:
     """Dominio di una URL, senza www."""
     if not url:
@@ -256,15 +274,31 @@ class OB1DatabaseV2:
 
     # ---- Risoluzione entità (Fase B2) ----
     def _names_match(self, a: str, b: str) -> bool:
-        """Match prudente (evita di fondere omonimi diversi)."""
+        """
+        Match prudente (evita di fondere omonimi diversi).
+
+        Bug reale, trovato confrontando a mano l'overlap con un altro
+        radar: "≥2 token in comune" senza toccare la zona cognome fondeva
+        "Juan José Fori Viveros" con un "Juan José Camacho" qualunque —
+        stesso nome di battesimo composto, cognome diverso, persone
+        diverse. Questa è la funzione usata da find_player() per decidere
+        se una nuova osservazione appartiene a un giocatore già in
+        anagrafica: un falso positivo qui non produce solo una
+        corroborazione fasulla, fonde le prove di due persone reali in un
+        solo profilo. Vedi surname_candidates per perché sono due token
+        con nomi a doppio cognome, non uno.
+        """
         a, b = normalize_name(a), normalize_name(b)
         if not a or not b:
             return False
         if a == b or a in b or b in a:
             return True
         pa = {t for t in a.split() if len(t) > 2}
-        pb = {t for t in b.split() if len(t) > 2}
-        return bool(pa and pb and len(pa & pb) >= 2)
+        b_tokens = [t for t in b.split() if len(t) > 2]
+        pb = set(b_tokens)
+        if not (pa and pb and len(pa & pb) >= 2):
+            return False
+        return bool(set(surname_candidates(b_tokens)) & pa)
 
     def find_player(self, name: str):
         with self._conn() as conn:
@@ -418,5 +452,18 @@ class OB1DatabaseV2:
 
 
 if __name__ == "__main__":
-    db = OB1DatabaseV2()
+    _db = OB1DatabaseV2()
+
+    # Falso positivo reale, trovato confrontando a mano l'overlap con un
+    # altro radar: nome di battesimo composto comune in America Latina,
+    # cognome diverso, non deve fondere due persone.
+    assert not _db._names_match("Juan José Camacho", "Juan José Fori Viveros")
+    assert _db._names_match("Juan Fori Viveros", "Juan José Fori Viveros")
+    # Doppio cognome ispanico (paterno+materno): non deve rompersi solo
+    # perché una fonte usa il primo cognome e l'altra il secondo.
+    assert _db._names_match("Tomás Martínez", "Tomás Martínez Rodríguez")
+    assert _db._names_match("Tomás Rodríguez", "Tomás Martínez Rodríguez")
+    print("OK _names_match guards")
+
+    db = _db
     print(f"Schema v2 inizializzato: {db.db_path}")
