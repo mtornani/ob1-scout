@@ -38,6 +38,12 @@
   .brand .mark b{color:var(--accent)}
   .brand .sub{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);font-weight:600}
   .tag{margin-top:7px;font-size:13.5px;color:var(--muted)}
+  /* Cosa NON è, non solo cosa fa - perché chi apre solo questa pagina,
+     senza confrontarla con altri due prodotti simili, deve capire da
+     sola che qui il numero è una verifica, non una previsione. */
+  .positioning{margin-top:9px;font-size:12.5px;line-height:1.5;color:var(--muted);
+    border-left:2px solid var(--accent);padding-left:10px;max-width:34ch}
+  .positioning b{color:var(--ink)}
 
   .stats{display:flex;margin-top:18px;border:1px solid var(--line);
     border-radius:12px;background:var(--surface);overflow:hidden}
@@ -124,6 +130,7 @@
     <span class="sub">Scout</span>
   </div>
   <div class="tag">Ogni nome con le sue prove.</div>
+  <div class="positioning">Non prevede il futuro di un giocatore: <b>verifica che esista davvero</b>, con fonti che reggono una telefonata.</div>
   <div class="stats" id="stats" hidden>
     <div class="stat"><div class="n" id="st-pub">–</div><div class="l">Profili verificati</div></div>
     <div class="stat"><div class="n" id="st-trk">–</div><div class="l">In tracking</div></div>
