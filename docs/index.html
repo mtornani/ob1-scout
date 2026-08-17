@@ -77,6 +77,14 @@
   .gate{margin-left:auto;font-size:11px;font-weight:600;letter-spacing:.02em;padding:3px 9px;border-radius:20px}
   .gate.ok{color:var(--accent);background:var(--accent-wash)}
   .gate.no{color:var(--faint);border:1px solid var(--line)}
+
+  /* Il claim del prodotto va letto per primo, prima del punteggio: OB1
+     Global esiste per la promessa "regge una verifica", non per il numero.
+     Dossier identità: §06. */
+  .claim{font-family:var(--mono);font-size:10.5px;font-weight:600;letter-spacing:.05em;
+    text-transform:uppercase;margin-bottom:9px}
+  .claim.ok{color:var(--accent)}
+  .claim.no{color:var(--faint)}
   .srcs{font-size:11.5px;margin-top:10px;padding-top:10px;border-top:1px solid var(--line-soft);
     display:flex;gap:10px;flex-wrap:wrap}
   .srcs a{color:var(--accent);text-decoration:none}
@@ -220,7 +228,12 @@
           ${a.cautions?.length ? `<div class="wh caut"><h4>Cautele</h4><ul>${li(a.cautions)}</ul></div>` : ''}
           ${a.next_steps?.length ? `<div class="wh"><h4>Per proseguire</h4><ul>${li(a.next_steps)}</ul></div>` : ''}
         </details>` : '';
+    const nSrc = p.n_sources || 1;
+    const claim = p.publishable
+      ? `✓ VERIFICATO — ${nSrc} font${nSrc === 1 ? 'e' : 'i'} indipendent${nSrc === 1 ? 'e' : 'i'}`
+      : '○ DA CORROBORARE — identità o fonti insufficienti';
     return `<div class="card${mutedClass}">
+      <div class="claim ${p.publishable ? 'ok' : 'no'}">${claim}</div>
       <div class="row1">
         <div class="rank">${mutedClass ? '—' : String(i+1).padStart(2,'0')}</div>
         <div class="who">
@@ -232,9 +245,7 @@
       <div class="merit"><i class="y" style="width:${w('youth')}%"></i><i class="p" style="width:${w('production')}%"></i><i class="a" style="width:${w('asymmetry')}%"></i></div>
       <div class="foot">
         <span class="conf">confidenza <span class="dots">${dots}</span></span>
-        <span class="chip">◆ ${p.n_sources||1} font${(p.n_sources||1) === 1 ? 'e' : 'i'}</span>
         ${stats}
-        <span class="gate ${p.publishable ? 'ok' : 'no'}">${p.publishable ? 'Verificato' : 'Da corroborare'}</span>
       </div>
       ${srcs ? `<div class="srcs">${srcs}</div>` : ''}
       ${why}
