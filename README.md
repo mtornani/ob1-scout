@@ -61,6 +61,17 @@ data/ob1_v2.db               # store (in CI)
 
 ---
 
+## Limiti onesti
+
+- **Il matching nome→entità è euristico, non un ID stabile.** Confronta token del nome (con guardia sul cognome — un buco reale qui, nomi di battesimo composti comuni come "Juan José" venivano confusi tra persone diverse, corretto), non un identificativo esterno come il QID Wikidata. Resta un margine d'errore, soprattutto su nomi molto comuni.
+- **"≥2 fonti indipendenti" conta domini distinti, non verifica se si copiano a vicenda.** Due testate che ripubblicano la stessa agenzia contano come due fonti.
+- **Il tabellone (`src/outcomes_v2.py`) è appena entrato in produzione, storia zero.** Misura da ora in avanti se un nome pubblicato viene poi ripreso da stampa mainstream con anticipo reale — utile tra qualche mese, non oggi.
+- **La pool è larga quanto `config/sources.json`.** Un paese o una lega non in quel registro è semplicemente invisibile — non "scartato", proprio non cercato.
+- **Nessuna verifica incrociata con dati di performance strutturati** (xG, presenze certificate) — l'estrazione LLM tipizzata prende quello che le fonti scrivono in prosa, non un feed evento.
+- **Zero dati inventati resta la regola**, non l'eccezione: quando un campo manca, il profilo lo dice ("da corroborare"), non stima un placeholder.
+
+---
+
 ## Contatto
 
 info@matchanalysispro.online
