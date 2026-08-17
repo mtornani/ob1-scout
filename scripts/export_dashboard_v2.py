@@ -184,6 +184,13 @@ def export(db_path: Path, out_path: Path) -> dict:
     trk = sorted([x for x in players if not x["publishable"]], key=_tracking_rank)
     TRACK_CAP = 15
     shown = pub + trk[:TRACK_CAP]
+    try:
+        from src.database_v2 import OB1DatabaseV2
+        outcomes = OB1DatabaseV2(str(db_path)).outcomes_summary()
+    except Exception as e:
+        print(f"Warning: outcomes_summary failed: {e}")
+        outcomes = {"checked": 0, "avg_lead_time_days": None}
+
     doc = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "total": len(players),
@@ -191,6 +198,7 @@ def export(db_path: Path, out_path: Path) -> dict:
         "tracking": len(trk),
         "shown": len(shown),
         "tracking_capped": max(0, len(trk) - TRACK_CAP),
+        "outcomes": outcomes,
         "players": shown,
     }
     out_path.parent.mkdir(parents=True, exist_ok=True)

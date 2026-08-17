@@ -17,9 +17,15 @@ Schema:
 
 import json
 import sqlite3
+import sys
 import unicodedata
 from pathlib import Path
 from urllib.parse import urlparse
+
+# importabile sia come package sia da `python src/database_v2.py` diretto —
+# senza, il lazy import di src.scoring_v2/src.outcomes_v2 più sotto fallisce
+# con ModuleNotFoundError perché sys.path[0] diventa src/, non la repo root.
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 DEFAULT_DB = Path(__file__).parent.parent / "data" / "ob1_v2.db"
 
@@ -344,8 +350,12 @@ class OB1DatabaseV2:
         src_url = obs.get("source_url") or ""
         dom = domain_of(src_url)
         new_stats = obs.get("stats") or {}
+        observed_at = obs.get("observed_at")
 
         pid = self.find_player(name)
+        # Per il tabellone (outcomes_v2): serve il first_detected del
+        # giocatore com'era PRIMA di questa osservazione, non dopo.
+        prior_first_detected, prior_club, prior_name = None, None, name
         with self._conn() as conn:
             status = "updated"
             if pid is None:
@@ -353,18 +363,20 @@ class OB1DatabaseV2:
                     INSERT INTO players
                     (canonical_name, normalized_name, name_token_count, gender, age,
                      position, club, league, region, is_ghost, detection_count,
-                     evidence_count, stats_json, created_at)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 0, 1, 0, ?, ?)
+                     evidence_count, stats_json, first_detected, last_seen, created_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 0, 1, 0, ?, ?, ?, ?)
                 """, (name, normalize_name(name), len([t for t in name.split() if t]),
                       obs.get("gender") or "unknown", obs.get("age"),
                       obs.get("position"), obs.get("club"), obs.get("league"),
                       obs.get("region"), json.dumps(new_stats) if new_stats else None,
-                      obs.get("observed_at")))
+                      observed_at, observed_at, observed_at))
                 pid = cur.lastrowid
                 status = "new"
             else:
-                # riempi solo i campi mancanti + fondi le statistiche (max per chiave)
-                cur_stats = conn.execute("SELECT stats_json FROM players WHERE id=?", (pid,)).fetchone()[0]
+                row = conn.execute(
+                    "SELECT stats_json, first_detected, club, canonical_name "
+                    "FROM players WHERE id=?", (pid,)).fetchone()
+                cur_stats, prior_first_detected, prior_club, prior_name = row
                 merged = json.loads(cur_stats) if cur_stats else {}
                 for k, v in new_stats.items():
                     if isinstance(v, (int, float)):
@@ -375,24 +387,67 @@ class OB1DatabaseV2:
                         club = COALESCE(club, ?), league = COALESCE(league, ?),
                         region = COALESCE(region, ?),
                         gender = CASE WHEN gender='unknown' THEN ? ELSE gender END,
-                        stats_json = ?
+                        stats_json = ?,
+                        first_detected = COALESCE(first_detected, ?),
+                        last_seen = ?
                     WHERE id=?
                 """, (obs.get("age"), obs.get("position"), obs.get("club"),
                       obs.get("league"), obs.get("region"),
                       obs.get("gender") or "unknown",
-                      json.dumps(merged) if merged else None, pid))
+                      json.dumps(merged) if merged else None,
+                      observed_at, observed_at, pid))
 
             conn.execute("""INSERT INTO evidences
                 (player_id, source_url, source_domain, observed_at, raw_content, origin)
                 VALUES (?, ?, ?, ?, ?, 'extractor')""",
-                (pid, src_url, dom, obs.get("observed_at"),
+                (pid, src_url, dom, observed_at,
                  obs.get("evidence_quote"), ))
             self._recompute(conn, pid)
             conn.commit()
+
+        # Tabellone (outcomes_v2, Fase B3): una NUOVA fonte su un giocatore
+        # già noto è il momento esatto in cui verificare se questa prova è
+        # "hype" vero (stampa editoriale mainstream) e non solo un'altra
+        # pagina-profilo — e se sì, quanto anticipo aveva OB1. Fuori dal
+        # blocco `with` sopra apposta: add_outcome() apre una connessione
+        # sua, e scrivere mentre l'altra è ancora aperta rischia il lock
+        # SQLite invece di limitarsi a un'attesa innocua.
+        if status == "updated" and prior_first_detected and src_url:
+            try:
+                from src.outcomes_v2 import evaluate_mainstream
+            except ImportError:
+                from outcomes_v2 import evaluate_mainstream
+            verdict = evaluate_mainstream(
+                prior_name, prior_club, prior_first_detected,
+                hype_url=src_url, hype_date=observed_at,
+            )
+            if verdict["valid"]:
+                self.add_outcome(
+                    pid, "mainstream_lead_time", outcome_date=observed_at,
+                    source_url=src_url, lead_time_days=verdict["lead_time_days"],
+                    note=verdict["reason"])
         return pid, status
 
 
     # ---- Notifiche (cutover) ----
+    def outcomes_summary(self) -> dict:
+        """
+        Il tabellone (outcomes_v2, Fase B3), in tre numeri: quante volte
+        abbiamo verificato un anticipo, quante erano prove difendibili, e
+        l'anticipo medio in giorni su quelle valide. Zero prove non è un
+        errore — è la normalità finché il sistema non accumula storia.
+        """
+        with self._conn() as conn:
+            row = conn.execute("""
+                SELECT COUNT(*), AVG(lead_time_days)
+                FROM outcomes WHERE outcome_type='mainstream_lead_time'
+            """).fetchone()
+        checked, avg_lead = row
+        return {
+            "checked": checked or 0,
+            "avg_lead_time_days": round(avg_lead, 1) if avg_lead is not None else None,
+        }
+
     def publishable_to_notify(self) -> list:
         """Giocatori pubblicabili non ancora notificati: lista di dict."""
         with self._conn() as conn:
@@ -464,6 +519,52 @@ if __name__ == "__main__":
     assert _db._names_match("Tomás Martínez", "Tomás Martínez Rodríguez")
     assert _db._names_match("Tomás Rodríguez", "Tomás Martínez Rodríguez")
     print("OK _names_match guards")
+
+    # Tabellone (outcomes_v2): spento in produzione da sempre, non perché
+    # disattivato apposta - la vera causa era first_detected mai scritto
+    # da ingest_observation() (solo add_player, mai chiamato dalla
+    # pipeline viva, lo popolava). Verifica end-to-end con un DB a parte.
+    import tempfile as _tempfile
+    with _tempfile.TemporaryDirectory() as _tmp:
+        _test_db = OB1DatabaseV2(str(Path(_tmp) / "test_outcomes.db"))
+        pid, status = _test_db.ingest_observation({
+            "name": "Bruno Baldini", "club": "Londrina", "age": 19,
+            "source_url": "https://transfermarkt.com/bruno-baldini/profil/spieler/1",
+            "observed_at": "2026-03-01T00:00:00",
+        })
+        assert status == "new"
+        row = _test_db._conn().execute(
+            "SELECT first_detected, last_seen FROM players WHERE id=?", (pid,)).fetchone()
+        assert row == ("2026-03-01T00:00:00", "2026-03-01T00:00:00"), \
+            "first_detected/last_seen non scritti alla creazione"
+
+        # Seconda fonte, più avanti nel tempo, editoriale (non pagina-profilo
+        # di un aggregatore) -> deve produrre un outcome valido.
+        pid2, status2 = _test_db.ingest_observation({
+            "name": "Bruno Baldini", "club": "Londrina", "age": 19,
+            "source_url": "https://goal.com/br/noticias/baldini-destaque",
+            "observed_at": "2026-03-18T00:00:00",
+        })
+        assert status2 == "updated" and pid2 == pid
+        summary = _test_db.outcomes_summary()
+        assert summary["checked"] == 1, f"outcome atteso non registrato: {summary}"
+        assert summary["avg_lead_time_days"] == 17.0, summary
+
+        # Una pagina-profilo aggregatore come seconda fonte NON è hype:
+        # non deve sporcare il tabellone.
+        _test_db2 = OB1DatabaseV2(str(Path(_tmp) / "test_outcomes2.db"))
+        _test_db2.ingest_observation({
+            "name": "Gustavo Gomes", "club": "Raio Amado", "age": 17,
+            "source_url": "https://sofascore.com/player/gustavo-gomes",
+            "observed_at": "2026-01-01T00:00:00",
+        })
+        _test_db2.ingest_observation({
+            "name": "Gustavo Gomes", "club": "Raio Amado", "age": 17,
+            "source_url": "https://transfermarkt.com/gustavo-gomes/profil/spieler/2",
+            "observed_at": "2026-01-15T00:00:00",
+        })
+        assert _test_db2.outcomes_summary()["checked"] == 0
+    print("OK tabellone (outcomes_v2) collegato")
 
     db = _db
     print(f"Schema v2 inizializzato: {db.db_path}")
