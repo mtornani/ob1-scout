@@ -19,7 +19,7 @@ from urllib.parse import urlparse
 
 # importabile sia come package sia da `python src/corroborate_v2.py`
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from src.database_v2 import normalize_name
+from src.database_v2 import normalize_name, surname_candidates
 
 AGGREGATORS = ("transfermarkt", "soccerway", "besoccer", "fbref")
 
@@ -79,8 +79,17 @@ def looks_like_player_profile(url: str) -> bool:
 
 def url_matches_name(url: str, name: str) -> bool:
     """
-    True se lo slug dell'URL contiene il cognome (o ≥2 token del nome).
-    Evita di aprire il primo hit generico della SERP.
+    True se lo slug dell'URL contiene un token della zona cognome (vedi
+    surname_candidates in database_v2.py). Evita di aprire il primo hit
+    generico della SERP.
+
+    Prima di questo fix bastavano "≥2 token del nome nel path", presi da
+    qualunque posizione — falso positivo vero, non ipotetico: "Juan José
+    Fori Viveros" veniva confermato da uno slug "juan-jose-camacho" solo
+    perché condivide "juan"+"jose", il nome di battesimo composto — non il
+    cognome, non la stessa persona. "Juan José", "Juan David", "Juan Pablo"
+    sono combinazioni comuni in America Latina: la corroborazione così
+    ottenuta era fasulla.
     """
     name = normalize_name(name)
     tokens = [t for t in name.split() if len(t) > 2]
@@ -90,12 +99,7 @@ def url_matches_name(url: str, name: str) -> bool:
         path = urlparse(url).path.lower().replace("-", " ").replace("_", " ")
     except Exception:
         return False
-    # Cognome (ultimo token) obbligatorio nello slug, oppure ≥2 token presenti.
-    surname = tokens[-1]
-    if surname in path:
-        return True
-    hits = sum(1 for t in tokens if t in path)
-    return hits >= 2
+    return any(t in path for t in surname_candidates(tokens))
 
 
 def observation_fits_target(obs: dict, name: str, age=None, club: str = None,
@@ -119,8 +123,16 @@ def observation_fits_target(obs: dict, name: str, age=None, club: str = None,
             return False
         if a != b and a not in b and b not in a:
             pa = {t for t in a.split() if len(t) > 2}
-            pb = {t for t in b.split() if len(t) > 2}
-            if not (pa and pb and len(pa & pb) >= 2):
+            b_tokens = [t for t in b.split() if len(t) > 2]
+            pb = set(b_tokens)
+            # Stesso bug di url_matches_name, stessa causa: "≥2 token in
+            # comune" senza toccare la zona cognome corrobora a vicenda due
+            # persone diverse con lo stesso nome di battesimo composto
+            # (es. "Juan José ..." vs "Juan José ..." di cognome diverso).
+            # Vedi surname_candidates in database_v2.py per perché sono
+            # due token, non uno.
+            surnames = set(surname_candidates(b_tokens)) if b_tokens else set()
+            if not (surnames & pa and len(pa & pb) >= 2):
                 return False
 
     obs_age = obs.get("age")
@@ -203,6 +215,30 @@ if __name__ == "__main__":
     assert not observation_fits_target(
         {"name": "Gustavo Gómez", "age": 32, "club": "Palmeiras"},
         "Gustavo Gomes", age=17, club="Raio Amado")
+
+    # Bug reale, trovato confrontando a mano l'overlap con un altro radar:
+    # "Juan José Fori Viveros" e "Juan José Camacho" condividono solo il
+    # nome di battesimo composto (comune in America Latina), non il
+    # cognome - non sono la stessa persona e non devono corroborarsi.
+    assert not url_matches_name(
+        "https://www.transfermarkt.com/juan-jose-camacho/profil/spieler/1",
+        "Juan José Fori Viveros")
+    assert url_matches_name(
+        "https://www.transfermarkt.com/juan-jose-fori-viveros/profil/spieler/1",
+        "Juan José Fori Viveros")
+    assert not observation_fits_target(
+        {"name": "Juan José Camacho", "age": 17, "club": "Independiente"},
+        "Juan José Fori Viveros", age=17, club="Independiente")
+    assert observation_fits_target(
+        {"name": "Juan Fori Viveros", "age": 17, "club": "Independiente"},
+        "Juan José Fori Viveros", age=17, club="Independiente")
+
+    # Il fix non deve rompere il caso comune ispanico: doppio cognome
+    # (paterno+materno), slug con solo il primo dei due - non è il buco,
+    # è la normalità in gran parte della pool sudamericana di Global.
+    assert url_matches_name(
+        "https://www.transfermarkt.com/tomas-martinez/profil/spieler/998877",
+        "Tomás Martínez Rodríguez")
 
     async def main():
         u = await find_profile(FakeScraper(), "Tomás Martínez Rodríguez")
