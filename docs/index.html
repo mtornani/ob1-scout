@@ -363,6 +363,14 @@ if (IS_EN) {
   }
   app.innerHTML = html;
 })();
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').catch((err) => {
+      console.warn('[OB1] service worker non registrato:', err);
+    });
+  });
+}
 </script>
 </body>
 </html>
