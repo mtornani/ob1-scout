@@ -120,68 +120,134 @@
 
   .empty{text-align:center;color:var(--muted);font-size:14px;padding:40px 10px}
   footer{margin-top:22px;text-align:center;font-size:11px;color:var(--faint)}
+
+  .lang-toggle{position:fixed;top:14px;right:14px;z-index:50;height:30px;padding:0 10px;
+    border-radius:15px;border:1px solid var(--line);background:var(--surface);color:var(--muted);
+    font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.03em;
+    display:flex;align-items:center;justify-content:center;text-decoration:none}
 </style>
 </head>
 <body>
+
+<a class="lang-toggle" id="langToggle" href="?lang=en" aria-label="Switch language">EN</a>
 
 <header>
   <div class="brand">
     <span class="mark">OB<b>1</b></span>
     <span class="sub">Scout</span>
   </div>
-  <div class="tag">Ogni nome con le sue prove.</div>
-  <div class="positioning">Non prevede il futuro di un giocatore: <b>verifica che esista davvero</b>, con fonti che reggono una telefonata.</div>
+  <div class="tag" data-i18n="header.tag">Ogni nome con le sue prove.</div>
+  <div class="positioning" data-i18n="header.positioning">Non prevede il futuro di un giocatore: <b>verifica che esista davvero</b>, con fonti che reggono una telefonata.</div>
   <div class="stats" id="stats" hidden>
-    <div class="stat"><div class="n" id="st-pub">–</div><div class="l">Profili verificati</div></div>
-    <div class="stat"><div class="n" id="st-trk">–</div><div class="l">In tracking</div></div>
-    <div class="stat"><div class="n" id="st-upd">–</div><div class="l">Aggiornato</div></div>
+    <div class="stat"><div class="n" id="st-pub">–</div><div class="l" data-i18n="stats.verified">Profili verificati</div></div>
+    <div class="stat"><div class="n" id="st-trk">–</div><div class="l" data-i18n="stats.tracking">In tracking</div></div>
+    <div class="stat"><div class="n" id="st-upd">–</div><div class="l" data-i18n="stats.updated">Aggiornato</div></div>
   </div>
 </header>
 
-<main id="app"><div class="empty">Caricamento…</div></main>
+<main id="app"><div class="empty" data-i18n="loading">Caricamento…</div></main>
 
 <section class="faq">
-  <div class="sec"><h2>Come funziona</h2><div class="rule"></div></div>
+  <div class="sec"><h2 data-i18n="faq.heading">Come funziona</h2><div class="rule"></div></div>
   <details>
-    <summary>Cosa fa OB1 Scout?</summary>
-    <p>Monitora fonti curate — federazioni, campionati giovanili, stampa locale — e accumula
+    <summary data-i18n="faq.q1">Cosa fa OB1 Scout?</summary>
+    <p data-i18n="faq.a1">Monitora fonti curate — federazioni, campionati giovanili, stampa locale — e accumula
     prove sui giovani calciatori, un giro ogni 6 ore. Ogni profilo cresce solo con
     l'evidenza: più fonti indipendenti lo confermano, più sale.</p>
   </details>
   <details>
-    <summary>Cosa significa "Verificato"?</summary>
-    <p>Identità completa (nome vero, club, età) <b>e</b> almeno 2 fonti indipendenti,
+    <summary data-i18n="faq.q2">Cosa significa "Verificato"?</summary>
+    <p data-i18n="faq.a2">Identità completa (nome vero, club, età) <b>e</b> almeno 2 fonti indipendenti,
     che trovi linkate sulla scheda. È la nostra promessa: ogni nome verificato regge
     una telefonata di controllo alla società.</p>
   </details>
   <details>
-    <summary>E "Da corroborare"?</summary>
-    <p>Profili reali ma con una sola fonte o identità incompleta. Il sistema non li
+    <summary data-i18n="faq.q3">E "Da corroborare"?</summary>
+    <p data-i18n="faq.a3">Profili reali ma con una sola fonte o identità incompleta. Il sistema non li
     spinge: restano in tracking finché una seconda fonte non li conferma — o non li
     conferma mai, e va bene così.</p>
   </details>
   <details>
-    <summary>Come nasce il punteggio?</summary>
-    <p>Una formula trasparente, non un'opinione: <b>merito</b> (gioventù + produzione
+    <summary data-i18n="faq.q4">Come nasce il punteggio?</summary>
+    <p data-i18n="faq.a4">Una formula trasparente, non un'opinione: <b>merito</b> (gioventù + produzione
     documentata + invisibilità ai radar mainstream) <b>× confidenza</b> (quante fonti,
     da quanto tempo). La barra colorata sotto ogni nome è il perché del numero.</p>
   </details>
   <details>
-    <summary>Cosa NON fa?</summary>
-    <p>Non guarda video, non giudica la qualità tecnica, non sostituisce lo scout.
+    <summary data-i18n="faq.q5">Cosa NON fa?</summary>
+    <p data-i18n="faq.a5">Non guarda video, non giudica la qualità tecnica, non sostituisce lo scout.
     Lavora solo su dati pubblici: trova prima, verifica l'identità e ti dice cosa manca —
     la valutazione sul campo resta un mestiere umano.</p>
   </details>
   <details>
-    <summary>Ogni quanto si aggiorna?</summary>
-    <p>Ogni 6 ore, in autonomia. La data dell'ultimo giro è in alto a destra.</p>
+    <summary data-i18n="faq.q6">Ogni quanto si aggiorna?</summary>
+    <p data-i18n="faq.a6">Ogni 6 ore, in autonomia. La data dell'ultimo giro è in alto a destra.</p>
   </details>
 </section>
 
-<footer id="foot" hidden>OB1 Scout · v2 · discovery da fonti curate, pubblicazione solo con ≥2 fonti<span id="foot-build"></span></footer>
+<footer id="foot" hidden><span data-i18n="footer.main">OB1 Scout · v2 · discovery da fonti curate, pubblicazione solo con ≥2 fonti</span><span id="foot-build"></span></footer>
 
 <script src="js/tracker.js" data-track-url="https://orange-truth-2304.mirkotornani.workers.dev"></script>
 <script>
+// Traduzioni "chrome" statico (chiave = data-i18n / t()). Copre solo il
+// testo fisso — i dati (nomi, club, fonti) sono quello che sono, in nessuna
+// lingua li traduciamo. IT è la sorgente (già nell'HTML, resta il fallback
+// se JS non gira o una chiave manca qui): mai un buco vuoto in pagina.
+const I18N_EN = {
+  'header.tag': 'Every name with its proof.',
+  'header.positioning': 'Doesn’t predict a player’s future: it <b>verifies they’re real</b>, with sources that survive a phone call.',
+  'stats.verified': 'Verified profiles',
+  'stats.tracking': 'Tracking',
+  'stats.updated': 'Updated',
+  'loading': 'Loading…',
+  'faq.heading': 'How it works',
+  'faq.q1': 'What does OB1 Scout do?',
+  'faq.a1': 'Monitors curated sources — federations, youth leagues, local press — and builds up proof on young players, one pass every 6 hours. A profile only grows with evidence: the more independent sources confirm it, the higher it climbs.',
+  'faq.q2': 'What does "Verified" mean?',
+  'faq.a2': 'Complete identity (real name, club, age) <b>and</b> at least 2 independent sources, linked right on the card. That’s our promise: every verified name survives a call to check with the club.',
+  'faq.q3': 'And "To corroborate"?',
+  'faq.a3': 'Real profiles with only one source or an incomplete identity. The system doesn’t push them: they stay in tracking until a second source confirms — or never does, and that’s fine.',
+  'faq.q4': 'Where does the score come from?',
+  'faq.a4': 'A transparent formula, not an opinion: <b>merit</b> (youth + documented output + invisibility to mainstream radars) <b>× confidence</b> (how many sources, since when). The colored bar under each name is the reason for the number.',
+  'faq.q5': 'What does it NOT do?',
+  'faq.a5': 'Doesn’t watch video, doesn’t judge technical quality, doesn’t replace a scout. Works only on public data: finds early, verifies identity and tells you what’s missing — the on-field judgment stays a human job.',
+  'faq.q6': 'How often does it update?',
+  'faq.a6': 'Every 6 hours, on its own. The date of the last run is at the top.',
+  'footer.main': 'OB1 Scout · v2 · discovery from curated sources, published only with ≥2 sources',
+  'data.unavailable': 'Data unavailable — try again shortly.',
+  'radar.starting': 'Radar starting up — the first collection pass is running.<br>Profiles appear here as soon as they’re verified.',
+  'section.featured': 'Featured',
+  'section.tracking': 'To corroborate',
+  'empty.none_verified': 'No verified profile this pass.<br>Needs ≥2 independent sources and complete identity.',
+  'card.years': 'yo',
+  'card.confidence': 'confidence',
+  'card.goals': 'goals', 'card.assists': 'assists', 'card.apps': 'apps',
+  'card.why_summary': 'Why · what’s missing',
+  'card.why_yes': 'Why yes',
+  'card.cautions': 'Cautions',
+  'card.next_steps': 'Next steps',
+  'card.verified': 'VERIFIED',
+  'card.to_corroborate': 'TO CORROBORATE — incomplete identity or insufficient sources',
+};
+
+const params = new URLSearchParams(location.search);
+const LANG = params.get('lang') === 'en' ? 'en' : 'it';
+document.documentElement.lang = LANG;
+const IS_EN = LANG === 'en';
+
+const t = key => (IS_EN && I18N_EN[key]) || key;
+
+const langToggle = document.getElementById('langToggle');
+langToggle.href = IS_EN ? '?lang=it' : '?lang=en';
+langToggle.textContent = IS_EN ? 'IT' : 'EN';
+
+if (IS_EN) {
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const tr = I18N_EN[el.dataset.i18n];
+    if (tr) el.innerHTML = tr;
+  });
+}
+
 (async function () {
   const app = document.getElementById('app');
   const esc = s => String(s ?? '').replace(/[&<>"']/g,
@@ -192,7 +258,7 @@
     const r = await fetch('data/players_v2.json', {cache: 'no-store'});
     data = await r.json();
   } catch (e) {
-    app.innerHTML = '<div class="empty">Dati non disponibili — riprova tra poco.</div>';
+    app.innerHTML = `<div class="empty">${t('data.unavailable')}</div>`;
     return;
   }
 
@@ -201,7 +267,7 @@
   const upd = data.generated_at ? new Date(data.generated_at) : null;
   const validDate = upd && !isNaN(upd.getTime());
   document.getElementById('st-upd').textContent = validDate
-    ? upd.toLocaleDateString('it-IT', {day: '2-digit', month: '2-digit'}) : '–';
+    ? upd.toLocaleDateString(IS_EN ? 'en-GB' : 'it-IT', {day: '2-digit', month: '2-digit'}) : '–';
   document.getElementById('stats').hidden = false;
   document.getElementById('foot').hidden = false;
   if (data.version && data.build) {
@@ -210,7 +276,7 @@
 
   const players = data.players || [];
   if (!players.length) {
-    app.innerHTML = '<div class="empty">Radar in avvio — il primo giro di raccolta è in corso.<br>I profili compaiono qui appena verificati.</div>';
+    app.innerHTML = `<div class="empty">${t('radar.starting')}</div>`;
     return;
   }
 
@@ -220,28 +286,33 @@
     const w = k => Math.round(100 * Math.max(bd[k]||0, 0) / merit);
     const dots = Array.from({length: 4}, (_, d) =>
       `<i class="${d < Math.round((p.confidence||0)*4) ? 'on' : ''}"></i>`).join('');
-    const meta = [p.age ? p.age + ' anni' : null, p.position, p.club, p.league]
+    const meta = [p.age ? p.age + (IS_EN ? ' ' + t('card.years') : ' anni') : null, p.position, p.club, p.league]
       .filter(Boolean).map(esc).join(' · ') || '—';
     const srcs = (p.sources||[]).map(s =>
       s.url
         ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">◆ ${esc(s.domain)}</a>`
         : `<span class="chip">◆ ${esc(s.domain)}</span>`
     ).join('');
+    const statLabels = IS_EN
+      ? {goals: t('card.goals'), assists: t('card.assists'), apps: t('card.apps')}
+      : {goals: 'gol', assists: 'assist', apps: 'pres.'};
     const stats = p.stats && Object.keys(p.stats).length
       ? `<span class="chip">${['goals','assists','apps'].filter(k=>p.stats[k])
-          .map(k=>p.stats[k]+' '+({goals:'gol',assists:'assist',apps:'pres.'}[k])).join(' · ')}</span>` : '';
+          .map(k=>p.stats[k]+' '+statLabels[k]).join(' · ')}</span>` : '';
     const a = p.assessment || {};
     const li = xs => (xs||[]).map(x => `<li>${esc(x)}</li>`).join('');
     const why = (a.pros?.length || a.cautions?.length || a.next_steps?.length)
-      ? `<details class="why"><summary>Perché · cosa manca</summary>
-          ${a.pros?.length ? `<div class="wh"><h4>Perché sì</h4><ul>${li(a.pros)}</ul></div>` : ''}
-          ${a.cautions?.length ? `<div class="wh caut"><h4>Cautele</h4><ul>${li(a.cautions)}</ul></div>` : ''}
-          ${a.next_steps?.length ? `<div class="wh"><h4>Per proseguire</h4><ul>${li(a.next_steps)}</ul></div>` : ''}
+      ? `<details class="why"><summary>${IS_EN ? t('card.why_summary') : 'Perché · cosa manca'}</summary>
+          ${a.pros?.length ? `<div class="wh"><h4>${IS_EN ? t('card.why_yes') : 'Perché sì'}</h4><ul>${li(a.pros)}</ul></div>` : ''}
+          ${a.cautions?.length ? `<div class="wh caut"><h4>${IS_EN ? t('card.cautions') : 'Cautele'}</h4><ul>${li(a.cautions)}</ul></div>` : ''}
+          ${a.next_steps?.length ? `<div class="wh"><h4>${IS_EN ? t('card.next_steps') : 'Per proseguire'}</h4><ul>${li(a.next_steps)}</ul></div>` : ''}
         </details>` : '';
     const nSrc = p.n_sources || 1;
     const claim = p.publishable
-      ? `✓ VERIFICATO — ${nSrc} font${nSrc === 1 ? 'e' : 'i'} indipendent${nSrc === 1 ? 'e' : 'i'}`
-      : '○ DA CORROBORARE — identità o fonti insufficienti';
+      ? (IS_EN
+          ? `✓ ${t('card.verified')} — ${nSrc} independent source${nSrc === 1 ? '' : 's'}`
+          : `✓ VERIFICATO — ${nSrc} font${nSrc === 1 ? 'e' : 'i'} indipendent${nSrc === 1 ? 'e' : 'i'}`)
+      : (IS_EN ? `○ ${t('card.to_corroborate')}` : '○ DA CORROBORARE — identità o fonti insufficienti');
     return `<div class="card${mutedClass}">
       <div class="claim ${p.publishable ? 'ok' : 'no'}">${claim}</div>
       <div class="row1">
@@ -254,7 +325,7 @@
       </div>
       <div class="merit"><i class="y" style="width:${w('youth')}%"></i><i class="p" style="width:${w('production')}%"></i><i class="a" style="width:${w('asymmetry')}%"></i></div>
       <div class="foot">
-        <span class="conf">confidenza <span class="dots">${dots}</span></span>
+        <span class="conf">${IS_EN ? t('card.confidence') : 'confidenza'} <span class="dots">${dots}</span></span>
         ${stats}
       </div>
       ${srcs ? `<div class="srcs">${srcs}</div>` : ''}
@@ -266,17 +337,20 @@
   const trk = players.filter(p => !p.publishable);
   let html = '';
   if (pub.length) {
-    html += '<div class="sec"><h2>In evidenza</h2><div class="rule"></div></div>';
+    html += `<div class="sec"><h2>${IS_EN ? t('section.featured') : 'In evidenza'}</h2><div class="rule"></div></div>`;
     html += pub.map((p, i) => card(p, i, '')).join('');
   } else {
-    html += '<div class="empty">Nessun profilo verificato in questo giro.<br>Servono ≥2 fonti indipendenti e identità completa.</div>';
+    html += `<div class="empty">${IS_EN ? t('empty.none_verified') : 'Nessun profilo verificato in questo giro.<br>Servono ≥2 fonti indipendenti e identità completa.'}</div>`;
   }
   if (trk.length) {
-    html += '<div class="sec"><h2>Da corroborare</h2><div class="rule"></div></div>';
+    html += `<div class="sec"><h2>${IS_EN ? t('section.tracking') : 'Da corroborare'}</h2><div class="rule"></div></div>`;
     html += trk.map((p, i) => card(p, i, ' muted')).join('');
     const extra = data.tracking_capped || 0;
     if (extra > 0) {
-      html += `<div class="empty" style="padding:12px 10px">+${extra} altri in tracking (non mostrati — priorità ai più forti).</div>`;
+      const extraMsg = IS_EN
+        ? `+${extra} more in tracking (not shown — priority to the strongest).`
+        : `+${extra} altri in tracking (non mostrati — priorità ai più forti).`;
+      html += `<div class="empty" style="padding:12px 10px">${extraMsg}</div>`;
     }
   }
   app.innerHTML = html;
