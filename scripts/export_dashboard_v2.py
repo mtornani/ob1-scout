@@ -14,6 +14,7 @@ Uso:
 import argparse
 import json
 import sqlite3
+import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -22,6 +23,35 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from src.scoring_v2 import score_player
 
 ROOT = Path(__file__).parent.parent
+
+
+def _version_and_build() -> tuple:
+    """
+    (version, build) per il footer "è aggiornato al deploy giusto?" — stesso
+    scopo del footer Sentinel (VERSION + K_REVISION), ma questo prodotto è
+    statico su GitHub Pages: non esiste una revision iniettata dalla
+    piattaforma, quindi build = short SHA del commit che ha generato
+    l'export. Mai deve poter rompere l'export: qualunque errore (repo non
+    git, comando assente) ripiega su "dev" invece di sollevare.
+    version viene da VERSION in root, bumpato a mano — non ad ogni commit,
+    è per un umano che guarda il footer, non un hash.
+    """
+    version = "0.0.0"
+    try:
+        version = (ROOT / "VERSION").read_text(encoding="utf-8").strip() or version
+    except OSError:
+        pass
+    build = "dev"
+    try:
+        sha = subprocess.run(
+            ["git", "rev-parse", "--short", "HEAD"],
+            cwd=str(ROOT), capture_output=True, text=True, timeout=5,
+        )
+        if sha.returncode == 0 and sha.stdout.strip():
+            build = sha.stdout.strip()
+    except Exception:
+        pass
+    return version, build
 
 
 def assess_player(p: dict, evidence_count: int = 1) -> dict:
@@ -191,8 +221,11 @@ def export(db_path: Path, out_path: Path) -> dict:
         print(f"Warning: outcomes_summary failed: {e}")
         outcomes = {"checked": 0, "avg_lead_time_days": None}
 
+    version, build = _version_and_build()
     doc = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
+        "version": version,
+        "build": build,
         "total": len(players),
         "publishable": len(pub),
         "tracking": len(trk),
@@ -213,7 +246,9 @@ def main():
     args = ap.parse_args()
     if not Path(args.db).exists():
         print(f"DB v2 non trovato: {args.db} — esporto struttura vuota.")
+        version, build = _version_and_build()
         doc = {"generated_at": datetime.now(timezone.utc).isoformat(),
+               "version": version, "build": build,
                "total": 0, "publishable": 0, "tracking": 0, "players": []}
         Path(args.out).parent.mkdir(parents=True, exist_ok=True)
         Path(args.out).write_text(json.dumps(doc), encoding="utf-8")
