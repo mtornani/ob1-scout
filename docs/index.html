@@ -178,7 +178,7 @@
   </details>
 </section>
 
-<footer id="foot" hidden>OB1 Scout · v2 · discovery da fonti curate, pubblicazione solo con ≥2 fonti</footer>
+<footer id="foot" hidden>OB1 Scout · v2 · discovery da fonti curate, pubblicazione solo con ≥2 fonti<span id="foot-build"></span></footer>
 
 <script src="js/tracker.js" data-track-url="https://orange-truth-2304.mirkotornani.workers.dev"></script>
 <script>
@@ -204,6 +204,9 @@
     ? upd.toLocaleDateString('it-IT', {day: '2-digit', month: '2-digit'}) : '–';
   document.getElementById('stats').hidden = false;
   document.getElementById('foot').hidden = false;
+  if (data.version && data.build) {
+    document.getElementById('foot-build').textContent = ` · v${data.version} · ${data.build}`;
+  }
 
   const players = data.players || [];
   if (!players.length) {
