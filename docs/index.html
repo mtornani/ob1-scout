@@ -300,12 +300,20 @@ if (IS_EN) {
       ? `<span class="chip">${['goals','assists','apps'].filter(k=>p.stats[k])
           .map(k=>p.stats[k]+' '+statLabels[k]).join(' · ')}</span>` : '';
     const a = p.assessment || {};
+    // pros_en/cautions_en/next_steps_en arrivano dall'export (template Python
+    // deterministici, tradotti alla fonte — non c'è un modello da rilanciare
+    // in due lingue qui, a differenza dei verdetti di uno swarm AI). Fallback
+    // sull'italiano se il JSON è vecchio (pipeline non ancora passata dal
+    // commit che li aggiunge) — mai un buco vuoto in pagina.
+    const pros = (IS_EN && a.pros_en?.length) ? a.pros_en : a.pros;
+    const cautions = (IS_EN && a.cautions_en?.length) ? a.cautions_en : a.cautions;
+    const nextSteps = (IS_EN && a.next_steps_en?.length) ? a.next_steps_en : a.next_steps;
     const li = xs => (xs||[]).map(x => `<li>${esc(x)}</li>`).join('');
-    const why = (a.pros?.length || a.cautions?.length || a.next_steps?.length)
+    const why = (pros?.length || cautions?.length || nextSteps?.length)
       ? `<details class="why"><summary>${IS_EN ? t('card.why_summary') : 'Perché · cosa manca'}</summary>
-          ${a.pros?.length ? `<div class="wh"><h4>${IS_EN ? t('card.why_yes') : 'Perché sì'}</h4><ul>${li(a.pros)}</ul></div>` : ''}
-          ${a.cautions?.length ? `<div class="wh caut"><h4>${IS_EN ? t('card.cautions') : 'Cautele'}</h4><ul>${li(a.cautions)}</ul></div>` : ''}
-          ${a.next_steps?.length ? `<div class="wh"><h4>${IS_EN ? t('card.next_steps') : 'Per proseguire'}</h4><ul>${li(a.next_steps)}</ul></div>` : ''}
+          ${pros?.length ? `<div class="wh"><h4>${IS_EN ? t('card.why_yes') : 'Perché sì'}</h4><ul>${li(pros)}</ul></div>` : ''}
+          ${cautions?.length ? `<div class="wh caut"><h4>${IS_EN ? t('card.cautions') : 'Cautele'}</h4><ul>${li(cautions)}</ul></div>` : ''}
+          ${nextSteps?.length ? `<div class="wh"><h4>${IS_EN ? t('card.next_steps') : 'Per proseguire'}</h4><ul>${li(nextSteps)}</ul></div>` : ''}
         </details>` : '';
     const nSrc = p.n_sources || 1;
     const claim = p.publishable

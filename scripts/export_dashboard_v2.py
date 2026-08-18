@@ -59,6 +59,12 @@ def assess_player(p: dict, evidence_count: int = 1) -> dict:
     "Perché sì / cautele / prossimi passi" per la scheda giocatore.
     Derivato in CODICE dagli stessi segnali del punteggio (mai da un LLM):
     non può contraddire il numero, non costa nulla, ed è testabile.
+
+    Ogni riga è una coppia (it, en): a differenza dei verdetti di uno swarm
+    AI (vedi Sentinel), qui non c'è un modello da rilanciare in due lingue —
+    sono template Python deterministici, tradurli non costa una chiamata in
+    più. L'export porta entrambe le lingue; il client sceglie a runtime
+    (docs/index.html), IT resta il default/fallback se manca la EN.
     """
     pros, cautions, steps = [], [], []
     flags = {f for f in (p.get("review_flags") or "").split(",") if f}
@@ -70,57 +76,88 @@ def assess_player(p: dict, evidence_count: int = 1) -> dict:
 
     # --- Perché sì ---
     if age is not None and age <= 17:
-        pros.append(f"Molto giovane ({age} anni): ampio margine di sviluppo")
+        pros.append((f"Molto giovane ({age} anni): ampio margine di sviluppo",
+                      f"Very young ({age} yo): plenty of room to develop"))
     elif age is not None and age <= 19:
-        pros.append(f"Giovane ({age} anni)")
+        pros.append((f"Giovane ({age} anni)", f"Young ({age} yo)"))
     if stats.get("goals") or stats.get("assists"):
-        det = " e ".join(x for x in [
+        det_it = " e ".join(x for x in [
             f"{stats['goals']} gol" if stats.get("goals") else "",
             f"{stats['assists']} assist" if stats.get("assists") else ""] if x)
-        suffix = f" in {stats['apps']} presenze" if stats.get("apps") else ""
-        pros.append(f"Produzione documentata: {det}{suffix}")
+        det_en = " and ".join(x for x in [
+            f"{stats['goals']} goals" if stats.get("goals") else "",
+            f"{stats['assists']} assists" if stats.get("assists") else ""] if x)
+        suffix_it = f" in {stats['apps']} presenze" if stats.get("apps") else ""
+        suffix_en = f" in {stats['apps']} appearances" if stats.get("apps") else ""
+        pros.append((f"Produzione documentata: {det_it}{suffix_it}",
+                      f"Documented output: {det_en}{suffix_en}"))
     elif stats.get("apps"):
-        pros.append(f"Continuità documentata: {stats['apps']} presenze")
+        pros.append((f"Continuità documentata: {stats['apps']} presenze",
+                      f"Documented continuity: {stats['apps']} appearances"))
     asym = bd.get("asymmetry") or 0  # 'or' voluto: coerce anche un eventuale None
     if asym >= 12:
-        pros.append("Fuori dai radar mainstream: alta asimmetria informativa")
+        pros.append(("Fuori dai radar mainstream: alta asimmetria informativa",
+                      "Off the mainstream radar: high information asymmetry"))
     elif asym >= 6:
-        pros.append("Contesto minore: valore potenzialmente sottoprezzato")
+        pros.append(("Contesto minore: valore potenzialmente sottoprezzato",
+                      "Minor context: potentially underpriced"))
     if n_src >= 2:
-        pros.append(f"Identità confermata da {n_src} fonti indipendenti")
+        pros.append((f"Identità confermata da {n_src} fonti indipendenti",
+                      f"Identity confirmed by {n_src} independent sources"))
     if evidence_count >= 5:
-        pros.append(f"Segnale persistente: {evidence_count} rilevamenti")
+        pros.append((f"Segnale persistente: {evidence_count} rilevamenti",
+                      f"Persistent signal: {evidence_count} detections"))
 
     # --- Cautele ---
     if n_src < 2:
-        cautions.append("Una sola fonte: non ancora corroborato")
+        cautions.append(("Una sola fonte: non ancora corroborato",
+                          "Single source: not yet corroborated"))
     if not has_stats:
-        cautions.append("Nessuna statistica di rendimento documentata")
+        cautions.append(("Nessuna statistica di rendimento documentata",
+                          "No documented performance stats"))
     if "eta_mancante" in flags or age is None:
-        cautions.append("Età non confermata")
+        cautions.append(("Età non confermata", "Age not confirmed"))
     if "club_mancante" in flags:
-        cautions.append("Club non identificato")
+        cautions.append(("Club non identificato", "Club not identified"))
     if "nome_singolo" in flags or "handle_o_soprannome" in flags:
-        cautions.append("Identità debole: nome incompleto o soprannome")
+        cautions.append(("Identità debole: nome incompleto o soprannome",
+                          "Weak identity: incomplete name or nickname"))
     if asym < 0:
-        cautions.append("Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile")
+        cautions.append(("Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile",
+                          "High-visibility club/league: low asymmetry, competition likely"))
 
     # --- Prossimi passi (azioni da scout, in ordine di blocco) ---
     if "nome_singolo" in flags or "handle_o_soprannome" in flags:
-        steps.append("Risolvere l'identità: serve un nome completo verificabile")
+        steps.append(("Risolvere l'identità: serve un nome completo verificabile",
+                       "Resolve the identity: needs a verifiable full name"))
     if "club_mancante" in flags:
-        steps.append("Verificare il club attuale")
+        steps.append(("Verificare il club attuale", "Verify the current club"))
     if "eta_mancante" in flags or age is None:
-        steps.append("Confermare l'anno di nascita con la società")
+        steps.append(("Confermare l'anno di nascita con la società",
+                       "Confirm the birth year with the club"))
     if n_src < 2:
-        steps.append("Trovare una seconda fonte indipendente (aggregatori, stampa locale)")
+        steps.append(("Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+                       "Find a second independent source (aggregators, local press)"))
     if not has_stats:
-        steps.append("Recuperare statistiche di rendimento (referti gara)")
+        steps.append(("Recuperare statistiche di rendimento (referti gara)",
+                       "Get performance stats (match reports)"))
     if p.get("publishable"):
-        steps.append("Richiedere video o programmare una visione diretta")
-        steps.append("Telefonata al club: conferma anagrafica e status contrattuale")
+        steps.append(("Richiedere video o programmare una visione diretta",
+                       "Request video or schedule a live viewing"))
+        steps.append(("Telefonata al club: conferma anagrafica e status contrattuale",
+                       "Call the club: confirm identity and contract status"))
 
-    return {"pros": pros[:4], "cautions": cautions[:4], "next_steps": steps[:3]}
+    def _split(pairs, cap):
+        pairs = pairs[:cap]
+        return [x[0] for x in pairs], [x[1] for x in pairs]
+
+    pros_it, pros_en = _split(pros, 4)
+    cautions_it, cautions_en = _split(cautions, 4)
+    steps_it, steps_en = _split(steps, 3)
+    return {
+        "pros": pros_it, "cautions": cautions_it, "next_steps": steps_it,
+        "pros_en": pros_en, "cautions_en": cautions_en, "next_steps_en": steps_en,
+    }
 
 
 def export(db_path: Path, out_path: Path) -> dict:
