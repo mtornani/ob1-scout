@@ -61,8 +61,20 @@ FREE_MAX_CHARS = int(os.getenv("FREE_MAX_CHARS", "2800"))
 # Ordine della catena: prima chi ha il free tier più capiente e affidabile.
 # Ogni voce è (env_chiave, base_url, env_modello, modello_default, label).
 FREE_PROVIDER_SPECS = [
+    # llama-3.3-70b-versatile deprecato da Groq il 17 giugno 2026 (free e
+    # developer tier): ogni chiamata tornava 404 "model does not exist".
+    # Scoperto il 19 agosto 2026 controllando i log del cron dopo un run —
+    # era rotto da almeno 3 cicli consecutivi (16:06, 19:03, 20:08 UTC),
+    # ingest completamente fermo (extract_failed: 15/15) senza che il
+    # workflow lo segnalasse come errore (extract_from_source ritorna None
+    # e il ciclo continua, non solleva). openai/gpt-oss-120b è il
+    # rimpiazzo raccomandato da Groq stesso, verificato sul free tier reale
+    # (console.groq.com/docs/rate-limits, 19 ago 2026: 30 RPM/8K TPM, "Free
+    # Plan", non "Developer Plan") — non dato per buono dalla sola nota di
+    # deprecazione, che altrove elencava lo stesso modello come "richiede
+    # piano a pagamento" (falso, verificato sulla pagina dei limiti vera).
     ("GROQ_API_KEY", "https://api.groq.com/openai/v1",
-     "GROQ_MODEL", "llama-3.3-70b-versatile", "groq"),
+     "GROQ_MODEL", "openai/gpt-oss-120b", "groq"),
     # Cerebras ha ritirato i Llama dal catalogo free (verificato 3 ago 2026:
     # /v1/models espone gemma-4-31b, zai-glm-4.7, gpt-oss-120b). Un modello che
     # non esiste torna 404 e brucia un anello della catena: il default segue il
@@ -276,7 +288,7 @@ if __name__ == "__main__":
     env = {"GROQ_API_KEY": "g", "CEREBRAS_API_KEY": "c", "OPENROUTER_API_KEY": "o"}
     chain = resolve_free_providers(env)
     assert [p["label"] for p in chain] == ["groq", "cerebras", "openrouter"], chain
-    assert chain[0]["model"] == "llama-3.3-70b-versatile"
+    assert chain[0]["model"] == "openai/gpt-oss-120b"
     assert chain[1]["model"] == "gpt-oss-120b"     # catalogo Cerebras, non Llama
     assert chain[2]["model"].endswith(":free")
 
@@ -294,11 +306,12 @@ if __name__ == "__main__":
     assert resolve_llm_mode("gemini_first", env={"GROQ_API_KEY": "g"}) == "gemini_first"
     assert resolve_llm_mode(env={"OB1_LLM_MODE": "boh", "GROQ_API_KEY": "g"}) == "free_first"
 
-    # 3) Durate e "quando riprovare" — messaggi veri di Groq (3 ago 2026)
+    # 3) Durate e "quando riprovare" — messaggi veri di Groq (3 ago 2026,
+    #    formato invariato dopo il cambio modello del 19 ago)
     assert parse_duration("3.456s") == 3.456 and parse_duration("280ms") == 0.28
     assert parse_duration("5m45.6s") == 345.6 and parse_duration("2h") == 7200
     assert parse_duration("Limit 12000 TPM") is None     # non è una durata
-    groq_429 = ("Rate limit reached for model `llama-3.3-70b-versatile` on tokens per "
+    groq_429 = ("Rate limit reached for model `openai/gpt-oss-120b` on tokens per "
                 "day (TPD): Limit 100000, Used 99870, Requested 134. Please try again "
                 "in 3.456s. Need more tokens? Upgrade to Dev Tier")
     assert abs(parse_retry_seconds(groq_429) - 3.456) < 0.01
