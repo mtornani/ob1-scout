@@ -94,9 +94,16 @@ def _load_source_tiers() -> dict:
         data = json.loads(path.read_text(encoding="utf-8"))
         entries = data.get("sources") if isinstance(data, dict) else data
         for entry in entries or []:
+            tier = entry.get("tier", "secondary")
             dom = domain_of(entry.get("url", ""))
             if dom:
-                tiers[dom] = entry.get("tier", "secondary")
+                tiers[dom] = tier
+            # Stesso editore, TLD/sottodominio diverso (es. Transfermarkt
+            # .us/.de/.pl/.pe oltre a .com) — senza, il match esatto perdeva
+            # queste varianti anche con la fonte già registrata.
+            for alias in entry.get("aliases", []) or []:
+                if alias:
+                    tiers[alias.lower()] = tier
     except Exception:
         pass
     _SOURCE_TIERS_CACHE = tiers
@@ -573,6 +580,14 @@ if __name__ == "__main__":
     assert has_primary_source(["promiedos.com.ar", "un-dominio-mai-visto.xyz"])
     assert not has_primary_source(["un-dominio-mai-visto.xyz", "un-altro-ignoto.xyz"])
     assert not has_primary_source([])
+    # Alias: stesso editore (Transfermarkt), TLD diverso da quello registrato
+    # come url principale (.com) — misurato nel DB reale: transfermarkt.us
+    # (6 osservazioni), .de/.pl/.pe trattati come domini ignoti prima di questo.
+    assert _tiers.get("transfermarkt.us") == "secondary", _tiers.get("transfermarkt.us")
+    assert _tiers.get("soccerway.com") == "secondary", _tiers.get("soccerway.com")
+    # Allargamento registro 2026-08-19 (ARCH-003 Fase 1): testate note come
+    # primary, non solo la piccola lista di federazioni originale.
+    assert _tiers.get("ge.globo.com") == "primary", _tiers.get("ge.globo.com")
     print("OK grading fonti (has_primary_source)")
 
     # Tabellone (outcomes_v2): spento in produzione da sempre, non perché

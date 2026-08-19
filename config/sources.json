@@ -2,11 +2,13 @@
   "_meta": {
     "purpose": "Registro fonti curate (Fase B2). Discovery SOURCE-FIRST: si monitorano fonti note per regione, non si cerca a caso su Google. La ricerca generica serve solo a SCOPRIRE fonti nuove da aggiungere qui.",
     "tier": "primary = federazione/campionato/stampa locale con cronaca vera; secondary = aggregatori (utili a corroborare identità e fare il 2° fonte del gate).",
+    "aliases": "Domini dello stesso editore sotto TLD/sottodomini diversi (es. Transfermarkt ha transfermarkt.us/.de/.pl/.pe oltre a .com). Senza, il match per dominio esatto perdeva queste varianti anche se la fonte era già registrata — misurato: 6 osservazioni transfermarkt.us, 4 soccerway.com, 1 ciascuna .pl/.pe/.de trattate come domini sconosciuti prima di questo campo.",
     "validated": "false = da verificare che produca davvero contenuto estraibile sui giovani. Il monitor lo aggiorna.",
-    "note_bias": "Seminato apposta oltre il Brasile: la Fase A copriva 58% Brasile, 0% Africa/Asia. Qui si allarga a Sud America ispanofono, Africa Ovest e Balcani."
+    "note_bias": "Seminato apposta oltre il Brasile: la Fase A copriva 58% Brasile, 0% Africa/Asia. Qui si allarga a Sud America ispanofono, Africa Ovest e Balcani.",
+    "note_2026_08_19": "Allargamento registro (ARCH-003 Fase 1, ob1-serie-c): 18 nuove fonti + alias, classificate a memoria dell'assistente sulla base della reputazione editoriale nota, SENZA verifica live (nessun accesso web da questo ambiente). validated=false su tutte: prima di fidarsene per una regola di gate, ricontrollare che producano davvero cronaca originale, non solo che il nome sia noto. Le testate nazionali maggiori (Globo Esporte, Lance!, Placar, Récord, LA Times) sono la classificazione più sicura del lotto; le locali/regionali meno note (Itatiaia, GZH, Trivela, AS Chile) andrebbero ricontrollate per prime."
   },
   "sources": [
-    {"id": "ar_promiedos", "name": "Promiedos", "region": "Argentina", "country": "AR", "type": "results_stats", "tier": "primary", "lang": "es", "url": "https://www.promiedos.com.ar/", "active": true, "validated": false},
+    {"id": "ar_promiedos", "name": "Promiedos", "region": "Argentina", "country": "AR", "type": "results_stats", "tier": "primary", "lang": "es", "url": "https://www.promiedos.com.ar/", "aliases": ["origin.app.promiedos.com.ar"], "active": true, "validated": false},
     {"id": "ar_afa_juveniles", "name": "AFA — Selecciones Juveniles", "region": "Argentina", "country": "AR", "type": "federation", "tier": "primary", "lang": "es", "url": "https://www.afa.com.ar/es/pages/selecciones-juveniles", "active": true, "validated": false},
     {"id": "co_fcf", "name": "Federación Colombiana de Fútbol", "region": "Colombia", "country": "CO", "type": "federation", "tier": "primary", "lang": "es", "url": "https://fcf.com.co/", "active": true, "validated": false},
     {"id": "uy_auf", "name": "AUF — Selecciones Juveniles", "region": "Uruguay", "country": "UY", "type": "federation", "tier": "primary", "lang": "es", "url": "https://www.auf.org.uy/", "active": true, "validated": false},
@@ -20,10 +22,29 @@
     {"id": "rs_fss", "name": "Fudbalski savez Srbije", "region": "Serbia", "country": "RS", "type": "federation", "tier": "primary", "lang": "sr", "url": "https://fss.rs/", "active": true, "validated": false},
     {"id": "hr_hns", "name": "Hrvatski nogometni savez", "region": "Croatia", "country": "HR", "type": "federation", "tier": "primary", "lang": "hr", "url": "https://hns-cff.hr/", "active": true, "validated": false},
 
-    {"id": "agg_transfermarkt", "name": "Transfermarkt", "region": "Global", "country": "XX", "type": "aggregator", "tier": "secondary", "lang": "en", "url": "https://www.transfermarkt.com/", "active": true, "validated": true},
-    {"id": "agg_soccerway", "name": "Soccerway", "region": "Global", "country": "XX", "type": "aggregator", "tier": "secondary", "lang": "en", "url": "https://int.soccerway.com/", "active": true, "validated": true},
+    {"id": "agg_transfermarkt", "name": "Transfermarkt", "region": "Global", "country": "XX", "type": "aggregator", "tier": "secondary", "lang": "en", "url": "https://www.transfermarkt.com/", "aliases": ["transfermarkt.us", "transfermarkt.de", "transfermarkt.pl", "transfermarkt.pe"], "active": true, "validated": true},
+    {"id": "agg_soccerway", "name": "Soccerway", "region": "Global", "country": "XX", "type": "aggregator", "tier": "secondary", "lang": "en", "url": "https://int.soccerway.com/", "aliases": ["soccerway.com", "uk.soccerway.com"], "active": true, "validated": true},
     {"id": "agg_besoccer", "name": "BeSoccer", "region": "Global", "country": "XX", "type": "aggregator", "tier": "secondary", "lang": "en", "url": "https://www.besoccer.com/", "active": true, "validated": true},
     {"id": "agg_sofascore", "name": "Sofascore", "region": "Global", "country": "XX", "type": "aggregator", "tier": "secondary", "lang": "en", "url": "https://www.sofascore.com/", "active": true, "validated": true},
-    {"id": "agg_fbref", "name": "FBref", "region": "Global", "country": "XX", "type": "aggregator", "tier": "secondary", "lang": "en", "url": "https://fbref.com/", "active": true, "validated": true}
+    {"id": "agg_fbref", "name": "FBref", "region": "Global", "country": "XX", "type": "aggregator", "tier": "secondary", "lang": "en", "url": "https://fbref.com/", "active": true, "validated": true},
+    {"id": "agg_wikipedia", "name": "Wikipedia", "region": "Global", "country": "XX", "type": "encyclopedic", "tier": "secondary", "lang": "en", "url": "https://en.wikipedia.org/", "aliases": ["pt.wikipedia.org"], "active": true, "validated": true},
+    {"id": "agg_bolavip", "name": "Bolavip", "region": "Latin America", "country": "XX", "type": "aggregator", "tier": "secondary", "lang": "es", "url": "https://bolavip.com/", "aliases": ["br.bolavip.com"], "active": true, "validated": false},
+    {"id": "mx_futboltotal", "name": "Futbol Total", "region": "Mexico", "country": "MX", "type": "aggregator", "tier": "secondary", "lang": "es", "url": "https://www.futboltotal.com.mx/", "active": true, "validated": false},
+    {"id": "br_meutimao", "name": "Meu Timão (fan site Corinthians)", "region": "Brazil", "country": "BR", "type": "fan_site", "tier": "secondary", "lang": "pt", "url": "https://www.meutimao.com.br/", "active": true, "validated": false},
+    {"id": "br_spfc24horas", "name": "SPFC 24 Horas (fan site São Paulo FC)", "region": "Brazil", "country": "BR", "type": "fan_site", "tier": "secondary", "lang": "pt", "url": "https://spfc24horas.com.br/", "active": true, "validated": false},
+    {"id": "br_gremionews", "name": "Grêmio News (fan site)", "region": "Brazil", "country": "BR", "type": "fan_site", "tier": "secondary", "lang": "pt", "url": "https://gremionews.com.br/", "active": true, "validated": false},
+    {"id": "gt_soy502", "name": "Soy502", "region": "Guatemala", "country": "GT", "type": "local_press", "tier": "secondary", "lang": "es", "url": "https://www.soy502.com/", "active": true, "validated": false},
+    {"id": "cl_alairelibre", "name": "Aire Libre", "region": "Chile", "country": "CL", "type": "local_press", "tier": "secondary", "lang": "es", "url": "https://www.alairelibre.cl/", "active": true, "validated": false},
+    {"id": "pt_jovenspromessas", "name": "Jovens Promessas", "region": "Portugal", "country": "PT", "type": "niche_scouting", "tier": "secondary", "lang": "pt", "url": "https://jovenspromessas.pt/", "active": true, "validated": false},
+
+    {"id": "br_ge_globo", "name": "ge.globo (Globo Esporte)", "region": "Brazil", "country": "BR", "type": "national_press", "tier": "primary", "lang": "pt", "url": "https://ge.globo.com/", "active": true, "validated": false},
+    {"id": "br_lance", "name": "Lance!", "region": "Brazil", "country": "BR", "type": "national_press", "tier": "primary", "lang": "pt", "url": "https://www.lance.com.br/", "active": true, "validated": false},
+    {"id": "br_placar", "name": "Placar", "region": "Brazil", "country": "BR", "type": "national_press", "tier": "primary", "lang": "pt", "url": "https://placar.com.br/", "active": true, "validated": false},
+    {"id": "br_gauchazh", "name": "GZH — Grupo RBS (Rio Grande do Sul)", "region": "Brazil", "country": "BR", "type": "local_press", "tier": "primary", "lang": "pt", "url": "https://gauchazh.clicrbs.com.br/", "active": true, "validated": false},
+    {"id": "br_itatiaia", "name": "Itatiaia (Minas Gerais)", "region": "Brazil", "country": "BR", "type": "local_press", "tier": "primary", "lang": "pt", "url": "https://itatiaia.com.br/", "active": true, "validated": false},
+    {"id": "br_trivela", "name": "Trivela", "region": "Brazil", "country": "BR", "type": "local_press", "tier": "primary", "lang": "pt", "url": "https://trivela.com.br/", "active": true, "validated": false},
+    {"id": "mx_record", "name": "Récord", "region": "Mexico", "country": "MX", "type": "national_press", "tier": "primary", "lang": "es", "url": "https://www.record.com.mx/", "active": true, "validated": false},
+    {"id": "cl_as_chile", "name": "AS Chile", "region": "Chile", "country": "CL", "type": "national_press", "tier": "primary", "lang": "es", "url": "https://chile.as.com/", "active": true, "validated": false},
+    {"id": "us_latimes", "name": "Los Angeles Times", "region": "United States", "country": "US", "type": "national_press", "tier": "primary", "lang": "en", "url": "https://www.latimes.com/", "active": true, "validated": false}
   ]
 }
