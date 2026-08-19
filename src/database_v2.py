@@ -120,7 +120,54 @@ def has_primary_source(domains) -> bool:
     return any(tiers.get(d) == "primary" for d in domains)
 
 
-def assess_identity(name: str, club: str, age, source_count: int, has_primary: bool) -> dict:
+# Algoritmo "copertura bassa" (solo Global, non Lega Pro): l'ostacolo non è il
+# talento, è l'infrastruttura editoriale. La regola "serve una fonte primary"
+# appena attivata (ARCH-003 Fase 1) è corretta dove la stampa sportiva
+# digitale è densa (Brasile, Argentina, Europa) — ma in Africa subsahariana,
+# Nord Africa e Asia Sud/Sudest/Centrale il registro è ancora agli inizi (13
+# paesi seminati su ~70 potenziali al 2026-08-19: vedi config/sources.json,
+# note_2026_08_19b) e per la maggioranza dei paesi qui sotto NON esiste ancora
+# nessuna fonte primary registrata. Applicare lo stesso gate userebbe "fonte
+# non ancora nel registro" come se fosse "fonte inaffidabile" — non è quello
+# che intendiamo dire. Elenco per NOME PAESE (il campo `region` dei giocatori
+# è di fatto un nome paese/regione in inglese, come estratto dall'LLM — non
+# un codice ISO), deliberatamente ampio: copre l'intero continente/sub-area
+# scelta, non solo i 13 paesi già seminati, così i paesi non ancora coperti
+# dal registro entrano comunque nella regola alternativa invece di sparire.
+LOW_COVERAGE_REGIONS = frozenset({
+    # Nord Africa
+    "Morocco", "Algeria", "Tunisia", "Libya", "Egypt", "Sudan",
+    # Africa subsahariana (Ovest, Est, Centrale, Sud)
+    "Nigeria", "Ghana", "Senegal", "Ivory Coast", "Cote d'Ivoire",
+    "Guinea", "Mali", "Cameroon", "DR Congo", "Congo", "Benin", "Togo",
+    "Burkina Faso", "Sierra Leone", "Liberia", "Gambia", "Guinea-Bissau",
+    "Niger", "Chad", "Central African Republic", "Gabon",
+    "Equatorial Guinea", "Kenya", "Ethiopia", "Uganda", "Tanzania",
+    "Rwanda", "Burundi", "Somalia", "South Sudan", "Zambia", "Zimbabwe",
+    "Malawi", "Mozambique", "Angola", "Namibia", "Botswana",
+    "South Africa", "Eswatini", "Lesotho", "Madagascar", "Comoros",
+    "Cape Verde", "Mauritius", "Mauritania",
+    # Asia meridionale
+    "India", "Pakistan", "Bangladesh", "Sri Lanka", "Nepal", "Bhutan",
+    "Maldives", "Afghanistan",
+    # Sud-est asiatico
+    "Indonesia", "Vietnam", "Thailand", "Philippines", "Malaysia",
+    "Myanmar", "Cambodia", "Laos", "Singapore", "Brunei", "Timor-Leste",
+    # Asia centrale
+    "Uzbekistan", "Kazakhstan", "Kyrgyzstan", "Tajikistan", "Turkmenistan",
+})
+
+
+def is_low_coverage_region(region) -> bool:
+    """True se il paese/regione del giocatore rientra nel perimetro a bassa
+    copertura editoriale (Africa subsahariana+Nord Africa, Asia Sud/Sudest/
+    Centrale). Confronto esatto sulla stringa `region` così com'è estratta —
+    niente inferenza da continente/lingua, per restare auditable."""
+    return bool(region) and str(region).strip() in LOW_COVERAGE_REGIONS
+
+
+def assess_identity(name: str, club: str, age, source_count: int, has_primary: bool,
+                     low_coverage: bool = False) -> dict:
     """
     Valuta la qualità dell'identità di un giocatore e il gate di pubblicazione.
     Ritorna dict con i flag e i motivi di review. NON decide il genere (scelta
@@ -137,6 +184,17 @@ def assess_identity(name: str, club: str, age, source_count: int, has_primary: b
     genuinamente deboli (2 aggregatori che si copiano, nessuna fonte con
     cronaca vera). has_primary è calcolato dal chiamante via
     has_primary_source() sui domini-prova distinti del giocatore.
+
+    Algoritmo "copertura bassa" (2026-08-19b, solo Global): per i paesi in
+    LOW_COVERAGE_REGIONS (Africa subsahariana+Nord Africa, Asia Sud/Sudest/
+    Centrale) il registro fonti è troppo giovane per esigere una fonte
+    primary senza penalizzare l'infrastruttura invece del talento — lì
+    "serve 1 fonte primary" tornerebbe a bocciare per "fonte sconosciuta",
+    lo stesso errore misurato e corretto nel lotto precedente, solo spostato
+    su un'altra fetta di mondo. low_coverage è calcolato dal chiamante via
+    is_low_coverage_region() sulla region del giocatore: quando True, due
+    fonti indipendenti bastano anche senza primary, ma il caso è sempre
+    segnalato in review_flags — non si finge che regga lo stesso standard.
     """
     name = (name or "").strip()
     tokens = [t for t in name.split() if t]
@@ -163,9 +221,11 @@ def assess_identity(name: str, club: str, age, source_count: int, has_primary: b
     # Due fonti che si copiano a vicenda (es. due aggregatori) non reggono
     # una telefonata di verifica quanto due fonti indipendenti con almeno
     # una cronaca vera. Segnalato separato da "fonte_singola": qui le fonti
-    # numericamente ci sono, manca il grado.
+    # numericamente ci sono, manca il grado. Nei paesi a bassa copertura la
+    # regola primary è sospesa (registro troppo giovane): il flag cambia da
+    # "bloccante" a "sperimentale", ma resta visibile.
     elif not has_primary:
-        flags.append("senza_fonte_primary")
+        flags.append("copertura_bassa_sperimentale" if low_coverage else "senza_fonte_primary")
 
     identity_complete = (
         token_count >= 2
@@ -173,7 +233,7 @@ def assess_identity(name: str, club: str, age, source_count: int, has_primary: b
         and bool(club and str(club).strip())
         and age is not None
     )
-    corroborated = (source_count or 0) >= 2 and has_primary
+    corroborated = (source_count or 0) >= 2 and (has_primary or low_coverage)
     publishable = identity_complete and corroborated
 
     return {
@@ -182,6 +242,7 @@ def assess_identity(name: str, club: str, age, source_count: int, has_primary: b
         "corroborated": corroborated,
         "publishable": publishable,
         "review_flags": ",".join(flags),
+        "coverage_tier": "low_coverage" if low_coverage else "standard",
     }
 
 
@@ -224,13 +285,17 @@ class OB1DatabaseV2:
                     confidence REAL,
                     notified INTEGER DEFAULT 0,
                     legacy_id INTEGER,
-                    created_at TEXT
+                    created_at TEXT,
+                    coverage_tier TEXT DEFAULT 'standard'
                 )
             """)
-            # Migrazione leggera per DB v2 creati prima della colonna notified
+            # Migrazione leggera per DB v2 creati prima delle colonne notified
+            # e coverage_tier (algoritmo "copertura bassa", 2026-08-19b).
             cols = {row[1] for row in c.execute("PRAGMA table_info(players)")}
             if "notified" not in cols:
                 c.execute("ALTER TABLE players ADD COLUMN notified INTEGER DEFAULT 0")
+            if "coverage_tier" not in cols:
+                c.execute("ALTER TABLE players ADD COLUMN coverage_tier TEXT DEFAULT 'standard'")
             c.execute("""
                 CREATE TABLE IF NOT EXISTS evidences (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -393,9 +458,9 @@ class OB1DatabaseV2:
     def _recompute(self, conn, pid: int):
         """Ricalcola fonti-distinte, gate e punteggio v2 per un giocatore."""
         from src.scoring_v2 import score_player  # lazy: evita cicli d'import
-        p = conn.execute("""SELECT canonical_name, age, club, league, is_ghost, stats_json
+        p = conn.execute("""SELECT canonical_name, age, club, league, region, is_ghost, stats_json
                             FROM players WHERE id=?""", (pid,)).fetchone()
-        name, age, club, league, is_ghost, stats_json = p
+        name, age, club, league, region, is_ghost, stats_json = p
         domains = [row[0] for row in conn.execute(
             "SELECT DISTINCT source_domain FROM evidences WHERE player_id=? AND source_domain!=''",
             (pid,)).fetchall()]
@@ -405,15 +470,18 @@ class OB1DatabaseV2:
         stats = json.loads(stats_json) if stats_json else {}
 
         has_primary = has_primary_source(domains)
-        idn = assess_identity(name, club, age, n_sources, has_primary)
+        low_coverage = is_low_coverage_region(region)
+        idn = assess_identity(name, club, age, n_sources, has_primary, low_coverage)
         sc = score_player(age=age, is_ghost=bool(is_ghost), club=club, league=league,
                           stats=stats, n_sources=n_sources, detection_count=ev_count)
         conn.execute("""UPDATE players SET evidence_count=?, identity_complete=?,
-                        corroborated=?, publishable=?, review_flags=?, score=?, confidence=?
+                        corroborated=?, publishable=?, review_flags=?, score=?, confidence=?,
+                        coverage_tier=?
                         WHERE id=?""",
                      (ev_count, 1 if idn["identity_complete"] else 0,
                       1 if idn["corroborated"] else 0, 1 if idn["publishable"] else 0,
-                      idn["review_flags"], sc["score"], sc["confidence"], pid))
+                      idn["review_flags"], sc["score"], sc["confidence"],
+                      idn["coverage_tier"], pid))
 
     def ingest_observation(self, obs: dict) -> tuple:
         """
@@ -693,6 +761,53 @@ if __name__ == "__main__":
             "SELECT corroborated, publishable FROM players WHERE id=?", (pid,)).fetchone()
         assert row2 == (1, 1), f"primary + secondary deve corroborare e pubblicare: {row2}"
     print("OK gate collegato: serve fonte primary per corroborare")
+
+    # Algoritmo copertura bassa (2026-08-19b, solo Global): in un paese del
+    # perimetro (Kenya) due fonti secondary bastano, ma il caso resta
+    # segnalato — non è lo stesso standard di un paese a stampa densa.
+    assert is_low_coverage_region("Kenya")
+    assert is_low_coverage_region("Uzbekistan")
+    assert not is_low_coverage_region("Brazil")
+    assert not is_low_coverage_region(None)
+    with _tempfile.TemporaryDirectory() as _tmp3:
+        _lc_db = OB1DatabaseV2(str(Path(_tmp3) / "test_low_coverage.db"))
+        pid, _ = _lc_db.ingest_observation({
+            "name": "Jomo Otieno Test", "club": "Gor Mahia", "age": 17,
+            "region": "Kenya",
+            "source_url": "https://sofascore.com/player/jomo-otieno-test",
+            "observed_at": "2026-03-01T00:00:00",
+        })
+        _lc_db.ingest_observation({
+            "name": "Jomo Otieno Test", "club": "Gor Mahia", "age": 17,
+            "region": "Kenya",
+            "source_url": "https://fbref.com/en/players/jomo-otieno-test",
+            "observed_at": "2026-03-05T00:00:00",
+        })
+        row = _lc_db._conn().execute(
+            "SELECT corroborated, publishable, review_flags, coverage_tier "
+            "FROM players WHERE id=?", (pid,)).fetchone()
+        assert row[0] == 1 and row[1] == 1, \
+            f"Kenya, 2 fonti secondary: deve corroborare sotto la regola alternativa: {row}"
+        assert "copertura_bassa_sperimentale" in row[2], row[2]
+        assert row[3] == "low_coverage", row[3]
+
+        # Stesso identico caso ma senza region -> regola standard, NON deve
+        # passare: la deroga è per paese dichiarato, non un default globale.
+        pid_std, _ = _lc_db.ingest_observation({
+            "name": "Altro Nome Test", "club": "Altro Club", "age": 17,
+            "source_url": "https://sofascore.com/player/altro-nome-test",
+            "observed_at": "2026-03-01T00:00:00",
+        })
+        _lc_db.ingest_observation({
+            "name": "Altro Nome Test", "club": "Altro Club", "age": 17,
+            "source_url": "https://fbref.com/en/players/altro-nome-test",
+            "observed_at": "2026-03-05T00:00:00",
+        })
+        row_std = _lc_db._conn().execute(
+            "SELECT corroborated, coverage_tier FROM players WHERE id=?", (pid_std,)).fetchone()
+        assert row_std == (0, "standard"), \
+            f"senza region nel perimetro deve restare sullo standard: {row_std}"
+    print("OK algoritmo copertura bassa: deroga per paese, sempre segnalata")
 
     db = _db
     print(f"Schema v2 inizializzato: {db.db_path}")

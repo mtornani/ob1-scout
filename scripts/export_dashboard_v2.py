@@ -239,6 +239,13 @@ def export(db_path: Path, out_path: Path) -> dict:
             "publishable": bool(p["publishable"]),
             "identity_complete": bool(p["identity_complete"]),
             "review_flags": p["review_flags"] or "",
+            # Algoritmo copertura bassa (2026-08-19b, src/database_v2.py):
+            # 'low_coverage' = pubblicato senza fonte primary perché il
+            # paese è nel perimetro a stampa digitale debole (Africa
+            # subsahariana+Nord Africa, Asia Sud/Sudest/Centrale). Passthrough
+            # puro: nessuna UI/etichetta dashboard decisa qui, è un cambio
+            # di prodotto a parte.
+            "coverage_tier": p["coverage_tier"] or "standard",
             "first_detected": p["first_detected"], "last_seen": p["last_seen"],
         }
         entry["assessment"] = assess_player(entry, p["evidence_count"] or 1)
