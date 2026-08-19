@@ -28,7 +28,7 @@ from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from src.database_v2 import OB1DatabaseV2
+from src.database_v2 import OB1DatabaseV2, region_from_nationality
 from src.sources_v2 import load_registry, SourceMonitor
 from src.extractor_v2 import OB1Extractor
 from src.scraper_global import AsyncGlobalScraper
@@ -158,7 +158,14 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
                 continue
             processed.append(url)
             for obs in obs_list:
-                obs["region"] = obs.get("region") or src.get("region")
+                # Fonti mono-paese: src["region"] basta. Fonti multi-paese
+                # (confederazioni CAF/AFC, algoritmo copertura bassa
+                # 2026-08-19c) coprono decine di paesi — lì va preferita la
+                # nationality estratta dal testo, tradotta in nome paese via
+                # region_from_nationality(); se non riconosciuta, ripiega
+                # comunque su src["region"] invece di lasciare vuoto.
+                obs["region"] = (obs.get("region") or region_from_nationality(obs.get("nationality"))
+                                 or src.get("region"))
                 obs["observed_at"] = stamp
                 _, status = db.ingest_observation(obs)
                 stats[f"obs_{status}"] += 1

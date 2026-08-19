@@ -166,6 +166,50 @@ def is_low_coverage_region(region) -> bool:
     return bool(region) and str(region).strip() in LOW_COVERAGE_REGIONS
 
 
+# Serve per le fonti multi-paese (confederazioni: CAF, AFC) aggiunte
+# nell'algoritmo copertura bassa (2026-08-19c). Il resto del registro sono
+# fonti mono-paese: obs["region"] eredita src["region"] senza ambiguità
+# (scripts/ingest_v2.py). Una fonte confederale invece copre decine di
+# paesi — taggare ogni giocatore estratto con un unico region statico
+# sarebbe sbagliato per la maggioranza. L'estrattore non dà "region" (solo
+# "nationality", spesso un aggettivo: "Ghanaian", non "Ghana"): questa mappa
+# traduce il gentilizio nel nome paese usato da LOW_COVERAGE_REGIONS, così
+# is_low_coverage_region() continua a funzionare anche per chi arriva da
+# CAF/AFC invece che da una fonte nazionale. Copre solo i 13 paesi seme
+# 2026-08-19b + varianti comuni: da allargare insieme al registro fonti.
+NATIONALITY_TO_REGION = {
+    "kenya": "Kenya", "kenyan": "Kenya",
+    "ethiopia": "Ethiopia", "ethiopian": "Ethiopia",
+    "south africa": "South Africa", "south african": "South Africa",
+    "morocco": "Morocco", "moroccan": "Morocco",
+    "egypt": "Egypt", "egyptian": "Egypt",
+    "tunisia": "Tunisia", "tunisian": "Tunisia",
+    "india": "India", "indian": "India",
+    "bangladesh": "Bangladesh", "bangladeshi": "Bangladesh",
+    "indonesia": "Indonesia", "indonesian": "Indonesia",
+    "vietnam": "Vietnam", "vietnamese": "Vietnam",
+    "thailand": "Thailand", "thai": "Thailand",
+    "philippines": "Philippines", "filipino": "Philippines", "philippine": "Philippines",
+    "uzbekistan": "Uzbekistan", "uzbek": "Uzbekistan",
+    # Già seminati (Fase B2), utili anche loro se un giorno arriva una
+    # confederazione/hub multi-paese che li tocca (es. WAFU, CAF stessa).
+    "ghana": "Ghana", "ghanaian": "Ghana",
+    "senegal": "Senegal", "senegalese": "Senegal",
+    "nigeria": "Nigeria", "nigerian": "Nigeria",
+    "ivory coast": "Ivory Coast", "ivorian": "Ivory Coast", "côte d'ivoire": "Ivory Coast",
+    "guinea": "Guinea", "guinean": "Guinea",
+}
+
+
+def region_from_nationality(nationality) -> str:
+    """Nome paese (per LOW_COVERAGE_REGIONS) da un gentilizio/nome paese
+    estratto dall'LLM, o '' se non riconosciuto. Non inventa: un gentilizio
+    non in mappa resta senza region da qui, ricade sul region della fonte."""
+    if not nationality:
+        return ""
+    return NATIONALITY_TO_REGION.get(str(nationality).strip().lower(), "")
+
+
 def assess_identity(name: str, club: str, age, source_count: int, has_primary: bool,
                      low_coverage: bool = False) -> dict:
     """
@@ -808,6 +852,18 @@ if __name__ == "__main__":
         assert row_std == (0, "standard"), \
             f"senza region nel perimetro deve restare sullo standard: {row_std}"
     print("OK algoritmo copertura bassa: deroga per paese, sempre segnalata")
+
+    # Discovery per fonti multi-paese (2026-08-19c): una confederazione come
+    # CAF/AFC non può ereditare un region statico, serve dedurlo dalla
+    # nationality del testo.
+    assert region_from_nationality("Kenyan") == "Kenya"
+    assert region_from_nationality("kenya") == "Kenya"
+    assert region_from_nationality("Ghanaian") == "Ghana"
+    assert region_from_nationality("Brazilian") == "", \
+        "gentilizio fuori mappa non deve inventare un paese"
+    assert region_from_nationality(None) == ""
+    assert region_from_nationality("") == ""
+    print("OK region_from_nationality: gentilizio -> paese per fonti multi-paese")
 
     db = _db
     print(f"Schema v2 inizializzato: {db.db_path}")
