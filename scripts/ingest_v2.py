@@ -64,13 +64,21 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
     stamp = datetime.now().isoformat()
     stats = Counter()
     calls_used = 0
-    # Ritmo tra chiamate LLM: il free tier Groq ha un tetto di token/minuto
-    # (~12k TPM). Una pausa tiene le chiamate sotto il limite invece di prendere
-    # 429. Configurabile; 0 per disattivare.
+    # Ritmo tra chiamate LLM: il free tier Groq ha un tetto di token/minuto.
+    # 12s era calibrato su llama-3.3-70b-versatile (~12k TPM, deprecato il 17
+    # giugno 2026 — vedi src/llm_free_chain.py). Il rimpiazzo openai/gpt-oss-120b
+    # ha un tetto free molto più stretto (8k TPM, console.groq.com/docs/
+    # rate-limits, verificato 19 ago 2026): misurato nel run di produzione
+    # dopo il cambio modello, la prima chiamata (~2.5-3k token con FREE_MAX_CHARS
+    # a 2800 char) faceva scattare il rate limit sulla finestra scorrevole,
+    # ed escludeva Groq dal resto del run (budget 15, usate 1). A 8k TPM
+    # servono ~22-23s tra chiamate da ~3k token per restare sotto soglia con
+    # margine; 25s. Una pausa tiene le chiamate sotto il limite invece di
+    # prendere 429. Configurabile; 0 per disattivare.
     try:
-        call_delay = max(0.0, float(os.getenv("INGEST_CALL_DELAY", "12")))
+        call_delay = max(0.0, float(os.getenv("INGEST_CALL_DELAY", "25")))
     except (ValueError, TypeError):
-        call_delay = 12.0
+        call_delay = 25.0
 
     # Evita di ritentare gli stessi pid se _corroborate gira 2× (pre + post discovery).
     attempted_pids: set[int] = set()

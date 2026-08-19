@@ -64,7 +64,11 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           INGEST_LLM_BUDGET: ${{ github.event.inputs.llm_budget || '15' }}
-          INGEST_CALL_DELAY: "12"
+          # 25s, non 12: il modello Groq free cambiato il 19 ago 2026
+          # (openai/gpt-oss-120b, rimpiazzo di llama-3.3-70b-versatile
+          # deprecato) ha un tetto free di 8k TPM invece dei ~12k del
+          # precedente — vedi scripts/ingest_v2.py per la misura reale.
+          INGEST_CALL_DELAY: "25"
           PYTHONPATH: ${{ github.workspace }}
         run: python scripts/ingest_v2.py
 
