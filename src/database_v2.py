@@ -68,6 +68,51 @@ def domain_of(url: str) -> str:
         return ""
 
 
+_SOURCE_TIERS_CACHE = None
+
+
+def _load_source_tiers() -> dict:
+    """
+    dominio -> tier ("primary"/"secondary"), da config/sources.json.
+
+    ARCH-003 (Eccellenza, ob1-serie-c) Fase 1: il campo tier esiste già nel
+    registro ma finora era letto solo da sources_v2.py per escludere i
+    secondary dalla discovery — il gate a due fonti contava domini distinti
+    senza guardare il grado. Due aggregatori che si copiano valevano quanto
+    federazione + stampa. Caricato una volta, in cache di modulo: è un file
+    piccolo (18 fonti) letto ad ogni ricalcolo giocatore, non ha senso
+    riaprirlo ogni volta. Non deve mai poter rompere il ricalcolo: qualunque
+    errore ripiega su mappa vuota (nessun dominio noto = nessun primary
+    accertato, coerente con "non inventare fiducia che non abbiamo").
+    """
+    global _SOURCE_TIERS_CACHE
+    if _SOURCE_TIERS_CACHE is not None:
+        return _SOURCE_TIERS_CACHE
+    tiers = {}
+    try:
+        path = Path(__file__).parent.parent / "config" / "sources.json"
+        data = json.loads(path.read_text(encoding="utf-8"))
+        entries = data.get("sources") if isinstance(data, dict) else data
+        for entry in entries or []:
+            dom = domain_of(entry.get("url", ""))
+            if dom:
+                tiers[dom] = entry.get("tier", "secondary")
+    except Exception:
+        pass
+    _SOURCE_TIERS_CACHE = tiers
+    return tiers
+
+
+def has_primary_source(domains) -> bool:
+    """True se almeno uno dei domini-prova è una fonte 'primary' nel registro.
+    Domini non registrati (non in config/sources.json) non contano come
+    primary — solo perché non li conosciamo non significa che siano
+    affidabili, è l'opposto: nessuna fiducia dichiarata finché non li
+    aggiungiamo al registro con un tier esplicito."""
+    tiers = _load_source_tiers()
+    return any(tiers.get(d) == "primary" for d in domains)
+
+
 def assess_identity(name: str, club: str, age, source_count: int) -> dict:
     """
     Valuta la qualità dell'identità di un giocatore e il gate di pubblicazione.
@@ -519,6 +564,16 @@ if __name__ == "__main__":
     assert _db._names_match("Tomás Martínez", "Tomás Martínez Rodríguez")
     assert _db._names_match("Tomás Rodríguez", "Tomás Martínez Rodríguez")
     print("OK _names_match guards")
+
+    # ARCH-003 Fase 1: grading fonti nel registro reale (config/sources.json,
+    # 18 fonti oggi). promiedos.com.ar è tier primary lì dentro; un dominio
+    # non registrato non deve mai risultare primary per default.
+    _tiers = _load_source_tiers()
+    assert _tiers.get("promiedos.com.ar") == "primary", _tiers.get("promiedos.com.ar")
+    assert has_primary_source(["promiedos.com.ar", "un-dominio-mai-visto.xyz"])
+    assert not has_primary_source(["un-dominio-mai-visto.xyz", "un-altro-ignoto.xyz"])
+    assert not has_primary_source([])
+    print("OK grading fonti (has_primary_source)")
 
     # Tabellone (outcomes_v2): spento in produzione da sempre, non perché
     # disattivato apposta - la vera causa era first_detected mai scritto
