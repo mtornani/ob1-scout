@@ -120,11 +120,23 @@ def has_primary_source(domains) -> bool:
     return any(tiers.get(d) == "primary" for d in domains)
 
 
-def assess_identity(name: str, club: str, age, source_count: int) -> dict:
+def assess_identity(name: str, club: str, age, source_count: int, has_primary: bool) -> dict:
     """
     Valuta la qualità dell'identità di un giocatore e il gate di pubblicazione.
     Ritorna dict con i flag e i motivi di review. NON decide il genere (scelta
     di prodotto ancora aperta): quel campo resta 'unknown'.
+
+    ARCH-003 Fase 1: due fonti non bastano più da sole. Misurato su
+    data/ob1_v2.db (90 giocatori corroborati oggi): richiedere "≥1 fonte
+    primary" da subito, col registro iniziale di 18 domini, faceva cadere
+    39/90 — ma 30 di quei 39 erano falsi positivi da registro incompleto
+    (Transfermarkt/Soccerway non riconosciuti sotto TLD alternativi, Globo
+    Esporte e stampa nazionale brasiliana/messicana/cilena assenti dal seed).
+    Allargato il registro (18 -> 45 domini, + alias di dominio) prima di
+    attivare la regola: la sopravvivenza sale a 69/90, e i 21 rimasti sono
+    genuinamente deboli (2 aggregatori che si copiano, nessuna fonte con
+    cronaca vera). has_primary è calcolato dal chiamante via
+    has_primary_source() sui domini-prova distinti del giocatore.
     """
     name = (name or "").strip()
     tokens = [t for t in name.split() if t]
@@ -148,6 +160,12 @@ def assess_identity(name: str, club: str, age, source_count: int) -> dict:
     # verificabile sui dati vecchi. Va segnalato, non finto.
     if (source_count or 0) < 2:
         flags.append("fonte_singola")
+    # Due fonti che si copiano a vicenda (es. due aggregatori) non reggono
+    # una telefonata di verifica quanto due fonti indipendenti con almeno
+    # una cronaca vera. Segnalato separato da "fonte_singola": qui le fonti
+    # numericamente ci sono, manca il grado.
+    elif not has_primary:
+        flags.append("senza_fonte_primary")
 
     identity_complete = (
         token_count >= 2
@@ -155,7 +173,7 @@ def assess_identity(name: str, club: str, age, source_count: int) -> dict:
         and bool(club and str(club).strip())
         and age is not None
     )
-    corroborated = (source_count or 0) >= 2
+    corroborated = (source_count or 0) >= 2 and has_primary
     publishable = identity_complete and corroborated
 
     return {
@@ -257,7 +275,13 @@ class OB1DatabaseV2:
                    league=None, region=None, is_ghost=False, legacy_score=None,
                    detection_count=1, source_count=1, first_detected=None,
                    last_seen=None, legacy_id=None, created_at=None) -> int:
-        idn = assess_identity(canonical_name, club, age, source_count)
+        # add_player non conosce ancora i domini-prova (l'evidence si
+        # aggiunge dopo, via add_evidence): nessun primary accertato a
+        # questo punto. Usato solo dalla migrazione legacy one-off
+        # (scripts/migrate_to_v2.py); la pipeline live passa da
+        # ingest_observation -> _recompute, che ricalcola has_primary sui
+        # domini veri non appena c'è evidence.
+        idn = assess_identity(canonical_name, club, age, source_count, has_primary=False)
         with self._conn() as conn:
             cur = conn.execute("""
                 INSERT INTO players
@@ -372,14 +396,16 @@ class OB1DatabaseV2:
         p = conn.execute("""SELECT canonical_name, age, club, league, is_ghost, stats_json
                             FROM players WHERE id=?""", (pid,)).fetchone()
         name, age, club, league, is_ghost, stats_json = p
-        n_sources = conn.execute(
-            "SELECT COUNT(DISTINCT source_domain) FROM evidences WHERE player_id=? AND source_domain!=''",
-            (pid,)).fetchone()[0] or 1
+        domains = [row[0] for row in conn.execute(
+            "SELECT DISTINCT source_domain FROM evidences WHERE player_id=? AND source_domain!=''",
+            (pid,)).fetchall()]
+        n_sources = len(domains) or 1
         ev_count = conn.execute(
             "SELECT COUNT(*) FROM evidences WHERE player_id=?", (pid,)).fetchone()[0]
         stats = json.loads(stats_json) if stats_json else {}
 
-        idn = assess_identity(name, club, age, n_sources)
+        has_primary = has_primary_source(domains)
+        idn = assess_identity(name, club, age, n_sources, has_primary)
         sc = score_player(age=age, is_ghost=bool(is_ghost), club=club, league=league,
                           stats=stats, n_sources=n_sources, detection_count=ev_count)
         conn.execute("""UPDATE players SET evidence_count=?, identity_complete=?,
@@ -573,8 +599,9 @@ if __name__ == "__main__":
     print("OK _names_match guards")
 
     # ARCH-003 Fase 1: grading fonti nel registro reale (config/sources.json,
-    # 18 fonti oggi). promiedos.com.ar è tier primary lì dentro; un dominio
-    # non registrato non deve mai risultare primary per default.
+    # 45 domini dopo l'allargamento del 2026-08-19). promiedos.com.ar è tier
+    # primary lì dentro; un dominio non registrato non deve mai risultare
+    # primary per default.
     _tiers = _load_source_tiers()
     assert _tiers.get("promiedos.com.ar") == "primary", _tiers.get("promiedos.com.ar")
     assert has_primary_source(["promiedos.com.ar", "un-dominio-mai-visto.xyz"])
@@ -635,6 +662,37 @@ if __name__ == "__main__":
         })
         assert _test_db2.outcomes_summary()["checked"] == 0
     print("OK tabellone (outcomes_v2) collegato")
+
+    # ARCH-003 Fase 1: la regola è ora collegata al gate vero (_recompute),
+    # non solo disponibile come helper. Due fonti che si copiano (entrambe
+    # aggregatori secondary) non bastano più; una primary + una secondary sì.
+    with _tempfile.TemporaryDirectory() as _tmp2:
+        _gate_db = OB1DatabaseV2(str(Path(_tmp2) / "test_gate.db"))
+        pid, _ = _gate_db.ingest_observation({
+            "name": "Nome Cognome Test", "club": "Club Test", "age": 18,
+            "source_url": "https://sofascore.com/player/nome-cognome-test",
+            "observed_at": "2026-03-01T00:00:00",
+        })
+        _gate_db.ingest_observation({
+            "name": "Nome Cognome Test", "club": "Club Test", "age": 18,
+            "source_url": "https://fbref.com/en/players/nome-cognome-test",
+            "observed_at": "2026-03-05T00:00:00",
+        })
+        row = _gate_db._conn().execute(
+            "SELECT corroborated, review_flags FROM players WHERE id=?", (pid,)).fetchone()
+        assert row[0] == 0, f"2 fonti secondary non devono corroborare: {row}"
+        assert "senza_fonte_primary" in row[1], row[1]
+
+        # Terza fonte, questa volta primary: ora deve corroborare.
+        _gate_db.ingest_observation({
+            "name": "Nome Cognome Test", "club": "Club Test", "age": 18,
+            "source_url": "https://ge.globo.com/futebol/noticia/nome-cognome-test.ghtml",
+            "observed_at": "2026-03-10T00:00:00",
+        })
+        row2 = _gate_db._conn().execute(
+            "SELECT corroborated, publishable FROM players WHERE id=?", (pid,)).fetchone()
+        assert row2 == (1, 1), f"primary + secondary deve corroborare e pubblicare: {row2}"
+    print("OK gate collegato: serve fonte primary per corroborare")
 
     db = _db
     print(f"Schema v2 inizializzato: {db.db_path}")
