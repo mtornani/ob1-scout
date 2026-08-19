@@ -22,6 +22,7 @@ normalize_observations() è codice puro, testabile senza rete: invariata.
 import json
 import logging
 import os
+import re
 import sys
 from collections import Counter
 from pathlib import Path
@@ -130,6 +131,50 @@ def normalize_observations(raw: list, source_url: str = "") -> list:
             "source_url": source_url,
         })
     return out
+
+
+def _normalize_for_match(text: str) -> str:
+    """Spazi/maiuscole via, per confrontare senza farsi ingannare da un a capo
+    o uno spazio doppio in più — non per tollerare invenzioni, solo formattazione."""
+    return re.sub(r"\s+", " ", (text or "")).strip().lower()
+
+
+def quote_is_grounded(quote: str, source_text: str) -> bool:
+    """
+    Verifica MECCANICA (confronto di stringa, non un altro giudizio LLM) che
+    evidence_quote compaia davvero nel testo della fonte. Contro l'allucinazione
+    da riassunto: un LLM (specie i modelli piccoli della catena gratuita) può
+    scrivere una citazione plausibile che nella pagina non c'è mai stata — il
+    campo "confidence" del modello stesso non lo becca, perché il modello non
+    sa di aver inventato. Questo controllo sì: se la frase non è nel testo,
+    punto, non passa. Quote vuota = non grounded (niente da verificare non è
+    una prova). Non risolve tutto: se la FONTE stessa è sbagliata (un giornale
+    che scrive un dato falso), il match sulla citazione non lo cattura — quello
+    resta un problema di affidabilità della fonte, non di allucinazione
+    dell'estrattore, ed è per cui il tier primary/secondary esiste già.
+    """
+    q = _normalize_for_match(quote)
+    if not q:
+        return False
+    return q in _normalize_for_match(source_text)
+
+
+def ground_observations(observations: list, source_text: str) -> tuple:
+    """
+    Filtra le osservazioni la cui evidence_quote non è verificabile nel testo
+    letto. Ritorna (osservazioni_ammesse, scartate_per_quote_non_trovata).
+    Va chiamato con lo stesso source_text passato all'estrazione — se cambia
+    (es. testo troncato ai FREE_MAX_CHARS per i provider gratuiti) il confronto
+    resta valido perché la citazione, se vera, sta nella porzione che il
+    modello ha davvero letto.
+    """
+    kept, dropped = [], 0
+    for o in observations:
+        if quote_is_grounded(o.get("evidence_quote", ""), source_text):
+            kept.append(o)
+        else:
+            dropped += 1
+    return kept, dropped
 
 
 def _is_quota_error(exc: Exception) -> bool:
@@ -255,6 +300,16 @@ class OB1Extractor:
 
         I provider gratuiti ricevono il testo ridotto a FREE_MAX_CHARS (tetto
         token/minuto dei free tier); Gemini, quando lo si usa, riceve max_chars.
+
+        Prima di tornare, ogni osservazione passa da ground_observations():
+        se evidence_quote non è verificabile nel testo letto, è scartata, non
+        solo segnalata. Contro l'allucinazione da riassunto (specie sui
+        modelli piccoli della catena gratuita) — non basta che il gate a valle
+        richieda 2 fonti se entrambe possono essere invenzioni plausibili.
+        source_text qui è il testo INTEGRO passato alla funzione: i provider
+        vedono un prefisso troncato (max_chars/FREE_MAX_CHARS), ma un prefisso
+        è comunque contenuto nel testo integro, quindi il confronto resta
+        corretto anche per le chiamate troncate.
         """
         if not source_text:
             return []
@@ -268,7 +323,13 @@ class OB1Extractor:
         for attempt in order:
             obs = attempt(source_text, source_url, max_chars)
             if obs is not None:
-                return obs
+                kept, dropped = ground_observations(obs, source_text)
+                if dropped:
+                    self.stats["quote_not_grounded"] += dropped
+                    logger.warning(
+                        f"{dropped} osservazione/i scartata/e (evidence_quote non "
+                        f"trovata nel testo) su {source_url}")
+                return kept
 
         self.stats["failed"] += 1
         return None  # nessun provider disponibile: NON marcare visto, ritenta
@@ -293,10 +354,15 @@ if __name__ == "__main__":
         e._dead_free, e.stats = set(), Counter()
         return e
 
+    # evidence_quote = "testo" apposta: è una sottostringa sia di "testo della
+    # fonte" sia di "testo", i due source_text usati più sotto — così il
+    # controllo di grounding la trova sempre, e il test resta sul
+    # comportamento della catena provider, non un falso negativo del
+    # controllo anti-allucinazione appena aggiunto.
     called = []
     globals()["call_free_chain"] = lambda providers, system, prompt, dead=None, **k: (
-        called.append("free") or ('[{"name": "Kauan Ribeiro", "club": "Athletico", "age": 17}]',
-                                  providers[0]["label"]))
+        called.append("free") or ('[{"name": "Kauan Ribeiro", "club": "Athletico", "age": 17, '
+                                  '"evidence_quote": "testo"}]', providers[0]["label"]))
     OB1Extractor._call_gemini = lambda self, prompt: called.append("gemini") or "[]"
 
     for mode, expected_first in (("free_first", "free"), ("free_only", "free"),
@@ -326,6 +392,25 @@ if __name__ == "__main__":
     # Senza chiavi free e senza Gemini non si finge di poter lavorare
     ex = _extractor("free_first", [], with_gemini=False)
     assert not ex.available() and not ex.llm_usable()
+
+    # --- anti-allucinazione: la citazione deve stare davvero nel testo ---
+    fonte = "Il baby fenomeno Kauan Ribeiro ha segnato una doppietta ieri sera."
+    assert quote_is_grounded("baby fenomeno Kauan Ribeiro", fonte)
+    assert quote_is_grounded("BABY FENOMENO   Kauan Ribeiro", fonte), \
+        "maiuscole/spazi doppi non devono far fallire un match vero"
+    assert not quote_is_grounded("Kauan Ribeiro ha rifiutato il Real Madrid", fonte), \
+        "una frase mai scritta nella fonte non deve passare solo perché plausibile"
+    assert not quote_is_grounded("", fonte), "quote vuota = niente da verificare, non grounded"
+
+    obs_miste = [
+        {"name": "Vero", "evidence_quote": "baby fenomeno Kauan Ribeiro"},
+        {"name": "Inventato", "evidence_quote": "ha rifiutato un'offerta dal Real Madrid"},
+        {"name": "SenzaCitazione", "evidence_quote": ""},
+    ]
+    tenute, scartate = ground_observations(obs_miste, fonte)
+    assert [o["name"] for o in tenute] == ["Vero"], tenute
+    assert scartate == 2, scartate
+    print(f"OK ground_observations: {len(tenute)}/3 tenute, {scartate} scartate per quote non trovata")
 
     print(f"\nmodalità con l'ambiente attuale: {resolve_llm_mode()}")
     chain = resolve_free_providers()
