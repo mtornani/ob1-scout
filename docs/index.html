@@ -47,6 +47,8 @@
 
   .stats{display:flex;margin-top:18px;border:1px solid var(--line);
     border-radius:12px;background:var(--surface);overflow:hidden}
+  .ver{margin-top:7px;font-size:10.5px;color:var(--faint);text-align:right;
+    font-family:var(--mono)}
   .stat{flex:1;padding:12px 14px}
   .stat + .stat{border-left:1px solid var(--line-soft)}
   .stat .n{font-family:var(--mono);font-size:19px;font-weight:600}
@@ -143,6 +145,7 @@
     <div class="stat"><div class="n" id="st-trk">–</div><div class="l" data-i18n="stats.tracking">In tracking</div></div>
     <div class="stat"><div class="n" id="st-upd">–</div><div class="l" data-i18n="stats.updated">Aggiornato</div></div>
   </div>
+  <div class="ver" id="ver" hidden></div>
 </header>
 
 <main id="app"><div class="empty" data-i18n="loading">Caricamento…</div></main>
@@ -185,7 +188,7 @@
   </details>
 </section>
 
-<footer id="foot" hidden><span data-i18n="footer.main">OB1 Scout · v2 · discovery da fonti curate, pubblicazione solo con ≥2 fonti</span><span id="foot-build"></span></footer>
+<footer id="foot" hidden><span data-i18n="footer.main">OB1 Scout · v2 · discovery da fonti curate, pubblicazione solo con ≥2 fonti</span></footer>
 
 <script src="js/tracker.js" data-track-url="https://orange-truth-2304.mirkotornani.workers.dev"></script>
 <script>
@@ -271,7 +274,9 @@ if (IS_EN) {
   document.getElementById('stats').hidden = false;
   document.getElementById('foot').hidden = false;
   if (data.version && data.build) {
-    document.getElementById('foot-build').textContent = ` · v${data.version} · ${data.build}`;
+    const ver = document.getElementById('ver');
+    ver.textContent = `v${data.version} · ${data.build}`;
+    ver.hidden = false;
   }
 
   const players = data.players || [];
