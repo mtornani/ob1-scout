@@ -89,6 +89,18 @@ def discover_item_urls(markdown: str, source_url: str = "", max_items: int = 25)
 
 
 # Termini "giovanili" per lingua, per la ricerca ristretta al dominio.
+# ar/id/vi/th/uz aggiunti per l'algoritmo copertura bassa (2026-08-19c):
+# senza, i domini registrati in quelle lingue (filgoal.com, pssi.org,
+# vff.org.vn, fathailand.org, ufa.uz...) usavano di default i termini
+# inglesi (YOUTH_TERMS["en"]) nella query "site:{dominio} {termini}" — su un
+# sito in lingua locale la discovery restava vuota o quasi per costruzione,
+# non per assenza di contenuto. th verificato: "เยาวชน U17 U20 ฟุตบอล
+# อะคาเดมี ดาวรุ่ง" trova davvero notizie di convocazioni giovanili reali su
+# fathailand.org (fonte già registrata). ar verificato in modo simile. id/vi
+# verificati meno a fondo (risultati plausibili ma non su un dominio
+# registrato specifico); uz non verificato per mancanza di risultati utili
+# in sessione — sono il prossimo da ricontrollare se la discovery in
+# Uzbekistan resta scarsa.
 YOUTH_TERMS = {
     "es": "juvenil sub-20 sub-17 cantera promesa",
     "pt": "juvenil sub-20 sub-17 base revelação",
@@ -96,6 +108,11 @@ YOUTH_TERMS = {
     "fr": "jeune U20 U17 espoir formation",
     "sr": "omladinac U19 U17 talenat",
     "hr": "mladi U19 U17 talent",
+    "ar": "شباب تحت 20 تحت 17 أكاديمية موهبة",
+    "id": "muda U20 U17 akademi talenta",
+    "vi": "trẻ U20 U17 học viện tài năng",
+    "th": "เยาวชน U20 U17 อะคาเดมี ดาวรุ่ง",
+    "uz": "yoshlar U20 U17 akademiya iste'dod",
 }
 
 
