@@ -49,6 +49,9 @@
     border-radius:12px;background:var(--surface);overflow:hidden}
   .ver{margin-top:7px;font-size:10.5px;color:var(--faint);text-align:right;
     font-family:var(--mono)}
+  .region-filter{margin-top:11px;width:100%;padding:9px 11px;border-radius:10px;
+    border:1px solid var(--line);background:var(--surface);color:var(--ink);
+    font-family:var(--sans);font-size:13px;-webkit-appearance:none;appearance:none}
   .stat{flex:1;padding:12px 14px}
   .stat + .stat{border-left:1px solid var(--line-soft)}
   .stat .n{font-family:var(--mono);font-size:19px;font-weight:600}
@@ -146,6 +149,7 @@
     <div class="stat"><div class="n" id="st-upd">–</div><div class="l" data-i18n="stats.updated">Aggiornato</div></div>
   </div>
   <div class="ver" id="ver" hidden></div>
+  <select class="region-filter" id="regionFilter" hidden></select>
 </header>
 
 <main id="app"><div class="empty" data-i18n="loading">Caricamento…</div></main>
@@ -346,27 +350,57 @@ if (IS_EN) {
     </div>`;
   }
 
-  const pub = players.filter(p => p.publishable);
-  const trk = players.filter(p => !p.publishable);
-  let html = '';
-  if (pub.length) {
-    html += `<div class="sec"><h2>${IS_EN ? t('section.featured') : 'In evidenza'}</h2><div class="rule"></div></div>`;
-    html += pub.map((p, i) => card(p, i, '')).join('');
-  } else {
-    html += `<div class="empty">${IS_EN ? t('empty.none_verified') : 'Nessun profilo verificato in questo giro.<br>Servono ≥2 fonti indipendenti e identità completa.'}</div>`;
-  }
-  if (trk.length) {
-    html += `<div class="sec"><h2>${IS_EN ? t('section.tracking') : 'Da corroborare'}</h2><div class="rule"></div></div>`;
-    html += trk.map((p, i) => card(p, i, ' muted')).join('');
-    const extra = data.tracking_capped || 0;
-    if (extra > 0) {
-      const extraMsg = IS_EN
-        ? `+${extra} more in tracking (not shown — priority to the strongest).`
-        : `+${extra} altri in tracking (non mostrati — priorità ai più forti).`;
-      html += `<div class="empty" style="padding:12px 10px">${extraMsg}</div>`;
+  // Filtro per regione: prima non esisteva, e con 191 giocatori in tracking
+  // mostrandone solo 15 fissi (tetto tolto lato export, vedi
+  // export_dashboard_v2.py) nomi veri restavano introvabili — un partner
+  // chiedeva "avete copertura in Africa?" e la risposta in dashboard era "1
+  // solo nome", quando in realtà erano 17. Il filtro non nasconde nulla per
+  // regione scelta: il tetto (DEFAULT_TRACK_PREVIEW) si applica solo alla
+  // vista "tutte le regioni", per restare leggeri di default.
+  const DEFAULT_TRACK_PREVIEW = 20;
+  const regionSel = document.getElementById('regionFilter');
+  const regions = [...new Set(players.map(p => p.region).filter(Boolean))].sort();
+  const allLabel = IS_EN ? 'All regions' : 'Tutte le regioni';
+  regionSel.innerHTML = `<option value="">${allLabel}</option>` +
+    regions.map(r => `<option value="${esc(r)}">${esc(r)}</option>`).join('');
+  regionSel.hidden = false;
+
+  function renderList() {
+    const region = regionSel.value;
+    const filtered = region ? players.filter(p => p.region === region) : players;
+    const pub = filtered.filter(p => p.publishable);
+    let trk = filtered.filter(p => !p.publishable);
+    let hiddenCount = 0;
+    if (!region && trk.length > DEFAULT_TRACK_PREVIEW) {
+      hiddenCount = trk.length - DEFAULT_TRACK_PREVIEW;
+      trk = trk.slice(0, DEFAULT_TRACK_PREVIEW);
     }
+
+    let html = '';
+    if (pub.length) {
+      html += `<div class="sec"><h2>${IS_EN ? t('section.featured') : 'In evidenza'}</h2><div class="rule"></div></div>`;
+      html += pub.map((p, i) => card(p, i, '')).join('');
+    } else if (!trk.length) {
+      html += `<div class="empty">${IS_EN ? t('empty.none_verified') : 'Nessun profilo verificato in questo giro.<br>Servono ≥2 fonti indipendenti e identità completa.'}</div>`;
+    }
+    if (trk.length) {
+      html += `<div class="sec"><h2>${IS_EN ? t('section.tracking') : 'Da corroborare'}</h2><div class="rule"></div></div>`;
+      html += trk.map((p, i) => card(p, i, ' muted')).join('');
+      if (hiddenCount > 0) {
+        const extraMsg = IS_EN
+          ? `+${hiddenCount} more in tracking — filter by region above to find them.`
+          : `+${hiddenCount} altri in tracking — usa il filtro per regione qui sopra per trovarli.`;
+        html += `<div class="empty" style="padding:12px 10px">${extraMsg}</div>`;
+      }
+    }
+    if (!pub.length && !trk.length) {
+      html = `<div class="empty">${IS_EN ? 'No profile in this region yet.' : 'Nessun profilo ancora per questa regione.'}</div>`;
+    }
+    app.innerHTML = html;
   }
-  app.innerHTML = html;
+
+  regionSel.addEventListener('change', renderList);
+  renderList();
 })();
 
 if ('serviceWorker' in navigator) {

@@ -246,11 +246,15 @@ def export(db_path: Path, out_path: Path) -> dict:
     conn.close()
 
     players.sort(key=lambda x: (not x["publishable"], -x["score"]))
-    # Shortlist pubblica: tutti i verificati + top tracking (resto resta in DB)
     pub = [x for x in players if x["publishable"]]
     trk = sorted([x for x in players if not x["publishable"]], key=_tracking_rank)
-    TRACK_CAP = 15
-    shown = pub + trk[:TRACK_CAP]
+    # Prima un tetto a 15 nascondeva 176 dei 191 in tracking senza modo di
+    # cercarli — un partner che chiedeva "avete copertura in Africa?" non
+    # trovava i 16 nomi che c'erano davvero, ne usciva 1 solo (misurato
+    # 2026-08-19: 17 giocatori in region africane, 1 solo publishable).
+    # La dashboard ora ha un filtro per regione (docs/index.html), quindi il
+    # tetto non serve più a "stare leggeri": tutti sono esportati, filtrabili.
+    shown = pub + trk
     try:
         from src.database_v2 import OB1DatabaseV2
         outcomes = OB1DatabaseV2(str(db_path)).outcomes_summary()
@@ -267,7 +271,7 @@ def export(db_path: Path, out_path: Path) -> dict:
         "publishable": len(pub),
         "tracking": len(trk),
         "shown": len(shown),
-        "tracking_capped": max(0, len(trk) - TRACK_CAP),
+        "tracking_capped": 0,  # storico: campo tenuto per compatibilità col client, non tronca più nulla
         "outcomes": outcomes,
         "players": shown,
     }
