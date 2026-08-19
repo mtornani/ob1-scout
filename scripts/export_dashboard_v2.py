@@ -109,6 +109,26 @@ def assess_player(p: dict, evidence_count: int = 1) -> dict:
                       f"Persistent signal: {evidence_count} detections"))
 
     # --- Cautele ---
+    # In cima apposta: è la cautela che cambia lo STANDARD di verifica, non
+    # solo un dettaglio del profilo. "copertura_bassa_sperimentale" vuol dire
+    # che questo nome è pubblicato senza una fonte di stampa primaria — non
+    # perché la trascuriamo, ma perché nella sua regione (Africa subsahariana/
+    # Nord Africa, Asia Sud/Sudest/Centrale, Caraibi, Pacifico) il registro non
+    # ne ha ancora una registrata: la regola normale bocciava per "fonte non
+    # ancora nel registro", non per prova debole. Ogni lettore deve saperlo
+    # prima di leggere il resto della scheda, non scoprirlo dopo.
+    if "copertura_bassa_sperimentale" in flags:
+        cautions.append((
+            "Regione a bassa copertura mediatica: verificato con criteri adattati, senza fonte di stampa primaria — non lo stesso standard degli altri profili",
+            "Low media-coverage region: verified under adapted criteria, without a primary press source — not the same standard as other profiles"))
+    # Caso diverso: qui il gate NON ha ceduto (source_count>=2 ma non
+    # low_coverage), quindi il profilo resta in tracking, non pubblicato — ma
+    # vale comunque dirlo esplicitamente invece di lasciarlo capire dal solo
+    # "non pubblicabile".
+    elif "senza_fonte_primary" in flags:
+        cautions.append((
+            "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
+            "2+ sources but none is a primary press outlet: not enough yet for the standard gate"))
     if n_src < 2:
         cautions.append(("Una sola fonte: non ancora corroborato",
                           "Single source: not yet corroborated"))
@@ -127,6 +147,10 @@ def assess_player(p: dict, evidence_count: int = 1) -> dict:
                           "High-visibility club/league: low asymmetry, competition likely"))
 
     # --- Prossimi passi (azioni da scout, in ordine di blocco) ---
+    if "copertura_bassa_sperimentale" in flags or "senza_fonte_primary" in flags:
+        steps.append((
+            "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
+            "Look for a primary press/federation source to bring it to the full standard"))
     if "nome_singolo" in flags or "handle_o_soprannome" in flags:
         steps.append(("Risolvere l'identità: serve un nome completo verificabile",
                        "Resolve the identity: needs a verifiable full name"))
@@ -305,5 +329,33 @@ def main():
     print(f"Export: {doc['total']} giocatori ({doc['publishable']} pubblicabili) → {args.out}")
 
 
+def _selftest_assess_player():
+    """
+    "Ogni lettore deve sapere che il profilo ha dei pro e dei contro" — non
+    solo un principio, verificato: un profilo pubblicato sotto la deroga
+    copertura-bassa DEVE portare la cautela che lo dice, in entrambe le
+    lingue, prima ancora di parlare del resto. Puro/testabile senza DB.
+    """
+    p_low = {"age": 17, "stats": {}, "breakdown": {}, "n_sources": 2,
+              "publishable": True, "review_flags": "copertura_bassa_sperimentale"}
+    a_low = assess_player(p_low, evidence_count=2)
+    assert any("bassa copertura" in c for c in a_low["cautions"]), a_low
+    assert any("Low media-coverage" in c for c in a_low["cautions_en"]), a_low
+    assert any("fonte di stampa" in s for s in a_low["next_steps"]), a_low
+
+    p_noprimary = {"age": 18, "stats": {}, "breakdown": {}, "n_sources": 2,
+                    "publishable": False, "review_flags": "senza_fonte_primary"}
+    a_noprimary = assess_player(p_noprimary, evidence_count=2)
+    assert any("nessuna di stampa primaria" in c for c in a_noprimary["cautions"]), a_noprimary
+
+    p_standard = {"age": 17, "stats": {"goals": 5}, "breakdown": {}, "n_sources": 3,
+                   "publishable": True, "review_flags": ""}
+    a_standard = assess_player(p_standard, evidence_count=3)
+    assert not any("copertura" in c.lower() for c in a_standard["cautions"]), \
+        "un profilo standard non deve portare una cautela di copertura inesistente"
+    print("OK assess_player: cautela copertura-bassa presente quando serve, assente quando no")
+
+
 if __name__ == "__main__":
+    _selftest_assess_player()
     main()
