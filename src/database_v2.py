@@ -155,6 +155,23 @@ LOW_COVERAGE_REGIONS = frozenset({
     "Myanmar", "Cambodia", "Laos", "Singapore", "Brunei", "Timor-Leste",
     # Asia centrale
     "Uzbekistan", "Kazakhstan", "Kyrgyzstan", "Tajikistan", "Turkmenistan",
+    # America Centrale e Caraibi (CONCACAF, 2026-08-19d — esclusi Stati Uniti,
+    # Canada e Messico: stampa densa, non nel perimetro). Guatemala e Panama
+    # erano già nel registro dalla Fase B2 come "Sud America ispanofono" ma
+    # senza la deroga di gate: aggiunti qui per coerenza, stesso tipo di
+    # mercato dei nuovi vicini caraibici.
+    "Guatemala", "Honduras", "Costa Rica", "Panama", "Nicaragua",
+    "El Salvador", "Belize", "Jamaica", "Haiti", "Trinidad and Tobago",
+    "Bahamas", "Barbados", "Cuba", "Dominican Republic", "Suriname",
+    "Guyana", "Grenada", "Saint Lucia", "Saint Vincent and the Grenadines",
+    "Antigua and Barbuda", "Dominica", "Saint Kitts and Nevis", "Bermuda",
+    "Curacao", "Aruba",
+    # Oceania/Pacifico (OFC, 2026-08-19d — esclusi Australia, in AFC dal 2006
+    # con stampa densa, e Nuova Zelanda, in OFC ma con stampa densa in
+    # inglese: nessuna delle due ha bisogno della deroga).
+    "Fiji", "Vanuatu", "Solomon Islands", "Papua New Guinea", "Tahiti",
+    "New Caledonia", "Samoa", "American Samoa", "Tonga", "Cook Islands",
+    "Tuvalu", "Kiribati",
 })
 
 
@@ -198,6 +215,31 @@ NATIONALITY_TO_REGION = {
     "nigeria": "Nigeria", "nigerian": "Nigeria",
     "ivory coast": "Ivory Coast", "ivorian": "Ivory Coast", "côte d'ivoire": "Ivory Coast",
     "guinea": "Guinea", "guinean": "Guinea",
+    "kazakhstan": "Kazakhstan", "kazakh": "Kazakhstan",
+    # CONCACAF (Caraibi/America Centrale) e OFC (Pacifico), 2026-08-19d:
+    # stesso motivo delle confederazioni CAF/AFC — servono per attribuire
+    # il paese giusto ai giocatori estratti da fonti multi-paese.
+    "guatemala": "Guatemala", "guatemalan": "Guatemala",
+    "panama": "Panama", "panamanian": "Panama",
+    "honduras": "Honduras", "honduran": "Honduras",
+    "costa rica": "Costa Rica", "costa rican": "Costa Rica",
+    "nicaragua": "Nicaragua", "nicaraguan": "Nicaragua",
+    "el salvador": "El Salvador", "salvadoran": "El Salvador",
+    "jamaica": "Jamaica", "jamaican": "Jamaica",
+    "haiti": "Haiti", "haitian": "Haiti",
+    "trinidad and tobago": "Trinidad and Tobago", "trinidadian": "Trinidad and Tobago",
+    "cuba": "Cuba", "cuban": "Cuba",
+    "dominican republic": "Dominican Republic", "dominican": "Dominican Republic",
+    "suriname": "Suriname", "surinamese": "Suriname",
+    "guyana": "Guyana", "guyanese": "Guyana",
+    "fiji": "Fiji", "fijian": "Fiji",
+    "vanuatu": "Vanuatu", "ni-vanuatu": "Vanuatu",
+    "solomon islands": "Solomon Islands", "solomon islander": "Solomon Islands",
+    "papua new guinea": "Papua New Guinea", "papua new guinean": "Papua New Guinea",
+    "tahiti": "Tahiti", "tahitian": "Tahiti",
+    "new caledonia": "New Caledonia", "new caledonian": "New Caledonia",
+    "samoa": "Samoa", "samoan": "Samoa",
+    "tonga": "Tonga", "tongan": "Tonga",
 }
 
 
@@ -864,6 +906,20 @@ if __name__ == "__main__":
     assert region_from_nationality(None) == ""
     assert region_from_nationality("") == ""
     print("OK region_from_nationality: gentilizio -> paese per fonti multi-paese")
+
+    # 2026-08-19d: CONCACAF (Caraibi/America Centrale) e OFC (Pacifico) nel
+    # perimetro; Australia/Nuova Zelanda restano FUORI apposta (stampa
+    # densa in inglese, non serve allentare il gate per loro anche se
+    # tecnicamente nella stessa confederazione di paesi che ce l'hanno).
+    assert is_low_coverage_region("Haiti")
+    assert is_low_coverage_region("Fiji")
+    assert is_low_coverage_region("Kazakhstan")
+    assert not is_low_coverage_region("Australia")
+    assert not is_low_coverage_region("New Zealand")
+    assert region_from_nationality("Haitian") == "Haiti"
+    assert region_from_nationality("Fijian") == "Fiji"
+    assert region_from_nationality("Kazakh") == "Kazakhstan"
+    print("OK perimetro esteso: CONCACAF/OFC dentro, Australia/Nuova Zelanda fuori")
 
     db = _db
     print(f"Schema v2 inizializzato: {db.db_path}")
