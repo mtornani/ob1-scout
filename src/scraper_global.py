@@ -37,6 +37,19 @@ class AsyncGlobalScraper:
         self.searxng_instances = SEARXNG_INSTANCES
         self.timeout = aiohttp.ClientTimeout(total=TIMEOUT_SECONDS)
         self._ddg_semaphore = None
+        # Diagnostica ricerca (19/20 ago 2026): un run con 20 tentativi di
+        # corroborazione + discovery su 83 fonti, zero risultati ovunque —
+        # ma _fetch_duckduckgo() inghiottiva l'eccezione in logger.debug(),
+        # invisibile nei log CI (nessun basicConfig a livello DEBUG in
+        # produzione). "nessun risultato genuino" e "DuckDuckGo blocca l'IP
+        # del runner GitHub" finivano nella stessa statistica "not found" —
+        # indistinguibili. Questi contatori li separano: si leggono da
+        # ingest_v2.py a fine run e finiscono nelle stats stampate, stesso
+        # posto dove si legge tutto il resto.
+        self.ddg_failures = 0
+        self.ddg_empty = 0
+        self.last_ddg_error = None
+        self.searxng_failures = 0
 
     @property
     def ddg_semaphore(self) -> asyncio.Semaphore:
@@ -50,8 +63,12 @@ class AsyncGlobalScraper:
             with DDGS() as ddgs:
                 results = list(ddgs.text(query, max_results=max_results))
             logger.debug(f"[DDG] {len(results)} results for: {query}")
+            if not results:
+                self.ddg_empty += 1
             return results
         except Exception as e:
+            self.ddg_failures += 1
+            self.last_ddg_error = f"{type(e).__name__}: {e}"
             logger.debug(f"[DDG] Failed: {e}")
             return []
 
@@ -87,6 +104,11 @@ class AsyncGlobalScraper:
                     if isinstance(res_list, list) and res_list:
                         raw = res_list
                         break
+                else:
+                    # DDG vuoto E nessuna istanza SearXNG ha risposto con
+                    # qualcosa: entrambi i canali di ricerca hanno fallito su
+                    # questa query, non solo "nessun risultato pertinente".
+                    self.searxng_failures += 1
 
         seen_urls: set = set()
         results = []

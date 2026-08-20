@@ -244,11 +244,24 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
     stats["llm_calls"] = calls_used
     for provider, n in extractor.stats.items():
         stats[f"via_{provider}"] = n
+    # Diagnostica ricerca (19/20 ago 2026): prima "nessun risultato" e
+    # "DuckDuckGo/SearXNG hanno fallito la chiamata" finivano nella stessa
+    # statistica corr_not_found, indistinguibili. Questi contatori vengono
+    # da AsyncGlobalScraper (src/scraper_global.py) e dicono se il motore di
+    # ricerca stesso ha un problema, invece di lasciarlo indovinare.
+    if scraper.ddg_failures:
+        stats["search_ddg_failures"] = scraper.ddg_failures
+    if scraper.ddg_empty:
+        stats["search_ddg_empty"] = scraper.ddg_empty
+    if scraper.searxng_failures:
+        stats["search_searxng_failures"] = scraper.searxng_failures
 
     print("=== INGEST v2 ===")
     print(f"budget LLM: {llm_budget} · usate: {calls_used}")
     for k, v in stats.most_common():
         print(f"  {k}: {v}")
+    if scraper.last_ddg_error:
+        print(f"  ultimo errore DDG: {scraper.last_ddg_error}")
     print(f"DB: {db.db_path}")
 
 
