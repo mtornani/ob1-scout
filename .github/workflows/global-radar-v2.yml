@@ -24,10 +24,14 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        # v7 (non v5): tolti gli avvisi "Node 20 is being deprecated..." che
+        # comparivano in OGNI log di stanotte — v5 gira ancora su Node 20,
+        # forzato su Node 24 dal runner. Verificato sulla pagina release vera
+        # (github.com/actions/checkout e /setup-python), non a memoria.
+        uses: actions/setup-python@v7
         with:
           python-version: '3.12'
 
