@@ -1,8 +1,17 @@
 #!/usr/bin/env python3
 """
 OB1 Global Scout - Scraper
-DuckDuckGo primary + Jina Reader deep reads. No paid API keys required.
-SearXNG as fallback.
+Ricerca web (via libreria ddgs, multi-motore) + Jina Reader per il testo
+integrale. Nessuna chiave API a pagamento richiesta. SearXNG come fallback.
+
+DuckDuckGo ESCLUSO dai motori usati (20 ago 2026): diagnosticato un run di
+produzione con fallimento totale della ricerca (5/5 chiamate, "DDGSException:
+No results found"). La libreria ddgs, lasciata al default backend="auto",
+prova 9 motori (incluse Wikipedia/Grokipedia — enciclopediche, scelta
+semanticamente sbagliata per queste query — SEMPRE messe in testa alla lista
+da ddgs stesso in modalità "auto") e a rotazione anche DuckDuckGo/Yandex, che
+in questo periodo falliscono o vanno in timeout dall'infrastruttura CI usata
+(runner GitHub Actions). Vedi WEB_SEARCH_BACKENDS sotto.
 """
 
 # ============================================================
@@ -31,6 +40,19 @@ logger = logging.getLogger(__name__)
 
 JINA_BASE = "https://r.jina.ai/"
 
+# Motori espliciti per ddgs.text(), invece del default backend="auto".
+# "auto" prova 9 motori per la categoria "text" e mette SEMPRE Wikipedia e
+# Grokipedia in testa alla lista (codice ddgs: keys = ["wikipedia",
+# "grokipedia"] + resto) — enciclopediche, non pensate per query tipo
+# 'site:dominio "giovanile" 2026' o '"Nome Cognome" transfermarkt". Esclusi
+# anche duckduckgo (diagnosticato rotto sui runner GitHub il 19/20 ago 2026:
+# vedi commento del modulo) e yandex (timeout osservato in test). Brave per
+# primo: unico motore che ha risposto in un test dal vivo quella notte.
+# Non è garanzia che regga per sempre — se torna a fallire, i contatori
+# ddg_failures/ddg_empty/last_ddg_error (sotto) lo dicono nei log del
+# prossimo run, non serve indovinare di nuovo.
+WEB_SEARCH_BACKENDS = "brave,google,mojeek,startpage,yahoo"
+
 
 class AsyncGlobalScraper:
     def __init__(self):
@@ -58,18 +80,22 @@ class AsyncGlobalScraper:
         return self._ddg_semaphore
 
     def _fetch_duckduckgo(self, query: str, max_results: int = 5) -> list:
-        """DuckDuckGo search. Sync — called via asyncio.to_thread."""
+        """Ricerca web multi-motore via ddgs (WEB_SEARCH_BACKENDS, non
+        DuckDuckGo — vedi commento del modulo). Nome del metodo invariato per
+        non toccare la chiamata sotto; il motore usato non è più DDG.
+        Sincrono — chiamato via asyncio.to_thread."""
         try:
             with DDGS() as ddgs:
-                results = list(ddgs.text(query, max_results=max_results))
-            logger.debug(f"[DDG] {len(results)} results for: {query}")
+                results = list(ddgs.text(query, max_results=max_results,
+                                          backend=WEB_SEARCH_BACKENDS))
+            logger.debug(f"[web-search] {len(results)} results for: {query}")
             if not results:
                 self.ddg_empty += 1
             return results
         except Exception as e:
             self.ddg_failures += 1
             self.last_ddg_error = f"{type(e).__name__}: {e}"
-            logger.debug(f"[DDG] Failed: {e}")
+            logger.debug(f"[web-search] Failed: {e}")
             return []
 
     async def _fetch_searxng(self, session: aiohttp.ClientSession, query: str, instance: str) -> list:
