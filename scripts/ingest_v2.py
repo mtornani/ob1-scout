@@ -83,6 +83,25 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
     # Evita di ritentare gli stessi pid se _corroborate gira 2× (pre + post discovery).
     attempted_pids: set[int] = set()
 
+    # Tetto sui TENTATIVI di ricerca (non sulle chiamate LLM riuscite): trovato
+    # il 19/20 ago 2026 su un run reale da 56 minuti con llm_calls: 0 — il
+    # ciclo sotto scorre fino a 100 candidati (players_to_corroborate default),
+    # e l'unico freno esistente era calls_used >= budget, che NON si
+    # incrementa mai su una ricerca fallita (find_profile -> None). Se le
+    # ricerche falliscono e basta (mercato poco coperto, o il motore di
+    # ricerca ha un problema suo), il ciclo non aveva un limite reale: provava
+    # tutti e 100, una ricerca di rete alla volta, senza mai arrivare alla
+    # discovery. search_attempts conta OGNI tentativo (trovato o no),
+    # condiviso tra le due chiamate a _corroborate() nello stesso run (pre e
+    # post discovery) così il tetto vale sul totale, non per singola chiamata.
+    # ~30s/tentativo osservato quella notte: 20 tentativi ≈ 10 minuti nel
+    # caso peggiore, lascia comunque spazio alla discovery nel resto del run.
+    try:
+        max_search_attempts = max(1, int(os.getenv("CORR_MAX_SEARCH_ATTEMPTS", "20")))
+    except (ValueError, TypeError):
+        max_search_attempts = 20
+    search_attempts = 0
+
     async def _pace():
         nonlocal calls_used
         if call_delay and calls_used < llm_budget and extractor.llm_usable():
@@ -90,7 +109,7 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
 
     async def _corroborate(call_cap: int):
         """Cerca seconda fonte per profili a 1 fonte. call_cap = max calls_used assoluto."""
-        nonlocal calls_used
+        nonlocal calls_used, search_attempts
         from src.corroborate_v2 import find_profile, observation_fits_target
         for row in db.players_to_corroborate():
             pid, name = row["id"], row["name"]
@@ -102,8 +121,12 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
             if not extractor.llm_usable():
                 stats["corr_skipped_exhausted"] += 1
                 break
+            if search_attempts >= max_search_attempts:
+                stats["corr_skipped_search_cap"] += 1
+                break
             attempted_pids.add(pid)
             age, club = row.get("age"), row.get("club")
+            search_attempts += 1
             prof = await find_profile(scraper, name, exclude_domains=db.player_domains(pid))
             if not prof:
                 stats["corr_not_found"] += 1
