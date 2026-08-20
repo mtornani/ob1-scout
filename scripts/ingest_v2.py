@@ -34,6 +34,44 @@ from src.extractor_v2 import OB1Extractor
 from src.scraper_global import AsyncGlobalScraper
 
 
+def _health_check(stats, calls_used: int, llm_budget: int, scraper) -> list:
+    """
+    Segnali di run degradato — soglie dichiarate qui, non un giudizio a
+    naso. Puro/testabile: legge solo stats+contatori già calcolati, non
+    fa rete. Ritorna una lista di problemi (stringhe), vuota se il run
+    sembra sano. Non blocca nulla — decide solo se mandare l'alert.
+    """
+    problems = []
+    # Zero chiamate LLM riuscite con budget disponibile: il segnale più
+    # affidabile che qualcosa è rotto, a prescindere da QUALE pezzo
+    # (modello deprecato, rate limit, ricerca morta — tutti e tre successi
+    # in sequenza la notte del 19/20 ago 2026, tutti con questa firma).
+    if calls_used == 0 and llm_budget > 0:
+        problems.append(f"0 chiamate LLM riuscite su budget {llm_budget}")
+
+    # Ricerca degradata E nessuna estrazione: il sospetto è il livello di
+    # ricerca (Jina/ddgs/SearXNG), non l'estrattore.
+    search_touched = bool(scraper.jina_failures or scraper.ddg_failures
+                          or scraper.searxng_failures)
+    if search_touched and calls_used == 0:
+        problems.append(
+            f"ricerca web degradata (jina_failures={scraper.jina_failures}, "
+            f"ddgs_failures={scraper.ddg_failures}, "
+            f"searxng_failures={scraper.searxng_failures}) e nessuna "
+            f"estrazione riuscita")
+
+    # Estrazioni fallite in modo consistente senza un solo successo da
+    # nessun provider: il sospetto è la catena LLM (modello deprecato,
+    # come llama-3.3-70b-versatile il 17 giugno 2026), non la ricerca.
+    had_provider_success = any(k.startswith("via_") and k != "via_failed" for k in stats)
+    if stats.get("extract_failed", 0) >= 3 and not had_provider_success:
+        problems.append(
+            f"{stats['extract_failed']} estrazioni fallite, nessun provider "
+            f"LLM riuscito (catena gratuita probabilmente rotta)")
+
+    return problems
+
+
 async def run(limit_sources=None, max_articles=6, llm_budget=None):
     db = OB1DatabaseV2()
     scraper = AsyncGlobalScraper()
@@ -260,6 +298,36 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
     if scraper.searxng_failures:
         stats["search_searxng_failures"] = scraper.searxng_failures
 
+    # --- Controllo di salute + alert Telegram (20 ago 2026) ---
+    # Nato dalla notte del 19/20 ago: il modello Groq era morto da almeno
+    # 4 ore prima che qualcuno lo scoprisse controllando i log a mano — il
+    # workflow segnava "success" lo stesso, perché extract_from_source()
+    # ritorna None sui fallimenti invece di sollevare (corretto: permette il
+    # retry al giro dopo). Va bene per un run singolo degradato, male se
+    # nessuno se ne accorge per giorni. Vive nella pipeline (gira ogni 6h da
+    # solo), non in una sessione Claude che scade — un controllo legato a
+    # questa sessione morirebbe con lei entro 7 giorni al massimo.
+    problems = _health_check(stats, calls_used, llm_budget, scraper)
+    if problems:
+        token = os.getenv("TELEGRAM_BOT_TOKEN", "")
+        chat_id = os.getenv("TELEGRAM_CHAT_ID", "")
+        if token and chat_id:
+            import requests
+            lines = [f"<b>⚠️ OB1 SCOUT v2 — run degradato</b>  {datetime.now().strftime('%d/%m %H:%M')}", ""]
+            lines.extend(f"• {p}" for p in problems)
+            lines.append("")
+            lines.append(f"budget LLM: {llm_budget} · usate: {calls_used}")
+            try:
+                requests.post(
+                    f"https://api.telegram.org/bot{token}/sendMessage",
+                    json={"chat_id": chat_id, "text": "\n".join(lines),
+                          "parse_mode": "HTML"}, timeout=10)
+                stats["health_alert_sent"] = len(problems)
+            except Exception as e:
+                print(f"Alert di salute fallito (non bloccante): {e}")
+        else:
+            stats["health_alert_skipped_no_config"] = len(problems)
+
     print("=== INGEST v2 ===")
     print(f"budget LLM: {llm_budget} · usate: {calls_used}")
     print(f"ricerca: {'Jina Search (primaria)' if scraper.jina_api_key else 'ddgs (Jina non configurata)'}")
@@ -282,5 +350,47 @@ def main():
     asyncio.run(run(args.limit_sources, args.max_articles, args.llm_budget))
 
 
+class _FakeScraper:
+    """Stand-in minimo per testare _health_check() senza rete/DB."""
+    def __init__(self, jina=0, ddg=0, searxng=0):
+        self.jina_failures, self.ddg_failures, self.searxng_failures = jina, ddg, searxng
+
+
+def _selftest_health_check():
+    """
+    Il controllo che ha lo scopo di svegliarci se il run degrada — verificato
+    che DAVVERO si accenda sui tre casi visti la notte del 19/20 ago 2026
+    (modello morto, ricerca morta, estrazioni fallite senza successi) e
+    resti zitto su un run sano. Puro, nessuna rete/DB.
+    """
+    # Caso sano: chiamate riuscite, nessun problema.
+    healthy = Counter({"via_groq": 1})
+    assert _health_check(healthy, calls_used=1, llm_budget=15,
+                         scraper=_FakeScraper()) == []
+
+    # Caso 1: zero chiamate riuscite con budget disponibile (il sintomo
+    # comune a tutti e tre gli incidenti di quella notte).
+    problems = _health_check(Counter(), calls_used=0, llm_budget=15,
+                             scraper=_FakeScraper())
+    assert any("0 chiamate LLM riuscite" in p for p in problems), problems
+
+    # Caso 2: ricerca degradata + zero chiamate -> il sospetto è la ricerca.
+    problems = _health_check(Counter(), calls_used=0, llm_budget=15,
+                             scraper=_FakeScraper(jina=7, ddg=1, searxng=1))
+    assert any("ricerca web degradata" in p for p in problems), problems
+
+    # Caso 3: estrazioni fallite senza un solo provider riuscito -> il
+    # sospetto è la catena LLM, non la ricerca.
+    problems = _health_check(Counter({"extract_failed": 5}), calls_used=0,
+                             llm_budget=15, scraper=_FakeScraper())
+    assert any("nessun provider" in p for p in problems), problems
+
+    # Budget 0 (run disattivato apposta): 0 chiamate non è un problema.
+    assert _health_check(Counter(), calls_used=0, llm_budget=0,
+                         scraper=_FakeScraper()) == []
+    print("OK _health_check: si accende sui 3 incidenti reali, tace su un run sano")
+
+
 if __name__ == "__main__":
+    _selftest_health_check()
     main()
