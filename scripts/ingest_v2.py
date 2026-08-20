@@ -249,6 +249,10 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
     # statistica corr_not_found, indistinguibili. Questi contatori vengono
     # da AsyncGlobalScraper (src/scraper_global.py) e dicono se il motore di
     # ricerca stesso ha un problema, invece di lasciarlo indovinare.
+    if scraper.jina_failures:
+        stats["search_jina_failures"] = scraper.jina_failures
+    if scraper.jina_empty:
+        stats["search_jina_empty"] = scraper.jina_empty
     if scraper.ddg_failures:
         stats["search_ddg_failures"] = scraper.ddg_failures
     if scraper.ddg_empty:
@@ -258,10 +262,13 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
 
     print("=== INGEST v2 ===")
     print(f"budget LLM: {llm_budget} · usate: {calls_used}")
+    print(f"ricerca: {'Jina Search (primaria)' if scraper.jina_api_key else 'ddgs (Jina non configurata)'}")
     for k, v in stats.most_common():
         print(f"  {k}: {v}")
+    if scraper.last_jina_error:
+        print(f"  ultimo errore Jina Search: {scraper.last_jina_error}")
     if scraper.last_ddg_error:
-        print(f"  ultimo errore DDG: {scraper.last_ddg_error}")
+        print(f"  ultimo errore ricerca web (ddgs): {scraper.last_ddg_error}")
     print(f"DB: {db.db_path}")
 
 

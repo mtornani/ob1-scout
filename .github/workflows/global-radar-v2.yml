@@ -61,6 +61,11 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          # Jina Search (20 ago 2026), fonte di ricerca primaria — vedi
+          # src/scraper_global.py. Se il secret manca, il codice ripiega su
+          # ddgs senza errore (stesso pattern "chiave assente = niente
+          # provider" degli altri, non un fallimento).
+          JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           INGEST_LLM_BUDGET: ${{ github.event.inputs.llm_budget || '15' }}

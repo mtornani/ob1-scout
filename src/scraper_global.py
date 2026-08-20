@@ -1,17 +1,23 @@
 #!/usr/bin/env python3
 """
 OB1 Global Scout - Scraper
-Ricerca web (via libreria ddgs, multi-motore) + Jina Reader per il testo
-integrale. Nessuna chiave API a pagamento richiesta. SearXNG come fallback.
+Ricerca: Jina Search (s.jina.ai) primaria se JINA_API_KEY è impostata, poi
+libreria ddgs (multi-motore) come ripiego, poi SearXNG. Jina Reader
+(r.jina.ai) per il testo integrale degli articoli — invariato, sempre
+gratuito e senza chiave.
 
-DuckDuckGo ESCLUSO dai motori usati (20 ago 2026): diagnosticato un run di
-produzione con fallimento totale della ricerca (5/5 chiamate, "DDGSException:
-No results found"). La libreria ddgs, lasciata al default backend="auto",
-prova 9 motori (incluse Wikipedia/Grokipedia — enciclopediche, scelta
-semanticamente sbagliata per queste query — SEMPRE messe in testa alla lista
-da ddgs stesso in modalità "auto") e a rotazione anche DuckDuckGo/Yandex, che
-in questo periodo falliscono o vanno in timeout dall'infrastruttura CI usata
-(runner GitHub Actions). Vedi WEB_SEARCH_BACKENDS sotto.
+Storia del cambio ricerca (19-20 ago 2026): diagnosticato un run di
+produzione con fallimento totale della ricerca via ddgs (5/5 chiamate,
+"DDGSException: No results found"). La libreria ddgs, lasciata al default
+backend="auto", prova 9 motori (incluse Wikipedia/Grokipedia — scelta
+semanticamente sbagliata per query come 'site:dominio "giovanile" 2026',
+SEMPRE messe in testa alla lista da ddgs in modalità "auto") e falliva o
+andava in timeout su più motori dall'infrastruttura CI usata (runner
+GitHub Actions). Aggiunto Jina Search come fonte primaria: stesso
+fornitore già usato per il reader, verificato dal vivo (200 su entrambe le
+query di test, contenuto pertinente e già estratto per intero — non solo
+uno snippet). ddgs (WEB_SEARCH_BACKENDS, DuckDuckGo escluso) resta come
+ripiego se Jina non ha una chiave configurata o fallisce.
 """
 
 # ============================================================
@@ -28,6 +34,7 @@ in questo periodo falliscono o vanno in timeout dall'infrastruttura CI usata
 import asyncio
 import aiohttp
 import logging
+import os
 from pathlib import Path
 from datetime import datetime
 
@@ -39,6 +46,13 @@ LOG_DIR.mkdir(parents=True, exist_ok=True)
 logger = logging.getLogger(__name__)
 
 JINA_BASE = "https://r.jina.ai/"
+JINA_SEARCH_BASE = "https://s.jina.ai/"
+# Tetto al testo per risultato: Jina Search restituisce il contenuto della
+# pagina già estratto (non solo uno snippet come ddgs) — comodo, ma senza
+# un tetto un singolo risultato può gonfiare parecchio la lista che poi va
+# a valle. Stesso ordine di grandezza degli altri tetti testo del progetto
+# (FREE_MAX_CHARS=2800, deep_read_urls=1500).
+JINA_SEARCH_CONTENT_CHARS = 2000
 
 # Motori espliciti per ddgs.text(), invece del default backend="auto".
 # "auto" prova 9 motori per la categoria "text" e mette SEMPRE Wikipedia e
@@ -72,12 +86,56 @@ class AsyncGlobalScraper:
         self.ddg_empty = 0
         self.last_ddg_error = None
         self.searxng_failures = 0
+        # Jina Search (20 ago 2026): fonte di ricerca primaria se c'è una
+        # chiave. Nessuna chiave = ripiega su ddgs senza errore — stesso
+        # pattern "chiave assente non è un fallimento" degli altri provider
+        # LLM del progetto (src/llm_free_chain.py).
+        self.jina_api_key = os.getenv("JINA_API_KEY", "")
+        self.jina_failures = 0
+        self.jina_empty = 0
+        self.last_jina_error = None
 
     @property
     def ddg_semaphore(self) -> asyncio.Semaphore:
         if self._ddg_semaphore is None:
             self._ddg_semaphore = asyncio.Semaphore(1)
         return self._ddg_semaphore
+
+    async def _fetch_jina_search(self, session: aiohttp.ClientSession, query: str,
+                                 max_results: int = 5) -> list:
+        """
+        Jina Search (s.jina.ai): stesso fornitore del reader già in uso.
+        Verificato dal vivo il 20 ago 2026 su due query reali di questa
+        pipeline ('"Nome Cognome" transfermarkt' e 'site:dominio "giovanile"
+        2026'): 200 su entrambe, risultati pertinenti, content già estratto
+        per intero. Ritorna [] su qualunque problema (chiave assente,
+        errore, timeout) — mai un'eccezione che risalga a search_query().
+        """
+        if not self.jina_api_key:
+            return []
+        headers = {"Authorization": f"Bearer {self.jina_api_key}",
+                  "Accept": "application/json"}
+        params = {"q": query, "num": max_results}
+        try:
+            async with session.get(JINA_SEARCH_BASE, headers=headers, params=params,
+                                   timeout=aiohttp.ClientTimeout(total=25)) as resp:
+                if resp.status != 200:
+                    self.jina_failures += 1
+                    self.last_jina_error = f"HTTP {resp.status}"
+                    logger.debug(f"[Jina Search] HTTP {resp.status} for: {query}")
+                    return []
+                payload = await resp.json(content_type=None)
+        except Exception as e:
+            self.jina_failures += 1
+            self.last_jina_error = f"{type(e).__name__}: {e}"
+            logger.debug(f"[Jina Search] Failed: {e}")
+            return []
+
+        data = payload.get("data") or []
+        if not data:
+            self.jina_empty += 1
+        logger.debug(f"[Jina Search] {len(data)} results for: {query}")
+        return data
 
     def _fetch_duckduckgo(self, query: str, max_results: int = 5) -> list:
         """Ricerca web multi-motore via ddgs (WEB_SEARCH_BACKENDS, non
@@ -116,10 +174,16 @@ class AsyncGlobalScraper:
             return []
 
     async def search_query(self, query: str) -> list:
-        """DuckDuckGo primary, SearXNG fallback."""
-        async with self.ddg_semaphore:
-            raw = await asyncio.to_thread(self._fetch_duckduckgo, query)
-            await asyncio.sleep(1.0)
+        """Jina Search primaria (se c'è chiave), poi ddgs multi-motore, poi SearXNG."""
+        raw = []
+        if self.jina_api_key:
+            async with aiohttp.ClientSession() as session:
+                raw = await self._fetch_jina_search(session, query)
+
+        if not raw:
+            async with self.ddg_semaphore:
+                raw = await asyncio.to_thread(self._fetch_duckduckgo, query)
+                await asyncio.sleep(1.0)
 
         if not raw:
             async with aiohttp.ClientSession() as session:
@@ -143,9 +207,14 @@ class AsyncGlobalScraper:
             if not url or url in seen_urls:
                 continue
             seen_urls.add(url)
+            content = r.get('body') or r.get('content') or r.get('snippet', '')
             results.append({
                 'title': r.get('title', ''),
-                'content': r.get('body') or r.get('content') or r.get('snippet', ''),
+                # Jina Search dà il testo pieno della pagina, non uno snippet
+                # come ddgs/SearXNG — tetto a JINA_SEARCH_CONTENT_CHARS per
+                # non gonfiare la lista senza motivo (i risultati ddgs sono
+                # già corti di loro, il taglio qui non li tocca).
+                'content': content[:JINA_SEARCH_CONTENT_CHARS] if content else content,
                 'url': url,
                 'timestamp': datetime.now().isoformat()
             })
