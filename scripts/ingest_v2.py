@@ -181,6 +181,11 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
             age, club = row.get("age"), row.get("club")
             search_attempts += 1
             prof = await find_profile(scraper, name, exclude_domains=db.player_domains(pid))
+            # Sempre, trovato o no: è la memoria che players_to_corroborate()
+            # usa per il cooldown — un fallimento è informazione quanto un
+            # successo (non ripescare subito lo stesso candidato appena
+            # provato, vedi commento in database_v2.py).
+            db.record_corr_attempt(pid)
             if not prof:
                 stats["corr_not_found"] += 1
                 continue

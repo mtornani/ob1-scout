@@ -16,9 +16,11 @@ Schema:
 """
 
 import json
+import os
 import sqlite3
 import sys
 import unicodedata
+from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -372,16 +374,24 @@ class OB1DatabaseV2:
                     notified INTEGER DEFAULT 0,
                     legacy_id INTEGER,
                     created_at TEXT,
-                    coverage_tier TEXT DEFAULT 'standard'
+                    coverage_tier TEXT DEFAULT 'standard',
+                    corr_attempts INTEGER DEFAULT 0,
+                    last_corr_attempt_at TEXT
                 )
             """)
             # Migrazione leggera per DB v2 creati prima delle colonne notified
-            # e coverage_tier (algoritmo "copertura bassa", 2026-08-19b).
+            # e coverage_tier (algoritmo "copertura bassa", 2026-08-19b), poi
+            # corr_attempts/last_corr_attempt_at (memoria dei tentativi di
+            # corroborazione, 2026-08-21 — vedi players_to_corroborate).
             cols = {row[1] for row in c.execute("PRAGMA table_info(players)")}
             if "notified" not in cols:
                 c.execute("ALTER TABLE players ADD COLUMN notified INTEGER DEFAULT 0")
             if "coverage_tier" not in cols:
                 c.execute("ALTER TABLE players ADD COLUMN coverage_tier TEXT DEFAULT 'standard'")
+            if "corr_attempts" not in cols:
+                c.execute("ALTER TABLE players ADD COLUMN corr_attempts INTEGER DEFAULT 0")
+            if "last_corr_attempt_at" not in cols:
+                c.execute("ALTER TABLE players ADD COLUMN last_corr_attempt_at TEXT")
             c.execute("""
                 CREATE TABLE IF NOT EXISTS evidences (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -717,25 +727,63 @@ class OB1DatabaseV2:
                 "SELECT DISTINCT source_domain FROM evidences WHERE player_id=? AND source_domain!=''",
                 (pid,))}
 
-    def players_to_corroborate(self, limit: int = 100) -> list:
+    def players_to_corroborate(self, limit: int = 100,
+                               cooldown_hours: int = None) -> list:
         """
         Dict {id, name, age, club} dei giocatori con nome completo ma < 2 fonti.
-        Priorità: identity_complete (un passo dal gate) → score alto → recenti.
-        Filtro nsrc + LIMIT in SQL (niente full-scan in Python).
+
+        Trovato il 21 ago 2026 confrontando la coda reale (133 candidati) col
+        tetto per run (CORR_MAX_SEARCH_ATTEMPTS=20, scripts/ingest_v2.py):
+        l'ordinamento precedente (identity_complete → score → last_seen) è
+        STABILE da un run all'altro finché nulla cambia per quei giocatori —
+        quindi ogni ciclo di 6h ripescava e ri-cercava GLI STESSI ~20 in
+        cima, mentre gli altri ~113 non venivano mai nemmeno tentati una
+        prima volta. Nessun 422/timeout di ricerca c'entra: è la coda stessa
+        a non avere memoria di cosa è già stato provato.
+
+        Fix: escludere chi ha un tentativo recente (cooldown, default 24h —
+        un candidato fallito oggi non vale la pena riprovarlo al prossimo
+        ciclo di 6h, ma nemmeno aspettare giorni se la ricerca torna a
+        funzionare) e mettere PRIMA chi non è mai stato tentato, poi chi
+        aspetta da più tempo — solo a parità di quello, identity_complete e
+        score restano gli spareggi. Così la coda intera viene attraversata
+        nel tempo invece di ripetere sempre la stessa testa.
         """
+        if cooldown_hours is None:
+            cooldown_hours = int(os.getenv("CORR_COOLDOWN_HOURS", "24"))
         with self._conn() as conn:
-            rows = conn.execute("""
+            rows = conn.execute(f"""
                 SELECT p.id, p.canonical_name, p.age, p.club
                 FROM players p
                 WHERE p.name_token_count >= 2
                   AND (SELECT COUNT(DISTINCT e.source_domain) FROM evidences e
                        WHERE e.player_id = p.id AND e.source_domain != '') < 2
-                ORDER BY p.identity_complete DESC,
+                  AND (p.last_corr_attempt_at IS NULL
+                       OR julianday('now') - julianday(p.last_corr_attempt_at)
+                          >= ? / 24.0)
+                ORDER BY (p.last_corr_attempt_at IS NOT NULL),
+                         p.last_corr_attempt_at ASC,
+                         p.identity_complete DESC,
                          COALESCE(p.score, 0) DESC,
                          p.last_seen DESC
                 LIMIT ?
-            """, (limit,)).fetchall()
+            """, (cooldown_hours, limit)).fetchall()
         return [{"id": r[0], "name": r[1], "age": r[2], "club": r[3]} for r in rows]
+
+    def record_corr_attempt(self, player_id: int) -> None:
+        """
+        Segna che questo giocatore è stato appena tentato in corroborazione
+        (trovato o no — anche un tentativo fallito è memoria utile: evita di
+        ripeterlo subito). Chiamata da _corroborate() in ingest_v2.py dopo
+        OGNI find_profile(), a prescindere dall'esito.
+        """
+        with self._conn() as conn:
+            conn.execute("""
+                UPDATE players
+                SET corr_attempts = COALESCE(corr_attempts, 0) + 1,
+                    last_corr_attempt_at = ?
+                WHERE id = ?
+            """, (datetime.now().isoformat(), player_id))
 
 
 if __name__ == "__main__":
@@ -920,6 +968,65 @@ if __name__ == "__main__":
     assert region_from_nationality("Fijian") == "Fiji"
     assert region_from_nationality("Kazakh") == "Kazakhstan"
     print("OK perimetro esteso: CONCACAF/OFC dentro, Australia/Nuova Zelanda fuori")
+
+    # Memoria dei tentativi di corroborazione (2026-08-21): trovato con la
+    # coda reale a 133 candidati e un tetto di 20 tentativi/run — senza
+    # questo, i primi ~20 per identity_complete/score/last_seen restano
+    # SEMPRE gli stessi da un run all'altro, gli altri ~113 non vengono mai
+    # nemmeno provati una prima volta. Verificato qui con scenari minimi,
+    # non solo assunto.
+    with _tempfile.TemporaryDirectory() as _tmp4:
+        _cq_db = OB1DatabaseV2(str(Path(_tmp4) / "test_corr_queue.db"))
+        # Nomi senza token in comune tra loro: se condividono una parola
+        # (successo di prima stesura: tutti e tre avevano "Tried") il
+        # matcher di identità li fonde in UNA persona sola, e il test perde
+        # senso senza avvisare (i tre pid tornavano tutti uguali).
+        pid_never, _ = _cq_db.ingest_observation({
+            "name": "Amara Diallo Test", "club": "Club A", "age": 17,
+            "source_url": "https://sofascore.com/player/amara-diallo-test",
+            "observed_at": "2026-03-01T00:00:00",
+        })
+        pid_recent, _ = _cq_db.ingest_observation({
+            "name": "Baptiste Rousseau Test", "club": "Club B", "age": 17,
+            "source_url": "https://sofascore.com/player/baptiste-rousseau-test",
+            "observed_at": "2026-03-01T00:00:00",
+        })
+        pid_stale, _ = _cq_db.ingest_observation({
+            "name": "Camila Duarte Test", "club": "Club C", "age": 17,
+            "source_url": "https://sofascore.com/player/camila-duarte-test",
+            "observed_at": "2026-03-01T00:00:00",
+        })
+        assert len({pid_never, pid_recent, pid_stale}) == 3, \
+            "i tre giocatori di test si sono fusi in uno: nomi non abbastanza distinti"
+        # pid_recent: tentato 1 ora fa -> dentro il cooldown di 24h, escluso.
+        # pid_stale: tentato 48 ore fa -> fuori cooldown, rientra in coda.
+        with _cq_db._conn() as _c:
+            _c.execute("UPDATE players SET last_corr_attempt_at = "
+                       "datetime('now', '-1 hours') WHERE id = ?", (pid_recent,))
+            _c.execute("UPDATE players SET last_corr_attempt_at = "
+                       "datetime('now', '-48 hours') WHERE id = ?", (pid_stale,))
+
+        queue = [r["id"] for r in _cq_db.players_to_corroborate(cooldown_hours=24)]
+        assert pid_recent not in queue, \
+            "tentato 1h fa (cooldown 24h): non deve rientrare subito"
+        assert pid_never in queue and pid_stale in queue, \
+            f"mai tentato e tentato-da-tempo devono essere in coda: {queue}"
+        # Mai tentato prima di chi ha già un tentativo (anche vecchio): dare
+        # priorità a chi non è mai stato nemmeno guardato una volta.
+        assert queue.index(pid_never) < queue.index(pid_stale), \
+            f"mai tentato deve venire prima di tentato-da-tempo: {queue}"
+
+        # record_corr_attempt: un tentativo (trovato o no) aggiorna la
+        # memoria e lo fa sparire dalla coda fino al prossimo cooldown.
+        _cq_db.record_corr_attempt(pid_never)
+        row = _cq_db._conn().execute(
+            "SELECT corr_attempts, last_corr_attempt_at FROM players "
+            "WHERE id=?", (pid_never,)).fetchone()
+        assert row[0] == 1 and row[1], f"record_corr_attempt non ha scritto: {row}"
+        queue_after = [r["id"] for r in _cq_db.players_to_corroborate(cooldown_hours=24)]
+        assert pid_never not in queue_after, \
+            "appena tentato: deve uscire dalla coda fino al prossimo cooldown"
+    print("OK memoria corroborazione: cooldown + priorità a chi non è mai stato tentato")
 
     db = _db
     print(f"Schema v2 inizializzato: {db.db_path}")
