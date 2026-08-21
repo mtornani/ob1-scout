@@ -43,7 +43,7 @@ GROQ_MAX_CHARS = FREE_MAX_CHARS
 
 EXTRACTION_SYSTEM = """Sei un estrattore di dati calcistici. Leggi il testo di UNA fonte
 ed estrai OGNI giovane calciatore/calciatrice citato come soggetto (non allenatori,
-dirigenti, o giocatori nominati solo di sfuggita).
+dirigenti, arbitri/direttori di gara, o giocatori nominati solo di sfuggita).
 
 NON dare punteggi, NON giudicare se è un talento: estrai solo ciò che il testo dice.
 Se un dato non è nel testo, usa null — NON inventare. Meglio null che un valore inventato."""
