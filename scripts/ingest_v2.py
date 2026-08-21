@@ -348,8 +348,17 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
     print(f"ricerca: {'Jina Search (primaria)' if scraper.jina_api_key else 'ddgs (Jina non configurata)'}")
     for k, v in stats.most_common():
         print(f"  {k}: {v}")
+    if scraper.jina_status_counts:
+        # Distribuzione dei codici HTTP visti nel run, non solo l'ultimo —
+        # un solo "ultimo errore" nasconde se il 422 è sistematico o raro
+        # rispetto a un timeout capitato per caso a fine run.
+        counts = ", ".join(f"{code}×{n}" for code, n in
+                            scraper.jina_status_counts.most_common())
+        print(f"  distribuzione errori HTTP Jina Search: {counts}")
+    if scraper.last_jina_http_error:
+        print(f"  ultimo errore HTTP Jina Search (con body): {scraper.last_jina_http_error}")
     if scraper.last_jina_error:
-        print(f"  ultimo errore Jina Search: {scraper.last_jina_error}")
+        print(f"  ultimo errore Jina Search (qualsiasi): {scraper.last_jina_error}")
     if scraper.last_ddg_error:
         print(f"  ultimo errore ricerca web (ddgs): {scraper.last_ddg_error}")
     print(f"DB: {db.db_path}")

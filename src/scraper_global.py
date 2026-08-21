@@ -35,6 +35,7 @@ import asyncio
 import aiohttp
 import logging
 import os
+from collections import Counter
 from pathlib import Path
 from datetime import datetime
 
@@ -94,6 +95,16 @@ class AsyncGlobalScraper:
         self.jina_failures = 0
         self.jina_empty = 0
         self.last_jina_error = None
+        # Trovato il 21 ago 2026: un run con più tipi di fallimento diversi
+        # (422 http E timeout di rete) lascia in last_jina_error SOLO
+        # l'ultimo evento del run — quello diagnosticamente prezioso (il
+        # body di un 422) sparisce se dopo arriva anche un solo timeout.
+        # jina_status_counts conta OGNI codice HTTP visto nel run (non solo
+        # l'ultimo); last_jina_http_error tiene il body del PIÙ RECENTE
+        # fallimento con status HTTP, mai sovrascritto da un'eccezione di
+        # rete (le due categorie sono cause diverse, non vanno confuse).
+        self.jina_status_counts = Counter()
+        self.last_jina_http_error = None
 
     @property
     def ddg_semaphore(self) -> asyncio.Semaphore:
@@ -121,6 +132,7 @@ class AsyncGlobalScraper:
                                    timeout=aiohttp.ClientTimeout(total=25)) as resp:
                 if resp.status != 200:
                     self.jina_failures += 1
+                    self.jina_status_counts[resp.status] += 1
                     # Solo il codice HTTP, senza query né corpo della risposta,
                     # non bastava a diagnosticare NULLA: run dopo run "HTTP
                     # 422" e basta, stesso bug già trovato in _fetch_duckduckgo
@@ -131,14 +143,18 @@ class AsyncGlobalScraper:
                         body = (await resp.text())[:200]
                     except Exception:
                         body = "(corpo non leggibile)"
-                    self.last_jina_error = (
-                        f"HTTP {resp.status} · query: {query[:100]!r} · "
-                        f"body: {body}")
+                    msg = (f"HTTP {resp.status} · query: {query[:100]!r} · "
+                           f"body: {body}")
+                    self.last_jina_error = msg
+                    self.last_jina_http_error = msg
                     logger.debug(f"[Jina Search] HTTP {resp.status} for: {query}")
                     return []
                 payload = await resp.json(content_type=None)
         except Exception as e:
             self.jina_failures += 1
+            # SOLO last_jina_error, non last_jina_http_error: un timeout di
+            # rete non deve cancellare il body di un 422 visto prima nello
+            # stesso run — sono due cause diverse (vedi commento in __init__).
             self.last_jina_error = f"{type(e).__name__}: {e} · query: {query[:100]!r}"
             logger.debug(f"[Jina Search] Failed: {e}")
             return []
