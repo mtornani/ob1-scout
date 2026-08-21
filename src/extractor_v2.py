@@ -28,8 +28,8 @@ from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from src.llm_free_chain import (FREE_MAX_CHARS, call_free_chain, is_quota_error,
-                                resolve_free_providers, resolve_llm_mode)
+from src.llm_free_chain import (FREE_MAX_CHARS, FREE_MAX_OUTPUT_TOKENS, call_free_chain,
+                                is_quota_error, resolve_free_providers, resolve_llm_mode)
 
 logger = logging.getLogger(__name__)
 
@@ -267,7 +267,8 @@ class OB1Extractor:
         free_chars = min(max_chars, FREE_MAX_CHARS)
         text, label = call_free_chain(
             self.free_providers, EXTRACTION_SYSTEM,
-            self._prompt(source_text, source_url, free_chars), dead=self._dead_free)
+            self._prompt(source_text, source_url, free_chars), dead=self._dead_free,
+            max_tokens=FREE_MAX_OUTPUT_TOKENS)
         if text is None:
             return None
         self.stats[label] += 1
