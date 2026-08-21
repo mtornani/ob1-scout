@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-21T06:04:08.961512+00:00",
+ "generated_at": "2026-08-21T07:35:25.465999+00:00",
  "version": "1.0.0",
- "build": "2d21504",
- "total": 250,
+ "build": "6856204",
+ "total": 252,
  "publishable": 57,
- "tracking": 193,
- "shown": 250,
+ "tracking": 195,
+ "shown": 252,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -5127,6 +5127,63 @@
    }
   },
   {
+   "name": "Demian Dominguez",
+   "age": 20,
+   "position": "Defensa Lateral Izquierdo",
+   "club": "Defensa y Justicia",
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 5,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/defensa-y-justicia/hcbh",
+     "seen": "2026-08-21T07:24:39.977541"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-21T07:24:39.977541",
+   "last_seen": "2026-08-21T07:24:39.977541",
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Leonel Canzoniero",
    "age": 26,
    "position": "Defensa Central",
@@ -5163,6 +5220,63 @@
    "coverage_tier": "standard",
    "first_detected": null,
    "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Ezequiel Burdín",
+   "age": 21,
+   "position": "Defensa Central",
+   "club": "Defensa y Justicia",
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/defensa-y-justicia/hcbh",
+     "seen": "2026-08-21T07:24:39.977541"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-21T07:24:39.977541",
+   "last_seen": "2026-08-21T07:24:39.977541",
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -14714,6 +14828,84 @@
    }
   },
   {
+   "name": "Samu",
+   "age": 17,
+   "position": "Defensa Central",
+   "club": "Atlético Nacional",
+   "league": null,
+   "region": "Spain",
+   "gender": "male",
+   "score": 21,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 3,
+    "detection_count": 8
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "tiktok.com",
+     "url": "https://www.tiktok.com/@bolanatrave.2.0/video/7641373248290098448",
+     "seen": "2026-07-11T13:18:59.344151"
+    },
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    },
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/defensa-y-justicia/hcbh",
+     "seen": "2026-08-21T07:24:39.977541"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "nome_singolo",
+   "coverage_tier": "standard",
+   "first_detected": "2026-07-11T13:18:59.344151",
+   "last_seen": "2026-08-21T07:24:39.977541",
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 3 fonti indipendenti",
+     "Segnale persistente: 8 rilevamenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Identità debole: nome incompleto o soprannome"
+    ],
+    "next_steps": [
+     "Risolvere l'identità: serve un nome completo verificabile",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 3 independent sources",
+     "Persistent signal: 8 detections"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Weak identity: incomplete name or nickname"
+    ],
+    "next_steps_en": [
+     "Resolve the identity: needs a verifiable full name",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Felipe",
    "age": 16,
    "position": "Attacker",
@@ -14848,79 +15040,6 @@
      "Minor context: potentially underpriced",
      "Identity confirmed by 2 independent sources",
      "Persistent signal: 6 detections"
-    ],
-    "cautions_en": [
-     "No documented performance stats",
-     "Weak identity: incomplete name or nickname"
-    ],
-    "next_steps_en": [
-     "Resolve the identity: needs a verifiable full name",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Samu",
-   "age": 17,
-   "position": null,
-   "club": "Atlético Nacional",
-   "league": null,
-   "region": "Spain",
-   "gender": "male",
-   "score": 17,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 2,
-    "detection_count": 7
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "tiktok.com",
-     "url": "https://www.tiktok.com/@bolanatrave.2.0/video/7641373248290098448",
-     "seen": "2026-07-11T13:18:59.344151"
-    },
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
-     "seen": "2026-07-16T19:42:31.108991"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "nome_singolo",
-   "coverage_tier": "standard",
-   "first_detected": "2026-07-11T13:18:59.344151",
-   "last_seen": "2026-07-11T13:18:59.344151",
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti",
-     "Segnale persistente: 7 rilevamenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Identità debole: nome incompleto o soprannome"
-    ],
-    "next_steps": [
-     "Risolvere l'identità: serve un nome completo verificabile",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Very young (17 yo): plenty of room to develop",
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources",
-     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
