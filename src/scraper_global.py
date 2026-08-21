@@ -121,13 +121,25 @@ class AsyncGlobalScraper:
                                    timeout=aiohttp.ClientTimeout(total=25)) as resp:
                 if resp.status != 200:
                     self.jina_failures += 1
-                    self.last_jina_error = f"HTTP {resp.status}"
+                    # Solo il codice HTTP, senza query né corpo della risposta,
+                    # non bastava a diagnosticare NULLA: run dopo run "HTTP
+                    # 422" e basta, stesso bug già trovato in _fetch_duckduckgo
+                    # (errore vero solo in logger.debug, invisibile in CI).
+                    # Un 422 di solito porta il motivo nel body JSON — lo si
+                    # legge qui, non lo si scarta.
+                    try:
+                        body = (await resp.text())[:200]
+                    except Exception:
+                        body = "(corpo non leggibile)"
+                    self.last_jina_error = (
+                        f"HTTP {resp.status} · query: {query[:100]!r} · "
+                        f"body: {body}")
                     logger.debug(f"[Jina Search] HTTP {resp.status} for: {query}")
                     return []
                 payload = await resp.json(content_type=None)
         except Exception as e:
             self.jina_failures += 1
-            self.last_jina_error = f"{type(e).__name__}: {e}"
+            self.last_jina_error = f"{type(e).__name__}: {e} · query: {query[:100]!r}"
             logger.debug(f"[Jina Search] Failed: {e}")
             return []
 
