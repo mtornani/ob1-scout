@@ -69,6 +69,21 @@ def _health_check(stats, calls_used: int, llm_budget: int, scraper) -> list:
             f"{stats['extract_failed']} estrazioni fallite, nessun provider "
             f"LLM riuscito (catena gratuita probabilmente rotta)")
 
+    # Catena esaurita a metà run con quasi nessuna chiamata passata: il caso
+    # che i primi tre controlli non vedono, perché calls_used non è zero.
+    # Trovato il 21 ago 2026 su 4 run consecutivi (07:24→02:09 UTC, 18h):
+    # ogni run faceva 1 sola chiamata su budget 15, poi "quota/rate limit
+    # esaurita → escluso dal run" per il resto del ciclo — 247/56 giocatori
+    # invariati per tutta la notte, "success" a livello workflow. Soglia:
+    # non "1 è sospetto in sé", ma "la catena si è dichiarata morta avendo
+    # usato meno di 1/5 del budget disponibile".
+    stall_threshold = max(2, llm_budget // 5)
+    if stats.get("llm_exhausted_stop", 0) > 0 and 0 < calls_used <= stall_threshold:
+        problems.append(
+            f"catena LLM esaurita dopo sole {calls_used} chiamate su budget "
+            f"{llm_budget} (soglia stallo: {stall_threshold}) — verificare "
+            f"max_tokens/pacing vs il tier del provider gratuito attivo")
+
     return problems
 
 
@@ -388,7 +403,21 @@ def _selftest_health_check():
     # Budget 0 (run disattivato apposta): 0 chiamate non è un problema.
     assert _health_check(Counter(), calls_used=0, llm_budget=0,
                          scraper=_FakeScraper()) == []
-    print("OK _health_check: si accende sui 3 incidenti reali, tace su un run sano")
+
+    # Caso 4 (21 ago 2026): catena esaurita dopo 1 sola chiamata su budget
+    # 15 — il pattern reale visto per 4 run di fila, invisibile ai casi 1-3
+    # perché calls_used non è zero.
+    problems = _health_check(Counter({"via_groq": 1, "llm_exhausted_stop": 1}),
+                             calls_used=1, llm_budget=15, scraper=_FakeScraper())
+    assert any("catena LLM esaurita dopo" in p for p in problems), problems
+
+    # Un run che usa gran parte del budget e POI esaurisce la catena non è
+    # uno stallo: ha comunque prodotto lavoro reale.
+    healthy_tail = Counter({"via_groq": 12, "llm_exhausted_stop": 1})
+    assert _health_check(healthy_tail, calls_used=12, llm_budget=15,
+                         scraper=_FakeScraper()) == []
+
+    print("OK _health_check: si accende sui 4 incidenti reali, tace su un run sano")
 
 
 if __name__ == "__main__":

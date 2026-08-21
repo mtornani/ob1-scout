@@ -54,9 +54,24 @@ _DURATION = re.compile(r"(\d+(?:\.\d+)?)\s*(ms|s|m|h)(?![A-Za-z])", re.I)
 _UNIT_SECONDS = {"ms": 0.001, "s": 1.0, "m": 60.0, "h": 3600.0}
 
 # Tetto di input per i provider gratuiti: i free tier limitano i token al
-# minuto (Groq ~12k TPM) e una richiesta troppo grande torna 413 o 429.
-# ~2800 char ≈ 2.2k token. Gemini, quando lo si usa, riceve il testo pieno.
+# minuto (Groq 8k TPM dal 19 ago 2026, non più 12k) e una richiesta troppo
+# grande torna 413 o 429. ~2800 char ≈ 2.2k token. Gemini, quando lo si usa,
+# riceve il testo pieno.
 FREE_MAX_CHARS = int(os.getenv("FREE_MAX_CHARS", "2800"))
+
+# Tetto di OUTPUT per i provider gratuiti. Trovato il 21 ago 2026 leggendo i
+# log di 4 run consecutivi (07:24/13:28/19:11/21-02:09 UTC): ogni run fa UNA
+# chiamata Groq riuscita, poi "rate limit... riprovo tra 9.0s" e infine
+# "quota/rate limit esaurita → escluso dal run" — la catena gratuita muore
+# a metà del PRIMO ciclo, con budget 15 e 1 sola chiamata usata, per 4 cicli
+# di fila (~18h, 247/56 giocatori invariati). Causa: call_openai_chat
+# chiedeva max_tokens=8192 di default per OGNI chiamata, mentre il tier
+# free di Groq è 8k TPM totali — una singola richiesta che PRENOTA 8192
+# token di output è già oltre l'intera finestra al minuto, prompt escluso.
+# L'estrazione tipizzata (JSON array di calciatori) non si avvicina a
+# quella taglia: 2048 lascia ampio margine (poche decine di osservazioni)
+# restando ben sotto la finestra insieme ai ~2.2k token di FREE_MAX_CHARS.
+FREE_MAX_OUTPUT_TOKENS = int(os.getenv("FREE_MAX_OUTPUT_TOKENS", "2048"))
 
 # Ordine della catena: prima chi ha il free tier più capiente e affidabile.
 # Ogni voce è (env_chiave, base_url, env_modello, modello_default, label).
