@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-21T02:09:23.333050+00:00",
+ "generated_at": "2026-08-21T05:18:21.366272+00:00",
  "version": "1.0.0",
- "build": "1372cb4",
- "total": 247,
- "publishable": 56,
+ "build": "3755a56",
+ "total": 248,
+ "publishable": 57,
  "tracking": 191,
- "shown": 247,
+ "shown": 248,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -985,6 +985,77 @@
    "coverage_tier": "standard",
    "first_detected": null,
    "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "name": "Cristian David Flórez Palacios",
+   "age": 17,
+   "position": null,
+   "club": "Atl. Nacional",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 17,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/florez-cristian/Gz1V72tH/",
+     "seen": "2026-08-21T05:05:56.438529"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-21T05:05:56.438529",
+   "last_seen": "2026-08-21T05:05:56.438529",
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -4503,70 +4574,6 @@
     "asymmetry": 8.0,
     "n_sources": 1,
     "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
-     "seen": "2026-07-18T08:21:52.280337"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Very young (17 yo): plenty of room to develop",
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Cristian David Flórez Palacios",
-   "age": 17,
-   "position": null,
-   "club": "Atl. Nacional",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 10,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 2
    },
    "n_sources": 1,
    "sources": [
@@ -9038,6 +9045,67 @@
    "coverage_tier": "standard",
    "first_detected": null,
    "last_seen": null,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Óscar González",
+   "age": null,
+   "position": null,
+   "club": "Godoy Cruz",
+   "league": null,
+   "region": "Chile",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "anfp.cl",
+     "url": "https://www.anfp.cl/selecciones/oscar-gonzalez-firma-su-primer-contrato-profesional-en-godoy-cruz-de-argentina/",
+     "seen": "2026-08-21T05:05:56.438529"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-21T05:05:56.438529",
+   "last_seen": "2026-08-21T05:05:56.438529",
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
