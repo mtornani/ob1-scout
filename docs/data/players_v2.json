@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-22T07:20:26.264017+00:00",
+ "generated_at": "2026-08-22T13:18:32.168125+00:00",
  "version": "1.0.0",
- "build": "84c7124",
- "total": 263,
+ "build": "4c101c3",
+ "total": 264,
  "publishable": 60,
- "tracking": 203,
- "shown": 263,
+ "tracking": 204,
+ "shown": 264,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -8532,6 +8532,144 @@
    }
   },
   {
+   "name": "Cheikh Tidiane Thiam",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/actualites/can-u20-le-senegal-bat-la-rdc-2-0-et-rejoint-les-quarts-de-finale/",
+     "seen": "2026-07-26T08:58:15.224553"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/cheikh-tidiane-thiam/profil/spieler/1401772",
+     "seen": "2026-08-22T13:10:03.073566"
+    }
+   ],
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-22T13:10:03.073566",
+   "last_seen": "2026-08-22T13:10:03.073566",
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "name": "Ibrahima Dieng",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/actualites/can-u20-le-senegal-bat-la-rdc-2-0-et-rejoint-les-quarts-de-finale/",
+     "seen": "2026-07-26T08:58:15.224553"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/ibrahima-dieng/profil/spieler/1401866",
+     "seen": "2026-08-22T13:10:03.073566"
+    }
+   ],
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-22T13:10:03.073566",
+   "last_seen": "2026-08-22T13:10:03.073566",
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "name": "Лука Петрић",
    "age": null,
    "position": null,
@@ -9309,6 +9447,143 @@
    }
   },
   {
+   "name": "Jordan Barrera",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 3.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
+     "seen": "2026-08-02T14:09:42.558272"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/jordan-barrera/profil/spieler/1087334",
+     "seen": "2026-08-22T13:10:03.073566"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 1,
+    "apps": 1
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-22T13:10:03.073566",
+   "last_seen": "2026-08-22T13:10:03.073566",
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 assist in 1 presenze",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented output: 1 assists in 1 appearances",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "name": "Mouhamed Wagne",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/can-u17-2026-le-senegal-bat-le-maroc-et-se-qualifie-pour-la-finale/",
+     "seen": "2026-08-02T14:09:42.558272"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/mouhamed-wagne/profil/spieler/1392160",
+     "seen": "2026-08-22T13:10:03.073566"
+    }
+   ],
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-22T13:10:03.073566",
+   "last_seen": "2026-08-22T13:10:03.073566",
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "name": "Éder Smic Valencia Ambuila",
    "age": null,
    "position": null,
@@ -9595,269 +9870,6 @@
      "domain": "thenff.com",
      "url": "https://thenff.com/nigeria-qualify-for-fifa-u20-womens-world-cup-poland-2026/",
      "seen": "2026-07-18T13:58:07.995503"
-    }
-   ],
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "name": "Cheikh Tidiane Thiam",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Senegal",
-   "gender": "male",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 4.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fsfoot.sn",
-     "url": "https://fsfoot.sn/actualites/can-u20-le-senegal-bat-la-rdc-2-0-et-rejoint-les-quarts-de-finale/",
-     "seen": "2026-07-26T08:58:15.224553"
-    }
-   ],
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "name": "Ibrahima Dieng",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Senegal",
-   "gender": "male",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 4.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fsfoot.sn",
-     "url": "https://fsfoot.sn/actualites/can-u20-le-senegal-bat-la-rdc-2-0-et-rejoint-les-quarts-de-finale/",
-     "seen": "2026-07-26T08:58:15.224553"
-    }
-   ],
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "name": "Jordan Barrera",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 3.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
-     "seen": "2026-08-02T14:09:42.558272"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 1,
-    "apps": 1
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 assist in 1 presenze"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 1 assists in 1 appearances"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "name": "Mouhamed Wagne",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Senegal",
-   "gender": "male",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 4.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fsfoot.sn",
-     "url": "https://fsfoot.sn/can-u17-2026-le-senegal-bat-le-maroc-et-se-qualifie-pour-la-finale/",
-     "seen": "2026-08-02T14:09:42.558272"
     }
    ],
    "stats": {
@@ -17122,6 +17134,65 @@
    "coverage_tier": "standard",
    "first_detected": null,
    "last_seen": null,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Risolvere l'identità: serve un nome completo verificabile",
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Resolve the identity: needs a verifiable full name",
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "name": "Danjuma",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Nigeria",
+   "gender": "unknown",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "completesports.com",
+     "url": "https://www.completesports.com/colombia-2024-danjuma-upbeat-as-falconets-intensify-preparations/?srsltid=AfmBOopo9Jju4azyV3EYP7J9xFHti1V4qLifrCkXlJlPRtChkGdMptD0",
+     "seen": "2026-08-22T13:10:03.073566"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "nome_singolo,club_mancante,eta_mancante,fonte_singola",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-22T13:10:03.073566",
+   "last_seen": "2026-08-22T13:10:03.073566",
    "assessment": {
     "pros": [],
     "cautions": [
