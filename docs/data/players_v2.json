@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-22T13:18:32.168125+00:00",
+ "generated_at": "2026-08-22T19:08:06.752736+00:00",
  "version": "1.0.0",
- "build": "4c101c3",
- "total": 264,
+ "build": "c9382f3",
+ "total": 265,
  "publishable": 60,
- "tracking": 204,
- "shown": 264,
+ "tracking": 205,
+ "shown": 265,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -9848,6 +9848,143 @@
    }
   },
   {
+   "name": "Mateo Chávez",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Mexico",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "elmanana.com.mx",
+     "url": "https://elmanana.com.mx/deportes/2026/6/25/mundial-2026-quien-es-mateo-chavez-el-jovencito-con-debut-goleador-que-cumplio-el-sueno-de-su-padre-175202.html",
+     "seen": "2026-07-03T09:18:37.487425"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/mateo-chavez/profil/spieler/1066953",
+     "seen": "2026-08-22T18:59:18.028374"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,senza_fonte_primary",
+   "coverage_tier": "standard",
+   "first_detected": "2026-07-03T09:18:37.487425",
+   "last_seen": "2026-08-22T18:59:18.028374",
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Look for a primary press/federation source to bring it to the full standard",
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "name": "Alvaro Busso",
+   "age": 19,
+   "position": "Arquero",
+   "club": null,
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff",
+     "seen": "2026-07-16T15:34:33.049129"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/alvaro-busso/profil/spieler/1291030",
+     "seen": "2026-08-22T18:59:18.028374"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-22T18:59:18.028374",
+   "last_seen": "2026-08-22T18:59:18.028374",
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Young (19 yo)",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Kindness Ifeanyi",
    "age": null,
    "position": null,
@@ -9914,87 +10051,33 @@
    }
   },
   {
-   "name": "Mateo Chávez",
+   "name": "Arthur Maron",
    "age": null,
    "position": null,
    "club": null,
    "league": null,
-   "region": "Mexico",
-   "gender": "unknown",
-   "score": 3,
-   "confidence": 0.45,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.63,
    "breakdown": {
     "youth": 6.0,
     "production": 0.0,
     "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
+    "n_sources": 2,
+    "detection_count": 2
    },
-   "n_sources": 1,
+   "n_sources": 2,
    "sources": [
     {
-     "domain": "elmanana.com.mx",
-     "url": "https://elmanana.com.mx/deportes/2026/6/25/mundial-2026-quien-es-mateo-chavez-el-jovencito-con-debut-goleador-que-cumplio-el-sueno-de-su-padre-175202.html",
-     "seen": "2026-07-03T09:18:37.487425"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": "2026-07-03T09:18:37.487425",
-   "last_seen": "2026-07-03T09:18:37.487425",
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "name": "Alvaro Busso",
-   "age": 19,
-   "position": "Arquero",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
+     "domain": "ge.globo.com",
+     "url": "https://ge.globo.com/futebol/brasileirao-sub-20/",
+     "seen": "2026-08-21T05:49:01.085919"
+    },
     {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff",
-     "seen": "2026-07-16T15:34:33.049129"
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/arthur-maron/profil/spieler/1501945",
+     "seen": "2026-08-22T18:59:18.028374"
     }
    ],
    "stats": {
@@ -10005,35 +10088,99 @@
    },
    "publishable": false,
    "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola",
+   "review_flags": "club_mancante,eta_mancante",
    "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
+   "first_detected": "2026-08-21T05:49:01.085919",
+   "last_seen": "2026-08-22T18:59:18.028374",
    "assessment": {
     "pros": [
-     "Giovane (19 anni)"
+     "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Diego Aguado",
+   "age": 19,
+   "position": "Defensa Central",
+   "club": null,
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb",
+     "seen": "2026-08-21T13:26:54.585139"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/diego-aguado/profil/spieler/1208520",
+     "seen": "2026-08-22T18:59:18.028374"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-21T13:26:54.585139",
+   "last_seen": "2026-08-22T18:59:18.028374",
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
      "Nessuna statistica di rendimento documentata",
      "Club non identificato"
     ],
     "next_steps": [
      "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
      "Recuperare statistiche di rendimento (referti gara)"
     ],
     "pros_en": [
-     "Young (19 yo)"
+     "Young (19 yo)",
+     "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Single source: not yet corroborated",
      "No documented performance stats",
      "Club not identified"
     ],
     "next_steps_en": [
      "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
    }
@@ -12914,132 +13061,7 @@
    }
   },
   {
-   "name": "Arthur Maron",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Brazil",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "ge.globo.com",
-     "url": "https://ge.globo.com/futebol/brasileirao-sub-20/",
-     "seen": "2026-08-21T05:49:01.085919"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-21T05:49:01.085919",
-   "last_seen": "2026-08-21T05:49:01.085919",
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "name": "Andrés Cuenca",
-   "age": 19,
-   "position": "Defensa Central",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb",
-     "seen": "2026-08-21T13:26:54.585139"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-21T13:26:54.585139",
-   "last_seen": "2026-08-21T13:26:54.585139",
-   "assessment": {
-    "pros": [
-     "Giovane (19 anni)"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Young (19 yo)"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Diego Aguado",
    "age": 19,
    "position": "Defensa Central",
    "club": null,
@@ -13157,6 +13179,65 @@
      "Verify the current club",
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Вук ДРАШ",
+   "age": null,
+   "position": "Goalkeeper",
+   "club": null,
+   "league": null,
+   "region": "Serbia",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fss.rs",
+     "url": "https://fss.rs/u19-selektor-gordan-petric-saopstio-spisak-igraca-za-evropsko-prvenstvo-u-velsu/",
+     "seen": "2026-08-22T18:59:18.028374"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-22T18:59:18.028374",
+   "last_seen": "2026-08-22T18:59:18.028374",
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
