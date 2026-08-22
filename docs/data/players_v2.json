@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-21T19:16:06.587054+00:00",
+ "generated_at": "2026-08-22T02:15:42.121371+00:00",
  "version": "1.0.0",
- "build": "b4c7af4",
+ "build": "4e4fd69",
  "total": 263,
  "publishable": 60,
  "tracking": 203,
@@ -7255,6 +7255,208 @@
    }
   },
   {
+   "name": "Sylvia Echefu",
+   "age": null,
+   "position": "Goalkeeper",
+   "club": "Bayelsa Queens",
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 9,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/morocco-2026-busari-invites-36-to-flamingos-camp-ahead-of-second-round-fixture/",
+     "seen": "2026-07-28T09:18:44.128588"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/sylvia-echefu-3622495",
+     "seen": "2026-08-22T01:58:37.132698"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-22T01:58:37.132698",
+   "last_seen": "2026-08-22T01:58:37.132698",
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Carlos Mario Pérez Cueto",
+   "age": null,
+   "position": null,
+   "club": "Junior F.C",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 9,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
+     "seen": "2026-07-31T04:02:04.097438"
+    },
+    {
+     "domain": "transfermarkt.co.uk",
+     "url": "https://www.transfermarkt.co.uk/carlos-perez/profil/spieler/1377973",
+     "seen": "2026-08-22T01:58:37.132698"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-22T01:58:37.132698",
+   "last_seen": "2026-08-22T01:58:37.132698",
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Cristian Enrique Uribe Caro",
+   "age": null,
+   "position": null,
+   "club": "Atlético Nacional",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 9,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
+     "seen": "2026-07-31T04:02:04.097438"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/uribe-cristian/dErefj3U/",
+     "seen": "2026-08-22T01:58:37.132698"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-22T01:58:37.132698",
+   "last_seen": "2026-08-22T01:58:37.132698",
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Daniel David Socarras Villamil",
    "age": null,
    "position": null,
@@ -8647,67 +8849,6 @@
    }
   },
   {
-   "name": "Sylvia Echefu",
-   "age": null,
-   "position": "Goalkeeper",
-   "club": "Bayelsa Queens",
-   "league": null,
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 6,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/morocco-2026-busari-invites-36-to-flamingos-camp-ahead-of-second-round-fixture/",
-     "seen": "2026-07-28T09:18:44.128588"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "name": "Abidemi Aiyeolowo",
    "age": null,
    "position": "Goalkeeper",
@@ -8834,138 +8975,6 @@
    "age": null,
    "position": null,
    "club": "América De Cali",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
-     "seen": "2026-07-31T04:02:04.097438"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Carlos Mario Pérez Cueto",
-   "age": null,
-   "position": null,
-   "club": "Junior F.C",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
-     "seen": "2026-07-31T04:02:04.097438"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Cristian Enrique Uribe Caro",
-   "age": null,
-   "position": null,
-   "club": "Atlético Nacional",
    "league": null,
    "region": "Colombia",
    "gender": "male",
