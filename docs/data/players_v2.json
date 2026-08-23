@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-23T07:23:20.621122+00:00",
+ "generated_at": "2026-08-23T13:23:54.789160+00:00",
  "version": "1.0.0",
- "build": "8c4ae39",
- "total": 266,
+ "build": "d18c4e0",
+ "total": 271,
  "publishable": 61,
- "tracking": 205,
- "shown": 266,
+ "tracking": 210,
+ "shown": 271,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -6019,6 +6019,70 @@
    }
   },
   {
+   "name": "Breno Bidon",
+   "age": null,
+   "position": null,
+   "club": "Rosario Central",
+   "league": "Copa Libertadores",
+   "region": "Argentina",
+   "gender": "male",
+   "score": 11,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/games/20-08-2026",
+     "seen": "2026-08-23T07:11:16.983089"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/breno-bidon/profil/spieler/1029227",
+     "seen": "2026-08-23T13:11:41.317748"
+    }
+   ],
+   "stats": {
+    "goals": 1
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-23T07:11:16.983089",
+   "last_seen": "2026-08-23T13:11:41.317748",
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "name": "Nicolás Arango Montoya",
    "age": null,
    "position": null,
@@ -7259,6 +7323,73 @@
    }
   },
   {
+   "name": "Sofía Prieto",
+   "age": null,
+   "position": "portera",
+   "club": "Dep. Cali",
+   "league": null,
+   "region": "Colombia",
+   "gender": "female",
+   "score": 9,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 1.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-17-conmebol-sub-17-2026/",
+     "seen": "2026-07-20T04:23:18.085592"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/prieto-sofia/8dMYGhuJ/",
+     "seen": "2026-08-23T13:11:41.317748"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 2,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-23T13:11:41.317748",
+   "last_seen": "2026-08-23T13:11:41.317748",
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 2 presenze",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 2 appearances",
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "name": "Lovro Majer",
    "age": null,
    "position": null,
@@ -8070,67 +8201,6 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Breno Bidon",
-   "age": null,
-   "position": null,
-   "club": "Rosario Central",
-   "league": "Copa Libertadores",
-   "region": "Argentina",
-   "gender": "unknown",
-   "score": 8,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 4.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/games/20-08-2026",
-     "seen": "2026-08-23T07:11:16.983089"
-    }
-   ],
-   "stats": {
-    "goals": 1
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-23T07:11:16.983089",
-   "last_seen": "2026-08-23T07:11:16.983089",
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals",
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
@@ -9979,6 +10049,128 @@
    }
   },
   {
+   "name": "Kaio Jorge",
+   "age": null,
+   "position": null,
+   "club": "Cruzeiro",
+   "league": "Brasileirão",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "placar.com.br",
+     "url": "https://placar.com.br/copa-do-mundo/onde-estao-os-campeoes-da-copa-do-mundo-sub-17-de-2019/",
+     "seen": "2026-08-23T13:11:41.317748"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-23T13:11:41.317748",
+   "last_seen": "2026-08-23T13:11:41.317748",
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Jefferson Botega",
+   "age": null,
+   "position": null,
+   "club": "Internacional",
+   "league": "Série B Sub-20",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "gauchazh.clicrbs.com.br",
+     "url": "https://gauchazh.clicrbs.com.br/esportes/inter/noticia/2026/04/situacao-do-sub-20-preocupa-mas-inter-avalia-como-postivo-trabalho-da-base-em-outras-categorias-cmocvofpr01sy0161cq7oqn94.html",
+     "seen": "2026-08-23T13:11:41.317748"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-23T13:11:41.317748",
+   "last_seen": "2026-08-23T13:11:41.317748",
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Mateo Chávez",
    "age": null,
    "position": null,
@@ -10503,6 +10695,75 @@
    "coverage_tier": "standard",
    "first_detected": "2026-08-23T07:11:16.983089",
    "last_seen": "2026-08-23T07:11:16.983089",
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "name": "Andrea Montenegro",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "female",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/",
+     "seen": "2026-07-19T04:04:37.790338"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/andrea-montenegro/profil/spieler/61602",
+     "seen": "2026-08-23T13:11:41.317748"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-23T13:11:41.317748",
+   "last_seen": "2026-08-23T13:11:41.317748",
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze",
@@ -11382,72 +11643,6 @@
    }
   },
   {
-   "name": "Andrea Montenegro",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "female",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/",
-     "seen": "2026-07-19T04:04:37.790338"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "name": "Katherine Navarro",
    "age": null,
    "position": null,
@@ -11566,72 +11761,6 @@
     ],
     "pros_en": [
      "Documented continuity: 1 appearances"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "name": "Sofía Prieto",
-   "age": null,
-   "position": "portera",
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "female",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 1.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-17-conmebol-sub-17-2026/",
-     "seen": "2026-07-20T04:23:18.085592"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 2,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 2 presenze"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented continuity: 2 appearances"
     ],
     "cautions_en": [
      "Single source: not yet corroborated",
@@ -13302,6 +13431,183 @@
    "coverage_tier": "standard",
    "first_detected": "2026-08-22T18:59:18.028374",
    "last_seen": "2026-08-22T18:59:18.028374",
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "name": "Gabriel Veron",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "placar.com.br",
+     "url": "https://placar.com.br/copa-do-mundo/onde-estao-os-campeoes-da-copa-do-mundo-sub-17-de-2019/",
+     "seen": "2026-08-23T13:11:41.317748"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-23T13:11:41.317748",
+   "last_seen": "2026-08-23T13:11:41.317748",
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "name": "Talles Magno",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "placar.com.br",
+     "url": "https://placar.com.br/copa-do-mundo/onde-estao-os-campeoes-da-copa-do-mundo-sub-17-de-2019/",
+     "seen": "2026-08-23T13:11:41.317748"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-23T13:11:41.317748",
+   "last_seen": "2026-08-23T13:11:41.317748",
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "name": "Yan Couto",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "placar.com.br",
+     "url": "https://placar.com.br/copa-do-mundo/onde-estao-os-campeoes-da-copa-do-mundo-sub-17-de-2019/",
+     "seen": "2026-08-23T13:11:41.317748"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-23T13:11:41.317748",
+   "last_seen": "2026-08-23T13:11:41.317748",
    "assessment": {
     "pros": [],
     "cautions": [
