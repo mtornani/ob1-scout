@@ -1,17 +1,89 @@
 {
- "generated_at": "2026-08-23T02:19:03.316774+00:00",
+ "generated_at": "2026-08-23T07:23:20.621122+00:00",
  "version": "1.0.0",
- "build": "9e607d6",
- "total": 265,
- "publishable": 60,
+ "build": "8c4ae39",
+ "total": 266,
+ "publishable": 61,
  "tracking": 205,
- "shown": 265,
+ "shown": 266,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
   "avg_lead_time_days": null
  },
  "players": [
+  {
+   "name": "Yan Diomande",
+   "age": 15,
+   "position": "winger",
+   "club": "RB Leipzig",
+   "league": null,
+   "region": "Ivory Coast",
+   "gender": "male",
+   "score": 53,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 20.0,
+    "production": 30,
+    "asymmetry": 8.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "latimes.com",
+     "url": "https://www.latimes.com/espanol/deportes/articulo/2026-05-19/la-joven-promesa-yan-diomande-siguio-un-camino-loco-de-una-secundaria-de-florida-al-mundial",
+     "seen": "2026-06-02T16:26:08.016372"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/yan-diomande/profil/spieler/1390649",
+     "seen": "2026-07-26T19:45:13.397131"
+    },
+    {
+     "domain": "placar.com.br",
+     "url": "https://placar.com.br/copa-do-mundo/cinco-jovens-pouco-conhecidos-para-ficar-de-olho-na-copa-2026/",
+     "seen": "2026-08-23T07:11:16.983089"
+    }
+   ],
+   "stats": {
+    "goals": 12,
+    "assists": 9,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-06-02T16:26:08.016372",
+   "last_seen": "2026-08-23T07:11:16.983089",
+   "assessment": {
+    "pros": [
+     "Molto giovane (15 anni): ampio margine di sviluppo",
+     "Produzione documentata: 12 gol e 9 assist",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 3 fonti indipendenti"
+    ],
+    "cautions": [],
+    "next_steps": [
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Very young (15 yo): plenty of room to develop",
+     "Documented output: 12 goals and 9 assists",
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 3 independent sources"
+    ],
+    "cautions_en": [],
+    "next_steps_en": [
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
   {
    "name": "Juan José Fori Viveros",
    "age": 16,
@@ -5753,75 +5825,6 @@
    }
   },
   {
-   "name": "Yan Diomande",
-   "age": 15,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Ivory Coast",
-   "gender": "male",
-   "score": 13,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 20.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "latimes.com",
-     "url": "https://www.latimes.com/espanol/deportes/articulo/2026-05-19/la-joven-promesa-yan-diomande-siguio-un-camino-loco-de-una-secundaria-de-florida-al-mundial",
-     "seen": "2026-06-02T16:26:08.016372"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/yan-diomande/profil/spieler/1390649",
-     "seen": "2026-07-26T19:45:13.397131"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante",
-   "coverage_tier": "standard",
-   "first_detected": "2026-06-02T16:26:08.016372",
-   "last_seen": "2026-06-02T16:26:08.016372",
-   "assessment": {
-    "pros": [
-     "Molto giovane (15 anni): ampio margine di sviluppo",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Very young (15 yo): plenty of room to develop",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "name": "Jhonatan Spiff",
    "age": null,
    "position": "ST",
@@ -6982,6 +6985,73 @@
    }
   },
   {
+   "name": "Ana Pérez",
+   "age": null,
+   "position": null,
+   "club": "Lobos BUAP",
+   "league": null,
+   "region": "Colombia",
+   "gender": "female",
+   "score": 9,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/",
+     "seen": "2026-07-19T04:04:37.790338"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/perez-ana/Eey7urOb/",
+     "seen": "2026-08-23T07:11:16.983089"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-23T07:11:16.983089",
+   "last_seen": "2026-08-23T07:11:16.983089",
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "name": "Luis Mateo Rentería García",
    "age": null,
    "position": null,
@@ -8000,6 +8070,67 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Breno Bidon",
+   "age": null,
+   "position": null,
+   "club": "Rosario Central",
+   "league": "Copa Libertadores",
+   "region": "Argentina",
+   "gender": "unknown",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/games/20-08-2026",
+     "seen": "2026-08-23T07:11:16.983089"
+    }
+   ],
+   "stats": {
+    "goals": 1
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-23T07:11:16.983089",
+   "last_seen": "2026-08-23T07:11:16.983089",
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
@@ -10194,6 +10325,77 @@
    }
   },
   {
+   "name": "Ignacio González",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Uruguay",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://auf.org.uy/noticia-categoria/3/",
+     "seen": "2026-07-18T13:58:07.995503"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/ignacio-gonzalez/profil/spieler/250846",
+     "seen": "2026-08-23T07:11:16.983089"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-23T07:11:16.983089",
+   "last_seen": "2026-08-23T07:11:16.983089",
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Kindness Ifeanyi",
    "age": null,
    "position": null,
@@ -10256,6 +10458,75 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "name": "Gabriela Delgadillo",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "female",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/",
+     "seen": "2026-07-19T04:04:37.790338"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/delgadillo-gabriela/zg1jeVBs/",
+     "seen": "2026-08-23T07:11:16.983089"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-23T07:11:16.983089",
+   "last_seen": "2026-08-23T07:11:16.983089",
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
     ]
    }
   },
@@ -10523,70 +10794,6 @@
    }
   },
   {
-   "name": "Ignacio González",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Uruguay",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "auf.org.uy",
-     "url": "https://auf.org.uy/noticia-categoria/3/",
-     "seen": "2026-07-18T13:58:07.995503"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "name": "Favour Nkwocha",
    "age": null,
    "position": null,
@@ -10779,139 +10986,7 @@
    }
   },
   {
-   "name": "Gabriela Delgadillo",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "female",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/",
-     "seen": "2026-07-19T04:04:37.790338"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "name": "Juana Flores",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "female",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/",
-     "seen": "2026-07-19T04:04:37.790338"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "name": "Ana Pérez",
    "age": null,
    "position": null,
    "club": null,
