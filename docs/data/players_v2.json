@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-24T07:48:26.872624+00:00",
+ "generated_at": "2026-08-24T13:39:47.779055+00:00",
  "version": "1.0.0",
- "build": "7bb26a8",
- "total": 271,
+ "build": "63297ef",
+ "total": 272,
  "publishable": 61,
- "tracking": 210,
- "shown": 271,
+ "tracking": 211,
+ "shown": 272,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -10308,6 +10308,72 @@
    }
   },
   {
+   "name": "Pietra Lucci",
+   "age": null,
+   "position": "midfielder",
+   "club": "São Paulo",
+   "league": null,
+   "region": "Brazil",
+   "gender": "female",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "lance.com.br",
+     "url": "https://www.lance.com.br/futebol-feminino/pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17-e-exalta-formacao-na-base-do-sao-paulo.html",
+     "seen": "2026-08-24T13:31:36.232233"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-24T13:31:36.232233",
+   "last_seen": "2026-08-24T13:31:36.232233",
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Mateo Chávez",
    "age": null,
    "position": null,
@@ -11337,6 +11403,283 @@
     "next_steps_en": [
      "Verify the current club",
      "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "name": "Alejandro Ararat",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
+     "seen": "2026-08-02T14:09:42.558272"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/alejandro-ararat/profil/spieler/1267130",
+     "seen": "2026-08-24T13:31:36.232233"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-24T13:31:36.232233",
+   "last_seen": "2026-08-24T13:31:36.232233",
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "name": "Andy Batioja",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
+     "seen": "2026-08-02T14:09:42.558272"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/andy-batioja/profil/spieler/1108681",
+     "seen": "2026-08-24T13:31:36.232233"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-24T13:31:36.232233",
+   "last_seen": "2026-08-24T13:31:36.232233",
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "name": "Neiser Villarreal",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
+     "seen": "2026-08-02T14:09:42.558272"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/neiser-villarreal/profil/spieler/1182665",
+     "seen": "2026-08-24T13:31:36.232233"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-24T13:31:36.232233",
+   "last_seen": "2026-08-24T13:31:36.232233",
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "name": "Adrían Romero",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
+     "seen": "2026-08-05T03:45:27.804918"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/adrian-romero/profil/spieler/669514",
+     "seen": "2026-08-24T13:31:36.232233"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-24T13:31:36.232233",
+   "last_seen": "2026-08-24T13:31:36.232233",
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
     ]
    }
   },
@@ -12992,201 +13335,6 @@
    }
   },
   {
-   "name": "Alejandro Ararat",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
-     "seen": "2026-08-02T14:09:42.558272"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "name": "Andy Batioja",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
-     "seen": "2026-08-02T14:09:42.558272"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "name": "Neiser Villarreal",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
-     "seen": "2026-08-02T14:09:42.558272"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "name": "Camilo Andrés Pedraza",
    "age": null,
    "position": null,
@@ -13209,70 +13357,6 @@
      "domain": "fcf.com.co",
      "url": "https://fcf.com.co/2026/07/31/resolucion-super-copa-juvenil-no-020-de-2026-31-de-julio-2026/",
      "seen": "2026-08-04T03:49:43.651791"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "name": "Adrían Romero",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
-     "seen": "2026-08-05T03:45:27.804918"
     }
    ],
    "stats": {
