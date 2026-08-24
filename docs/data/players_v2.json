@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-24T02:18:43.769792+00:00",
+ "generated_at": "2026-08-24T07:48:26.872624+00:00",
  "version": "1.0.0",
- "build": "6ea8069",
+ "build": "7bb26a8",
  "total": 271,
  "publishable": 61,
  "tracking": 210,
@@ -10998,6 +10998,349 @@
    }
   },
   {
+   "name": "Joy Palacios",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "female",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-17-conmebol-sub-17-2026/",
+     "seen": "2026-07-20T04:23:18.085592"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/palacios-joy/W0br10r3/",
+     "seen": "2026-08-24T07:39:07.373183"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-24T07:39:07.373183",
+   "last_seen": "2026-08-24T07:39:07.373183",
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "name": "Keimer Sandoval",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
+     "seen": "2026-08-02T14:09:42.558272"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/keimer-sandoval/profil/spieler/1111697/",
+     "seen": "2026-08-24T07:39:07.373183"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-24T07:39:07.373183",
+   "last_seen": "2026-08-24T07:39:07.373183",
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "name": "Simón García",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
+     "seen": "2026-08-02T14:09:42.558272"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/simon-garcia/profil/spieler/1202035",
+     "seen": "2026-08-24T07:39:07.373183"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-24T07:39:07.373183",
+   "last_seen": "2026-08-24T07:39:07.373183",
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "name": "Yeimar Mosquera",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
+     "seen": "2026-08-02T14:09:42.558272"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/yeimar-mosquera/profil/spieler/1163638",
+     "seen": "2026-08-24T07:39:07.373183"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-24T07:39:07.373183",
+   "last_seen": "2026-08-24T07:39:07.373183",
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "name": "Juan Arizala",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
+     "seen": "2026-08-02T14:09:42.558272"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/juan-arizala/profil/spieler/1118347",
+     "seen": "2026-08-24T07:39:07.373183"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-24T07:39:07.373183",
+   "last_seen": "2026-08-24T07:39:07.373183",
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "name": "Arthur Maron",
    "age": null,
    "position": null,
@@ -12585,72 +12928,6 @@
    }
   },
   {
-   "name": "Joy Palacios",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "female",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-17-conmebol-sub-17-2026/",
-     "seen": "2026-07-20T04:23:18.085592"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "name": "Страхиња Бауцал",
    "age": null,
    "position": null,
@@ -12704,266 +12981,6 @@
     "cautions_en": [
      "Single source: not yet corroborated",
      "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "name": "Keimer Sandoval",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
-     "seen": "2026-08-02T14:09:42.558272"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "name": "Simón García",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
-     "seen": "2026-08-02T14:09:42.558272"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "name": "Yeimar Mosquera",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
-     "seen": "2026-08-02T14:09:42.558272"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "name": "Juan Arizala",
-   "age": null,
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
-     "seen": "2026-08-02T14:09:42.558272"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
      "Age not confirmed",
      "Club not identified"
     ],
