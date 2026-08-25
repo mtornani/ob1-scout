@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-24T19:19:44.575624+00:00",
+ "generated_at": "2026-08-25T02:12:22.053641+00:00",
  "version": "1.0.0",
- "build": "9eaac20",
- "total": 273,
+ "build": "537931c",
+ "total": 279,
  "publishable": 61,
- "tracking": 212,
- "shown": 273,
+ "tracking": 218,
+ "shown": 279,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -5401,6 +5401,127 @@
    }
   },
   {
+   "name": "João Pedro Murilo",
+   "age": 19,
+   "position": "volante",
+   "club": "Vasco",
+   "league": "Campeonato Brasileiro",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 7,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "trivela.com.br",
+     "url": "https://trivela.com.br/brasil/jp-vasco-promessa-selecao-sub20/",
+     "seen": "2026-08-25T02:03:52.774865"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-25T02:03:52.774865",
+   "last_seen": "2026-08-25T02:03:52.774865",
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Young (19 yo)",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Enzo Fernández",
+   "age": 21,
+   "position": "midfielder",
+   "club": "Benfica",
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "gauchazh.clicrbs.com.br",
+     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html",
+     "seen": "2026-08-25T02:03:52.774865"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-25T02:03:52.774865",
+   "last_seen": "2026-08-25T02:03:52.774865",
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Fode Diallo",
    "age": 14,
    "position": "Attacker",
@@ -10374,6 +10495,67 @@
    }
   },
   {
+   "name": "Nathan Bizotto",
+   "age": null,
+   "position": null,
+   "club": "EC Juventude",
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "gauchazh.clicrbs.com.br",
+     "url": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2023/06/juventude-avanca-para-os-matas-dos-estaduais-sub-17-e-sub-20-clit4my76004l0156pnfe8gl2.html",
+     "seen": "2026-08-25T02:03:52.774865"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-25T02:03:52.774865",
+   "last_seen": "2026-08-25T02:03:52.774865",
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Mateo Chávez",
    "age": null,
    "position": null,
@@ -12232,6 +12414,207 @@
    }
   },
   {
+   "name": "Teo Rodríguez",
+   "age": 20,
+   "position": "Defensa Lateral Izquierdo",
+   "club": null,
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff",
+     "seen": "2026-07-16T15:34:33.049129"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/teo-rodriguez-pagano/profil/spieler/1282698",
+     "seen": "2026-08-25T02:03:52.774865"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-25T02:03:52.774865",
+   "last_seen": "2026-08-25T02:03:52.774865",
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Valente Pierani",
+   "age": 20,
+   "position": "Defensa Central",
+   "club": null,
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff",
+     "seen": "2026-07-16T15:34:33.049129"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/valente-pierani/profil/spieler/1000685",
+     "seen": "2026-08-25T02:03:52.774865"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-25T02:03:52.774865",
+   "last_seen": "2026-08-25T02:03:52.774865",
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Dylan Gorosito",
+   "age": 20,
+   "position": "Defensa Lateral Derecho",
+   "club": null,
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff",
+     "seen": "2026-07-16T15:34:33.049129"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/dylan-gorosito/profil/spieler/1000669",
+     "seen": "2026-08-25T02:03:52.774865"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-25T02:03:52.774865",
+   "last_seen": "2026-08-25T02:03:52.774865",
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Valentino Acu",
    "age": null,
    "position": null,
@@ -13540,6 +13923,73 @@
    }
   },
   {
+   "name": "Juan Francisco Rossel",
+   "age": 20,
+   "position": "delantero",
+   "club": null,
+   "league": null,
+   "region": "Chile",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "anfp.cl",
+     "url": "https://www.anfp.cl/selecciones/juan-francisco-rossel-tenemos-que-disfrutar-el-mundial-sub-20-porque-sera-espectacular-para-chile/",
+     "seen": "2026-07-29T14:52:11.689075"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/juan-francisco-rossel/profil/spieler/1032491",
+     "seen": "2026-08-25T02:03:52.774865"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-25T02:03:52.774865",
+   "last_seen": "2026-08-25T02:03:52.774865",
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Camilo Andrés Pedraza",
    "age": null,
    "position": null,
@@ -13970,17 +14420,17 @@
    }
   },
   {
-   "name": "Teo Rodríguez",
-   "age": 20,
-   "position": "Defensa Lateral Izquierdo",
+   "name": "Neyser Villarreal",
+   "age": null,
+   "position": null,
    "club": null,
    "league": null,
-   "region": "Argentina",
+   "region": "Brazil",
    "gender": "male",
-   "score": 2,
+   "score": 3,
    "confidence": 0.45,
    "breakdown": {
-    "youth": 4.0,
+    "youth": 6.0,
     "production": 0.0,
     "asymmetry": 0.0,
     "n_sources": 1,
@@ -13989,60 +14439,57 @@
    "n_sources": 1,
    "sources": [
     {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff",
-     "seen": "2026-07-16T15:34:33.049129"
+     "domain": "placar.com.br",
+     "url": "https://placar.com.br/copa-do-mundo/filho-de-zidane-e-mais-destaques-da-copa-do-mundo-sub-20/",
+     "seen": "2026-08-25T02:03:52.774865"
     }
    ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
+   "stats": {},
    "publishable": false,
    "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola",
+   "review_flags": "club_mancante,eta_mancante,fonte_singola",
    "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
+   "first_detected": "2026-08-25T02:03:52.774865",
+   "last_seen": "2026-08-25T02:03:52.774865",
    "assessment": {
     "pros": [],
     "cautions": [
      "Una sola fonte: non ancora corroborato",
      "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
      "Club non identificato"
     ],
     "next_steps": [
      "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
     ],
     "pros_en": [],
     "cautions_en": [
      "Single source: not yet corroborated",
      "No documented performance stats",
+     "Age not confirmed",
      "Club not identified"
     ],
     "next_steps_en": [
      "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
   {
-   "name": "Valente Pierani",
-   "age": 20,
-   "position": "Defensa Central",
+   "name": "Luiz Henrique",
+   "age": null,
+   "position": "Meia",
    "club": null,
    "league": null,
-   "region": "Argentina",
+   "region": "Brazil",
    "gender": "male",
-   "score": 2,
+   "score": 3,
    "confidence": 0.45,
    "breakdown": {
-    "youth": 4.0,
+    "youth": 6.0,
     "production": 0.0,
     "asymmetry": 0.0,
     "n_sources": 1,
@@ -14051,169 +14498,42 @@
    "n_sources": 1,
    "sources": [
     {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff",
-     "seen": "2026-07-16T15:34:33.049129"
+     "domain": "gauchazh.clicrbs.com.br",
+     "url": "https://gauchazh.clicrbs.com.br/pioneiro/esportes/noticia/2023/06/juventude-avanca-para-os-matas-dos-estaduais-sub-17-e-sub-20-clit4my76004l0156pnfe8gl2.html",
+     "seen": "2026-08-25T02:03:52.774865"
     }
    ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
+   "stats": {},
    "publishable": false,
    "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola",
+   "review_flags": "club_mancante,eta_mancante,fonte_singola",
    "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
+   "first_detected": "2026-08-25T02:03:52.774865",
+   "last_seen": "2026-08-25T02:03:52.774865",
    "assessment": {
     "pros": [],
     "cautions": [
      "Una sola fonte: non ancora corroborato",
      "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
      "Club non identificato"
     ],
     "next_steps": [
      "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
     ],
     "pros_en": [],
     "cautions_en": [
      "Single source: not yet corroborated",
      "No documented performance stats",
+     "Age not confirmed",
      "Club not identified"
     ],
     "next_steps_en": [
      "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Dylan Gorosito",
-   "age": 20,
-   "position": "Defensa Lateral Derecho",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 2,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 4.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff",
-     "seen": "2026-07-16T15:34:33.049129"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Juan Francisco Rossel",
-   "age": 20,
-   "position": "delantero",
-   "club": null,
-   "league": null,
-   "region": "Chile",
-   "gender": "male",
-   "score": 2,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 4.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "anfp.cl",
-     "url": "https://www.anfp.cl/selecciones/juan-francisco-rossel-tenemos-que-disfrutar-el-mundial-sub-20-porque-sera-espectacular-para-chile/",
-     "seen": "2026-07-29T14:52:11.689075"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
@@ -17888,6 +18208,70 @@
    "coverage_tier": "low_coverage",
    "first_detected": "2026-08-22T13:10:03.073566",
    "last_seen": "2026-08-22T13:10:03.073566",
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Risolvere l'identità: serve un nome completo verificabile",
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Resolve the identity: needs a verifiable full name",
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "name": "Endrick",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "gauchazh.clicrbs.com.br",
+     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html",
+     "seen": "2026-08-25T02:03:52.774865"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "nome_singolo,club_mancante,eta_mancante,fonte_singola",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-25T02:03:52.774865",
+   "last_seen": "2026-08-25T02:03:52.774865",
    "assessment": {
     "pros": [],
     "cautions": [
