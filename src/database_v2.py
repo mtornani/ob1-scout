@@ -24,6 +24,9 @@ from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlparse
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from src.challenge_v2 import contesta, sopravvive
+
 # importabile sia come package sia da `python src/database_v2.py` diretto —
 # senza, il lazy import di src.scoring_v2/src.outcomes_v2 più sotto fallisce
 # con ModuleNotFoundError perché sys.path[0] diventa src/, non la repo root.
@@ -570,13 +573,38 @@ class OB1DatabaseV2:
         idn = assess_identity(name, club, age, n_sources, has_primary, low_coverage)
         sc = score_player(age=age, is_ghost=bool(is_ghost), club=club, league=league,
                           stats=stats, n_sources=n_sources, detection_count=ev_count)
+
+        # L'avvocato del diavolo (src/challenge_v2.py) — l'ULTIMO cancello,
+        # dopo il gate classico. Aggiunto il 26 ago 2026: assess_identity()
+        # conta DOMINI distinti, e su 64 profili pubblicati solo 2 avevano
+        # davvero >=2 fonti che dicessero qualcosa oltre al nome. Un elenco di
+        # convocazione ripetuto su cinque date piu' un titolo di pagina
+        # Transfermarkt vuoto faceva "2 fonti indipendenti", e la dashboard
+        # scriveva VERIFICATO.
+        #
+        # Sta QUI e non nell'export perche' `publishable` decide anche chi
+        # finisce nella notifica Telegram: un gate solo in dashboard lascerebbe
+        # passare su Telegram esattamente cio' che la dashboard nasconde.
+        #
+        # I rilievi sopravvivono in review_flags accanto ai flag storici: chi
+        # legge il DB vede PERCHE' una scheda non e' uscita, senza rieseguire.
+        evidenze = [{"raw_content": r[0], "source_domain": r[1], "source_url": r[2]}
+                    for r in conn.execute(
+                        "SELECT raw_content, source_domain, source_url "
+                        "FROM evidences WHERE player_id=?", (pid,)).fetchall()]
+        rilievi = contesta({"canonical_name": name, "age": age, "club": club}, evidenze)
+        publishable = idn["publishable"] and sopravvive(rilievi)
+        flags = ",".join(f for f in (
+            idn["review_flags"],
+            ",".join(x["codice"] for x in rilievi)) if f)
+
         conn.execute("""UPDATE players SET evidence_count=?, identity_complete=?,
                         corroborated=?, publishable=?, review_flags=?, score=?, confidence=?,
                         coverage_tier=?
                         WHERE id=?""",
                      (ev_count, 1 if idn["identity_complete"] else 0,
-                      1 if idn["corroborated"] else 0, 1 if idn["publishable"] else 0,
-                      idn["review_flags"], sc["score"], sc["confidence"],
+                      1 if idn["corroborated"] else 0, 1 if publishable else 0,
+                      flags, sc["score"], sc["confidence"],
                       idn["coverage_tier"], pid))
 
     def ingest_observation(self, obs: dict) -> tuple:
@@ -718,6 +746,47 @@ class OB1DatabaseV2:
             if ids:
                 conn.commit()
             return len(ids)
+
+    # Versione del cancello. Va alzata ogni volta che una regola di
+    # pubblicazione cambia in modo da poter BOCCIARE profili gia' pubblicati.
+    #   1 = gate storico (identita' completa + >=2 domini + fonte primary)
+    #   2 = 26 ago 2026, avvocato del diavolo (src/challenge_v2.py)
+    GATE_VERSION = 2
+
+    def reapply_gate(self, conn=None) -> dict:
+        """
+        Ripassa il cancello su TUTTI i giocatori, non solo su quelli toccati
+        da una nuova osservazione.
+
+        Serve perche' _recompute() gira solo dentro ingest_observation(): un
+        profilo gia' pubblicato che non riceve piu' fonti non verrebbe mai
+        rivalutato. Quando il 26 ago 2026 il gate e' diventato piu' severo,
+        senza questo passaggio i 49 profili che non lo superavano piu'
+        sarebbero rimasti online (e su Telegram) a tempo indefinito: una
+        regola nuova che non tocca il passato non protegge nessuno.
+
+        Ritorna {'esaminati', 'ritirati', 'ammessi'} — ritirati = erano
+        pubblicati e ora non lo sono piu'.
+        """
+        proprio = conn is None
+        conn = conn or self._conn()
+        try:
+            prima = {r[0]: r[1] for r in conn.execute(
+                "SELECT id, COALESCE(publishable, 0) FROM players")}
+            for pid in prima:
+                self._recompute(conn, pid)
+            dopo = {r[0]: r[1] for r in conn.execute(
+                "SELECT id, COALESCE(publishable, 0) FROM players")}
+            if proprio:
+                conn.commit()
+        finally:
+            if proprio:
+                conn.close()
+        return {
+            "esaminati": len(prima),
+            "ritirati": sum(1 for k in prima if prima[k] and not dopo.get(k)),
+            "ammessi": sum(1 for k in prima if not prima[k] and dopo.get(k)),
+        }
 
     # ---- Corroborazione attiva (Fase B3+) ----
     def player_domains(self, pid: int) -> set:
@@ -874,11 +943,15 @@ if __name__ == "__main__":
             "name": "Nome Cognome Test", "club": "Club Test", "age": 18,
             "source_url": "https://sofascore.com/player/nome-cognome-test",
             "observed_at": "2026-03-01T00:00:00",
+            "evidence_quote": "Nome Cognome Test, 18 anni, ha esordito con il "
+                              "Club Test segnando una doppietta nel finale.",
         })
         _gate_db.ingest_observation({
             "name": "Nome Cognome Test", "club": "Club Test", "age": 18,
             "source_url": "https://fbref.com/en/players/nome-cognome-test",
             "observed_at": "2026-03-05T00:00:00",
+            "evidence_quote": "Nome Cognome Test resta il profilo piu' seguito "
+                              "del Club Test: 18 anni e quattro presenze.",
         })
         row = _gate_db._conn().execute(
             "SELECT corroborated, review_flags FROM players WHERE id=?", (pid,)).fetchone()
@@ -890,6 +963,8 @@ if __name__ == "__main__":
             "name": "Nome Cognome Test", "club": "Club Test", "age": 18,
             "source_url": "https://ge.globo.com/futebol/noticia/nome-cognome-test.ghtml",
             "observed_at": "2026-03-10T00:00:00",
+            "evidence_quote": "Il Club Test lancia Nome Cognome Test: 18 anni, "
+                              "titolare per la prima volta in campionato.",
         })
         row2 = _gate_db._conn().execute(
             "SELECT corroborated, publishable FROM players WHERE id=?", (pid,)).fetchone()
@@ -910,12 +985,16 @@ if __name__ == "__main__":
             "region": "Kenya",
             "source_url": "https://sofascore.com/player/jomo-otieno-test",
             "observed_at": "2026-03-01T00:00:00",
+            "evidence_quote": "Jomo Otieno Test, 17 anni, ha firmato il gol "
+                              "vittoria del Gor Mahia nel derby di ieri.",
         })
         _lc_db.ingest_observation({
             "name": "Jomo Otieno Test", "club": "Gor Mahia", "age": 17,
             "region": "Kenya",
             "source_url": "https://fbref.com/en/players/jomo-otieno-test",
             "observed_at": "2026-03-05T00:00:00",
+            "evidence_quote": "Jomo Otieno Test del Gor Mahia, 17 anni, "
+                              "convocato per la prima volta in nazionale.",
         })
         row = _lc_db._conn().execute(
             "SELECT corroborated, publishable, review_flags, coverage_tier "
@@ -931,11 +1010,15 @@ if __name__ == "__main__":
             "name": "Altro Nome Test", "club": "Altro Club", "age": 17,
             "source_url": "https://sofascore.com/player/altro-nome-test",
             "observed_at": "2026-03-01T00:00:00",
+            "evidence_quote": "Altro Nome Test, 17 anni dell' Altro Club, "
+                              "ha giocato titolare tutta la partita di ieri.",
         })
         _lc_db.ingest_observation({
             "name": "Altro Nome Test", "club": "Altro Club", "age": 17,
             "source_url": "https://fbref.com/en/players/altro-nome-test",
             "observed_at": "2026-03-05T00:00:00",
+            "evidence_quote": "Altro Nome Test resta un punto fermo dell' "
+                              "Altro Club: 17 anni, sei presenze stagionali.",
         })
         row_std = _lc_db._conn().execute(
             "SELECT corroborated, coverage_tier FROM players WHERE id=?", (pid_std,)).fetchone()

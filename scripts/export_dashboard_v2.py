@@ -101,7 +101,14 @@ def assess_player(p: dict, evidence_count: int = 1) -> dict:
     elif asym >= 6:
         pros.append(("Contesto minore: valore potenzialmente sottoprezzato",
                       "Minor context: potentially underpriced"))
-    if n_src >= 2:
+    # "Confermata da N fonti" solo se quelle fonti dicono davvero qualcosa.
+    # 26 ago 2026: questa riga contava DOMINI. Un elenco di convocazione
+    # ripetuto su cinque date piu' un titolo di pagina Transfermarkt vuoto
+    # diventava "Identità confermata da 2 fonti indipendenti" — vero alla
+    # lettera, falso nella sostanza. Il rilievo dell'avvocato del diavolo
+    # (src/challenge_v2.py) arriva qui dentro via review_flags.
+    if n_src >= 2 and "una_sola_fonte_sostanziale" not in flags \
+            and "nessuna_fonte_sostanziale" not in flags:
         pros.append((f"Identità confermata da {n_src} fonti indipendenti",
                       f"Identity confirmed by {n_src} independent sources"))
     if evidence_count >= 5:
@@ -129,6 +136,27 @@ def assess_player(p: dict, evidence_count: int = 1) -> dict:
         cautions.append((
             "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
             "2+ sources but none is a primary press outlet: not enough yet for the standard gate"))
+    # Rilievi dell'avvocato del diavolo (src/challenge_v2.py). Sono in
+    # review_flags accanto ai flag storici. Quelli BLOCCANTI non arrivano qui
+    # (la scheda non e' pubblicata); questi sono i rilievi di cautela, e
+    # devono VEDERSI: un profilo che esce con una debolezza nota deve
+    # dichiararla, altrimenti torniamo al problema di partenza.
+    if "una_sola_fonte_sostanziale" in flags:
+        cautions.append((
+            "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+            "Only one domain says anything concrete: the other sources merely confirm the name exists"))
+    if "eta_dedotta_dalla_categoria" in flags:
+        cautions.append((
+            f"L'età ({age}) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-{age})",
+            f"The age ({age}) is not stated by any source: it is inferred from the tournament category (U-{age})"))
+    if "prove_che_non_lo_nominano" in flags:
+        cautions.append((
+            "Alcune fonti non lo nominano in modo identificante: potrebbero riferirsi a un'altra persona",
+            "Some sources do not name him identifiably: they may refer to a different person"))
+    if "club_non_scritto_da_nessuna_fonte" in flags:
+        cautions.append((
+            "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+            "The club appears in no source: re-verify before relying on it"))
     if n_src < 2:
         cautions.append(("Una sola fonte: non ancora corroborato",
                           "Single source: not yet corroborated"))
@@ -353,7 +381,21 @@ def _selftest_assess_player():
     a_standard = assess_player(p_standard, evidence_count=3)
     assert not any("copertura" in c.lower() for c in a_standard["cautions"]), \
         "un profilo standard non deve portare una cautela di copertura inesistente"
-    print("OK assess_player: cautela copertura-bassa presente quando serve, assente quando no")
+
+    # I rilievi dell'avvocato del diavolo devono VEDERSI sulla scheda: un
+    # profilo che esce con una debolezza nota la dichiara, altrimenti siamo
+    # tornati a "VERIFICATO" su una prova che non regge.
+    p_sfida = {"age": 17, "stats": {}, "breakdown": {}, "n_sources": 2,
+               "publishable": True,
+               "review_flags": "una_sola_fonte_sostanziale,eta_dedotta_dalla_categoria"}
+    a_sfida = assess_player(p_sfida, evidence_count=2)
+    assert any("dice qualcosa di concreto" in c for c in a_sfida["cautions"]), a_sfida
+    assert any("dedotta dalla categoria" in c for c in a_sfida["cautions"]), a_sfida
+    # ...e in quel caso NON si vanta di "2 fonti indipendenti".
+    assert not any("fonti indipendenti" in p for p in a_sfida["pros"]), a_sfida["pros"]
+
+    print("OK assess_player: cautela copertura-bassa e rilievi dell'avvocato "
+          "del diavolo presenti quando servono, assenti quando no")
 
 
 if __name__ == "__main__":
