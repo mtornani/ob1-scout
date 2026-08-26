@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-26T19:34:37.259449+00:00",
+ "generated_at": "2026-08-26T20:35:27.214146+00:00",
  "version": "1.0.0",
- "build": "e860511",
- "total": 291,
- "publishable": 86,
+ "build": "c122a1c",
+ "total": 292,
+ "publishable": 87,
  "tracking": 205,
- "shown": 291,
+ "shown": 292,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -8027,6 +8027,381 @@
    }
   },
   {
+   "name": "Takalani Mazhamba",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "Takalani Mazhamba Goalkeeper Kaizer Chiefs FC Gauteng",
+     "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "Takalani Mazhamba Goalkeeper Kaizer Chiefs FC Gauteng",
+     "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Goalkeeper",
+   "club": "Kaizer Chiefs FC",
+   "league": null,
+   "region": "South Africa",
+   "gender": "male",
+   "score": 11,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "safa.net",
+     "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/",
+     "seen": "2026-08-26T13:52:17.702316"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/takalani-mazhamba/profil/spieler/1131781",
+     "seen": "2026-08-26T20:24:32.996419"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-26T13:52:17.702316",
+   "last_seen": "2026-08-26T20:24:32.996419",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da South African Football Association, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/"
+     }
+    ],
+    "fonte": "South African Football Association",
+    "frase_en": "Called up 1 times by South African Football Association, U20."
+   },
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Lwandiso Radebe",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "Lwandiso Radebe Goalkeeper Mamelodi Sundowns Gauteng",
+     "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "Lwandiso Radebe Goalkeeper Mamelodi Sundowns Gauteng",
+     "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Goalkeeper",
+   "club": "Mamelodi Sundowns",
+   "league": null,
+   "region": "South Africa",
+   "gender": "male",
+   "score": 11,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "safa.net",
+     "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/",
+     "seen": "2026-08-26T13:52:17.702316"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/lwandiso-radebe/profil/spieler/1391824",
+     "seen": "2026-08-26T20:24:32.996419"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-26T13:52:17.702316",
+   "last_seen": "2026-08-26T20:24:32.996419",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da South African Football Association, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/"
+     }
+    ],
+    "fonte": "South African Football Association",
+    "frase_en": "Called up 1 times by South African Football Association, U20."
+   },
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Gennaro Johnson",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "Gennaro Johnson Goalkeeper Cape town City FC W. Cap",
+     "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "Gennaro Johnson Goalkeeper Cape town City FC W. Cap",
+     "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Goalkeeper",
+   "club": "Cape town City FC",
+   "league": null,
+   "region": "South Africa",
+   "gender": "male",
+   "score": 11,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "safa.net",
+     "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/",
+     "seen": "2026-08-26T13:52:17.702316"
+    },
+    {
+     "domain": "uk.soccerway.com",
+     "url": "https://uk.soccerway.com/players/gennaro-johnson/904382/",
+     "seen": "2026-08-26T20:24:32.996419"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-26T13:52:17.702316",
+   "last_seen": "2026-08-26T20:24:32.996419",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da South African Football Association, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/"
+     }
+    ],
+    "fonte": "South African Football Association",
+    "frase_en": "Called up 1 times by South African Football Association, U20."
+   },
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
    "name": "Kaio Jorge",
    "age": null,
    "age_stato": "assente",
@@ -10008,246 +10383,6 @@
    }
   },
   {
-   "name": "Takalani Mazhamba",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "South African Football Association",
-     "tipo": "federation",
-     "citazione": "Takalani Mazhamba Goalkeeper Kaizer Chiefs FC Gauteng",
-     "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "South African Football Association",
-     "tipo": "federation",
-     "citazione": "Takalani Mazhamba Goalkeeper Kaizer Chiefs FC Gauteng",
-     "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Goalkeeper",
-   "club": "Kaizer Chiefs FC",
-   "league": null,
-   "region": "South Africa",
-   "gender": "male",
-   "score": 8,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "safa.net",
-     "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/",
-     "seen": "2026-08-26T13:52:17.702316"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-08-26T13:52:17.702316",
-   "last_seen": "2026-08-26T13:52:17.702316",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da South African Football Association, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/"
-     }
-    ],
-    "fonte": "South African Football Association",
-    "frase_en": "Called up 1 times by South African Football Association, U20."
-   },
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Lwandiso Radebe",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "South African Football Association",
-     "tipo": "federation",
-     "citazione": "Lwandiso Radebe Goalkeeper Mamelodi Sundowns Gauteng",
-     "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "South African Football Association",
-     "tipo": "federation",
-     "citazione": "Lwandiso Radebe Goalkeeper Mamelodi Sundowns Gauteng",
-     "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Goalkeeper",
-   "club": "Mamelodi Sundowns",
-   "league": null,
-   "region": "South Africa",
-   "gender": "male",
-   "score": 8,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "safa.net",
-     "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/",
-     "seen": "2026-08-26T13:52:17.702316"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-08-26T13:52:17.702316",
-   "last_seen": "2026-08-26T13:52:17.702316",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da South African Football Association, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/"
-     }
-    ],
-    "fonte": "South African Football Association",
-    "frase_en": "Called up 1 times by South African Football Association, U20."
-   },
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "name": "Banele Mtolo",
    "age": null,
    "age_stato": "assente",
@@ -10284,126 +10419,6 @@
    },
    "position": "Goalkeeper",
    "club": "RESA",
-   "league": null,
-   "region": "South Africa",
-   "gender": "male",
-   "score": 8,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "safa.net",
-     "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/",
-     "seen": "2026-08-26T13:52:17.702316"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-08-26T13:52:17.702316",
-   "last_seen": "2026-08-26T13:52:17.702316",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da South African Football Association, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/"
-     }
-    ],
-    "fonte": "South African Football Association",
-    "frase_en": "Called up 1 times by South African Football Association, U20."
-   },
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Gennaro Johnson",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "South African Football Association",
-     "tipo": "federation",
-     "citazione": "Gennaro Johnson Goalkeeper Cape town City FC W. Cap",
-     "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "South African Football Association",
-     "tipo": "federation",
-     "citazione": "Gennaro Johnson Goalkeeper Cape town City FC W. Cap",
-     "url": "https://www.safa.net/amajita/mdaka-names-preliminary-u20-squad-for-cosafa-mens-youth-championship/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Goalkeeper",
-   "club": "Cape town City FC",
    "league": null,
    "region": "South Africa",
    "gender": "male",
@@ -10755,6 +10770,106 @@
    "coverage_tier": "standard",
    "first_detected": "2026-08-25T13:29:20.133485",
    "last_seen": "2026-08-25T13:29:20.133485",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Cheswill Jooste",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "KickOff",
+     "tipo": "national_press",
+     "citazione": "while Cheswill Jooste is still with the Bulls, who have qualified for the United Rugby Championship Grand Final.",
+     "url": "https://www.kickoff.com/rugby/junior-boks/junior-boks-announce-wider-training-squad-ahead-of-world-championship"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "KickOff",
+     "tipo": "national_press",
+     "citazione": "while Cheswill Jooste is still with the Bulls, who have qualified for the United Rugby Championship Grand Final.",
+     "url": "https://www.kickoff.com/rugby/junior-boks/junior-boks-announce-wider-training-squad-ahead-of-world-championship"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Bulls",
+   "league": "United Rugby Championship",
+   "region": "South Africa",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "kickoff.com",
+     "url": "https://www.kickoff.com/rugby/junior-boks/junior-boks-announce-wider-training-squad-ahead-of-world-championship",
+     "seen": "2026-08-26T20:24:32.996419"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-26T20:24:32.996419",
+   "last_seen": "2026-08-26T20:24:32.996419",
    "selezione": {},
    "assessment": {
     "pros": [
