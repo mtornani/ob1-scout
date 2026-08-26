@@ -21,6 +21,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from src.scoring_v2 import score_player
+from src.claims_v2 import stabilisci, DICHIARATO, DEDOTTO, ASSENTE
 
 ROOT = Path(__file__).parent.parent
 
@@ -234,6 +235,15 @@ def export(db_path: Path, out_path: Path) -> dict:
             {"domain": r["source_domain"], "url": r["source_url"],
              "seen": r["observed_at"]})
 
+    # Le evidenze INTERE (testo citato + origin), non solo i domini: servono a
+    # stabilisci() per dire quale fonte prova quale campo. Una query sola,
+    # stesso motivo dell'altra: niente N+1 al crescere del database.
+    evidences_by_player = {}
+    for r in conn.execute(
+            """SELECT player_id, raw_content, source_domain, source_url,
+                      observed_at, origin FROM evidences"""):
+        evidences_by_player.setdefault(r["player_id"], []).append(dict(r))
+
     def _clean_sources(raw):
         """Domain unici; URL http se c'è, altrimenti domain-only (chip senza link)."""
         out, seen = [], set()
@@ -279,9 +289,30 @@ def export(db_path: Path, out_path: Path) -> dict:
         name = (p["canonical_name"] or "").strip()
         if len(name) < 3:
             continue
+
+        # Provenienza per campo (src/claims_v2.py). L'età esce SOLO se una
+        # fonte competente la scrive o se è dichiaratamente dedotta dalla
+        # categoria del torneo: un valore che nessuno ha scritto non si
+        # mostra come se fosse un fatto. È il difetto che ha prodotto
+        # "Yan Diomande, 15 anni" (ne ha 19).
+        claims = stabilisci(
+            {"canonical_name": name, "club": p["club"], "age": p["age"],
+             "stats": stats},
+            evidences_by_player.get(pid, []))
+        eta_claim = claims.get("eta", {})
+        eta_mostrabile = p["age"] if eta_claim.get("stato") in (DICHIARATO, DEDOTTO) else None
+
         entry = {
             "name": name,
-            "age": p["age"], "position": p["position"], "club": p["club"],
+            "age": eta_mostrabile, "age_stato": eta_claim.get("stato"),
+            "age_nota": eta_claim.get("nota", ""),
+            "claims": {k: {"stato": v.get("stato"),
+                           "fonte": (v.get("prova") or {}).get("nome_fonte", ""),
+                           "tipo": (v.get("prova") or {}).get("tipo", ""),
+                           "citazione": (v.get("prova") or {}).get("citazione", ""),
+                           "url": (v.get("prova") or {}).get("url", "")}
+                       for k, v in claims.items()},
+            "position": p["position"], "club": p["club"],
             "league": p["league"], "region": p["region"],
             "gender": p["gender"],
             "score": sc["score"], "confidence": sc["confidence"],

@@ -26,6 +26,7 @@ from urllib.parse import urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src.challenge_v2 import contesta, sopravvive
+from src.claims_v2 import stabilisci, pubblicabile as pubblicabile_da_claims
 
 # importabile sia come package sia da `python src/database_v2.py` diretto —
 # senza, il lazy import di src.scoring_v2/src.outcomes_v2 più sotto fallisce
@@ -588,14 +589,30 @@ class OB1DatabaseV2:
         #
         # I rilievi sopravvivono in review_flags accanto ai flag storici: chi
         # legge il DB vede PERCHE' una scheda non e' uscita, senza rieseguire.
-        evidenze = [{"raw_content": r[0], "source_domain": r[1], "source_url": r[2]}
+        evidenze = [{"raw_content": r[0], "source_domain": r[1], "source_url": r[2],
+                     "observed_at": r[3], "origin": r[4]}
                     for r in conn.execute(
-                        "SELECT raw_content, source_domain, source_url "
-                        "FROM evidences WHERE player_id=?", (pid,)).fetchall()]
-        rilievi = contesta({"canonical_name": name, "age": age, "club": club}, evidenze)
-        publishable = idn["publishable"] and sopravvive(rilievi)
+                        "SELECT raw_content, source_domain, source_url, "
+                        "observed_at, origin FROM evidences WHERE player_id=?",
+                        (pid,)).fetchall()]
+        soggetto = {"canonical_name": name, "age": age, "club": club, "stats": stats}
+
+        # La soglia di pubblicazione è quella di claims_v2: si esce quando
+        # l'IDENTITÀ è stabilita — nome e club scritti da una fonte primary
+        # competente. Non serve un'età e non servono due domini.
+        #
+        # Il gate storico (assess_identity: >=2 domini + fonte primary) NON
+        # decide più: contava domini, e una convocazione della federazione
+        # ripetuta su cinque date valeva quanto due aggregatori che si
+        # copiano. I suoi flag restano perché descrivono ancora bene la
+        # forma delle prove, ma la decisione è passata ai claim.
+        claims = stabilisci(soggetto, evidenze)
+        ok_claims, motivi = pubblicabile_da_claims(claims)
+        rilievi = contesta(soggetto, evidenze)
+        publishable = ok_claims and sopravvive(rilievi)
         flags = ",".join(f for f in (
             idn["review_flags"],
+            f"eta_{claims['eta']['stato']}",
             ",".join(x["codice"] for x in rilievi)) if f)
 
         conn.execute("""UPDATE players SET evidence_count=?, identity_complete=?,

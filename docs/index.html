@@ -164,9 +164,12 @@
   </details>
   <details>
     <summary data-i18n="faq.q2">Cosa significa "Verificato"?</summary>
-    <p data-i18n="faq.a2">Identità completa (nome vero, club, età) <b>e</b> almeno 2 fonti indipendenti,
-    che trovi linkate sulla scheda. È la nostra promessa: ogni nome verificato regge
-    una telefonata di controllo alla società.</p>
+    <p data-i18n="faq.a2">Che <b>nome e club sono scritti da una fonte competente</b> — una
+    federazione, una testata, un database di riferimento — e trovi la citazione esatta sulla
+    scheda. È la promessa: puoi telefonare a quella società e chiedere di quel ragazzo.
+    Non vuol dire che sappiamo tutto di lui: l'età esce solo se qualcuno l'ha scritta
+    (col <b>~</b> se è ricavata dalla categoria del torneo), e quello che nessuna fonte
+    dice non lo mostriamo.</p>
   </details>
   <details>
     <summary data-i18n="faq.q3">E "Da corroborare"?</summary>
@@ -211,7 +214,7 @@ const I18N_EN = {
   'faq.q1': 'What does OB1 Scout do?',
   'faq.a1': 'Monitors curated sources — federations, youth leagues, local press — and builds up proof on young players, one pass every 6 hours. A profile only grows with evidence: the more independent sources confirm it, the higher it climbs.',
   'faq.q2': 'What does "Verified" mean?',
-  'faq.a2': 'Complete identity (real name, club, age) <b>and</b> at least 2 independent sources, linked right on the card. That’s our promise: every verified name survives a call to check with the club.',
+  'faq.a2': 'That <b>name and club are stated by a competent source</b> — a federation, a news outlet, a reference database — with the exact quote on the card. That’s the promise: you can call that club and ask about that player. It does not mean we know everything about him: age is shown only if someone wrote it (with a <b>~</b> when it is inferred from the tournament age group), and whatever no source states, we don’t show.',
   'faq.q3': 'And "To corroborate"?',
   'faq.a3': 'Real profiles with only one source or an incomplete identity. The system doesn’t push them: they stay in tracking until a second source confirms — or never does, and that’s fine.',
   'faq.q4': 'Where does the score come from?',
@@ -295,7 +298,17 @@ if (IS_EN) {
     const w = k => Math.round(100 * Math.max(bd[k]||0, 0) / merit);
     const dots = Array.from({length: 4}, (_, d) =>
       `<i class="${d < Math.round((p.confidence||0)*4) ? 'on' : ''}"></i>`).join('');
-    const meta = [p.age ? p.age + (IS_EN ? ' ' + t('card.years') : ' anni') : null, p.position, p.club, p.league]
+    // L'età esce col suo STATO, mai come numero nudo se nessuno l'ha scritta.
+    // 26 ago 2026: la scheda in vetrina diceva "Yan Diomande · 15 anni" — ne
+    // ha 19, e quel 15 non l'aveva scritto nessuna fonte: l'aveva concluso il
+    // nostro estrattore. Ora un'età non scritta da nessuno semplicemente non
+    // si mostra (age=null dall'export), e un'età ricavata dalla categoria del
+    // torneo si mostra col tilde, che dice "circa" senza doverlo spiegare.
+    const etaTxt = p.age
+      ? (p.age_stato === 'dedotto' ? '~' : '') + p.age +
+        (IS_EN ? ' ' + t('card.years') : ' anni')
+      : null;
+    const meta = [etaTxt, p.position, p.club, p.league]
       .filter(Boolean).map(esc).join(' · ') || '—';
     const srcs = (p.sources||[]).map(s =>
       s.url
