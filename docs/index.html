@@ -77,7 +77,22 @@
   .merit i{display:block;height:100%}
   .merit .y{background:var(--accent-lo)}
   .merit .p{background:var(--accent-mid)}
+  .merit .s{background:var(--accent-mid)}
   .merit .a{background:var(--accent)}
+
+  /* La storia di convocazioni. Sta in chiaro nella scheda, sopra al
+     dettaglio richiudibile: è il contenuto, non una nota. Ogni riga è un
+     documento apribile — chi legge deve poter passare dalla frase alla
+     prova in un tocco, che è tutta la promessa del prodotto. */
+  .sel{margin:2px 0 12px}
+  .sel-h{font-size:13px;line-height:1.45;color:var(--ink)}
+  .sel-l{list-style:none;margin:9px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+  .sel-l a{display:inline-flex;align-items:baseline;gap:6px;text-decoration:none;
+    font-size:11px;padding:3px 9px;border-radius:20px;border:1px solid var(--line);
+    color:var(--muted);background:var(--surface)}
+  .sel-l a:hover{border-color:var(--accent);color:var(--accent)}
+  .sel-l .d{font-family:var(--mono);font-size:10.5px}
+  .sel-l .c{font-weight:600}
 
   .foot{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:12px}
   .conf{display:inline-flex;align-items:center;gap:5px;color:var(--muted)}
@@ -263,6 +278,16 @@ if (IS_EN) {
   const esc = s => String(s ?? '').replace(/[&<>"']/g,
     c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
+  // "2026-07-19" -> "lug 2026" / "Jul 2026". Il giorno esatto non serve a
+  // chi legge (una convocazione è un mese, non un istante) e allunga la riga.
+  const MESI_IT = ['gen','feb','mar','apr','mag','giu','lug','ago','set','ott','nov','dic'];
+  const MESI_EN = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const mese = iso => {
+    const m = /^(\d{4})-(\d{2})/.exec(iso || '');
+    if (!m) return '';
+    return `${(IS_EN ? MESI_EN : MESI_IT)[Number(m[2]) - 1]} ${m[1]}`;
+  };
+
   let data;
   try {
     const r = await fetch('data/players_v2.json', {cache: 'no-store'});
@@ -294,7 +319,7 @@ if (IS_EN) {
 
   function card(p, i, mutedClass) {
     const bd = p.breakdown || {};
-    const merit = Math.max((bd.youth||0) + (bd.production||0) + (bd.asymmetry>0?bd.asymmetry:0), 1);
+    const merit = Math.max((bd.youth||0) + (bd.production||0) + (bd.selection||0) + (bd.asymmetry>0?bd.asymmetry:0), 1);
     const w = k => Math.round(100 * Math.max(bd[k]||0, 0) / merit);
     const dots = Array.from({length: 4}, (_, d) =>
       `<i class="${d < Math.round((p.confidence||0)*4) ? 'on' : ''}"></i>`).join('');
@@ -337,11 +362,46 @@ if (IS_EN) {
           ${cautions?.length ? `<div class="wh caut"><h4>${IS_EN ? t('card.cautions') : 'Cautele'}</h4><ul>${li(cautions)}</ul></div>` : ''}
           ${nextSteps?.length ? `<div class="wh"><h4>${IS_EN ? t('card.next_steps') : 'Per proseguire'}</h4><ul>${li(nextSteps)}</ul></div>` : ''}
         </details>` : '';
+    // La storia di convocazioni: la ragione per cui questo nome è in lista,
+    // detta per intero e con i documenti sotto.
+    //
+    // Prima al suo posto c'era "Segnale persistente: 6 rilevamenti", dentro
+    // il dettaglio richiudibile. "Rilevamenti" conta quante volte lo scraper
+    // ha visto una pagina — è una parola del nostro tubo, e a un direttore
+    // sportivo non dice niente. Le stesse sei righe di database dicevano una
+    // cosa molto più forte: che una federazione nazionale lo ha scelto cinque
+    // volte in diciassette mesi e nel frattempo lo ha portato dal Sub-16 al
+    // Sub-17. Quella frase regge una telefonata; "6 rilevamenti" no.
+    //
+    // Sta in chiaro e non nel <details> perché è il contenuto della scheda,
+    // non una nota a piè di pagina. Vedi src/selezione_v2.py.
+    const s = p.selezione || {};
+    const eventi = (s.eventi || []).filter(e => e.url);
+    const sel = s.frase
+      ? `<div class="sel">
+          <div class="sel-h">${esc(IS_EN && s.frase_en ? s.frase_en : s.frase)}</div>
+          ${eventi.length ? `<ol class="sel-l">${eventi.map(e => `
+            <li><a href="${esc(e.url)}" target="_blank" rel="noopener">
+              <span class="d">${esc(mese(e.data))}</span>
+              <span class="c">${esc((e.categoria||'').replace('sub-','Sub-').replace('maggiore', IS_EN?'Senior':'Nazionale A') || '—')}</span>
+            </a></li>`).join('')}</ol>` : ''}
+        </div>`
+      : '';
     const nSrc = p.n_sources || 1;
+    // Dove c'è una storia di convocazioni, il bollino conta QUELLE e non i
+    // domini. "2 fonti indipendenti" su questa scheda significava fcf.com.co
+    // più il titolo di una pagina Transfermarkt: vero alla lettera, e molto
+    // più debole di ciò che abbiamo davvero in mano, cioè cinque atti di
+    // selezione documentati e datati. Il bollino deve dire la prova più
+    // forte, non quella più facile da contare.
+    const nConv = (p.selezione || {}).quante || 0;
     const claim = p.publishable
-      ? (IS_EN
-          ? `✓ ${t('card.verified')} — ${nSrc} independent source${nSrc === 1 ? '' : 's'}`
-          : `✓ VERIFICATO — ${nSrc} font${nSrc === 1 ? 'e' : 'i'} indipendent${nSrc === 1 ? 'e' : 'i'}`)
+      ? (nConv >= 2
+          ? (IS_EN ? `✓ ${t('card.verified')} — ${nConv} documented call-ups`
+                   : `✓ VERIFICATO — ${nConv} convocazioni documentate`)
+          : (IS_EN
+              ? `✓ ${t('card.verified')} — ${nSrc} independent source${nSrc === 1 ? '' : 's'}`
+              : `✓ VERIFICATO — ${nSrc} font${nSrc === 1 ? 'e' : 'i'} indipendent${nSrc === 1 ? 'e' : 'i'}`))
       : (IS_EN ? `○ ${t('card.to_corroborate')}` : '○ DA CORROBORARE — identità o fonti insufficienti');
     return `<div class="card${mutedClass}">
       <div class="claim ${p.publishable ? 'ok' : 'no'}">${claim}</div>
@@ -353,7 +413,8 @@ if (IS_EN) {
         </div>
         <div class="score"><div class="v">${p.score ?? '–'}</div><div class="m">/100</div></div>
       </div>
-      <div class="merit"><i class="y" style="width:${w('youth')}%"></i><i class="p" style="width:${w('production')}%"></i><i class="a" style="width:${w('asymmetry')}%"></i></div>
+      <div class="merit"><i class="y" style="width:${w('youth')}%"></i><i class="p" style="width:${w('production')}%"></i><i class="s" style="width:${w('selection')}%"></i><i class="a" style="width:${w('asymmetry')}%"></i></div>
+      ${sel}
       <div class="foot">
         <span class="conf">${IS_EN ? t('card.confidence') : 'confidenza'} <span class="dots">${dots}</span></span>
         ${stats}

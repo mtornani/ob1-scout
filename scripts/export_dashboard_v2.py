@@ -55,6 +55,94 @@ def _version_and_build() -> tuple:
     return version, build
 
 
+def _selezione_di(p) -> dict:
+    """
+    Il blocco `selection_json` scritto da database_v2._recompute, più il nome
+    leggibile della federazione (una sola, nella pratica: se un giorno ce ne
+    fossero due la frase lo dice già da sé).
+
+    Riga vuota o colonna assente su un DB vecchio = {}: la scheda non mostra
+    la sezione, non mostra uno zero.
+    """
+    try:
+        grezzo = p["selection_json"]
+    except (KeyError, IndexError):
+        return {}
+    if not grezzo:
+        return {}
+    try:
+        sel = json.loads(grezzo)
+    except (ValueError, TypeError):
+        return {}
+    eventi = sel.get("eventi") or []
+    if eventi:
+        sel["fonte"] = eventi[0].get("fonte", "")
+    sel["frase_en"] = _selection_en(sel) + "." if sel.get("quante") else ""
+    return sel
+
+
+def _come_persistenza(sel: dict):
+    """
+    Il dict salvato in colonna, riportato alla forma che `punti()` sa pesare.
+    Solo i campi che contano per il punteggio: il resto serve alla scheda.
+    """
+    if not sel or not sel.get("quante"):
+        return None
+    from src.selezione_v2 import Persistenza
+    return Persistenza(
+        quante=sel.get("quante", 0),
+        progressione=bool(sel.get("progressione")),
+        mesi_di_arco=sel.get("mesi_di_arco", 0),
+        categorie=sel.get("categorie") or [],
+    )
+
+
+_MESI_EN = {"gennaio": "January", "febbraio": "February", "marzo": "March",
+            "aprile": "April", "maggio": "May", "giugno": "June",
+            "luglio": "July", "agosto": "August", "settembre": "September",
+            "ottobre": "October", "novembre": "November", "dicembre": "December"}
+
+
+def _selection_en(sel: dict) -> str:
+    """La stessa frase in inglese. Costruita dai campi, non tradotta a pezzi."""
+    chi = sel.get("fonte") or "a national federation"
+    testo = f"Called up {sel['quante']} times by {chi}"
+    dal, al = sel.get("dal", ""), sel.get("al", "")
+    if dal and al and dal[:7] != al[:7]:
+        testo += f" between {_data_en(dal)} and {_data_en(al)}"
+    cats = sel.get("categorie") or []
+    if sel.get("progressione") and len(cats) >= 2:
+        testo += f", from {cats[0].replace('sub-', 'U')} to {cats[-1].replace('sub-', 'U')}"
+    elif len(cats) == 1:
+        testo += f", {cats[0].replace('sub-', 'U')}"
+    return testo
+
+
+def _mesi_da(iso: str):
+    """Quanti mesi sono passati da questa data. None se la data non c'è."""
+    from datetime import datetime
+    try:
+        d = datetime.strptime(iso[:10], "%Y-%m-%d")
+    except (ValueError, TypeError):
+        return None
+    oggi = datetime.now()
+    return (oggi.year - d.year) * 12 + (oggi.month - d.month)
+
+
+def _mese_it(iso: str) -> str:
+    from src.selezione_v2 import _mese_leggibile
+    return _mese_leggibile(iso)
+
+
+def _data_en(iso: str) -> str:
+    from datetime import datetime
+    try:
+        d = datetime.strptime(iso[:10], "%Y-%m-%d")
+    except (ValueError, TypeError):
+        return ""
+    return d.strftime("%B %Y")
+
+
 def assess_player(p: dict, evidence_count: int = 1) -> dict:
     """
     "Perché sì / cautele / prossimi passi" per la scheda giocatore.
@@ -112,7 +200,17 @@ def assess_player(p: dict, evidence_count: int = 1) -> dict:
             and "nessuna_fonte_sostanziale" not in flags:
         pros.append((f"Identità confermata da {n_src} fonti indipendenti",
                       f"Identity confirmed by {n_src} independent sources"))
-    if evidence_count >= 5:
+    # "Rilevamenti" è una parola del nostro tubo, non del mestiere di chi
+    # legge: dice quante volte lo scraper ha visto una pagina, e a un
+    # direttore sportivo non serve a niente. Dove c'è una storia di
+    # convocazioni la si dice per quello che è — quante volte una
+    # federazione lo ha scelto, quando, e se è salito di categoria — e i
+    # documenti stanno qui sotto, apribili. Vedi src/selezione_v2.py.
+    sel = p.get("selezione") or {}
+    if sel.get("quante", 0) >= 2:
+        pass          # la storia di convocazioni sta in chiaro sulla scheda,
+                      # con i documenti: ripeterla qui la direbbe due volte
+    elif evidence_count >= 5:
         pros.append((f"Segnale persistente: {evidence_count} rilevamenti",
                       f"Persistent signal: {evidence_count} detections"))
 
@@ -161,6 +259,19 @@ def assess_player(p: dict, evidence_count: int = 1) -> dict:
     if n_src < 2:
         cautions.append(("Una sola fonte: non ancora corroborato",
                           "Single source: not yet corroborated"))
+    # Una storia di convocazioni che si ferma è essa stessa un'informazione, e
+    # per chi deve telefonare è quella che cambia la telefonata: un ragazzo
+    # scelto l'ultima volta a febbraio 2025 può essersi infortunato, aver
+    # cambiato paese, o essere semplicemente uscito dal giro. Il sistema non
+    # sa quale delle tre — e lo dice invece di far finta che la convocazione
+    # sia di ieri.
+    mesi = _mesi_da(sel.get("al", "")) if sel else None
+    if sel.get("quante") and mesi is not None and mesi >= 12:
+        cautions.append((
+            f"Ultima convocazione {mesi} mesi fa ({_mese_it(sel['al'])}): "
+            f"la serie si è interrotta, da capire perché",
+            f"Last call-up {mesi} months ago ({_data_en(sel['al'])}): "
+            f"the run has stopped — worth finding out why"))
     if not has_stats:
         cautions.append(("Nessuna statistica di rendimento documentata",
                           "No documented performance stats"))
@@ -280,10 +391,16 @@ def export(db_path: Path, out_path: Path) -> dict:
         sources = _clean_sources(sources_by_player.get(pid, []))
         n_sources = len(sources)
         stats = json.loads(p["stats_json"]) if p["stats_json"] else {}
+        # La persistenza di selezione entra nel merito: senza, l'export
+        # ricalcolerebbe un punteggio diverso da quello in database, e la
+        # dashboard mostrerebbe una classifica che non è quella su cui il
+        # gate ha lavorato. Vedi src/selezione_v2.py.
+        selezione = _selezione_di(p)
         sc = score_player(
             age=p["age"], is_ghost=bool(p["is_ghost"]), club=p["club"],
             league=p["league"], stats=stats, n_sources=max(n_sources, 1),
             detection_count=p["evidence_count"] or 1,
+            selezione=_come_persistenza(selezione),
         )
         # Nome senza contenuto utile → non in dashboard pubblica
         name = (p["canonical_name"] or "").strip()
@@ -330,6 +447,11 @@ def export(db_path: Path, out_path: Path) -> dict:
             # di prodotto a parte.
             "coverage_tier": p["coverage_tier"] or "standard",
             "first_detected": p["first_detected"], "last_seen": p["last_seen"],
+            # Persistenza di selezione: quante volte una federazione lo ha
+            # scelto, quando, in che categoria, con i documenti. È la ragione
+            # per cui questo nome è in lista, ed è verificabile aprendo i
+            # link — la scheda porta la prova, non l'affermazione.
+            "selezione": selezione,
         }
         entry["assessment"] = assess_player(entry, p["evidence_count"] or 1)
         players.append(entry)

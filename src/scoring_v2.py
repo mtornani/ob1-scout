@@ -16,6 +16,11 @@ diventare default (vedi CLAUDE.md §2). Non è ancora la verità rivelata.
 """
 
 import re
+import sys
+from pathlib import Path
+
+# importabile sia come package sia da `python src/scoring_v2.py`
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 # Marcatori di alta visibilità mediatica (= bassa asimmetria → penalità).
 TOP_MARKERS = (
@@ -112,11 +117,30 @@ def _confidence(n_sources: int, detection_count: int) -> float:
 
 def score_player(age=None, is_ghost=False, club=None, league=None,
                  stats=None, n_sources=1, detection_count=1,
-                 position=None) -> dict:
+                 position=None, selezione=None) -> dict:
     """
     Ritorna {'score': int 0-100, 'confidence': float, 'merit': float,
              'breakdown': {...}} — tutto ispezionabile.
     `stats` può essere un dict {goals,assists,...} o un testo libero.
+    `selezione` è una `Persistenza` (src/selezione_v2.py) o None.
+
+    Perché la selezione è entrata nel merito (26 ago 2026)
+    ------------------------------------------------------
+    `production` vale fino a 40 punti — la voce più pesante — e su Global vale
+    zero quasi sempre: le statistiche delle giovanili colombiane non le
+    pubblica nessuno in una forma leggibile. Il risultato misurato sugli 86
+    pubblicabili era una classifica piatta, tutti fra 13 e 19 su 100: un
+    ordinamento che non ordina, e in cima non ci finiva chi aveva l'evidenza
+    più forte ma chi capitava.
+
+    Intanto lo stesso database conteneva, per 34 giocatori, due o più
+    convocazioni nazionali su date distinte — un segnale che il sistema aveva
+    già in mano e non contava. Con la persistenza dentro il merito la scala si
+    apre (13-54) e la posizione in classifica torna a voler dire qualcosa che
+    si può leggere ad alta voce e verificare aprendo i link.
+
+    Resta sotto `production` per costruzione (32 contro 40): dove ci sono gol e
+    presenze documentati, quelli contano di più.
     """
     if isinstance(stats, str) or stats is None:
         stats = parse_stats(stats)
@@ -124,7 +148,11 @@ def score_player(age=None, is_ghost=False, club=None, league=None,
     youth = _youth_points(age)
     production = _production_points(stats)
     asymmetry = _asymmetry_points(is_ghost, club, league)
-    merit = max(0.0, youth + production + asymmetry)
+    selection = 0.0
+    if selezione is not None:
+        from src.selezione_v2 import punti as _punti_selezione
+        selection = _punti_selezione(selezione)
+    merit = max(0.0, youth + production + asymmetry + selection)
 
     confidence = _confidence(n_sources, detection_count)
     score = int(round(min(merit, 100.0) * confidence))
@@ -137,6 +165,7 @@ def score_player(age=None, is_ghost=False, club=None, league=None,
             "youth": round(youth, 1),
             "production": round(production, 1),
             "asymmetry": round(asymmetry, 1),
+            "selection": round(selection, 1),
             "n_sources": n_sources or 1,
             "detection_count": detection_count or 1,
         },
@@ -152,3 +181,18 @@ if __name__ == "__main__":
                          n_sources=1, detection_count=79)
     print("Ghost 1x:", ghost_1x["score"], ghost_1x["breakdown"])
     print("Solid 79x:", solid["score"], solid["breakdown"])
+
+    # Il caso che Global ha davvero: nessuna statistica pubblicata da nessuno,
+    # ma quattro convocazioni nazionali documentate e una salita di categoria.
+    # Prima valeva quanto un nome visto una volta e basta.
+    from src.selezione_v2 import Persistenza
+    convocato = score_player(
+        age=None, is_ghost=False, club="Barranquilla F.C", stats={},
+        n_sources=1, detection_count=4,
+        selezione=Persistenza(quante=4, progressione=True, mesi_di_arco=22,
+                              categorie=["sub-17", "sub-19"]))
+    senza = score_player(age=None, is_ghost=False, club="Barranquilla F.C",
+                         stats={}, n_sources=1, detection_count=4)
+    print("Convocato 4x (sale di categoria):", convocato["score"],
+          convocato["breakdown"])
+    print("Stesso profilo, zero convocazioni:", senza["score"])
