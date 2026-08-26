@@ -110,6 +110,18 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
     if healed:
         print(f"heal_scores: ricalcolati {healed} profili con score NULL")
 
+    # Il cancello si ripassa su TUTTI, a ogni run, non solo su chi riceve una
+    # fonte nuova. Aggiunto il 26 ago 2026 con l'avvocato del diavolo
+    # (src/challenge_v2.py): una regola piu' severa che non tocca il passato
+    # lascia online proprio i profili che ha appena dichiarato non
+    # pubblicabili. Costa un ricalcolo in RAM su qualche centinaio di righe,
+    # zero rete e zero LLM — il prezzo giusto per non dover ricordare a mano
+    # di fare una migrazione ogni volta che una soglia cambia.
+    gate = db.reapply_gate()
+    if gate["ritirati"] or gate["ammessi"]:
+        print(f"gate v{db.GATE_VERSION}: {gate['esaminati']} esaminati · "
+              f"{gate['ritirati']} ritirati · {gate['ammessi']} ammessi")
+
     sources = load_registry()
     if limit_sources:
         sources = sources[:limit_sources]
