@@ -1,42 +1,36 @@
 #!/usr/bin/env python3
 """
-OB1 v2 — L'avvocato del diavolo del sistema su sé stesso.
+OB1 v2 — L'avvocato del diavolo: perché questa scheda NON dovrebbe esistere.
 
-Il problema che risolve, misurato il 26 agosto 2026 sul database di
-produzione (252 giocatori, 64 pubblicati come "VERIFICATO"):
+Divisione del lavoro con src/claims_v2.py, che è arrivato dopo:
 
-    profili con >= 2 fonti SOSTANZIALI ......  2 su 64
-    profili con ZERO fonti sostanziali ...... 42 su 64
-    profili la cui età non è scritta da
-      nessuna fonte .......................... 32 su 64
-    evidenze che non contengono nemmeno un
-      token identificante del giocatore ...... 25
+    claims_v2     cosa possiamo DIRE, e con quale prova, campo per campo
+                  ("il club lo scrive la federazione", "l'età non la scrive
+                  nessuno") — la parte affermativa
+    challenge_v2  perché la scheda non dovrebbe uscire COMUNQUE, anche se
+                  ogni singolo campo fosse provato — la parte negativa
 
-Il gate esistente conta DOMINI DISTINTI. Ma "Kevin Angulo Angulo – América
-S.A." ripetuto su cinque pagine della federazione colombiana più una pagina
-Transfermarkt che contiene solo il titolo ("Kévin Angulo - Player profile")
-fa due domini, supera il gate, e finisce in dashboard come "VERIFICATO — 2
-FONTI INDIPENDENTI". Nessuna delle due fonti dice quanti anni ha: il 17 è
-DEDOTTO dal fatto che la convocazione è Sub-17. È un'inferenza ragionevole
-presentata come un fatto osservato.
+Prima versione (26 ago 2026) faceva entrambe le cose, e sbagliava la prima:
+bocciava come "fonte non sostanziale" la riga
 
-Il caso che ha fatto scoppiare tutto: Yan Diomande, primo "in evidenza",
-score 53, "3 fonti indipendenti" — 15 anni, RB Leipzig. Ne ha 19 (14 nov
-2006) ed è al Real Madrid dal 6 agosto 2026 per una cifra record. Un
-giocatore da 140 milioni pubblicato come scoperta early non è un dettaglio
-sbagliato: è la negazione della promessa del prodotto.
+    "Juan José Fori Viveros – C.D Estudiantil"          [fcf.com.co]
 
-La differenza di approccio:
+perché corta. È la Federazione Colombiana che certifica in una convocazione
+ufficiale che quel ragazzo esiste e gioca lì: la prova d'identità più forte
+che possiamo avere. Confondere "testo breve" con "prova debole" buttava via
+il materiale migliore. Quei controlli sono passati a claims_v2, che guarda
+la COMPETENZA della fonte invece della lunghezza del testo.
 
-    gate classico     "ho abbastanza prove per pubblicare?"
-    avvocato del      "riesco a demolire questa scheda? se sì,
-    diavolo            non la pubblico — o la pubblico dicendo
-                       esattamente dove è debole"
+Qui restano solo i rilievi che nessuna prova per-campo può sollevare, perché
+riguardano la PREMESSA della scheda, non i suoi dati:
 
-Ogni contestazione qui è deterministica e pura: niente rete, niente LLM,
-niente DB. Si scrive una volta, si testa, e non può contraddire sé stessa
-run dopo run. Un LLM che giudica le proprie estrazioni sarebbe di nuovo il
-problema, non la soluzione.
+  - un giocatore di un club di cui scrive tutto il mondo non è una scoperta
+    "early", per quanto i suoi dati siano esatti (caso Yan Diomande: primo in
+    vetrina, e nel frattempo era passato al Real Madrid per 140 milioni);
+  - un club che è una descrizione e non un nome ("Unspecified Portuguese
+    Club") non si può telefonare — ed è il gesto che il prodotto promette.
+
+Deterministico e puro: niente rete, niente LLM, niente DB.
 """
 
 from __future__ import annotations
@@ -181,70 +175,15 @@ def contesta(giocatore: Dict[str, Any], evidenze: List[Dict[str, Any]]) -> List[
     `evidenze`:  lista di dict con raw_content, source_domain, source_url.
     """
     nome = giocatore.get("canonical_name") or giocatore.get("name") or ""
-    eta = giocatore.get("age")
     club = giocatore.get("club") or ""
     rilievi: List[Dict[str, str]] = []
 
-    blob = _norm(" ".join(str(e.get("raw_content") or "") for e in evidenze))
-    urls = " ".join(str(e.get("source_url") or "") for e in evidenze)
-
-    parlanti = [e for e in evidenze
-                if evidenza_parla_del_giocatore(e.get("raw_content"), nome)]
-    sostanziali = [e for e in parlanti
-                   if evidenza_e_sostanziale(e.get("raw_content"), nome)]
-    domini_sostanziali = {e.get("source_domain") for e in sostanziali if e.get("source_domain")}
-
-    # --- identità: le prove parlano davvero di questa persona? -------------
-    estranee = len(evidenze) - len(parlanti)
-    if evidenze and not parlanti:
-        rilievi.append({
-            "codice": "nessuna_prova_nomina_il_giocatore",
-            "gravita": BLOCCANTE,
-            "detta": f"nessuna delle {len(evidenze)} fonti contiene il nome in "
-                     f"forma identificante: non sono verificabili su di lui",
-        })
-    elif estranee:
-        rilievi.append({
-            "codice": "prove_che_non_lo_nominano",
-            "gravita": CAUTELA,
-            "detta": f"{estranee} fonti su {len(evidenze)} non lo nominano in "
-                     f"forma identificante: potrebbero parlare di un'altra persona",
-        })
-
-    # --- corroborazione: quante fonti dicono qualcosa, non solo il nome ----
-    if not domini_sostanziali:
-        rilievi.append({
-            "codice": "nessuna_fonte_sostanziale",
-            "gravita": BLOCCANTE,
-            "detta": "nessuna fonte dice nulla oltre al nome: elenchi e titoli "
-                     "di pagina provano che esiste, non un fatto su di lui",
-        })
-    elif len(domini_sostanziali) == 1:
-        rilievi.append({
-            "codice": "una_sola_fonte_sostanziale",
-            "gravita": CAUTELA,
-            "detta": f"un solo dominio dice qualcosa di concreto "
-                     f"({sorted(domini_sostanziali)[0]}): le altre confermano "
-                     f"solo che il nome esiste",
-        })
-
-    # --- i campi che pubblichiamo sono scritti da qualcuno? ----------------
-    if eta is not None and not _eta_nel_testo(eta, blob):
-        if _eta_deducibile_da_categoria(eta, urls):
-            rilievi.append({
-                "codice": "eta_dedotta_dalla_categoria",
-                "gravita": CAUTELA,
-                "detta": f"i {eta} anni non sono scritti da nessuna fonte: "
-                         f"coincidono con la categoria del torneo (Sub-{eta}), "
-                         f"quindi sono dedotti, non osservati",
-            })
-        else:
-            rilievi.append({
-                "codice": "eta_non_scritta_da_nessuna_fonte",
-                "gravita": BLOCCANTE,
-                "detta": f"i {eta} anni non compaiono in nessuna fonte e non "
-                         f"sono deducibili: valore senza origine",
-            })
+    # I rilievi su fonti e campi (quante fonti dicono qualcosa, se l'età è
+    # scritta o dedotta, se il club compare nei testi) NON stanno più qui:
+    # li fa src/claims_v2.py, che valuta la COMPETENZA della fonte invece
+    # della lunghezza del testo. Tenerne una seconda versione qui produceva
+    # il falso positivo che ha motivato lo split — una convocazione della
+    # federazione bocciata come "non sostanziale" perché è una riga sola.
 
     # Club che è una DESCRIZIONE, non un nome: "Unspecified Portuguese Club",
     # "Brazilian Serie A Club". Sono entrambi reali, in produzione, su schede
@@ -256,13 +195,6 @@ def contesta(giocatore: Dict[str, Any], evidenze: List[Dict[str, Any]]) -> List[
             "gravita": BLOCCANTE,
             "detta": f"'{club}' non è un club: è una descrizione. Non esiste "
                      f"un numero da chiamare",
-        })
-    elif club and not (_token(club) & set(blob.split())):
-        rilievi.append({
-            "codice": "club_non_scritto_da_nessuna_fonte",
-            "gravita": CAUTELA,
-            "detta": f"'{club}' non compare in nessuna fonte: da riverificare "
-                     f"prima di usarlo",
         })
 
     # --- la premessa del prodotto regge ancora? ---------------------------
@@ -292,81 +224,39 @@ def sopravvive(rilievi: List[Dict[str, str]]) -> bool:
 
 # --------------------------------------------------------------- self-test
 if __name__ == "__main__":
-    # I casi vengono dal database di produzione reale, non inventati.
+    # Dopo lo split con claims_v2, qui restano SOLO i rilievi di premessa.
 
-    # 1) Kevin Angulo: 2 domini, nessuna sostanza, età dedotta da "sub-17".
-    ev_angulo = [
-        {"raw_content": "Kevin Angulo Angulo – América S.A. (Cat Formación)",
-         "source_domain": "fcf.com.co",
-         "source_url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo/"},
-        {"raw_content": "Kévin Angulo - Player profile 26/27",
-         "source_domain": "transfermarkt.com",
-         "source_url": "https://www.transfermarkt.com/kevin-angulo/profil/spieler/659787"},
-    ]
-    r = contesta({"canonical_name": "Kevin Angulo Angulo", "age": 17,
-                  "club": "América S.A."}, ev_angulo)
-    codici = {x["codice"] for x in r}
-    assert "nessuna_fonte_sostanziale" in codici, codici
-    assert "eta_dedotta_dalla_categoria" in codici, codici
-    assert not sopravvive(r), "due elenchi non possono valere come verifica"
-
-    # 2) Yan Diomande: il club da solo smentisce la premessa del prodotto.
-    r = contesta({"canonical_name": "Yan Diomande", "age": 15, "club": "RB Leipzig"},
-                 [{"raw_content": "Na atual temporada foram 12 gols e nove assistências.",
-                   "source_domain": "placar.com.br", "source_url": "https://placar.com.br/x"}])
-    codici = {x["codice"] for x in r}
-    assert "gia_coperto_da_tutti" in codici, codici
-    # e la fonte non lo nomina nemmeno
-    assert "nessuna_prova_nomina_il_giocatore" in codici, codici
+    # 1) Il caso Diomande: il club da solo smentisce la promessa "early".
+    #    Nessun controllo sui dati poteva prenderlo — i dati non c'entrano.
+    r = contesta({"canonical_name": "Yan Diomande", "age": 19, "club": "RB Leipzig"},
+                 [{"raw_content": "Yan Diomande, 19 anni, ha lasciato il RB Leipzig.",
+                   "source_domain": "latimes.com", "source_url": "https://x"}])
+    assert {x["codice"] for x in r} == {"gia_coperto_da_tutti"}, r
     assert not sopravvive(r)
 
-    # 3) Contaminazione tra persone: "Juan José" non identifica nessuno.
-    assert not evidenza_parla_del_giocatore(
-        "Juan José Cataño Vahos – Envigado F.C.- Inferiores", "Juan José Fori Viveros")
-    assert evidenza_parla_del_giocatore(
-        "Juan José Fori Viveros – C.D Estudiantil", "Juan José Fori Viveros")
-
-    # 4) Il lato opposto — una scheda buona non deve essere bocciata.
-    ev_buone = [
-        {"raw_content": "Il difensore Mattia Verdi, 18 anni, ha esordito con la "
-                        "prima squadra del Pescara segnando il gol del pareggio "
-                        "nella sfida di ieri contro il Rimini.",
-         "source_domain": "corrieredellosport.it", "source_url": "https://x.it/a"},
-        {"raw_content": "Mattia Verdi resta il profilo piu' seguito del vivaio: "
-                        "18 anni, quattro presenze in Serie C con il Pescara e una "
-                        "convocazione in nazionale giovanile.",
-         "source_domain": "tuttomercatoweb.com", "source_url": "https://y.it/b"},
-    ]
-    r = contesta({"canonical_name": "Mattia Verdi", "age": 18, "club": "Pescara"}, ev_buone)
-    assert sopravvive(r), [x["codice"] for x in r]
-    assert not r, [x["codice"] for x in r]
-
-    # 5) Una sola fonte sostanziale: si pubblica, ma il rilievo si vede.
-    r = contesta({"canonical_name": "Mattia Verdi", "age": 18, "club": "Pescara"},
-                 ev_buone[:1] + [{"raw_content": "Mattia Verdi – Pescara",
-                                  "source_domain": "lega-pro.com",
-                                  "source_url": "https://z.it/c"}])
-    assert sopravvive(r)
-    assert {x["codice"] for x in r} == {"una_sola_fonte_sostanziale"}, r
-
-    # 6) Titolo di pagina + URL non sono una fonte sostanziale: senza spogliare
-    #    l'URL, le sue parole da sole superavano la soglia (caso Douglas Telles).
-    assert not evidenza_e_sostanziale(
-        "Douglas Telles - Player profile\nURL Source: "
-        "https://www.transfermarkt.com/douglas-telles/profil/spieler/1220787",
-        "Douglas Telles")
-
-    # 7) Club che è una descrizione, non un nome (casi reali in produzione).
+    # 2) Club che è una descrizione: non c'è un numero da chiamare, ed è il
+    #    gesto che il prodotto promette di rendere possibile.
     for finto in ("Unspecified Portuguese Club", "Brazilian Serie A Club"):
-        r = contesta({"canonical_name": "Tizio Caio", "age": 17, "club": finto},
-                     [{"raw_content": f"Tizio Caio, 17 anni, ha esordito ieri "
-                                      f"segnando una doppietta nel torneo giovanile.",
-                       "source_domain": "a.it", "source_url": "https://a.it/1"},
-                      {"raw_content": "Tizio Caio resta il piu' seguito del vivaio "
-                                      "con 17 anni e quattro presenze stagionali.",
-                       "source_domain": "b.it", "source_url": "https://b.it/2"}])
-        assert "club_e_una_descrizione_non_un_nome" in {x["codice"] for x in r}, (finto, r)
-        assert not sopravvive(r), finto
+        r = contesta({"canonical_name": "Tizio Caio", "age": 17, "club": finto}, [])
+        assert {x["codice"] for x in r} == {"club_e_una_descrizione_non_un_nome"}, (finto, r)
+        assert not sopravvive(r)
 
-    print("OK challenge_v2: l'avvocato del diavolo boccia i casi reali di "
-          "produzione e lascia passare una scheda che regge")
+    # 3) Il lato opposto, quello che la PRIMA versione sbagliava: una
+    #    convocazione della federazione è una riga sola, e deve passare.
+    #    Se questo test si rompe, siamo tornati a confondere "testo breve"
+    #    con "prova debole".
+    r = contesta({"canonical_name": "Juan José Fori Viveros", "age": 17,
+                  "club": "C.D Estudiantil"},
+                 [{"raw_content": "Juan José Fori Viveros – C.D Estudiantil",
+                   "source_domain": "fcf.com.co",
+                   "source_url": "https://fcf.com.co/convocatoria-sub-17"}])
+    assert r == [], r
+    assert sopravvive(r)
+
+    # 4) Un club normale non fa scattare nulla.
+    r = contesta({"canonical_name": "Mattia Verdi", "age": 18, "club": "Pescara"}, [])
+    assert r == [], r
+
+    print("OK challenge_v2: restano i rilievi di PREMESSA (club gia' coperto "
+          "da tutti, club che e' una descrizione). Una convocazione federale "
+          "passa: la qualita' della prova la valuta claims_v2.")
