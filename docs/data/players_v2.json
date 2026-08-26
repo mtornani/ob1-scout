@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-26T20:35:27.214146+00:00",
+ "generated_at": "2026-08-26T20:47:57.471693+00:00",
  "version": "1.0.0",
- "build": "c122a1c",
+ "build": "1a5cdb9",
  "total": 292,
  "publishable": 87,
  "tracking": 205,
@@ -24396,6 +24396,104 @@
    }
   },
   {
+   "name": "Jesús Fortea",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Jesús Fortea\nDefensa Lateral Derecho 19 26/03/2007",
+     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Jesús Fortea\nDefensa Lateral Derecho 19 26/03/2007",
+     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defensa Lateral Derecho",
+   "club": null,
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb",
+     "seen": "2026-08-21T13:26:54.585139"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/jesus-fortea/profil/spieler/937950",
+     "seen": "2026-08-26T20:40:05.526677"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-21T13:26:54.585139",
+   "last_seen": "2026-08-26T20:40:05.526677",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Young (19 yo)",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Вук ДРАШ",
    "age": null,
    "age_stato": "assente",
@@ -26241,101 +26339,6 @@
     ],
     "next_steps_en": [
      "Verify the current club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Jesús Fortea",
-   "age": 19,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Jesús Fortea\nDefensa Lateral Derecho 19 26/03/2007",
-     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Jesús Fortea\nDefensa Lateral Derecho 19 26/03/2007",
-     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Defensa Lateral Derecho",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb",
-     "seen": "2026-08-21T13:26:54.585139"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola,eta_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-21T13:26:54.585139",
-   "last_seen": "2026-08-21T13:26:54.585139",
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Giovane (19 anni)"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Young (19 yo)"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
    }
