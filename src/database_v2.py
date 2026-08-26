@@ -27,6 +27,7 @@ from urllib.parse import urlparse
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src.challenge_v2 import contesta, sopravvive
 from src.claims_v2 import stabilisci, pubblicabile as pubblicabile_da_claims
+from src.selezione_v2 import leggi_dal_registro as leggi_selezione
 
 # importabile sia come package sia da `python src/database_v2.py` diretto —
 # senza, il lazy import di src.scoring_v2/src.outcomes_v2 più sotto fallisce
@@ -114,6 +115,27 @@ def _load_source_tiers() -> dict:
         pass
     _SOURCE_TIERS_CACHE = tiers
     return tiers
+
+
+def _selezione_json(p) -> str:
+    """
+    La persistenza di selezione, in una forma che l'export può leggere senza
+    ricalcolare. Vuoto = nessuna convocazione, e resta NULL in colonna.
+    """
+    if not p:
+        return ""
+    from src.selezione_v2 import frase
+    return json.dumps({
+        "quante": p.quante,
+        "frase": frase(p),
+        "dal": p.dal,
+        "al": p.al,
+        "categorie": p.categorie,
+        "progressione": p.progressione,
+        "mesi_di_arco": p.mesi_di_arco,
+        "eventi": [{"data": e.data, "categoria": e.categoria,
+                    "fonte": e.federazione, "url": e.url} for e in p.eventi],
+    }, ensure_ascii=False)
 
 
 def has_primary_source(domains) -> bool:
@@ -380,7 +402,8 @@ class OB1DatabaseV2:
                     created_at TEXT,
                     coverage_tier TEXT DEFAULT 'standard',
                     corr_attempts INTEGER DEFAULT 0,
-                    last_corr_attempt_at TEXT
+                    last_corr_attempt_at TEXT,
+                    selection_json TEXT
                 )
             """)
             # Migrazione leggera per DB v2 creati prima delle colonne notified
@@ -396,6 +419,14 @@ class OB1DatabaseV2:
                 c.execute("ALTER TABLE players ADD COLUMN corr_attempts INTEGER DEFAULT 0")
             if "last_corr_attempt_at" not in cols:
                 c.execute("ALTER TABLE players ADD COLUMN last_corr_attempt_at TEXT")
+            # Persistenza di selezione (2026-08-26): si ricalcola a ogni run
+            # dalle evidenze, ma si salva perché la rilegge l'export — senza
+            # colonna dovrebbe rifare il giro su tutte le evidenze di ogni
+            # giocatore a ogni invocazione, e soprattutto potrebbe calcolarla
+            # in modo diverso da qui, cioè mostrare una classifica che non è
+            # quella su cui il gate ha lavorato.
+            if "selection_json" not in cols:
+                c.execute("ALTER TABLE players ADD COLUMN selection_json TEXT")
             c.execute("""
                 CREATE TABLE IF NOT EXISTS evidences (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -572,8 +603,25 @@ class OB1DatabaseV2:
         has_primary = has_primary_source(domains)
         low_coverage = is_low_coverage_region(region)
         idn = assess_identity(name, club, age, n_sources, has_primary, low_coverage)
+
+        # Le evidenze servono a tre cose (persistenza di selezione, claim,
+        # avvocato del diavolo): si leggono una volta sola, qui.
+        evidenze = [{"raw_content": r[0], "source_domain": r[1], "source_url": r[2],
+                     "observed_at": r[3], "origin": r[4]}
+                    for r in conn.execute(
+                        "SELECT raw_content, source_domain, source_url, "
+                        "observed_at, origin FROM evidences WHERE player_id=?",
+                        (pid,)).fetchall()]
+
+        # Quante volte una federazione ha scelto questo ragazzo, e se nel
+        # tempo è salito di categoria. È il segnale che Global vede davvero —
+        # le statistiche no — e per 34 giocatori su 291 era già in database
+        # senza che nessuno lo contasse. Vedi src/selezione_v2.py.
+        persistenza = leggi_selezione(evidenze)
+
         sc = score_player(age=age, is_ghost=bool(is_ghost), club=club, league=league,
-                          stats=stats, n_sources=n_sources, detection_count=ev_count)
+                          stats=stats, n_sources=n_sources, detection_count=ev_count,
+                          selezione=persistenza)
 
         # L'avvocato del diavolo (src/challenge_v2.py) — l'ULTIMO cancello,
         # dopo il gate classico. Aggiunto il 26 ago 2026: assess_identity()
@@ -589,12 +637,6 @@ class OB1DatabaseV2:
         #
         # I rilievi sopravvivono in review_flags accanto ai flag storici: chi
         # legge il DB vede PERCHE' una scheda non e' uscita, senza rieseguire.
-        evidenze = [{"raw_content": r[0], "source_domain": r[1], "source_url": r[2],
-                     "observed_at": r[3], "origin": r[4]}
-                    for r in conn.execute(
-                        "SELECT raw_content, source_domain, source_url, "
-                        "observed_at, origin FROM evidences WHERE player_id=?",
-                        (pid,)).fetchall()]
         soggetto = {"canonical_name": name, "age": age, "club": club, "stats": stats}
 
         # La soglia di pubblicazione è quella di claims_v2: si esce quando
@@ -617,12 +659,12 @@ class OB1DatabaseV2:
 
         conn.execute("""UPDATE players SET evidence_count=?, identity_complete=?,
                         corroborated=?, publishable=?, review_flags=?, score=?, confidence=?,
-                        coverage_tier=?
+                        coverage_tier=?, selection_json=?
                         WHERE id=?""",
                      (ev_count, 1 if idn["identity_complete"] else 0,
                       1 if idn["corroborated"] else 0, 1 if publishable else 0,
                       flags, sc["score"], sc["confidence"],
-                      idn["coverage_tier"], pid))
+                      idn["coverage_tier"], _selezione_json(persistenza), pid))
 
     def ingest_observation(self, obs: dict) -> tuple:
         """
