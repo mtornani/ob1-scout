@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-26T02:18:57.353875+00:00",
+ "generated_at": "2026-08-26T07:35:35.672767+00:00",
  "version": "1.0.0",
- "build": "a44afc1",
- "total": 285,
+ "build": "98eaf13",
+ "total": 286,
  "publishable": 64,
- "tracking": 221,
- "shown": 285,
+ "tracking": 222,
+ "shown": 286,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -15075,6 +15075,65 @@
    }
   },
   {
+   "name": "Gomolemo Kekana",
+   "age": null,
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "South Africa",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "nation.africa",
+     "url": "https://nation.africa/kenya/sports/football/south-africa-savour-maiden-u-20-afcon-crown-5047368",
+     "seen": "2026-08-26T07:26:47.780016"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-26T07:26:47.780016",
+   "last_seen": "2026-08-26T07:26:47.780016",
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "name": "Josey Casa-Grande",
    "age": 20,
    "position": "Arquero",
@@ -15431,6 +15490,341 @@
    "coverage_tier": "standard",
    "first_detected": "2026-08-26T02:09:29.229545",
    "last_seen": "2026-08-26T02:09:29.229545",
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Patricio Pernicone",
+   "age": 25,
+   "position": "Defensa Central",
+   "club": null,
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 1,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/juventud/babjc",
+     "seen": "2026-07-31T04:02:04.097438"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/patricio-pernicone/profil/spieler/856529",
+     "seen": "2026-08-26T07:26:47.780016"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-26T07:26:47.780016",
+   "last_seen": "2026-08-26T07:26:47.780016",
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Fabrizio Correa",
+   "age": 25,
+   "position": "Arquero",
+   "club": null,
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 1,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/juventud/babjc",
+     "seen": "2026-07-31T04:02:04.097438"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/fabrizio-correa/profil/spieler/743953",
+     "seen": "2026-08-26T07:26:47.780016"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-26T07:26:47.780016",
+   "last_seen": "2026-08-26T07:26:47.780016",
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Mahmoud Abunada",
+   "age": 26,
+   "position": "Arquero",
+   "club": null,
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 1,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "origin.app.promiedos.com.ar",
+     "url": "https://origin.app.promiedos.com.ar/team/qatar/fahj",
+     "seen": "2026-08-06T14:55:12.859969"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/mahmoud-abunada/profil/spieler/669629",
+     "seen": "2026-08-26T07:26:47.780016"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-26T07:26:47.780016",
+   "last_seen": "2026-08-26T07:26:47.780016",
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Salah Zakaria",
+   "age": 27,
+   "position": "Arquero",
+   "club": null,
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 1,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "origin.app.promiedos.com.ar",
+     "url": "https://origin.app.promiedos.com.ar/team/qatar/fahj",
+     "seen": "2026-08-06T14:55:12.859969"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/salah-zakaria/profil/spieler/632912",
+     "seen": "2026-08-26T07:26:47.780016"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-26T07:26:47.780016",
+   "last_seen": "2026-08-26T07:26:47.780016",
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Meshaal Barsham",
+   "age": 28,
+   "position": "Arquero",
+   "club": null,
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 1,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "origin.app.promiedos.com.ar",
+     "url": "https://origin.app.promiedos.com.ar/team/qatar/fahj",
+     "seen": "2026-08-06T14:55:12.859969"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/meshaal-barsham/profil/spieler/560423",
+     "seen": "2026-08-26T07:26:47.780016"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-26T07:26:47.780016",
+   "last_seen": "2026-08-26T07:26:47.780016",
    "assessment": {
     "pros": [
      "Identità confermata da 2 fonti indipendenti"
@@ -15862,316 +16256,6 @@
      "domain": "promiedos.com.ar",
      "url": "https://www.promiedos.com.ar/team/juventud/babjc",
      "seen": "2026-07-31T04:02:04.097438"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Patricio Pernicone",
-   "age": 25,
-   "position": "Defensa Central",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 0,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/team/juventud/babjc",
-     "seen": "2026-07-31T04:02:04.097438"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Fabrizio Correa",
-   "age": 25,
-   "position": "Arquero",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 0,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/team/juventud/babjc",
-     "seen": "2026-07-31T04:02:04.097438"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Mahmoud Abunada",
-   "age": 26,
-   "position": "Arquero",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 0,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "origin.app.promiedos.com.ar",
-     "url": "https://origin.app.promiedos.com.ar/team/qatar/fahj",
-     "seen": "2026-08-06T14:55:12.859969"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Salah Zakaria",
-   "age": 27,
-   "position": "Arquero",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 0,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "origin.app.promiedos.com.ar",
-     "url": "https://origin.app.promiedos.com.ar/team/qatar/fahj",
-     "seen": "2026-08-06T14:55:12.859969"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Meshaal Barsham",
-   "age": 28,
-   "position": "Arquero",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 0,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "origin.app.promiedos.com.ar",
-     "url": "https://origin.app.promiedos.com.ar/team/qatar/fahj",
-     "seen": "2026-08-06T14:55:12.859969"
     }
    ],
    "stats": {
