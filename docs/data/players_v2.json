@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-25T19:18:54.698695+00:00",
+ "generated_at": "2026-08-26T02:18:57.353875+00:00",
  "version": "1.0.0",
- "build": "cbfbf1e",
+ "build": "a44afc1",
  "total": 285,
- "publishable": 63,
- "tracking": 222,
+ "publishable": 64,
+ "tracking": 221,
  "shown": 285,
  "tracking_capped": 0,
  "outcomes": {
@@ -3566,6 +3566,70 @@
    }
   },
   {
+   "name": "Darío Osorio",
+   "age": 20,
+   "position": "mediocampista ofensivo",
+   "club": "Midtjylland",
+   "league": null,
+   "region": "Chile",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "chile.as.com",
+     "url": "https://chile.as.com/futbol/las-jovenes-promesas-de-la-seleccion-chilena-el-futuro-de-la-roja-n/",
+     "seen": "2026-08-25T19:09:27.983861"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/dario-osorio/profil/spieler/881116",
+     "seen": "2026-08-26T02:09:29.229545"
+    }
+   ],
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-25T19:09:27.983861",
+   "last_seen": "2026-08-26T02:09:29.229545",
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "name": "Fabricio Iacovich",
    "age": 24,
    "position": "Arquero",
@@ -5580,63 +5644,6 @@
     ],
     "pros_en": [
      "Young (19 yo)",
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Darío Osorio",
-   "age": 20,
-   "position": "mediocampista ofensivo",
-   "club": "Midtjylland",
-   "league": null,
-   "region": "Chile",
-   "gender": "male",
-   "score": 5,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 4.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "chile.as.com",
-     "url": "https://chile.as.com/futbol/las-jovenes-promesas-de-la-seleccion-chilena-el-futuro-de-la-roja-n/",
-     "seen": "2026-08-25T19:09:27.983861"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-25T19:09:27.983861",
-   "last_seen": "2026-08-25T19:09:27.983861",
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
      "Minor context: potentially underpriced"
     ],
     "cautions_en": [
@@ -15316,6 +15323,140 @@
    }
   },
   {
+   "name": "Nicolás Ruotola",
+   "age": 21,
+   "position": "Arquero",
+   "club": null,
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 1,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/juventud/babjc",
+     "seen": "2026-07-31T04:02:04.097438"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/nicolas-ruotola/profil/spieler/1134754",
+     "seen": "2026-08-26T02:09:29.229545"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-26T02:09:29.229545",
+   "last_seen": "2026-08-26T02:09:29.229545",
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Agustín Pérez",
+   "age": 22,
+   "position": "Defensa Central",
+   "club": null,
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 1,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/juventud/babjc",
+     "seen": "2026-07-31T04:02:04.097438"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/agustin-perez/profil/spieler/902005",
+     "seen": "2026-08-26T02:09:29.229545"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-26T02:09:29.229545",
+   "last_seen": "2026-08-26T02:09:29.229545",
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Fran González",
    "age": 21,
    "position": "Arquero",
@@ -15637,68 +15778,6 @@
    }
   },
   {
-   "name": "Nicolás Ruotola",
-   "age": 21,
-   "position": "Arquero",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 0,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/team/juventud/babjc",
-     "seen": "2026-07-31T04:02:04.097438"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "name": "Mauricio Rodríguez",
    "age": 21,
    "position": "Defensa Lateral Derecho",
@@ -15762,68 +15841,6 @@
   },
   {
    "name": "David Morosini",
-   "age": 22,
-   "position": "Defensa Central",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 0,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/team/juventud/babjc",
-     "seen": "2026-07-31T04:02:04.097438"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Agustín Pérez",
    "age": 22,
    "position": "Defensa Central",
    "club": null,
