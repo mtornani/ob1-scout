@@ -206,6 +206,27 @@ def _test() -> None:
     # Una pagina qualunque del sito che non è una scheda
     assert leggi_profilo("Title: Transfermarkt - Market values\n", "") is None
 
+    # --- la GIUNTURA, non solo la parte (run #187, 27 ago 2026) ---
+    # Questo parser ha bisogno della pagina INTERA. deep_read_urls in
+    # scraper_global taglia a 1500 caratteri, perché quel testo è destinato
+    # al modello; ma su Transfermarkt i primi 1500 sono tutti menu di
+    # navigazione e il blocco dati comincia intorno al carattere 4900.
+    # Collegato per sbaglio al testo troncato, il parser rispondeva None su
+    # OGNI scheda: nel primo run dopo il merge corr_via_parser era 0 su 5,
+    # con una scheda TM davvero corroborata in quel run. Il parser era
+    # giusto e la giuntura sbagliata — testata la parte, non il punto in cui
+    # si incastra. Chi lo ricollega deve passargli read_raw(), non
+    # deep_read_urls().
+    menu = "[NAVIGAZIONE](https://www.transfermarkt.com/x) " * 200   # ~2000 char
+    assert len(menu) > 1500
+    pagina = ("Title: Kauan Toledo - Player profile\n" + menu +
+              "*   Date of birth/Age:  15/04/2006 (20)\n")
+    assert leggi_profilo(pagina[:1500], "") is None, \
+        "col taglio a 1500 il parser non vede i dati: e' il bug del run #187"
+    o = leggi_profilo(pagina, "")
+    assert o and o["age"] == 20, \
+        f"sulla pagina intera deve leggere: {o}"
+
     # e_scheda_tm su tutti i TLD visti in archivio
     for tld in ("com", "us", "es", "de", "pl", "pe"):
         assert e_scheda_tm(f"https://www.transfermarkt.{tld}/x/profil/spieler/1"), tld
