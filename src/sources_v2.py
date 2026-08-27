@@ -32,7 +32,16 @@ _SKIP_HINT = re.compile(r"(facebook|twitter|instagram|youtube|tiktok|whatsapp|"
                         # controllo "ha uno slug" ed entrerebbero come se
                         # fossero contenuto (osservato su fcf.com.co e
                         # the-aiff.com, 26 ago 2026).
-                        r"/wp-json/|/feed/?(\?|$)|/wp-sitemap|/sitemap\.xml|"
+                        r"/wp-json/|/feed/?(\?|$|#)|sitemap[-.]|"
+                        # Misurando l'impronta delle 83 fonti (26 ago 2026,
+                        # scripts/impronta_fonti.py) sono usciti altri due
+                        # generi di falso positivo: pagine di login
+                        # (tap.info.tn, kickoff.com — un indice a volte
+                        # elenca anche "accedi/registrati" fra i suoi link)
+                        # e la home page nuda sotto un percorso non-radice
+                        # (the-afc.com/en/home.html: _has_article_path la
+                        # lasciava passare perché lunga 12 caratteri).
+                        r"/(login|sign_in|signin|register)(/|\?|$)|/home\.html?(\?|$)|"
                         r"\.(jpg|jpeg|png|gif|webp|svg|pdf|css|js|ico)(\?|$))", re.I)
 
 
@@ -323,6 +332,21 @@ def _test() -> None:
         "[Come evitare gli error di formazione U17](https://example.org/2026/08/26/error-formazione-u17)\n"
     )
     assert parse_index(pagina_vera, "example.org") != []
+
+    # 7. Misurando le 83 fonti (scripts/impronta_fonti.py, 26 ago 2026) sono
+    #    usciti altri due generi di rumore: pagine di login/registrazione
+    #    (tap.info.tn, kickoff.com) e un altro indice citato DENTRO
+    #    l'indice — sitemap che rimanda a un altro file sitemap
+    #    (itatiaia.com.br, righttodream.com) invece che a un articolo.
+    rumore = """<rss><channel>
+      <item><link>https://example.org/user/sign_in</link></item>
+      <item><link>https://example.org/login/ar</link></item>
+      <item><link>https://example.org/sitemap-news.xml</link></item>
+      <item><link>https://example.org/en/home.html</link></item>
+      <item><link>https://example.org/2026/08/26/vero-articolo-sub17</link></item>
+    </channel></rss>"""
+    trovati = parse_index(rumore, "example.org")
+    assert trovati == ["https://example.org/2026/08/26/vero-articolo-sub17"], trovati
 
     print("sources_v2: ok")
 
