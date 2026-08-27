@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-08-27T20:26:23.495852+00:00",
+ "generated_at": "2026-08-27T22:47:36.423047+00:00",
  "version": "1.0.0",
- "build": "22b4e9f",
- "total": 294,
- "publishable": 88,
- "tracking": 206,
- "shown": 294,
+ "build": "a0fab73",
+ "total": 298,
+ "publishable": 89,
+ "tracking": 209,
+ "shown": 298,
  "tracking_capped": 0,
  "outcomes": {
-  "checked": 0,
-  "avg_lead_time_days": null
+  "checked": 1,
+  "avg_lead_time_days": 2.0
  },
  "players": [
   {
@@ -8407,6 +8407,106 @@
    }
   },
   {
+   "name": "Andrés Cuenca",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Andrés Cuenca\nDefensa Central 19 11/06/2007",
+     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Andrés Cuenca Cejudo, 19 anni, Sporting Gijón",
+     "url": "https://www.transfermarkt.us/andres-cuenca/profil/spieler/962111"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Andrés Cuenca\nDefensa Central 19 11/06/2007",
+     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defensa Central",
+   "club": "Sporting Gijón",
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 9,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb",
+     "seen": "2026-08-21T13:26:54.585139"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/andres-cuenca/profil/spieler/962111",
+     "seen": "2026-08-27T22:30:15.991675"
+    }
+   ],
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-21T13:26:54.585139",
+   "last_seen": "2026-08-27T22:30:15.991675",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (19 yo)",
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "name": "Kaio Jorge",
    "age": null,
    "age_stato": "assente",
@@ -13995,6 +14095,110 @@
    }
   },
   {
+   "name": "Enzo Fernández",
+   "age": 21,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "GZH — Grupo RBS (Rio Grande do Sul)",
+     "tipo": "local_press",
+     "citazione": "Enzo Fernández, volante do Benfica e à época com 21 anos, foi considerado o melhor jogador jovem do torneio",
+     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "GZH — Grupo RBS (Rio Grande do Sul)",
+     "tipo": "local_press",
+     "citazione": "Enzo Fernández, volante do Benfica e à época com 21 anos, foi considerado o melhor jogador jovem do torneio",
+     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "GZH — Grupo RBS (Rio Grande do Sul)",
+     "tipo": "local_press",
+     "citazione": "Enzo Fernández, volante do Benfica e à época com 21 anos, foi considerado o melhor jogador jovem do torneio",
+     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "midfielder",
+   "club": "Benfica",
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "gauchazh.clicrbs.com.br",
+     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html",
+     "seen": "2026-08-25T02:03:52.774865"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/enzo-fernandez/profil/spieler/648195",
+     "seen": "2026-08-25T07:26:08.819289"
+    },
+    {
+     "domain": "placar.com.br",
+     "url": "https://placar.com.br/ultimas-noticias/",
+     "seen": "2026-08-27T22:30:15.991675"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,gia_coperto_da_tutti",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-25T02:03:52.774865",
+   "last_seen": "2026-08-27T22:30:15.991675",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 3 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 3 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "João Pedro Murilo",
    "age": null,
    "age_stato": "assente",
@@ -14852,105 +15056,6 @@
    "coverage_tier": "standard",
    "first_detected": "2026-08-21T07:24:39.977541",
    "last_seen": "2026-08-21T13:26:54.585139",
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Enzo Fernández",
-   "age": 21,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "GZH — Grupo RBS (Rio Grande do Sul)",
-     "tipo": "local_press",
-     "citazione": "Enzo Fernández, volante do Benfica e à época com 21 anos, foi considerado o melhor jogador jovem do torneio",
-     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "GZH — Grupo RBS (Rio Grande do Sul)",
-     "tipo": "local_press",
-     "citazione": "Enzo Fernández, volante do Benfica e à época com 21 anos, foi considerado o melhor jogador jovem do torneio",
-     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html"
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "GZH — Grupo RBS (Rio Grande do Sul)",
-     "tipo": "local_press",
-     "citazione": "Enzo Fernández, volante do Benfica e à época com 21 anos, foi considerado o melhor jogador jovem do torneio",
-     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "midfielder",
-   "club": "Benfica",
-   "league": null,
-   "region": "Brazil",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "gauchazh.clicrbs.com.br",
-     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html",
-     "seen": "2026-08-25T02:03:52.774865"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/enzo-fernandez/profil/spieler/648195",
-     "seen": "2026-08-25T07:26:08.819289"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,gia_coperto_da_tutti",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-25T02:03:52.774865",
-   "last_seen": "2026-08-25T07:26:08.819289",
    "selezione": {},
    "assessment": {
     "pros": [
@@ -26374,101 +26479,6 @@
    }
   },
   {
-   "name": "Andrés Cuenca",
-   "age": 19,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Andrés Cuenca\nDefensa Central 19 11/06/2007",
-     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Andrés Cuenca\nDefensa Central 19 11/06/2007",
-     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Defensa Central",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb",
-     "seen": "2026-08-21T13:26:54.585139"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola,eta_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-21T13:26:54.585139",
-   "last_seen": "2026-08-21T13:26:54.585139",
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Giovane (19 anni)"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Young (19 yo)"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "name": "Jon Martín",
    "age": 20,
    "age_stato": "dichiarato",
@@ -26722,6 +26732,398 @@
    "coverage_tier": "standard",
    "first_detected": "2026-08-25T02:03:52.774865",
    "last_seen": "2026-08-25T02:03:52.774865",
+   "selezione": {},
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "name": "Fermín López",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Placar",
+     "tipo": "national_press",
+     "citazione": "Com gols de Raphinha e Fermín López, time catalão faz 2 a 0",
+     "url": "https://placar.com.br/ultimas-noticias/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "placar.com.br",
+     "url": "https://placar.com.br/ultimas-noticias/",
+     "seen": "2026-08-27T22:30:15.991675"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-27T22:30:15.991675",
+   "last_seen": "2026-08-27T22:30:15.991675",
+   "selezione": {},
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "name": "Unai Simón",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Placar",
+     "tipo": "national_press",
+     "citazione": "superar as defesas de Unai Simón",
+     "url": "https://placar.com.br/ultimas-noticias/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "placar.com.br",
+     "url": "https://placar.com.br/ultimas-noticias/",
+     "seen": "2026-08-27T22:30:15.991675"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-27T22:30:15.991675",
+   "last_seen": "2026-08-27T22:30:15.991675",
+   "selezione": {},
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "name": "Bradley Barcola",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Placar",
+     "tipo": "national_press",
+     "citazione": "Bradley Barcola, Gabriel Martinelli e Enzo Fernández são só alguns dos jogadores",
+     "url": "https://placar.com.br/ultimas-noticias/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "placar.com.br",
+     "url": "https://placar.com.br/ultimas-noticias/",
+     "seen": "2026-08-27T22:30:15.991675"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-27T22:30:15.991675",
+   "last_seen": "2026-08-27T22:30:15.991675",
+   "selezione": {},
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "name": "Gabriel Martinelli",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Placar",
+     "tipo": "national_press",
+     "citazione": "Bradley Barcola, Gabriel Martinelli e Enzo Fernández são só alguns dos jogadores",
+     "url": "https://placar.com.br/ultimas-noticias/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "placar.com.br",
+     "url": "https://placar.com.br/ultimas-noticias/",
+     "seen": "2026-08-27T22:30:15.991675"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-27T22:30:15.991675",
+   "last_seen": "2026-08-27T22:30:15.991675",
    "selezione": {},
    "assessment": {
     "pros": [],
