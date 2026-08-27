@@ -139,6 +139,16 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
               f"{gate['ritirati']} ritirati · {gate['ammessi']} ammessi")
 
     sources = load_registry()
+    # Turno di scansione (27 ago 2026): prima le fonti mai scansionate, poi
+    # quelle che aspettano da più tempo. Il ciclo di discovery qui sotto si
+    # ferma sul budget LLM (`break`), e finché l'ordine era quello fisso del
+    # registro si fermava SEMPRE nello stesso punto: 38 fonti primary su 67
+    # non erano mai state scansionate nemmeno una volta (contate sulle
+    # seen_items di produzione — tutta l'Asia, tutte e 4 le confederazioni,
+    # tutte e 4 le accademie). Vedi OB1DatabaseV2.sources_in_scan_order.
+    # Applicato PRIMA di limit_sources: con --limit-sources si vuole comunque
+    # il turno corrente, non ogni volta la stessa testa del registro.
+    sources = db.sources_in_scan_order(sources)
     if limit_sources:
         sources = sources[:limit_sources]
 
@@ -253,6 +263,13 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
             stats["sources_skipped_budget"] += 1
             break
         new_urls = await monitor.new_items(src)
+        # Segnata SUBITO, prima di qualunque `continue`: una fonte guardata è
+        # guardata anche se non aveva niente di nuovo, ed è proprio quel caso
+        # che deve cedere il turno alle altre al prossimo run. Se si segnasse
+        # solo quando produce, le fonti a vuoto resterebbero per sempre
+        # "mai scansionate" e monopolizzerebbero la testa della coda.
+        db.record_source_scan(src["id"])
+        stats["sources_scanned"] += 1
         new_urls = new_urls[:max_articles]
         if not new_urls:
             continue
@@ -386,6 +403,20 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
     print("=== INGEST v2 ===")
     print(f"budget LLM: {llm_budget} · usate: {calls_used}")
     print(f"ricerca: {'Jina Search (primaria)' if scraper.jina_api_key else 'ddgs (Jina non configurata)'}")
+    # Copertura del registro: quante fonti scansionabili non sono ancora mai
+    # state guardate. Al 27 ago 2026 erano 38 su 67 — invisibili, perché
+    # nessuna statistica diceva "questa parte del registro non la tocchiamo
+    # mai". Deve scendere verso 0 nei run successivi: se resta ferma, la
+    # rotazione non sta girando e va guardata.
+    _scan = {r[0] for r in db._conn().execute("SELECT source_id FROM source_scans")}
+    _scansionabili = [s for s in load_registry() if s.get("tier") != "secondary"]
+    _mai = [s for s in _scansionabili if s["id"] not in _scan]
+    print(f"registro: {len(_scansionabili)} fonti scansionabili · "
+          f"mai scansionate: {len(_mai)}")
+    if _mai:
+        print("  in attesa del primo turno: "
+              + ", ".join(s["id"] for s in _mai[:12])
+              + (f" … (+{len(_mai) - 12})" if len(_mai) > 12 else ""))
     for k, v in stats.most_common():
         print(f"  {k}: {v}")
     if scraper.jina_status_counts:
