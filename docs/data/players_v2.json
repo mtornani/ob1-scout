@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-27T16:48:08.786048+00:00",
+ "generated_at": "2026-08-27T19:41:35.006395+00:00",
  "version": "1.0.0",
- "build": "b20ef99",
+ "build": "042cee7",
  "total": 293,
  "publishable": 87,
  "tracking": 206,
@@ -3446,6 +3446,133 @@
    }
   },
   {
+   "name": "Hermen Andrés Landázuri Landázuri",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 16 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Hermen Andrés Landázuri Landázuri – Atlético Boca Juniors",
+     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Hermen Andrés Landázuri Landázuri – Atlético Boca Juniors",
+     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Atlético Boca Juniors",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 19,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/hermen-landazuri/profil/spieler/1374256",
+     "seen": "2026-08-27T19:33:38.958735"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-27T19:33:38.958735",
+   "last_seen": "2026-08-27T19:33:38.958735",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (gennaio 2025).",
+    "dal": "2025-01-14",
+    "al": "2025-01-14",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2025-01-14",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
+   },
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Ultima convocazione 19 mesi fa (gennaio 2025): la serie si è interrotta, da capire perché",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Last call-up 19 months ago (January 2025): the run has stopped — worth finding out why",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
    "name": "Rafael de Jesús Granados Socarras",
    "age": null,
    "age_stato": "assente",
@@ -4456,128 +4583,6 @@
      "Get performance stats (match reports)",
      "Request video or schedule a live viewing",
      "Call the club: confirm identity and contract status"
-    ]
-   }
-  },
-  {
-   "name": "Hermen Andrés Landázuri Landázuri",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 16 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Hermen Andrés Landázuri Landázuri – Atlético Boca Juniors",
-     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Hermen Andrés Landázuri Landázuri – Atlético Boca Juniors",
-     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Atlético Boca Juniors",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 14,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 18.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
-     "seen": "2026-07-18T08:21:52.280337"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": true,
-   "review_flags": "fonte_singola,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (gennaio 2025).",
-    "dal": "2025-01-14",
-    "al": "2025-01-14",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2025-01-14",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
-   },
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Ultima convocazione 19 mesi fa (gennaio 2025): la serie si è interrotta, da capire perché",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Last call-up 19 months ago (January 2025): the run has stopped — worth finding out why",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
     ]
    }
   },
