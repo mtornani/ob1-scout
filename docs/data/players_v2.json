@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-27T10:17:19.641609+00:00",
+ "generated_at": "2026-08-27T16:48:08.786048+00:00",
  "version": "1.0.0",
- "build": "a5416cd",
+ "build": "b20ef99",
  "total": 293,
  "publishable": 87,
  "tracking": 206,
@@ -18010,6 +18010,109 @@
    }
   },
   {
+   "name": "Ilaix Moriba",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Image 6: Ilaix Moriba",
+     "url": "https://www.promiedos.com.ar/league/uefa-europa-league/fhd"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Celta",
+   "league": "UEFA Europa League",
+   "region": "Argentina",
+   "gender": "male",
+   "score": 9,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/league/uefa-europa-league/fhd",
+     "seen": "2026-08-27T10:10:07.490060"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/ilaix-moriba/profil/spieler/617074",
+     "seen": "2026-08-27T16:37:11.453695"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-27T10:10:07.490060",
+   "last_seen": "2026-08-27T16:37:11.453695",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Лука Петрић",
    "age": null,
    "age_stato": "assente",
@@ -20933,106 +21036,6 @@
    "coverage_tier": "standard",
    "first_detected": "2026-08-24T13:31:36.232233",
    "last_seen": "2026-08-24T13:31:36.232233",
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Ilaix Moriba",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Image 6: Ilaix Moriba",
-     "url": "https://www.promiedos.com.ar/league/uefa-europa-league/fhd"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Celta",
-   "league": "UEFA Europa League",
-   "region": "Argentina",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/league/uefa-europa-league/fhd",
-     "seen": "2026-08-27T10:10:07.490060"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-27T10:10:07.490060",
-   "last_seen": "2026-08-27T10:10:07.490060",
    "selezione": {},
    "assessment": {
     "pros": [
@@ -28237,6 +28240,107 @@
    }
   },
   {
+   "name": "Henry Gray",
+   "age": 21,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Henry Gray Arquero 21",
+     "url": "https://origin.app.promiedos.com.ar/team/new-zealand-u20/bcfge"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Henry Gray Arquero 21",
+     "url": "https://origin.app.promiedos.com.ar/team/new-zealand-u20/bcfge"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Arquero",
+   "club": null,
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 1,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "origin.app.promiedos.com.ar",
+     "url": "https://origin.app.promiedos.com.ar/team/new-zealand-u20/bcfge",
+     "seen": "2026-08-10T19:32:58.530254"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/henry-gray/profil/spieler/877945",
+     "seen": "2026-08-27T16:37:11.453695"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-27T16:37:11.453695",
+   "last_seen": "2026-08-27T16:37:11.453695",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Joe Wallis",
    "age": 21,
    "age_stato": "dichiarato",
@@ -28614,6 +28718,107 @@
    "coverage_tier": "standard",
    "first_detected": "2026-08-26T13:35:08.974158",
    "last_seen": "2026-08-26T13:35:08.974158",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Tze-Xuan Loke",
+   "age": 21,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Tze-Xuan Loke Defensa Lateral Derecho 21",
+     "url": "https://origin.app.promiedos.com.ar/team/new-zealand-u20/bcfge"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Tze-Xuan Loke Defensa Lateral Derecho 21",
+     "url": "https://origin.app.promiedos.com.ar/team/new-zealand-u20/bcfge"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defensa Lateral Derecho",
+   "club": null,
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 1,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "origin.app.promiedos.com.ar",
+     "url": "https://origin.app.promiedos.com.ar/team/new-zealand-u20/bcfge",
+     "seen": "2026-08-10T19:32:58.530254"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/tze-xuan-loke/profil/spieler/881221",
+     "seen": "2026-08-27T16:37:11.453695"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-27T16:37:11.453695",
+   "last_seen": "2026-08-27T16:37:11.453695",
    "selezione": {},
    "assessment": {
     "pros": [
@@ -29477,198 +29682,6 @@
      "domain": "origin.app.promiedos.com.ar",
      "url": "https://origin.app.promiedos.com.ar/team/qatar/fahj",
      "seen": "2026-08-06T14:55:12.859969"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola,eta_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {},
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Henry Gray",
-   "age": 21,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Henry Gray Arquero 21",
-     "url": "https://origin.app.promiedos.com.ar/team/new-zealand-u20/bcfge"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Henry Gray Arquero 21",
-     "url": "https://origin.app.promiedos.com.ar/team/new-zealand-u20/bcfge"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Arquero",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 0,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "origin.app.promiedos.com.ar",
-     "url": "https://origin.app.promiedos.com.ar/team/new-zealand-u20/bcfge",
-     "seen": "2026-08-10T19:32:58.530254"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola,eta_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {},
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Tze-Xuan Loke",
-   "age": 21,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Tze-Xuan Loke Defensa Lateral Derecho 21",
-     "url": "https://origin.app.promiedos.com.ar/team/new-zealand-u20/bcfge"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Tze-Xuan Loke Defensa Lateral Derecho 21",
-     "url": "https://origin.app.promiedos.com.ar/team/new-zealand-u20/bcfge"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Defensa Lateral Derecho",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 0,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "origin.app.promiedos.com.ar",
-     "url": "https://origin.app.promiedos.com.ar/team/new-zealand-u20/bcfge",
-     "seen": "2026-08-10T19:32:58.530254"
     }
    ],
    "stats": {
