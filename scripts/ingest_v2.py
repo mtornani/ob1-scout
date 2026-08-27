@@ -84,6 +84,22 @@ def _health_check(stats, calls_used: int, llm_budget: int, scraper) -> list:
             f"{llm_budget} (soglia stallo: {stall_threshold}) — verificare "
             f"max_tokens/pacing vs il tier del provider gratuito attivo")
 
+    # Jina Search morto al 100% nel run, a prescindere da calls_used: la
+    # regola sopra (riga 56) tace ogni volta che il budget LLM viene comunque
+    # speso — tramite corroborazione o un ddgs riuscito per caso — anche se
+    # la ricerca primaria non ha funzionato UNA volta sola. Successo il 26
+    # ago 2026: verificato sui log di produzione che il credito Jina è
+    # esaurito (402 InsufficientBalanceError) su OGNI singola chiamata da
+    # almeno il 24 agosto (tre giorni, ~15+ run da 6h), e la regola di sopra
+    # non si era mai accesa perché calls_used non era mai stato zero. Un
+    # canale di ricerca primario morto per giorni, silenzioso, è esattamente
+    # il tipo di errore nascosto contro cui questo controllo esiste.
+    if scraper.jina_attempts > 0 and scraper.jina_failures >= scraper.jina_attempts:
+        dettaglio = f" — {scraper.last_jina_http_error}" if scraper.last_jina_http_error else ""
+        problems.append(
+            f"Jina Search: {scraper.jina_failures}/{scraper.jina_attempts} "
+            f"richieste fallite in questo run (100%){dettaglio}")
+
     return problems
 
 
@@ -400,8 +416,11 @@ def main():
 
 class _FakeScraper:
     """Stand-in minimo per testare _health_check() senza rete/DB."""
-    def __init__(self, jina=0, ddg=0, searxng=0):
+    def __init__(self, jina=0, ddg=0, searxng=0, jina_attempts=0,
+                last_jina_http_error=None):
         self.jina_failures, self.ddg_failures, self.searxng_failures = jina, ddg, searxng
+        self.jina_attempts = jina_attempts
+        self.last_jina_http_error = last_jina_http_error
 
 
 def _selftest_health_check():
@@ -450,7 +469,27 @@ def _selftest_health_check():
     assert _health_check(healthy_tail, calls_used=12, llm_budget=15,
                          scraper=_FakeScraper()) == []
 
-    print("OK _health_check: si accende sui 4 incidenti reali, tace su un run sano")
+    # Caso 5 (26 ago 2026): Jina Search morto al 100% con budget LLM
+    # comunque speso — il caso REALE osservato in produzione su ~15 run
+    # consecutivi (22-27 ago) per il credito esaurito, mai visto dai casi
+    # 1-3 perché calls_used non era mai zero (corroborazione + ddgs
+    # riuscito coprivano il buco).
+    problems = _health_check(Counter({"via_groq": 15}), calls_used=15,
+                             llm_budget=15,
+                             scraper=_FakeScraper(
+                                 jina=30, jina_attempts=30,
+                                 last_jina_http_error="HTTP 402 · InsufficientBalanceError"))
+    assert any("Jina Search" in p and "100%" in p for p in problems), problems
+
+    # Un fallimento PARZIALE (alcune richieste passano) non è lo stesso
+    # segnale: un run con 3 errori su 10 tentativi è normale rumore di rete,
+    # non un credito esaurito.
+    problems = _health_check(Counter({"via_groq": 15}), calls_used=15,
+                             llm_budget=15,
+                             scraper=_FakeScraper(jina=3, jina_attempts=10))
+    assert not any("Jina Search" in p for p in problems), problems
+
+    print("OK _health_check: si accende sui 5 incidenti reali, tace su un run sano")
 
 
 if __name__ == "__main__":
