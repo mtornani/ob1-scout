@@ -96,6 +96,21 @@ FREE_PROVIDER_SPECS = [
     # catalogo, e CEREBRAS_MODEL resta per cambiarlo senza toccare il codice.
     ("CEREBRAS_API_KEY", "https://api.cerebras.ai/v1",
      "CEREBRAS_MODEL", "gpt-oss-120b", "cerebras"),
+    # SambaNova Cloud (aggiunto 27 ago 2026, cercando un'alternativa a
+    # Cerebras: sull'account OB1 Cerebras risponde 402 payment_required, cioè
+    # il free tier non è attivo, e sbloccarlo passa dalla billing tab — cosa
+    # che questo progetto evita per principio dopo il caso Gemini). Free tier
+    # dichiarato: 200.000 token al giorno PER MODELLO, quindi la quota non è
+    # condivisa fra due modelli diversi. Endpoint OpenAI-compatible verificato
+    # sulla doc SambaNova (docs.sambanova.ai, "OpenAI Client Libraries
+    # Compatibility"): https://api.sambanova.ai/v1, stesso schema degli altri
+    # anelli, nessun codice nuovo.
+    # NON verificato dal vivo su una chiave reale: il tier free e il nome
+    # esatto del modello vanno confermati al primo run con SAMBANOVA_API_KEY
+    # impostata — se il modello non esiste torna 404 e brucia un anello, come
+    # già successo con i Llama ritirati da Cerebras il 3 ago.
+    ("SAMBANOVA_API_KEY", "https://api.sambanova.ai/v1",
+     "SAMBANOVA_MODEL", "Meta-Llama-3.3-70B-Instruct", "sambanova"),
     ("OPENROUTER_API_KEY", "https://openrouter.ai/api/v1",
      "OPENROUTER_MODEL", "meta-llama/llama-3.3-70b-instruct:free", "openrouter"),
     # NVIDIA NIM: verificato 3 ago 2026. nemotron-3-ultra risponde in ~7s;
@@ -306,6 +321,20 @@ if __name__ == "__main__":
     assert chain[0]["model"] == "openai/gpt-oss-120b"
     assert chain[1]["model"] == "gpt-oss-120b"     # catalogo Cerebras, non Llama
     assert chain[2]["model"].endswith(":free")
+
+    # Un provider senza chiave non entra in catena: è la proprietà che rende
+    # sicuro aggiungere anelli nuovi al listino (il codice descrive il
+    # possibile, i secrets decidono il reale). SambaNova è stato aggiunto il
+    # 27 ago 2026 senza chiave in produzione: questo assert è la prova che
+    # aggiungerlo non ha cambiato nulla per chi non lo configura.
+    assert "sambanova" not in [p["label"] for p in chain], \
+        "un provider senza chiave non deve entrare in catena"
+
+    # ...e quando la chiave c'è, entra al posto giusto: dopo Cerebras (che ha
+    # il tetto dichiarato più alto) e prima di OpenRouter (50 richieste/giorno).
+    env_sn = dict(env, SAMBANOVA_API_KEY="s")
+    chain_sn = [p["label"] for p in resolve_free_providers(env_sn)]
+    assert chain_sn == ["groq", "cerebras", "sambanova", "openrouter"], chain_sn
 
     # Override del modello via env, e endpoint generico in coda
     env2 = dict(env, GROQ_MODEL="llama-3.1-8b-instant",
