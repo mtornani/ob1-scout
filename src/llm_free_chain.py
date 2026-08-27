@@ -90,12 +90,18 @@ FREE_PROVIDER_SPECS = [
     # piano a pagamento" (falso, verificato sulla pagina dei limiti vera).
     ("GROQ_API_KEY", "https://api.groq.com/openai/v1",
      "GROQ_MODEL", "openai/gpt-oss-120b", "groq"),
-    # Cerebras ha ritirato i Llama dal catalogo free (verificato 3 ago 2026:
-    # /v1/models espone gemma-4-31b, zai-glm-4.7, gpt-oss-120b). Un modello che
-    # non esiste torna 404 e brucia un anello della catena: il default segue il
-    # catalogo, e CEREBRAS_MODEL resta per cambiarlo senza toccare il codice.
-    ("CEREBRAS_API_KEY", "https://api.cerebras.ai/v1",
-     "CEREBRAS_MODEL", "gpt-oss-120b", "cerebras"),
+    # Cerebras TOLTO dalla catena il 27 ago 2026, per decisione dell'utente
+    # ("se cerebras dà 402, lo salutiamo"). La chiave c'è ed è valida — nel
+    # run #186 compariva regolarmente nella catena risolta — ma sull'account
+    # OB1 ogni modello risponde 402 payment_required: il free tier non è
+    # attivo e si sblocca solo dalla billing tab, strada che questo progetto
+    # evita per principio dopo il caso Gemini. Finché restava in lista era
+    # peggio che inutile: veniva interrogato, falliva, e costava un round-trip
+    # per ogni chiamata prima di passare all'anello dopo.
+    # Resta registrato in config/llm_providers.json (active:false) con la
+    # ragione: se un giorno il free tier viene attivato, va rimesso qui —
+    # 60k token/minuto e 1M al giorno sono ancora il tetto più alto del
+    # listino, Mistral escluso.
     # SambaNova Cloud (aggiunto 27 ago 2026, cercando un'alternativa a
     # Cerebras: sull'account OB1 Cerebras risponde 402 payment_required, cioè
     # il free tier non è attivo, e sbloccarlo passa dalla billing tab — cosa
@@ -250,16 +256,33 @@ def call_openai_chat(provider: dict, system: str, prompt: str,
 
 def call_free_chain(providers: list, system: str, prompt: str,
                     dead: set = None, max_tokens: int = 8192,
-                    temperature: float = 0.0, timeout: int = 120) -> tuple:
+                    temperature: float = 0.0, timeout: int = 120,
+                    start: int = 0) -> tuple:
     """
-    Prova i provider in ordine finché uno risponde.
+    Prova i provider finché uno risponde, partendo dal `start`-esimo.
 
     Ritorna (testo, label) al primo successo, (None, None) se hanno fallito
     tutti. `dead` è un set di label da saltare e che questa funzione aggiorna:
     un provider che ha esaurito la quota non va ritentato a ogni fonte —
     ogni 429 costa tempo di run e non produce niente.
+
+    Perché `start` (27 ago 2026). L'ordine era fisso, quindi il primo anello
+    prendeva TUTTO: nel run di produzione #186, via_groq 15 su 15 chiamate,
+    con OpenRouter e NVIDIA configurati e con chiave valida che non venivano
+    mai raggiunti. Il tetto di Groq (8-12k token al minuto) è così diventato
+    il tetto dell'intera pipeline — ed è il motivo per cui fra una chiamata e
+    l'altra si aspettano 25 secondi, cioè 6 degli 11 minuti di un run.
+
+    Ruotando il punto di partenza, N provider vivi si dividono le chiamate:
+    ognuno viene interrogato per primo una volta su N, e la sua finestra al
+    minuto viene toccata N volte meno spesso. Il ripiego resta identico —
+    dopo il primo si prosegue lungo tutta la lista — quindi un provider giù
+    non fa perdere la chiamata, esattamente come prima.
     """
     dead = dead if dead is not None else set()
+    if providers and start:
+        i = start % len(providers)
+        providers = providers[i:] + providers[:i]
     for p in providers:
         if p["label"] in dead:
             continue
@@ -317,10 +340,11 @@ if __name__ == "__main__":
     # 1) Ordine della catena e default dei modelli
     env = {"GROQ_API_KEY": "g", "CEREBRAS_API_KEY": "c", "OPENROUTER_API_KEY": "o"}
     chain = resolve_free_providers(env)
-    assert [p["label"] for p in chain] == ["groq", "cerebras", "openrouter"], chain
+    # Cerebras non c'è più anche se la sua chiave è in ambiente: è stato
+    # tolto dal listino il 27 ago 2026 (402 payment_required su ogni modello).
+    assert [p["label"] for p in chain] == ["groq", "openrouter"], chain
     assert chain[0]["model"] == "openai/gpt-oss-120b"
-    assert chain[1]["model"] == "gpt-oss-120b"     # catalogo Cerebras, non Llama
-    assert chain[2]["model"].endswith(":free")
+    assert chain[1]["model"].endswith(":free")
 
     # Un provider senza chiave non entra in catena: è la proprietà che rende
     # sicuro aggiungere anelli nuovi al listino (il codice descrive il
@@ -330,11 +354,44 @@ if __name__ == "__main__":
     assert "sambanova" not in [p["label"] for p in chain], \
         "un provider senza chiave non deve entrare in catena"
 
-    # ...e quando la chiave c'è, entra al posto giusto: dopo Cerebras (che ha
-    # il tetto dichiarato più alto) e prima di OpenRouter (50 richieste/giorno).
+    # ...e quando la chiave c'è, entra al posto giusto: prima di OpenRouter,
+    # che ha solo 50 richieste al giorno.
     env_sn = dict(env, SAMBANOVA_API_KEY="s")
     chain_sn = [p["label"] for p in resolve_free_providers(env_sn)]
-    assert chain_sn == ["groq", "cerebras", "sambanova", "openrouter"], chain_sn
+    assert chain_sn == ["groq", "sambanova", "openrouter"], chain_sn
+
+    # --- rotazione: i provider si dividono le chiamate (27 ago 2026) ---
+    # Il bug che chiude: ordine fisso = il primo anello prende tutto. Nel run
+    # #186 via_groq era 15 su 15, con altri provider vivi mai raggiunti, e il
+    # tetto al minuto di Groq diventava il tetto della pipeline.
+    tre = [{"label": l} for l in ("a", "b", "c")]
+    primi = []
+
+    def _finto(provider, system, prompt, *a, **k):
+        primi.append(provider["label"])
+        return '[{"ok": 1}]'
+
+    _vero = globals()["call_openai_chat"]
+    globals()["call_openai_chat"] = _finto
+    try:
+        for giro in range(6):
+            call_free_chain(tre, "s", "p", dead=set(), start=giro)
+    finally:
+        globals()["call_openai_chat"] = _vero
+    assert primi == ["a", "b", "c", "a", "b", "c"], primi
+    from collections import Counter as _C
+    assert set(_C(primi).values()) == {2}, \
+        f"su 6 chiamate e 3 provider ognuno deve essere primo 2 volte: {_C(primi)}"
+
+    # start=0 su una lista sola non deve rompere nulla (il caso reale di oggi:
+    # tolti Cerebras e con un solo secret impostato, la catena ha un anello).
+    globals()["call_openai_chat"] = _finto
+    primi.clear()
+    try:
+        call_free_chain([{"label": "solo"}], "s", "p", dead=set(), start=7)
+    finally:
+        globals()["call_openai_chat"] = _vero
+    assert primi == ["solo"], primi
 
     # Override del modello via env, e endpoint generico in coda
     env2 = dict(env, GROQ_MODEL="llama-3.1-8b-instant",
@@ -377,7 +434,7 @@ if __name__ == "__main__":
         calls.append(provider["label"])
         if provider["label"] == "groq":
             raise ProviderCallError("groq: HTTP 429: rate limit", status=429)
-        if provider["label"] == "cerebras":
+        if provider["label"] == "openrouter":
             return '[{"name": "Kauan Ribeiro"}]'
         return "non dovrebbe arrivarci"
 
@@ -385,11 +442,11 @@ if __name__ == "__main__":
     globals()["call_openai_chat"] = fake_call
     dead = set()
     text, label = call_free_chain(chain, "sys", "prompt", dead=dead)
-    assert (label, text) == ("cerebras", '[{"name": "Kauan Ribeiro"}]'), (label, text)
+    assert (label, text) == ("openrouter", '[{"name": "Kauan Ribeiro"}]'), (label, text)
     assert dead == {"groq"}, dead
     calls.clear()
     text, label = call_free_chain(chain, "sys", "prompt", dead=dead)
-    assert calls == ["cerebras"], calls          # groq non viene più ritentato
+    assert calls == ["openrouter"], calls        # groq non viene più ritentato
 
     # Tutti morti: (None, None), così il chiamante NON marca il lavoro come fatto
     dead = {"groq", "cerebras", "openrouter"}

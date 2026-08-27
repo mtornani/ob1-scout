@@ -194,14 +194,38 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
     search_attempts = 0
 
     async def _pace():
+        """
+        Pausa fra chiamate LLM, divisa per il numero di provider VIVI.
+
+        Il ritardo esiste per una ragione sola: stare sotto il tetto di
+        token-al-minuto di UN provider. Da quando le chiamate ruotano fra gli
+        anelli (call_free_chain(start=...), 27 ago 2026), N provider vivi si
+        dividono le chiamate: con pausa globale D, ciascuno viene toccato ogni
+        D×N secondi. Dividere la pausa per N lascia quindi la spaziatura
+        PER-PROVIDER esattamente dov'era — cioè la grandezza che i tetti
+        misurano davvero — e restituisce il tempo di attesa che oggi non serve
+        a nessuno (6 minuti degli 11 del run #186).
+
+        Con un provider solo il conto dà D/1 = D: identico a prima. È la
+        proprietà che rende il cambio sicuro sulla configurazione di oggi,
+        dove tolto Cerebras potrebbe restare la sola Groq.
+
+        Il floor a 5s è prudenza, non calcolo: protegge dai limiti per-minuto
+        di RICHIESTE (Groq ne dichiara 30) che restano condivisi nel tempo
+        anche quando i token no.
+        """
         nonlocal calls_used
-        if call_delay and calls_used < llm_budget and extractor.llm_usable():
-            await asyncio.sleep(call_delay)
+        if not (call_delay and calls_used < llm_budget and extractor.llm_usable()):
+            return
+        vivi = max(1, len([p for p in extractor.free_providers
+                           if p["label"] not in extractor._dead_free]))
+        await asyncio.sleep(max(5.0, call_delay / vivi) if vivi > 1 else call_delay)
 
     async def _corroborate(call_cap: int):
         """Cerca seconda fonte per profili a 1 fonte. call_cap = max calls_used assoluto."""
         nonlocal calls_used, search_attempts
         from src.corroborate_v2 import find_profile, observation_fits_target
+        from src.profilo_tm_v2 import leggi_profilo, e_scheda_tm
         for row in db.players_to_corroborate():
             pid, name = row["id"], row["name"]
             if pid in attempted_pids:
@@ -231,9 +255,27 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
             text = texts.get(prof)
             if not text:
                 continue
-            obs_list = extractor.extract_from_source(text, prof)
-            calls_used += 1
-            await _pace()
+            # Parser prima, modello dopo — stessa forma di
+            # _da_indice_sito → _da_ricerca in sources_v2. Misurato il 27 ago
+            # 2026 sull'archivio: 70 delle 301 chiamate LLM mai fatte (23%)
+            # sono servite a leggere una scheda Transfermarkt, e producevano
+            # citazioni-prova come "Mateus Romero - Player profile", cioè il
+            # titolo della pagina ricopiato. La scheda è una tabella con
+            # etichette fisse: si legge in codice.
+            obs_list, via_parser = None, False
+            if e_scheda_tm(prof):
+                letto = leggi_profilo(text, prof)
+                if letto:
+                    obs_list, via_parser = [letto], True
+                    stats["corr_via_parser"] += 1
+            if not via_parser:
+                # leggi_profilo() ha detto "non lo so" (pagina d'errore,
+                # layout cambiato, campi mancanti) oppure non era una scheda
+                # TM: si paga il modello, esattamente come prima.
+                obs_list = extractor.extract_from_source(text, prof)
+                calls_used += 1
+                stats["corr_via_llm"] += 1
+                await _pace()
             if obs_list is None:
                 stats["extract_failed"] += 1
                 if not extractor.llm_usable():
@@ -403,6 +445,13 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
     print("=== INGEST v2 ===")
     print(f"budget LLM: {llm_budget} · usate: {calls_used}")
     print(f"ricerca: {'Jina Search (primaria)' if scraper.jina_api_key else 'ddgs (Jina non configurata)'}")
+    # Quante corroborazioni sono state lette in codice invece che dal modello.
+    # Misurato in archivio: 70 delle 301 chiamate LLM mai fatte erano schede
+    # Transfermarkt. Se corr_via_parser resta 0 mentre corr_via_llm sale, il
+    # parser non sta agganciando (redesign del sito?) e va guardato.
+    if stats.get("corr_via_parser") or stats.get("corr_via_llm"):
+        print(f"corroborazione: {stats.get('corr_via_parser', 0)} via parser "
+              f"(zero token) · {stats.get('corr_via_llm', 0)} via LLM")
     # Copertura del registro: quante fonti scansionabili non sono ancora mai
     # state guardate. Al 27 ago 2026 erano 38 su 67 — invisibili, perché
     # nessuna statistica diceva "questa parte del registro non la tocchiamo

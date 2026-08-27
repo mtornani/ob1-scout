@@ -26,9 +26,9 @@
         "tpd": 1000000,
         "max_input_chars": 24000
       },
-      "active": true,
+      "active": false,
       "verified": false,
-      "note": "Catalogo free verificato il 3 ago 2026 (/v1/models): gemma-4-31b, zai-glm-4.7, gpt-oss-120b — i Llama non ci sono più. ATTENZIONE: sull'account OB1 ogni modello risponde 402 payment_required, cioè il free tier non risulta attivo: va sbloccato dalla billing tab prima di contarci per la capacità di massa."
+      "note": "DISATTIVATO il 27 ago 2026 per decisione dell'utente (\"se cerebras da' 402, lo salutiamo\") e TOLTO da FREE_PROVIDER_SPECS in src/llm_free_chain.py. La chiave e' valida e il provider compariva regolarmente nella catena risolta (run #186), ma ogni modello risponde 402 payment_required: il free tier non risulta attivo sull'account OB1 e si sblocca solo dalla billing tab — strada evitata per principio dopo il caso Gemini. Finche' restava in lista era peggio che inutile: un round-trip fallito prima di ogni ripiego. Se il free tier verra' attivato va rimesso: 60k token/minuto e 1M al giorno restano il tetto piu' alto del listino dopo Mistral. Catalogo free verificato il 3 ago 2026 (/v1/models): gemma-4-31b, zai-glm-4.7, gpt-oss-120b — i Llama non ci sono più. ATTENZIONE: sull'account OB1 ogni modello risponde 402 payment_required, cioè il free tier non risulta attivo: va sbloccato dalla billing tab prima di contarci per la capacità di massa."
     },
     {
       "id": "groq",

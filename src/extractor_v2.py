@@ -201,6 +201,12 @@ class OB1Extractor:
       gemini_first  Gemini → catena gratuita (comportamento storico)
     """
 
+    # Default di classe, non solo in __init__: il self-test qui sotto
+    # costruisce di proposito un estrattore con __new__ (per non toccare env
+    # né client), quindi ogni stato nuovo aggiunto in __init__ sarebbe
+    # assente su quel percorso. Beccato aggiungendo _giro il 27 ago 2026.
+    _giro = 0
+
     def __init__(self, api_key: str = None, model: str = None,
                  fallback: dict = None, mode: str = None):
         self.model = model or os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
@@ -211,6 +217,7 @@ class OB1Extractor:
         if fallback:                           # provider esplicito: ha la precedenza
             self.free_providers = [fallback] + self.free_providers
         self._dead_free = set()                # label dei free già esauriti nel run
+        self._giro = 0                         # da quale anello parte la prossima chiamata
         self.stats = Counter()                 # {groq, cerebras, gemini, failed, ...}
 
         api_key = os.getenv("GEMINI_API_KEY", "") if api_key is None else api_key
@@ -265,10 +272,15 @@ class OB1Extractor:
         if not self._free_ok():
             return None
         free_chars = min(max_chars, FREE_MAX_CHARS)
+        # Ogni chiamata parte da un anello diverso: senza, il primo provider
+        # della lista assorbe tutto il carico e il suo tetto al minuto
+        # diventa il tetto della pipeline (run #186: via_groq 15 su 15, con
+        # altri due provider configurati e mai raggiunti). Vedi call_free_chain.
         text, label = call_free_chain(
             self.free_providers, EXTRACTION_SYSTEM,
             self._prompt(source_text, source_url, free_chars), dead=self._dead_free,
-            max_tokens=FREE_MAX_OUTPUT_TOKENS)
+            max_tokens=FREE_MAX_OUTPUT_TOKENS, start=self._giro)
+        self._giro += 1
         if text is None:
             return None
         self.stats[label] += 1
