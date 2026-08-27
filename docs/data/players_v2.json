@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-27T19:41:35.006395+00:00",
+ "generated_at": "2026-08-27T20:26:23.495852+00:00",
  "version": "1.0.0",
- "build": "042cee7",
- "total": 293,
- "publishable": 87,
+ "build": "22b4e9f",
+ "total": 294,
+ "publishable": 88,
  "tracking": 206,
- "shown": 293,
+ "shown": 294,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -10477,6 +10477,119 @@
     ],
     "fonte": "South African Football Association",
     "frase_en": "Called up 1 times by South African Football Association, U20."
+   },
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Elhadji Sow",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Fédération Sénégalaise de Football",
+     "tipo": "federation",
+     "citazione": "La réaction de l’ASC Le Djolof ne s’est pas fait attendre, avec l’égalisation signée Elhadji Sow.",
+     "url": "https://fsfoot.sn/finale-regionale-de-louga-ac-kebemer-sport-sacre-au-terme-des-tirs-au-but/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Fédération Sénégalaise de Football",
+     "tipo": "federation",
+     "citazione": "La réaction de l’ASC Le Djolof ne s’est pas fait attendre, avec l’égalisation signée Elhadji Sow.",
+     "url": "https://fsfoot.sn/finale-regionale-de-louga-ac-kebemer-sport-sacre-au-terme-des-tirs-au-but/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "ASC Le Djolof",
+   "league": "Régionale de Louga",
+   "region": "Senegal",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/finale-regionale-de-louga-ac-kebemer-sport-sacre-au-terme-des-tirs-au-but/",
+     "seen": "2026-08-27T20:09:40.090128"
+    }
+   ],
+   "stats": {},
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-27T20:09:40.090128",
+   "last_seen": "2026-08-27T20:09:40.090128",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Fédération Sénégalaise de Football.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/finale-regionale-de-louga-ac-kebemer-sport-sacre-au-terme-des-tirs-au-but/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football."
    },
    "assessment": {
     "pros": [
