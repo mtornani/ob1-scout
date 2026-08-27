@@ -21,14 +21,11 @@ ripiego se Jina non ha una chiave configurata o fallisce.
 """
 
 # ============================================================
-# FREEZE PILOTA K-SPORT
-# Dal 27 maggio 2026 fino a fine pilota (~settembre 2026):
-# - NON modificare pesi
-# - NON modificare soglie HOT/WARM/COLD
-# - NON modificare formule di scoring
-# - NON cambiare backend LLM
-# Solo monitoring, alerting, sanity checks, presentazione UX.
-# Vincolo Karpathy attivo.
+# FREEZE PILOTA K-SPORT — NON PIÙ IN VIGORE (vedi CLAUDE.md §STATO,
+# aggiornato 20 luglio 2026): il pilota non è mai partito formalmente,
+# la disciplina si è chiusa con la Fase B. Lasciato qui solo come nota
+# storica: se un domani leggi questo blocco come un vincolo attivo,
+# CLAUDE.md è la fonte di verità, non questo commento.
 # ============================================================
 
 import asyncio
@@ -105,6 +102,12 @@ class AsyncGlobalScraper:
         # rete (le due categorie sono cause diverse, non vanno confuse).
         self.jina_status_counts = Counter()
         self.last_jina_http_error = None
+        # Lettura diretta d'indice (26 ago 2026): quante volte read_raw ha
+        # risposto con qualcosa, e quante no — serve a sources_v2.py per
+        # sapere se il canale che NON passa da un motore di ricerca sta
+        # rispondendo, indipendentemente da search_query().
+        self.index_reads_ok = 0
+        self.index_reads_empty = 0
 
     @property
     def ddg_semaphore(self) -> asyncio.Semaphore:
@@ -247,6 +250,42 @@ class AsyncGlobalScraper:
                 'timestamp': datetime.now().isoformat()
             })
         return results
+
+    async def read_raw(self, url: str, max_chars: int = 40000) -> str:
+        """
+        Testo grezzo di una pagina via Jina Reader — STESSA strada di
+        deep_read_urls (nessun motore di ricerca in mezzo, solo il fetch
+        r.jina.ai di un URL), ma senza il taglio a 1500 caratteri pensato
+        per il testo che va all'estrattore LLM.
+
+        Perché serve (26 ago 2026): un indice di sito (WordPress REST,
+        RSS/Atom, sitemap) elenca decine di articoli in una pagina sola —
+        tagliato a 1500 caratteri se ne perderebbero quasi tutti. Misurato
+        su fcf.com.co: la risposta di /wp-json/wp/v2/posts?per_page=20 pesa
+        circa 40 KB per 20 post.
+
+        Usato da SourceMonitor._da_indice_sito() in src/sources_v2.py, che
+        è il motivo per cui questo vive qui e non lì: leggere una pagina
+        resta compito dello scraper, sapere quali percorsi provare resta
+        compito del registro fonti.
+        """
+        headers = {'Accept': 'text/plain', 'User-Agent': 'OB1-Scout/2.0'}
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.get(f"{JINA_BASE}{url}", headers=headers,
+                                       timeout=aiohttp.ClientTimeout(total=20)) as resp:
+                    if resp.status != 200:
+                        self.index_reads_empty += 1
+                        return ""
+                    text = await resp.text()
+        except Exception:
+            self.index_reads_empty += 1
+            return ""
+        if not text.strip():
+            self.index_reads_empty += 1
+            return ""
+        self.index_reads_ok += 1
+        return text[:max_chars]
 
     async def deep_read_urls(self, urls: list, max_urls: int = 10) -> dict:
         """

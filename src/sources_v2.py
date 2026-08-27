@@ -25,6 +25,14 @@ _SKIP_HINT = re.compile(r"(facebook|twitter|instagram|youtube|tiktok|whatsapp|"
                         r"linkedin|/tag/|/category/|mailto:|"
                         r"//api\.|/images?/|/img/|/assets/|/static/|/uploads/|"
                         r"/portaldeclubes|/socios|/tienda|/mayores|/senior|"
+                        # /wp-json/ è l'indice stesso (letto da parse_index),
+                        # non un articolo: le risposte REST di WordPress
+                        # contengono i propri link _self/_links e i link di
+                        # paginazione, che altrimenti passerebbero il
+                        # controllo "ha uno slug" ed entrerebbero come se
+                        # fossero contenuto (osservato su fcf.com.co e
+                        # the-aiff.com, 26 ago 2026).
+                        r"/wp-json/|/feed/?(\?|$)|/wp-sitemap|/sitemap\.xml|"
                         r"\.(jpg|jpeg|png|gif|webp|svg|pdf|css|js|ico)(\?|$))", re.I)
 
 
@@ -71,7 +79,13 @@ def discover_item_urls(markdown: str, source_url: str = "", max_items: int = 25)
         return []
     base_dom = _domain(source_url)
     urls = re.findall(r"\((https?://[^)\s]+)\)", markdown)      # link markdown
-    urls += re.findall(r"(?<![(\w])(https?://[^\s)]+)", markdown)  # link nudi
+    # Link nudi: ferma anche su virgolette/parentesi graffe/angolari, non
+    # solo su spazio e ')'. Senza, un URL dentro JSON minificato senza
+    # spazi ("link":"https://x/y","id":2,...) si mangia tutto il resto
+    # della stringa fino al primo spazio vero — che in un JSON compatto
+    # può non esserci affatto. Vedi parse_index(), che alimenta questa
+    # funzione con l'indice REST di un sito, non solo markdown.
+    urls += re.findall(r'(?<![(\w])(https?://[^\s)"\'<>{}\\]+)', markdown)
 
     seen, out = set(), []
     for u in urls:
@@ -116,6 +130,54 @@ YOUTH_TERMS = {
 }
 
 
+# Percorsi che un sito pubblica DA SOLO, senza che nessuno glielo chieda —
+# l'elenco dei propri contenuti recenti, in una forma leggibile a macchina.
+# Ordine di tentativo: il più strutturato/fresco prima. Misurato il 26 ago
+# 2026 su fcf.com.co (la fonte più produttiva del registro, 180 evidenze,
+# ma FERMA dal 5 agosto): /wp-json risponde con i 10 articoli di oggi e
+# ieri, comunicati e convocazioni compresi — lo stesso identico contenuto
+# che la ricerca (site:fcf.com.co ... 2026) restituiva 0 risultati per
+# TUTTE le fonti provate, non solo per quella spenta. Vedi _da_ricerca.
+INDEX_PATHS = (
+    "/wp-json/wp/v2/posts?per_page=20",  # WordPress REST — il più fresco
+    "/feed/",                            # RSS/Atom, quasi universale
+    "/sitemap.xml",
+    "/wp-sitemap.xml",
+)
+
+# Il JSON di WordPress scrive gli slash con l'escape \/ dentro le stringhe
+# ("https:\/\/fcf.com.co\/2026\/08\/26\/..."): senza normalizzarlo, la
+# ricerca di URL nel testo si fermerebbe al primo backslash.
+_ESCAPED_SLASH = re.compile(r"\\/")
+
+# Jina Reader risponde SEMPRE 200 dalla sua infrastruttura, anche quando il
+# sito di destinazione ha risposto 404/403/500 — l'errore vero finisce scritto
+# dentro il testo ("Warning: Target URL returned error 404: Not Found"), non
+# nello status HTTP che read_raw() controlla. Trovato su the-aiff.com: il
+# percorso /wp-json non esiste (404), ma la pagina di errore del sito porta
+# comunque il menu di navigazione completo — che senza questo controllo
+# veniva letto come se fossero 68 articoli nuovi (register, executive-
+# committees, disciplinary-committee...). Un menu non cambia da un run
+# all'altro: non è "contenuto nuovo", è la cornice della pagina.
+_ERRORE_BERSAGLIO = re.compile(r"Warning: Target URL returned error \d")
+
+
+def parse_index(text: str, base_dom: str, max_items: int = 25) -> list:
+    """
+    URL di articoli dentro un indice di sito — WordPress REST JSON,
+    RSS/Atom, sitemap XML: qualunque formato, perché tutti scrivono URL
+    letterali nel testo e discover_item_urls() li sa già riconoscere e
+    filtrare (niente tag/categoria/asset, solo path con uno slug vero).
+
+    Puro: nessuna rete, testabile su un campione catturato.
+    """
+    if not text or _ERRORE_BERSAGLIO.search(text[:400]):
+        return []
+    pulito = _ESCAPED_SLASH.sub("/", text)
+    return discover_item_urls(pulito, source_url=f"https://{base_dom}/",
+                              max_items=max_items)
+
+
 class SourceMonitor:
     """Scoperta articoli nuovi per una fonte (delta) + fetch via Jina."""
 
@@ -124,18 +186,58 @@ class SourceMonitor:
     def __init__(self, db, scraper=None):
         self.db = db            # OB1DatabaseV2 (per il delta seen_items)
         self.scraper = scraper  # AsyncGlobalScraper (search + deep_read), opzionale
+        # Osservabilità (26 ago 2026): quante fonti sono state lette
+        # dall'indice del sito e quante sono dovute passare dalla ricerca —
+        # letti da ingest_v2.py a fine run, stesso posto di jina_failures.
+        self.via_indice = 0
+        self.via_ricerca = 0
 
     async def new_items(self, source: dict) -> list:
         """
-        URL articolo NUOVI per questa fonte. Discovery robusta: ricerca ristretta
-        al dominio (site:) con termini giovanili nella lingua della fonte — così
-        si trovano gli articoli veri anche su siti JS-pesanti dove lo scraping
-        della homepage non elenca i link. Le pagine di homepage/asset restano
-        filtrate. Gli aggregatori (tier secondary) non si spazzano in discovery.
+        URL articolo NUOVI per questa fonte. Due strade, in ordine:
+
+        1. L'indice che il sito pubblica da solo (_da_indice_sito) — un
+           fetch diretto via Jina Reader, nessun motore di ricerca in
+           mezzo. Funziona anche quando la ricerca è degradata o ferma,
+           perché non dipende da lei.
+        2. La ricerca ristretta al dominio (_da_ricerca), SOLO se la prima
+           non ha trovato niente — siti senza un indice leggibile restano
+           coperti come prima.
+
+        Gli aggregatori (tier secondary) non si spazzano in discovery, in
+        nessuna delle due strade.
         """
         if self.scraper is None or source.get("tier") == "secondary":
             return []
         dom = _domain(source["url"])
+
+        found = await self._da_indice_sito(source, dom)
+        if found:
+            self.via_indice += 1
+        else:
+            found = await self._da_ricerca(source, dom)
+            if found:
+                self.via_ricerca += 1
+
+        return self.db.filter_new_items(source["id"], found)
+
+    async def _da_indice_sito(self, source: dict, dom: str) -> list:
+        """Prova ogni INDEX_PATHS finché uno risponde con articoli veri."""
+        base = source["url"].rstrip("/")
+        for path in INDEX_PATHS:
+            text = await self.scraper.read_raw(base + path)
+            found = parse_index(text, dom)
+            if found:
+                return found
+        return []
+
+    async def _da_ricerca(self, source: dict, dom: str) -> list:
+        """
+        Ricerca ristretta al dominio (site:) con termini giovanili nella
+        lingua della fonte — l'unica strada finché non c'era _da_indice_sito,
+        ora il ripiego per i siti senza un indice leggibile (niente
+        WordPress, niente feed, niente sitemap: verificato su afa.com.ar).
+        """
         terms = YOUTH_TERMS.get(source.get("lang"), YOUTH_TERMS["en"])
         query = f"site:{dom} {terms} 2026"
 
@@ -150,14 +252,89 @@ class SourceMonitor:
             if not _has_article_path(u):        # scarta root/homepage
                 continue
             found.append(u)
-        found = list(dict.fromkeys(found))
-        return self.db.filter_new_items(source["id"], found)
+        return list(dict.fromkeys(found))
+
+
+# --------------------------------------------------------------- test
+
+def _test() -> None:
+    # 1. WordPress REST — la forma reale di fcf.com.co (catturata il 26 ago
+    #    2026 via /wp-json/wp/v2/posts?per_page=20). Gli slash sono escaped:
+    #    la prova che _ESCAPED_SLASH funziona è che l'URL torni intero.
+    wp_json = (
+        '[{"id":1,"date":"2026-08-26T10:00:00",'
+        '"link":"https:\\/\\/fcf.com.co\\/2026\\/08\\/26\\/'
+        'convocatoria-de-la-seleccion-colombia-masculina-sub-17\\/"},'
+        '{"id":2,"date":"2026-08-25T09:00:00",'
+        '"link":"https:\\/\\/fcf.com.co\\/2026\\/08\\/25\\/'
+        'microciclo-bogota-seleccion-colombia-femenina-sub20\\/"},'
+        '{"id":3,"date":"2026-08-24T08:00:00",'
+        '"link":"https:\\/\\/fcf.com.co\\/wp-content\\/uploads\\/2026\\/08\\/'
+        'foto.jpg"}]'
+    )
+    trovati = parse_index(wp_json, "fcf.com.co")
+    assert any("convocatoria-de-la-seleccion" in u for u in trovati)
+    assert any("microciclo-bogota" in u for u in trovati)
+    assert not any(u.endswith(".jpg") for u in trovati), \
+        "un asset (/wp-content/uploads/.../foto.jpg) non e' un articolo"
+    assert all("\\" not in u for u in trovati), "slash non normalizzati"
+
+    # 2. RSS/Atom — formato quasi universale, nessun escape da normalizzare.
+    rss = """<rss><channel>
+      <item><link>https://example.org/2026/08/26/giovane-talento-sub17</link></item>
+      <item><link>https://example.org/tag/calcio</link></item>
+    </channel></rss>"""
+    trovati = parse_index(rss, "example.org")
+    assert any("giovane-talento-sub17" in u for u in trovati)
+    assert not any("/tag/" in u for u in trovati)
+
+    # 3. Sitemap XML.
+    sitemap = """<urlset>
+      <url><loc>https://example.org/notizie/promessa-2026-sub19</loc></url>
+      <url><loc>https://example.org/</loc></url>
+    </urlset>"""
+    trovati = parse_index(sitemap, "example.org")
+    assert any("promessa-2026-sub19" in u for u in trovati)
+    assert "https://example.org/" not in trovati, "la home non e' un articolo"
+
+    # 4. Pagina vuota o irraggiungibile: nessun candidato inventato.
+    assert parse_index("", "example.org") == []
+    assert parse_index("<html></html>", "example.org") == []
+
+    # 5. Caso reale, the-aiff.com 26 ago 2026: /wp-json non esiste (404), ma
+    #    Jina Reader risponde comunque 200 e porta la pagina di errore del
+    #    sito — che ha un menu completo. Senza il controllo del testo, i
+    #    link del menu (mai nuovi, sempre gli stessi) passavano come articoli.
+    pagina_errore_con_menu = (
+        "Title: \n\nURL Source: https://www.the-aiff.com/wp-json/wp/v2/posts\n\n"
+        "Warning: Target URL returned error 404: Not Found\n\n"
+        "Markdown Content:\n"
+        "*   [General Body](https://www.the-aiff.com/general-body)\n"
+        "*   [Executive Committee](https://www.the-aiff.com/executive-committees)\n"
+    )
+    assert parse_index(pagina_errore_con_menu, "the-aiff.com") == []
+
+    # 6. Ma un vero 200 con un URL che CONTIENE per caso la parola "error"
+    #    nello slug non deve essere scartato: il controllo guarda la firma
+    #    esatta di Jina, non una parola sciolta nel testo.
+    pagina_vera = (
+        "Title: Un articolo\n\nURL Source: https://example.org/\n\n"
+        "Markdown Content:\n"
+        "[Come evitare gli error di formazione U17](https://example.org/2026/08/26/error-formazione-u17)\n"
+    )
+    assert parse_index(pagina_vera, "example.org") != []
+
+    print("sources_v2: ok")
 
 
 if __name__ == "__main__":
-    reg = load_registry()
-    from collections import Counter
-    by_region = Counter(s["region"] for s in reg)
-    print(f"Fonti attive: {len(reg)}")
-    for region, n in by_region.most_common():
-        print(f"  {region:14s} {n}")
+    import sys
+    if "--test" in sys.argv:
+        _test()
+    else:
+        reg = load_registry()
+        from collections import Counter
+        by_region = Counter(s["region"] for s in reg)
+        print(f"Fonti attive: {len(reg)}")
+        for region, n in by_region.most_common():
+            print(f"  {region:14s} {n}")
