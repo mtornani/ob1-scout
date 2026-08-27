@@ -329,6 +329,13 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
         stats["search_ddg_empty"] = scraper.ddg_empty
     if scraper.searxng_failures:
         stats["search_searxng_failures"] = scraper.searxng_failures
+    # Quante fonti sono state lette dal proprio indice (niente motore di
+    # ricerca in mezzo) e quante sono dovute passare dalla ricerca — la
+    # prima strada regge anche quando la seconda è degradata o ferma.
+    if monitor.via_indice:
+        stats["sources_via_indice"] = monitor.via_indice
+    if monitor.via_ricerca:
+        stats["sources_via_ricerca"] = monitor.via_ricerca
 
     # --- Controllo di salute + alert Telegram (20 ago 2026) ---
     # Nato dalla notte del 19/20 ago: il modello Groq era morto da almeno
