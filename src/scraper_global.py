@@ -89,6 +89,19 @@ class AsyncGlobalScraper:
         # pattern "chiave assente non è un fallimento" degli altri provider
         # LLM del progetto (src/llm_free_chain.py).
         self.jina_api_key = os.getenv("JINA_API_KEY", "")
+        # jina_attempts conta OGNI chiamata fatta con una chiave presente
+        # (successo, fallimento o vuota) — jina_failures da solo non basta
+        # a sapere se il 100% delle richieste è caduto o solo una parte.
+        # Serve a _health_check() in ingest_v2.py: trovato il 26 ago 2026 che
+        # il credito Jina era esaurito (402 InsufficientBalanceError) su
+        # OGNI singola chiamata da almeno tre giorni (verificato sui log di
+        # produzione, 22→27 ago), e nessun alert è mai scattato perché la
+        # regola esistente guarda solo calls_used==0 — che qui non era mai
+        # vero, il budget LLM veniva comunque speso tramite corroborazione o
+        # ddgs riuscito per caso. Un canale di ricerca primario morto al
+        # 100% per giorni, silenzioso, è esattamente il tipo di errore
+        # nascosto che questa sessione ha passato a cercare altrove.
+        self.jina_attempts = 0
         self.jina_failures = 0
         self.jina_empty = 0
         self.last_jina_error = None
@@ -127,6 +140,10 @@ class AsyncGlobalScraper:
         """
         if not self.jina_api_key:
             return []
+        # Contato SOLO qui, dopo il controllo della chiave: senza chiave
+        # questa via non viene nemmeno tentata (ripiego su ddgs), e non è
+        # un fallimento — jina_attempts deve misurare i tentativi VERI.
+        self.jina_attempts += 1
         headers = {"Authorization": f"Bearer {self.jina_api_key}",
                   "Accept": "application/json"}
         params = {"q": query, "num": max_results}
