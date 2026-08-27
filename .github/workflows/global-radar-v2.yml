@@ -64,6 +64,14 @@ jobs:
           GEMINI_MODEL: gemini-2.5-flash
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          # SambaNova (27 ago 2026): alternativa a Cerebras, che sull'account
+          # OB1 risponde 402 (free tier non attivo, si sblocca solo dalla
+          # billing tab). Free tier dichiarato: 200k token/giorno per modello.
+          # Il secret oggi NON esiste: finché non viene creato la riga passa
+          # stringa vuota e resolve_free_providers salta il provider — nessun
+          # effetto sulla produzione. Serve però che la riga ci sia GIÀ,
+          # altrimenti creare il secret non basterebbe a farlo entrare.
+          SAMBANOVA_API_KEY: ${{ secrets.SAMBANOVA_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
           # Jina Search (20 ago 2026), fonte di ricerca primaria — vedi

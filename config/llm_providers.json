@@ -26,9 +26,9 @@
         "tpd": 1000000,
         "max_input_chars": 24000
       },
-      "active": true,
+      "active": false,
       "verified": false,
-      "note": "Catalogo free verificato il 3 ago 2026 (/v1/models): gemma-4-31b, zai-glm-4.7, gpt-oss-120b — i Llama non ci sono più. ATTENZIONE: sull'account OB1 ogni modello risponde 402 payment_required, cioè il free tier non risulta attivo: va sbloccato dalla billing tab prima di contarci per la capacità di massa."
+      "note": "DISATTIVATO il 27 ago 2026 per decisione dell'utente (\"se cerebras da' 402, lo salutiamo\") e TOLTO da FREE_PROVIDER_SPECS in src/llm_free_chain.py. La chiave e' valida e il provider compariva regolarmente nella catena risolta (run #186), ma ogni modello risponde 402 payment_required: il free tier non risulta attivo sull'account OB1 e si sblocca solo dalla billing tab — strada evitata per principio dopo il caso Gemini. Finche' restava in lista era peggio che inutile: un round-trip fallito prima di ogni ripiego. Se il free tier verra' attivato va rimesso: 60k token/minuto e 1M al giorno restano il tetto piu' alto del listino dopo Mistral. Catalogo free verificato il 3 ago 2026 (/v1/models): gemma-4-31b, zai-glm-4.7, gpt-oss-120b — i Llama non ci sono più. ATTENZIONE: sull'account OB1 ogni modello risponde 402 payment_required, cioè il free tier non risulta attivo: va sbloccato dalla billing tab prima di contarci per la capacità di massa."
     },
     {
       "id": "groq",
@@ -169,6 +169,73 @@
       "active": false,
       "verified": false,
       "note": "Capacità di riserva senza tetto: llama.cpp dentro il job Actions. Costa minuti di runner (gratis su repo pubblico), non quota. Lento (~30-60s/articolo) e qualità da validare con compare_llm prima di attivarlo."
+    },
+    {
+      "id": "sambanova",
+      "label": "SambaNova Cloud",
+      "kind": "openai",
+      "base_url": "https://api.sambanova.ai/v1",
+      "api_key_env": "SAMBANOVA_API_KEY",
+      "model": "Meta-Llama-3.3-70B-Instruct",
+      "classes": [
+        "fast"
+      ],
+      "priority": 15,
+      "limits": {
+        "rpm": null,
+        "rpd": null,
+        "tpm": null,
+        "tpd": 200000,
+        "max_input_chars": 24000
+      },
+      "active": true,
+      "verified": false,
+      "note": "Aggiunto il 27 ago 2026 cercando un'alternativa a Cerebras (402 payment_required sull'account OB1: il free tier non e' attivo e sbloccarlo passa dalla billing tab). Free tier dichiarato 200.000 token/giorno PER MODELLO — non condiviso fra modelli diversi, quindi due modelli valgono 400k. Endpoint OpenAI-compatible dalla doc ufficiale (docs.sambanova.ai, OpenAI Client Libraries Compatibility). NON provato su chiave reale: nome modello e tier vanno confermati al primo run con SAMBANOVA_API_KEY impostata. Collegato anche in src/llm_free_chain.py: senza chiave non entra in catena."
+    },
+    {
+      "id": "mistral",
+      "label": "Mistral La Plateforme (free)",
+      "kind": "openai",
+      "base_url": "https://api.mistral.ai/v1",
+      "api_key_env": "MISTRAL_API_KEY",
+      "model": "mistral-small-latest",
+      "classes": [
+        "fast",
+        "mid"
+      ],
+      "priority": 90,
+      "limits": {
+        "rpm": 60,
+        "rpd": null,
+        "tpm": 500000,
+        "tpd": null,
+        "max_input_chars": 24000
+      },
+      "active": false,
+      "verified": false,
+      "note": "DI GRAN LUNGA il tetto piu' alto trovato: 1 richiesta/secondo, 500.000 token/minuto, 1 MILIARDO di token/mese, senza carta di credito (verificato 27 ago 2026). Per confronto Groq da' 8-12k token/minuto e 100k al giorno. MA il piano Experiment richiede DUE cose: verifica del numero di telefono e adesione esplicita all'uso dei propri dati per addestrare i modelli Mistral. Qui passa testo di articoli su MINORENNI (14-21 anni): mandarlo in un corpus di addestramento e' una scelta di prodotto, non tecnica. Lasciato active=false apposta: va acceso solo con una decisione consapevole. Se accettata, e' la leva singola piu' grande disponibile."
+    },
+    {
+      "id": "cloudflare_workers_ai",
+      "label": "Cloudflare Workers AI",
+      "kind": "openai",
+      "base_url": "https://api.cloudflare.com/client/v4/accounts/{CLOUDFLARE_ACCOUNT_ID}/ai/v1",
+      "api_key_env": "CLOUDFLARE_API_TOKEN",
+      "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+      "classes": [
+        "fast"
+      ],
+      "priority": 80,
+      "limits": {
+        "rpm": null,
+        "rpd": null,
+        "tpm": null,
+        "tpd": null,
+        "max_input_chars": 24000
+      },
+      "active": false,
+      "verified": false,
+      "note": "Free tier permanente: 10.000 Neuron/giorno, azzerati alle 00:00 UTC, senza carta ne' approvazione. I Neuron sono un'unita' di calcolo, non token, e il pool e' CONDIVISO fra tutti i modelli: un 70B lo brucia molto piu' in fretta di un modello piccolo, quindi il tetto reale in chiamate non e' deducibile dalla documentazione e va misurato. Endpoint OpenAI-compatible esiste ma richiede l'ACCOUNT ID dentro l'URL — non entra nello schema base_url fisso di FREE_PROVIDER_SPECS senza interpolare una env: per questo NON e' collegato alla catena, solo registrato qui. Da valutare se SambaNova non basta."
     }
   ]
 }
