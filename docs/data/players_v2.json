@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-27T04:16:52.679999+00:00",
+ "generated_at": "2026-08-27T06:10:15.200419+00:00",
  "version": "1.0.0",
- "build": "be9f3f6",
+ "build": "356e925",
  "total": 292,
  "publishable": 87,
  "tracking": 205,
@@ -26530,6 +26530,113 @@
    }
   },
   {
+   "name": "Dominik Kotarski",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 23 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Title: Dominik Kotarski - Player profile 26/27",
+     "url": "https://www.transfermarkt.us/dominik-kotarski/profil/spieler/370997"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "vratar",
+   "club": null,
+   "league": null,
+   "region": "Croatia",
+   "gender": "male",
+   "score": 2,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 2.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "budiponosan.hns-cff.hr",
+     "url": "https://budiponosan.hns-cff.hr/hrvatske-reprezentacije/vatreni/",
+     "seen": "2026-07-22T09:10:40.233331"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/dominik-kotarski/profil/spieler/370997",
+     "seen": "2026-08-27T05:57:46.052232"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 4,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,senza_fonte_primary,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-27T05:57:46.052232",
+   "last_seen": "2026-08-27T05:57:46.052232",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 4 presenze",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 4 appearances",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Look for a primary press/federation source to bring it to the full standard",
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "name": "Josey Casa-Grande",
    "age": 20,
    "age_stato": "dichiarato",
@@ -26818,106 +26925,6 @@
    }
   },
   {
-   "name": "Dominik Kotarski",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 23 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "vratar",
-   "club": null,
-   "league": null,
-   "region": "Croatia",
-   "gender": "male",
-   "score": 1,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 2.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "budiponosan.hns-cff.hr",
-     "url": "https://budiponosan.hns-cff.hr/hrvatske-reprezentacije/vatreni/",
-     "seen": "2026-07-22T09:10:40.233331"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 4,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 4 presenze"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented continuity: 4 appearances"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "name": "Nicolás Ruotola",
    "age": 21,
    "age_stato": "dichiarato",
@@ -26992,6 +26999,107 @@
    "coverage_tier": "standard",
    "first_detected": "2026-08-26T02:09:29.229545",
    "last_seen": "2026-08-26T02:09:29.229545",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Mauricio Rodríguez",
+   "age": 21,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Mauricio Rodríguez Defensa Lateral Derecho 21",
+     "url": "https://www.promiedos.com.ar/team/juventud/babjc"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Mauricio Rodríguez Defensa Lateral Derecho 21",
+     "url": "https://www.promiedos.com.ar/team/juventud/babjc"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defensa Lateral Derecho",
+   "club": null,
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 1,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/juventud/babjc",
+     "seen": "2026-07-31T04:02:04.097438"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/mauricio-rodriguez/profil/spieler/635462",
+     "seen": "2026-08-27T05:57:46.052232"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-27T05:57:46.052232",
+   "last_seen": "2026-08-27T05:57:46.052232",
    "selezione": {},
    "assessment": {
     "pros": [
@@ -28625,6 +28733,102 @@
    }
   },
   {
+   "name": "Pau Navarro",
+   "age": 21,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Pau Navarro\nDefensa Central 21 25/04/2005",
+     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Pau Navarro\nDefensa Central 21 25/04/2005",
+     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defensa Central",
+   "club": null,
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 1,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb",
+     "seen": "2026-08-21T13:26:54.585139"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/pau-navarro/profil/spieler/1061336",
+     "seen": "2026-08-27T05:57:46.052232"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-21T13:26:54.585139",
+   "last_seen": "2026-08-27T05:57:46.052232",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Keiber Lamadrid",
    "age": null,
    "age_stato": "assente",
@@ -28821,102 +29025,6 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "name": "Mauricio Rodríguez",
-   "age": 21,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Mauricio Rodríguez Defensa Lateral Derecho 21",
-     "url": "https://www.promiedos.com.ar/team/juventud/babjc"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Mauricio Rodríguez Defensa Lateral Derecho 21",
-     "url": "https://www.promiedos.com.ar/team/juventud/babjc"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Defensa Lateral Derecho",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 0,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/team/juventud/babjc",
-     "seen": "2026-07-31T04:02:04.097438"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola,eta_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {},
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
     ]
    }
   },
@@ -29470,97 +29578,6 @@
    "coverage_tier": "standard",
    "first_detected": null,
    "last_seen": null,
-   "selezione": {},
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Pau Navarro",
-   "age": 21,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Pau Navarro\nDefensa Central 21 25/04/2005",
-     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Pau Navarro\nDefensa Central 21 25/04/2005",
-     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Defensa Central",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 0,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/team/spain-u20/bcffb",
-     "seen": "2026-08-21T13:26:54.585139"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,fonte_singola,eta_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-21T13:26:54.585139",
-   "last_seen": "2026-08-21T13:26:54.585139",
    "selezione": {},
    "assessment": {
     "pros": [],
