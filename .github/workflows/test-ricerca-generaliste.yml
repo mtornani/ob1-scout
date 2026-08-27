@@ -1,0 +1,38 @@
+name: OB1 Scout v2 - Test ricerca generaliste (mirato, manuale)
+
+# Ricognizione una tantum, NON produzione: verifica se Jina Search
+# ricaricato (vedi #39) trova qualcosa sulle fonti generaliste/confederazioni
+# segnalate da impronta_fonti.py (#38) come "leggibili ma non filtrate
+# topicamente" — cafonline.com, nation.africa, astanatimes.com. Nessun
+# commit, nessuna scrittura sul DB, nessun consumo di budget LLM: solo
+# stdout nel log del run. Solo workflow_dispatch, mai schedulato — non è
+# un secondo cron da mantenere, è un test da lanciare quando serve e poi
+# rileggere.
+on:
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Test ricerca su fonti generaliste
+        env:
+          JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
+          PYTHONPATH: ${{ github.workspace }}
+        run: python scripts/test_ricerca_generaliste.py
