@@ -251,8 +251,23 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
             if not prof:
                 stats["corr_not_found"] += 1
                 continue
-            texts = await scraper.deep_read_urls([prof], max_urls=1)
-            text = texts.get(prof)
+            # Una scheda TM va letta INTERA. deep_read_urls taglia a 1500
+            # caratteri perché è il testo destinato al modello, ma su
+            # Transfermarkt i primi 1500 sono tutti menu di navigazione: il
+            # blocco dati ("Date of birth/Age:") comincia intorno al
+            # carattere 4900. Misurato sul run #187, il primo dopo il merge:
+            # corr_via_parser 0 su 5, con una scheda TM davvero corroborata
+            # in quel run — il parser veniva chiamato e rispondeva None
+            # perché non vedeva i dati, non perché non sapesse leggerli
+            # (sulle stesse pagine INTERE aggancia 12 su 12). Il parser era
+            # stato validato con read_raw e collegato a deep_read_urls:
+            # testata la parte, non la giuntura.
+            scheda_tm = e_scheda_tm(prof)
+            if scheda_tm:
+                text = await scraper.read_raw(prof)
+            else:
+                texts = await scraper.deep_read_urls([prof], max_urls=1)
+                text = texts.get(prof)
             if not text:
                 continue
             # Parser prima, modello dopo — stessa forma di
@@ -263,7 +278,7 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
             # titolo della pagina ricopiato. La scheda è una tabella con
             # etichette fisse: si legge in codice.
             obs_list, via_parser = None, False
-            if e_scheda_tm(prof):
+            if scheda_tm:
                 letto = leggi_profilo(text, prof)
                 if letto:
                     obs_list, via_parser = [letto], True
@@ -271,8 +286,12 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
             if not via_parser:
                 # leggi_profilo() ha detto "non lo so" (pagina d'errore,
                 # layout cambiato, campi mancanti) oppure non era una scheda
-                # TM: si paga il modello, esattamente come prima.
-                obs_list = extractor.extract_from_source(text, prof)
+                # TM: si paga il modello, esattamente come prima. Sul ripiego
+                # di una scheda TM si taglia a 1500 come faceva
+                # deep_read_urls, così il modello riceve esattamente quello
+                # che riceveva prima di questo cambio.
+                obs_list = extractor.extract_from_source(
+                    text[:1500] if scheda_tm else text, prof)
                 calls_used += 1
                 stats["corr_via_llm"] += 1
                 await _pace()
