@@ -463,6 +463,18 @@ class OB1DatabaseV2:
                     PRIMARY KEY (source_id, item_key)
                 )
             """)
+            # Memoria delle scansioni di discovery (2026-08-27). Le fonti
+            # vivono in config/sources.json, non in una tabella: qui si tiene
+            # solo QUANDO ognuna è stata scansionata l'ultima volta, che è
+            # l'unica cosa che serve a farle ruotare tutte invece di rifare
+            # sempre la testa del registro. Vedi sources_in_scan_order.
+            c.execute("""
+                CREATE TABLE IF NOT EXISTS source_scans (
+                    source_id TEXT PRIMARY KEY,
+                    scans INTEGER DEFAULT 0,
+                    last_scan_at TEXT
+                )
+            """)
             c.execute("CREATE INDEX IF NOT EXISTS idx_ev_player ON evidences(player_id)")
             c.execute("CREATE INDEX IF NOT EXISTS idx_out_player ON outcomes(player_id)")
             conn.commit()
@@ -913,6 +925,76 @@ class OB1DatabaseV2:
                 WHERE id = ?
             """, (datetime.now().isoformat(), player_id))
 
+    # ---- Turno di scansione delle fonti (discovery) ----
+    def sources_in_scan_order(self, sources: list) -> list:
+        """
+        Le stesse fonti, riordinate: prima quelle MAI scansionate, poi quelle
+        che aspettano da più tempo. A parità resta l'ordine del registro.
+
+        Perché (misurato il 27 ago 2026 sul DB di produzione). Il ciclo di
+        discovery in scripts/ingest_v2.py scorre le fonti in ordine di
+        registro e fa `break` quando il budget LLM finisce. L'ordine del
+        registro è FISSO, il budget è piccolo (15 chiamate, ~1/3 riservate
+        alla corroborazione): il ciclo non è mai arrivato oltre la posizione
+        44 su 83. Risultato, contato sulle seen_items reali:
+
+            67 fonti primary nel registro
+            29 raggiunte almeno una volta
+            38 MAI scansionate, nemmeno una volta
+
+        Fra le mai scansionate: tutta l'Asia (India, Bangladesh, Indonesia,
+        Vietnam, Thailandia, Filippine, Uzbekistan, Kazakistan), tutte e 4 le
+        confederazioni, tutte e 4 le accademie, quasi tutto il Nord Africa.
+        Delle 45 primary che non hanno mai prodotto un'evidenza, 38 non hanno
+        mai prodotto perché non gli è mai stato CHIESTO: le fonti davvero
+        interrogate-e-sterili sono 7.
+
+        È lo stesso identico bug già trovato e corretto per la corroborazione
+        il 21 ago 2026 (vedi players_to_corroborate): coda in ordine stabile +
+        tetto per run = la testa sempre, il resto mai. Là fu risolto, qui no.
+
+        Sicura al primo run dopo il deploy: nessuna fonte ha ancora un record
+        di scansione, quindi sono tutte "mai scansionate", il criterio di
+        ordinamento pareggia e sorted() — che è stabile — restituisce
+        ESATTAMENTE l'ordine di registro di oggi. Nessuna disruzione
+        immediata; la rotazione parte dal secondo run, quando last_scan_at
+        comincia a popolarsi. Stesso pattern di migrazione verificato per
+        corr_attempts.
+        """
+        # julianday() e non la stringa grezza: i timestamp possono arrivare
+        # in due formati diversi ('2026-08-27T07:30:00.123' da isoformat,
+        # '2026-08-27 06:30:00' da un datetime() SQL) e confrontarli come
+        # testo li ordina per separatore invece che per data — ' ' < 'T',
+        # quindi un record scritto in un formato precede SEMPRE l'altro a
+        # prescindere dall'ora. Beccato dal self-test qui sotto. julianday
+        # normalizza entrambi in un numero, come già fa la coda di
+        # corroborazione (players_to_corroborate).
+        with self._conn() as conn:
+            stato = {r[0]: r[1] for r in conn.execute(
+                "SELECT source_id, julianday(last_scan_at) FROM source_scans")}
+        # Chiave: (già scansionata?, quando). False < True mette le mai
+        # scansionate davanti; fra le altre vince il julianday più basso,
+        # cioè quella che aspetta da più tempo.
+        return sorted(sources,
+                      key=lambda s: (stato.get(s.get("id")) is not None,
+                                     stato.get(s.get("id")) or 0.0))
+
+    def record_source_scan(self, source_id: str) -> None:
+        """
+        Segna che questa fonte è stata appena scansionata — abbia prodotto
+        articoli nuovi o no. Anche una scansione a vuoto è memoria utile: dice
+        "questa l'ho appena guardata, tocca alle altre", che è esattamente il
+        punto. Chiamata da ingest_v2.py dopo OGNI monitor.new_items().
+        """
+        with self._conn() as conn:
+            conn.execute("""
+                INSERT INTO source_scans (source_id, scans, last_scan_at)
+                VALUES (?, 1, ?)
+                ON CONFLICT(source_id) DO UPDATE
+                SET scans = COALESCE(scans, 0) + 1, last_scan_at = excluded.last_scan_at
+            """, (source_id, datetime.now().isoformat()))
+            conn.commit()
+
 
 if __name__ == "__main__":
     _db = OB1DatabaseV2()
@@ -1169,6 +1251,73 @@ if __name__ == "__main__":
         assert pid_never not in queue_after, \
             "appena tentato: deve uscire dalla coda fino al prossimo cooldown"
     print("OK memoria corroborazione: cooldown + priorità a chi non è mai stato tentato")
+
+    # --- Turno di scansione delle fonti (27 ago 2026) ---
+    with _tempfile.TemporaryDirectory() as _tmp5:
+        _sc_db = OB1DatabaseV2(str(Path(_tmp5) / "test_scan_order.db"))
+        _reg = [{"id": "a"}, {"id": "b"}, {"id": "c"}, {"id": "d"}]
+
+        # 1. Primo run dopo il deploy: nessuna fonte ha un record di
+        #    scansione. DEVE tornare esattamente l'ordine del registro —
+        #    è la garanzia di "nessuna disruzione immediata in produzione".
+        assert [s["id"] for s in _sc_db.sources_in_scan_order(_reg)] == \
+            ["a", "b", "c", "d"], \
+            "primo run: l'ordine del registro non deve cambiare"
+
+        # 2. Dopo che la testa del registro è stata scansionata (il caso
+        #    reale: il ciclo si ferma sul budget dopo le prime fonti), il
+        #    turno dopo deve toccare a chi non è mai stato guardato.
+        _sc_db.record_source_scan("a")
+        _sc_db.record_source_scan("b")
+        ordine = [s["id"] for s in _sc_db.sources_in_scan_order(_reg)]
+        assert ordine[:2] == ["c", "d"], \
+            f"le mai scansionate devono passare davanti: {ordine}"
+        assert set(ordine) == {"a", "b", "c", "d"}, \
+            f"nessuna fonte va persa nel riordino: {ordine}"
+
+        # 3. Quando TUTTE sono state scansionate almeno una volta, vince chi
+        #    aspetta da più tempo — così la rotazione continua invece di
+        #    ripiegare di nuovo sulla testa del registro.
+        #
+        #    I due formati di timestamp qui sotto sono VOLUTI, non una
+        #    sciatteria: record_source_scan scrive in isoformat, con la 'T'
+        #    ('2026-08-27T07:30:00.123'), mentre un datetime() SQL scrive con
+        #    lo spazio ('2026-08-27 06:30:00'). Confrontati come TESTO, ' '
+        #    viene prima di 'T': il FORMATO deciderebbe l'ordine al posto
+        #    della data. Qui 'a' è vecchia di anni ma in formato 'T', 'b' è di
+        #    un'ora fa in formato spazio: ordinando le stringhe grezze
+        #    passerebbe 'b', che è sbagliato. julianday() normalizza entrambi.
+        #    Le ore sono fissate a mano, stessa data, invece di usare l'ora
+        #    corrente: solo così il separatore è davvero il carattere che
+        #    decide il confronto testuale. (Prima stesura di questo test
+        #    metteva 'a' nel 2020 — a quel punto a decidere era l'ANNO, e il
+        #    test passava anche con l'implementazione sbagliata. Verificato
+        #    rompendo apposta il codice: ora fallisce, prima no.)
+        _sc_db.record_source_scan("c")
+        _sc_db.record_source_scan("d")
+        with _sc_db._conn() as _c:
+            for _sid, _ts in (("a", "2026-08-27T00:00:00.000000"),  # 'T', la più vecchia
+                              ("b", "2026-08-27 06:00:00"),          # spazio, seconda
+                              ("c", "2026-08-27T12:00:00.000000"),
+                              ("d", "2026-08-27T18:00:00.000000")):
+                _c.execute("UPDATE source_scans SET last_scan_at = ? "
+                           "WHERE source_id = ?", (_ts, _sid))
+        ordine = [s["id"] for s in _sc_db.sources_in_scan_order(_reg)]
+        assert ordine == ["a", "b", "c", "d"], \
+            ("ordine per data, non per formato del timestamp: confrontando le "
+             f"stringhe grezze 'b' passerebbe davanti ad 'a'. Ottenuto: {ordine}")
+
+        # 4. record_source_scan conta i passaggi (una fonte scansionata due
+        #    volte non deve ripartire da zero: serve a leggere nei log se una
+        #    fonte gira davvero o se resta indietro).
+        riga = _sc_db._conn().execute(
+            "SELECT scans FROM source_scans WHERE source_id='a'").fetchone()
+        assert riga[0] == 1, f"scans deve contare i passaggi: {riga}"
+        _sc_db.record_source_scan("a")
+        riga = _sc_db._conn().execute(
+            "SELECT scans FROM source_scans WHERE source_id='a'").fetchone()
+        assert riga[0] == 2, f"seconda scansione non contata: {riga}"
+    print("OK turno fonti: ordine invariato al primo run, poi priorità a chi non è mai stato scansionato")
 
     db = _db
     print(f"Schema v2 inizializzato: {db.db_path}")
