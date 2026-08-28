@@ -1,0 +1,65 @@
+name: OB1 Scout v2 - Backfill schede Transfermarkt (manuale)
+
+# Ricognizione mirata, non un secondo cron: rilegge gli URL Transfermarkt
+# GIÀ noti nel DB con il parser attuale (profilo_tm_v2.py), sulla pagina
+# intera invece che troncata a 1500 caratteri come prima del fix #42/#43.
+# Vedi scripts/backfill_profili_tm.py per il perché e i numeri misurati.
+#
+# Zero chiamate LLM: non tocca il budget della pipeline né i secret a
+# pagamento. Scrive sullo stesso data/ob1_v2.db del cron delle 6h, quindi
+# resta workflow_dispatch-only (mai schedulato) e fa pull --rebase prima
+# del push, come global-radar-v2.yml, per non entrare in conflitto con un
+# run del cron in corso.
+#
+# Idempotente per costruzione (query filtra publishable=0): si può
+# rilanciare in sicurezza se un run precedente si è fermato a metà.
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Limite candidati da rileggere (0 = tutti)"
+        required: false
+        default: "0"
+
+concurrency:
+  group: radar-v2
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Rileggi schede Transfermarkt già note
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: python scripts/backfill_profili_tm.py --limit ${{ github.event.inputs.limit || '0' }}
+
+      - name: Export dashboard v2
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: python scripts/export_dashboard_v2.py
+
+      - name: Commit e push dati
+        run: |
+          git config --global user.name "OB1 Scout Bot"
+          git config --global user.email "bot@ob1-radar.com"
+          git add -f data/ob1_v2.db docs/data/players_v2.json
+          git commit -m "Backfill TM v2: $(date -u '+%Y-%m-%d %H:%M UTC')" || echo "Nessun cambiamento"
+          git pull --rebase origin main
+          git push
