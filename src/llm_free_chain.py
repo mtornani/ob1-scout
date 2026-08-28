@@ -102,21 +102,29 @@ FREE_PROVIDER_SPECS = [
     # ragione: se un giorno il free tier viene attivato, va rimesso qui —
     # 60k token/minuto e 1M al giorno sono ancora il tetto più alto del
     # listino, Mistral escluso.
-    # SambaNova Cloud (aggiunto 27 ago 2026, cercando un'alternativa a
-    # Cerebras: sull'account OB1 Cerebras risponde 402 payment_required, cioè
-    # il free tier non è attivo, e sbloccarlo passa dalla billing tab — cosa
-    # che questo progetto evita per principio dopo il caso Gemini). Free tier
-    # dichiarato: 200.000 token al giorno PER MODELLO, quindi la quota non è
-    # condivisa fra due modelli diversi. Endpoint OpenAI-compatible verificato
-    # sulla doc SambaNova (docs.sambanova.ai, "OpenAI Client Libraries
-    # Compatibility"): https://api.sambanova.ai/v1, stesso schema degli altri
-    # anelli, nessun codice nuovo.
-    # NON verificato dal vivo su una chiave reale: il tier free e il nome
-    # esatto del modello vanno confermati al primo run con SAMBANOVA_API_KEY
-    # impostata — se il modello non esiste torna 404 e brucia un anello, come
-    # già successo con i Llama ritirati da Cerebras il 3 ago.
-    ("SAMBANOVA_API_KEY", "https://api.sambanova.ai/v1",
-     "SAMBANOVA_MODEL", "Meta-Llama-3.3-70B-Instruct", "sambanova"),
+    # SambaNova Cloud TOLTO il 28 ago 2026 — stessa sorte di Cerebras, stesso
+    # motivo. Aggiunto il giorno prima cercando un'alternativa proprio a
+    # Cerebras (402 payment_required); collegata la chiave vera, il primo run
+    # di produzione (run #191) ha dato:
+    #
+    #   sambanova: HTTP 402: {"balance_units":0,
+    #     "code":"PAYMENT_METHOD_REQUIRED",
+    #     "message":"A payment method is required. Add one at
+    #     https://cloud.sambanova.ai/plans/billing"}
+    #
+    # Il tier "free" dichiarato (200k token/giorno per modello) esiste solo
+    # dopo aver registrato una carta — identico schema di Cerebras, stessa
+    # regola dell'utente ("se cerebras dà 402, lo salutiamo") si applica di
+    # netto anche qui. Il 402 veniva già escluso correttamente dopo un solo
+    # tentativo (is_quota_error copre 402 da prima di questo cambio), quindi
+    # lasciarlo in lista non rompeva nulla — ma tenerlo significa continuare
+    # a spendere il primo round-trip di ogni run su un provider che non potrà
+    # mai rispondere senza una carta di credito, cosa che questo progetto
+    # evita per principio dopo il caso Gemini.
+    #
+    # Se un giorno si decide di aggiungere una carta, l'endpoint resta:
+    # https://api.sambanova.ai/v1 (OpenAI-compatible, verificato sulla doc
+    # ufficiale), env SAMBANOVA_API_KEY / SAMBANOVA_MODEL.
     # meta-llama/llama-3.3-70b-instruct:free è uscito dal catalogo free di
     # OpenRouter a inizio agosto 2026 — verificato in due modi indipendenti
     # il 27 ago: il messaggio d'errore reale nel run #188 ("This model is
@@ -386,19 +394,13 @@ if __name__ == "__main__":
     assert chain[0]["model"] == "openai/gpt-oss-120b"
     assert chain[1]["model"].endswith(":free")
 
-    # Un provider senza chiave non entra in catena: è la proprietà che rende
-    # sicuro aggiungere anelli nuovi al listino (il codice descrive il
-    # possibile, i secrets decidono il reale). SambaNova è stato aggiunto il
-    # 27 ago 2026 senza chiave in produzione: questo assert è la prova che
-    # aggiungerlo non ha cambiato nulla per chi non lo configura.
-    assert "sambanova" not in [p["label"] for p in chain], \
-        "un provider senza chiave non deve entrare in catena"
-
-    # ...e quando la chiave c'è, entra al posto giusto: prima di OpenRouter,
-    # che ha solo 50 richieste al giorno.
+    # SambaNova non c'è più anche se la sua chiave è in ambiente: tolto il
+    # 28 ago 2026, stessa sorte di Cerebras (402 PAYMENT_METHOD_REQUIRED sul
+    # run #191 — vedi il commento sopra FREE_PROVIDER_SPECS).
     env_sn = dict(env, SAMBANOVA_API_KEY="s")
     chain_sn = [p["label"] for p in resolve_free_providers(env_sn)]
-    assert chain_sn == ["groq", "sambanova", "openrouter"], chain_sn
+    assert "sambanova" not in chain_sn, chain_sn
+    assert chain_sn == ["groq", "openrouter"], chain_sn
 
     # --- rotazione: i provider si dividono le chiamate (27 ago 2026) ---
     # Il bug che chiude: ordine fisso = il primo anello prende tutto. Nel run

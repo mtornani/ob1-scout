@@ -188,9 +188,9 @@
         "tpd": 200000,
         "max_input_chars": 24000
       },
-      "active": true,
+      "active": false,
       "verified": false,
-      "note": "Aggiunto il 27 ago 2026 cercando un'alternativa a Cerebras (402 payment_required sull'account OB1: il free tier non e' attivo e sbloccarlo passa dalla billing tab). Free tier dichiarato 200.000 token/giorno PER MODELLO — non condiviso fra modelli diversi, quindi due modelli valgono 400k. Endpoint OpenAI-compatible dalla doc ufficiale (docs.sambanova.ai, OpenAI Client Libraries Compatibility). NON provato su chiave reale: nome modello e tier vanno confermati al primo run con SAMBANOVA_API_KEY impostata. Collegato anche in src/llm_free_chain.py: senza chiave non entra in catena."
+      "note": "DISATTIVATO il 28 ago 2026, stessa sorte di Cerebras. Collegata la chiave vera in produzione (secret utente), il run #191 ha dato: HTTP 402 {\"balance_units\":0,\"code\":\"PAYMENT_METHOD_REQUIRED\",\"message\":\"A payment method is required. Add one at https://cloud.sambanova.ai/plans/billing\"}. Il tier free dichiarato (200k token/giorno per modello) esiste solo dopo aver registrato una carta — identico schema di Cerebras, stessa regola dell'utente (\"se cerebras da' 402, lo salutiamo\") applicata di netto. Tolto anche da FREE_PROVIDER_SPECS in src/llm_free_chain.py. Aggiunto il 27 ago 2026 cercando un'alternativa a Cerebras (402 payment_required sull'account OB1: il free tier non e' attivo e sbloccarlo passa dalla billing tab). Free tier dichiarato 200.000 token/giorno PER MODELLO — non condiviso fra modelli diversi, quindi due modelli valgono 400k. Endpoint OpenAI-compatible dalla doc ufficiale (docs.sambanova.ai, OpenAI Client Libraries Compatibility). NON provato su chiave reale: nome modello e tier vanno confermati al primo run con SAMBANOVA_API_KEY impostata. Collegato anche in src/llm_free_chain.py: senza chiave non entra in catena."
     },
     {
       "id": "mistral",
