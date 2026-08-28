@@ -117,6 +117,19 @@ FREE_PROVIDER_SPECS = [
     # già successo con i Llama ritirati da Cerebras il 3 ago.
     ("SAMBANOVA_API_KEY", "https://api.sambanova.ai/v1",
      "SAMBANOVA_MODEL", "Meta-Llama-3.3-70B-Instruct", "sambanova"),
+    # meta-llama/llama-3.3-70b-instruct:free è uscito dal catalogo free di
+    # OpenRouter a inizio agosto 2026 — verificato in due modi indipendenti
+    # il 27 ago: il messaggio d'errore reale nel run #188 ("This model is
+    # unavailable for free... use this slug instead: meta-llama/llama-
+    # 3.3-70b-instruct", che è la versione A PAGAMENTO, quindi NON va usata
+    # qui) e la lista modelli pubblica di OpenRouter (openrouter.ai/api/v1/
+    # models), che oggi non contiene nessun modello ~70B sul tier free.
+    # Lasciato com'è, non spento: con la classificazione del 404 come
+    # permanente (vedi call_free_chain) il costo di un anello morto è un
+    # solo round-trip a inizio run, non uno per chiamata. OPENROUTER_MODEL
+    # resta per puntarlo a un modello free verificato quando ce ne sarà uno
+    # buono per l'estrazione — nessuno dei free attuali (tutti <10B o di
+    # nicchia) è stato validato con compare_llm.py.
     ("OPENROUTER_API_KEY", "https://openrouter.ai/api/v1",
      "OPENROUTER_MODEL", "meta-llama/llama-3.3-70b-instruct:free", "openrouter"),
     # NVIDIA NIM: verificato 3 ago 2026. nemotron-3-ultra risponde in ~7s;
@@ -294,8 +307,26 @@ def call_free_chain(providers: list, system: str, prompt: str,
                 logger.warning(f"{p['label']}: risposta vuota, provo il prossimo.")
                 break
             except ProviderCallError as e:
-                if e.status in (401, 403):
-                    logger.error(f"{p['label']}: chiave rifiutata → escluso dal run.")
+                # 401/403 (chiave) e 404 (modello) sono la STESSA categoria:
+                # un problema di CONFIGURAZIONE, non di traffico. Non si
+                # aggiusta aspettando, quindi ritentare ad ogni chiamata
+                # successiva non fa che ripagare lo stesso errore.
+                #
+                # Il 404 mancava da questo gruppo fino al 27 ago 2026, ed è
+                # esattamente il bug già descritto sopra per Cerebras ("un
+                # modello che non esiste torna 404 e brucia un anello"), qui
+                # semplicemente non applicato: misurato sul run #188,
+                # OpenRouter ha risposto "This model is unavailable for
+                # free... meta-llama/llama-3.3-70b-instruct" (il modello free
+                # è stato tolto dal catalogo a inizio agosto — verificato
+                # sulla lista modelli reale di OpenRouter, non sul messaggio
+                # da solo) SEI volte nello stesso run, una per ogni chiamata
+                # che lo raggiungeva nella rotazione: sei round-trip falliti
+                # pagati per intero invece di uno.
+                if e.status in (401, 403, 404):
+                    motivo = {401: "chiave rifiutata", 403: "chiave rifiutata",
+                             404: "modello non trovato"}[e.status]
+                    logger.error(f"{p['label']}: {motivo} → escluso dal run. {e}")
                     dead.add(p["label"])
                     break
                 if TRANSIENT_CAPACITY.search(str(e)) and attempt == 1:
@@ -312,7 +343,16 @@ def call_free_chain(providers: list, system: str, prompt: str,
                                        f"(finestra scorrevole, non quota esaurita).")
                         time.sleep(wait + 0.5)
                         continue
-                    logger.warning(f"{p['label']}: quota/rate limit esaurita → escluso dal run.")
+                    # Prima si stampava solo la frase generica: lo stesso
+                    # bug di osservabilità già trovato e corretto per Jina
+                    # Search e ddgs (21 ago 2026) — l'errore vero (quale
+                    # status, quale body) restava chiuso dentro l'eccezione e
+                    # non arrivava mai ai log di produzione. Qui era lo
+                    # stesso: run dopo run "quota/rate limit esaurita" senza
+                    # sapere se fosse SambaNova, Groq o chiunque altro a dare
+                    # cosa. Ora c'è.
+                    logger.warning(f"{p['label']}: quota/rate limit esaurita → "
+                                   f"escluso dal run. {e}")
                     dead.add(p["label"])
                     break
                 logger.error(str(e))
@@ -451,6 +491,36 @@ if __name__ == "__main__":
     # Tutti morti: (None, None), così il chiamante NON marca il lavoro come fatto
     dead = {"groq", "cerebras", "openrouter"}
     assert call_free_chain(chain, "s", "p", dead=dead) == (None, None)
+
+    # Un 404 (modello non trovato) va escluso come 401/403, non ritentato ad
+    # ogni chiamata. Bug reale del run #188: OpenRouter dava 404 su OGNI
+    # chiamata (6 volte in un run solo) perché il 404 non finiva nel gruppo
+    # dei permanenti — qui la seconda chiamata a call_free_chain non deve
+    # nemmeno provare openrouter.
+    tre_404 = [{"label": "groq"}, {"label": "openrouter"}, {"label": "nvidia"}]
+    tentativi_404 = []
+
+    def fake_404(provider, system, prompt, *a, **k):
+        tentativi_404.append(provider["label"])
+        if provider["label"] == "groq":
+            raise ProviderCallError("groq: HTTP 429: rate limit", status=429)
+        if provider["label"] == "openrouter":
+            raise ProviderCallError(
+                'openrouter: HTTP 404: {"error":{"message":"This model is '
+                'unavailable for free."}}', status=404)
+        return '[{"name": "ok"}]'
+
+    globals()["call_openai_chat"] = fake_404
+    dead404 = set()
+    text, label = call_free_chain(tre_404, "s", "p", dead=dead404)
+    assert label == "nvidia", (label, text)         # groq 429, openrouter 404, arriva a nvidia
+    assert dead404 == {"groq", "openrouter"}, dead404
+    tentativi_404.clear()
+    call_free_chain(tre_404, "s", "p", dead=dead404)
+    assert tentativi_404 == ["nvidia"], \
+        (f"groq e openrouter vanno esclusi per il resto del run, non "
+         f"ritentati ad ogni chiamata: {tentativi_404}")
+
     globals()["call_openai_chat"] = _real
 
     live = resolve_free_providers()
