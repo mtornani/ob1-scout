@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-28T12:18:43.290586+00:00",
+ "generated_at": "2026-08-28T16:00:34.704179+00:00",
  "version": "1.0.0",
- "build": "b527840",
- "total": 298,
+ "build": "17e632f",
+ "total": 300,
  "publishable": 89,
- "tracking": 209,
- "shown": 298,
+ "tracking": 211,
+ "shown": 300,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -15583,6 +15583,104 @@
    }
   },
   {
+   "name": "Estêvão Willian",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Trivela",
+     "tipo": "local_press",
+     "citazione": "Estêvão é uma das esperanças do Chelsea na temporada.",
+     "url": "https://trivela.com.br/europa/vini-jr-joao-pedro-brasileiros-29-30-futebol-europeu/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Chelsea",
+   "league": "Premier League",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 0,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": -20.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "trivela.com.br",
+     "url": "https://trivela.com.br/europa/vini-jr-joao-pedro-brasileiros-29-30-futebol-europeu/",
+     "seen": "2026-08-28T15:47:13.194942"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_assente,gia_coperto_da_tutti",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-28T15:47:13.194942",
+   "last_seen": "2026-08-28T15:47:13.194942",
+   "selezione": {},
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "High-visibility club/league: low asymmetry, competition likely"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Fode Diallo",
    "age": null,
    "age_stato": "assente",
@@ -18402,6 +18500,109 @@
    "coverage_tier": "standard",
    "first_detected": "2026-08-21T13:26:54.585139",
    "last_seen": "2026-08-21T19:07:28.602721",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Pietra Lucci",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Lance!",
+     "tipo": "national_press",
+     "citazione": "pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17",
+     "url": "https://www.lance.com.br/futebol-feminino/pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17-e-exalta-formacao-na-base-do-sao-paulo.html"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "midfielder",
+   "club": "São Paulo",
+   "league": null,
+   "region": "Brazil",
+   "gender": "female",
+   "score": 9,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "lance.com.br",
+     "url": "https://www.lance.com.br/futebol-feminino/pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17-e-exalta-formacao-na-base-do-sao-paulo.html",
+     "seen": "2026-08-24T13:31:36.232233"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/pietra-lucci-3815810",
+     "seen": "2026-08-28T15:47:13.194942"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-24T13:31:36.232233",
+   "last_seen": "2026-08-28T15:47:13.194942",
    "selezione": {},
    "assessment": {
     "pros": [
@@ -21357,106 +21558,6 @@
    "coverage_tier": "standard",
    "first_detected": "2026-08-23T13:11:41.317748",
    "last_seen": "2026-08-23T13:11:41.317748",
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Pietra Lucci",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Lance!",
-     "tipo": "national_press",
-     "citazione": "pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17",
-     "url": "https://www.lance.com.br/futebol-feminino/pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17-e-exalta-formacao-na-base-do-sao-paulo.html"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "midfielder",
-   "club": "São Paulo",
-   "league": null,
-   "region": "Brazil",
-   "gender": "female",
-   "score": 6,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "lance.com.br",
-     "url": "https://www.lance.com.br/futebol-feminino/pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17-e-exalta-formacao-na-base-do-sao-paulo.html",
-     "seen": "2026-08-24T13:31:36.232233"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-24T13:31:36.232233",
-   "last_seen": "2026-08-24T13:31:36.232233",
    "selezione": {},
    "assessment": {
     "pros": [
@@ -30245,6 +30346,99 @@
    }
   },
   {
+   "name": "Lamine Yamal",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Récord",
+     "tipo": "national_press",
+     "citazione": "La entrada de Lamine Yamal que pudo cambiar el partido de Barcelona",
+     "url": "https://www.record.com.mx/futbol-internacional"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Récord",
+     "tipo": "national_press",
+     "citazione": "La entrada de Lamine Yamal que pudo cambiar el partido de Barcelona",
+     "url": "https://www.record.com.mx/futbol-internacional"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Barcelona",
+   "league": null,
+   "region": "Mexico",
+   "gender": "male",
+   "score": 0,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": -20.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "record.com.mx",
+     "url": "https://www.record.com.mx/futbol-internacional",
+     "seen": "2026-08-28T15:47:13.194942"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,gia_coperto_da_tutti",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-28T15:47:13.194942",
+   "last_seen": "2026-08-28T15:47:13.194942",
+   "selezione": {},
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "High-visibility club/league: low asymmetry, competition likely"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Felipe",
    "age": 16,
    "age_stato": "dedotto",
@@ -31225,11 +31419,11 @@
    "age_nota": "il valore 19 non è scritto da nessuna fonte competente",
    "claims": {
     "nome": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
+     "stato": "dichiarato",
+     "fonte": "Trivela",
+     "tipo": "local_press",
+     "citazione": "Modric x Rayan e duelos envolvendo grandes ligas movimentam fase inicial",
+     "url": "https://trivela.com.br/europa/liga-europa/sorteio-fase-liga-milan-bournemouth-confrontos-rayan-modric/"
     },
     "club": {
      "stato": "assente",
@@ -31257,16 +31451,16 @@
    "club": "Vasco",
    "league": "Brazilian League / U20",
    "region": "Brazil",
-   "gender": "unknown",
-   "score": 7,
-   "confidence": 0.45,
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.55,
    "breakdown": {
     "youth": 7.0,
     "production": 0.0,
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 1,
-    "detection_count": 1
+    "detection_count": 3
    },
    "n_sources": 1,
    "sources": [
@@ -31276,13 +31470,18 @@
      "seen": "2026-03-13T06:55:11.855508"
     }
    ],
-   "stats": {},
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
    "publishable": false,
    "identity_complete": false,
    "review_flags": "nome_singolo,fonte_singola,eta_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-03-13T06:55:11.855508",
-   "last_seen": "2026-03-19T13:06:00.874697",
+   "last_seen": "2026-08-28T15:47:13.194942",
    "selezione": {},
    "assessment": {
     "pros": [
