@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-28T16:00:34.704179+00:00",
+ "generated_at": "2026-08-28T22:46:26.239656+00:00",
  "version": "1.0.0",
- "build": "17e632f",
+ "build": "b0c2cdb",
  "total": 300,
  "publishable": 89,
  "tracking": 211,
@@ -713,6 +713,144 @@
     ],
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 4 times by Federación Colombiana de Fútbol between July 2025 and May 2026, from U16 to U17."
+   },
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "John Mauricio Maturana Carabalí",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "John Mauricio Maturana Carabalí – Internacional De Palmira",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "John Mauricio Maturana Carabalí – Internacional De Palmira",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Left Winger",
+   "club": "Internacional De Palmira",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 36,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 27.0,
+    "n_sources": 2,
+    "detection_count": 4
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/jhon-maturana/profil/spieler/1381075",
+     "seen": "2026-08-28T22:33:06.502357"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-28T22:33:06.502357",
+   "last_seen": "2026-08-28T22:33:06.502357",
+   "selezione": {
+    "quante": 3,
+    "frase": "Convocato 3 volte da Federación Colombiana de Fútbol tra febbraio 2025 e febbraio 2026, dal Sub-16 al Sub-17.",
+    "dal": "2025-02-17",
+    "al": "2026-02-17",
+    "categorie": [
+     "sub-16",
+     "sub-17"
+    ],
+    "progressione": true,
+    "mesi_di_arco": 12,
+    "eventi": [
+     {
+      "data": "2025-02-17",
+      "categoria": "sub-16",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+     },
+     {
+      "data": "2026-01-13",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
+     },
+     {
+      "data": "2026-02-17",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 3 times by Federación Colombiana de Fútbol between February 2025 and February 2026, from U16 to U17."
    },
    "assessment": {
     "pros": [
@@ -2255,139 +2393,6 @@
      "Confirm the birth year with the club",
      "Get performance stats (match reports)",
      "Request video or schedule a live viewing"
-    ]
-   }
-  },
-  {
-   "name": "John Mauricio Maturana Carabalí",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "John Mauricio Maturana Carabalí – Internacional De Palmira",
-     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "John Mauricio Maturana Carabalí – Internacional De Palmira",
-     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Internacional De Palmira",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 28,
-   "confidence": 0.55,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 27.0,
-    "n_sources": 1,
-    "detection_count": 3
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
-     "seen": "2026-07-16T19:42:31.108991"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": true,
-   "review_flags": "fonte_singola,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {
-    "quante": 3,
-    "frase": "Convocato 3 volte da Federación Colombiana de Fútbol tra febbraio 2025 e febbraio 2026, dal Sub-16 al Sub-17.",
-    "dal": "2025-02-17",
-    "al": "2026-02-17",
-    "categorie": [
-     "sub-16",
-     "sub-17"
-    ],
-    "progressione": true,
-    "mesi_di_arco": 12,
-    "eventi": [
-     {
-      "data": "2025-02-17",
-      "categoria": "sub-16",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
-     },
-     {
-      "data": "2026-01-13",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
-     },
-     {
-      "data": "2026-02-17",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 3 times by Federación Colombiana de Fútbol between February 2025 and February 2026, from U16 to U17."
-   },
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
     ]
    }
   },
@@ -15676,6 +15681,102 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Lamine Yamal",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Récord",
+     "tipo": "national_press",
+     "citazione": "La entrada de Lamine Yamal que pudo cambiar el partido de Barcelona",
+     "url": "https://www.record.com.mx/futbol-internacional"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Récord",
+     "tipo": "national_press",
+     "citazione": "La entrada de Lamine Yamal que pudo cambiar el partido de Barcelona",
+     "url": "https://www.record.com.mx/futbol-internacional"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Lamine Yamal, 19 anni, FC Barcelona",
+     "url": "https://www.transfermarkt.us/lamine-yamal/profil/spieler/937958"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Right Winger",
+   "club": "Barcelona",
+   "league": null,
+   "region": "Mexico",
+   "gender": "male",
+   "score": 0,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": -20.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "record.com.mx",
+     "url": "https://www.record.com.mx/futbol-internacional",
+     "seen": "2026-08-28T15:47:13.194942"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/lamine-yamal/profil/spieler/937958",
+     "seen": "2026-08-28T22:33:06.502357"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,gia_coperto_da_tutti",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-28T15:47:13.194942",
+   "last_seen": "2026-08-28T22:33:06.502357",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Young (19 yo)",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "High-visibility club/league: low asymmetry, competition likely"
+    ],
+    "next_steps_en": [
      "Get performance stats (match reports)"
     ]
    }
@@ -30340,99 +30441,6 @@
     ],
     "next_steps_en": [
      "Verify the current club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Lamine Yamal",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Récord",
-     "tipo": "national_press",
-     "citazione": "La entrada de Lamine Yamal que pudo cambiar el partido de Barcelona",
-     "url": "https://www.record.com.mx/futbol-internacional"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Récord",
-     "tipo": "national_press",
-     "citazione": "La entrada de Lamine Yamal que pudo cambiar el partido de Barcelona",
-     "url": "https://www.record.com.mx/futbol-internacional"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Barcelona",
-   "league": null,
-   "region": "Mexico",
-   "gender": "male",
-   "score": 0,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": -20.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "record.com.mx",
-     "url": "https://www.record.com.mx/futbol-internacional",
-     "seen": "2026-08-28T15:47:13.194942"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,gia_coperto_da_tutti",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-28T15:47:13.194942",
-   "last_seen": "2026-08-28T15:47:13.194942",
-   "selezione": {},
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed",
-     "High-visibility club/league: low asymmetry, competition likely"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
