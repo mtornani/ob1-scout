@@ -74,6 +74,43 @@ CLUB_GIA_COPERTI = {
     "as roma", "roma", "lazio", "newcastle united", "aston villa",
 }
 
+# Frasi che dichiarano ESPLICITAMENTE che la persona è già un professionista
+# affermato — non un prospect. Curata sui casi reali che l'hanno prodotta,
+# stesso principio di NOMI_COMUNI: non una tassonomia NLP, una lista corta di
+# segnali verificati.
+#
+# Caso reale (29 ago 2026): un articolo "onde estão os campeões da Copa do
+# Mundo Sub-17 de 2019" (placar.com.br, fonte primary registrata) nomina gli
+# ex-campioni di allora, oggi professionisti. Una riga sola —
+#
+#     "Kaio Jorge, do Cruzeiro, atual artilheiro do Brasileirão"
+#
+# — è passata come prova di club per un "prospect" mai esistito: nessuna età
+# nel testo, quindi il guardrail numerico di corroborate_v2 (che confronta
+# un'età osservata con quella nota) non aveva niente da confrontare. Lo
+# stesso articolo, una riga più sotto, lo dice ancora più chiaro su altri tre
+# nomi: "Gabriel Veron, Talles Magno e Yan Couto são outros atletas
+# conhecidos" — "sono altri atleti CONOSCIUTI", l'esatto opposto della
+# premessa "early" che il prodotto vende.
+SEGNALI_GIA_AFFERMATO = (
+    "atual artilheiro", "atleta conhecido", "atletas conhecidos",
+    "well-known athlete", "well known athlete", "well-known athletes",
+)
+
+
+def _gia_affermato(evidenze: List[Dict[str, Any]], nome: Any) -> Optional[str]:
+    """Una evidenza che nomina il giocatore e lo dichiara già affermato?"""
+    for e in evidenze:
+        raw = e.get("raw_content")
+        if not evidenza_parla_del_giocatore(raw, nome):
+            continue
+        blob = _norm(raw)
+        for segnale in SEGNALI_GIA_AFFERMATO:
+            if _norm(segnale) in blob:
+                return str(raw).strip()[:220]
+    return None
+
+
 # Categoria del torneo nell'URL: "sub-17", "u17", "sub17". Se l'età salvata
 # coincide col numero della categoria e nessun testo la scrive, non è stata
 # osservata: è stata dedotta dal titolo del torneo.
@@ -197,6 +234,20 @@ def contesta(giocatore: Dict[str, Any], evidenze: List[Dict[str, Any]]) -> List[
                      f"un numero da chiamare",
         })
 
+    # Una fonte che nomina il giocatore e lo dichiara esplicitamente un
+    # professionista già affermato: nessuna prova per-campo può accorgersene
+    # (claims_v2 valuta COMPETENZA e presenza del valore, non se il testo
+    # dice anche altro) — è la premessa "prospect poco coperto" a non
+    # reggere, indipendentemente da quanto sia corretto il resto della scheda.
+    citazione = _gia_affermato(evidenze, nome)
+    if citazione:
+        rilievi.append({
+            "codice": "fonte_lo_dichiara_gia_affermato",
+            "gravita": BLOCCANTE,
+            "detta": f"una fonte dice esplicitamente che è già un atleta "
+                     f"affermato, non un prospect: \"{citazione}\"",
+        })
+
     # --- la premessa del prodotto regge ancora? ---------------------------
     # OB1 Global vende ANTICIPO su nomi poco coperti. Un giocatore di un club
     # di cui scrive tutto il mondo non è una scoperta: pubblicarlo come tale
@@ -257,6 +308,39 @@ if __name__ == "__main__":
     r = contesta({"canonical_name": "Mattia Verdi", "age": 18, "club": "Pescara"}, [])
     assert r == [], r
 
+    # 5) Caso reale Kaio Jorge (29 ago 2026): un articolo retrospettivo su un
+    #    torneo giovanile del 2019 nomina un ex-campione oggi professionista.
+    #    Nessuna età nel testo (il guardrail numerico non ha nulla da
+    #    confrontare) ma la frase lo dice in chiaro: non deve sopravvivere.
+    r = contesta({"canonical_name": "Kaio Jorge", "age": None, "club": "Cruzeiro"},
+                 [{"raw_content": "Kaio Jorge, do Cruzeiro, atual artilheiro do "
+                                  "Brasileirão, e autor de um dos gols da final "
+                                  "contra o México.",
+                   "source_domain": "placar.com.br",
+                   "source_url": "https://placar.com.br/copa-do-mundo/x"}])
+    assert {x["codice"] for x in r} == {"fonte_lo_dichiara_gia_affermato"}, r
+    assert not sopravvive(r)
+
+    # 6) Stesso articolo, un'altra riga: "atletas conhecidos" per tre nomi
+    #    diversi in una volta sola — la stessa frase deve bloccare tutti e
+    #    tre, non solo il primo a cui capita di essere testato.
+    for chi in ("Gabriel Veron", "Talles Magno", "Yan Couto"):
+        r = contesta({"canonical_name": chi, "age": 23, "club": "FC Porto"},
+                     [{"raw_content": "Gabriel Veron, Talles Magno e Yan Couto "
+                                      "são outros atletas conhecidos.",
+                       "source_domain": "placar.com.br",
+                       "source_url": "https://placar.com.br/copa-do-mundo/x"}])
+        assert {x["codice"] for x in r} == {"fonte_lo_dichiara_gia_affermato"}, (chi, r)
+
+    # 7) Un'evidenza che NON nomina il giocatore non deve accusarlo: la frase
+    #    da sola non basta, deve essere DETTA SU DI LUI.
+    r = contesta({"canonical_name": "Mattia Verdi", "age": 18, "club": "Pescara"},
+                 [{"raw_content": "Altri due atletas conhecidos hanno lasciato "
+                                  "il campionato.",
+                   "source_domain": "placar.com.br", "source_url": "https://x"}])
+    assert r == [], r
+
     print("OK challenge_v2: restano i rilievi di PREMESSA (club gia' coperto "
-          "da tutti, club che e' una descrizione). Una convocazione federale "
-          "passa: la qualita' della prova la valuta claims_v2.")
+          "da tutti, club che e' una descrizione, fonte che dichiara il "
+          "giocatore gia' un professionista affermato). Una convocazione "
+          "federale passa: la qualita' della prova la valuta claims_v2.")
