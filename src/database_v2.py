@@ -870,7 +870,8 @@ class OB1DatabaseV2:
     def players_to_corroborate(self, limit: int = 100,
                                cooldown_hours: int = None) -> list:
         """
-        Dict {id, name, age, club} dei giocatori con nome completo ma < 2 fonti.
+        Dict {id, name, age, club} dei giocatori con nome completo e non
+        ancora pubblicabili.
 
         Trovato il 21 ago 2026 confrontando la coda reale (133 candidati) col
         tetto per run (CORR_MAX_SEARCH_ATTEMPTS=20, scripts/ingest_v2.py):
@@ -888,6 +889,21 @@ class OB1DatabaseV2:
         aspetta da più tempo — solo a parità di quello, identity_complete e
         score restano gli spareggi. Così la coda intera viene attraversata
         nel tempo invece di ripetere sempre la stessa testa.
+
+        Criterio di ingresso corretto il 29 ago 2026 (misurato sul DB di
+        produzione, non a intuito): contava i DOMINI distinti di evidenza
+        (< 2 = ancora da corroborare), non se il giocatore fosse davvero
+        pubblicabile. Un dominio conta anche quando l'evidenza che porta non
+        prova nulla — es. una scheda Transfermarkt di un professionista
+        adulto omonimo, scartata da claims_v2 ma già presente come evidenza.
+        Risultato misurato: 72 giocatori su 121 non pubblicabili (24 Brasile,
+        21 Argentina) avevano già ≥2 domini e uscivano PER SEMPRE dalla coda,
+        senza mai ricevere un secondo (o terzo) tentativo di ricerca — pur
+        non essendo mai stati pubblicabili nemmeno un giorno. Il criterio ora
+        è direttamente "non pubblicabile", che è anche più permissivo
+        all'altro estremo: un giocatore con una sola fonte ma già
+        pubblicabile (claims_v2 non richiede sempre 2 fonti, vedi commento in
+        _recompute) smette di consumare budget di ricerca che non gli serve.
         """
         if cooldown_hours is None:
             cooldown_hours = int(os.getenv("CORR_COOLDOWN_HOURS", "24"))
@@ -896,8 +912,7 @@ class OB1DatabaseV2:
                 SELECT p.id, p.canonical_name, p.age, p.club
                 FROM players p
                 WHERE p.name_token_count >= 2
-                  AND (SELECT COUNT(DISTINCT e.source_domain) FROM evidences e
-                       WHERE e.player_id = p.id AND e.source_domain != '') < 2
+                  AND p.publishable = 0
                   AND (p.last_corr_attempt_at IS NULL
                        OR julianday('now') - julianday(p.last_corr_attempt_at)
                           >= ? / 24.0)
