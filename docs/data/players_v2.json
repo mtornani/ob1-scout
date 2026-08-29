@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-29T17:14:17.376800+00:00",
+ "generated_at": "2026-08-29T21:16:50.107155+00:00",
  "version": "1.0.0",
- "build": "d871e8f",
+ "build": "dfafd07",
  "total": 300,
- "publishable": 148,
- "tracking": 152,
+ "publishable": 149,
+ "tracking": 151,
  "shown": 300,
  "tracking_capped": 0,
  "outcomes": {
@@ -4326,6 +4326,118 @@
      "Confirm the birth year with the club",
      "Get performance stats (match reports)",
      "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Pedro Ferreira",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Soccerway",
+     "tipo": "aggregator",
+     "citazione": "Pedro Ferreira (Santa Clara) Stats",
+     "url": "https://www.soccerway.com/player/ferreira-pedro/6c4bxMuJ/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Pedro Ferreira, 19 anni, São Paulo Futebol Clube",
+     "url": "https://www.transfermarkt.us/pedro-ferreira/profil/spieler/1362701"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attacker",
+   "club": "São Paulo",
+   "league": "Brasileirão Série A",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 17,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "spfc24horas.com.br",
+     "url": "https://spfc24horas.com.br/conheca-os-jogadores-do-sub-17-que-disputarao-a-copinha-2026/",
+     "seen": "2026-06-12T10:14:17.417292"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/ferreira-pedro/6c4bxMuJ/",
+     "seen": "2026-07-25T03:49:53.481212"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/pedro-ferreira/profil/spieler/1362701",
+     "seen": "2026-08-29T21:05:07.037910"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "senza_fonte_primary,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-06-12T10:14:17.417292",
+   "last_seen": "2026-08-29T21:05:07.037910",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 3 fonti indipendenti"
+    ],
+    "cautions": [
+     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 3 independent sources"
+    ],
+    "cautions_en": [
+     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Look for a primary press/federation source to bring it to the full standard",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
     ]
    }
   },
@@ -18050,6 +18162,118 @@
    }
   },
   {
+   "name": "Diego Reyes",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Diego Reyes - Player profile 26/27",
+     "url": "https://www.transfermarkt.us/diego-reyes/profil/spieler/131090"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attacker",
+   "club": "Flamengo U20",
+   "league": "Brazilian U20 competitions / Mexican U21 league",
+   "region": "Latin America",
+   "gender": "male",
+   "score": 17,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "terra.com.br",
+     "url": "https://www.terra.com.br/esportes/flamengo/flamengo-contrata-promessa-do-futebol-mexicano,65432d95e608a314e94f84ffd00d25fc5llw2fo6.html",
+     "seen": "2026-03-03T12:58:52.925498"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/diego-reyes/profil/spieler/131090",
+     "seen": "2026-08-21T05:49:01.085919"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/reyes-diego/WSE2Yj4d/",
+     "seen": "2026-08-29T21:05:07.037910"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "senza_fonte_primary,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-03-03T12:58:52.925498",
+   "last_seen": "2026-08-29T21:05:07.037910",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 3 fonti indipendenti"
+    ],
+    "cautions": [
+     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 3 independent sources"
+    ],
+    "cautions_en": [
+     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Look for a primary press/federation source to bring it to the full standard",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Iago Machado",
    "age": 17,
    "age_stato": "dichiarato",
@@ -18863,215 +19087,6 @@
      "No documented performance stats"
     ],
     "next_steps_en": [
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Diego Reyes",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Diego Reyes - Player profile 26/27",
-     "url": "https://www.transfermarkt.us/diego-reyes/profil/spieler/131090"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Attacker",
-   "club": "Flamengo U20",
-   "league": "Brazilian U20 competitions / Mexican U21 league",
-   "region": "Latin America",
-   "gender": "unknown",
-   "score": 12,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "terra.com.br",
-     "url": "https://www.terra.com.br/esportes/flamengo/flamengo-contrata-promessa-do-futebol-mexicano,65432d95e608a314e94f84ffd00d25fc5llw2fo6.html",
-     "seen": "2026-03-03T12:58:52.925498"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/diego-reyes/profil/spieler/131090",
-     "seen": "2026-08-21T05:49:01.085919"
-    }
-   ],
-   "stats": {},
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "senza_fonte_primary,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-03-03T12:58:52.925498",
-   "last_seen": "2026-08-21T05:49:01.085919",
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Look for a primary press/federation source to bring it to the full standard",
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Pedro Ferreira",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Soccerway",
-     "tipo": "aggregator",
-     "citazione": "Pedro Ferreira (Santa Clara) Stats",
-     "url": "https://www.soccerway.com/player/ferreira-pedro/6c4bxMuJ/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Attacker",
-   "club": "São Paulo",
-   "league": "Brasileirão Série A",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 12,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "spfc24horas.com.br",
-     "url": "https://spfc24horas.com.br/conheca-os-jogadores-do-sub-17-que-disputarao-a-copinha-2026/",
-     "seen": "2026-06-12T10:14:17.417292"
-    },
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/ferreira-pedro/6c4bxMuJ/",
-     "seen": "2026-07-25T03:49:53.481212"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "senza_fonte_primary,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-06-12T10:14:17.417292",
-   "last_seen": "2026-07-16T08:13:33.452923",
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Look for a primary press/federation source to bring it to the full standard",
-     "Confirm the birth year with the club",
      "Get performance stats (match reports)"
     ]
    }
