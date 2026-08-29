@@ -26,7 +26,8 @@ from urllib.parse import urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src.challenge_v2 import contesta, sopravvive
-from src.claims_v2 import stabilisci, pubblicabile as pubblicabile_da_claims
+from src.claims_v2 import (stabilisci, pubblicabile as pubblicabile_da_claims,
+                           fonti_che_stabiliscono)
 from src.selezione_v2 import leggi_dal_registro as leggi_selezione
 
 # importabile sia come package sia da `python src/database_v2.py` diretto —
@@ -861,11 +862,50 @@ class OB1DatabaseV2:
 
     # ---- Corroborazione attiva (Fase B3+) ----
     def player_domains(self, pid: int) -> set:
-        """Domini-fonte già associati a un giocatore."""
+        """Domini-fonte già associati a un giocatore, provino qualcosa o no.
+
+        Usare per la deduplica display/conteggio. NON per decidere se vale
+        la pena ricercare di nuovo su un dominio: vedi proven_domains().
+        """
         with self._conn() as conn:
             return {r[0] for r in conn.execute(
                 "SELECT DISTINCT source_domain FROM evidences WHERE player_id=? AND source_domain!=''",
                 (pid,))}
+
+    def proven_domains(self, pid: int) -> set:
+        """
+        Domini che hanno DAVVERO stabilito un claim (nome/club/età/stats) per
+        questo giocatore secondo claims_v2 — non solo "presenti come evidenza".
+
+        Trovato il 29 ago 2026 insieme al fix di players_to_corroborate():
+        find_profile() usa exclude_domains per non riproporre un aggregatore
+        già usato come fonte. Ma "già usato" veniva letto come player_domains
+        (qualsiasi dominio con almeno un'evidenza) — e un'evidenza può essere
+        presente senza aver mai provato nulla: una scheda Transfermarkt di un
+        professionista adulto omonimo, scartata da claims_v2 ma già in
+        tabella, faceva escludere Transfermarkt per sempre da una ricerca che
+        in realtà non aveva mai davvero trovato il giocatore giusto.
+
+        Riusa stabilisci()/fonti_che_stabiliscono() — la stessa identica
+        logica del gate reale in _recompute() — invece di re-inventare un
+        secondo criterio di "prova" che potrebbe divergere da quello.
+        """
+        with self._conn() as conn:
+            p = conn.execute(
+                "SELECT canonical_name, age, club, stats_json FROM players WHERE id=?",
+                (pid,)).fetchone()
+            if not p:
+                return set()
+            name, age, club, stats_json = p
+            evidenze = [{"raw_content": r[0], "source_domain": r[1], "source_url": r[2],
+                        "observed_at": r[3], "origin": r[4]}
+                       for r in conn.execute(
+                           "SELECT raw_content, source_domain, source_url, "
+                           "observed_at, origin FROM evidences WHERE player_id=?",
+                           (pid,)).fetchall()]
+        soggetto = {"canonical_name": name, "age": age, "club": club,
+                   "stats": json.loads(stats_json) if stats_json else {}}
+        return fonti_che_stabiliscono(stabilisci(soggetto, evidenze))
 
     def players_to_corroborate(self, limit: int = 100,
                                cooldown_hours: int = None) -> list:
@@ -1266,6 +1306,33 @@ if __name__ == "__main__":
         assert pid_never not in queue_after, \
             "appena tentato: deve uscire dalla coda fino al prossimo cooldown"
     print("OK memoria corroborazione: cooldown + priorità a chi non è mai stato tentato")
+
+    # --- proven_domains: un dominio con un'evidenza che non prova nulla non
+    # deve contare come "già usato" (29 ago 2026, vedi commento nel metodo) ---
+    with _tempfile.TemporaryDirectory() as _tmp6:
+        _pd_db = OB1DatabaseV2(str(Path(_tmp6) / "test_proven_domains.db"))
+        pid, _ = _pd_db.ingest_observation({
+            "name": "Paulo Ricardo Nakamura", "club": "Coritiba",
+            "source_url": "https://ge.globo.com/pr/futebol/noticia/paulo-nakamura.ghtml",
+            "observed_at": "2026-03-01T00:00:00",
+            "evidence_quote": "O volante Paulo Ricardo Nakamura, do Coritiba, "
+                              "foi convocado para a Sub-20.",
+        })
+        # Scheda Transfermarkt di un omonimo: nessun token in comune con
+        # nome o club del nostro giocatore -> non prova nulla, ma resta
+        # un'evidenza in tabella (esattamente come nel caso reale).
+        _pd_db.ingest_observation({
+            "name": "Paulo Ricardo Nakamura",
+            "source_url": "https://transfermarkt.com/paulo-nakamura/profil/spieler/999",
+            "observed_at": "2026-03-05T00:00:00",
+            "evidence_quote": "Outro Jogador Qualquer - Player profile",
+        })
+        all_domains = _pd_db.player_domains(pid)
+        assert all_domains == {"ge.globo.com", "transfermarkt.com"}, all_domains
+        proven = _pd_db.proven_domains(pid)
+        assert proven == {"ge.globo.com"}, \
+            f"transfermarkt.com non prova nulla per questo giocatore, non deve restare in proven_domains: {proven}"
+    print("OK proven_domains: un dominio presente ma che non prova nulla non blocca la ricerca")
 
     # --- Turno di scansione delle fonti (27 ago 2026) ---
     with _tempfile.TemporaryDirectory() as _tmp5:

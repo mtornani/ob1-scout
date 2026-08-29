@@ -242,7 +242,11 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
             attempted_pids.add(pid)
             age, club = row.get("age"), row.get("club")
             search_attempts += 1
-            prof = await find_profile(scraper, name, exclude_domains=db.player_domains(pid))
+            # proven_domains, non player_domains: un aggregatore con
+            # un'evidenza che non ha mai provato nulla (es. la scheda di un
+            # pro adulto omonimo, scartata da claims_v2) va ricercato di
+            # nuovo, non escluso per sempre. Vedi database_v2.proven_domains.
+            prof = await find_profile(scraper, name, exclude_domains=db.proven_domains(pid))
             # Sempre, trovato o no: è la memoria che players_to_corroborate()
             # usa per il cooldown — un fallimento è informazione quanto un
             # successo (non ripescare subito lo stesso candidato appena
