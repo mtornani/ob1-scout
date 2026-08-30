@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-30T17:18:33.170084+00:00",
+ "generated_at": "2026-08-30T21:47:56.490192+00:00",
  "version": "1.0.0",
- "build": "31db76b",
+ "build": "1302ba3",
  "total": 305,
- "publishable": 152,
- "tracking": 153,
+ "publishable": 153,
+ "tracking": 152,
  "shown": 305,
  "tracking_capped": 0,
  "outcomes": {
@@ -12887,6 +12887,114 @@
    }
   },
   {
+   "name": "Franco Saavedra",
+   "age": 22,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Franco Saavedra",
+     "url": "https://www.promiedos.com.ar/league/liga-profesional/hc"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Franco Saavedra, 22 anni, Gimnasia y Esgrima de Mendoza",
+     "url": "https://www.transfermarkt.us/franco-saavedra/profil/spieler/992528"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Franco Saavedra, 22 anni, Gimnasia y Esgrima de Mendoza",
+     "url": "https://www.transfermarkt.us/franco-saavedra/profil/spieler/992528"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Left-Back",
+   "club": "Gimnasia (M)",
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/league/liga-profesional/hc",
+     "seen": "2026-07-18T13:58:07.995503"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/franco-saavedra/profil/spieler/780231",
+     "seen": "2026-08-01T04:02:16.075469"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/franco-saavedra/profil/spieler/992528",
+     "seen": "2026-08-30T21:24:30.448610"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-30T21:24:30.448610",
+   "last_seen": "2026-08-30T21:24:30.448610",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 3 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 3 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "name": "Yeiler Mosquera Caicedo",
    "age": null,
    "age_stato": "assente",
@@ -20889,7 +20997,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 3
+    "detection_count": 4
    },
    "n_sources": 2,
    "sources": [
@@ -20915,7 +21023,7 @@
    "review_flags": "eta_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-08-21T13:26:54.585139",
-   "last_seen": null,
+   "last_seen": "2026-08-30T21:24:30.448610",
    "selezione": {},
    "assessment": {
     "pros": [
@@ -22996,109 +23104,6 @@
    }
   },
   {
-   "name": "Franco Saavedra",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Franco Saavedra",
-     "url": "https://www.promiedos.com.ar/league/liga-profesional/hc"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Gimnasia (M)",
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 9,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/league/liga-profesional/hc",
-     "seen": "2026-07-18T13:58:07.995503"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/franco-saavedra/profil/spieler/780231",
-     "seen": "2026-08-01T04:02:16.075469"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "name": "Gabriel Ávalos",
    "age": null,
    "age_stato": "assente",
@@ -23712,6 +23717,252 @@
    }
   },
   {
+   "name": "Gabriela Delgadillo",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Así formó Colombia: Gabriela Delgadillo",
+     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "female",
+   "score": 8,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/",
+     "seen": "2026-07-19T04:04:37.790338"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/delgadillo-gabriela/zg1jeVBs/",
+     "seen": "2026-08-23T07:11:16.983089"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-23T07:11:16.983089",
+   "last_seen": "2026-08-30T21:24:30.448610",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-15 (giugno 2026).",
+    "dal": "2026-06-17",
+    "al": "2026-06-17",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-06-17",
+      "categoria": "sub-15",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
+   },
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "name": "Vanessa Puerta",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Vanessa Puerta",
+     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-17-conmebol-sub-17-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "female",
+   "score": 8,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-17-conmebol-sub-17-2026/",
+     "seen": "2026-07-20T04:23:18.085592"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/puerta-vanessa/pOAIfY3s/",
+     "seen": "2026-08-24T02:08:37.281942"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-24T02:08:37.281942",
+   "last_seen": "2026-08-30T21:24:30.448610",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (giugno 2026).",
+    "dal": "2026-06-17",
+    "al": "2026-06-17",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-06-17",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-17-conmebol-sub-17-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
+   },
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "name": "Лука Петрић",
    "age": null,
    "age_stato": "assente",
@@ -24312,129 +24563,6 @@
    }
   },
   {
-   "name": "Gabriela Delgadillo",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Así formó Colombia: Gabriela Delgadillo",
-     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "female",
-   "score": 7,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/",
-     "seen": "2026-07-19T04:04:37.790338"
-    },
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/delgadillo-gabriela/zg1jeVBs/",
-     "seen": "2026-08-23T07:11:16.983089"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-23T07:11:16.983089",
-   "last_seen": "2026-08-23T07:11:16.983089",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-15 (giugno 2026).",
-    "dal": "2026-06-17",
-    "al": "2026-06-17",
-    "categorie": [
-     "sub-15"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-06-17",
-      "categoria": "sub-15",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
-   },
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club"
-    ]
-   }
-  },
-  {
    "name": "Andrea Montenegro",
    "age": null,
    "age_stato": "assente",
@@ -24529,129 +24657,6 @@
     ],
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
-   },
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club"
-    ]
-   }
-  },
-  {
-   "name": "Vanessa Puerta",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Vanessa Puerta",
-     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-17-conmebol-sub-17-2026/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "female",
-   "score": 7,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-17-conmebol-sub-17-2026/",
-     "seen": "2026-07-20T04:23:18.085592"
-    },
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/puerta-vanessa/pOAIfY3s/",
-     "seen": "2026-08-24T02:08:37.281942"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-24T02:08:37.281942",
-   "last_seen": "2026-08-24T02:08:37.281942",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (giugno 2026).",
-    "dal": "2026-06-17",
-    "al": "2026-06-17",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-06-17",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-17-conmebol-sub-17-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
    "assessment": {
     "pros": [
