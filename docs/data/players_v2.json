@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-30T12:16:44.720210+00:00",
+ "generated_at": "2026-08-30T17:18:33.170084+00:00",
  "version": "1.0.0",
- "build": "dd6d72f",
- "total": 301,
- "publishable": 149,
- "tracking": 152,
- "shown": 301,
+ "build": "31db76b",
+ "total": 305,
+ "publishable": 152,
+ "tracking": 153,
+ "shown": 305,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -3572,6 +3572,116 @@
    }
   },
   {
+   "name": "Amaro Pérez",
+   "age": 17,
+   "age_stato": "dedotto",
+   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Amaro Pérez - Player profile",
+     "url": "https://www.transfermarkt.com/amaro-perez/profil/spieler/1386488"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Soccerway",
+     "tipo": "aggregator",
+     "citazione": "Amaro Perez (U. Catolica) Stats",
+     "url": "https://www.soccerway.com/player/perez-amaro/pjP5vaWF/"
+    },
+    "eta": {
+     "stato": "dedotto",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "U. Catolica",
+   "league": "Youth Tournament (Torneo Promesas de Córdoba)",
+   "region": "Chile",
+   "gender": "male",
+   "score": 21,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "anfp.cl",
+     "url": "https://www.anfp.cl/la-roja-sub-17-vencio-a-argentina-en-el-debut-del-torneo-promesas-de-cordoba-2026/",
+     "seen": "2026-06-03T04:06:33.789694"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/amaro-perez/profil/spieler/1386488",
+     "seen": "2026-07-24T09:04:25.094523"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/perez-amaro/pjP5vaWF/",
+     "seen": "2026-08-30T16:55:24.926157"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dedotto",
+   "coverage_tier": "standard",
+   "first_detected": "2026-06-03T04:06:33.789694",
+   "last_seen": "2026-08-30T16:55:24.926157",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 3 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 3 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "name": "Hermen Andrés Landázuri Landázuri",
    "age": null,
    "age_stato": "assente",
@@ -4326,6 +4436,143 @@
      "Confirm the birth year with the club",
      "Get performance stats (match reports)",
      "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Jordan Garcia",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Jordan García - Player profile 26/27",
+     "url": "https://www.transfermarkt.com/jordan-garcia/profil/spieler/983609"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Soccerway",
+     "tipo": "aggregator",
+     "citazione": "Jordan Garcia (Fortaleza) Stats",
+     "url": "https://www.soccerway.com/player/garcia-jordan/GGMo8xve/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Fortaleza",
+   "league": "South American (U20)",
+   "region": "South America",
+   "gender": "male",
+   "score": 18,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 4,
+    "detection_count": 4
+   },
+   "n_sources": 4,
+   "sources": [
+    {
+     "domain": "billionhands.com",
+     "url": "https://billionhands.com/es/ranking/deportes/jovenes-promesas-del-futbol-sudamericano-69cf5a558e5be409898599a6",
+     "seen": "2026-06-01T21:34:25.882153"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/jordan-garcia/profil/spieler/983609",
+     "seen": "2026-07-31T09:25:55.883241"
+    },
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
+     "seen": "2026-08-02T14:09:42.558272"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/garcia-jordan/GGMo8xve/",
+     "seen": "2026-08-30T16:55:24.926157"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-06-01T21:34:25.882153",
+   "last_seen": "2026-08-30T16:55:24.926157",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (febbraio 2025).",
+    "dal": "2025-02-17",
+    "al": "2025-02-17",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2025-02-17",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
+   },
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 4 fonti indipendenti"
+    ],
+    "cautions": [
+     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 4 independent sources"
+    ],
+    "cautions_en": [
+     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
     ]
    }
   },
@@ -17182,6 +17429,101 @@
    }
   },
   {
+   "name": "Ryan Dale Williams",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Khel Now Football",
+     "tipo": "national_press",
+     "citazione": "Ryan Dale Williams of Bengaluru Football Club during match",
+     "url": "https://khelnow.com/football/indian-football-team-isl-minutes-played-by-players-for-national-team-202606"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Khel Now Football",
+     "tipo": "national_press",
+     "citazione": "Ryan Dale Williams of Bengaluru Football Club during match",
+     "url": "https://khelnow.com/football/indian-football-team-isl-minutes-played-by-players-for-national-team-202606"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Bengaluru FC",
+   "league": "Indian Super League",
+   "region": "India",
+   "gender": "unknown",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "khelnow.com",
+     "url": "https://khelnow.com/football/indian-football-team-isl-minutes-played-by-players-for-national-team-202606",
+     "seen": "2026-08-30T16:55:24.926157"
+    }
+   ],
+   "stats": {},
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-30T16:55:24.926157",
+   "last_seen": "2026-08-30T16:55:24.926157",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Fode Diallo",
    "age": 14,
    "age_stato": "dichiarato",
@@ -21591,6 +21933,120 @@
    }
   },
   {
+   "name": "André Maia",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 16 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Select opponent:André Maia",
+     "url": "https://www.transfermarkt.com/nuno-fonseca/spieleGegeneinander/spieler/34805/gegner/25399/kriterium/2/wettbewerb/liga/0/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attacker",
+   "club": null,
+   "league": "Copa São Paulo",
+   "region": "South America",
+   "gender": "male",
+   "score": 24,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/reel/DVUPm-BCVdk/",
+     "seen": "2026-03-01T18:34:38.117964"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/nuno-fonseca/spieleGegeneinander/spieler/34805/gegner/25399/kriterium/2/wettbewerb/liga/0/",
+     "seen": "2026-07-17T03:06:23.962625"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/andre-maia-505404",
+     "seen": "2026-08-30T16:55:24.926157"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,senza_fonte_primary,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-03-01T18:34:38.117964",
+   "last_seen": "2026-08-30T16:55:24.926157",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 3 fonti indipendenti"
+    ],
+    "cautions": [
+     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 3 independent sources"
+    ],
+    "cautions_en": [
+     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Look for a primary press/federation source to bring it to the full standard",
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "name": "Dulce Maria",
    "age": null,
    "age_stato": "assente",
@@ -21698,247 +22154,6 @@
    }
   },
   {
-   "name": "Jordan Garcia",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Jordan García - Player profile 26/27",
-     "url": "https://www.transfermarkt.com/jordan-garcia/profil/spieler/983609"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": "South American (U20)",
-   "region": "South America",
-   "gender": "male",
-   "score": 17,
-   "confidence": 0.91,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 3,
-    "detection_count": 3
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "billionhands.com",
-     "url": "https://billionhands.com/es/ranking/deportes/jovenes-promesas-del-futbol-sudamericano-69cf5a558e5be409898599a6",
-     "seen": "2026-06-01T21:34:25.882153"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/jordan-garcia/profil/spieler/983609",
-     "seen": "2026-07-31T09:25:55.883241"
-    },
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
-     "seen": "2026-08-02T14:09:42.558272"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-06-01T21:34:25.882153",
-   "last_seen": "2026-06-08T20:16:24.345920",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (febbraio 2025).",
-    "dal": "2025-02-17",
-    "al": "2025-02-17",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2025-02-17",
-      "categoria": "sub-20",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
-   },
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 3 fonti indipendenti"
-    ],
-    "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances",
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 3 independent sources"
-    ],
-    "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club"
-    ]
-   }
-  },
-  {
-   "name": "André Maia",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 16 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Select opponent:André Maia",
-     "url": "https://www.transfermarkt.com/nuno-fonseca/spieleGegeneinander/spieler/34805/gegner/25399/kriterium/2/wettbewerb/liga/0/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Attacker",
-   "club": null,
-   "league": "Copa São Paulo",
-   "region": "South America",
-   "gender": "male",
-   "score": 16,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 18.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "instagram.com",
-     "url": "https://www.instagram.com/reel/DVUPm-BCVdk/",
-     "seen": "2026-03-01T18:34:38.117964"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/nuno-fonseca/spieleGegeneinander/spieler/34805/gegner/25399/kriterium/2/wettbewerb/liga/0/",
-     "seen": "2026-07-17T03:06:23.962625"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,senza_fonte_primary,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-03-01T18:34:38.117964",
-   "last_seen": "2026-03-15T12:55:03.609821",
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Look for a primary press/federation source to bring it to the full standard",
-     "Verify the current club",
-     "Confirm the birth year with the club"
-    ]
-   }
-  },
-  {
    "name": "Joaquín Muñoz",
    "age": 17,
    "age_stato": "dedotto",
@@ -22008,111 +22223,6 @@
    "coverage_tier": "standard",
    "first_detected": "2026-06-03T04:06:32.617834",
    "last_seen": "2026-07-12T19:06:33.505542",
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Very young (17 yo): plenty of room to develop",
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Amaro Pérez",
-   "age": 17,
-   "age_stato": "dedotto",
-   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Amaro Pérez - Player profile",
-     "url": "https://www.transfermarkt.com/amaro-perez/profil/spieler/1386488"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dedotto",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": "Youth Tournament (Torneo Promesas de Córdoba)",
-   "region": "Chile",
-   "gender": "male",
-   "score": 14,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "anfp.cl",
-     "url": "https://www.anfp.cl/la-roja-sub-17-vencio-a-argentina-en-el-debut-del-torneo-promesas-de-cordoba-2026/",
-     "seen": "2026-06-03T04:06:33.789694"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/amaro-perez/profil/spieler/1386488",
-     "seen": "2026-07-24T09:04:25.094523"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_dedotto",
-   "coverage_tier": "standard",
-   "first_detected": "2026-06-03T04:06:33.789694",
-   "last_seen": "2026-07-12T19:06:34.170193",
    "selezione": {},
    "assessment": {
     "pros": [
@@ -25199,6 +25309,198 @@
    "coverage_tier": "standard",
    "first_detected": "2026-08-23T13:11:41.317748",
    "last_seen": "2026-08-23T13:11:41.317748",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Jeakson Singh",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Khel Now Football",
+     "tipo": "national_press",
+     "citazione": "from Jeakson Singh playing in the fields of Thoubal to becoming the most expensive Indian player in ISL history",
+     "url": "https://khelnow.com/football/indian-football-isl-five-youngest-players"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": "Indian Super League",
+   "region": "India",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "khelnow.com",
+     "url": "https://khelnow.com/football/indian-football-isl-five-youngest-players",
+     "seen": "2026-08-30T16:55:24.926157"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-30T16:55:24.926157",
+   "last_seen": "2026-08-30T16:55:24.926157",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "name": "Pascal Struijk",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Leeds United",
+   "league": "Championship",
+   "region": "India",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "khelnow.com",
+     "url": "https://khelnow.com/football/world-football-sheffield-united-vs-leeds-united-prediction-202502",
+     "seen": "2026-08-30T16:55:24.926157"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-30T16:55:24.926157",
+   "last_seen": "2026-08-30T16:55:24.926157",
    "selezione": {},
    "assessment": {
     "pros": [
@@ -29019,6 +29321,104 @@
    "coverage_tier": "standard",
    "first_detected": "2026-08-27T22:30:15.991675",
    "last_seen": "2026-08-27T22:30:15.991675",
+   "selezione": {},
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "name": "Jasim Al Noobi",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Khel Now Football",
+     "tipo": "national_press",
+     "citazione": "Oman’s young midfielder Jasim Al Noobi has found some attention from",
+     "url": "https://khelnow.com/football/afc-u-23-asian-cup-qualifiers-top-five-rival-key-players"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "midfielder",
+   "club": null,
+   "league": null,
+   "region": "India",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "khelnow.com",
+     "url": "https://khelnow.com/football/afc-u-23-asian-cup-qualifiers-top-five-rival-key-players",
+     "seen": "2026-08-30T16:55:24.926157"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-30T16:55:24.926157",
+   "last_seen": "2026-08-30T16:55:24.926157",
    "selezione": {},
    "assessment": {
     "pros": [],
