@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-08-29T21:16:50.107155+00:00",
+ "generated_at": "2026-08-30T05:59:33.445765+00:00",
  "version": "1.0.0",
- "build": "dfafd07",
+ "build": "812e199",
  "total": 300,
- "publishable": 149,
- "tracking": 151,
+ "publishable": 148,
+ "tracking": 152,
  "shown": 300,
  "tracking_capped": 0,
  "outcomes": {
@@ -5286,6 +5286,118 @@
     "next_steps_en": [
      "Request video or schedule a live viewing",
      "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "name": "João Cruz",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 19 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "BeSoccer",
+     "tipo": "aggregator",
+     "citazione": "João Cruz today, AR São Martinho",
+     "url": "https://www.besoccer.com/player/joao-cruz-1020815"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: João Cruz, 20 anni, Club Athletico Paranaense",
+     "url": "https://www.transfermarkt.us/joao-cruz/profil/spieler/1004738"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "CAM/LW/RW/ST",
+   "club": "Athletico-PR",
+   "league": "Brasileirão Série A",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 14,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "br.bolavip.com",
+     "url": "https://br.bolavip.com/futebol/joao-cruz-destaque-do-athletico-pr-lidera-ranking-de-participacoes-em-gols-entre-atletas-sub-20-no-brasil",
+     "seen": "2026-06-01T17:39:25.162813"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/joao-cruz-1020815",
+     "seen": "2026-07-27T15:25:26.644504"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/joao-cruz/profil/spieler/1004738",
+     "seen": "2026-08-30T05:41:36.786472"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "senza_fonte_primary,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-06-01T17:39:25.162813",
+   "last_seen": "2026-08-30T05:41:36.786472",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 3 fonti indipendenti"
+    ],
+    "cautions": [
+     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 3 independent sources"
+    ],
+    "cautions_en": [
+     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Look for a primary press/federation source to bring it to the full standard",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
     ]
    }
   },
@@ -12310,106 +12422,6 @@
    }
   },
   {
-   "name": "Kaio Jorge",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Placar",
-     "tipo": "national_press",
-     "citazione": "Kaio Jorge, do Cruzeiro, atual artilheiro do Brasileirão, e autor de um dos gols da final contra o México.",
-     "url": "https://placar.com.br/copa-do-mundo/onde-estao-os-campeoes-da-copa-do-mundo-sub-17-de-2019/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Placar",
-     "tipo": "national_press",
-     "citazione": "Kaio Jorge, do Cruzeiro, atual artilheiro do Brasileirão, e autor de um dos gols da final contra o México.",
-     "url": "https://placar.com.br/copa-do-mundo/onde-estao-os-campeoes-da-copa-do-mundo-sub-17-de-2019/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Cruzeiro",
-   "league": "Brasileirão",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 9,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "placar.com.br",
-     "url": "https://placar.com.br/copa-do-mundo/onde-estao-os-campeoes-da-copa-do-mundo-sub-17-de-2019/",
-     "seen": "2026-08-23T13:11:41.317748"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/kaio-jorge/profil/spieler/620477",
-     "seen": "2026-08-23T18:58:14.228962"
-    }
-   ],
-   "stats": {},
-   "publishable": true,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-23T13:11:41.317748",
-   "last_seen": "2026-08-23T18:58:14.228962",
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)",
-     "Richiedere video o programmare una visione diretta"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)",
-     "Request video or schedule a live viewing"
-    ]
-   }
-  },
-  {
    "name": "Gomolemo Kekana",
    "age": 20,
    "age_stato": "dichiarato",
@@ -16664,109 +16676,6 @@
    }
   },
   {
-   "name": "Gabriel Veron",
-   "age": 23,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Placar",
-     "tipo": "national_press",
-     "citazione": "Gabriel Veron, Talles Magno e Yan Couto são outros atletas conhecidos.",
-     "url": "https://placar.com.br/copa-do-mundo/onde-estao-os-campeoes-da-copa-do-mundo-sub-17-de-2019/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Gabriel Veron, 23 anni, FC Porto",
-     "url": "https://www.transfermarkt.us/gabriel-veron/profil/spieler/627221"
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Gabriel Veron, 23 anni, FC Porto",
-     "url": "https://www.transfermarkt.us/gabriel-veron/profil/spieler/627221"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Right Winger",
-   "club": "FC Porto",
-   "league": null,
-   "region": "Brazil",
-   "gender": "male",
-   "score": 7,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 3
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "placar.com.br",
-     "url": "https://placar.com.br/copa-do-mundo/onde-estao-os-campeoes-da-copa-do-mundo-sub-17-de-2019/",
-     "seen": "2026-08-23T13:11:41.317748"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/gabriel-veron/profil/spieler/627221",
-     "seen": "2026-08-23T18:58:14.228962"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-23T13:11:41.317748",
-   "last_seen": null,
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)",
-     "Richiedere video o programmare una visione diretta",
-     "Telefonata al club: conferma anagrafica e status contrattuale"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Get performance stats (match reports)",
-     "Request video or schedule a live viewing",
-     "Call the club: confirm identity and contract status"
-    ]
-   }
-  },
-  {
    "name": "Agustin Lopez",
    "age": 26,
    "age_stato": "dichiarato",
@@ -19520,6 +19429,110 @@
    }
   },
   {
+   "name": "Kauan Toledo",
+   "age": 20,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Kauan Toledo - Player profile",
+     "url": "https://www.transfermarkt.com/kauan-toledo/profil/spieler/1096605"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Kauan Toledo, 20 anni, Botafogo FR U20",
+     "url": "https://www.transfermarkt.com/kauan-toledo/profil/spieler/1096605"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "ST",
+   "club": "Piauí Esporte Clube",
+   "league": "Brasileirão Série D",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 11,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 4
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "lance.com.br",
+     "url": "https://www.lance.com.br/botafogo/botafogo-colhe-bons-frutos-com-jovens-da-base-no-campeonato-carioca.html",
+     "seen": "2026-03-01T19:00:00.487652"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/kauan-toledo/profil/spieler/1096605",
+     "seen": "2026-07-16T15:34:33.049129"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/kauan-toledo/f5SUUpe8/",
+     "seen": "2026-08-30T05:41:36.786472"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-03-01T19:00:00.487652",
+   "last_seen": "2026-08-30T05:41:36.786472",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 3 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 3 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Gonzalo Petit",
    "age": 19,
    "age_stato": "dichiarato",
@@ -19625,105 +19638,6 @@
    }
   },
   {
-   "name": "Kauan Toledo",
-   "age": 20,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Kauan Toledo - Player profile",
-     "url": "https://www.transfermarkt.com/kauan-toledo/profil/spieler/1096605"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Kauan Toledo, 20 anni, Botafogo FR U20",
-     "url": "https://www.transfermarkt.com/kauan-toledo/profil/spieler/1096605"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "ST",
-   "club": "Piauí Esporte Clube",
-   "league": "Brasileirão Série D",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 9,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 4.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 3
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "lance.com.br",
-     "url": "https://www.lance.com.br/botafogo/botafogo-colhe-bons-frutos-com-jovens-da-base-no-campeonato-carioca.html",
-     "seen": "2026-03-01T19:00:00.487652"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/kauan-toledo/profil/spieler/1096605",
-     "seen": "2026-07-16T15:34:33.049129"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-03-01T19:00:00.487652",
-   "last_seen": null,
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "name": "Axel Alfonzo",
    "age": null,
    "age_stato": "assente",
@@ -19798,113 +19712,6 @@
    "coverage_tier": "standard",
    "first_detected": "2026-06-01T06:01:15.061613",
    "last_seen": "2026-07-12T02:44:16.822132",
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Look for a primary press/federation source to bring it to the full standard",
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "João Cruz",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 19 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "BeSoccer",
-     "tipo": "aggregator",
-     "citazione": "João Cruz today, AR São Martinho",
-     "url": "https://www.besoccer.com/player/joao-cruz-1020815"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "CAM/LW/RW/ST",
-   "club": "Athletico-PR",
-   "league": "Brasileirão Série A",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 9,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "br.bolavip.com",
-     "url": "https://br.bolavip.com/futebol/joao-cruz-destaque-do-athletico-pr-lidera-ranking-de-participacoes-em-gols-entre-atletas-sub-20-no-brasil",
-     "seen": "2026-06-01T17:39:25.162813"
-    },
-    {
-     "domain": "besoccer.com",
-     "url": "https://www.besoccer.com/player/joao-cruz-1020815",
-     "seen": "2026-07-27T15:25:26.644504"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "senza_fonte_primary,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-06-01T17:39:25.162813",
-   "last_seen": "2026-07-16T08:13:32.907386",
    "selezione": {},
    "assessment": {
     "pros": [
@@ -20549,6 +20356,105 @@
    "review_flags": "eta_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-08-21T13:26:54.585139",
+   "last_seen": null,
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Gabriel Veron",
+   "age": 23,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Placar",
+     "tipo": "national_press",
+     "citazione": "Gabriel Veron, Talles Magno e Yan Couto são outros atletas conhecidos.",
+     "url": "https://placar.com.br/copa-do-mundo/onde-estao-os-campeoes-da-copa-do-mundo-sub-17-de-2019/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Gabriel Veron, 23 anni, FC Porto",
+     "url": "https://www.transfermarkt.us/gabriel-veron/profil/spieler/627221"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Gabriel Veron, 23 anni, FC Porto",
+     "url": "https://www.transfermarkt.us/gabriel-veron/profil/spieler/627221"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Right Winger",
+   "club": "FC Porto",
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 7,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "placar.com.br",
+     "url": "https://placar.com.br/copa-do-mundo/onde-estao-os-campeoes-da-copa-do-mundo-sub-17-de-2019/",
+     "seen": "2026-08-23T13:11:41.317748"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/gabriel-veron/profil/spieler/627221",
+     "seen": "2026-08-23T18:58:14.228962"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,fonte_lo_dichiara_gia_affermato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-23T13:11:41.317748",
    "last_seen": null,
    "selezione": {},
    "assessment": {
@@ -23223,6 +23129,104 @@
    "coverage_tier": "standard",
    "first_detected": "2026-08-21T13:26:54.585139",
    "last_seen": "2026-08-21T19:07:28.602721",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Kaio Jorge",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Placar",
+     "tipo": "national_press",
+     "citazione": "Kaio Jorge, do Cruzeiro, atual artilheiro do Brasileirão, e autor de um dos gols da final contra o México.",
+     "url": "https://placar.com.br/copa-do-mundo/onde-estao-os-campeoes-da-copa-do-mundo-sub-17-de-2019/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Placar",
+     "tipo": "national_press",
+     "citazione": "Kaio Jorge, do Cruzeiro, atual artilheiro do Brasileirão, e autor de um dos gols da final contra o México.",
+     "url": "https://placar.com.br/copa-do-mundo/onde-estao-os-campeoes-da-copa-do-mundo-sub-17-de-2019/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Cruzeiro",
+   "league": "Brasileirão",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 9,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "placar.com.br",
+     "url": "https://placar.com.br/copa-do-mundo/onde-estao-os-campeoes-da-copa-do-mundo-sub-17-de-2019/",
+     "seen": "2026-08-23T13:11:41.317748"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/kaio-jorge/profil/spieler/620477",
+     "seen": "2026-08-23T18:58:14.228962"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,fonte_lo_dichiara_gia_affermato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-23T13:11:41.317748",
+   "last_seen": "2026-08-23T18:58:14.228962",
    "selezione": {},
    "assessment": {
     "pros": [
@@ -27755,7 +27759,7 @@
    "stats": {},
    "publishable": false,
    "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente",
+   "review_flags": "club_mancante,eta_mancante,eta_assente,fonte_lo_dichiara_gia_affermato",
    "coverage_tier": "standard",
    "first_detected": "2026-08-23T13:11:41.317748",
    "last_seen": "2026-08-23T18:58:14.228962",
@@ -27860,7 +27864,7 @@
    },
    "publishable": false,
    "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente",
+   "review_flags": "club_mancante,eta_mancante,eta_assente,fonte_lo_dichiara_gia_affermato",
    "coverage_tier": "standard",
    "first_detected": "2026-08-23T13:11:41.317748",
    "last_seen": "2026-08-23T18:58:14.228962",
