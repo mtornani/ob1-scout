@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-30T05:59:33.445765+00:00",
+ "generated_at": "2026-08-30T12:16:44.720210+00:00",
  "version": "1.0.0",
- "build": "812e199",
- "total": 300,
- "publishable": 148,
+ "build": "dd6d72f",
+ "total": 301,
+ "publishable": 149,
  "tracking": 152,
- "shown": 300,
+ "shown": 301,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -13455,6 +13455,114 @@
    }
   },
   {
+   "name": "Santiago Núñez",
+   "age": 26,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Santiago Núñez Defensa Central 26 29/04/2000 1.86",
+     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Santiago Misael Núñez, 26 anni, Club Estudiantes de La Plata",
+     "url": "https://www.transfermarkt.us/santiago-nunez/profil/spieler/959208"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Santiago Núñez Defensa Central 26 29/04/2000 1.86",
+     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defensa Central",
+   "club": "Estudiantes de La Plata",
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "origin.app.promiedos.com.ar",
+     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh",
+     "seen": "2026-07-29T09:23:20.822740"
+    },
+    {
+     "domain": "transfermarkt.pe",
+     "url": "https://www.transfermarkt.pe/santiago-nunez/profil/spieler/959208",
+     "seen": "2026-07-29T09:23:20.822740"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/santiago-nunez/profil/spieler/959208",
+     "seen": "2026-08-30T12:09:12.375789"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-30T12:09:12.375789",
+   "last_seen": "2026-08-30T12:09:12.375789",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 3 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 3 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "name": "Duvan Starlin Mina Aponzá",
    "age": null,
    "age_stato": "assente",
@@ -19638,6 +19746,118 @@
    }
   },
   {
+   "name": "César Garza",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 20 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Soccerway",
+     "tipo": "aggregator",
+     "citazione": "# Cesar Garza (Monterrey) Stats",
+     "url": "https://www.soccerway.com/player/garza-cesar/lYv3aqy7/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "CDM",
+   "club": "Rayados de Monterrey",
+   "league": "Liga MX",
+   "region": "Mexico",
+   "gender": "male",
+   "score": 11,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "futboltotal.com.mx",
+     "url": "https://www.futboltotal.com.mx/futbol-mexicano/liga-mx/cesar-garza-lleno-el-ojo-a-matias-almeyda-rayados-monterrey/2026/06/",
+     "seen": "2026-07-02T19:24:55.993595"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/garza-cesar/lYv3aqy7/",
+     "seen": "2026-07-28T09:18:44.128588"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/cesar-garza/profil/spieler/1171460",
+     "seen": "2026-08-30T12:09:12.375789"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "senza_fonte_primary,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-07-02T19:24:55.993595",
+   "last_seen": "2026-08-30T12:09:12.375789",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 3 fonti indipendenti"
+    ],
+    "cautions": [
+     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 3 independent sources"
+    ],
+    "cautions_en": [
+     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Look for a primary press/federation source to bring it to the full standard",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Axel Alfonzo",
    "age": null,
    "age_stato": "assente",
@@ -20072,17 +20292,17 @@
    }
   },
   {
-   "name": "César Garza",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 20 non è scritto da nessuna fonte competente",
+   "name": "Santiago Flores",
+   "age": 25,
+   "age_stato": "dichiarato",
+   "age_nota": "",
    "claims": {
     "nome": {
      "stato": "dichiarato",
-     "fonte": "Soccerway",
-     "tipo": "aggregator",
-     "citazione": "# Cesar Garza (Monterrey) Stats",
-     "url": "https://www.soccerway.com/player/garza-cesar/lYv3aqy7/"
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Santiago Flores Defensa Central 25 25/03/2001 1.83",
+     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh"
     },
     "club": {
      "stato": "assente",
@@ -20092,11 +20312,11 @@
      "url": ""
     },
     "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Santiago Flores Defensa Central 25 25/03/2001 1.83",
+     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh"
     },
     "stats": {
      "stato": "assente",
@@ -20106,32 +20326,37 @@
      "url": ""
     }
    },
-   "position": "CDM",
-   "club": "Rayados de Monterrey",
-   "league": "Liga MX",
-   "region": "Mexico",
+   "position": "Defensa Central",
+   "club": "Estudiantes de La Plata",
+   "league": null,
+   "region": "Argentina",
    "gender": "male",
    "score": 8,
-   "confidence": 0.63,
+   "confidence": 0.91,
    "breakdown": {
-    "youth": 4.0,
+    "youth": 1.0,
     "production": 0.0,
     "asymmetry": 8.0,
     "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
+    "n_sources": 3,
+    "detection_count": 3
    },
-   "n_sources": 2,
+   "n_sources": 3,
    "sources": [
     {
-     "domain": "futboltotal.com.mx",
-     "url": "https://www.futboltotal.com.mx/futbol-mexicano/liga-mx/cesar-garza-lleno-el-ojo-a-matias-almeyda-rayados-monterrey/2026/06/",
-     "seen": "2026-07-02T19:24:55.993595"
+     "domain": "origin.app.promiedos.com.ar",
+     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh",
+     "seen": "2026-07-29T09:23:20.822740"
     },
     {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/garza-cesar/lYv3aqy7/",
-     "seen": "2026-07-28T09:18:44.128588"
+     "domain": "transfermarkt.de",
+     "url": "https://www.transfermarkt.de/santiago-flores/profil/spieler/1400394",
+     "seen": "2026-07-29T09:23:20.822740"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/santiago-flores/profil/spieler/1011266",
+     "seen": "2026-08-30T12:09:12.375789"
     }
    ],
    "stats": {
@@ -20142,38 +20367,30 @@
    },
    "publishable": false,
    "identity_complete": true,
-   "review_flags": "senza_fonte_primary,eta_assente",
+   "review_flags": "eta_dichiarato",
    "coverage_tier": "standard",
-   "first_detected": "2026-07-02T19:24:55.993595",
-   "last_seen": "2026-07-02T19:24:55.993595",
+   "first_detected": "2026-08-30T12:09:12.375789",
+   "last_seen": "2026-08-30T12:09:12.375789",
    "selezione": {},
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
+     "Identità confermata da 3 fonti indipendenti"
     ],
     "cautions": [
-     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
+     "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
-     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
-     "Confermare l'anno di nascita con la società",
      "Recuperare statistiche di rendimento (referti gara)"
     ],
     "pros_en": [
      "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
+     "Identity confirmed by 3 independent sources"
     ],
     "cautions_en": [
-     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
-     "No documented performance stats",
-     "Age not confirmed"
+     "No documented performance stats"
     ],
     "next_steps_en": [
-     "Look for a primary press/federation source to bring it to the full standard",
-     "Confirm the birth year with the club",
      "Get performance stats (match reports)"
     ]
    }
@@ -20675,204 +20892,6 @@
    }
   },
   {
-   "name": "Santiago Flores",
-   "age": 25,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Santiago Flores Defensa Central 25 25/03/2001 1.83",
-     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Santiago Flores Defensa Central 25 25/03/2001 1.83",
-     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Defensa Central",
-   "club": "Estudiantes de La Plata",
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "origin.app.promiedos.com.ar",
-     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh",
-     "seen": "2026-07-29T09:23:20.822740"
-    },
-    {
-     "domain": "transfermarkt.de",
-     "url": "https://www.transfermarkt.de/santiago-flores/profil/spieler/1400394",
-     "seen": "2026-07-29T09:23:20.822740"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Santiago Núñez",
-   "age": 26,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Santiago Núñez Defensa Central 26 29/04/2000 1.86",
-     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Santiago Núñez Defensa Central 26 29/04/2000 1.86",
-     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Defensa Central",
-   "club": "Estudiantes de La Plata",
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "origin.app.promiedos.com.ar",
-     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh",
-     "seen": "2026-07-29T09:23:20.822740"
-    },
-    {
-     "domain": "transfermarkt.pe",
-     "url": "https://www.transfermarkt.pe/santiago-nunez/profil/spieler/959208",
-     "seen": "2026-07-29T09:23:20.822740"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "name": "Facundo Fernández",
    "age": 21,
    "age_stato": "dichiarato",
@@ -21012,16 +21031,16 @@
    "region": "Brazil",
    "gender": "male",
    "score": 0,
-   "confidence": 0.73,
+   "confidence": 0.91,
    "breakdown": {
     "youth": 7.0,
     "production": 0.0,
     "asymmetry": -20.0,
     "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 3
+    "n_sources": 3,
+    "detection_count": 4
    },
-   "n_sources": 2,
+   "n_sources": 3,
    "sources": [
     {
      "domain": "trivela.com.br",
@@ -21032,6 +21051,11 @@
      "domain": "transfermarkt.com",
      "url": "https://www.transfermarkt.com/douglas-telles/profil/spieler/1220787",
      "seen": "2026-07-28T09:18:44.128588"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/douglas-telles/2gjeHGdk/",
+     "seen": "2026-08-30T12:09:12.375789"
     }
    ],
    "stats": {
@@ -21045,12 +21069,12 @@
    "review_flags": "eta_dichiarato,club_e_una_descrizione_non_un_nome",
    "coverage_tier": "standard",
    "first_detected": "2026-06-06T13:43:55.807655",
-   "last_seen": null,
+   "last_seen": "2026-08-30T12:09:12.375789",
    "selezione": {},
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
-     "Identità confermata da 2 fonti indipendenti"
+     "Identità confermata da 3 fonti indipendenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -21061,7 +21085,7 @@
     ],
     "pros_en": [
      "Young (19 yo)",
-     "Identity confirmed by 2 independent sources"
+     "Identity confirmed by 3 independent sources"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -22116,6 +22140,122 @@
     "next_steps_en": [
      "Verify the current club",
      "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Edmund Lalrindika",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "All India Football Federation",
+     "tipo": "federation",
+     "citazione": "At the Durand Cup final, Lalrindika didn't just score three goals. He etched his name into Kolkata derby history as East Bengal lifted the trophy after a 22-year wait. His hat-trick in a 4-1 victory",
+     "url": "https://www.the-aiff.com/article/from-aiff-youth-prospect-to-durand-cup-hero-edmund-lalrindikas-rise"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "East Bengal",
+   "league": "Durand Cup",
+   "region": "India",
+   "gender": "male",
+   "score": 14,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 12.5,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "the-aiff.com",
+     "url": "https://www.the-aiff.com/article/from-aiff-youth-prospect-to-durand-cup-hero-edmund-lalrindikas-rise",
+     "seen": "2026-08-30T12:09:12.375789"
+    }
+   ],
+   "stats": {
+    "goals": 3,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-30T12:09:12.375789",
+   "last_seen": "2026-08-30T12:09:12.375789",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da All India Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "All India Football Federation",
+      "url": "https://www.the-aiff.com/article/from-aiff-youth-prospect-to-durand-cup-hero-edmund-lalrindikas-rise"
+     }
+    ],
+    "fonte": "All India Football Federation",
+    "frase_en": "Called up 1 times by All India Football Federation."
+   },
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 3 gol in 1 presenze",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 3 goals in 1 appearances",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
