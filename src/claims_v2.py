@@ -57,6 +57,7 @@ from __future__ import annotations
 import json
 import re
 import unicodedata
+from datetime import date
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -111,6 +112,27 @@ COMPETENZE = {
 # Categoria giovanile nell'URL o nel testo: da "Sub-17" si ricava una
 # FASCIA ("under 17 al momento della convocazione"), non un'età.
 _CATEGORIA_RE = re.compile(r"sub-?(\d{2})|\bu-?(\d{2})\b", re.IGNORECASE)
+
+# Data di nascita scritta per esteso. Misurato il 31 ago 2026: la AUF pubblica
+# la rosa di ogni convocazione con nome, ruolo, DATA DI NASCITA e club
+# ("Luis Machín — Golero - 06/02/2010 — Nacional"). La FCF no: i suoi
+# comunicati danno nome e club e basta (verificate quattro pagine, zero
+# occorrenze di "fecha de nacimiento").
+#
+# Perché una federazione può provare un'età SOLO per questa strada, e non con
+# il numero nudo: il testo di una convocatoria Sub-17 contiene la stringa
+# "17". Se bastasse trovare il numero, ogni convocato risulterebbe "17 anni,
+# DICHIARATO dalla federazione" — cioè l'età dedotta dalla categoria
+# promossa a fatto, e poi riusata per dire che è giovane per quella
+# categoria. Un cerchio. Una data di nascita non ha questo problema: è un
+# fatto che la federazione conosce e scrive, e non si può confondere col
+# numero della categoria.
+_DATA_NASCITA_RE = re.compile(
+    r"\b(\d{1,2})[/.-](\d{1,2})[/.-]((?:19|20)\d\d)\b")
+# Le fonti che hanno l'anagrafica dei propri convocati. Un giornale scrive
+# "17 anni" e per quello c'è già la strada del numero; qui si parla di chi
+# tiene il tesseramento.
+TIPI_CON_ANAGRAFICA = frozenset({"federation", "confederation"})
 
 # Solo un testo CITATO dalla fonte può stabilire qualcosa. `origin` dice come
 # è nata un'evidenza:
@@ -234,13 +256,20 @@ def _prova(campo: str, valore: Any, evidenze: List[Dict[str, Any]],
         if (e.get("origin") or "extractor") not in ORIGIN_CHE_PROVANO:
             continue
         dom = e.get("source_domain") or _dominio(e.get("source_url", ""))
-        if campo not in competenze_di(dom):
+        tipo_fonte = registro().get(dom, {}).get("type", "")
+        # Una federazione non è competente per l'età col numero nudo (vedi
+        # _DATA_NASCITA_RE), ma lo è se scrive la data di nascita.
+        via_data = (campo == "eta" and tipo_fonte in TIPI_CON_ANAGRAFICA)
+        if campo not in competenze_di(dom) and not via_data:
             continue
         testo = _spoglia(e.get("raw_content"))
         if not _nomina(testo, nome, NOMI_COMUNI):
             continue
         if campo == "eta":
-            trovato = bool(re.search(rf"\b{int(valore)}\b", _norm(testo)))
+            if via_data:
+                trovato = _eta_da_data_di_nascita(testo) == int(valore)
+            else:
+                trovato = bool(re.search(rf"\b{int(valore)}\b", _norm(testo)))
         else:
             attesi = {t for t in _tok(valore) if len(t) >= 4}
             trovato = bool(attesi) and attesi.issubset(_tok(testo))
@@ -253,6 +282,27 @@ def _prova(campo: str, valore: Any, evidenze: List[Dict[str, Any]],
                     "url": e.get("source_url", ""),
                     "quando": e.get("observed_at", "")}
     return None
+
+
+def _eta_da_data_di_nascita(testo: str, oggi: Optional[date] = None) -> Optional[int]:
+    """
+    L'età di oggi ricavata da una data di nascita scritta nel testo, o None.
+
+    Il giorno e il mese ci sono, quindi l'età è esatta e non stimata — è la
+    differenza fra questa strada e l'età presa da un aggregatore. Formato
+    giorno/mese/anno: è quello delle federazioni ispanofone (06/02/2010 =
+    6 febbraio). Un mese > 12 sarebbe una data all'americana e si scarta
+    invece di indovinare: meglio nessuna prova che una prova girata.
+    """
+    m = _DATA_NASCITA_RE.search(testo or "")
+    if not m:
+        return None
+    giorno, mese, anno = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    if not (1 <= mese <= 12 and 1 <= giorno <= 31):
+        return None
+    d = oggi or date.today()
+    eta = d.year - anno - ((d.month, d.day) < (mese, giorno))
+    return eta if 0 <= eta <= 60 else None
 
 
 def _fascia_eta(evidenze: List[Dict[str, Any]]) -> Optional[int]:
@@ -443,6 +493,39 @@ if __name__ == "__main__":
           "source_domain": "latimes.com", "source_url": "https://x",
           "observed_at": "2026-06-02", "origin": "extractor"}])
     assert c6b["eta"]["stato"] == DICHIARATO
+
+    # 7. La data di nascita scritta da una federazione prova l'età. Testo
+    #    reale, non inventato: pagina AUF della Sub-17, letta il 31 ago 2026.
+    auf = [{"raw_content": "Luis Machín — Golero - 06/02/2010 — Nacional (URU)",
+            "source_domain": "auf.org.uy",
+            "source_url": "https://www.auf.org.uy/sub-17/",
+            "observed_at": "2026-08-31", "origin": "extractor"}]
+    c7 = stabilisci({"canonical_name": "Luis Machín", "club": "Nacional",
+                     "age": 16}, auf)
+    assert c7["eta"]["stato"] == DICHIARATO, c7["eta"]
+    assert c7["eta"]["prova"]["tipo"] == "federation", c7["eta"]
+
+    # 7b. E il numero nudo NON basta a una federazione: il testo di una
+    #     convocatoria Sub-17 contiene "17", e se bastasse quello ogni
+    #     convocato risulterebbe "17 anni, dichiarato dalla federazione".
+    #     È il cerchio che questa strada esiste per evitare.
+    fcf = [{"raw_content": "Convocatoria Sub-17: Miguel Ángel Agámez Cabarcas "
+                           "– Barranquilla F.C",
+            "source_domain": "fcf.com.co",
+            "source_url": "https://fcf.com.co/2026/07/19/convocatoria-sub-17/",
+            "observed_at": "2026-08-31", "origin": "extractor"}]
+    c7b = stabilisci({"canonical_name": "Miguel Ángel Agámez Cabarcas",
+                      "club": "Barranquilla F.C", "age": 17}, fcf)
+    assert c7b["eta"]["stato"] != DICHIARATO, c7b["eta"]
+
+    # 7c. L'età si calcola col giorno e il mese, non col solo anno: chi è nato
+    #     a dicembre 2009 non ha ancora compiuto 17 anni ad agosto 2026.
+    assert _eta_da_data_di_nascita("nato il 06/02/2010", date(2026, 8, 31)) == 16
+    assert _eta_da_data_di_nascita("nato il 20/12/2009", date(2026, 8, 31)) == 16
+    assert _eta_da_data_di_nascita("nato il 20/07/2009", date(2026, 8, 31)) == 17
+    # Una data all'americana (mese > 12 in seconda posizione) si scarta:
+    # meglio nessuna prova che una prova girata.
+    assert _eta_da_data_di_nascita("02/25/2010") is None
 
     print("OK claims_v2: ogni campo esce col suo stato — dichiarato, dedotto "
           "o assente. Una convocazione federale pubblica; un titolo di pagina "

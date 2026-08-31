@@ -66,16 +66,44 @@ from src.corroborate_v2 import observation_fits_target
 PAUSA_SEC = 4.0
 
 
+# La firma che il parser lascia quando ha letto DAVVERO la scheda
+# (src/profilo_tm_v2.leggi_profilo). Un'evidenza TM che non ce l'ha è una
+# cattura vecchia: il titolo della pagina e basta.
+_FIRMA_PARSER = "Scheda Transfermarkt"
+
+
 def _candidati(db: OB1DatabaseV2, limit: int = 0) -> list:
-    """(player_id, nome, età, club, url) per ogni scheda TM già nota di un
-    giocatore non ancora pubblicabile — chi è già passato non va ritoccato."""
+    """
+    (player_id, nome, età, club, url) per ogni scheda TM già nota che vale la
+    pena rileggere.
+
+    Il criterio era "il giocatore non è pubblicabile". Copriva il caso per cui
+    lo script è nato — sbloccare chi il gate ferma — ma ne lasciava fuori uno
+    che conta quanto: un giocatore GIÀ pubblicato la cui unica evidenza TM è
+    ancora il titolo della pagina. Lì l'evidenza stantia non gli impedisce di
+    uscire, gli toglie l'ETÀ: claims_v2 non trova nessuna fonte competente che
+    la scriva, la scheda la nasconde, e con lei sparisce l'anomalia di
+    anticipo di categoria — che è il segnale più forte che abbiamo.
+    Misurato il 31 ago 2026: tre dei quattro casi di anticipo sono pubblicati
+    e muti per questo motivo.
+
+    Quindi si rilegge se il giocatore non è pubblicabile, OPPURE se nessuna
+    evidenza TM porta la firma del parser — cioè se quel che abbiamo è ancora
+    la cattura vecchia, troncata ai 1500 caratteri di menu.
+    """
     with db._conn() as conn:
         rows = conn.execute("""
-            SELECT DISTINCT p.id, p.canonical_name, p.age, p.club, e.source_url
+            SELECT DISTINCT p.id, p.canonical_name, p.age, p.club,
+                            e.source_url, p.publishable
             FROM players p JOIN evidences e ON e.player_id = p.id
-            WHERE p.publishable = 0 AND e.source_url LIKE '%transfermarkt%'
+            WHERE e.source_url LIKE '%transfermarkt%'
         """).fetchall()
-    cand = [tuple(r) for r in rows if e_scheda_tm(r[4])]
+        letti = {r[0] for r in conn.execute(
+            "SELECT DISTINCT player_id FROM evidences "
+            "WHERE source_url LIKE '%transfermarkt%' AND raw_content LIKE ?",
+            (f"%{_FIRMA_PARSER}%",))}
+    cand = [(r[0], r[1], r[2], r[3], r[4], bool(r[5])) for r in rows
+            if e_scheda_tm(r[4]) and (not r[5] or r[0] not in letti)]
     return cand[:limit] if limit else cand
 
 
@@ -91,7 +119,8 @@ async def main() -> int:
     print(f"Schede TM da rileggere: {len(candidati)}\n")
 
     migliorati = nuovi_pubblicabili = invariati = illeggibili = non_combacia = 0
-    for i, (pid, name, age, club, url) in enumerate(candidati):
+    eta_ora_provata = 0
+    for i, (pid, name, age, club, url, era_pubblicabile) in enumerate(candidati):
         if i:
             await asyncio.sleep(PAUSA_SEC)
         testo = await scraper.read_raw(url)
@@ -105,7 +134,13 @@ async def main() -> int:
         if not observation_fits_target(letto, name, age=age, club=club,
                                        names_match_fn=db._names_match):
             non_combacia += 1
-            print(f"  ! non combacia più: {name!r} vs {letto.get('name')!r} — salto")
+            # L'età va stampata insieme al nome: observation_fits_target
+            # rifiuta anche per età (la guardia contro il professionista
+            # omonimo), e un messaggio coi soli nomi produceva righe come
+            # "'Rian Santana' vs 'Rian Santana' — salto", che sembrano un bug
+            # e non lo sono.
+            print(f"  ! non combacia più: {name!r} ({age}) vs "
+                  f"{letto.get('name')!r} ({letto.get('age')}) — salto")
             continue
 
         prima_club, prima_eta = club, age
@@ -114,7 +149,21 @@ async def main() -> int:
         with db._conn() as conn:
             dopo = conn.execute("SELECT club, age, publishable FROM players WHERE id=?",
                                 (pid,)).fetchone()
-        if dopo[2]:
+            # L'esito che conta per chi era GIÀ pubblicato: prima l'unica
+            # evidenza TM era il titolo della pagina, e claims_v2 non trovava
+            # nessuna fonte competente che scrivesse l'età — quindi la scheda
+            # non la mostrava e l'anomalia di anticipo restava muta. Ora c'è
+            # una citazione che l'età ce l'ha dentro.
+            if conn.execute(
+                    "SELECT 1 FROM evidences WHERE player_id=? AND "
+                    "source_url LIKE '%transfermarkt%' AND raw_content LIKE ? "
+                    "LIMIT 1", (pid, f"%{_FIRMA_PARSER}%")).fetchone():
+                eta_ora_provata += 1
+        # "Nuovo" solo se il gate è passato ADESSO. Da quando i candidati
+        # includono anche i già pubblicati (per rileggerne l'età), un
+        # controllo sul solo stato finale li contava tutti come sbloccati:
+        # un numero lusinghiero e falso.
+        if dopo[2] and not era_pubblicabile:
             nuovi_pubblicabili += 1
             print(f"  + {name} -> ORA PUBBLICABILE (club={dopo[0]!r}, età={dopo[1]})")
         elif dopo[0] != prima_club or dopo[1] != prima_eta:
@@ -129,6 +178,7 @@ async def main() -> int:
     print(f"  nuovi pubblicabili: {nuovi_pubblicabili}")
     print(f"  campo migliorato ma non ancora pubblicabile: {migliorati}")
     print(f"  invariati (parser non ha aggiunto nulla di nuovo): {invariati}")
+    print(f"  età ora dimostrabile da una fonte competente: {eta_ora_provata}")
     print(f"  non combaciano più: {non_combacia}")
     print(f"  non leggibili oggi: {illeggibili}")
     return 0
