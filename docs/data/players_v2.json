@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-08-30T21:47:56.490192+00:00",
+ "generated_at": "2026-08-31T06:22:29.784160+00:00",
  "version": "1.0.0",
- "build": "1302ba3",
- "total": 305,
- "publishable": 153,
- "tracking": 152,
- "shown": 305,
+ "build": "1ea8806",
+ "total": 308,
+ "publishable": 157,
+ "tracking": 151,
+ "shown": 308,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -12767,6 +12767,222 @@
    }
   },
   {
+   "name": "Santino Barbi",
+   "age": 21,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Santino Barbi Arquero 21",
+     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Santino Barbi, 21 anni, CA Talleres",
+     "url": "https://www.transfermarkt.us/santino-barbi/profil/spieler/1197308"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Santino Barbi Arquero 21",
+     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Arquero",
+   "club": "CA Talleres",
+   "league": "Torneo Clausura",
+   "region": "Argentina",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff",
+     "seen": "2026-07-16T15:34:33.049129"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/santino-barbi/profil/spieler/1197308",
+     "seen": "2026-08-25T19:09:27.983861"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/santino-barbi/profil/spieler/1197308",
+     "seen": "2026-08-31T05:57:51.267979"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-25T19:09:27.983861",
+   "last_seen": "2026-08-31T05:57:51.267979",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 3 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 3 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "name": "Santiago Fernandez",
+   "age": 21,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Santiago Fernandez Defensa Central 21",
+     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Santiago Abel Fernández, 21 anni, CA Talleres",
+     "url": "https://www.transfermarkt.us/santiago-fernandez/profil/spieler/1106217"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Santiago Fernandez Defensa Central 21",
+     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defensa Central",
+   "club": "CA Talleres",
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff",
+     "seen": "2026-07-16T15:34:33.049129"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/santiago-fernandez/profil/spieler/50868",
+     "seen": "2026-08-25T19:09:27.983861"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/santiago-fernandez/profil/spieler/1106217",
+     "seen": "2026-08-31T05:57:51.267979"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-25T19:09:27.983861",
+   "last_seen": "2026-08-31T05:57:51.267979",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 3 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 3 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "name": "Santiago Pérez Castaño",
    "age": null,
    "age_stato": "assente",
@@ -13918,6 +14134,114 @@
    }
   },
   {
+   "name": "Nicolás Ruotola",
+   "age": 21,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Nicolás Ruotola Arquero 21",
+     "url": "https://www.promiedos.com.ar/team/juventud/babjc"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Nicolás Facundo Ruotola Machado, 21 anni, CA Juventud",
+     "url": "https://www.transfermarkt.us/nicolas-ruotola/profil/spieler/1134754"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Nicolás Ruotola Arquero 21",
+     "url": "https://www.promiedos.com.ar/team/juventud/babjc"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Arquero",
+   "club": "CA Juventud",
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "promiedos.com.ar",
+     "url": "https://www.promiedos.com.ar/team/juventud/babjc",
+     "seen": "2026-07-31T04:02:04.097438"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/nicolas-ruotola/profil/spieler/1134754",
+     "seen": "2026-08-26T02:09:29.229545"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/nicolas-ruotola/profil/spieler/1134754",
+     "seen": "2026-08-31T05:57:51.267979"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-26T02:09:29.229545",
+   "last_seen": "2026-08-31T05:57:51.267979",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 3 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 3 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "name": "Duvan Starlin Mina Aponzá",
    "age": null,
    "age_stato": "assente",
@@ -14642,6 +14966,114 @@
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Codey Phoenix",
+   "age": 21,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Codey Phoenix Defensa Lateral Izquierdo 21",
+     "url": "https://origin.app.promiedos.com.ar/team/new-zealand-u20/bcfge"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Codey Phoenix, 21 anni, Tacoma Defiance",
+     "url": "https://www.transfermarkt.us/codey-phoenix/profil/spieler/1028679"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Codey Phoenix Defensa Lateral Izquierdo 21",
+     "url": "https://origin.app.promiedos.com.ar/team/new-zealand-u20/bcfge"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defensa Lateral Izquierdo",
+   "club": "Tacoma Defiance",
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "origin.app.promiedos.com.ar",
+     "url": "https://origin.app.promiedos.com.ar/team/new-zealand-u20/bcfge",
+     "seen": "2026-08-10T19:32:58.530254"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/codey-phoenix/profil/spieler/1028679",
+     "seen": "2026-08-26T13:35:08.974158"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/codey-phoenix/profil/spieler/1028679",
+     "seen": "2026-08-31T05:57:51.267979"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-26T13:35:08.974158",
+   "last_seen": "2026-08-31T05:57:51.267979",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 3 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 3 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
     ]
    }
   },
@@ -21694,16 +22126,16 @@
    "region": "Argentina",
    "gender": "male",
    "score": 0,
-   "confidence": 0.63,
+   "confidence": 0.91,
    "breakdown": {
     "youth": 1.0,
     "production": 0.0,
     "asymmetry": -20.0,
     "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
+    "n_sources": 3,
+    "detection_count": 3
    },
-   "n_sources": 2,
+   "n_sources": 3,
    "sources": [
     {
      "domain": "promiedos.com.ar",
@@ -21714,6 +22146,11 @@
      "domain": "soccerway.com",
      "url": "https://www.soccerway.com/player/cortes-alvaro/bB0DGBtC/",
      "seen": "2026-08-25T19:09:27.983861"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/alvaro-cortes/profil/spieler/924610",
+     "seen": "2026-08-31T05:57:51.267979"
     }
    ],
    "stats": {},
@@ -21722,11 +22159,11 @@
    "review_flags": "eta_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-08-21T13:26:54.585139",
-   "last_seen": "2026-08-25T19:09:27.983861",
+   "last_seen": "2026-08-31T05:57:51.267979",
    "selezione": {},
    "assessment": {
     "pros": [
-     "Identità confermata da 2 fonti indipendenti"
+     "Identità confermata da 3 fonti indipendenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -21736,7 +22173,7 @@
      "Recuperare statistiche di rendimento (referti gara)"
     ],
     "pros_en": [
-     "Identity confirmed by 2 independent sources"
+     "Identity confirmed by 3 independent sources"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -24563,6 +25000,121 @@
    }
   },
   {
+   "name": "Nguyễn Xuân Son",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Vietnam Football Federation",
+     "tipo": "federation",
+     "citazione": "substitute Nguyễn Xuân Son scoring twice to earn his side a 2-0 victory over Malaysia",
+     "url": "http://en.vff.org.vn/asean-hyundai-cup-2026-semi-final-2nd-leg-vietnam-2-0-malaysia-vietnam-win-4-0-on-aggregate/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 8.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "en.vff.org.vn",
+     "url": "http://en.vff.org.vn/asean-hyundai-cup-2026-semi-final-2nd-leg-vietnam-2-0-malaysia-vietnam-win-4-0-on-aggregate/",
+     "seen": "2026-08-31T05:57:51.267979"
+    }
+   ],
+   "stats": {
+    "goals": 2
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-31T05:57:51.267979",
+   "last_seen": "2026-08-31T05:57:51.267979",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Vietnam Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Vietnam Football Federation",
+      "url": "http://en.vff.org.vn/asean-hyundai-cup-2026-semi-final-2nd-leg-vietnam-2-0-malaysia-vietnam-win-4-0-on-aggregate/"
+     }
+    ],
+    "fonte": "Vietnam Football Federation",
+    "frase_en": "Called up 1 times by Vietnam Football Federation."
+   },
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 2 gol"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 2 goals"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "name": "Andrea Montenegro",
    "age": null,
    "age_stato": "assente",
@@ -24899,109 +25451,6 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Santino Barbi",
-   "age": 21,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Santino Barbi Arquero 21",
-     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Santino Barbi Arquero 21",
-     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Arquero",
-   "club": null,
-   "league": "Torneo Clausura",
-   "region": "Argentina",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff",
-     "seen": "2026-07-16T15:34:33.049129"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/santino-barbi/profil/spieler/1197308",
-     "seen": "2026-08-25T19:09:27.983861"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-25T19:09:27.983861",
-   "last_seen": "2026-08-25T19:09:27.983861",
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
      "Get performance stats (match reports)"
     ]
    }
@@ -28777,6 +29226,228 @@
    }
   },
   {
+   "name": "Phan Tuấn Tài",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Vietnam Football Federation",
+     "tipo": "federation",
+     "citazione": "Phan Tuấn Tài flashed across the face of goal",
+     "url": "http://en.vff.org.vn/asean-hyundai-cup-2026-semi-final-2nd-leg-vietnam-2-0-malaysia-vietnam-win-4-0-on-aggregate/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "en.vff.org.vn",
+     "url": "http://en.vff.org.vn/asean-hyundai-cup-2026-semi-final-2nd-leg-vietnam-2-0-malaysia-vietnam-win-4-0-on-aggregate/",
+     "seen": "2026-08-31T05:57:51.267979"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-31T05:57:51.267979",
+   "last_seen": "2026-08-31T05:57:51.267979",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Vietnam Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Vietnam Football Federation",
+      "url": "http://en.vff.org.vn/asean-hyundai-cup-2026-semi-final-2nd-leg-vietnam-2-0-malaysia-vietnam-win-4-0-on-aggregate/"
+     }
+    ],
+    "fonte": "Vietnam Football Federation",
+    "frase_en": "Called up 1 times by Vietnam Football Federation."
+   },
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "name": "Azri Ghani",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Vietnam Football Federation",
+     "tipo": "federation",
+     "citazione": "Malaysia goalkeeper Azri Ghani",
+     "url": "http://en.vff.org.vn/asean-hyundai-cup-2026-semi-final-2nd-leg-vietnam-2-0-malaysia-vietnam-win-4-0-on-aggregate/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "goalkeeper",
+   "club": null,
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "en.vff.org.vn",
+     "url": "http://en.vff.org.vn/asean-hyundai-cup-2026-semi-final-2nd-leg-vietnam-2-0-malaysia-vietnam-win-4-0-on-aggregate/",
+     "seen": "2026-08-31T05:57:51.267979"
+    }
+   ],
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-31T05:57:51.267979",
+   "last_seen": "2026-08-31T05:57:51.267979",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Vietnam Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Vietnam Football Federation",
+      "url": "http://en.vff.org.vn/asean-hyundai-cup-2026-semi-final-2nd-leg-vietnam-2-0-malaysia-vietnam-win-4-0-on-aggregate/"
+     }
+    ],
+    "fonte": "Vietnam Football Federation",
+    "frase_en": "Called up 1 times by Vietnam Football Federation."
+   },
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "name": "Valentino Acu",
    "age": null,
    "age_stato": "assente",
@@ -29747,208 +30418,6 @@
    }
   },
   {
-   "name": "Santiago Fernandez",
-   "age": 21,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Santiago Fernandez Defensa Central 21",
-     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Santiago Fernandez Defensa Central 21",
-     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Defensa Central",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 1,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/team/argentina-u20/baaff",
-     "seen": "2026-07-16T15:34:33.049129"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/santiago-fernandez/profil/spieler/50868",
-     "seen": "2026-08-25T19:09:27.983861"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-25T19:09:27.983861",
-   "last_seen": "2026-08-25T19:09:27.983861",
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Nicolás Ruotola",
-   "age": 21,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Nicolás Ruotola Arquero 21",
-     "url": "https://www.promiedos.com.ar/team/juventud/babjc"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Nicolás Ruotola Arquero 21",
-     "url": "https://www.promiedos.com.ar/team/juventud/babjc"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Arquero",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 1,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "promiedos.com.ar",
-     "url": "https://www.promiedos.com.ar/team/juventud/babjc",
-     "seen": "2026-07-31T04:02:04.097438"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/nicolas-ruotola/profil/spieler/1134754",
-     "seen": "2026-08-26T02:09:29.229545"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-26T02:09:29.229545",
-   "last_seen": "2026-08-26T02:09:29.229545",
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "name": "Mauricio Rodríguez",
    "age": 21,
    "age_stato": "dichiarato",
@@ -30427,107 +30896,6 @@
    "coverage_tier": "standard",
    "first_detected": "2026-08-26T12:03:31.516103",
    "last_seen": "2026-08-26T12:03:31.516103",
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Codey Phoenix",
-   "age": 21,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Codey Phoenix Defensa Lateral Izquierdo 21",
-     "url": "https://origin.app.promiedos.com.ar/team/new-zealand-u20/bcfge"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Codey Phoenix Defensa Lateral Izquierdo 21",
-     "url": "https://origin.app.promiedos.com.ar/team/new-zealand-u20/bcfge"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Defensa Lateral Izquierdo",
-   "club": null,
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 1,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "origin.app.promiedos.com.ar",
-     "url": "https://origin.app.promiedos.com.ar/team/new-zealand-u20/bcfge",
-     "seen": "2026-08-10T19:32:58.530254"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/codey-phoenix/profil/spieler/1028679",
-     "seen": "2026-08-26T13:35:08.974158"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-26T13:35:08.974158",
-   "last_seen": "2026-08-26T13:35:08.974158",
    "selezione": {},
    "assessment": {
     "pros": [
