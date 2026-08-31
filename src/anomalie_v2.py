@@ -84,11 +84,17 @@ _NUM = re.compile(r"(\d+)")
 
 @dataclass
 class Anomalia:
-    """Una ragione, la frase che la dice, e i documenti che la reggono."""
+    """Una ragione, la frase che la dice, e i documenti che la reggono.
+
+    Le due lingue si costruiscono dai campi, non si traducono a pezzi: e' la
+    stessa scelta di `selezione_v2` / `_selection_en` nell'export, e serve a
+    non far divergere le due versioni la prima volta che una soglia cambia.
+    """
     codice: str
     titolo: str
     frase: str
     forza: str                       # "forte" | "indicativa"
+    frase_en: str = ""
     prove: List[str] = field(default_factory=list)
     dati: Dict = field(default_factory=dict)
 
@@ -181,15 +187,20 @@ def _salto(sel: dict, scala: Dict[str, List[int]]):
     return len(saltate), prima, dopo, saltate
 
 
-def _cat(categoria: str) -> str:
-    return (categoria or "").replace("sub-", "Sub-").replace("maggiore",
-                                                             "Nazionale A")
+def _cat(categoria: str, en: bool = False) -> str:
+    return (categoria or "").replace("sub-", "U" if en else "Sub-").replace(
+        "maggiore", "the senior side" if en else "Nazionale A")
 
 
-def _mese_anno(iso: str) -> str:
-    mesi = ("gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno",
+_MESI_IT = ("gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno",
             "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre")
+_MESI_EN = ("January", "February", "March", "April", "May", "June", "July",
+            "August", "September", "October", "November", "December")
+
+
+def _mese_anno(iso: str, en: bool = False) -> str:
     try:
+        mesi = _MESI_EN if en else _MESI_IT
         return f"{mesi[int(iso[5:7]) - 1]} {iso[:4]}"
     except (ValueError, IndexError):
         return iso[:7]
@@ -238,11 +249,17 @@ def leggi(selezione: dict,
         anni_sotto = scarto - 1
         fuori.append(Anomalia(
             codice="anticipo_categoria",
-            titolo="Convocato sopra la sua eta'",
+            titolo="Convocato sopra la sua età",
             frase=(f"Convocato in {cat} nel {_mese_anno(ev['data'])}, quando "
                    f"aveva al massimo {eta_massima} anni: almeno {anni_sotto} "
                    f"{'anno' if anni_sotto == 1 else 'anni'} sotto la "
                    f"categoria. Fonte: {ev.get('fonte') or 'federazione'}."),
+            frase_en=(f"Called up to {_cat(ev['categoria'], en=True)} in "
+                      f"{_mese_anno(ev['data'], en=True)}, aged at most "
+                      f"{eta_massima}: at least {anni_sotto} "
+                      f"{'year' if anni_sotto == 1 else 'years'} below the "
+                      f"age group. Source: "
+                      f"{ev.get('fonte') or 'national federation'}."),
             forza="forte" if anni_sotto >= 2 else "indicativa",
             prove=[ev.get("url", "")],
             dati={"anni_sotto_categoria": anni_sotto,
@@ -262,6 +279,13 @@ def leggi(selezione: dict,
                    f"a {_cat(dopo['categoria'])} ({_mese_anno(dopo['data'])}) "
                    f"senza passare da {elenco}, che la stessa federazione "
                    f"convoca."),
+            frase_en=(f"From {_cat(prima['categoria'], en=True)} "
+                      f"({_mese_anno(prima['data'], en=True)}) to "
+                      f"{_cat(dopo['categoria'], en=True)} "
+                      f"({_mese_anno(dopo['data'], en=True)}) without passing "
+                      f"through "
+                      f"{', '.join('U%d' % c for c in saltate)}, which the "
+                      f"same federation does call up."),
             forza="forte",
             prove=[prima.get("url", ""), dopo.get("url", "")],
             dati={"saltate": saltate, "da": prima["categoria"],
@@ -283,6 +307,10 @@ def leggi(selezione: dict,
             frase=(f"{sel['quante']} convocazioni di {chi}, e nessuna delle "
                    f"fonti di stampa che seguiamo lo ha mai scritto. "
                    f"Chi decide lo conosce, chi racconta no."),
+            frase_en=(f"{sel['quante']} call-ups by {chi}, and none of the "
+                      f"press outlets we track has ever written about him. "
+                      f"The people who pick him know him; the people who "
+                      f"report don't."),
             forza="indicativa",
             prove=[e.get("url", "") for e in (sel.get("eventi") or [])][:4],
             dati={"convocazioni": sel["quante"],
@@ -296,7 +324,8 @@ def leggi(selezione: dict,
 def come_dict(anomalie: Sequence[Anomalia]) -> List[dict]:
     """Forma serializzabile per players_v2.json."""
     return [{"codice": a.codice, "titolo": a.titolo, "frase": a.frase,
-             "forza": a.forza, "prove": [p for p in a.prove if p],
+             "frase_en": a.frase_en, "forza": a.forza,
+             "prove": [p for p in a.prove if p],
              "dati": a.dati} for a in anomalie]
 
 
@@ -391,10 +420,20 @@ def _test() -> None:
     assert [x.forza for x in ordinate] == sorted([x.forza for x in ordinate],
                                                  key=lambda f: 0 if f == "forte" else 1)
 
-    # 10. Serializzabile senza perdere le prove.
+    # 10. Serializzabile senza perdere le prove, e in due lingue: la scheda
+    #     ha un interruttore IT/EN e una meta' vuota si vedrebbe subito.
     d = come_dict(ordinate)
-    assert d and all(set(x) == {"codice", "titolo", "frase", "forza", "prove",
-                                "dati"} for x in d)
+    assert d and all(set(x) == {"codice", "titolo", "frase", "frase_en",
+                                "forza", "prove", "dati"} for x in d)
+    assert all(x["frase"] and x["frase_en"] for x in d), d
+    en = {x["codice"]: x["frase_en"] for x in d}
+    assert "without passing through U17" in en["salto_categoria"], en
+    assert "at least 3 years below the age group" in en["anticipo_categoria"], en
+    solo_asim = come_dict(leggi(agamez, 16, ["federation", "aggregator"],
+                                scala, OGGI))
+    assert "none of the press outlets we track" in \
+        next(x["frase_en"] for x in solo_asim
+             if x["codice"] == "asimmetria_copertura")
 
     print("anomalie_v2: ok")
 

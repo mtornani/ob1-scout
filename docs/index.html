@@ -94,6 +94,28 @@
   .sel-l .d{font-family:var(--mono);font-size:10.5px}
   .sel-l .c{font-weight:600}
 
+  /* Le anomalie: perché QUESTO nome e non un altro. La storia di
+     convocazioni sopra dice cosa è successo; qui sotto sta cosa ci risulta
+     strano, detto in modo che chi legge possa ripeterlo al telefono e
+     verificarlo aprendo il link. Un filo a sinistra invece di un riquadro
+     colorato: è una nota a margine con dei documenti sotto, non un allarme.
+     Vedi src/anomalie_v2.py. */
+  .anom{margin:0 0 12px;padding-left:11px;border-left:2px solid var(--accent-lo)}
+  .anom.forte{border-left-color:var(--accent)}
+  .anom-t{font-family:var(--mono);font-size:9.5px;font-weight:600;
+    letter-spacing:.09em;text-transform:uppercase;color:var(--accent)}
+  /* "indicativa" non è un dettaglio da nascondere: è la differenza fra un
+     profilo da mandare e uno da guardare. Sta in coda al titolo e non
+     spinta a destra: con un titolo che va a capo, un tag allineato a destra
+     finiva a due righe di distanza dalla parola a cui si riferisce. */
+  .anom-f{font-weight:500;color:var(--faint)}
+  .anom-p{font-size:12.5px;line-height:1.5;color:var(--ink);margin-top:4px}
+  .anom-l{margin-top:5px;display:flex;flex-wrap:wrap;gap:6px}
+  .anom-l a{font-family:var(--mono);font-size:10px;text-decoration:none;
+    color:var(--muted);border-bottom:1px solid var(--line)}
+  .anom-l a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+  .anom + .anom{margin-top:-4px}
+
   .foot{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:12px}
   .conf{display:inline-flex;align-items:center;gap:5px;color:var(--muted)}
   .dots{display:inline-flex;gap:2px}
@@ -255,6 +277,17 @@ const I18N_EN = {
   'card.to_corroborate': 'TO CORROBORATE — incomplete identity or insufficient sources',
 };
 
+// I titoli delle anomalie in inglese. Chiavi = i codici di
+// src/anomalie_v2.py: se un giorno ne nasce una quarta e questa tabella non
+// la conosce, la scheda ripiega sul titolo italiano invece di mostrare vuoto.
+// Le FRASI invece arrivano già in due lingue dall'export (frase / frase_en),
+// costruite dai campi: così non divergono quando una soglia cambia.
+const EN_ANOM = {
+  'anticipo_categoria': 'Called up above his age group',
+  'salto_categoria': 'Skipped an age group',
+  'asimmetria_copertura': 'Picked by the federation, absent from the press',
+};
+
 const params = new URLSearchParams(location.search);
 const LANG = params.get('lang') === 'en' ? 'en' : 'it';
 document.documentElement.lang = LANG;
@@ -383,10 +416,40 @@ if (IS_EN) {
           ${eventi.length ? `<ol class="sel-l">${eventi.map(e => `
             <li><a href="${esc(e.url)}" target="_blank" rel="noopener">
               <span class="d">${esc(mese(e.data))}</span>
-              <span class="c">${esc((e.categoria||'').replace('sub-','Sub-').replace('maggiore', IS_EN?'Senior':'Nazionale A') || '—')}</span>
+              <span class="c">${esc((e.categoria||'').replace('sub-', IS_EN?'U':'Sub-').replace('maggiore', IS_EN?'Senior':'Nazionale A') || '—')}</span>
             </a></li>`).join('')}</ol>` : ''}
         </div>`
       : '';
+    // Le anomalie: la ragione per cui questo nome merita una telefonata.
+    // Sono poche per costruzione — tre segnali su cinque sono stati scartati
+    // perché misuravano come abbiamo raccolto i dati invece del giocatore
+    // (vedi src/anomalie_v2.py e scripts/valida_anomalie.py). Una scheda
+    // senza anomalie non è "un giocatore normale": è un giocatore su cui non
+    // abbiamo niente da dimostrare, e le due cose non vanno confuse — per
+    // questo qui non compare mai una riga tipo "nessuna anomalia".
+    //
+    // I link "prova" escono SOLO per documenti che non sono già fra i chip
+    // datati qui sopra. Alla prima resa erano sempre gli stessi quattro
+    // comunicati ripetuti cinque pixel più in basso, con un'etichetta
+    // peggiore ("prova 2" invece di "gen 2026 Sub-17"): rumore travestito da
+    // servizio. Dove i chip mancano — una scheda senza eventi datati — i
+    // link tornano, perché lì sono l'unico modo di arrivare al documento.
+    const giaSopra = new Set(eventi.map(e => e.url));
+    const anomalie = (p.anomalie || []).map(a => {
+      const testo = IS_EN && a.frase_en ? a.frase_en : a.frase;
+      const et = a.forza === 'forte'
+        ? (IS_EN ? 'strong' : 'forte')
+        : (IS_EN ? 'indicative' : 'indicativa');
+      const prove = (a.prove || []).filter(u => u && !giaSopra.has(u)).slice(0, 3);
+      return `<div class="anom ${a.forza === 'forte' ? 'forte' : ''}">
+        <div class="anom-t">${esc(IS_EN ? EN_ANOM[a.codice] || a.titolo : a.titolo)}
+          · <span class="anom-f">${esc(et)}</span></div>
+        <div class="anom-p">${esc(testo)}</div>
+        ${prove.length ? `<div class="anom-l">${prove.map((u, k) =>
+          `<a href="${esc(u)}" target="_blank" rel="noopener">${
+            IS_EN ? 'document' : 'documento'} ${k + 1}</a>`).join('')}</div>` : ''}
+      </div>`;
+    }).join('');
     const nSrc = p.n_sources || 1;
     // Dove c'è una storia di convocazioni, il bollino conta QUELLE e non i
     // domini. "2 fonti indipendenti" su questa scheda significava fcf.com.co
@@ -415,6 +478,7 @@ if (IS_EN) {
       </div>
       <div class="merit"><i class="y" style="width:${w('youth')}%"></i><i class="p" style="width:${w('production')}%"></i><i class="s" style="width:${w('selection')}%"></i><i class="a" style="width:${w('asymmetry')}%"></i></div>
       ${sel}
+      ${anomalie}
       <div class="foot">
         <span class="conf">${IS_EN ? t('card.confidence') : 'confidenza'} <span class="dots">${dots}</span></span>
         ${stats}
