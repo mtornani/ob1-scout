@@ -31,6 +31,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from src.database_v2 import OB1DatabaseV2, region_from_nationality
 from src.sources_v2 import load_registry, SourceMonitor
 from src.extractor_v2 import OB1Extractor
+from src.prefilter_v2 import condense, relevance
 from src.scraper_global import AsyncGlobalScraper
 
 
@@ -99,6 +100,18 @@ def _health_check(stats, calls_used: int, llm_budget: int, scraper) -> list:
         problems.append(
             f"Jina Search: {scraper.jina_failures}/{scraper.jina_attempts} "
             f"richieste fallite in questo run (100%){dettaglio}")
+
+    # Prefiltro che scarta TUTTO: sarebbe un modo silenzioso di spegnere la
+    # discovery, e per giunta con l'aria di un run sano (nessun errore, zero
+    # chiamate fallite, workflow verde). Basterebbe una regex che non regge
+    # una lingua nuova del registro. Soglia a 5 per non allarmarsi su un giro
+    # in cui sono capitati davvero solo tre menu di navigazione.
+    scartati = stats.get("prefilter_scartati", 0)
+    if scartati >= 5 and stats.get("prefilter_tenuti", 0) == 0:
+        problems.append(
+            f"prefiltro: {scartati} articoli scartati e nessuno tenuto — "
+            f"verificare src/prefilter_v2.py (una lingua non coperta dalle "
+            f"regex di età/categoria si presenta esattamente così)")
 
     return problems
 
@@ -342,10 +355,53 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
 
         texts = await scraper.deep_read_urls(new_urls, max_urls=len(new_urls))
         processed = []
+        prefiltrati = []
         for url, text in texts.items():
             if calls_used >= llm_budget or not extractor.llm_usable():
                 break
-            obs_list = extractor.extract_from_source(text, url)
+
+            # PREFILTRO (Fase C1, src/prefilter_v2.py): la chiamata LLM più
+            # economica è quella che non fai. Una cronaca di prima squadra o
+            # una pagina di navigazione non contiene giovani, e riconoscerlo
+            # costa una regex invece di una chiamata: con budget 15 (meno un
+            # terzo alla corroborazione) il giro moriva dopo 2-4 fonti su 83,
+            # ed è per questo che 58 fonti su 83 risultano scansionate una
+            # volta sola.
+            rel = relevance(text)
+            if not rel["keep"]:
+                stats["prefilter_scartati"] += 1
+                # Marcato visto: il verdetto è deterministico (codice puro,
+                # nessun modello), quindi rileggerlo al prossimo giro darebbe
+                # la stessa risposta — e costerebbe un altro download.
+                prefiltrati.append(url)
+                continue
+            stats["prefilter_tenuti"] += 1
+
+            # Condensazione: SPENTA di default, dietro OB1_PREFILTER_CONDENSE=1.
+            #
+            # Lo scarto qui sopra è sicuro per costruzione — un articolo che
+            # non passa il filtro non veniva estratto comunque, quindi non si
+            # perde niente che oggi si otterrebbe. La condensazione no: cambia
+            # il testo che il modello legge, e quindi può cambiare COSA
+            # estrae. Su 14 articoli reali toglie il 78% dei caratteri: quasi
+            # tutto boilerplate, ma "quasi" non è una misura.
+            #
+            # Regola del progetto (CLAUDE.md #2): un cambio che tocca l'output
+            # diventa default dopo un confronto sui dati, non prima. Lo
+            # strumento per farlo c'è già: scripts/compare_llm.py.
+            #
+            # Nota su un errore da non ripetere: avevo motivato la
+            # condensazione con "i free tier leggono solo i primi 2800
+            # caratteri e su una pagina lunga sono tutti menu". È falso su
+            # questo percorso — deep_read_urls taglia gli articoli a 1500
+            # caratteri (scraper_global.py), quindi FREE_MAX_CHARS non morde
+            # mai qui. Il guadagno reale è sui token per chiamata (pressione
+            # TPM), non su "far vedere al modello ciò che prima non vedeva".
+            testo_llm = text
+            if os.getenv("OB1_PREFILTER_CONDENSE") == "1":
+                testo_llm = condense(text, max_chars=6000) or text
+                stats["prefilter_condensati"] += 1
+            obs_list = extractor.extract_from_source(testo_llm, url)
             calls_used += 1
             await _pace()
             if obs_list is None:
@@ -369,9 +425,13 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
                 _, status = db.ingest_observation(obs)
                 stats[f"obs_{status}"] += 1
                 stats["observations"] += 1
-        # marca visti SOLO gli articoli estratti con successo
-        if processed:
-            db.mark_seen(src["id"], processed, stamp)
+        # Visti = estratti con successo + scartati dal prefiltro. I secondi
+        # non hanno prodotto niente, ma il loro verdetto non cambierà: tenerli
+        # "non visti" li farebbe riscaricare a ogni giro per riscartarli.
+        # Restano fuori da stats["articles"], che conta il lavoro vero (un
+        # articolo letto dal modello), non le porte chiuse in faccia.
+        if processed or prefiltrati:
+            db.mark_seen(src["id"], processed + prefiltrati, stamp)
             stats["articles"] += len(processed)
 
     # --- 3) Corroborazione extra con eventuale budget rimasto ---
