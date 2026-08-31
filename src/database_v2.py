@@ -17,6 +17,7 @@ Schema:
 
 import json
 import os
+import re
 import sqlite3
 import sys
 import unicodedata
@@ -27,8 +28,13 @@ from urllib.parse import urlparse
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src.challenge_v2 import contesta, sopravvive
 from src.claims_v2 import (stabilisci, pubblicabile as pubblicabile_da_claims,
-                           fonti_che_stabiliscono, DICHIARATO)
+                           fonti_che_stabiliscono, registro, DICHIARATO)
 from src.selezione_v2 import leggi_dal_registro as leggi_selezione
+
+# La data dell'atto nel percorso dell'URL: /2026/07/19/... Stessa lettura di
+# selezione_v2._DATA_NEL_PATH — è quando il documento è stato pubblicato, non
+# quando l'abbiamo scaricato.
+_DATA_NEL_PATH = re.compile(r"/(20\d\d)/(\d{1,2})/(\d{1,2})/")
 
 # importabile sia come package sia da `python src/database_v2.py` diretto —
 # senza, il lazy import di src.scoring_v2/src.outcomes_v2 più sotto fallisce
@@ -440,6 +446,34 @@ class OB1DatabaseV2:
                     FOREIGN KEY (player_id) REFERENCES players(id)
                 )
             """)
+            # Grafo delle fonti (src/piramide_v2.py): OGNI osservazione con
+            # chi l'ha detta, non solo il valore che ha vinto. La tabella
+            # players tiene un valore per campo — utile, ma non ricorda che
+            # una fonte ne diceva un altro, e senza quella memoria una
+            # divergenza si scopre solo quando produce un'anomalia falsa
+            # (caso Mendoza, 31 ago 2026: età 16 congelata dall'arrivo,
+            # Transfermarkt diceva 18).
+            #
+            # Additiva: nessuna colonna esistente cambia, nessuna riga
+            # esistente si tocca. Si riempie da qui in avanti — lo storico
+            # non è ricostruibile, perché le evidenze vecchie conservano il
+            # testo della fonte, non i campi che ne erano stati estratti.
+            c.execute("""
+                CREATE TABLE IF NOT EXISTS observations (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    player_id INTEGER NOT NULL,
+                    campo TEXT NOT NULL,
+                    valore TEXT NOT NULL,
+                    fonte_tipo TEXT NOT NULL,
+                    source_domain TEXT,
+                    source_url TEXT,
+                    datato_al TEXT,
+                    observed_at TEXT,
+                    FOREIGN KEY (player_id) REFERENCES players(id)
+                )
+            """)
+            c.execute("CREATE INDEX IF NOT EXISTS idx_obs_player "
+                      "ON observations(player_id, campo)")
             c.execute("""
                 CREATE TABLE IF NOT EXISTS outcomes (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -679,6 +713,70 @@ class OB1DatabaseV2:
                       flags, sc["score"], sc["confidence"],
                       idn["coverage_tier"], _selezione_json(persistenza), pid))
 
+    def _registra_osservazioni(self, conn, pid: int, obs: dict, dominio: str,
+                               src_url: str, observed_at: str) -> None:
+        """
+        Scrive nel grafo (src/piramide_v2.py) cosa dice QUESTA fonte, campo
+        per campo. Non decide niente: registra.
+
+        Il tipo di fonte viene dal registro (config/sources.json). Un dominio
+        che il registro non conosce NON entra: la piramide ragiona per genere
+        di fonte, e un livello indovinato varrebbe meno di nessun livello.
+
+        La data dell'atto, quando c'è, si legge dall'URL come già fa
+        selezione_v2 — /2026/07/19/... è quando il documento è stato
+        pubblicato, ed è l'unica cosa che distingue un'osservazione fresca da
+        una che non dice a quando si riferisce.
+        """
+        from src.piramide_v2 import LIVELLI
+        dom = (dominio or "").lower()
+        dom = dom[4:] if dom.startswith("www.") else dom
+        tipo = registro().get(dom, {}).get("type", "")
+        if tipo not in LIVELLI:
+            return
+        m = _DATA_NEL_PATH.search(src_url or "")
+        datato_al = f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}" if m else ""
+        for campo, valore in (("club", obs.get("club")),
+                              ("eta", obs.get("age")),
+                              ("position", obs.get("position")),
+                              ("league", obs.get("league"))):
+            if valore in (None, "", 0):
+                continue
+            # Stessa fonte, stesso valore, stesso campo: è una conferma, non
+            # una riga nuova (stessa regola di piramide_v2.registra).
+            gia = conn.execute(
+                "SELECT id FROM observations WHERE player_id=? AND campo=? "
+                "AND fonte_tipo=? ORDER BY id DESC LIMIT 1",
+                (pid, campo, tipo)).fetchone()
+            if gia:
+                precedente = conn.execute(
+                    "SELECT valore FROM observations WHERE id=?", (gia[0],)).fetchone()
+                if precedente and precedente[0] == str(valore):
+                    conn.execute("UPDATE observations SET observed_at=? WHERE id=?",
+                                 (observed_at, gia[0]))
+                    continue
+            conn.execute(
+                "INSERT INTO observations (player_id, campo, valore, fonte_tipo, "
+                "source_domain, source_url, datato_al, observed_at) "
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+                (pid, campo, str(valore), tipo, dom, src_url, datato_al, observed_at))
+
+    def grafo_di(self, player_id: int) -> dict:
+        """Il grafo delle fonti di un giocatore, nella forma che
+        piramide_v2.risolvi() sa leggere. Chiave: sempre "p"."""
+        grafo: dict = {}
+        with self._conn() as conn:
+            for campo, valore, tipo, datato, quando, url in conn.execute(
+                    "SELECT campo, valore, fonte_tipo, datato_al, observed_at, "
+                    "source_url FROM observations WHERE player_id=? ORDER BY id",
+                    (player_id,)):
+                voce = {"valore": valore, "fonte": tipo,
+                        "osservato_il": quando or "", "url": url or ""}
+                if datato:
+                    voce["datato_al"] = datato
+                grafo.setdefault("p", {}).setdefault(campo, []).append(voce)
+        return grafo
+
     def ingest_observation(self, obs: dict) -> tuple:
         """
         Assorbe un'osservazione (dall'estrattore) nello store entità-centrico:
@@ -785,6 +883,10 @@ class OB1DatabaseV2:
                 VALUES (?, ?, ?, ?, ?, 'extractor')""",
                 (pid, src_url, dom, observed_at,
                  obs.get("evidence_quote"), ))
+            # Il grafo delle fonti: cosa dice QUESTA fonte, a prescindere da
+            # chi ha vinto in colonna. È l'unico posto dove i valori sono
+            # ancora separati per fonte — dopo l'UPDATE resta un valore solo.
+            self._registra_osservazioni(conn, pid, obs, dom, src_url, observed_at)
             self._recompute(conn, pid)
             conn.commit()
 
@@ -1223,6 +1325,48 @@ if __name__ == "__main__":
             "SELECT age FROM players WHERE id=?", (pid2,)).fetchone() == (17,), \
             "un'età già provata da una fonte competente non va scavalcata"
     print("OK merge età: si corregge un segnaposto, non un fatto già provato")
+
+    # Grafo delle fonti: l'ingest registra CHI ha detto cosa, non solo il
+    # valore che ha vinto in colonna. È la memoria che mancava — senza,
+    # una divergenza si scopre solo quando produce un'anomalia falsa.
+    from src.piramide_v2 import risolvi
+    with _tempfile.TemporaryDirectory() as _tmp5:
+        _g_db = OB1DatabaseV2(str(Path(_tmp5) / "test_grafo.db"))
+        # Una convocazione federale, datata nell'URL.
+        _g_db.ingest_observation({
+            "name": "Nome Grafo Test", "club": "Envigado F.C.", "age": 17,
+            "source_url": "https://fcf.com.co/2026/07/19/convocatoria-sub-17/",
+            "observed_at": "2026-07-20T00:00:00",
+            "evidence_quote": "Nome Grafo Test – Envigado F.C.",
+        })
+        # La scheda dell'aggregatore dice un'altra età e un altro club.
+        pid, _ = _g_db.ingest_observation({
+            "name": "Nome Grafo Test", "club": "Envigado FC U20", "age": 19,
+            "source_url": "https://www.transfermarkt.com/nome-grafo/profil/spieler/9",
+            "observed_at": "2026-08-01T00:00:00",
+            "evidence_quote": "Scheda Transfermarkt: Nome Grafo Test, 19 anni",
+        })
+        grafo = _g_db.grafo_di(pid)
+        # ETÀ: fatto lento, vince il consolidato anche se è arrivato dopo.
+        eta = risolvi(grafo, "p", "eta")
+        assert eta["valore"] == "19" and eta["fonte"] == "aggregator", eta
+        assert eta["conflitto"] and eta["alternativa"] == "17", eta
+        # CLUB: stesso disaccordo, verso opposto — vince l'atto datato.
+        club = risolvi(grafo, "p", "club")
+        assert club["valore"] == "Envigado F.C.", club
+        assert club["fonte"] == "federation" and club["datato_al"] == "2026-07-19", club
+        assert club["conflitto"] and club["alternativa"] == "Envigado FC U20", club
+
+        # Una fonte fuori registro non entra nel grafo: mai un livello indovinato.
+        _g_db.ingest_observation({
+            "name": "Nome Grafo Test", "club": "Club Inventato", "age": 21,
+            "source_url": "https://blog-di-tizio.example/nome-grafo",
+            "observed_at": "2026-08-02T00:00:00",
+            "evidence_quote": "Nome Grafo Test gioca nel Club Inventato",
+        })
+        assert risolvi(_g_db.grafo_di(pid), "p", "club")["valore"] == "Envigado F.C."
+    print("OK grafo fonti: l'ingest ricorda chi ha detto cosa, e il verso "
+          "della piramide cambia per campo")
 
     # ARCH-003 Fase 1: la regola è ora collegata al gate vero (_recompute),
     # non solo disponibile come helper. Due fonti che si copiano (entrambe
