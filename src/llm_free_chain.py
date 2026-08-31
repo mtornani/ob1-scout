@@ -132,20 +132,60 @@ FREE_PROVIDER_SPECS = [
     # 3.3-70b-instruct", che è la versione A PAGAMENTO, quindi NON va usata
     # qui) e la lista modelli pubblica di OpenRouter (openrouter.ai/api/v1/
     # models), che oggi non contiene nessun modello ~70B sul tier free.
-    # Lasciato com'è, non spento: con la classificazione del 404 come
-    # permanente (vedi call_free_chain) il costo di un anello morto è un
-    # solo round-trip a inizio run, non uno per chiamata. OPENROUTER_MODEL
-    # resta per puntarlo a un modello free verificato quando ce ne sarà uno
-    # buono per l'estrazione — nessuno dei free attuali (tutti <10B o di
-    # nicchia) è stato validato con compare_llm.py.
+    # SOSTITUITO il 31 ago 2026 con minimax/minimax-m3:free.
+    #
+    # La nota qui sopra diceva "nessuno dei free attuali (tutti <10B o di
+    # nicchia) è buono per l'estrazione": era vera quando è stata scritta,
+    # non lo è più — il catalogo free di OpenRouter è cambiato. Letto col
+    # nuovo scripts/diagnose_free_chain.py (GET /models + chiamata vera su
+    # QUESTO account), fra i 18 modelli :free disponibili due rispondono:
+    #
+    #   minimax/minimax-m3:free                       7.3s  JSON valido
+    #   nvidia/nemotron-3-super-120b-a12b:free       12.5s  JSON valido
+    #   z-ai/glm-5.2:free                             KO    429 upstream
+    #
+    # Scelto minimax-m3 perché più veloce dei due. Restituisce il JSON
+    # dentro un recinto markdown (```json ... ```), che non è un problema:
+    # extractor_v2.py lo toglie già prima del parsing (riga 79).
+    #
+    # nemotron-3-super:free resta il rimpiazzo naturale se minimax cade —
+    # verificato vivo, 120B, stessa data. glm-5.2:free era rate-limited sul
+    # pool condiviso al momento della prova: transitorio, non morto, ma non
+    # lo si mette in produzione senza averlo visto rispondere.
+    #
+    # ATTENZIONE per chi confronta con l'altro repo OB1 (ob1-serie-c): le
+    # due chiavi OpenRouter sono di ACCOUNT DIVERSI — user_30Kua... qui,
+    # user_3Gdrq... là, leggibili negli user_id dei rispettivi 404. La
+    # disponibilità del tier free è per account: una misura fatta là non
+    # vale come prova qui, e viceversa.
     ("OPENROUTER_API_KEY", "https://openrouter.ai/api/v1",
-     "OPENROUTER_MODEL", "meta-llama/llama-3.3-70b-instruct:free", "openrouter"),
-    # NVIDIA NIM: verificato 3 ago 2026. nemotron-3-ultra risponde in ~7s;
-    # l'endpoint meta/llama-3.3-70b è servito molto più lentamente (fino al
-    # timeout), quindi non è il default. Il free tier NVIDIA è a CREDITI, non a
-    # quota ricorrente: sta in fondo alla catena, si consuma e non torna.
+     "OPENROUTER_MODEL", "minimax/minimax-m3:free", "openrouter"),
+    # NVIDIA NIM: nemotron-3-ultra-550b-a55b SOSTITUITO il 31 ago 2026 con
+    # deepseek-ai/deepseek-v4-flash-0731.
+    #
+    # Verificato il 3 ago 2026 rispondeva in ~7s. Il 31 ago non risponde
+    # più: nel run di produzione delle 05:57 ha collezionato SEI timeout da
+    # 120 secondi di fila — dodici minuti su ventiquattro di run, metà del
+    # tempo speso per non ottenere niente — e poi un 404. Il modello è
+    # ancora IN CATALOGO (verificato su GET /models, 83 modelli): non è
+    # sparito, è diventato inservibile. Un 404 sul catalogo e una rotta che
+    # sfonda il timeout sono due guasti diversi, e questo è il secondo.
+    #
+    # Provati tutti e tre i candidati su questo account (31 ago 2026):
+    #
+    #   deepseek-ai/deepseek-v4-flash-0731     7.7s  JSON valido
+    #   nvidia/nemotron-3-super-120b-a12b      KO    503 overloaded
+    #   openai/gpt-oss-120b                    KO    ReadTimeout 45s
+    #
+    # L'ultimo è la stessa famiglia che su Groq regge tutte le chiamate del
+    # run: stesso modello, infrastruttura diversa, esito opposto. È il
+    # motivo per cui un nome va provato sul provider dove lo si vuole usare,
+    # non dedotto dal fatto che altrove funziona.
+    #
+    # Il free tier NVIDIA è a CREDITI, non a quota ricorrente: resta in
+    # fondo alla catena, si consuma e non torna.
     ("NVIDIA_API_KEY", "https://integrate.api.nvidia.com/v1",
-     "NVIDIA_MODEL", "nvidia/nemotron-3-ultra-550b-a55b", "nvidia"),
+     "NVIDIA_MODEL", "deepseek-ai/deepseek-v4-flash-0731", "nvidia"),
 ]
 
 # Parametri extra per provider, quando l'endpoint OpenAI-compatible non basta.
