@@ -466,6 +466,20 @@ def export(db_path: Path, out_path: Path) -> dict:
             "score": sc["score"], "confidence": sc["confidence"],
             "breakdown": sc["breakdown"],
             "n_sources": n_sources, "sources": sources,
+            # Quante di quelle fonti il registro le conosce — cioè quante
+            # possono provare qualcosa. Il badge diceva "VERIFICATO — 2 fonti
+            # indipendenti" per un profilo le cui due fonti erano una scheda
+            # Transfermarkt e un link TikTok: vero alla lettera (due domini),
+            # falso nella sostanza, e proprio sulla frase che è la promessa
+            # del prodotto. Misurato il 31 ago 2026: 8 pubblicati su 157.
+            # Campo a parte e non `n_sources` corretto sul posto, perché
+            # n_sources entra nel punteggio (score_player): qui si sta
+            # sistemando cosa DICIAMO, non come pesiamo — sono due decisioni
+            # e vanno prese separate.
+            "n_sources_registro": sum(
+                1 for s in sources
+                if (lambda d: d[4:] if d.startswith("www.") else d)(
+                    (s.get("domain") or "").lower()) in _registro),
             "stats": stats,
             "publishable": bool(p["publishable"]),
             "identity_complete": bool(p["identity_complete"]),

@@ -450,7 +450,12 @@ if (IS_EN) {
             IS_EN ? 'document' : 'documento'} ${k + 1}</a>`).join('')}</div>` : ''}
       </div>`;
     }).join('');
-    const nSrc = p.n_sources || 1;
+    // Il badge conta le fonti che il registro CONOSCE, non i domini: un link
+    // TikTok è un dominio in più e una prova in meno, e "VERIFICATO — 2 fonti
+    // indipendenti" sopra a "tiktok.com + transfermarkt" è esattamente la
+    // frase che il prodotto esiste per non dire. Ripiego su n_sources per i
+    // JSON generati prima che il campo esistesse.
+    const nSrc = (p.n_sources_registro ?? p.n_sources) || 1;
     // Dove c'è una storia di convocazioni, il bollino conta QUELLE e non i
     // domini. "2 fonti indipendenti" su questa scheda significava fcf.com.co
     // più il titolo di una pagina Transfermarkt: vero alla lettera, e molto
