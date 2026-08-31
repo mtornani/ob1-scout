@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-31T06:22:29.784160+00:00",
+ "generated_at": "2026-08-31T09:11:04.047938+00:00",
  "version": "1.0.0",
- "build": "1ea8806",
+ "build": "b584c26",
  "total": 308,
  "publishable": 157,
  "tracking": 151,
@@ -25238,6 +25238,129 @@
    }
   },
   {
+   "name": "Valentina Montenegro",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Así formó Colombia: Valentina Montenegro",
+     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "female",
+   "score": 7,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/",
+     "seen": "2026-07-19T04:04:37.790338"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/montenegro-valentina/IDxKQXI7/injury-history/",
+     "seen": "2026-08-31T08:50:48.742491"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-31T08:50:48.742491",
+   "last_seen": "2026-08-31T08:50:48.742491",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-15 (giugno 2026).",
+    "dal": "2026-06-17",
+    "al": "2026-06-17",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-06-17",
+      "categoria": "sub-15",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
+   },
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "name": "Joy Palacios",
    "age": null,
    "age_stato": "assente",
@@ -25695,6 +25818,131 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "name": "Maureen Kenneth",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "an own goal by visiting defender Maureen Kenneth",
+     "url": "https://thenff.com/nigeria-qualify-for-fifa-u20-womens-world-cup-poland-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "defender",
+   "club": null,
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/nigeria-qualify-for-fifa-u20-womens-world-cup-poland-2026/",
+     "seen": "2026-07-18T13:58:07.995503"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/kenneth-mauren/fc4gmGrL/",
+     "seen": "2026-08-31T08:50:48.742491"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-31T08:50:48.742491",
+   "last_seen": "2026-08-31T08:50:48.742491",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/nigeria-qualify-for-fifa-u20-womens-world-cup-poland-2026/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
+   },
+   "assessment": {
+    "pros": [
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
     ]
    }
   },
@@ -26826,126 +27074,6 @@
    }
   },
   {
-   "name": "Valentina Montenegro",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Así formó Colombia: Valentina Montenegro",
-     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "female",
-   "score": 5,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/",
-     "seen": "2026-07-19T04:04:37.790338"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-15 (giugno 2026).",
-    "dal": "2026-06-17",
-    "al": "2026-06-17",
-    "categorie": [
-     "sub-15"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-06-17",
-      "categoria": "sub-15",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
-   },
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "name": "Emiliana Isaza",
    "age": null,
    "age_stato": "assente",
@@ -27806,124 +27934,6 @@
     }
    },
    "position": null,
-   "club": null,
-   "league": null,
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/nigeria-qualify-for-fifa-u20-womens-world-cup-poland-2026/",
-     "seen": "2026-07-18T13:58:07.995503"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/nigeria-qualify-for-fifa-u20-womens-world-cup-poland-2026/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
-   },
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "name": "Maureen Kenneth",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "an own goal by visiting defender Maureen Kenneth",
-     "url": "https://thenff.com/nigeria-qualify-for-fifa-u20-womens-world-cup-poland-2026/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "defender",
    "club": null,
    "league": null,
    "region": "Nigeria",
