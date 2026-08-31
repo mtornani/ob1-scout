@@ -1,0 +1,44 @@
+name: OB1 Global - Stato catena LLM (manuale)
+
+# Chiede a ogni provider gratuito il proprio catalogo modelli e prova ogni
+# anello della catena. Serve a sostituire un modello morto leggendo il
+# catalogo vero invece di indovinare il nome — errore gia' pagato due volte
+# su questo repo (llama-3.3-70b-versatile di Groq, poi il :free di
+# OpenRouter) e due volte sull'altro.
+#
+# Nessuna scrittura: niente database, niente feed, niente commit. Le prove
+# sono da poche decine di token in uscita.
+# Solo workflow_dispatch: e' una diagnosi da lanciare quando un anello cade,
+# non un secondo cron da mantenere.
+on:
+  workflow_dispatch:
+    inputs:
+      candidati:
+        description: 'Modelli da provare senza metterli in configurazione: "label=modello,label=modello" (label: groq/openrouter/nvidia)'
+        required: false
+        default: ""
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Stato reale della catena
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          OB1_PROBE_EXTRA: ${{ github.event.inputs.candidati }}
+          PYTHONPATH: ${{ github.workspace }}
+        run: python scripts/diagnose_free_chain.py
