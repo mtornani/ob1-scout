@@ -27,7 +27,7 @@ from urllib.parse import urlparse
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src.challenge_v2 import contesta, sopravvive
 from src.claims_v2 import (stabilisci, pubblicabile as pubblicabile_da_claims,
-                           fonti_che_stabiliscono)
+                           fonti_che_stabiliscono, DICHIARATO)
 from src.selezione_v2 import leggi_dal_registro as leggi_selezione
 
 # importabile sia come package sia da `python src/database_v2.py` diretto —
@@ -716,16 +716,57 @@ class OB1DatabaseV2:
                 status = "new"
             else:
                 row = conn.execute(
-                    "SELECT stats_json, first_detected, club, canonical_name "
+                    "SELECT stats_json, first_detected, club, canonical_name, age "
                     "FROM players WHERE id=?", (pid,)).fetchone()
-                cur_stats, prior_first_detected, prior_club, prior_name = row
+                cur_stats, prior_first_detected, prior_club, prior_name, cur_age = row
                 merged = json.loads(cur_stats) if cur_stats else {}
                 for k, v in new_stats.items():
                     if isinstance(v, (int, float)):
                         merged[k] = max(merged.get(k, 0), v)
+
+                # L'età non è più COALESCE(age, ?): quella regola la fissava
+                # alla prima osservazione per sempre, prova o non prova.
+                # Caso reale che l'ha tradita (31 ago 2026): Jorman Camilo
+                # Mendoza Garrido è entrato con età 16 da un'estrazione
+                # generica, ed è rimasto 16 anche dopo che la sua scheda
+                # Transfermarkt, letta per intero e non più troncata al
+                # titolo, diceva "nato il 14/01/2008" — cioè 18. Il 16 non è
+                # mai stato smentito, solo mai messo alla prova: la card
+                # mostrava un'età che nessuna fonte competente scriveva
+                # (claims_v2 cerca "16" nel testo, e nel testo c'è "18"), e
+                # l'anomalia di anticipo di categoria calcolata su quel 16
+                # era falsa — un ragazzo convocato in Sub-17 a 16 anni, non
+                # a 14.
+                #
+                # La regola nuova: un'età si aggiorna quando quella in
+                # colonna non è ancora una prova, cioè quando claims_v2 (la
+                # stessa funzione che decide cosa mostrare in scheda) non
+                # trova una fonte competente che la scriva. Un'età già
+                # PROVATA non si lascia scavalcare da un'osservazione
+                # qualunque: altrimenti un aggregatore rumoroso potrebbe
+                # smentire un fatto che una federazione ha già stabilito.
+                nuova_eta = obs.get("age")
+                eta_da_scrivere = cur_age
+                if isinstance(nuova_eta, int) and nuova_eta != cur_age:
+                    if cur_age is None:
+                        eta_da_scrivere = nuova_eta
+                    else:
+                        evidenze_correnti = [
+                            {"source_domain": d, "source_url": u,
+                             "raw_content": c, "origin": o}
+                            for d, u, c, o in conn.execute(
+                                "SELECT source_domain, source_url, raw_content, "
+                                "origin FROM evidences WHERE player_id=?", (pid,))]
+                        eta_provata = stabilisci(
+                            {"canonical_name": prior_name, "club": prior_club,
+                             "age": cur_age}, evidenze_correnti
+                        ).get("eta", {}).get("stato") == DICHIARATO
+                        if not eta_provata:
+                            eta_da_scrivere = nuova_eta
+
                 conn.execute("""
                     UPDATE players SET
-                        age = COALESCE(age, ?), position = COALESCE(position, ?),
+                        age = ?, position = COALESCE(position, ?),
                         club = COALESCE(club, ?), league = COALESCE(league, ?),
                         region = COALESCE(region, ?),
                         gender = CASE WHEN gender='unknown' THEN ? ELSE gender END,
@@ -733,7 +774,7 @@ class OB1DatabaseV2:
                         first_detected = COALESCE(first_detected, ?),
                         last_seen = ?
                     WHERE id=?
-                """, (obs.get("age"), obs.get("position"), obs.get("club"),
+                """, (eta_da_scrivere, obs.get("position"), obs.get("club"),
                       obs.get("league"), obs.get("region"),
                       obs.get("gender") or "unknown",
                       json.dumps(merged) if merged else None,
@@ -1129,6 +1170,59 @@ if __name__ == "__main__":
         })
         assert _test_db2.outcomes_summary()["checked"] == 0
     print("OK tabellone (outcomes_v2) collegato")
+
+    # L'età non è più COALESCE(age, ?) fissato per sempre: si aggiorna finché
+    # non è ancora una prova. Caso reale, 31 ago 2026: Jorman Camilo Mendoza
+    # Garrido è entrato con età 16 da un'estrazione generica (nessuna fonte
+    # citava "16"), ed è rimasto 16 anche dopo che la sua scheda Transfermarkt,
+    # letta per intero, diceva "nato il 14/01/2008" (18 anni) — perché il 16
+    # non era mai stato smentito, solo mai messo alla prova.
+    with _tempfile.TemporaryDirectory() as _tmp4:
+        _age_db = OB1DatabaseV2(str(Path(_tmp4) / "test_age.db"))
+        pid, _ = _age_db.ingest_observation({
+            "name": "Jorman Camilo Mendoza Garrido", "club": "Envigado F.C.",
+            "age": 16,
+            "source_url": "https://transfermarkt.com/jorman-mendoza/profil/spieler/1",
+            "observed_at": "2026-07-01T00:00:00",
+            "evidence_quote": "Jorman Mendoza - Player profile",  # il 16 non è nel testo
+        })
+        assert _age_db._conn().execute(
+            "SELECT age FROM players WHERE id=?", (pid,)).fetchone() == (16,)
+
+        # La scheda letta per intero: l'età vera è 18, e lo dice.
+        _age_db.ingest_observation({
+            "name": "Jorman Camilo Mendoza Garrido", "club": "Envigado F.C.",
+            "age": 18,
+            "source_url": "https://transfermarkt.com/jorman-mendoza/profil/spieler/1",
+            "observed_at": "2026-08-31T00:00:00",
+            "evidence_quote": "Scheda Transfermarkt: Jorman Mendoza, 18 anni, "
+                              "Envigado F.C.",
+        })
+        assert _age_db._conn().execute(
+            "SELECT age FROM players WHERE id=?", (pid,)).fetchone() == (18,), \
+            "un'età mai provata deve potersi correggere"
+
+        # Ma un'età GIÀ provata non si lascia scavalcare da un'osservazione
+        # qualunque: altrimenti un aggregatore rumoroso potrebbe smentire un
+        # fatto che una fonte competente ha già stabilito.
+        pid2, _ = _age_db.ingest_observation({
+            "name": "Altra Persona Test", "club": "Club Test", "age": 17,
+            "source_url": "https://sofascore.com/player/altra-persona-test",
+            "observed_at": "2026-07-01T00:00:00",
+            "evidence_quote": "Altra Persona Test, 17 anni, titolare del "
+                              "Club Test.",
+        })
+        _age_db.ingest_observation({
+            "name": "Altra Persona Test", "club": "Club Test", "age": 15,
+            "source_url": "https://fbref.com/en/players/altra-persona-test",
+            "observed_at": "2026-08-01T00:00:00",
+            "evidence_quote": "Altra Persona Test compie gli anni: 15 anni "
+                              "e già al Club Test.",  # numero diverso, stesso nome
+        })
+        assert _age_db._conn().execute(
+            "SELECT age FROM players WHERE id=?", (pid2,)).fetchone() == (17,), \
+            "un'età già provata da una fonte competente non va scavalcata"
+    print("OK merge età: si corregge un segnaposto, non un fatto già provato")
 
     # ARCH-003 Fase 1: la regola è ora collegata al gate vero (_recompute),
     # non solo disponibile come helper. Due fonti che si copiano (entrambe
