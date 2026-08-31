@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-31T14:35:11.826098+00:00",
+ "generated_at": "2026-08-31T23:16:16.733690+00:00",
  "version": "1.0.0",
- "build": "d3b0053",
+ "build": "045f9cf",
  "total": 308,
  "publishable": 157,
  "tracking": 151,
@@ -22422,16 +22422,16 @@
    "region": "Mexico",
    "gender": "male",
    "score": 0,
-   "confidence": 0.73,
+   "confidence": 0.91,
    "breakdown": {
     "youth": 7.0,
     "production": 0.0,
     "asymmetry": -20.0,
     "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 3
+    "n_sources": 3,
+    "detection_count": 4
    },
-   "n_sources": 2,
+   "n_sources": 3,
    "sources": [
     {
      "domain": "record.com.mx",
@@ -22442,20 +22442,30 @@
      "domain": "transfermarkt.us",
      "url": "https://www.transfermarkt.us/lamine-yamal/profil/spieler/937958",
      "seen": "2026-08-28T22:33:06.502357"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/lamine-yamal/lAt3vEub/",
+     "seen": "2026-08-31T22:58:50.253701"
     }
    ],
-   "stats": {},
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
    "publishable": false,
    "identity_complete": true,
    "review_flags": "eta_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-08-28T15:47:13.194942",
-   "last_seen": null,
+   "last_seen": "2026-08-31T22:58:50.253701",
    "selezione": {},
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
-     "Identità confermata da 2 fonti indipendenti"
+     "Identità confermata da 3 fonti indipendenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -22466,7 +22476,7 @@
     ],
     "pros_en": [
      "Young (19 yo)",
-     "Identity confirmed by 2 independent sources"
+     "Identity confirmed by 3 independent sources"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -23113,6 +23123,109 @@
      "Look for a primary press/federation source to bring it to the full standard",
      "Verify the current club",
      "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "name": "Pietra Lucci",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Lance!",
+     "tipo": "national_press",
+     "citazione": "pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17",
+     "url": "https://www.lance.com.br/futebol-feminino/pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17-e-exalta-formacao-na-base-do-sao-paulo.html"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "midfielder",
+   "club": "São Paulo",
+   "league": null,
+   "region": "Brazil",
+   "gender": "female",
+   "score": 10,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "lance.com.br",
+     "url": "https://www.lance.com.br/futebol-feminino/pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17-e-exalta-formacao-na-base-do-sao-paulo.html",
+     "seen": "2026-08-24T13:31:36.232233"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/pietra-lucci-3815810",
+     "seen": "2026-08-28T15:47:13.194942"
+    }
+   ],
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-24T13:31:36.232233",
+   "last_seen": "2026-08-31T22:58:50.253701",
+   "selezione": {},
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
     ]
    }
   },
@@ -23919,109 +24032,6 @@
    "coverage_tier": "standard",
    "first_detected": "2026-08-23T13:11:41.317748",
    "last_seen": "2026-08-23T18:58:14.228962",
-   "selezione": {},
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Pietra Lucci",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Lance!",
-     "tipo": "national_press",
-     "citazione": "pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17",
-     "url": "https://www.lance.com.br/futebol-feminino/pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17-e-exalta-formacao-na-base-do-sao-paulo.html"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "midfielder",
-   "club": "São Paulo",
-   "league": null,
-   "region": "Brazil",
-   "gender": "female",
-   "score": 9,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "lance.com.br",
-     "url": "https://www.lance.com.br/futebol-feminino/pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17-e-exalta-formacao-na-base-do-sao-paulo.html",
-     "seen": "2026-08-24T13:31:36.232233"
-    },
-    {
-     "domain": "besoccer.com",
-     "url": "https://www.besoccer.com/player/pietra-lucci-3815810",
-     "seen": "2026-08-28T15:47:13.194942"
-    }
-   ],
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-24T13:31:36.232233",
-   "last_seen": "2026-08-28T15:47:13.194942",
    "selezione": {},
    "assessment": {
     "pros": [
