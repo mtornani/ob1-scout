@@ -118,6 +118,13 @@ def observation_fits_target(obs: dict, name: str, age=None, club: str = None,
         if not names_match_fn(obs_name, name):
             return False
     else:
+        # NB (1 set 2026): questo ramo NON e' quello di produzione — sia
+        # ingest_v2 sia backfill_profili_tm passano names_match_fn=
+        # db._names_match, e resta qui solo come default per gli autotest di
+        # questo modulo. Tiene ancora la vecchia regola della sottostringa
+        # (`a not in b`), quella per cui "Mora" combaciava con "Dylan Mora":
+        # se un giorno serve davvero, va allineato a database_v2._names_match
+        # prima di fidarsene.
         a, b = normalize_name(obs_name), normalize_name(name)
         if not a or not b:
             return False
