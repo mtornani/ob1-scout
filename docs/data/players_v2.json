@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-01T12:19:46.602131+00:00",
+ "generated_at": "2026-09-01T12:22:37.672828+00:00",
  "version": "1.0.0",
- "build": "d95c0b4",
+ "build": "f33cad3",
  "total": 355,
  "publishable": 191,
  "tracking": 164,
@@ -23519,7 +23519,7 @@
    },
    "publishable": true,
    "identity_complete": true,
-   "review_flags": "senza_fonte_primary,eta_dichiarato,club_dichiarato",
+   "review_flags": "senza_fonte_primary,eta_dichiarato,club_dichiarato,club_satellite_di_gigante",
    "coverage_tier": "standard",
    "first_detected": "2026-03-10T06:51:55.040509",
    "last_seen": null,
@@ -23533,6 +23533,7 @@
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
+     "'FC Barcelona Youth' porta il nome di FC Barcelona: più visibile di un club satellite qualunque per il nome da solo",
      "Nessuna statistica di rendimento documentata",
      "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
     ],
@@ -23548,6 +23549,7 @@
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
+     "'FC Barcelona Youth' carries FC Barcelona's name: more visible than an ordinary satellite club on the name alone",
      "No documented performance stats",
      "High-visibility club/league: low asymmetry, competition likely"
     ],
@@ -23729,7 +23731,7 @@
    "stats": {},
    "publishable": true,
    "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_dichiarato",
+   "review_flags": "eta_dichiarato,club_dichiarato,club_satellite_di_gigante",
    "coverage_tier": "standard",
    "first_detected": "2026-08-21T13:26:54.585139",
    "last_seen": null,
@@ -23742,6 +23744,7 @@
      "2 domini distinti lo nominano"
     ],
     "cautions": [
+     "'Real Madrid Castilla' porta il nome di Real Madrid: più visibile di un club satellite qualunque per il nome da solo",
      "Nessuna statistica di rendimento documentata",
      "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
     ],
@@ -23756,6 +23759,7 @@
      "2 distinct domains mention him"
     ],
     "cautions_en": [
+     "'Real Madrid Castilla' carries Real Madrid's name: more visible than an ordinary satellite club on the name alone",
      "No documented performance stats",
      "High-visibility club/league: low asymmetry, competition likely"
     ],
@@ -23833,7 +23837,7 @@
    "stats": {},
    "publishable": true,
    "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_dichiarato",
+   "review_flags": "eta_dichiarato,club_dichiarato,club_satellite_di_gigante",
    "coverage_tier": "standard",
    "first_detected": "2026-08-21T13:26:54.585139",
    "last_seen": null,
@@ -23846,6 +23850,7 @@
      "2 domini distinti lo nominano"
     ],
     "cautions": [
+     "'Real Madrid Castilla' porta il nome di Real Madrid: più visibile di un club satellite qualunque per il nome da solo",
      "Nessuna statistica di rendimento documentata",
      "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
     ],
@@ -23860,6 +23865,7 @@
      "2 distinct domains mention him"
     ],
     "cautions_en": [
+     "'Real Madrid Castilla' carries Real Madrid's name: more visible than an ordinary satellite club on the name alone",
      "No documented performance stats",
      "High-visibility club/league: low asymmetry, competition likely"
     ],
