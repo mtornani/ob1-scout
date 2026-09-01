@@ -1,18 +1,20 @@
 {
- "generated_at": "2026-09-01T12:22:37.672828+00:00",
+ "generated_at": "2026-09-01T13:31:16.425092+00:00",
  "version": "1.0.0",
- "build": "f33cad3",
+ "build": "8c1eeeb",
  "total": 355,
  "publishable": 191,
  "tracking": 164,
  "shown": 355,
  "tracking_capped": 0,
  "outcomes": {
-  "checked": 4,
-  "avg_lead_time_days": 7.8
+  "checked": 0,
+  "avg_lead_time_days": null,
+  "casi": []
  },
  "players": [
   {
+   "id": 88,
    "name": "Juan José Fori Viveros",
    "age": 16,
    "age_stato": "dedotto",
@@ -184,6 +186,7 @@
    }
   },
   {
+   "id": 93,
    "name": "Miguel Ángel Agámez Cabarcas",
    "age": null,
    "age_stato": "assente",
@@ -352,6 +355,7 @@
    }
   },
   {
+   "id": 84,
    "name": "Simón Alejandro Rojas Merchán",
    "age": null,
    "age_stato": "assente",
@@ -527,6 +531,7 @@
    }
   },
   {
+   "id": 86,
    "name": "Santiago Vallecilla González",
    "age": null,
    "age_stato": "assente",
@@ -702,6 +707,7 @@
    }
   },
   {
+   "id": 82,
    "name": "Edwin Estrella De La Rosa",
    "age": null,
    "age_stato": "assente",
@@ -871,6 +877,7 @@
    }
   },
   {
+   "id": 80,
    "name": "Luigi Joel Ortiz Mañunga",
    "age": null,
    "age_stato": "assente",
@@ -1040,6 +1047,7 @@
    }
   },
   {
+   "id": 83,
    "name": "John Mauricio Maturana Carabalí",
    "age": null,
    "age_stato": "assente",
@@ -1202,6 +1210,7 @@
    }
   },
   {
+   "id": 90,
    "name": "Eider Luis Carrillo Córdoba",
    "age": null,
    "age_stato": "assente",
@@ -1364,6 +1373,7 @@
    }
   },
   {
+   "id": 81,
    "name": "Gilberto Adrián Saavedra Garcés",
    "age": 17,
    "age_stato": "dedotto",
@@ -1527,6 +1537,7 @@
    }
   },
   {
+   "id": 89,
    "name": "Anderson Yair Murillo Mosquera",
    "age": 17,
    "age_stato": "dedotto",
@@ -1690,6 +1701,7 @@
    }
   },
   {
+   "id": 99,
    "name": "Kevin Angulo Angulo",
    "age": 17,
    "age_stato": "dedotto",
@@ -1855,6 +1867,7 @@
    }
   },
   {
+   "id": 108,
    "name": "Brait García Lobo",
    "age": 17,
    "age_stato": "dedotto",
@@ -2020,6 +2033,7 @@
    }
   },
   {
+   "id": 111,
    "name": "Óscar Yesid Gómez Hinestroza",
    "age": null,
    "age_stato": "assente",
@@ -2176,6 +2190,7 @@
    }
   },
   {
+   "id": 113,
    "name": "Jorman Camilo Mendoza Garrido",
    "age": null,
    "age_stato": "assente",
@@ -2332,6 +2347,7 @@
    }
   },
   {
+   "id": 101,
    "name": "Cristian David Flórez Palacios",
    "age": 17,
    "age_stato": "dedotto",
@@ -2490,6 +2506,7 @@
    }
   },
   {
+   "id": 102,
    "name": "Feder Luis Rivas Correa",
    "age": 17,
    "age_stato": "dedotto",
@@ -2648,6 +2665,7 @@
    }
   },
   {
+   "id": 103,
    "name": "Jhon Keiner Sevillano Torres",
    "age": 17,
    "age_stato": "dedotto",
@@ -2806,6 +2824,7 @@
    }
   },
   {
+   "id": 165,
    "name": "Carlos Alberto Rodríguez Herazo",
    "age": 17,
    "age_stato": "dedotto",
@@ -2962,6 +2981,7 @@
    }
   },
   {
+   "id": 166,
    "name": "Camilo Blandón Arriaga",
    "age": 17,
    "age_stato": "dedotto",
@@ -3118,6 +3138,7 @@
    }
   },
   {
+   "id": 105,
    "name": "Edmilson Yosue Herazo Torres",
    "age": 17,
    "age_stato": "dedotto",
@@ -3285,6 +3306,7 @@
    }
   },
   {
+   "id": 104,
    "name": "Darwin Daez Torres Redondo",
    "age": 17,
    "age_stato": "dedotto",
@@ -3446,6 +3468,7 @@
    }
   },
   {
+   "id": 205,
    "name": "Kener Nicolás González Mosquera",
    "age": null,
    "age_stato": "assente",
@@ -3601,6 +3624,7 @@
    }
   },
   {
+   "id": 217,
    "name": "Mouhamed Wagne",
    "age": 17,
    "age_stato": "dichiarato",
@@ -3724,6 +3748,7 @@
    }
   },
   {
+   "id": 33,
    "name": "Amaro Pérez",
    "age": 17,
    "age_stato": "dedotto",
@@ -3840,6 +3865,7 @@
    }
   },
   {
+   "id": 110,
    "name": "Hermen Andrés Landázuri Landázuri",
    "age": null,
    "age_stato": "assente",
@@ -3971,6 +3997,7 @@
    }
   },
   {
+   "id": 112,
    "name": "Rafael de Jesús Granados Socarras",
    "age": null,
    "age_stato": "assente",
@@ -4102,6 +4129,7 @@
    }
   },
   {
+   "id": 115,
    "name": "Jhan Carlos BlandIón Moreno",
    "age": null,
    "age_stato": "assente",
@@ -4233,6 +4261,7 @@
    }
   },
   {
+   "id": 170,
    "name": "Jacky Yoel Muñoz Yerena",
    "age": 16,
    "age_stato": "dedotto",
@@ -4386,6 +4415,7 @@
    }
   },
   {
+   "id": 171,
    "name": "Matias Caicedo Sinisterra",
    "age": null,
    "age_stato": "assente",
@@ -4515,6 +4545,7 @@
    }
   },
   {
+   "id": 172,
    "name": "Julio Andrés Sinisterra Cuero",
    "age": null,
    "age_stato": "assente",
@@ -4644,6 +4675,7 @@
    }
   },
   {
+   "id": 30,
    "name": "Jordan Garcia",
    "age": null,
    "age_stato": "assente",
@@ -4785,6 +4817,7 @@
    }
   },
   {
+   "id": 43,
    "name": "Pedro Ferreira",
    "age": null,
    "age_stato": "assente",
@@ -4901,6 +4934,7 @@
    }
   },
   {
+   "id": 49,
    "name": "Gui Amorim",
    "age": 17,
    "age_stato": "dedotto",
@@ -5012,6 +5046,7 @@
    }
   },
   {
+   "id": 94,
    "name": "Juan David Altamiranda Vásquez",
    "age": 17,
    "age_stato": "dedotto",
@@ -5143,6 +5178,7 @@
    }
   },
   {
+   "id": 107,
    "name": "Nilder Yankarlos Zapata Olarte",
    "age": 17,
    "age_stato": "dedotto",
@@ -5297,6 +5333,7 @@
    }
   },
   {
+   "id": 109,
    "name": "Santiago Mondragón Alzate",
    "age": 17,
    "age_stato": "dedotto",
@@ -5451,6 +5488,7 @@
    }
   },
   {
+   "id": 144,
    "name": "Brayner Quiñones Charrupi",
    "age": null,
    "age_stato": "assente",
@@ -5602,6 +5640,7 @@
    }
   },
   {
+   "id": 145,
    "name": "Juan Fernando Alegría Rodríguez",
    "age": null,
    "age_stato": "assente",
@@ -5733,6 +5772,7 @@
    }
   },
   {
+   "id": 159,
    "name": "Juan Pablo Mosquera Cortes",
    "age": 17,
    "age_stato": "dedotto",
@@ -5866,6 +5906,7 @@
    }
   },
   {
+   "id": 173,
    "name": "Cheikh Tidiane Thiam",
    "age": 20,
    "age_stato": "dichiarato",
@@ -5989,6 +6030,7 @@
    }
   },
   {
+   "id": 174,
    "name": "Ibrahima Dieng",
    "age": 20,
    "age_stato": "dichiarato",
@@ -6112,6 +6154,7 @@
    }
   },
   {
+   "id": 208,
    "name": "Óscar Perea",
    "age": 20,
    "age_stato": "dichiarato",
@@ -6238,6 +6281,7 @@
    }
   },
   {
+   "id": 29,
    "name": "João Cruz",
    "age": null,
    "age_stato": "assente",
@@ -6354,6 +6398,7 @@
    }
   },
   {
+   "id": 55,
    "name": "Francisco Sorondo",
    "age": 18,
    "age_stato": "dichiarato",
@@ -6465,6 +6510,7 @@
    }
   },
   {
+   "id": 60,
    "name": "Matheo Machuca",
    "age": null,
    "age_stato": "assente",
@@ -6571,6 +6617,7 @@
    }
   },
   {
+   "id": 114,
    "name": "Tomás Martínez Rodríguez",
    "age": null,
    "age_stato": "assente",
@@ -6699,6 +6746,7 @@
    }
   },
   {
+   "id": 209,
    "name": "Jordan Barrera",
    "age": 20,
    "age_stato": "dichiarato",
@@ -6825,6 +6873,7 @@
    }
   },
   {
+   "id": 241,
    "name": "Noah Dupont",
    "age": 18,
    "age_stato": "dichiarato",
@@ -6934,6 +6983,7 @@
    }
   },
   {
+   "id": 250,
    "name": "Andrey Fernandes",
    "age": 18,
    "age_stato": "dichiarato",
@@ -7043,6 +7093,7 @@
    }
   },
   {
+   "id": 318,
    "name": "Luis Machín",
    "age": 16,
    "age_stato": "dichiarato",
@@ -7164,6 +7215,7 @@
    }
   },
   {
+   "id": 323,
    "name": "Ezequiel Fernández",
    "age": 15,
    "age_stato": "dichiarato",
@@ -7285,6 +7337,7 @@
    }
   },
   {
+   "id": 324,
    "name": "Dahel Guedes",
    "age": 16,
    "age_stato": "dichiarato",
@@ -7406,6 +7459,7 @@
    }
   },
   {
+   "id": 325,
    "name": "Dante Rodella",
    "age": 16,
    "age_stato": "dichiarato",
@@ -7527,6 +7581,7 @@
    }
   },
   {
+   "id": 328,
    "name": "Anderson Luz",
    "age": 16,
    "age_stato": "dichiarato",
@@ -7648,6 +7703,7 @@
    }
   },
   {
+   "id": 330,
    "name": "Facundo Rodríguez",
    "age": 16,
    "age_stato": "dichiarato",
@@ -7769,6 +7825,7 @@
    }
   },
   {
+   "id": 334,
    "name": "Nicolás Scotti",
    "age": 16,
    "age_stato": "dichiarato",
@@ -7890,6 +7947,7 @@
    }
   },
   {
+   "id": 335,
    "name": "Alan Soares De Lima",
    "age": 16,
    "age_stato": "dichiarato",
@@ -8011,6 +8069,7 @@
    }
   },
   {
+   "id": 338,
    "name": "Dylan Mora",
    "age": 16,
    "age_stato": "dichiarato",
@@ -8132,6 +8191,7 @@
    }
   },
   {
+   "id": 340,
    "name": "Thiago Mora",
    "age": 16,
    "age_stato": "dichiarato",
@@ -8253,6 +8313,7 @@
    }
   },
   {
+   "id": 343,
    "name": "Luis Felipe Marquinez Valverde",
    "age": 18,
    "age_stato": "dichiarato",
@@ -8375,6 +8436,7 @@
    }
   },
   {
+   "id": 97,
    "name": "Nicolás Arango Montoya",
    "age": null,
    "age_stato": "assente",
@@ -8504,6 +8566,7 @@
    }
   },
   {
+   "id": 98,
    "name": "Deimer Estiven Longas Riva",
    "age": null,
    "age_stato": "assente",
@@ -8654,6 +8717,7 @@
    }
   },
   {
+   "id": 141,
    "name": "Jhon Alexander Valoyes Angarita",
    "age": null,
    "age_stato": "assente",
@@ -8806,6 +8870,7 @@
    }
   },
   {
+   "id": 341,
    "name": "Adrián Felipe Mosquera Bello",
    "age": null,
    "age_stato": "assente",
@@ -8951,6 +9016,7 @@
    }
   },
   {
+   "id": 345,
    "name": "Luis Eduardo Maturana Moreno",
    "age": null,
    "age_stato": "assente",
@@ -9096,6 +9162,7 @@
    }
   },
   {
+   "id": 100,
    "name": "Damián Steven Zapata Ortiz",
    "age": 17,
    "age_stato": "dedotto",
@@ -9226,6 +9293,7 @@
    }
   },
   {
+   "id": 106,
    "name": "Jerónimo Moreno Bonilla",
    "age": 17,
    "age_stato": "dedotto",
@@ -9356,6 +9424,7 @@
    }
   },
   {
+   "id": 130,
    "name": "Ana Pérez",
    "age": null,
    "age_stato": "assente",
@@ -9485,6 +9554,7 @@
    }
   },
   {
+   "id": 147,
    "name": "Sofía Prieto",
    "age": null,
    "age_stato": "assente",
@@ -9614,6 +9684,7 @@
    }
   },
   {
+   "id": 149,
    "name": "Sara Rojas",
    "age": null,
    "age_stato": "assente",
@@ -9743,6 +9814,7 @@
    }
   },
   {
+   "id": 155,
    "name": "Maura Henao",
    "age": null,
    "age_stato": "assente",
@@ -9872,6 +9944,7 @@
    }
   },
   {
+   "id": 158,
    "name": "Jhusstyn Derian Rentería Mosquera",
    "age": 17,
    "age_stato": "dedotto",
@@ -9997,6 +10070,7 @@
    }
   },
   {
+   "id": 160,
    "name": "Nicolas Caro Domínguez",
    "age": 17,
    "age_stato": "dedotto",
@@ -10122,6 +10196,7 @@
    }
   },
   {
+   "id": 167,
    "name": "Thiago Ballesteros Mina",
    "age": 17,
    "age_stato": "dedotto",
@@ -10250,6 +10325,7 @@
    }
   },
   {
+   "id": 192,
    "name": "Juan Francisco Rossel",
    "age": 20,
    "age_stato": "dedotto",
@@ -10379,6 +10455,7 @@
    }
   },
   {
+   "id": 210,
    "name": "Keimer Sandoval",
    "age": 20,
    "age_stato": "dichiarato",
@@ -10505,6 +10582,7 @@
    }
   },
   {
+   "id": 213,
    "name": "Juan Arizala",
    "age": 20,
    "age_stato": "dichiarato",
@@ -10632,6 +10710,7 @@
    }
   },
   {
+   "id": 214,
    "name": "Alejandro Ararat",
    "age": 20,
    "age_stato": "dichiarato",
@@ -10759,6 +10838,7 @@
    }
   },
   {
+   "id": 215,
    "name": "Andy Batioja",
    "age": 20,
    "age_stato": "dichiarato",
@@ -10885,6 +10965,7 @@
    }
   },
   {
+   "id": 319,
    "name": "Augusto Sánchez",
    "age": 17,
    "age_stato": "dichiarato",
@@ -11006,6 +11087,7 @@
    }
   },
   {
+   "id": 320,
    "name": "Mateo Díaz",
    "age": 17,
    "age_stato": "dichiarato",
@@ -11127,6 +11209,7 @@
    }
   },
   {
+   "id": 321,
    "name": "Gabriel Da Silva",
    "age": 17,
    "age_stato": "dichiarato",
@@ -11248,6 +11331,7 @@
    }
   },
   {
+   "id": 322,
    "name": "Lautaro Muñiz",
    "age": 17,
    "age_stato": "dichiarato",
@@ -11369,6 +11453,7 @@
    }
   },
   {
+   "id": 327,
    "name": "Bruno Bueno",
    "age": 17,
    "age_stato": "dichiarato",
@@ -11490,6 +11575,7 @@
    }
   },
   {
+   "id": 329,
    "name": "Ramiro García",
    "age": 17,
    "age_stato": "dichiarato",
@@ -11611,6 +11697,7 @@
    }
   },
   {
+   "id": 331,
    "name": "Lautaro Blengio",
    "age": 17,
    "age_stato": "dichiarato",
@@ -11732,6 +11819,7 @@
    }
   },
   {
+   "id": 332,
    "name": "Emiliano Haller",
    "age": 17,
    "age_stato": "dichiarato",
@@ -11853,6 +11941,7 @@
    }
   },
   {
+   "id": 337,
    "name": "Juan Gancheff",
    "age": 17,
    "age_stato": "dichiarato",
@@ -11974,6 +12063,7 @@
    }
   },
   {
+   "id": 339,
    "name": "Felipe De León",
    "age": 17,
    "age_stato": "dichiarato",
@@ -12095,6 +12185,7 @@
    }
   },
   {
+   "id": 25,
    "name": "Luis Benedetti",
    "age": null,
    "age_stato": "assente",
@@ -12204,6 +12295,7 @@
    }
   },
   {
+   "id": 71,
    "name": "Alvaro Busso",
    "age": 19,
    "age_stato": "dichiarato",
@@ -12313,6 +12405,7 @@
    }
   },
   {
+   "id": 72,
    "name": "Alain Gómez",
    "age": 19,
    "age_stato": "dichiarato",
@@ -12422,6 +12515,7 @@
    }
   },
   {
+   "id": 76,
    "name": "Tobías Ramirez",
    "age": 19,
    "age_stato": "dichiarato",
@@ -12531,6 +12625,7 @@
    }
   },
   {
+   "id": 91,
    "name": "Jean Karlo Rojas Pérez",
    "age": null,
    "age_stato": "assente",
@@ -12660,6 +12755,7 @@
    }
   },
   {
+   "id": 92,
    "name": "Jerson Balanta Guaza",
    "age": null,
    "age_stato": "assente",
@@ -12789,6 +12885,7 @@
    }
   },
   {
+   "id": 139,
    "name": "Luis Mateo Rentería García",
    "age": null,
    "age_stato": "assente",
@@ -12920,6 +13017,7 @@
    }
   },
   {
+   "id": 140,
    "name": "Jaider Córdoba Mena",
    "age": null,
    "age_stato": "assente",
@@ -13051,6 +13149,7 @@
    }
   },
   {
+   "id": 142,
    "name": "Yandel David Zúñiga Cogollo",
    "age": null,
    "age_stato": "assente",
@@ -13182,6 +13281,7 @@
    }
   },
   {
+   "id": 184,
    "name": "Sylvia Echefu",
    "age": null,
    "age_stato": "assente",
@@ -13304,6 +13404,7 @@
    }
   },
   {
+   "id": 200,
    "name": "Carlos Mario Pérez Cueto",
    "age": null,
    "age_stato": "assente",
@@ -13433,6 +13534,7 @@
    }
   },
   {
+   "id": 201,
    "name": "Cristian Enrique Uribe Caro",
    "age": null,
    "age_stato": "assente",
@@ -13562,6 +13664,7 @@
    }
   },
   {
+   "id": 202,
    "name": "Daniel David Socarras Villamil",
    "age": null,
    "age_stato": "assente",
@@ -13691,6 +13794,7 @@
    }
   },
   {
+   "id": 203,
    "name": "Jaidinson Córdoba Urrutia",
    "age": null,
    "age_stato": "assente",
@@ -13820,6 +13924,7 @@
    }
   },
   {
+   "id": 204,
    "name": "Camilo Amú",
    "age": null,
    "age_stato": "assente",
@@ -13949,6 +14054,7 @@
    }
   },
   {
+   "id": 207,
    "name": "Jesús David Chinchia Reales",
    "age": null,
    "age_stato": "assente",
@@ -14078,6 +14184,7 @@
    }
   },
   {
+   "id": 223,
    "name": "Gian Marco Hernández Henao",
    "age": null,
    "age_stato": "assente",
@@ -14209,6 +14316,7 @@
    }
   },
   {
+   "id": 238,
    "name": "Jayden Smith",
    "age": 19,
    "age_stato": "dichiarato",
@@ -14318,6 +14426,7 @@
    }
   },
   {
+   "id": 242,
    "name": "Ricky Fransen",
    "age": 19,
    "age_stato": "dichiarato",
@@ -14427,6 +14536,7 @@
    }
   },
   {
+   "id": 248,
    "name": "Óscar González",
    "age": null,
    "age_stato": "assente",
@@ -14549,6 +14659,7 @@
    }
   },
   {
+   "id": 249,
    "name": "Arthur Maron",
    "age": 19,
    "age_stato": "dichiarato",
@@ -14658,6 +14769,7 @@
    }
   },
   {
+   "id": 266,
    "name": "Breno Bidon",
    "age": null,
    "age_stato": "assente",
@@ -14764,6 +14876,7 @@
    }
   },
   {
+   "id": 280,
    "name": "Hugo Camberos",
    "age": 19,
    "age_stato": "dichiarato",
@@ -14873,6 +14986,7 @@
    }
   },
   {
+   "id": 288,
    "name": "Takalani Mazhamba",
    "age": null,
    "age_stato": "assente",
@@ -15002,6 +15116,7 @@
    }
   },
   {
+   "id": 289,
    "name": "Lwandiso Radebe",
    "age": null,
    "age_stato": "assente",
@@ -15131,6 +15246,7 @@
    }
   },
   {
+   "id": 291,
    "name": "Gennaro Johnson",
    "age": null,
    "age_stato": "assente",
@@ -15260,6 +15376,7 @@
    }
   },
   {
+   "id": 211,
    "name": "Simón García",
    "age": 21,
    "age_stato": "dichiarato",
@@ -15386,6 +15503,7 @@
    }
   },
   {
+   "id": 212,
    "name": "Yeimar Mosquera",
    "age": 21,
    "age_stato": "dichiarato",
@@ -15513,6 +15631,7 @@
    }
   },
   {
+   "id": 216,
    "name": "Neiser Villarreal",
    "age": 21,
    "age_stato": "dichiarato",
@@ -15640,6 +15759,7 @@
    }
   },
   {
+   "id": 73,
    "name": "Juan Villalba",
    "age": 20,
    "age_stato": "dichiarato",
@@ -15747,6 +15867,7 @@
    }
   },
   {
+   "id": 74,
    "name": "Teo Rodríguez",
    "age": 20,
    "age_stato": "dichiarato",
@@ -15854,6 +15975,7 @@
    }
   },
   {
+   "id": 77,
    "name": "Valente Pierani",
    "age": 20,
    "age_stato": "dichiarato",
@@ -15961,6 +16083,7 @@
    }
   },
   {
+   "id": 78,
    "name": "Dylan Gorosito",
    "age": 20,
    "age_stato": "dichiarato",
@@ -16068,6 +16191,7 @@
    }
   },
   {
+   "id": 224,
    "name": "Adrían Romero",
    "age": 23,
    "age_stato": "dichiarato",
@@ -16197,6 +16321,7 @@
    }
   },
   {
+   "id": 251,
    "name": "Demian Dominguez",
    "age": 20,
    "age_stato": "dichiarato",
@@ -16304,6 +16429,7 @@
    }
   },
   {
+   "id": 260,
    "name": "Andrés Cuenca",
    "age": 19,
    "age_stato": "dichiarato",
@@ -16408,6 +16534,7 @@
    }
   },
   {
+   "id": 261,
    "name": "Jon Martín",
    "age": 20,
    "age_stato": "dichiarato",
@@ -16510,6 +16637,7 @@
    }
   },
   {
+   "id": 286,
    "name": "Gomolemo Kekana",
    "age": 20,
    "age_stato": "dichiarato",
@@ -16612,6 +16740,7 @@
    }
   },
   {
+   "id": 70,
    "name": "Santino Barbi",
    "age": 21,
    "age_stato": "dichiarato",
@@ -16724,6 +16853,7 @@
    }
   },
   {
+   "id": 75,
    "name": "Santiago Fernandez",
    "age": 21,
    "age_stato": "dichiarato",
@@ -16836,6 +16966,7 @@
    }
   },
   {
+   "id": 87,
    "name": "Santiago Pérez Castaño",
    "age": null,
    "age_stato": "assente",
@@ -16962,6 +17093,7 @@
    }
   },
   {
+   "id": 118,
    "name": "Franco Saavedra",
    "age": 22,
    "age_stato": "dichiarato",
@@ -17074,6 +17206,7 @@
    }
   },
   {
+   "id": 143,
    "name": "Yeiler Mosquera Caicedo",
    "age": null,
    "age_stato": "assente",
@@ -17202,6 +17335,7 @@
    }
   },
   {
+   "id": 164,
    "name": "Julian David Bermeo Suarez",
    "age": null,
    "age_stato": "assente",
@@ -17326,6 +17460,7 @@
    }
   },
   {
+   "id": 181,
    "name": "Jhon Deiby Cantoñi Peña",
    "age": null,
    "age_stato": "assente",
@@ -17450,6 +17585,7 @@
    }
   },
   {
+   "id": 182,
    "name": "Frand Estiven Carabali Mina",
    "age": null,
    "age_stato": "assente",
@@ -17574,6 +17710,7 @@
    }
   },
   {
+   "id": 183,
    "name": "Dorathy Noel Ndaks",
    "age": null,
    "age_stato": "assente",
@@ -17693,6 +17830,7 @@
    }
   },
   {
+   "id": 185,
    "name": "Abidemi Aiyeolowo",
    "age": null,
    "age_stato": "assente",
@@ -17812,6 +17950,7 @@
    }
   },
   {
+   "id": 186,
    "name": "Amarachi Atulayo",
    "age": null,
    "age_stato": "assente",
@@ -17931,6 +18070,7 @@
    }
   },
   {
+   "id": 190,
    "name": "Santiago Núñez",
    "age": 26,
    "age_stato": "dichiarato",
@@ -18043,6 +18183,7 @@
    }
   },
   {
+   "id": 193,
    "name": "Nicolás Ruotola",
    "age": 21,
    "age_stato": "dichiarato",
@@ -18155,6 +18296,7 @@
    }
   },
   {
+   "id": 199,
    "name": "Duvan Starlin Mina Aponzá",
    "age": null,
    "age_stato": "assente",
@@ -18281,6 +18423,7 @@
    }
   },
   {
+   "id": 206,
    "name": "Matías Yuseth Orozco López",
    "age": null,
    "age_stato": "assente",
@@ -18407,6 +18550,7 @@
    }
   },
   {
+   "id": 219,
    "name": "Éder Smic Valencia Ambuila",
    "age": null,
    "age_stato": "assente",
@@ -18535,6 +18679,7 @@
    }
   },
   {
+   "id": 220,
    "name": "Elías Barney Martínez",
    "age": null,
    "age_stato": "assente",
@@ -18663,6 +18808,7 @@
    }
   },
   {
+   "id": 221,
    "name": "David Antonio Daza Sepulveda",
    "age": null,
    "age_stato": "assente",
@@ -18791,6 +18937,7 @@
    }
   },
   {
+   "id": 222,
    "name": "Jhoseth Suárez Ferreira",
    "age": null,
    "age_stato": "assente",
@@ -18919,6 +19066,7 @@
    }
   },
   {
+   "id": 237,
    "name": "Codey Phoenix",
    "age": 21,
    "age_stato": "dichiarato",
@@ -19031,6 +19179,7 @@
    }
   },
   {
+   "id": 285,
    "name": "Darío Osorio",
    "age": 20,
    "age_stato": "dichiarato",
@@ -19133,6 +19282,7 @@
    }
   },
   {
+   "id": 287,
    "name": "Fletcher Smythe-Lowe",
    "age": null,
    "age_stato": "assente",
@@ -19259,6 +19409,7 @@
    }
   },
   {
+   "id": 290,
    "name": "Banele Mtolo",
    "age": null,
    "age_stato": "assente",
@@ -19385,6 +19536,7 @@
    }
   },
   {
+   "id": 294,
    "name": "Elhadji Sow",
    "age": null,
    "age_stato": "assente",
@@ -19504,6 +19656,7 @@
    }
   },
   {
+   "id": 336,
    "name": "Vicente Pesce",
    "age": null,
    "age_stato": "assente",
@@ -19625,6 +19778,7 @@
    }
   },
   {
+   "id": 342,
    "name": "Jhojan Felipe Zuñiga Gomez",
    "age": null,
    "age_stato": "assente",
@@ -19746,6 +19900,7 @@
    }
   },
   {
+   "id": 344,
    "name": "Johan Felipe Lozano Briceño",
    "age": null,
    "age_stato": "assente",
@@ -19869,6 +20024,7 @@
    }
   },
   {
+   "id": 346,
    "name": "Luis Eduardo Mena Padilla",
    "age": null,
    "age_stato": "assente",
@@ -19990,6 +20146,7 @@
    }
   },
   {
+   "id": 347,
    "name": "David Eduardo Rodríguez Burbano",
    "age": null,
    "age_stato": "assente",
@@ -20113,6 +20270,7 @@
    }
   },
   {
+   "id": 349,
    "name": "Juan José Cataño Vahos",
    "age": null,
    "age_stato": "assente",
@@ -20236,6 +20394,7 @@
    }
   },
   {
+   "id": 350,
    "name": "Juan David Córdoba Moya",
    "age": null,
    "age_stato": "assente",
@@ -20359,6 +20518,7 @@
    }
   },
   {
+   "id": 351,
    "name": "Juan David Aponzá González",
    "age": null,
    "age_stato": "assente",
@@ -20482,6 +20642,7 @@
    }
   },
   {
+   "id": 352,
    "name": "Juan Camilo Alegría Palomino",
    "age": null,
    "age_stato": "assente",
@@ -20603,6 +20764,7 @@
    }
   },
   {
+   "id": 61,
    "name": "Mateo Chávez",
    "age": 22,
    "age_stato": "dichiarato",
@@ -20707,6 +20869,7 @@
    }
   },
   {
+   "id": 117,
    "name": "Tomás Palacios",
    "age": 23,
    "age_stato": "dichiarato",
@@ -20814,6 +20977,7 @@
    }
   },
   {
+   "id": 187,
    "name": "Fabricio Iacovich",
    "age": 24,
    "age_stato": "dichiarato",
@@ -20921,6 +21085,7 @@
    }
   },
   {
+   "id": 188,
    "name": "Rodrigo Borzone",
    "age": 21,
    "age_stato": "dichiarato",
@@ -21028,6 +21193,7 @@
    }
   },
   {
+   "id": 191,
    "name": "Gastón Benedetti",
    "age": 25,
    "age_stato": "dichiarato",
@@ -21135,6 +21301,7 @@
    }
   },
   {
+   "id": 195,
    "name": "David Morosini",
    "age": 22,
    "age_stato": "dichiarato",
@@ -21242,6 +21409,7 @@
    }
   },
   {
+   "id": 197,
    "name": "Patricio Pernicone",
    "age": 25,
    "age_stato": "dichiarato",
@@ -21349,6 +21517,7 @@
    }
   },
   {
+   "id": 198,
    "name": "Fabrizio Correa",
    "age": 25,
    "age_stato": "dichiarato",
@@ -21456,6 +21625,7 @@
    }
   },
   {
+   "id": 225,
    "name": "Mahmoud Abunada",
    "age": 26,
    "age_stato": "dichiarato",
@@ -21563,6 +21733,7 @@
    }
   },
   {
+   "id": 226,
    "name": "Salah Zakaria",
    "age": 27,
    "age_stato": "dichiarato",
@@ -21670,6 +21841,7 @@
    }
   },
   {
+   "id": 230,
    "name": "Issa Laye",
    "age": 28,
    "age_stato": "dichiarato",
@@ -21777,6 +21949,7 @@
    }
   },
   {
+   "id": 234,
    "name": "Henry Gray",
    "age": 21,
    "age_stato": "dichiarato",
@@ -21884,6 +22057,7 @@
    }
   },
   {
+   "id": 235,
    "name": "Joe Wallis",
    "age": 21,
    "age_stato": "dichiarato",
@@ -21991,6 +22165,7 @@
    }
   },
   {
+   "id": 239,
    "name": "Adama Coulibaly",
    "age": 21,
    "age_stato": "dichiarato",
@@ -22098,6 +22273,7 @@
    }
   },
   {
+   "id": 240,
    "name": "James Bulkeley",
    "age": 21,
    "age_stato": "dichiarato",
@@ -22205,6 +22381,7 @@
    }
   },
   {
+   "id": 243,
    "name": "Tze-Xuan Loke",
    "age": 21,
    "age_stato": "dichiarato",
@@ -22312,6 +22489,7 @@
    }
   },
   {
+   "id": 252,
    "name": "Ezequiel Burdín",
    "age": 21,
    "age_stato": "dichiarato",
@@ -22414,6 +22592,7 @@
    }
   },
   {
+   "id": 256,
    "name": "Vicent Abril",
    "age": 21,
    "age_stato": "dichiarato",
@@ -22516,6 +22695,7 @@
    }
   },
   {
+   "id": 257,
    "name": "Josue Diaz",
    "age": 21,
    "age_stato": "dichiarato",
@@ -22623,6 +22803,7 @@
    }
   },
   {
+   "id": 258,
    "name": "Pau Navarro",
    "age": 21,
    "age_stato": "dichiarato",
@@ -22725,6 +22906,7 @@
    }
   },
   {
+   "id": 246,
    "name": "Agustin Lopez",
    "age": 26,
    "age_stato": "dichiarato",
@@ -22832,6 +23014,7 @@
    }
   },
   {
+   "id": 277,
    "name": "Nathan Bizotto",
    "age": null,
    "age_stato": "assente",
@@ -22933,6 +23116,7 @@
    }
   },
   {
+   "id": 284,
    "name": "Chase Curren",
    "age": null,
    "age_stato": "assente",
@@ -23039,6 +23223,7 @@
    }
   },
   {
+   "id": 292,
    "name": "Cheswill Jooste",
    "age": null,
    "age_stato": "assente",
@@ -23145,6 +23330,7 @@
    }
   },
   {
+   "id": 303,
    "name": "Ryan Dale Williams",
    "age": null,
    "age_stato": "assente",
@@ -23246,6 +23432,7 @@
    }
   },
   {
+   "id": 313,
    "name": "Vusi Moyo",
    "age": null,
    "age_stato": "assente",
@@ -23347,6 +23534,7 @@
    }
   },
   {
+   "id": 348,
    "name": "Felipe Morais",
    "age": null,
    "age_stato": "assente",
@@ -23448,6 +23636,7 @@
    }
   },
   {
+   "id": 12,
    "name": "Fode Diallo",
    "age": 14,
    "age_stato": "dichiarato",
@@ -23561,6 +23750,7 @@
    }
   },
   {
+   "id": 46,
    "name": "Keiber Lamadrid",
    "age": 22,
    "age_stato": "dichiarato",
@@ -23665,6 +23855,7 @@
    }
   },
   {
+   "id": 262,
    "name": "Diego Aguado",
    "age": 19,
    "age_stato": "dichiarato",
@@ -23771,6 +23962,7 @@
    }
   },
   {
+   "id": 263,
    "name": "Jesús Fortea",
    "age": 19,
    "age_stato": "dichiarato",
@@ -23877,6 +24069,7 @@
    }
   },
   {
+   "id": 31,
    "name": "Yan Diomande",
    "age": null,
    "age_stato": "assente",
@@ -23987,6 +24180,7 @@
    }
   },
   {
+   "id": 85,
    "name": "José Rafael Escor",
    "age": null,
    "age_stato": "assente",
@@ -24166,6 +24360,7 @@
    }
   },
   {
+   "id": 63,
    "name": "Tiago Camargo",
    "age": 17,
    "age_stato": "dedotto",
@@ -24289,6 +24484,7 @@
    }
   },
   {
+   "id": 146,
    "name": "Eidy Ruíz",
    "age": 17,
    "age_stato": "dedotto",
@@ -24412,6 +24608,7 @@
    }
   },
   {
+   "id": 2,
    "name": "Mateus Romero",
    "age": null,
    "age_stato": "assente",
@@ -24524,6 +24721,7 @@
    }
   },
   {
+   "id": 9,
    "name": "Diego Reyes",
    "age": null,
    "age_stato": "assente",
@@ -24640,6 +24838,7 @@
    }
   },
   {
+   "id": 11,
    "name": "Gustavo Gomes",
    "age": 18,
    "age_stato": "dichiarato",
@@ -24750,6 +24949,7 @@
    }
   },
   {
+   "id": 16,
    "name": "Iago Machado",
    "age": 17,
    "age_stato": "dichiarato",
@@ -24859,6 +25059,7 @@
    }
   },
   {
+   "id": 14,
    "name": "Kaique Zizero",
    "age": null,
    "age_stato": "assente",
@@ -24966,6 +25167,7 @@
    }
   },
   {
+   "id": 23,
    "name": "Davi Lima",
    "age": null,
    "age_stato": "assente",
@@ -25073,6 +25275,7 @@
    }
   },
   {
+   "id": 34,
    "name": "Johan Martínez",
    "age": 17,
    "age_stato": "dedotto",
@@ -25184,6 +25387,7 @@
    }
   },
   {
+   "id": 37,
    "name": "Kadir do Panamá",
    "age": null,
    "age_stato": "assente",
@@ -25285,6 +25489,7 @@
    }
   },
   {
+   "id": 44,
    "name": "Gabriel Mec",
    "age": 18,
    "age_stato": "dichiarato",
@@ -25394,6 +25599,7 @@
    }
   },
   {
+   "id": 54,
    "name": "Hugo Sochurek",
    "age": 18,
    "age_stato": "dichiarato",
@@ -25499,6 +25705,7 @@
    }
   },
   {
+   "id": 59,
    "name": "Yastin Cuevas",
    "age": null,
    "age_stato": "assente",
@@ -25606,6 +25813,7 @@
    }
   },
   {
+   "id": 96,
    "name": "Lucas Ferreira",
    "age": 20,
    "age_stato": "dichiarato",
@@ -25727,6 +25935,7 @@
    }
   },
   {
+   "id": 1,
    "name": "Bruno Baldini",
    "age": 19,
    "age_stato": "dichiarato",
@@ -25832,6 +26041,7 @@
    }
   },
   {
+   "id": 4,
    "name": "Ryan Evaristo",
    "age": null,
    "age_stato": "assente",
@@ -25943,6 +26153,7 @@
    }
   },
   {
+   "id": 6,
    "name": "Kauan Toledo",
    "age": 20,
    "age_stato": "dichiarato",
@@ -26051,6 +26262,7 @@
    }
   },
   {
+   "id": 50,
    "name": "Gonzalo Petit",
    "age": 19,
    "age_stato": "dichiarato",
@@ -26160,6 +26372,7 @@
    }
   },
   {
+   "id": 58,
    "name": "César Garza",
    "age": null,
    "age_stato": "assente",
@@ -26276,6 +26489,7 @@
    }
   },
   {
+   "id": 26,
    "name": "Axel Alfonzo",
    "age": null,
    "age_stato": "assente",
@@ -26387,6 +26601,7 @@
    }
   },
   {
+   "id": 57,
    "name": "Nelson Andrade",
    "age": null,
    "age_stato": "assente",
@@ -26498,6 +26713,7 @@
    }
   },
   {
+   "id": 95,
    "name": "Ignacio Pintos",
    "age": 22,
    "age_stato": "dichiarato",
@@ -26619,6 +26835,7 @@
    }
   },
   {
+   "id": 10,
    "name": "Luiz Fernando (Luizinho)",
    "age": 20,
    "age_stato": "dedotto",
@@ -26728,6 +26945,7 @@
    }
   },
   {
+   "id": 189,
    "name": "Santiago Flores",
    "age": 25,
    "age_stato": "dichiarato",
@@ -26836,6 +27054,7 @@
    }
   },
   {
+   "id": 275,
    "name": "Enzo Fernández",
    "age": 21,
    "age_stato": "dichiarato",
@@ -26944,6 +27163,7 @@
    }
   },
   {
+   "id": 245,
    "name": "Leonel Canzoniero",
    "age": 26,
    "age_stato": "dichiarato",
@@ -27047,6 +27267,7 @@
    }
   },
   {
+   "id": 268,
    "name": "Gabriel Veron",
    "age": 23,
    "age_stato": "dichiarato",
@@ -27150,6 +27371,7 @@
    }
   },
   {
+   "id": 279,
    "name": "João Pedro Murilo",
    "age": null,
    "age_stato": "assente",
@@ -27251,6 +27473,7 @@
    }
   },
   {
+   "id": 297,
    "name": "Bradley Barcola",
    "age": 23,
    "age_stato": "dichiarato",
@@ -27354,6 +27577,7 @@
    }
   },
   {
+   "id": 244,
    "name": "Facundo Fernández",
    "age": 21,
    "age_stato": "dichiarato",
@@ -27457,6 +27681,7 @@
    }
   },
   {
+   "id": 36,
    "name": "Douglas Telles",
    "age": 19,
    "age_stato": "dichiarato",
@@ -27567,6 +27792,7 @@
    }
   },
   {
+   "id": 40,
    "name": "Robinio Vaz",
    "age": null,
    "age_stato": "assente",
@@ -27678,6 +27904,7 @@
    }
   },
   {
+   "id": 259,
    "name": "Álvaro Cortés",
    "age": 21,
    "age_stato": "dichiarato",
@@ -27781,6 +28008,7 @@
    }
   },
   {
+   "id": 295,
    "name": "Fermín López",
    "age": 23,
    "age_stato": "dichiarato",
@@ -27884,6 +28112,7 @@
    }
   },
   {
+   "id": 299,
    "name": "Estêvão Willian",
    "age": null,
    "age_stato": "assente",
@@ -27990,6 +28219,7 @@
    }
   },
   {
+   "id": 300,
    "name": "Lamine Yamal",
    "age": 19,
    "age_stato": "dichiarato",
@@ -28100,6 +28330,7 @@
    }
   },
   {
+   "id": 326,
    "name": "Pablo Barreiro",
    "age": 17,
    "age_stato": "dichiarato",
@@ -28220,6 +28451,7 @@
    }
   },
   {
+   "id": 333,
    "name": "Thiago Brizuela",
    "age": 17,
    "age_stato": "dichiarato",
@@ -28340,6 +28572,7 @@
    }
   },
   {
+   "id": 355,
    "name": "Hamza Abdelkarim",
    "age": null,
    "age_stato": "assente",
@@ -28442,6 +28675,7 @@
    }
   },
   {
+   "id": 5,
    "name": "André Maia",
    "age": null,
    "age_stato": "assente",
@@ -28560,6 +28794,7 @@
    }
   },
   {
+   "id": 20,
    "name": "Dulce Maria",
    "age": null,
    "age_stato": "assente",
@@ -28671,6 +28906,7 @@
    }
   },
   {
+   "id": 32,
    "name": "Joaquín Muñoz",
    "age": 17,
    "age_stato": "dedotto",
@@ -28777,6 +29013,7 @@
    }
   },
   {
+   "id": 301,
    "name": "Edmund Lalrindika",
    "age": null,
    "age_stato": "assente",
@@ -28899,6 +29136,7 @@
    }
   },
   {
+   "id": 35,
    "name": "Jhonatan Spiff",
    "age": null,
    "age_stato": "assente",
@@ -29000,6 +29238,7 @@
    }
   },
   {
+   "id": 161,
    "name": "Lovro Majer",
    "age": null,
    "age_stato": "assente",
@@ -29111,6 +29350,7 @@
    }
   },
   {
+   "id": 272,
    "name": "Pietra Lucci",
    "age": null,
    "age_stato": "assente",
@@ -29218,6 +29458,7 @@
    }
   },
   {
+   "id": 19,
    "name": "Alan Santos",
    "age": null,
    "age_stato": "assente",
@@ -29325,6 +29566,7 @@
    }
   },
   {
+   "id": 27,
    "name": "Everton Morelli",
    "age": null,
    "age_stato": "assente",
@@ -29436,6 +29678,7 @@
    }
   },
   {
+   "id": 51,
    "name": "Kevin Viveros",
    "age": null,
    "age_stato": "assente",
@@ -29547,6 +29790,7 @@
    }
   },
   {
+   "id": 64,
    "name": "Rian Santana",
    "age": null,
    "age_stato": "assente",
@@ -29658,6 +29902,7 @@
    }
   },
   {
+   "id": 119,
    "name": "Gabriel Ávalos",
    "age": null,
    "age_stato": "assente",
@@ -29765,6 +30010,7 @@
    }
   },
   {
+   "id": 120,
    "name": "José Canale",
    "age": null,
    "age_stato": "assente",
@@ -29872,6 +30118,7 @@
    }
   },
   {
+   "id": 253,
    "name": "Leandro Fernandez",
    "age": null,
    "age_stato": "assente",
@@ -29979,6 +30226,7 @@
    }
   },
   {
+   "id": 267,
    "name": "Kaio Jorge",
    "age": null,
    "age_stato": "assente",
@@ -30081,6 +30329,7 @@
    }
   },
   {
+   "id": 293,
    "name": "Ilaix Moriba",
    "age": null,
    "age_stato": "assente",
@@ -30188,6 +30437,7 @@
    }
   },
   {
+   "id": 128,
    "name": "Gabriela Delgadillo",
    "age": null,
    "age_stato": "assente",
@@ -30315,6 +30565,7 @@
    }
   },
   {
+   "id": 153,
    "name": "Vanessa Puerta",
    "age": null,
    "age_stato": "assente",
@@ -30442,6 +30693,7 @@
    }
   },
   {
+   "id": 175,
    "name": "Лука Петрић",
    "age": null,
    "age_stato": "assente",
@@ -30568,6 +30820,7 @@
    }
   },
   {
+   "id": 176,
    "name": "Страхиња Алексић",
    "age": null,
    "age_stato": "assente",
@@ -30694,6 +30947,7 @@
    }
   },
   {
+   "id": 177,
    "name": "Богдан Богдановић",
    "age": null,
    "age_stato": "assente",
@@ -30820,6 +31074,7 @@
    }
   },
   {
+   "id": 178,
    "name": "Вукашин Топић",
    "age": null,
    "age_stato": "assente",
@@ -30946,6 +31201,7 @@
    }
   },
   {
+   "id": 179,
    "name": "Андреј Милановић",
    "age": null,
    "age_stato": "assente",
@@ -31072,6 +31328,7 @@
    }
   },
   {
+   "id": 306,
    "name": "Nguyễn Xuân Son",
    "age": null,
    "age_stato": "assente",
@@ -31193,6 +31450,7 @@
    }
   },
   {
+   "id": 136,
    "name": "Andrea Montenegro",
    "age": null,
    "age_stato": "assente",
@@ -31320,6 +31578,7 @@
    }
   },
   {
+   "id": 138,
    "name": "Valentina Montenegro",
    "age": null,
    "age_stato": "assente",
@@ -31447,6 +31706,7 @@
    }
   },
   {
+   "id": 157,
    "name": "Joy Palacios",
    "age": null,
    "age_stato": "assente",
@@ -31574,6 +31834,7 @@
    }
   },
   {
+   "id": 56,
    "name": "Esteval William",
    "age": null,
    "age_stato": "assente",
@@ -31675,6 +31936,7 @@
    }
   },
   {
+   "id": 122,
    "name": "Ignacio González",
    "age": null,
    "age_stato": "assente",
@@ -31802,6 +32064,7 @@
    }
   },
   {
+   "id": 123,
    "name": "Kindness Ifeanyi",
    "age": null,
    "age_stato": "assente",
@@ -31928,6 +32191,7 @@
    }
   },
   {
+   "id": 125,
    "name": "Maureen Kenneth",
    "age": null,
    "age_stato": "assente",
@@ -32057,6 +32321,7 @@
    }
   },
   {
+   "id": 271,
    "name": "Jefferson Botega",
    "age": null,
    "age_stato": "assente",
@@ -32158,6 +32423,7 @@
    }
   },
   {
+   "id": 302,
    "name": "Jeakson Singh",
    "age": null,
    "age_stato": "assente",
@@ -32259,6 +32525,7 @@
    }
   },
   {
+   "id": 305,
    "name": "Pascal Struijk",
    "age": null,
    "age_stato": "assente",
@@ -32360,6 +32627,7 @@
    }
   },
   {
+   "id": 314,
    "name": "Luan Giliomee",
    "age": null,
    "age_stato": "assente",
@@ -32461,6 +32729,7 @@
    }
   },
   {
+   "id": 315,
    "name": "Christian Vorster",
    "age": null,
    "age_stato": "assente",
@@ -32562,6 +32831,7 @@
    }
   },
   {
+   "id": 316,
    "name": "Jordan Steenkamp",
    "age": null,
    "age_stato": "assente",
@@ -32663,6 +32933,7 @@
    }
   },
   {
+   "id": 317,
    "name": "Pieter van der Merwe",
    "age": null,
    "age_stato": "assente",
@@ -32764,6 +33035,7 @@
    }
   },
   {
+   "id": 353,
    "name": "Abdelhamid Maali",
    "age": null,
    "age_stato": "assente",
@@ -32865,6 +33137,7 @@
    }
   },
   {
+   "id": 129,
    "name": "Juana Flores",
    "age": null,
    "age_stato": "assente",
@@ -32991,6 +33264,7 @@
    }
   },
   {
+   "id": 131,
    "name": "Alexandra Mosquera",
    "age": null,
    "age_stato": "assente",
@@ -33117,6 +33391,7 @@
    }
   },
   {
+   "id": 132,
    "name": "Zoé Cuevas",
    "age": null,
    "age_stato": "assente",
@@ -33243,6 +33518,7 @@
    }
   },
   {
+   "id": 133,
    "name": "Isabella Aponte",
    "age": null,
    "age_stato": "assente",
@@ -33369,6 +33645,7 @@
    }
   },
   {
+   "id": 134,
    "name": "Alejandra Jurado",
    "age": null,
    "age_stato": "assente",
@@ -33495,6 +33772,7 @@
    }
   },
   {
+   "id": 135,
    "name": "Mariana Cuenú",
    "age": null,
    "age_stato": "assente",
@@ -33621,6 +33899,7 @@
    }
   },
   {
+   "id": 137,
    "name": "Katherine Navarro",
    "age": null,
    "age_stato": "assente",
@@ -33747,6 +34026,7 @@
    }
   },
   {
+   "id": 148,
    "name": "Emiliana Isaza",
    "age": null,
    "age_stato": "assente",
@@ -33873,6 +34153,7 @@
    }
   },
   {
+   "id": 150,
    "name": "Izabella Cortés",
    "age": null,
    "age_stato": "assente",
@@ -33999,6 +34280,7 @@
    }
   },
   {
+   "id": 151,
    "name": "Saileth Bonnet",
    "age": null,
    "age_stato": "assente",
@@ -34125,6 +34407,7 @@
    }
   },
   {
+   "id": 152,
    "name": "Juanita Parga",
    "age": null,
    "age_stato": "assente",
@@ -34251,6 +34534,7 @@
    }
   },
   {
+   "id": 154,
    "name": "Rihanna Cuesta",
    "age": null,
    "age_stato": "assente",
@@ -34377,6 +34661,7 @@
    }
   },
   {
+   "id": 156,
    "name": "Dayana Torres",
    "age": null,
    "age_stato": "assente",
@@ -34503,6 +34788,7 @@
    }
   },
   {
+   "id": 121,
    "name": "Alexis Cuello",
    "age": null,
    "age_stato": "assente",
@@ -34612,6 +34898,7 @@
    }
   },
   {
+   "id": 124,
    "name": "Favour Nkwocha",
    "age": null,
    "age_stato": "assente",
@@ -34734,6 +35021,7 @@
    }
   },
   {
+   "id": 127,
    "name": "Reginald Collins Asamoah",
    "age": null,
    "age_stato": "assente",
@@ -34856,6 +35144,7 @@
    }
   },
   {
+   "id": 180,
    "name": "Страхиња Бауцал",
    "age": null,
    "age_stato": "assente",
@@ -34978,6 +35267,7 @@
    }
   },
   {
+   "id": 218,
    "name": "Camilo Andrés Pedraza",
    "age": null,
    "age_stato": "assente",
@@ -35098,6 +35388,7 @@
    }
   },
   {
+   "id": 247,
    "name": "Serena Lena Gomis",
    "age": null,
    "age_stato": "assente",
@@ -35220,6 +35511,7 @@
    }
   },
   {
+   "id": 265,
    "name": "Вук ДРАШ",
    "age": null,
    "age_stato": "assente",
@@ -35337,6 +35629,7 @@
    }
   },
   {
+   "id": 269,
    "name": "Talles Magno",
    "age": null,
    "age_stato": "assente",
@@ -35441,6 +35734,7 @@
    }
   },
   {
+   "id": 270,
    "name": "Yan Couto",
    "age": null,
    "age_stato": "assente",
@@ -35550,6 +35844,7 @@
    }
   },
   {
+   "id": 278,
    "name": "Luiz Henrique",
    "age": null,
    "age_stato": "assente",
@@ -35659,6 +35954,7 @@
    }
   },
   {
+   "id": 281,
    "name": "Berenice Ibarra",
    "age": null,
    "age_stato": "assente",
@@ -35765,6 +36061,7 @@
    }
   },
   {
+   "id": 282,
    "name": "Clinton Lawani",
    "age": null,
    "age_stato": "assente",
@@ -35882,6 +36179,7 @@
    }
   },
   {
+   "id": 283,
    "name": "Habila Simeon",
    "age": null,
    "age_stato": "assente",
@@ -35999,6 +36297,7 @@
    }
   },
   {
+   "id": 307,
    "name": "Phan Tuấn Tài",
    "age": null,
    "age_stato": "assente",
@@ -36114,6 +36413,7 @@
    }
   },
   {
+   "id": 308,
    "name": "Azri Ghani",
    "age": null,
    "age_stato": "assente",
@@ -36229,6 +36529,7 @@
    }
   },
   {
+   "id": 79,
    "name": "Valentino Acu",
    "age": null,
    "age_stato": "assente",
@@ -36331,6 +36632,7 @@
    }
   },
   {
+   "id": 116,
    "name": "Sebastián Villa",
    "age": null,
    "age_stato": "assente",
@@ -36433,6 +36735,7 @@
    }
   },
   {
+   "id": 273,
    "name": "Ayase Ueda",
    "age": null,
    "age_stato": "assente",
@@ -36530,6 +36833,7 @@
    }
   },
   {
+   "id": 274,
    "name": "Neyser Villarreal",
    "age": null,
    "age_stato": "assente",
@@ -36627,6 +36931,7 @@
    }
   },
   {
+   "id": 296,
    "name": "Unai Simón",
    "age": null,
    "age_stato": "assente",
@@ -36729,6 +37034,7 @@
    }
   },
   {
+   "id": 298,
    "name": "Gabriel Martinelli",
    "age": null,
    "age_stato": "assente",
@@ -36831,6 +37137,7 @@
    }
   },
   {
+   "id": 304,
    "name": "Jasim Al Noobi",
    "age": null,
    "age_stato": "assente",
@@ -36933,6 +37240,7 @@
    }
   },
   {
+   "id": 309,
    "name": "Riley Norton",
    "age": null,
    "age_stato": "assente",
@@ -37030,6 +37338,7 @@
    }
   },
   {
+   "id": 310,
    "name": "Siphosethu Mnebelele",
    "age": null,
    "age_stato": "assente",
@@ -37127,6 +37436,7 @@
    }
   },
   {
+   "id": 311,
    "name": "Kai Pratt",
    "age": null,
    "age_stato": "assente",
@@ -37224,6 +37534,7 @@
    }
   },
   {
+   "id": 312,
    "name": "Markus Muller",
    "age": null,
    "age_stato": "assente",
@@ -37321,6 +37632,7 @@
    }
   },
   {
+   "id": 354,
    "name": "Mohamed Ouahbi",
    "age": null,
    "age_stato": "assente",
@@ -37418,6 +37730,7 @@
    }
   },
   {
+   "id": 162,
    "name": "Dominik Kotarski",
    "age": null,
    "age_stato": "assente",
@@ -37529,6 +37842,7 @@
    }
   },
   {
+   "id": 236,
    "name": "Josey Casa-Grande",
    "age": 20,
    "age_stato": "dichiarato",
@@ -37631,6 +37945,7 @@
    }
   },
   {
+   "id": 255,
    "name": "Raul Jimenez",
    "age": 20,
    "age_stato": "dichiarato",
@@ -37728,6 +38043,7 @@
    }
   },
   {
+   "id": 194,
    "name": "Mauricio Rodríguez",
    "age": 21,
    "age_stato": "dichiarato",
@@ -37833,6 +38149,7 @@
    }
   },
   {
+   "id": 196,
    "name": "Agustín Pérez",
    "age": 22,
    "age_stato": "dichiarato",
@@ -37938,6 +38255,7 @@
    }
   },
   {
+   "id": 227,
    "name": "Meshaal Barsham",
    "age": 28,
    "age_stato": "dichiarato",
@@ -38043,6 +38361,7 @@
    }
   },
   {
+   "id": 228,
    "name": "Pedro Miguel",
    "age": 36,
    "age_stato": "dichiarato",
@@ -38148,6 +38467,7 @@
    }
   },
   {
+   "id": 229,
    "name": "Lucas Mendes",
    "age": 36,
    "age_stato": "dichiarato",
@@ -38253,6 +38573,7 @@
    }
   },
   {
+   "id": 254,
    "name": "Fran González",
    "age": 21,
    "age_stato": "dichiarato",
@@ -38353,6 +38674,7 @@
    }
   },
   {
+   "id": 163,
    "name": "Ivor Pandur",
    "age": null,
    "age_stato": "assente",
@@ -38455,6 +38777,7 @@
    }
   },
   {
+   "id": 231,
    "name": "Ayoub Al-Oui",
    "age": 21,
    "age_stato": "dichiarato",
@@ -38557,6 +38880,7 @@
    }
   },
   {
+   "id": 232,
    "name": "Homam Al-Amin",
    "age": 26,
    "age_stato": "dichiarato",
@@ -38659,6 +38983,7 @@
    }
   },
   {
+   "id": 233,
    "name": "Boualem Khoukhi",
    "age": 36,
    "age_stato": "dichiarato",
@@ -38761,6 +39086,7 @@
    }
   },
   {
+   "id": 68,
    "name": "Samu",
    "age": null,
    "age_stato": "assente",
@@ -38943,6 +39269,7 @@
    }
   },
   {
+   "id": 24,
    "name": "Londoño",
    "age": 17,
    "age_stato": "dedotto",
@@ -39076,6 +39403,7 @@
    }
   },
   {
+   "id": 45,
    "name": "Gustavogoes",
    "age": null,
    "age_stato": "assente",
@@ -39177,6 +39505,7 @@
    }
   },
   {
+   "id": 48,
    "name": "KG9",
    "age": null,
    "age_stato": "assente",
@@ -39278,6 +39607,7 @@
    }
   },
   {
+   "id": 7,
    "name": "Felipe",
    "age": null,
    "age_stato": "assente",
@@ -39384,6 +39714,7 @@
    }
   },
   {
+   "id": 42,
    "name": "Thaylon",
    "age": 17,
    "age_stato": "dedotto",
@@ -39487,6 +39818,7 @@
    }
   },
   {
+   "id": 47,
    "name": "Eduardo",
    "age": null,
    "age_stato": "assente",
@@ -39593,6 +39925,7 @@
    }
   },
   {
+   "id": 15,
    "name": "Tchola",
    "age": null,
    "age_stato": "assente",
@@ -39694,6 +40027,7 @@
    }
   },
   {
+   "id": 13,
    "name": "Rayan",
    "age": null,
    "age_stato": "assente",
@@ -39800,6 +40134,7 @@
    }
   },
   {
+   "id": 28,
    "name": "Mikael",
    "age": null,
    "age_stato": "assente",
@@ -39901,6 +40236,7 @@
    }
   },
   {
+   "id": 53,
    "name": "Kukri",
    "age": null,
    "age_stato": "assente",
@@ -40002,6 +40338,7 @@
    }
   },
   {
+   "id": 62,
    "name": "Kauê",
    "age": null,
    "age_stato": "assente",
@@ -40103,6 +40440,7 @@
    }
   },
   {
+   "id": 69,
    "name": "Kaick",
    "age": null,
    "age_stato": "assente",
@@ -40204,6 +40542,7 @@
    }
   },
   {
+   "id": 3,
    "name": "Saviolo",
    "age": null,
    "age_stato": "assente",
@@ -40305,6 +40644,7 @@
    }
   },
   {
+   "id": 8,
    "name": "Sorriso",
    "age": null,
    "age_stato": "assente",
@@ -40406,6 +40746,7 @@
    }
   },
   {
+   "id": 21,
    "name": "Josmar",
    "age": null,
    "age_stato": "assente",
@@ -40507,6 +40848,7 @@
    }
   },
   {
+   "id": 38,
    "name": "Tainá",
    "age": null,
    "age_stato": "assente",
@@ -40608,6 +40950,7 @@
    }
   },
   {
+   "id": 39,
    "name": "Clarinha",
    "age": null,
    "age_stato": "assente",
@@ -40709,6 +41052,7 @@
    }
   },
   {
+   "id": 65,
    "name": "Cauazinn_.08",
    "age": null,
    "age_stato": "assente",
@@ -40810,6 +41154,7 @@
    }
   },
   {
+   "id": 66,
    "name": "Emanoel",
    "age": null,
    "age_stato": "assente",
@@ -40911,6 +41256,7 @@
    }
   },
   {
+   "id": 67,
    "name": "Nicholas",
    "age": null,
    "age_stato": "assente",
@@ -41012,6 +41358,7 @@
    }
   },
   {
+   "id": 41,
    "name": "Paulinho",
    "age": null,
    "age_stato": "assente",
@@ -41113,6 +41460,7 @@
    }
   },
   {
+   "id": 126,
    "name": "Chukwueze",
    "age": null,
    "age_stato": "assente",
@@ -41215,6 +41563,7 @@
    }
   },
   {
+   "id": 168,
    "name": "Maigana",
    "age": null,
    "age_stato": "assente",
@@ -41317,6 +41666,7 @@
    }
   },
   {
+   "id": 169,
    "name": "Kamaldeen",
    "age": null,
    "age_stato": "assente",
@@ -41419,6 +41769,7 @@
    }
   },
   {
+   "id": 264,
    "name": "Danjuma",
    "age": null,
    "age_stato": "assente",
@@ -41516,6 +41867,7 @@
    }
   },
   {
+   "id": 276,
    "name": "Endrick",
    "age": null,
    "age_stato": "assente",
@@ -41618,6 +41970,7 @@
    }
   },
   {
+   "id": 52,
    "name": "Miguelito",
    "age": null,
    "age_stato": "assente",
@@ -41715,6 +42068,7 @@
    }
   },
   {
+   "id": 17,
    "name": "Pirituba",
    "age": null,
    "age_stato": "assente",
@@ -41810,6 +42164,7 @@
    }
   },
   {
+   "id": 22,
    "name": "Dinics",
    "age": null,
    "age_stato": "assente",
@@ -41905,6 +42260,7 @@
    }
   },
   {
+   "id": 18,
    "name": "Mora",
    "age": null,
    "age_stato": "assente",

@@ -47,6 +47,12 @@
 
   .stats{display:flex;margin-top:18px;border:1px solid var(--line);
     border-radius:12px;background:var(--surface);overflow:hidden}
+  .outc-detail{margin-top:9px}
+  .outc-detail summary{font-size:11px;color:var(--muted);cursor:pointer;
+    letter-spacing:.03em;text-transform:uppercase;font-weight:600}
+  .outc-detail summary:hover{color:var(--accent)}
+  .outc-detail .sel-l{margin-top:8px}
+  .outc-detail .sel-l a,.outc-detail .sel-l span.no-link{align-items:center}
   .ver{margin-top:7px;font-size:10.5px;color:var(--faint);text-align:right;
     font-family:var(--mono)}
   .region-filter{margin-top:11px;width:100%;padding:9px 11px;border-radius:10px;
@@ -56,6 +62,15 @@
   .stat + .stat{border-left:1px solid var(--line-soft)}
   .stat .n{font-family:var(--mono);font-size:19px;font-weight:600}
   .stat .l{font-size:10.5px;color:var(--faint);text-transform:uppercase;letter-spacing:.07em;margin-top:2px}
+  /* Le prime tre statistiche filtrano i giocatori visibili al tocco — il
+     numero non è più solo un numero, è una porta sulle schede che lo
+     compongono. La quarta ("Aggiornato") non rappresenta un insieme di
+     giocatori e resta un dato, non un controllo. .clickable si aggiunge via
+     JS solo quando il conteggio è > 0: filtrare su un insieme vuoto non è
+     un'azione, è un vicolo cieco. */
+  .stat.clickable{cursor:pointer}
+  .stat.clickable:hover{background:var(--accent-wash)}
+  .stat.active{background:var(--accent-wash);box-shadow:inset 0 -2px 0 var(--accent)}
 
   .sec{display:flex;align-items:center;gap:12px;margin:26px 2px 12px}
   .sec h2{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600}
@@ -91,6 +106,9 @@
     font-size:11px;padding:3px 9px;border-radius:20px;border:1px solid var(--line);
     color:var(--muted);background:var(--surface)}
   .sel-l a:hover{border-color:var(--accent);color:var(--accent)}
+  .sel-l span.no-link{display:inline-flex;align-items:baseline;gap:6px;
+    font-size:11px;padding:3px 9px;border-radius:20px;border:1px dashed var(--line);
+    color:var(--faint);background:var(--surface)}
   .sel-l .d{font-family:var(--mono);font-size:10.5px}
   .sel-l .c{font-weight:600}
 
@@ -181,11 +199,23 @@
   <div class="tag" data-i18n="header.tag">Ogni nome con le sue prove.</div>
   <div class="positioning" data-i18n="header.positioning">Non prevede il futuro di un giocatore: <b>verifica che esista davvero</b>, con fonti che reggono una telefonata.</div>
   <div class="stats" id="stats" hidden>
-    <div class="stat"><div class="n" id="st-pub">–</div><div class="l" data-i18n="stats.verified">Profili verificati</div></div>
-    <div class="stat"><div class="n" id="st-trk">–</div><div class="l" data-i18n="stats.tracking">In tracking</div></div>
+    <div class="stat" id="st-pub-wrap"><div class="n" id="st-pub">–</div><div class="l" data-i18n="stats.verified">Profili verificati</div></div>
+    <div class="stat" id="st-trk-wrap"><div class="n" id="st-trk">–</div><div class="l" data-i18n="stats.tracking">In tracking</div></div>
     <div class="stat" id="st-outc-wrap" title=""><div class="n" id="st-outc">–</div><div class="l" data-i18n="stats.outcomes">Anticipo confermato</div></div>
     <div class="stat"><div class="n" id="st-upd">–</div><div class="l" data-i18n="stats.updated">Aggiornato</div></div>
   </div>
+  <!-- Il numero da solo era un aggregato non apribile — il contrario della
+       promessa del prodotto. Trovato il 1 set 2026: quando qualcuno ha
+       chiesto di vedere i nomi dietro "Anticipo confermato: 4", si è
+       scoperto che erano tre riconvocazioni della stessa federazione
+       spacciate per "ripreso dalla stampa" e un giocatore che il gate
+       blocca altrove come già coperto da tutti. Un <details>, non un
+       tooltip: ogni caso è un link apribile, come le convocazioni sulla
+       scheda del giocatore. -->
+  <details class="outc-detail" id="outcDetail" hidden>
+    <summary data-i18n="stats.outcomes.summary">Chi sono</summary>
+    <ol class="sel-l" id="outcList"></ol>
+  </details>
   <div class="ver" id="ver" hidden></div>
   <select class="region-filter" id="regionFilter" hidden></select>
 </header>
@@ -250,6 +280,7 @@ const I18N_EN = {
   'stats.updated': 'Updated',
   'stats.outcomes.tip.some': 'How many times a name we had was picked up later by mainstream press, and by how many days on average — measured only on cases with a real name, a real club, and a football source. Small on purpose: most of what we track hasn’t had time to play out yet.',
   'stats.outcomes.tip.zero': 'None yet — not an error, this needs time to accumulate. Counted only for names with full identity and a real football source.',
+  'stats.outcomes.summary': 'Who they are',
   'loading': 'Loading…',
   'faq.heading': 'How it works',
   'faq.q1': 'What does OB1 Scout do?',
@@ -362,6 +393,33 @@ if (IS_EN) {
     outcWrap.title = (IS_EN ? t('stats.outcomes.tip.some') : outcTipSomeIT) + suffix;
   } else {
     outcWrap.title = IS_EN ? t('stats.outcomes.tip.zero') : outcTipZeroIT;
+  }
+  // Chi sono i casi dietro il numero — ognuno un link apribile, come le
+  // convocazioni sulla scheda del giocatore. `casi` può mancare su un export
+  // vecchio (fallback difensivo, non un giro reale): niente lista, non un
+  // errore. giorni_txt separato dal link: uno YouTuber o un ragazzo senza
+  // dominio noto (source_domain vuoto sui casi trovati dalla corroborazione
+  // libera) resta comunque leggibile.
+  const casi = outc.casi || [];
+  const outcDetail = document.getElementById('outcDetail');
+  const outcList = document.getElementById('outcList');
+  if (casi.length) {
+    const giorniLbl = n => IS_EN ? `${n}d` : `${n}g`;
+    outcList.innerHTML = casi.map(cs => {
+      const nome = esc(cs.nome || '—');
+      const club = esc(cs.club || '');
+      const dettaglio = [giorniLbl(cs.giorni), cs.dominio ? esc(cs.dominio) : '']
+        .filter(Boolean).join(' · ');
+      const dentro = `<span class="c">${nome}${club ? ' · ' + club : ''}</span>`
+        + (dettaglio ? `<span class="d">${dettaglio}</span>` : '');
+      return cs.url
+        ? `<li><a href="${esc(cs.url)}" target="_blank" rel="noopener">${dentro}</a></li>`
+        : `<li><span class="no-link">${dentro}</span></li>`;
+    }).join('');
+    outcDetail.hidden = false;
+  } else {
+    outcList.innerHTML = '';
+    outcDetail.hidden = true;
   }
   const upd = data.generated_at ? new Date(data.generated_at) : null;
   const validDate = upd && !isNaN(upd.getTime());
@@ -539,13 +597,39 @@ if (IS_EN) {
     regions.map(r => `<option value="${esc(r)}">${esc(r)}</option>`).join('');
   regionSel.hidden = false;
 
+  // Le tre statistiche principali diventano un filtro al tocco (1 set 2026):
+  // "il numero dovrebbe in qualche modo filtrare i giocatori visibili" — un
+  // conteggio che non si può aprire è un conteggio di cui fidarsi sulla
+  // parola, ed è esattamente il difetto appena tolto dal tabellone outcome.
+  // null = vista di default; 'verified'/'tracking' restringono le due
+  // sezioni già esistenti; 'outcomes' sostituisce la vista con le SCHEDE
+  // INTERE (non i chip di outcDetail) dei giocatori dietro "Anticipo
+  // confermato" — cerca per player_id, mai per nome: un nome da solo può
+  // avere un omonimo fra centinaia di profili.
+  let statFilter = null;
+
   function renderList() {
     const region = regionSel.value;
+    if (statFilter === 'outcomes') {
+      const idsConfermati = new Set(
+        ((data.outcomes && data.outcomes.casi) || [])
+          .map(cs => cs.player_id).filter(id => id != null));
+      const match = players.filter(p => idsConfermati.has(p.id));
+      let html = `<div class="sec"><h2>${IS_EN ? t('stats.outcomes') : 'Anticipo confermato'}</h2><div class="rule"></div></div>`;
+      html += match.length
+        ? match.map((p, i) => card(p, i, '')).join('')
+        : `<div class="empty">${IS_EN ? 'No confirmed case yet — not an error, this needs time to accumulate.' : 'Ancora nessun caso confermato — non è un errore, serve tempo per accumulare storia.'}</div>`;
+      app.innerHTML = html;
+      return;
+    }
     const filtered = region ? players.filter(p => p.region === region) : players;
-    const pub = filtered.filter(p => p.publishable);
-    let trk = filtered.filter(p => !p.publishable);
+    const pub = statFilter === 'tracking' ? [] : filtered.filter(p => p.publishable);
+    let trk = statFilter === 'verified' ? [] : filtered.filter(p => !p.publishable);
     let hiddenCount = 0;
-    if (!region && trk.length > DEFAULT_TRACK_PREVIEW) {
+    // Il tetto sulla vista di default resta — un tap esplicito su "In
+    // tracking" chiede di vedere tutto, come già succede scegliendo una
+    // regione: una richiesta esplicita non si accontenta di un'anteprima.
+    if (!region && !statFilter && trk.length > DEFAULT_TRACK_PREVIEW) {
       hiddenCount = trk.length - DEFAULT_TRACK_PREVIEW;
       trk = trk.slice(0, DEFAULT_TRACK_PREVIEW);
     }
@@ -574,6 +658,33 @@ if (IS_EN) {
   }
 
   regionSel.addEventListener('change', renderList);
+
+  // Un tap sulla stessa statistica già attiva torna alla vista di default —
+  // niente pulsante "azzera filtro" a parte, la statistica stessa fa da
+  // interruttore. .clickable si accende solo se il conteggio è > 0:
+  // filtrare su un insieme vuoto non è un'azione utile da offrire.
+  function setStatFilter(modo) {
+    statFilter = (statFilter === modo) ? null : modo;
+    pubWrap.classList.toggle('active', statFilter === 'verified');
+    trkWrap.classList.toggle('active', statFilter === 'tracking');
+    outcWrap.classList.toggle('active', statFilter === 'outcomes');
+    renderList();
+  }
+  const pubWrap = document.getElementById('st-pub-wrap');
+  const trkWrap = document.getElementById('st-trk-wrap');
+  if ((data.publishable ?? 0) > 0) {
+    pubWrap.classList.add('clickable');
+    pubWrap.addEventListener('click', () => setStatFilter('verified'));
+  }
+  if ((data.tracking ?? 0) > 0) {
+    trkWrap.classList.add('clickable');
+    trkWrap.addEventListener('click', () => setStatFilter('tracking'));
+  }
+  if ((outc.checked ?? 0) > 0) {
+    outcWrap.classList.add('clickable');
+    outcWrap.addEventListener('click', () => setStatFilter('outcomes'));
+  }
+
   renderList();
 })();
 
