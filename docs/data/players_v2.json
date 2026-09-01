@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-01T17:04:59.607892+00:00",
+ "generated_at": "2026-09-01T21:35:42.133719+00:00",
  "version": "1.0.0",
- "build": "00ffcdc",
- "total": 367,
+ "build": "adfc3e4",
+ "total": 368,
  "publishable": 192,
- "tracking": 175,
- "shown": 367,
+ "tracking": 176,
+ "shown": 368,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -26609,6 +26609,108 @@
    }
   },
   {
+   "id": 366,
+   "name": "Jayroll Patty",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "a pinpoint pass in-behind the opposition defence from captain Jayroll Patty",
+     "url": "https://www.oceaniafootball.com/solomon-islands-and-new-caledonia-enter-winners-circle-on-first-day-at-ofc-u-19-mens-championship/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Jayroll Patty, 19 anni, Solomon Kings FC",
+     "url": "https://www.transfermarkt.us/jayroll-patty/profil/spieler/1284538"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defender",
+   "club": "Solomon Islands U-19 national team",
+   "league": "OFC U-19 Men's Championship 2026",
+   "region": "Solomon Islands",
+   "gender": "male",
+   "score": 11,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 3.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/solomon-islands-and-new-caledonia-enter-winners-circle-on-first-day-at-ofc-u-19-mens-championship/",
+     "seen": "2026-09-01T16:50:33.171492"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/jayroll-patty/profil/spieler/1284538",
+     "seen": "2026-09-01T21:14:30.444821"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 1,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-01T16:50:33.171492",
+   "last_seen": "2026-09-01T21:14:30.444821",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Produzione documentata: 1 assist in 1 presenze",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo"
+    ],
+    "next_steps": [],
+    "pros_en": [
+     "Young (19 yo)",
+     "Documented output: 1 assists in 1 appearances",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it"
+    ],
+    "next_steps_en": []
+   }
+  },
+  {
    "id": 26,
    "name": "Axel Alfonzo",
    "age": null,
@@ -30560,6 +30662,112 @@
    }
   },
   {
+   "id": 367,
+   "name": "Ricky Hulana",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "beating Papua New Guinea goalkeeper Ricky Hulana from close range",
+     "url": "https://www.oceaniafootball.com/solomon-islands-and-new-caledonia-enter-winners-circle-on-first-day-at-ofc-u-19-mens-championship/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "goalkeeper",
+   "club": "Papua New Guinea U-19 national team",
+   "league": "OFC U-19 Men's Championship 2026",
+   "region": "Papua New Guinea",
+   "gender": "male",
+   "score": 9,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/solomon-islands-and-new-caledonia-enter-winners-circle-on-first-day-at-ofc-u-19-mens-championship/",
+     "seen": "2026-09-01T16:50:33.171492"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/ricky-hulana-3829233",
+     "seen": "2026-09-01T21:14:30.444821"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-01T16:50:33.171492",
+   "last_seen": "2026-09-01T21:14:30.444821",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "id": 128,
    "name": "Gabriela Delgadillo",
    "age": null,
@@ -32653,18 +32861,18 @@
    }
   },
   {
-   "id": 366,
-   "name": "Jayroll Patty",
+   "id": 368,
+   "name": "Luisa Agudelo",
    "age": null,
    "age_stato": "assente",
    "age_nota": "",
    "claims": {
     "nome": {
      "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "a pinpoint pass in-behind the opposition defence from captain Jayroll Patty",
-     "url": "https://www.oceaniafootball.com/solomon-islands-and-new-caledonia-enter-winners-circle-on-first-day-at-ofc-u-19-mens-championship/"
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Luisa Agudelo se integra a la Selección Colombia Femenina Sub-20",
+     "url": "https://fcf.com.co/2026/08/31/luisa-agudelo-se-integra-a-la-seleccion-colombia-femenina-sub-20/"
     },
     "club": {
      "stato": "assente",
@@ -32689,69 +32897,86 @@
     }
    },
    "position": null,
-   "club": "Solomon Islands U-19 national team",
-   "league": "OFC U-19 Men's Championship 2026",
-   "region": "Solomon Islands",
-   "gender": "male",
+   "club": null,
+   "league": "Selección Colombia Femenina Sub-20",
+   "region": "Colombia",
+   "gender": "female",
    "score": 8,
    "confidence": 0.45,
    "breakdown": {
     "youth": 6.0,
-    "production": 3.0,
+    "production": 0.0,
     "asymmetry": 8.0,
-    "selection": 0.0,
+    "selection": 4.0,
     "n_sources": 1,
     "detection_count": 1
    },
    "n_sources": 1,
    "sources": [
     {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/solomon-islands-and-new-caledonia-enter-winners-circle-on-first-day-at-ofc-u-19-mens-championship/",
-     "seen": "2026-09-01T16:50:33.171492"
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/08/31/luisa-agudelo-se-integra-a-la-seleccion-colombia-femenina-sub-20/",
+     "seen": "2026-09-01T21:14:30.444821"
     }
    ],
    "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 1,
-    "apps": 1,
-    "minutes": 0
-   },
+   "stats": {},
    "publishable": false,
    "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-01T16:50:33.171492",
-   "last_seen": "2026-09-01T16:50:33.171492",
-   "selezione": {},
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T21:14:30.444821",
+   "last_seen": "2026-09-01T21:14:30.444821",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (agosto 2026).",
+    "dal": "2026-08-31",
+    "al": "2026-08-31",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-08-31",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/08/31/luisa-agudelo-se-integra-a-la-seleccion-colombia-femenina-sub-20/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
+   },
    "anomalie": [],
    "assessment": {
     "pros": [
-     "Produzione documentata: 1 assist in 1 presenze",
      "Contesto minore: valore potenzialmente sottoprezzato"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
      "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
      "Età non confermata"
     ],
     "next_steps": [
+     "Verificare il club attuale",
      "Confermare l'anno di nascita con la società",
      "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
     ],
     "pros_en": [
-     "Documented output: 1 assists in 1 appearances",
      "Minor context: potentially underpriced"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
      "The club appears in no source: re-verify before relying on it",
      "Single source: not yet corroborated",
+     "No documented performance stats",
      "Age not confirmed"
     ],
     "next_steps_en": [
+     "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
     ]
@@ -33138,111 +33363,6 @@
     "next_steps_en": [
      "Verify the current club",
      "Confirm the birth year with the club"
-    ]
-   }
-  },
-  {
-   "id": 367,
-   "name": "Ricky Hulana",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "beating Papua New Guinea goalkeeper Ricky Hulana from close range",
-     "url": "https://www.oceaniafootball.com/solomon-islands-and-new-caledonia-enter-winners-circle-on-first-day-at-ofc-u-19-mens-championship/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "goalkeeper",
-   "club": "Papua New Guinea U-19 national team",
-   "league": "OFC U-19 Men's Championship 2026",
-   "region": "Papua New Guinea",
-   "gender": "male",
-   "score": 7,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/solomon-islands-and-new-caledonia-enter-winners-circle-on-first-day-at-ofc-u-19-mens-championship/",
-     "seen": "2026-09-01T16:50:33.171492"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-01T16:50:33.171492",
-   "last_seen": "2026-09-01T16:50:33.171492",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances",
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
