@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-01T10:21:58.060819+00:00",
+ "generated_at": "2026-09-01T12:19:46.602131+00:00",
  "version": "1.0.0",
- "build": "39306f2",
- "total": 352,
- "publishable": 190,
- "tracking": 162,
- "shown": 352,
+ "build": "d95c0b4",
+ "total": 355,
+ "publishable": 191,
+ "tracking": 164,
+ "shown": 355,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 4,
@@ -8249,6 +8249,128 @@
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)",
      "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Luis Felipe Marquinez Valverde",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "SANCIONADO LUIS FELIPE MARQUINEZ VALVERDE",
+     "url": "https://fcf.com.co/2026/07/31/resolucion-super-copa-juvenil-no-020-de-2026-31-de-julio-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Luis Felipe Marquínez Valverde, 18 anni, Deportivo Pasto U20",
+     "url": "https://www.transfermarkt.us/luis-marquinez/profil/spieler/1503918"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Luis Felipe Marquínez Valverde, 18 anni, Deportivo Pasto U20",
+     "url": "https://www.transfermarkt.us/luis-marquinez/profil/spieler/1503918"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Goalkeeper",
+   "club": "Deportivo Pasto U20",
+   "league": null,
+   "region": "Colombia",
+   "gender": "unknown",
+   "score": 14,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/07/31/resolucion-super-copa-juvenil-no-020-de-2026-31-de-julio-2026/",
+     "seen": "2026-08-04T03:49:43.651791"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/luis-marquinez/profil/spieler/1503918",
+     "seen": "2026-09-01T11:56:15.018093"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-04T03:49:43.651791",
+   "last_seen": "2026-09-01T11:56:15.018093",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol (luglio 2026).",
+    "dal": "2026-07-31",
+    "al": "2026-07-31",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-07-31",
+      "categoria": "",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/07/31/resolucion-super-copa-juvenil-no-020-de-2026-31-de-julio-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
     ]
    }
   },
@@ -24512,6 +24634,116 @@
    }
   },
   {
+   "name": "Gustavo Gomes",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Soccerway",
+     "tipo": "aggregator",
+     "citazione": "Gustavo Gomes (Araguaina) Stats",
+     "url": "https://www.soccerway.com/player/gustavo-gomes/KErB2vi9/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Gustavo Rodrigues Gomes, 18 anni, Athletico Paranaense U20",
+     "url": "https://www.transfermarkt.us/gustavo-gomes/profil/spieler/1355816"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "CAM/CM",
+   "club": "Raio Amado",
+   "league": "Paulista Sub-17",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 17,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "ge.globo.com",
+     "url": "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/06/athletico-renova-com-o-meia-gustavo-gomes-promessa-da-base.ghtml",
+     "seen": "2026-03-07T08:58:35.986874"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/gustavo-gomes/KErB2vi9/",
+     "seen": "2026-07-18T03:42:09.534103"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/gustavo-gomes/profil/spieler/1355816",
+     "seen": "2026-09-01T11:56:15.018093"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-03-07T08:58:35.986874",
+   "last_seen": "2026-09-01T11:56:15.018093",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Minor context: potentially underpriced",
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Iago Machado",
    "age": 17,
    "age_stato": "dichiarato",
@@ -24616,113 +24848,6 @@
     ],
     "next_steps_en": [
      "Look for a primary press/federation source to bring it to the full standard",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "name": "Gustavo Gomes",
-   "age": 17,
-   "age_stato": "dedotto",
-   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Soccerway",
-     "tipo": "aggregator",
-     "citazione": "Gustavo Gomes (Araguaina) Stats",
-     "url": "https://www.soccerway.com/player/gustavo-gomes/KErB2vi9/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dedotto",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "CAM/CM",
-   "club": "Raio Amado",
-   "league": "Paulista Sub-17",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 14,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "ge.globo.com",
-     "url": "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/06/athletico-renova-com-o-meia-gustavo-gomes-promessa-da-base.ghtml",
-     "seen": "2026-03-07T08:58:35.986874"
-    },
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/gustavo-gomes/KErB2vi9/",
-     "seen": "2026-07-18T03:42:09.534103"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "eta_dedotto,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-03-07T08:58:35.986874",
-   "last_seen": "2026-07-07T03:22:18.663706",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "L'età (17) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-17)",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Very young (17 yo): plenty of room to develop",
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The age (17) is not stated by any source: it is inferred from the tournament category (U-17)",
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
      "Get performance stats (match reports)"
     ]
    }
@@ -28009,31 +28134,36 @@
    "region": "Uruguay",
    "gender": "unknown",
    "score": 0,
-   "confidence": 0.45,
+   "confidence": 0.73,
    "breakdown": {
     "youth": 15.0,
     "production": 0.0,
     "asymmetry": -20.0,
     "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 2
+    "n_sources": 2,
+    "detection_count": 3
    },
-   "n_sources": 1,
+   "n_sources": 2,
    "sources": [
     {
      "domain": "auf.org.uy",
      "url": "https://www.auf.org.uy/sub-17/",
      "seen": "2026-09-01T08:32:38.659540"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/pablo-barreiro/profil/spieler/1425962",
+     "seen": "2026-09-01T11:56:15.018093"
     }
    ],
-   "n_sources_registro": 1,
+   "n_sources_registro": 2,
    "stats": {},
    "publishable": false,
    "identity_complete": true,
-   "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
+   "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-01T08:40:56.884177",
+   "last_seen": "2026-09-01T11:56:15.018093",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -28059,30 +28189,26 @@
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol"
+     "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
+     "2 domini distinti lo nominano"
     ],
     "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Una sola fonte: non ancora corroborato",
      "Nessuna statistica di rendimento documentata",
      "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
     ],
     "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
      "Recuperare statistiche di rendimento (referti gara)"
     ],
     "pros_en": [
      "Very young (17 yo): plenty of room to develop",
-     "Name and club stated by AUF — Asociación Uruguaya de Fútbol"
+     "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
+     "2 distinct domains mention him"
     ],
     "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "Single source: not yet corroborated",
      "No documented performance stats",
      "High-visibility club/league: low asymmetry, competition likely"
     ],
     "next_steps_en": [
-     "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
    }
@@ -28128,31 +28254,36 @@
    "region": "Uruguay",
    "gender": "unknown",
    "score": 0,
-   "confidence": 0.45,
+   "confidence": 0.73,
    "breakdown": {
     "youth": 15.0,
     "production": 0.0,
     "asymmetry": -20.0,
     "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 2
+    "n_sources": 2,
+    "detection_count": 3
    },
-   "n_sources": 1,
+   "n_sources": 2,
    "sources": [
     {
      "domain": "auf.org.uy",
      "url": "https://www.auf.org.uy/sub-17/",
      "seen": "2026-09-01T08:32:38.659540"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/thiago-brizuela/profil/spieler/1432158",
+     "seen": "2026-09-01T11:56:15.018093"
     }
    ],
-   "n_sources_registro": 1,
+   "n_sources_registro": 2,
    "stats": {},
    "publishable": false,
    "identity_complete": true,
-   "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
+   "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-01T08:40:56.884177",
+   "last_seen": "2026-09-01T11:56:15.018093",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -28178,29 +28309,127 @@
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol"
+     "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
+     "2 domini distinti lo nominano"
     ],
     "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Una sola fonte: non ancora corroborato",
      "Nessuna statistica di rendimento documentata",
      "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
     ],
     "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
      "Recuperare statistiche di rendimento (referti gara)"
     ],
     "pros_en": [
      "Very young (17 yo): plenty of room to develop",
-     "Name and club stated by AUF — Asociación Uruguaya de Fútbol"
+     "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
+     "2 distinct domains mention him"
     ],
     "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "Single source: not yet corroborated",
      "No documented performance stats",
      "High-visibility club/league: low asymmetry, competition likely"
     ],
     "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Hamza Abdelkarim",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Barcelona",
+   "league": "La Liga",
+   "region": "Egypt",
+   "gender": "male",
+   "score": 0,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": -20.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "kingfut.com",
+     "url": "https://www.kingfut.com/2026/08/31/hamza-abdelkarim-makes-la-liga-debut-in-barcelon-win/#article",
+     "seen": "2026-09-01T11:56:15.018093"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_assente,club_assente,gia_coperto_da_tutti",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-01T11:56:15.018093",
+   "last_seen": "2026-09-01T11:56:15.018093",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
@@ -32529,6 +32758,107 @@
    }
   },
   {
+   "name": "Abdelhamid Maali",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Le360 Sport",
+     "tipo": "national_press",
+     "citazione": "Abdelhamid Maali, jeune international U23 et milieu de terrain de l’Ittihad de Tanger",
+     "url": "https://sport.le360.ma/football/botola/exclusif-malgre-la-tragedie-abdelhamid-maalivoit-lavenir-avec-ambition_GCDEU3B4KRFI3MODW7RYKVSOIM/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "midfielder",
+   "club": "Ittihad de Tanger",
+   "league": "Botola Pro Inwi",
+   "region": "Morocco",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "sport.le360.ma",
+     "url": "https://sport.le360.ma/football/botola/exclusif-malgre-la-tragedie-abdelhamid-maalivoit-lavenir-avec-ambition_GCDEU3B4KRFI3MODW7RYKVSOIM/",
+     "seen": "2026-09-01T11:56:15.018093"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-01T11:56:15.018093",
+   "last_seen": "2026-09-01T11:56:15.018093",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Juana Flores",
    "age": null,
    "age_stato": "assente",
@@ -35893,121 +36223,6 @@
    }
   },
   {
-   "name": "Luis Felipe Marquinez Valverde",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "SANCIONADO LUIS FELIPE MARQUINEZ VALVERDE",
-     "url": "https://fcf.com.co/2026/07/31/resolucion-super-copa-juvenil-no-020-de-2026-31-de-julio-2026/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "unknown",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/07/31/resolucion-super-copa-juvenil-no-020-de-2026-31-de-julio-2026/",
-     "seen": "2026-08-04T03:49:43.651791"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-04T03:49:43.651791",
-   "last_seen": "2026-08-04T03:49:43.651791",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol (luglio 2026).",
-    "dal": "2026-07-31",
-    "al": "2026-07-31",
-    "categorie": [],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-07-31",
-      "categoria": "",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/07/31/resolucion-super-copa-juvenil-no-020-de-2026-31-de-julio-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "name": "Valentino Acu",
    "age": null,
    "age_stato": "assente",
@@ -37068,6 +37283,103 @@
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-01T05:30:45.135627",
    "last_seen": "2026-09-01T05:30:45.135627",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "name": "Mohamed Ouahbi",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Le360 Sport",
+     "tipo": "national_press",
+     "citazione": "Mondial U20: qui est Mohamed Ouahbi, le faiseur de rêves marocain?",
+     "url": "https://sport.le360.ma/football/lions-atlas/mondial-u20-qui-est-mohamed-ouahbi-le-faiseur-de-reves-marocain_462QLNTTPRFMHH6NVBF4GCVDF4/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Morocco",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "sport.le360.ma",
+     "url": "https://sport.le360.ma/football/lions-atlas/mondial-u20-qui-est-mohamed-ouahbi-le-faiseur-de-reves-marocain_462QLNTTPRFMHH6NVBF4GCVDF4/",
+     "seen": "2026-09-01T11:56:15.018093"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-01T11:56:15.018093",
+   "last_seen": "2026-09-01T11:56:15.018093",
    "selezione": {},
    "anomalie": [],
    "assessment": {
