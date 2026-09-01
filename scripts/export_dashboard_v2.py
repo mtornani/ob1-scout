@@ -518,6 +518,12 @@ def export(db_path: Path, out_path: Path) -> dict:
         eta_mostrabile = p["age"] if eta_claim.get("stato") in (DICHIARATO, DEDOTTO) else None
 
         entry = {
+            # L'id del DB, non solo il nome: senza, il filtro "chi sono gli
+            # anticipi confermati" della dashboard (docs/index.html) non ha
+            # niente su cui agganciarsi — un nome da solo può avere un
+            # omonimo fra centinaia di profili. Trovato il 1 set 2026
+            # implementando quel filtro: mancava del tutto dall'export.
+            "id": p["id"],
             "name": name,
             "age": eta_mostrabile, "age_stato": eta_claim.get("stato"),
             "age_nota": eta_claim.get("nota", ""),
@@ -599,7 +605,7 @@ def export(db_path: Path, out_path: Path) -> dict:
         outcomes = OB1DatabaseV2(str(db_path)).outcomes_summary()
     except Exception as e:
         print(f"Warning: outcomes_summary failed: {e}")
-        outcomes = {"checked": 0, "avg_lead_time_days": None}
+        outcomes = {"checked": 0, "avg_lead_time_days": None, "casi": []}
 
     version, build = _version_and_build()
     doc = {

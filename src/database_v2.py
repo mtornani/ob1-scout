@@ -996,9 +996,17 @@ class OB1DatabaseV2:
                 from src.outcomes_v2 import evaluate_mainstream
             except ImportError:
                 from outcomes_v2 import evaluate_mainstream
+            # Il tipo della fonte dal registro (federation, national_press,
+            # aggregator...) decide se conta come stampa che ci ha ripresi o
+            # come la stessa bocca istituzionale che riappare. None per un
+            # dominio non curato (corroborazione libera): resta "hype" di
+            # default in evaluate_mainstream, il caso che il tabellone vuole
+            # davvero misurare. Vedi src/outcomes_v2.py, regola 3.
+            tipo_fonte_hype = registro().get(domain_of(src_url), {}).get("type")
             verdict = evaluate_mainstream(
                 prior_name, prior_club, prior_first_detected,
                 hype_url=src_url, hype_date=observed_at,
+                hype_source_type=tipo_fonte_hype,
             )
             if verdict["valid"]:
                 self.add_outcome(
@@ -1011,20 +1019,46 @@ class OB1DatabaseV2:
     # ---- Notifiche (cutover) ----
     def outcomes_summary(self) -> dict:
         """
-        Il tabellone (outcomes_v2, Fase B3), in tre numeri: quante volte
-        abbiamo verificato un anticipo, quante erano prove difendibili, e
-        l'anticipo medio in giorni su quelle valide. Zero prove non è un
-        errore — è la normalità finché il sistema non accumula storia.
+        Il tabellone (outcomes_v2, Fase B3): quante volte abbiamo verificato
+        un anticipo, l'anticipo medio in giorni sulle prove valide, e CHI
+        sono — nome, club, giorni, il link alla fonte che li ha ripresi.
+        Zero prove non è un errore — è la normalità finché il sistema non
+        accumula storia.
+
+        `casi` esiste da questo giro (1 set 2026): prima il numero era in
+        dashboard ("Anticipo confermato: 4") senza un solo nome dietro — un
+        aggregato non apribile, esattamente il contrario della promessa del
+        prodotto ("ogni nome con le sue prove"). E infatti quando qualcuno
+        ha chiesto di vedere i quattro nomi, si è scoperto che erano tre
+        riconvocazioni della stessa federazione spacciate per "ripreso dalla
+        stampa" e un "Enzo Fernández" al Benfica che il gate blocca altrove
+        come gia_coperto_da_tutti. Un numero che nessuno può aprire è un
+        numero che nessuno controlla.
         """
         with self._conn() as conn:
+            conn.row_factory = sqlite3.Row
             row = conn.execute("""
                 SELECT COUNT(*), AVG(lead_time_days)
-                FROM outcomes WHERE outcome_type='mainstream_lead_time'
+                FROM outcomes
+                WHERE outcome_type='mainstream_lead_time' AND COALESCE(suspect,0)=0
             """).fetchone()
+            casi = [dict(r) for r in conn.execute("""
+                SELECT p.id AS player_id, p.canonical_name AS nome, p.club AS club,
+                       o.lead_time_days AS giorni, o.source_url AS url,
+                       o.source_domain AS dominio, o.outcome_date AS quando
+                FROM outcomes o JOIN players p ON p.id = o.player_id
+                WHERE o.outcome_type='mainstream_lead_time' AND COALESCE(o.suspect,0)=0
+                ORDER BY o.lead_time_days DESC
+            """)]
+            # player_id: la dashboard filtra su questo per mostrare la scheda
+            # intera del giocatore dietro un caso confermato (tap sulla
+            # statistica), non solo il nome — un nome da solo puo' avere
+            # un omonimo tra i 355 profili.
         checked, avg_lead = row
         return {
             "checked": checked or 0,
             "avg_lead_time_days": round(avg_lead, 1) if avg_lead is not None else None,
+            "casi": casi,
         }
 
     def publishable_to_notify(self) -> list:
