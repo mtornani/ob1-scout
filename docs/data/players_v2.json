@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-01T05:12:41.344849+00:00",
+ "generated_at": "2026-09-01T05:49:30.886724+00:00",
  "version": "1.0.0",
- "build": "f2a0e1d",
- "total": 308,
- "publishable": 157,
- "tracking": 151,
- "shown": 308,
+ "build": "48e5b82",
+ "total": 317,
+ "publishable": 158,
+ "tracking": 159,
+ "shown": 317,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -2460,159 +2460,6 @@
    }
   },
   {
-   "name": "Juan Fernando Alegría Rodríguez",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Juan Fernando Alegría Rodríguez – Deportivo Cali (Cantera)",
-     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Juan Fernando Alegría Rodríguez – Deportivo Cali (Cantera)",
-     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Deportivo Cali",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 27,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 14.0,
-    "n_sources": 2,
-    "detection_count": 3
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
-     "seen": "2026-07-19T08:56:55.551442"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/juan-alegria/profil/spieler/662452",
-     "seen": "2026-07-29T14:52:11.689075"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": true,
-   "review_flags": "eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {
-    "quante": 2,
-    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra febbraio 2025 e gennaio 2026, dal Sub-16 al Sub-17.",
-    "dal": "2025-02-17",
-    "al": "2026-01-13",
-    "categorie": [
-     "sub-16",
-     "sub-17"
-    ],
-    "progressione": true,
-    "mesi_di_arco": 11,
-    "eventi": [
-     {
-      "data": "2025-02-17",
-      "categoria": "sub-16",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
-     },
-     {
-      "data": "2026-01-13",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between February 2025 and January 2026, from U16 to U17."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
-      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
-     ],
-     "dati": {
-      "convocazioni": 2,
-      "tipi_fonte": [
-       "aggregator",
-       "federation"
-      ]
-     }
-    }
-   ],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)",
-     "Richiedere video o programmare una visione diretta"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)",
-     "Request video or schedule a live viewing"
-    ]
-   }
-  },
-  {
    "name": "Cristian David Flórez Palacios",
    "age": 17,
    "age_stato": "dedotto",
@@ -3071,6 +2918,159 @@
      "Get performance stats (match reports)",
      "Request video or schedule a live viewing",
      "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "name": "Juan Fernando Alegría Rodríguez",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Juan Fernando Alegría Rodríguez – Deportivo Cali (Cantera)",
+     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Juan Fernando Alegría Rodríguez – Deportivo Cali (Cantera)",
+     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Deportivo Cali",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 27,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+     "seen": "2026-07-19T08:56:55.551442"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/juan-alegria/profil/spieler/662452",
+     "seen": "2026-07-29T14:52:11.689075"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": null,
+   "last_seen": null,
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra febbraio 2025 e gennaio 2026, dal Sub-16 al Sub-17.",
+    "dal": "2025-02-17",
+    "al": "2026-01-13",
+    "categorie": [
+     "sub-16",
+     "sub-17"
+    ],
+    "progressione": true,
+    "mesi_di_arco": 11,
+    "eventi": [
+     {
+      "data": "2025-02-17",
+      "categoria": "sub-16",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+     },
+     {
+      "data": "2026-01-13",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between February 2025 and January 2026, from U16 to U17."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
     ]
    }
   },
@@ -4083,153 +4083,6 @@
    }
   },
   {
-   "name": "Jacky Yoel Muñoz Yerena",
-   "age": 16,
-   "age_stato": "dedotto",
-   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-16)",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Jacky Yoel Muñoz Yerena – Barranquilla F.C",
-     "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Jacky Yoel Muñoz Yerena – Barranquilla F.C",
-     "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
-    },
-    "eta": {
-     "stato": "dedotto",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Barranquilla F.C",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 19,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 18.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 17.0,
-    "n_sources": 1,
-    "detection_count": 2
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/",
-     "seen": "2026-07-26T08:58:15.224553"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": true,
-   "review_flags": "fonte_singola,eta_dedotto",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {
-    "quante": 2,
-    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra luglio 2025 e luglio 2026, dal Sub-16 al Sub-17.",
-    "dal": "2025-07-31",
-    "al": "2026-07-19",
-    "categorie": [
-     "sub-16",
-     "sub-17"
-    ],
-    "progressione": true,
-    "mesi_di_arco": 12,
-    "eventi": [
-     {
-      "data": "2025-07-31",
-      "categoria": "sub-16",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/"
-     },
-     {
-      "data": "2026-07-19",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between July 2025 and July 2026, from U16 to U17."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
-      "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
-     ],
-     "dati": {
-      "convocazioni": 2,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "assessment": {
-    "pros": [
-     "Molto giovane (16 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)",
-     "Richiedere video o programmare una visione diretta"
-    ],
-    "pros_en": [
-     "Very young (16 yo): plenty of room to develop",
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)",
-     "Request video or schedule a live viewing"
-    ]
-   }
-  },
-  {
    "name": "Hermen Andrés Landázuri Landázuri",
    "age": null,
    "age_stato": "assente",
@@ -4611,6 +4464,153 @@
     ],
     "next_steps_en": [
      "Confirm the birth year with the club",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Jacky Yoel Muñoz Yerena",
+   "age": 16,
+   "age_stato": "dedotto",
+   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-16)",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Jacky Yoel Muñoz Yerena – Barranquilla F.C",
+     "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Jacky Yoel Muñoz Yerena – Barranquilla F.C",
+     "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
+    },
+    "eta": {
+     "stato": "dedotto",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Barranquilla F.C",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 19,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 17.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/",
+     "seen": "2026-07-26T08:58:15.224553"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dedotto",
+   "coverage_tier": "standard",
+   "first_detected": null,
+   "last_seen": null,
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra luglio 2025 e luglio 2026, dal Sub-16 al Sub-17.",
+    "dal": "2025-07-31",
+    "al": "2026-07-19",
+    "categorie": [
+     "sub-16",
+     "sub-17"
+    ],
+    "progressione": true,
+    "mesi_di_arco": 12,
+    "eventi": [
+     {
+      "data": "2025-07-31",
+      "categoria": "sub-16",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/"
+     },
+     {
+      "data": "2026-07-19",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between July 2025 and July 2026, from U16 to U17."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
+      "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (16 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)",
      "Request video or schedule a live viewing"
     ]
@@ -5006,153 +5006,6 @@
      "Confirm the birth year with the club",
      "Request video or schedule a live viewing",
      "Call the club: confirm identity and contract status"
-    ]
-   }
-  },
-  {
-   "name": "Brayner Quiñones Charrupi",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Brayner Quiñones Charrupi – Atlético Boca Juniors",
-     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Brayner Quiñones Charrupi – Atlético Boca Juniors",
-     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Atlético Boca Juniors",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 17,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 14.0,
-    "n_sources": 1,
-    "detection_count": 2
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
-     "seen": "2026-07-19T08:56:55.551442"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": true,
-   "review_flags": "fonte_singola,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {
-    "quante": 2,
-    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra febbraio 2025 e gennaio 2026, dal Sub-16 al Sub-17.",
-    "dal": "2025-02-17",
-    "al": "2026-01-13",
-    "categorie": [
-     "sub-16",
-     "sub-17"
-    ],
-    "progressione": true,
-    "mesi_di_arco": 11,
-    "eventi": [
-     {
-      "data": "2025-02-17",
-      "categoria": "sub-16",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
-     },
-     {
-      "data": "2026-01-13",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between February 2025 and January 2026, from U16 to U17."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
-      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
-     ],
-     "dati": {
-      "convocazioni": 2,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
     ]
    }
   },
@@ -5670,6 +5523,153 @@
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)",
      "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Brayner Quiñones Charrupi",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Brayner Quiñones Charrupi – Atlético Boca Juniors",
+     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Brayner Quiñones Charrupi – Atlético Boca Juniors",
+     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Atlético Boca Juniors",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 17,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+     "seen": "2026-07-19T08:56:55.551442"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": null,
+   "last_seen": null,
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra febbraio 2025 e gennaio 2026, dal Sub-16 al Sub-17.",
+    "dal": "2025-02-17",
+    "al": "2026-01-13",
+    "categorie": [
+     "sub-16",
+     "sub-17"
+    ],
+    "progressione": true,
+    "mesi_di_arco": 11,
+    "eventi": [
+     {
+      "data": "2025-02-17",
+      "categoria": "sub-16",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+     },
+     {
+      "data": "2026-01-13",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between February 2025 and January 2026, from U16 to U17."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
     ]
    }
   },
@@ -18954,6 +18954,103 @@
    }
   },
   {
+   "name": "Vusi Moyo",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "SuperSport Football",
+     "tipo": "national_press",
+     "citazione": "Hollywoodbets Sharks flyhalf Vusi Moyo, who is recovering from hip surgery",
+     "url": "https://supersport.com/rugby/news/838b18f3-a64c-4fdb-8bdc-8374382c16ee/foote-names-expanded-junior-bok-group-for-trcu20-training-camp"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "SuperSport Football",
+     "tipo": "national_press",
+     "citazione": "Hollywoodbets Sharks flyhalf Vusi Moyo, who is recovering from hip surgery",
+     "url": "https://supersport.com/rugby/news/838b18f3-a64c-4fdb-8bdc-8374382c16ee/foote-names-expanded-junior-bok-group-for-trcu20-training-camp"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "flyhalf",
+   "club": "Hollywoodbets Sharks",
+   "league": null,
+   "region": "South Africa",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "supersport.com",
+     "url": "https://supersport.com/rugby/news/838b18f3-a64c-4fdb-8bdc-8374382c16ee/foote-names-expanded-junior-bok-group-for-trcu20-training-camp",
+     "seen": "2026-09-01T05:30:45.135627"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-01T05:30:45.135627",
+   "last_seen": "2026-09-01T05:30:45.135627",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Fode Diallo",
    "age": 14,
    "age_stato": "dichiarato",
@@ -19511,30 +19608,35 @@
      "url": ""
     }
    },
-   "position": null,
+   "position": "Left Winger",
    "club": "Atlético Nacional",
    "league": null,
    "region": "Colombia",
    "gender": "male",
-   "score": 28,
-   "confidence": 0.55,
+   "score": 36,
+   "confidence": 0.73,
    "breakdown": {
     "youth": 15.0,
     "production": 0.0,
     "asymmetry": 8.0,
     "selection": 27.0,
-    "n_sources": 1,
-    "detection_count": 6
+    "n_sources": 2,
+    "detection_count": 7
    },
-   "n_sources": 1,
+   "n_sources": 2,
    "sources": [
     {
      "domain": "fcf.com.co",
      "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
      "seen": "2026-07-16T19:42:31.108991"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/jose-escorcia/profil/spieler/1381088",
+     "seen": "2026-09-01T05:30:45.135627"
     }
    ],
-   "n_sources_registro": 1,
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -19543,10 +19645,10 @@
    },
    "publishable": false,
    "identity_complete": true,
-   "review_flags": "fonte_singola,eta_assente",
+   "review_flags": "eta_assente",
    "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
+   "first_detected": "2026-09-01T05:30:45.135627",
+   "last_seen": "2026-09-01T05:30:45.135627",
    "selezione": {
     "quante": 6,
     "frase": "Convocato 6 volte da Federación Colombiana de Fútbol tra febbraio 2025 e luglio 2026, dal Sub-16 al Sub-17.",
@@ -19615,6 +19717,7 @@
      "dati": {
       "convocazioni": 6,
       "tipi_fonte": [
+       "aggregator",
        "federation"
       ]
      }
@@ -19622,29 +19725,27 @@
    ],
    "assessment": {
     "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Una sola fonte: non ancora corroborato",
      "Nessuna statistica di rendimento documentata",
      "Età non confermata"
     ],
     "next_steps": [
      "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
      "Recuperare statistiche di rendimento (referti gara)"
     ],
     "pros_en": [
-     "Minor context: potentially underpriced"
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Single source: not yet corroborated",
      "No documented performance stats",
      "Age not confirmed"
     ],
     "next_steps_en": [
      "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
    }
@@ -19689,17 +19790,17 @@
    "league": "Primeira Liga (Portugal)",
    "region": "Portugal",
    "gender": "male",
-   "score": 21,
-   "confidence": 0.91,
+   "score": 23,
+   "confidence": 1.0,
    "breakdown": {
     "youth": 15.0,
     "production": 0.0,
     "asymmetry": 8.0,
     "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 4
+    "n_sources": 4,
+    "detection_count": 5
    },
-   "n_sources": 3,
+   "n_sources": 4,
    "sources": [
     {
      "domain": "jovenspromessas.pt",
@@ -19715,9 +19816,14 @@
      "domain": "soccerway.com",
      "url": "https://www.soccerway.com/player/camargo/8nPk6Ved/",
      "seen": "2026-08-29T16:50:29.768229"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/tiago-camargo-3415888",
+     "seen": "2026-09-01T05:30:45.135627"
     }
    ],
-   "n_sources_registro": 3,
+   "n_sources_registro": 4,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -19729,14 +19835,15 @@
    "review_flags": "senza_fonte_primary,eta_dedotto",
    "coverage_tier": "standard",
    "first_detected": "2026-07-05T03:23:40.915578",
-   "last_seen": "2026-08-29T16:50:29.768229",
+   "last_seen": "2026-09-01T05:30:45.135627",
    "selezione": {},
    "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 3 fonti indipendenti"
+     "Identità confermata da 4 fonti indipendenti",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19749,7 +19856,8 @@
     "pros_en": [
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
-     "Identity confirmed by 3 independent sources"
+     "Identity confirmed by 4 independent sources",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -21119,7 +21227,7 @@
    "last_seen": null,
    "selezione": {
     "quante": 1,
-    "frase": "Convocato una volta da AUF — Selecciones Juveniles.",
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol.",
     "dal": "",
     "al": "",
     "categorie": [],
@@ -21129,12 +21237,12 @@
      {
       "data": "",
       "categoria": "",
-      "fonte": "AUF — Selecciones Juveniles",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
       "url": "https://www.auf.org.uy/la-copa-de-las-oportunidades/"
      }
     ],
-    "fonte": "AUF — Selecciones Juveniles",
-    "frase_en": "Called up 1 times by AUF — Selecciones Juveniles."
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol."
    },
    "anomalie": [],
    "assessment": {
@@ -21995,7 +22103,7 @@
    "last_seen": null,
    "selezione": {
     "quante": 1,
-    "frase": "Convocato una volta da AUF — Selecciones Juveniles.",
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol.",
     "dal": "",
     "al": "",
     "categorie": [],
@@ -22005,12 +22113,12 @@
      {
       "data": "",
       "categoria": "",
-      "fonte": "AUF — Selecciones Juveniles",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
       "url": "https://www.auf.org.uy/la-copa-de-las-oportunidades/"
      }
     ],
-    "fonte": "AUF — Selecciones Juveniles",
-    "frase_en": "Called up 1 times by AUF — Selecciones Juveniles."
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol."
    },
    "anomalie": [],
    "assessment": {
@@ -26716,7 +26824,7 @@
    "last_seen": "2026-08-23T07:11:16.983089",
    "selezione": {
     "quante": 1,
-    "frase": "Convocato una volta da AUF — Selecciones Juveniles.",
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol.",
     "dal": "",
     "al": "",
     "categorie": [],
@@ -26726,12 +26834,12 @@
      {
       "data": "",
       "categoria": "",
-      "fonte": "AUF — Selecciones Juveniles",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
       "url": "https://auf.org.uy/noticia-categoria/3/"
      }
     ],
-    "fonte": "AUF — Selecciones Juveniles",
-    "frase_en": "Called up 1 times by AUF — Selecciones Juveniles."
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol."
    },
    "anomalie": [],
    "assessment": {
@@ -27274,6 +27382,394 @@
    "coverage_tier": "low_coverage",
    "first_detected": "2026-08-30T16:55:24.926157",
    "last_seen": "2026-08-30T16:55:24.926157",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Luan Giliomee",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "SuperSport Football",
+     "tipo": "national_press",
+     "citazione": "utility back Luan Giliomee, who recently made his international debut for the Blitzboks",
+     "url": "https://supersport.com/rugby/news/838b18f3-a64c-4fdb-8bdc-8374382c16ee/foote-names-expanded-junior-bok-group-for-trcu20-training-camp"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "utility back",
+   "club": "Junior Springboks",
+   "league": "U20 International Series",
+   "region": "South Africa",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "supersport.com",
+     "url": "https://supersport.com/rugby/news/838b18f3-a64c-4fdb-8bdc-8374382c16ee/foote-names-expanded-junior-bok-group-for-trcu20-training-camp",
+     "seen": "2026-09-01T05:30:45.135627"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-01T05:30:45.135627",
+   "last_seen": "2026-09-01T05:30:45.135627",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Christian Vorster",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "SuperSport Football",
+     "tipo": "national_press",
+     "citazione": "regulars such as Luan Giliomee, Christian Vorster, Jordan Steenkamp, and Pieter van der Merwe back in the group",
+     "url": "https://supersport.com/rugby/news/306f1c68-17d1-46d4-99da-1aa788362d0b/extended-junior-bok-group-named-for-u20-international-series"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Junior Springboks",
+   "league": "U20 International Series",
+   "region": "South Africa",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "supersport.com",
+     "url": "https://supersport.com/rugby/news/306f1c68-17d1-46d4-99da-1aa788362d0b/extended-junior-bok-group-named-for-u20-international-series",
+     "seen": "2026-09-01T05:30:45.135627"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-01T05:30:45.135627",
+   "last_seen": "2026-09-01T05:30:45.135627",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Jordan Steenkamp",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "SuperSport Football",
+     "tipo": "national_press",
+     "citazione": "regulars such as Luan Giliomee, Christian Vorster, Jordan Steenkamp, and Pieter van der Merwe back in the group",
+     "url": "https://supersport.com/rugby/news/306f1c68-17d1-46d4-99da-1aa788362d0b/extended-junior-bok-group-named-for-u20-international-series"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Junior Springboks",
+   "league": "U20 International Series",
+   "region": "South Africa",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "supersport.com",
+     "url": "https://supersport.com/rugby/news/306f1c68-17d1-46d4-99da-1aa788362d0b/extended-junior-bok-group-named-for-u20-international-series",
+     "seen": "2026-09-01T05:30:45.135627"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-01T05:30:45.135627",
+   "last_seen": "2026-09-01T05:30:45.135627",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Pieter van der Merwe",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "SuperSport Football",
+     "tipo": "national_press",
+     "citazione": "regulars such as Luan Giliomee, Christian Vorster, Jordan Steenkamp, and Pieter van der Merwe back in the group",
+     "url": "https://supersport.com/rugby/news/306f1c68-17d1-46d4-99da-1aa788362d0b/extended-junior-bok-group-named-for-u20-international-series"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Junior Springboks",
+   "league": "U20 International Series",
+   "region": "South Africa",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "supersport.com",
+     "url": "https://supersport.com/rugby/news/306f1c68-17d1-46d4-99da-1aa788362d0b/extended-junior-bok-group-named-for-u20-international-series",
+     "seen": "2026-09-01T05:30:45.135627"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-01T05:30:45.135627",
+   "last_seen": "2026-09-01T05:30:45.135627",
    "selezione": {},
    "anomalie": [],
    "assessment": {
@@ -31246,6 +31742,386 @@
    "coverage_tier": "low_coverage",
    "first_detected": "2026-08-30T16:55:24.926157",
    "last_seen": "2026-08-30T16:55:24.926157",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "name": "Riley Norton",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "SuperSport Football",
+     "tipo": "national_press",
+     "citazione": "Riley Norton, who skippered the Junior Boks to the world title last year in Italy",
+     "url": "https://supersport.com/rugby/news/838b18f3-a64c-4fdb-8bdc-8374382c16ee/foote-names-expanded-junior-bok-group-for-trcu20-training-camp"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "South Africa",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "supersport.com",
+     "url": "https://supersport.com/rugby/news/838b18f3-a64c-4fdb-8bdc-8374382c16ee/foote-names-expanded-junior-bok-group-for-trcu20-training-camp",
+     "seen": "2026-09-01T05:30:45.135627"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-01T05:30:45.135627",
+   "last_seen": "2026-09-01T05:30:45.135627",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "name": "Siphosethu Mnebelele",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "SuperSport Football",
+     "tipo": "national_press",
+     "citazione": "Siphosethu Mnebelele, Kai Pratt, and Markus Muller all had a taste of the senior Springbok environment",
+     "url": "https://supersport.com/rugby/news/838b18f3-a64c-4fdb-8bdc-8374382c16ee/foote-names-expanded-junior-bok-group-for-trcu20-training-camp"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "South Africa",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "supersport.com",
+     "url": "https://supersport.com/rugby/news/838b18f3-a64c-4fdb-8bdc-8374382c16ee/foote-names-expanded-junior-bok-group-for-trcu20-training-camp",
+     "seen": "2026-09-01T05:30:45.135627"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-01T05:30:45.135627",
+   "last_seen": "2026-09-01T05:30:45.135627",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "name": "Kai Pratt",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "SuperSport Football",
+     "tipo": "national_press",
+     "citazione": "Siphosethu Mnebelele, Kai Pratt, and Markus Muller all had a taste of the senior Springbok environment",
+     "url": "https://supersport.com/rugby/news/838b18f3-a64c-4fdb-8bdc-8374382c16ee/foote-names-expanded-junior-bok-group-for-trcu20-training-camp"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "South Africa",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "supersport.com",
+     "url": "https://supersport.com/rugby/news/838b18f3-a64c-4fdb-8bdc-8374382c16ee/foote-names-expanded-junior-bok-group-for-trcu20-training-camp",
+     "seen": "2026-09-01T05:30:45.135627"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-01T05:30:45.135627",
+   "last_seen": "2026-09-01T05:30:45.135627",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "name": "Markus Muller",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "SuperSport Football",
+     "tipo": "national_press",
+     "citazione": "Siphosethu Mnebelele, Kai Pratt, and Markus Muller all had a taste of the senior Springbok environment",
+     "url": "https://supersport.com/rugby/news/838b18f3-a64c-4fdb-8bdc-8374382c16ee/foote-names-expanded-junior-bok-group-for-trcu20-training-camp"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "South Africa",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "supersport.com",
+     "url": "https://supersport.com/rugby/news/838b18f3-a64c-4fdb-8bdc-8374382c16ee/foote-names-expanded-junior-bok-group-for-trcu20-training-camp",
+     "seen": "2026-09-01T05:30:45.135627"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-01T05:30:45.135627",
+   "last_seen": "2026-09-01T05:30:45.135627",
    "selezione": {},
    "anomalie": [],
    "assessment": {
