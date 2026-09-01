@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-01T05:49:30.886724+00:00",
+ "generated_at": "2026-09-01T08:32:47.845868+00:00",
  "version": "1.0.0",
- "build": "48e5b82",
- "total": 317,
- "publishable": 158,
- "tracking": 159,
- "shown": 317,
+ "build": "e3e7c1b",
+ "total": 337,
+ "publishable": 176,
+ "tracking": 161,
+ "shown": 337,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -6958,6 +6958,942 @@
    }
   },
   {
+   "name": "Luis Machín",
+   "age": 16,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Luis Machín, Portiere, nato il 06/02/2010, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Luis Machín, Portiere, nato il 06/02/2010, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Luis Machín, Portiere, nato il 06/02/2010, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Portiere",
+   "club": "Nacional",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 14,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (16 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Ezequiel Fernández",
+   "age": 15,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Ezequiel Fernández, Difensore, nato il 13/10/2010, Peñarol",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Ezequiel Fernández, Difensore, nato il 13/10/2010, Peñarol",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Ezequiel Fernández, Difensore, nato il 13/10/2010, Peñarol",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Difensore",
+   "club": "Peñarol",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 14,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 20.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (15 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (15 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Dahel Guedes",
+   "age": 16,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Dahel Guedes, Difensore, nato il 08/09/2009, Peñarol",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Dahel Guedes, Difensore, nato il 08/09/2009, Peñarol",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Dahel Guedes, Difensore, nato il 08/09/2009, Peñarol",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Difensore",
+   "club": "Peñarol",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 14,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (16 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Dante Rodella",
+   "age": 16,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Dante Rodella, Difensore, nato il 05/03/2010, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Dante Rodella, Difensore, nato il 05/03/2010, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Dante Rodella, Difensore, nato il 05/03/2010, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Difensore",
+   "club": "Nacional",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 14,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (16 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Anderson Luz",
+   "age": 16,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Anderson Luz, Centrocampista, nato il 19/09/2009, M. City Torque",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Anderson Luz, Centrocampista, nato il 19/09/2009, M. City Torque",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Anderson Luz, Centrocampista, nato il 19/09/2009, M. City Torque",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Centrocampista",
+   "club": "M. City Torque",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 14,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (16 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Facundo Rodríguez",
+   "age": 16,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Facundo Rodríguez, Centrocampista, nato il 12/01/2010, M. City Torque",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Facundo Rodríguez, Centrocampista, nato il 12/01/2010, M. City Torque",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Facundo Rodríguez, Centrocampista, nato il 12/01/2010, M. City Torque",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Centrocampista",
+   "club": "M. City Torque",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 14,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (16 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Nicolás Scotti",
+   "age": 16,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Nicolás Scotti, Attaccante, nato il 26/11/2009, Defensor Sp.",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Nicolás Scotti, Attaccante, nato il 26/11/2009, Defensor Sp.",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Nicolás Scotti, Attaccante, nato il 26/11/2009, Defensor Sp.",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attaccante",
+   "club": "Defensor Sp.",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 14,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (16 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Alan Soares De Lima",
+   "age": 16,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Alan Soares De Lima, Attaccante, nato il 16/01/2010, Defensor Sp.",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Alan Soares De Lima, Attaccante, nato il 16/01/2010, Defensor Sp.",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Alan Soares De Lima, Attaccante, nato il 16/01/2010, Defensor Sp.",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attaccante",
+   "club": "Defensor Sp.",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 14,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (16 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
    "name": "Nicolás Arango Montoya",
    "age": null,
    "age_stato": "assente",
@@ -9114,6 +10050,1059 @@
     "next_steps_en": [
      "Request video or schedule a live viewing",
      "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "name": "Augusto Sánchez",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Augusto Sánchez, Portiere, nato il 08/02/2009, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Augusto Sánchez, Portiere, nato il 08/02/2009, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Augusto Sánchez, Portiere, nato il 08/02/2009, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Portiere",
+   "club": "Nacional",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 12,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Mateo Díaz",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Mateo Díaz, Portiere, nato il 12/07/2009, Peñarol",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Mateo Díaz, Portiere, nato il 12/07/2009, Peñarol",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Mateo Díaz, Portiere, nato il 12/07/2009, Peñarol",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Portiere",
+   "club": "Peñarol",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 12,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Gabriel Da Silva",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Gabriel Da Silva, Difensore, nato il 13/01/2009, Peñarol",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Gabriel Da Silva, Difensore, nato il 13/01/2009, Peñarol",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Gabriel Da Silva, Difensore, nato il 13/01/2009, Peñarol",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Difensore",
+   "club": "Peñarol",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 12,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Lautaro Muñiz",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Lautaro Muñiz, Difensore, nato il 26/03/2009, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Lautaro Muñiz, Difensore, nato il 26/03/2009, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Lautaro Muñiz, Difensore, nato il 26/03/2009, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Difensore",
+   "club": "Nacional",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 12,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Bruno Bueno",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Bruno Bueno, Centrocampista, nato il 02/01/2009, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Bruno Bueno, Centrocampista, nato il 02/01/2009, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Bruno Bueno, Centrocampista, nato il 02/01/2009, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Centrocampista",
+   "club": "Nacional",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 12,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Ramiro García",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Ramiro García, Centrocampista, nato il 06/06/2009, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Ramiro García, Centrocampista, nato il 06/06/2009, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Ramiro García, Centrocampista, nato il 06/06/2009, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Centrocampista",
+   "club": "Nacional",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 12,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Lautaro Blengio",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Lautaro Blengio, Centrocampista, nato il 14/08/2009, Wanderers",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Lautaro Blengio, Centrocampista, nato il 14/08/2009, Wanderers",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Lautaro Blengio, Centrocampista, nato il 14/08/2009, Wanderers",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Centrocampista",
+   "club": "Wanderers",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 12,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Emiliano Haller",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Emiliano Haller, Attaccante, nato il 20/05/2009, M. City Torque",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Emiliano Haller, Attaccante, nato il 20/05/2009, M. City Torque",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Emiliano Haller, Attaccante, nato il 20/05/2009, M. City Torque",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attaccante",
+   "club": "M. City Torque",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 12,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Juan Gancheff",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Juan Gancheff, Attaccante, nato il 20/04/2009, Boston River",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Juan Gancheff, Attaccante, nato il 20/04/2009, Boston River",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Juan Gancheff, Attaccante, nato il 20/04/2009, Boston River",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attaccante",
+   "club": "Boston River",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 12,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
     ]
    }
   },
@@ -16369,6 +18358,123 @@
    }
   },
   {
+   "name": "Vicente Pesce",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Vicente Pesce, Attaccante, Paysandú F.C.",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Vicente Pesce, Attaccante, Paysandú F.C.",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attaccante",
+   "club": "Paysandú F.C.",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "name": "Mateo Chávez",
    "age": 22,
    "age_stato": "dichiarato",
@@ -23585,6 +25691,236 @@
      "High-visibility club/league: low asymmetry, competition likely"
     ],
     "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Pablo Barreiro",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Pablo Barreiro, Centrocampista, nato il 07/01/2009, Liverpool",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Pablo Barreiro, Centrocampista, nato il 07/01/2009, Liverpool",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Pablo Barreiro, Centrocampista, nato il 07/01/2009, Liverpool",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Centrocampista",
+   "club": "Liverpool",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 0,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": -20.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato,gia_coperto_da_tutti",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "High-visibility club/league: low asymmetry, competition likely"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Thiago Brizuela",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Thiago Brizuela, Attaccante, nato il 26/02/2009, Liverpool",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Thiago Brizuela, Attaccante, nato il 26/02/2009, Liverpool",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Thiago Brizuela, Attaccante, nato il 26/02/2009, Liverpool",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attaccante",
+   "club": "Liverpool",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 0,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": -20.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato,gia_coperto_da_tutti",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "High-visibility club/league: low asymmetry, competition likely"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
    }
@@ -33460,9 +35796,9 @@
   },
   {
    "name": "Felipe",
-   "age": 16,
-   "age_stato": "dedotto",
-   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-16)",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
    "claims": {
     "nome": {
      "stato": "dichiarato",
@@ -33479,11 +35815,11 @@
      "url": ""
     },
     "eta": {
-     "stato": "dedotto",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Felipe De León, Difensore, nato il 20/04/2009, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
     },
     "stats": {
      "stato": "assente",
@@ -33498,17 +35834,17 @@
    "league": "Copa Chile",
    "region": "Chile",
    "gender": "male",
-   "score": 53,
-   "confidence": 0.91,
+   "score": 55,
+   "confidence": 1.0,
    "breakdown": {
-    "youth": 18.0,
+    "youth": 15.0,
     "production": 0.0,
     "asymmetry": 8.0,
     "selection": 32.0,
-    "n_sources": 3,
-    "detection_count": 7
+    "n_sources": 4,
+    "detection_count": 8
    },
-   "n_sources": 3,
+   "n_sources": 4,
    "sources": [
     {
      "domain": "portalbrazuca.com.br",
@@ -33524,9 +35860,14 @@
      "domain": "itatiaia.com.br",
      "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-mineiro/cruzeiro/artur-jorge-revela-por-que-escalou-felipe-morais-em-vitoria-do-cruzeiro-sobre-coritiba/",
      "seen": "2026-08-24T02:08:37.281942"
+    },
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
     }
    ],
-   "n_sources_registro": 2,
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -33535,13 +35876,13 @@
    },
    "publishable": false,
    "identity_complete": false,
-   "review_flags": "nome_singolo,eta_dedotto",
+   "review_flags": "nome_singolo,eta_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-03-03T02:08:53.868938",
-   "last_seen": "2026-08-24T02:08:37.281942",
+   "last_seen": "2026-09-01T08:32:38.659540",
    "selezione": {
-    "quante": 5,
-    "frase": "Convocato 5 volte da Federación Colombiana de Fútbol tra luglio 2025 e luglio 2026, dal Sub-16 al Sub-19.",
+    "quante": 6,
+    "frase": "Convocato 6 volte da più federazioni tra luglio 2025 e luglio 2026, dal Sub-16 al Sub-19.",
     "dal": "2025-07-31",
     "al": "2026-07-31",
     "categorie": [
@@ -33581,17 +35922,23 @@
       "categoria": "",
       "fonte": "Federación Colombiana de Fútbol",
       "url": "https://fcf.com.co/2026/07/31/resolucion-super-copa-juvenil-no-020-de-2026-31-de-julio-2026/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
      }
     ],
     "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 5 times by Federación Colombiana de Fútbol between July 2025 and July 2026, from U16 to U19."
+    "frase_en": "Called up 6 times by Federación Colombiana de Fútbol between July 2025 and July 2026, from U16 to U19."
    },
    "anomalie": [],
    "assessment": {
     "pros": [
-     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 3 fonti indipendenti"
+     "Identità confermata da 4 fonti indipendenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -33602,9 +35949,9 @@
      "Recuperare statistiche di rendimento (referti gara)"
     ],
     "pros_en": [
-     "Very young (16 yo): plenty of room to develop",
+     "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
-     "Identity confirmed by 3 independent sources"
+     "Identity confirmed by 4 independent sources"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -34089,6 +36436,125 @@
     ],
     "next_steps_en": [
      "Resolve the identity: needs a verifiable full name",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "name": "Mora",
+   "age": 16,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Dylan Mora, Difensore, nato il 22/05/2010, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Dylan Mora, Difensore, nato il 22/05/2010, Nacional",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Forward",
+   "club": "Club Tijuana",
+   "league": "Liga MX",
+   "region": "Mexico",
+   "gender": "unknown",
+   "score": 16,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 3
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "nome_singolo,fonte_singola,eta_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-03-17T19:03:30.174168",
+   "last_seen": "2026-09-01T08:32:38.659540",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Identità debole: nome incompleto o soprannome"
+    ],
+    "next_steps": [
+     "Risolvere l'identità: serve un nome completo verificabile",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Very young (16 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Weak identity: incomplete name or nickname"
+    ],
+    "next_steps_en": [
+     "Resolve the identity: needs a verifiable full name",
+     "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
    }
@@ -36642,99 +39108,6 @@
     ],
     "pros_en": [
      "Off the mainstream radar: high information asymmetry"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Weak identity: incomplete name or nickname"
-    ],
-    "next_steps_en": [
-     "Resolve the identity: needs a verifiable full name",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "name": "Mora",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Forward",
-   "club": "Club Tijuana",
-   "league": "Liga MX",
-   "region": "Mexico",
-   "gender": "unknown",
-   "score": 10,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 0,
-   "sources": [],
-   "n_sources_registro": 0,
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "nome_singolo,fonte_singola,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-03-17T19:03:30.174168",
-   "last_seen": "2026-07-05T19:18:24.173328",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Identità debole: nome incompleto o soprannome"
-    ],
-    "next_steps": [
-     "Risolvere l'identità: serve un nome completo verificabile",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
     ],
     "cautions_en": [
      "Single source: not yet corroborated",
