@@ -523,15 +523,32 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
         chat_id = os.getenv("TELEGRAM_CHAT_ID", "")
         if token and chat_id:
             import requests
+            # "verificato/i (>=2 fonti)" era la formula del gate vecchio, quello
+            # che contava i domini. Dal 26 ago 2026 il gate decide sui claim —
+            # identita' scritta da una fonte COMPETENTE — e un profilo puo'
+            # uscire con una fonte sola. Il 1 set 2026 i 32 in coda avevano
+            # tutti e 32 una fonte sola, e questo messaggio li avrebbe
+            # annunciati come "verificati (>=2 fonti)": falso, sul canale piu'
+            # diretto che abbiamo. Stesso difetto appena tolto dalla dashboard,
+            # rimasto qui perche' la frase vive in un altro file.
+            soli = sum(1 for p in to_notify if (p.get("n_fonti") or 0) < 2)
             lines = [f"<b>OB1 SCOUT v2</b>  {datetime.now().strftime('%d/%m %H:%M')}",
-                     f"✅ {len(to_notify)} nuovo/i profilo/i verificato/i (≥2 fonti):", ""]
+                     f"✅ {len(to_notify)} nuovo/i profilo/i che passa/no il gate:", ""]
             for p in to_notify[:8]:
                 bits = [str(p.get("age") or "?") + "y", p.get("position") or "?",
                         p.get("club") or "?"]
-                lines.append(f"• <b>{p['canonical_name']}</b> — {' · '.join(bits)} [{p['score']}]")
+                marchio = " ·1️⃣" if (p.get("n_fonti") or 0) < 2 else ""
+                lines.append(f"• <b>{p['canonical_name']}</b> — {' · '.join(bits)} "
+                             f"[{p['score']}]{marchio}")
             if len(to_notify) > 8:
                 lines.append(f"<i>…e altri {len(to_notify) - 8} profili in dashboard.</i>")
             lines.append("")
+            if soli:
+                lines.append(
+                    f"<i>1️⃣ = {soli} su {len(to_notify)} con una fonte sola. Il gate "
+                    f"certifica che nome e club li scrive una fonte competente, "
+                    f"non che siano corroborati da due.</i>")
+                lines.append("")
             lines.append('<a href="https://ob1global.matchanalysispro.online/">Dashboard</a>')
             try:
                 r = requests.post(
