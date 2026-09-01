@@ -183,6 +183,7 @@
   <div class="stats" id="stats" hidden>
     <div class="stat"><div class="n" id="st-pub">–</div><div class="l" data-i18n="stats.verified">Profili verificati</div></div>
     <div class="stat"><div class="n" id="st-trk">–</div><div class="l" data-i18n="stats.tracking">In tracking</div></div>
+    <div class="stat" id="st-outc-wrap" title=""><div class="n" id="st-outc">–</div><div class="l" data-i18n="stats.outcomes">Anticipo confermato</div></div>
     <div class="stat"><div class="n" id="st-upd">–</div><div class="l" data-i18n="stats.updated">Aggiornato</div></div>
   </div>
   <div class="ver" id="ver" hidden></div>
@@ -232,7 +233,7 @@
   </details>
 </section>
 
-<footer id="foot" hidden><span data-i18n="footer.main">OB1 Scout · v2 · discovery da fonti curate, pubblicazione solo con ≥2 fonti</span></footer>
+<footer id="foot" hidden><span data-i18n="footer.main">OB1 Scout · v2 · discovery da fonti curate, pubblicazione solo con identità provata da una fonte competente</span></footer>
 
 <script src="js/tracker.js" data-track-url="https://orange-truth-2304.mirkotornani.workers.dev"></script>
 <script>
@@ -245,7 +246,10 @@ const I18N_EN = {
   'header.positioning': 'Doesn’t predict a player’s future: it <b>verifies they’re real</b>, with sources that survive a phone call.',
   'stats.verified': 'Verified profiles',
   'stats.tracking': 'Tracking',
+  'stats.outcomes': 'Confirmed lead time',
   'stats.updated': 'Updated',
+  'stats.outcomes.tip.some': 'How many times a name we had was picked up later by mainstream press, and by how many days on average — measured only on cases with a real name, a real club, and a football source. Small on purpose: most of what we track hasn’t had time to play out yet.',
+  'stats.outcomes.tip.zero': 'None yet — not an error, this needs time to accumulate. Counted only for names with full identity and a real football source.',
   'loading': 'Loading…',
   'faq.heading': 'How it works',
   'faq.q1': 'What does OB1 Scout do?',
@@ -260,12 +264,12 @@ const I18N_EN = {
   'faq.a5': 'Doesn’t watch video, doesn’t judge technical quality, doesn’t replace a scout. Works only on public data: finds early, verifies identity and tells you what’s missing — the on-field judgment stays a human job.',
   'faq.q6': 'How often does it update?',
   'faq.a6': 'Every 6 hours, on its own. The date of the last run is at the top.',
-  'footer.main': 'OB1 Scout · v2 · discovery from curated sources, published only with ≥2 sources',
+  'footer.main': 'OB1 Scout · v2 · discovery from curated sources, published only with identity proven by a competent source',
   'data.unavailable': 'Data unavailable — try again shortly.',
   'radar.starting': 'Radar starting up — the first collection pass is running.<br>Profiles appear here as soon as they’re verified.',
   'section.featured': 'Featured',
   'section.tracking': 'To corroborate',
-  'empty.none_verified': 'No verified profile this pass.<br>Needs ≥2 independent sources and complete identity.',
+  'empty.none_verified': 'No verified profile this pass.<br>Needs identity (name + club) stated by a competent source.',
   'card.years': 'yo',
   'card.confidence': 'confidence',
   'card.goals': 'goals', 'card.assists': 'assists', 'card.apps': 'apps',
@@ -332,6 +336,33 @@ if (IS_EN) {
 
   document.getElementById('st-pub').textContent = data.publishable ?? 0;
   document.getElementById('st-trk').textContent = data.tracking ?? 0;
+  // Tabellone onesto (src/outcomes_v2.py, Fase B3): quante volte un nome che
+  // avevamo è stato ripreso dopo dalla stampa mainstream, e con quanto
+  // anticipo. Calcolato da tempo (outcomes_summary(), export_dashboard_v2.py)
+  // e mai mostrato: la dashboard aveva la prova migliore della promessa del
+  // prodotto e non la diceva. Mostrato SEMPRE, anche a zero — un tabellone
+  // che appare solo quando i numeri sono buoni non è un tabellone onesto, e
+  // outcomes_summary() lo dice già nel proprio commento: "zero non è un
+  // errore, è la normalità finché il sistema non accumula storia".
+  const outc = data.outcomes || {checked: 0, avg_lead_time_days: null};
+  const outcN = document.getElementById('st-outc');
+  const outcWrap = document.getElementById('st-outc-wrap');
+  outcN.textContent = outc.checked ?? 0;
+  const outcTipSomeIT = 'Quante volte un nome che avevamo è stato ripreso dopo dalla stampa '
+    + 'mainstream, e con quanto anticipo in media — misurato solo sui casi con nome vero, '
+    + 'club vero e fonte calcistica. Piccolo apposta: la maggior parte di quello che teniamo '
+    + 'sotto osservazione non ha ancora avuto il tempo di succedere.';
+  const outcTipZeroIT = 'Ancora nessuno: non è un errore, serve tempo per accumulare storia. '
+    + 'Si conta solo per nomi con identità completa e fonte calcistica vera.';
+  if ((outc.checked ?? 0) > 0) {
+    const media = outc.avg_lead_time_days;
+    const suffix = media != null
+      ? (IS_EN ? ` Average: ${media} days.` : ` Media: ${media} giorni.`)
+      : '';
+    outcWrap.title = (IS_EN ? t('stats.outcomes.tip.some') : outcTipSomeIT) + suffix;
+  } else {
+    outcWrap.title = IS_EN ? t('stats.outcomes.tip.zero') : outcTipZeroIT;
+  }
   const upd = data.generated_at ? new Date(data.generated_at) : null;
   const validDate = upd && !isNaN(upd.getTime());
   document.getElementById('st-upd').textContent = validDate
@@ -524,7 +555,7 @@ if (IS_EN) {
       html += `<div class="sec"><h2>${IS_EN ? t('section.featured') : 'In evidenza'}</h2><div class="rule"></div></div>`;
       html += pub.map((p, i) => card(p, i, '')).join('');
     } else if (!trk.length) {
-      html += `<div class="empty">${IS_EN ? t('empty.none_verified') : 'Nessun profilo verificato in questo giro.<br>Servono ≥2 fonti indipendenti e identità completa.'}</div>`;
+      html += `<div class="empty">${IS_EN ? t('empty.none_verified') : 'Nessun profilo verificato in questo giro.<br>Serve identità (nome + club) scritta da una fonte competente.'}</div>`;
     }
     if (trk.length) {
       html += `<div class="sec"><h2>${IS_EN ? t('section.tracking') : 'Da corroborare'}</h2><div class="rule"></div></div>`;
