@@ -475,6 +475,29 @@ class OB1DatabaseV2:
             """)
             c.execute("CREATE INDEX IF NOT EXISTS idx_obs_player "
                       "ON observations(player_id, campo)")
+            # ATTENZIONE leggendo questa tabella a mano (query ad-hoc, script
+            # di analisi): `outcome_type` non e' un dettaglio, separa due
+            # popolazioni diverse per eta' e per come sono nate.
+            #
+            #   mainstream_hype       migrazione UNA TANTUM da v1
+            #                         (scripts/migrate_to_v2.py, Fase B0):
+            #                         una foto congelata del vecchio
+            #                         lead_times, gia' auto-marcata sospetta
+            #                         con gli stessi criteri di oggi. Non
+            #                         cresce mai piu'.
+            #   mainstream_lead_time  il tabellone VIVO (Fase B3): scritto
+            #                         solo da evaluate_mainstream() quando
+            #                         verdict["valid"] e' vero — per
+            #                         costruzione non contiene mai un
+            #                         `suspect`, perche' un verdetto non
+            #                         valido non arriva mai a un INSERT.
+            #
+            # Confuse le due (1 set 2026, misurando a mano "37 outcome, 28
+            # sospetti" senza filtrare per tipo): sembrava che il metro fosse
+            # rotto, quando la parte viva — 4 righe — era pulita al 100% per
+            # definizione, e il rumore veniva tutto da un reperto storico
+            # gia' etichettato come tale. outcomes_summary() filtra
+            # correttamente da sempre; l'errore era mio, non del codice.
             c.execute("""
                 CREATE TABLE IF NOT EXISTS outcomes (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
