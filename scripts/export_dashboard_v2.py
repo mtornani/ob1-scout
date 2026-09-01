@@ -25,6 +25,7 @@ from src.claims_v2 import stabilisci, registro, DICHIARATO, DEDOTTO, ASSENTE
 from src.anomalie_v2 import come_dict as anomalie_dict
 from src.anomalie_v2 import leggi as leggi_anomalie
 from src.anomalie_v2 import scala_osservata
+from src.challenge_v2 import _club_satellite_di_gigante
 
 ROOT = Path(__file__).parent.parent
 
@@ -301,6 +302,22 @@ def assess_player(p: dict, evidence_count: int = 1) -> dict:
         cautions.append((
             "Il club non è scritto da una fonte competente: è dedotto dal contesto",
             "The club is not stated by a competent source: it is inferred from context"))
+    # Primo rilievo di CAUTELA mai prodotto da src/challenge_v2.py (1 set
+    # 2026): non blocca, ma la premessa "poco coperto" va incrinata subito,
+    # prima del resto della scheda — vedi il commento su
+    # _club_satellite_di_gigante per come evita il falso positivo di
+    # sostringa ("Inter Miami", "Internacional De Palmira").
+    if "club_satellite_di_gigante" in flags:
+        # Le parole originali, non un .title() indovinato: "fc barcelona"
+        # ridotto e ricapitalizzato darebbe "Fc Barcelona", perché .title()
+        # non sa che FC è una sigla. Vedi il commento su
+        # _club_satellite_di_gigante in src/challenge_v2.py.
+        gigante = _club_satellite_di_gigante(p.get("club")) or (p.get("club") or "")
+        cautions.append((
+            f"'{p.get('club')}' porta il nome di {gigante}: più visibile "
+            f"di un club satellite qualunque per il nome da solo",
+            f"'{p.get('club')}' carries {gigante}'s name: more visible "
+            f"than an ordinary satellite club on the name alone"))
     if n_src < 2:
         cautions.append(("Una sola fonte: non ancora corroborato",
                           "Single source: not yet corroborated"))

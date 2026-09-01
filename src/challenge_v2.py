@@ -74,6 +74,54 @@ CLUB_GIA_COPERTI = {
     "as roma", "roma", "lazio", "newcastle united", "aston villa",
 }
 
+# Squadre satellite di un gigante — "Real Madrid Castilla", "FC Barcelona
+# Youth" — non sono il gigante, ma ne portano il nome in testa, e i lettori
+# (agenti, direttori sportivi) sanno benissimo di chi si tratta: molta più
+# visibilità di un club satellite qualunque, per il solo fatto del nome.
+# Non è un bloccante come `gia_coperto_da_tutti`: chi gioca lì è ancora un
+# prospect vero, non un professionista affermato. Ma la premessa "poco
+# coperto" va incrinata, non taciuta.
+#
+# Solo i giganti a DUE O PIÙ PAROLE fanno da prefisso: derivato da
+# CLUB_GIA_COPERTI, non duplicato, perché un secondo elenco a mano sarebbe
+# andato fuori sincrono col primo alla prima aggiunta.
+#
+# Il motivo per cui i nomi a una parola sono esclusi è un falso positivo
+# vero, misurato il 1 set 2026: "Inter Miami" (club MLS reale, nessun
+# legame con l'Inter di Milano) comincia per "inter" quanto "Inter de
+# Bogotá" — e stesso giorno, stesso registro, "Internacional De Palmira" e
+# "Internacional FC" sono due club colombiani veri il cui nome contiene
+# "inter" come sequenza di lettere, non come parola. Lo stesso identico
+# difetto del match per sottostringa in _names_match (src/database_v2.py,
+# stesso giorno): un nome corto e comune cattura tutto ciò che lo contiene.
+# "Real Madrid" e "FC Barcelona" restano sicuri: nessun club vero al mondo
+# comincia per quelle due parole senza essere davvero una loro sezione.
+#
+# Prezzo pagato apposta: un vero "Milan Futuro" non verrebbe intercettato
+# ("milan" è a una parola). Meglio un satellite mancato che un club
+# qualunque accusato di essere quello che non è.
+_GIGANTI_PREFISSO = tuple(
+    tuple(g.split()) for g in CLUB_GIA_COPERTI if len(g.split()) >= 2)
+
+
+def _club_satellite_di_gigante(club: Any) -> Optional[str]:
+    """
+    Il pezzo iniziale di `club` che è il nome di un gigante, o None.
+
+    Restituisce le PAROLE ORIGINALI così come scritte dalla fonte, non una
+    ricostruzione: "fc barcelona".title() dà "Fc Barcelona", perché .title()
+    non sa che FC è una sigla — e lo stesso vale per "AS Roma", "AC Milan",
+    "RB Leipzig". Più facile prendere la fetta giusta del testo vero che
+    indovinare come si scrive.
+    """
+    parole = str(club or "").split()
+    token_club = _norm(club).split()
+    for token_gigante in _GIGANTI_PREFISSO:
+        n = len(token_gigante)
+        if len(token_club) > n and token_club[:n] == list(token_gigante):
+            return " ".join(parole[:n])
+    return None
+
 # Frasi che dichiarano ESPLICITAMENTE che la persona è già un professionista
 # affermato — non un prospect. Curata sui casi reali che l'hanno prodotta,
 # stesso principio di NOMI_COMUNI: non una tassonomia NLP, una lista corta di
@@ -260,6 +308,22 @@ def contesta(giocatore: Dict[str, Any], evidenze: List[Dict[str, Any]]) -> List[
                      f"non è una scoperta early — la premessa del prodotto non "
                      f"regge, anche se i dati fossero esatti",
         })
+    else:
+        # Squadra satellite di un gigante ("Real Madrid Castilla", "FC
+        # Barcelona Youth"): non è il bloccante di sopra — il ragazzo è
+        # ancora un prospect vero, non un professionista affermato — ma il
+        # nome del club da solo gli dà una visibilità che il resto della
+        # scheda non riflette. Primo rilievo di CAUTELA mai acceso in questo
+        # modulo: la scheda esce, il lettore lo sa prima di leggere il resto.
+        gigante = _club_satellite_di_gigante(club)
+        if gigante:
+            rilievi.append({
+                "codice": "club_satellite_di_gigante",
+                "gravita": CAUTELA,
+                "detta": f"'{club}' porta il nome di {gigante}: più "
+                         f"visibile di un club satellite qualunque per il "
+                         f"nome da solo, non solo per il ragazzo",
+            })
 
     return rilievi
 
@@ -308,6 +372,35 @@ if __name__ == "__main__":
     r = contesta({"canonical_name": "Mattia Verdi", "age": 18, "club": "Pescara"}, [])
     assert r == [], r
 
+    # 4b) Primo rilievo di CAUTELA: una squadra satellite di un gigante non
+    #     blocca (è ancora un prospect vero) ma il lettore lo deve sapere
+    #     PRIMA di leggere il resto — è la stessa scheda della #4, ma il club
+    #     porta il nome di un gigante.
+    for club, gigante in (("Real Madrid Castilla", "real madrid"),
+                         ("FC Barcelona Youth", "fc barcelona")):
+        r = contesta({"canonical_name": "Tizio Caio", "age": 17, "club": club}, [])
+        assert {x["codice"] for x in r} == {"club_satellite_di_gigante"}, (club, r)
+        assert r[0]["gravita"] == CAUTELA, r
+        assert sopravvive(r), "la cautela non deve bloccare la scheda"
+        assert gigante in r[0]["detta"].lower(), r
+
+    # 4c) Il falso positivo vero, misurato il 1 set 2026 ripassando il
+    #     registro: club che CONTENGONO la sequenza di lettere di un gigante
+    #     a una parola senza esserlo. "Inter Miami" non ha niente a che fare
+    #     con l'Inter di Milano; "Internacional De Palmira" e "Internacional
+    #     FC" sono due club colombiani veri. Stesso identico difetto del
+    #     match per sottostringa in _names_match (src/database_v2.py, stesso
+    #     giorno) — qui non deve ripetersi.
+    for club in ("Inter Miami", "Inter de Bogotá", "Internacional De Palmira",
+                "Internacional FC"):
+        r = contesta({"canonical_name": "Tizio Caio", "age": 17, "club": club}, [])
+        assert r == [], (club, r)
+
+    # 4d) Il club ESATTAMENTE uguale al gigante resta di dominio del
+    #     bloccante di sopra: non deve raddoppiare con la cautela.
+    r = contesta({"canonical_name": "Tizio Caio", "age": 17, "club": "Real Madrid"}, [])
+    assert {x["codice"] for x in r} == {"gia_coperto_da_tutti"}, r
+
     # 5) Caso reale Kaio Jorge (29 ago 2026): un articolo retrospettivo su un
     #    torneo giovanile del 2019 nomina un ex-campione oggi professionista.
     #    Nessuna età nel testo (il guardrail numerico non ha nulla da
@@ -342,5 +435,7 @@ if __name__ == "__main__":
 
     print("OK challenge_v2: restano i rilievi di PREMESSA (club gia' coperto "
           "da tutti, club che e' una descrizione, fonte che dichiara il "
-          "giocatore gia' un professionista affermato). Una convocazione "
-          "federale passa: la qualita' della prova la valuta claims_v2.")
+          "giocatore gia' un professionista affermato, e ora club satellite "
+          "di un gigante — primo rilievo di CAUTELA, non blocca). Una "
+          "convocazione federale passa: la qualita' della prova la valuta "
+          "claims_v2.")
