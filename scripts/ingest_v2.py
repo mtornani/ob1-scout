@@ -21,6 +21,7 @@ Uso:
 
 import argparse
 import asyncio
+import hashlib
 import os
 import sys
 from collections import Counter
@@ -332,11 +333,88 @@ async def run(limit_sources=None, max_articles=6, llm_budget=None):
             if not matched:
                 stats["corr_rejected_mismatch"] += 1
 
+    async def _plantel_letto_in_codice():
+        """
+        Fonti con `"lettura": "plantel_auf"`: la pagina registrata NON è un
+        indice di articoli, è essa stessa il documento — la rosa dei convocati
+        sta lì sopra. Si legge intera e si estrae con una regex
+        (src/plantel_auf_v2.py), come già si fa con le schede Transfermarkt.
+
+        Sta PRIMA della discovery e non tocca `calls_used` perché non costa
+        chiamate al modello: 23 convocati con nome, ruolo, DATA DI NASCITA e
+        club per zero chiamate, contro un budget di 15 per l'intero giro.
+
+        Perché conta più del numero: la data di nascita scritta dalla
+        federazione è il dato che alla FCF colombiana non c'è. Senza, l'età
+        si deduce dalla categoria del torneo e "gioca due anni sopra la sua
+        età" diventa circolare. Con la data scritta, regge una telefonata.
+
+        La pagina ha un URL fisso e cambia solo quando esce una convocazione
+        nuova: la chiave di "già visto" è url + impronta del contenuto, così
+        un giro che rilegge la stessa rosa si ferma prima di scrivere. Senza,
+        ogni run aggiungerebbe le stesse 23 prove e la confidenza salirebbe
+        da sola, per il solo fatto di aver riletto la stessa pagina.
+        """
+        from src.plantel_auf_v2 import leggi_plantel
+        for src in sources:
+            if src.get("lettura") != "plantel_auf":
+                continue
+            try:
+                await _un_plantel(src, leggi_plantel)
+            except Exception as e:
+                # Percorso nuovo e non ancora provato in produzione: qualunque
+                # cosa vada storta qui non deve portarsi dietro corroborazione
+                # e discovery, che funzionano da settimane (CLAUDE.md §1).
+                stats["plantel_errore"] += 1
+                print(f"  [PLANTEL] {src['id']}: saltata ({type(e).__name__}: {e})")
+
+    async def _un_plantel(src, leggi_plantel):
+        """Una pagina di categoria: leggi intera, estrai in codice, scrivi."""
+        url = src["url"]
+        # 40.000 (il default) non basta: sulla pagina sub-17 il blocco dei
+        # convocati comincia al carattere 72.464 — misurato, non stimato.
+        # La nota che avevo lasciato nel registro diceva 20.000: sbagliata
+        # di tre volte e mezzo, ed è per questo che si misura.
+        testo = await scraper.read_raw(url, max_chars=150000)
+        db.record_source_scan(src["id"])
+        stats["sources_scanned"] += 1
+        if not testo:
+            stats["plantel_vuoto"] += 1
+            return
+        chiave = f"{url}#{hashlib.sha1(testo.encode('utf-8')).hexdigest()[:12]}"
+        if not db.filter_new_items(src["id"], [chiave]):
+            stats["plantel_invariato"] += 1
+            return
+        rosa = leggi_plantel(testo, url)
+        if not rosa:
+            # Pagina raggiunta ma senza convocazione in corso (succede: il
+            # 1 set 2026 sub-15 e sub-20 elencavano solo lo staff). Si
+            # segna vista lo stesso: rileggerla non darebbe altro.
+            stats["plantel_senza_rosa"] += 1
+            db.mark_seen(src["id"], [chiave], stamp)
+            return
+        for obs in rosa:
+            obs["region"] = obs.get("region") or src.get("region")
+            obs["observed_at"] = stamp
+            _, status = db.ingest_observation(obs)
+            stats[f"obs_{status}"] += 1
+            stats["observations"] += 1
+        stats["plantel_convocati"] += len(rosa)
+        db.mark_seen(src["id"], [chiave], stamp)
+        print(f"  [PLANTEL] {src['id']}: {len(rosa)} convocati, 0 chiamate LLM")
+
+    # --- 0) Rose federali lette in codice: nessun budget, nessun modello ---
+    await _plantel_letto_in_codice()
+
     # --- 1) Corroborazione prima: converte identity_complete → publishable ---
     await _corroborate(corr_budget)
 
     # --- 2) Discovery: estrazione nuove fonti col budget residuo ---
     for src in sources:
+        # Già lette in codice al passo 0: qui non hanno niente da dare, e
+        # cercarci dentro un indice di articoli sprecherebbe un fetch.
+        if src.get("lettura") == "plantel_auf":
+            continue
         if calls_used >= llm_budget or not extractor.llm_usable():
             stats["sources_skipped_budget"] += 1
             break

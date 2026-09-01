@@ -208,10 +208,27 @@ def assess_player(p: dict, evidence_count: int = 1) -> dict:
     # diventava "Identità confermata da 2 fonti indipendenti" — vero alla
     # lettera, falso nella sostanza. Il rilievo dell'avvocato del diavolo
     # (src/challenge_v2.py) arriva qui dentro via review_flags.
-    if n_src >= 2 and "una_sola_fonte_sostanziale" not in flags \
-            and "nessuna_fonte_sostanziale" not in flags:
-        pros.append((f"Identità confermata da {n_src} fonti indipendenti",
-                      f"Identity confirmed by {n_src} independent sources"))
+    # Il controllo che doveva impedire questa vanteria cercava
+    # `una_sola_fonte_sostanziale`, un nome che nessuno produce piu': la frase
+    # usciva sempre, cioe' esattamente il difetto che il commento qui sopra
+    # descrive come gia' risolto. Riscritta per dire due cose separate, che i
+    # dati del 1 set 2026 hanno mostrato essere diverse:
+    #
+    #   COMPETENZA  chi lo scrive, e con quale autorita' su quel campo
+    #   RIDONDANZA  quanti domini distinti lo nominano
+    #
+    # Confonderle era il difetto originale: cinque convocazioni della stessa
+    # federazione piu' un titolo Transfermarkt vuoto facevano "2 fonti
+    # indipendenti". Ora la prima frase nomina la fonte competente — quella si
+    # puo' aprire e verificare — e la seconda dice il conteggio per quello che
+    # e', senza chiamarlo conferma.
+    club_claim = (p.get("claims") or {}).get("club") or {}
+    if club_claim.get("stato") == DICHIARATO and club_claim.get("fonte"):
+        pros.append((f"Nome e club scritti da {club_claim['fonte']}",
+                      f"Name and club stated by {club_claim['fonte']}"))
+    if n_src >= 2:
+        pros.append((f"{n_src} domini distinti lo nominano",
+                      f"{n_src} distinct domains mention him"))
     # "Rilevamenti" è una parola del nostro tubo, non del mestiere di chi
     # legge: dice quante volte lo scraper ha visto una pagina, e a un
     # direttore sportivo non serve a niente. Dove c'è una storia di
@@ -252,22 +269,38 @@ def assess_player(p: dict, evidence_count: int = 1) -> dict:
     # (la scheda non e' pubblicata); questi sono i rilievi di cautela, e
     # devono VEDERSI: un profilo che esce con una debolezza nota deve
     # dichiararla, altrimenti torniamo al problema di partenza.
-    if "una_sola_fonte_sostanziale" in flags:
+    # NOMI DEI FLAG — allineati il 1 set 2026, e non e' un dettaglio di forma.
+    # Questi rami cercavano `eta_dedotta_dalla_categoria`,
+    # `una_sola_fonte_sostanziale`, `prove_che_non_lo_nominano` e
+    # `club_non_scritto_da_nessuna_fonte`: nomi rimasti dalla prima versione di
+    # challenge_v2, quella che faceva anche il lavoro poi passato a claims_v2.
+    # Dopo lo split nessuno dei quattro veniva piu' prodotto da nessuna parte
+    # in src/ — verificato con grep. Erano quattro cautele scritte, tradotte e
+    # irraggiungibili: 25 profili pubblicati avevano l'eta' DEDOTTA dalla
+    # categoria del torneo e la dashboard la mostrava come un fatto, che e'
+    # esattamente il difetto che questa riga esisteva per impedire.
+    if "fonte_singola" in flags:
         cautions.append((
             "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
             "Only one domain says anything concrete: the other sources merely confirm the name exists"))
-    if "eta_dedotta_dalla_categoria" in flags:
+    if "eta_dedotto" in flags:
         cautions.append((
             f"L'età ({age}) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-{age})",
             f"The age ({age}) is not stated by any source: it is inferred from the tournament category (U-{age})"))
-    if "prove_che_non_lo_nominano" in flags:
+    elif "eta_assente" in flags and age is not None:
+        # Un'eta' mostrata che nessuna fonte scrive e che non viene nemmeno da
+        # una categoria: chi legge deve saperlo prima di ripeterla al telefono.
         cautions.append((
-            "Alcune fonti non lo nominano in modo identificante: potrebbero riferirsi a un'altra persona",
-            "Some sources do not name him identifiably: they may refer to a different person"))
-    if "club_non_scritto_da_nessuna_fonte" in flags:
+            f"L'età ({age}) non è confermata da nessuna fonte fra quelle che abbiamo letto",
+            f"The age ({age}) is not confirmed by any of the sources we have read"))
+    if "club_assente" in flags:
         cautions.append((
             "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
             "The club appears in no source: re-verify before relying on it"))
+    elif "club_dedotto" in flags:
+        cautions.append((
+            "Il club non è scritto da una fonte competente: è dedotto dal contesto",
+            "The club is not stated by a competent source: it is inferred from context"))
     if n_src < 2:
         cautions.append(("Una sola fonte: non ancora corroborato",
                           "Single source: not yet corroborated"))
@@ -328,7 +361,14 @@ def assess_player(p: dict, evidence_count: int = 1) -> dict:
         return [x[0] for x in pairs], [x[1] for x in pairs]
 
     pros_it, pros_en = _split(pros, 4)
-    cautions_it, cautions_en = _split(cautions, 4)
+    # Cinque, non quattro, e solo per le cautele. Collegando i flag rimasti
+    # scollegati (1 set 2026) sono comparse 93 cautele vere che prima non
+    # uscivano, e col tetto a 4 ne espellevano altre gia' presenti: 48 schede
+    # pubblicate su 190 erano al tetto, cioe' un quarto nascondeva almeno una
+    # debolezza nota. Un limite serve a non sommergere la card, ma quando taglia
+    # via una riserva vera sta scegliendo per il lettore quello che il lettore
+    # deve sapere. I "perche' si" restano a 4: li' il rischio e' l'opposto.
+    cautions_it, cautions_en = _split(cautions, 5)
     steps_it, steps_en = _split(steps, 3)
     return {
         "pros": pros_it, "cautions": cautions_it, "next_steps": steps_it,
@@ -608,17 +648,59 @@ def _selftest_assess_player():
     # I rilievi dell'avvocato del diavolo devono VEDERSI sulla scheda: un
     # profilo che esce con una debolezza nota la dichiara, altrimenti siamo
     # tornati a "VERIFICATO" su una prova che non regge.
+    #
+    # Questo test usava "una_sola_fonte_sostanziale,eta_dedotta_dalla_categoria"
+    # ed era VERDE: due nomi che nessuno in src/ produce piu' dopo lo split fra
+    # challenge_v2 e claims_v2. Verificava che la funzione reagisse a flag che
+    # la produzione non le manda mai — testata la parte, non la giuntura, lo
+    # stesso errore gia' costato il parser TM (vedi ingest_v2.py). Intanto 25
+    # profili uscivano con l'eta' dedotta dalla categoria senza dirlo.
     p_sfida = {"age": 17, "stats": {}, "breakdown": {}, "n_sources": 2,
                "publishable": True,
-               "review_flags": "una_sola_fonte_sostanziale,eta_dedotta_dalla_categoria"}
+               "review_flags": "fonte_singola,eta_dedotto"}
     a_sfida = assess_player(p_sfida, evidence_count=2)
     assert any("dice qualcosa di concreto" in c for c in a_sfida["cautions"]), a_sfida
     assert any("dedotta dalla categoria" in c for c in a_sfida["cautions"]), a_sfida
-    # ...e in quel caso NON si vanta di "2 fonti indipendenti".
-    assert not any("fonti indipendenti" in p for p in a_sfida["pros"]), a_sfida["pros"]
+    # Il conteggio dei domini si puo' dire, ma non si chiama "conferma": senza
+    # un claim competente non c'e' niente di confermato, ci sono due pagine che
+    # ripetono un nome.
+    assert not any("confermat" in p.lower() for p in a_sfida["pros"]), a_sfida["pros"]
+    assert any("2 domini distinti" in p for p in a_sfida["pros"]), a_sfida["pros"]
 
-    print("OK assess_player: cautela copertura-bassa e rilievi dell'avvocato "
-          "del diavolo presenti quando servono, assenti quando no")
+    # Con un claim competente sul club, la fonte si NOMINA: e' quella che il
+    # lettore puo' aprire.
+    a_claim = assess_player({"age": 17, "stats": {}, "breakdown": {}, "n_sources": 1,
+                             "publishable": True, "review_flags": "",
+                             "claims": {"club": {"stato": DICHIARATO,
+                                                 "fonte": "Federación Colombiana de Fútbol"}}}, 1)
+    assert any("Federación Colombiana" in p for p in a_claim["pros"]), a_claim["pros"]
+
+    # Un'eta' mostrata che nessuna fonte scrive: si dichiara.
+    a_eta = assess_player({"age": 16, "stats": {}, "breakdown": {}, "n_sources": 2,
+                           "publishable": True, "review_flags": "eta_assente"}, 2)
+    assert any("non è confermata da nessuna fonte" in c for c in a_eta["cautions"]), a_eta
+
+    # La giuntura, non la parte: ogni flag che assess_player interroga deve
+    # essere prodotto da qualcuno. E' il controllo che sarebbe servito allora.
+    import re as _re
+    from pathlib import Path as _P
+    _radice = _P(__file__).resolve().parent.parent
+    _sorgenti = "\n".join(f.read_text(encoding="utf-8")
+                          for f in (_radice / "src").glob("*.py"))
+    _mio = _P(__file__).read_text(encoding="utf-8")
+    _cercati = set(_re.findall(r'"([a-z_]{6,})" in flags', _mio))
+    # Gli stati dei claim sono composti a runtime (f"eta_{stato}"): si
+    # riconoscono dal prefisso, non si trovano scritti per intero.
+    _stati = {"eta_dichiarato", "eta_dedotto", "eta_assente",
+              "club_dichiarato", "club_dedotto", "club_assente"}
+    _morti = sorted(f for f in _cercati - _stati if f not in _sorgenti)
+    assert not _morti, (
+        f"assess_player cerca flag che nessuno produce: {_morti} — "
+        f"sono cautele irraggiungibili, cioe' debolezze note che la scheda "
+        f"non dichiara")
+
+    print("OK assess_player: cautele presenti quando servono, assenti quando "
+          "no, e nessuna che cerchi un flag che nessuno produce")
 
 
 if __name__ == "__main__":

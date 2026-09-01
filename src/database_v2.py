@@ -617,14 +617,52 @@ class OB1DatabaseV2:
         a, b = normalize_name(a), normalize_name(b)
         if not a or not b:
             return False
-        if a == b or a in b or b in a:
+        if a == b:
+            return True
+        # Contenimento per TOKEN, mai per sottostringa, e mai partendo da un
+        # nome di un solo token.
+        #
+        # Prima era `a in b or b in a` su tutta la stringa, e quella riga
+        # annullava la prudenza scritta qui sotto: "mora" sta dentro "dylan
+        # mora", quindi un record chiamato "Mora" catturava Dylan Mora E
+        # Thiago Mora — due convocati diversi della stessa sub-17 uruguaiana,
+        # fusi in un profilo messicano del Club Tijuana. Stando su stringa e
+        # non su parole prendeva anche "morales" e "moraes".
+        #
+        # Misurato sul DB del 1 set 2026: sei record a un token contenevano
+        # prove di piu' di una persona. Il peggiore, "Felipe", ne teneva sei
+        # — fra cui un comunicato di squalifica ("SANCIONADO LUIS FELIPE
+        # MARQUINEZ"), perche' Felipe e' un nome di battesimo e la
+        # sottostringa pesca chiunque ce l'abbia in mezzo.
+        #
+        # Il minimo di due token e' il punto: un nome solo non identifica
+        # nessuno. Meglio due profili separati che una persona inventata —
+        # e infatti il gate marca gia' `nome_singolo` e non li pubblica.
+        ta, tb = a.split(), b.split()
+        if len(ta) >= 2 and set(ta) <= set(tb):
+            return True
+        if len(tb) >= 2 and set(tb) <= set(ta):
             return True
         pa = {t for t in a.split() if len(t) > 2}
         b_tokens = [t for t in b.split() if len(t) > 2]
         pb = set(b_tokens)
         if not (pa and pb and len(pa & pb) >= 2):
             return False
-        return bool(set(surname_candidates(b_tokens)) & pa)
+        # Il cognome vero e' l'ULTIMO token, e ne basta uno dei due dentro
+        # l'altro nome. surname_candidates() ne restituisce due, per i doppi
+        # cognomi ispanici, ma su un nome di tre token il penultimo e' ancora
+        # un nome di battesimo: per "juan jose camacho" propone
+        # ['jose', 'camacho'], e quel 'jose' bastava a far combaciare "Juan
+        # Jose Fori Viveros" con "Juan Jose Camacho" — cioe' proprio il caso
+        # che il commento qui sopra dava per risolto, e che invece passava
+        # ancora (verificato il 1 set 2026, non era una regressione: la vecchia
+        # riga della sottostringa restituiva False e si arrivava lo stesso qui).
+        #
+        # Impatto misurato sui 337 record di oggi: ZERO coppie cambiano esito.
+        # Non e' una validazione a favore, e' l'assenza di rischio: il valore
+        # e' preventivo, su un caso che il codice stesso documenta come gia'
+        # visto una volta sui dati veri.
+        return a.split()[-1] in set(b.split()) or b.split()[-1] in set(a.split())
 
     def find_player(self, name: str):
         with self._conn() as conn:
@@ -726,9 +764,15 @@ class OB1DatabaseV2:
         ok_claims, motivi = pubblicabile_da_claims(claims)
         rilievi = contesta(soggetto, evidenze)
         publishable = ok_claims and sopravvive(rilievi)
+        # Lo stato del CLUB va nei flag come quello dell'eta'. Prima ci
+        # finiva solo l'eta', e claims_v2 stabiliva gli altri campi per poi
+        # buttarli: la dashboard aveva una cautela gia' scritta e tradotta
+        # ("Il club non compare in nessuna fonte") che non poteva accendersi
+        # mai, perche' il dato per accenderla non usciva da qui.
         flags = ",".join(f for f in (
             idn["review_flags"],
             f"eta_{claims['eta']['stato']}",
+            f"club_{claims['club']['stato']}",
             ",".join(x["codice"] for x in rilievi)) if f)
 
         conn.execute("""UPDATE players SET evidence_count=?, identity_complete=?,
