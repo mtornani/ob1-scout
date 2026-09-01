@@ -103,5 +103,16 @@ jobs:
           git config --global user.email "bot@ob1-radar.com"
           git add -f data/ob1_v2.db docs/data/players_v2.json
           git commit -m "Radar v2: $(date -u '+%Y-%m-%d %H:%M UTC')" || echo "Nessun cambiamento"
-          git pull --rebase origin main
+          # Riallinea con lo STESSO ramo che ha lanciato il run, non "main"
+          # a fisso. Sul cron ordinario il comportamento non cambia di una
+          # virgola — schedule gira solo su main, quindi $GITHUB_REF_NAME
+          # vale "main" e questa riga fa esattamente quello che faceva.
+          # Ma un dispatch manuale su un branch (31 ago 2026, per validare
+          # il grafo delle fonti prima del merge) provava a riallinearsi con
+          # "main" pur girando su un altro ramo: su un checkout shallow, e
+          # con main nel frattempo avanzato di roba non correlata, git legge
+          # OGNI file come aggiunto da entrambe le parti — CONFLICT (add/add)
+          # ovunque, run fallita all'ultimo passo, 13 minuti di ingest vero
+          # spesi e persi col runner perché il push non è mai stato raggiunto.
+          git pull --rebase origin "$GITHUB_REF_NAME"
           git push
