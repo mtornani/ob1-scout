@@ -1008,8 +1008,13 @@ class OB1DatabaseV2:
         """Giocatori pubblicabili non ancora notificati: lista di dict."""
         with self._conn() as conn:
             conn.row_factory = sqlite3.Row
+            # n_fonti serve alla notifica per NON dire "verificato (>=2 fonti)"
+            # quando non e' vero: dal 26 ago 2026 il gate decide sui claim, e
+            # un profilo puo' uscire con una fonte sola se e' competente.
             rows = conn.execute("""
-                SELECT id, canonical_name, age, position, club, league, region, score
+                SELECT id, canonical_name, age, position, club, league, region, score,
+                       (SELECT COUNT(DISTINCT source_domain) FROM evidences
+                        WHERE player_id = players.id AND source_domain != '') AS n_fonti
                 FROM players WHERE publishable=1 AND COALESCE(notified,0)=0
                 ORDER BY score DESC""").fetchall()
             return [dict(r) for r in rows]
