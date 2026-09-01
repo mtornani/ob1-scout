@@ -764,9 +764,15 @@ class OB1DatabaseV2:
         ok_claims, motivi = pubblicabile_da_claims(claims)
         rilievi = contesta(soggetto, evidenze)
         publishable = ok_claims and sopravvive(rilievi)
+        # Lo stato del CLUB va nei flag come quello dell'eta'. Prima ci
+        # finiva solo l'eta', e claims_v2 stabiliva gli altri campi per poi
+        # buttarli: la dashboard aveva una cautela gia' scritta e tradotta
+        # ("Il club non compare in nessuna fonte") che non poteva accendersi
+        # mai, perche' il dato per accenderla non usciva da qui.
         flags = ",".join(f for f in (
             idn["review_flags"],
             f"eta_{claims['eta']['stato']}",
+            f"club_{claims['club']['stato']}",
             ",".join(x["codice"] for x in rilievi)) if f)
 
         conn.execute("""UPDATE players SET evidence_count=?, identity_complete=?,
