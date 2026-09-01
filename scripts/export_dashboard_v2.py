@@ -21,7 +21,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from src.scoring_v2 import score_player
-from src.claims_v2 import stabilisci, DICHIARATO, DEDOTTO, ASSENTE
+from src.claims_v2 import stabilisci, registro, DICHIARATO, DEDOTTO, ASSENTE
+from src.anomalie_v2 import come_dict as anomalie_dict
+from src.anomalie_v2 import leggi as leggi_anomalie
+from src.anomalie_v2 import scala_osservata
 
 ROOT = Path(__file__).parent.parent
 
@@ -355,6 +358,34 @@ def export(db_path: Path, out_path: Path) -> dict:
                       observed_at, origin FROM evidences"""):
         evidences_by_player.setdefault(r["player_id"], []).append(dict(r))
 
+    # La scala delle categorie di ogni federazione, ricavata dai suoi stessi
+    # comunicati: senza, "ha saltato una categoria" sarebbe un'assunzione
+    # (in Colombia Sub-17 e Sub-19 sono attaccate, non c'e' niente in mezzo).
+    # Un giro solo sulla colonna, prima del ciclo. Vedi src/anomalie_v2.py.
+    _selezioni = []
+    for r in conn.execute("SELECT selection_json FROM players "
+                          "WHERE selection_json IS NOT NULL "
+                          "AND selection_json != ''"):
+        try:
+            _selezioni.append(json.loads(r["selection_json"]))
+        except (ValueError, TypeError):
+            continue
+    scala_categorie = scala_osservata(_selezioni)
+
+    _registro = registro()
+
+    def _tipi_fonte(pid):
+        """I `type` del registro per le fonti che citano questo giocatore.
+        Servono all'asimmetria di copertura: federazione sì, stampa no."""
+        tipi = set()
+        for e in evidences_by_player.get(pid, []):
+            d = (e.get("source_domain") or "").lower()
+            d = d[4:] if d.startswith("www.") else d
+            t = _registro.get(d, {}).get("type")
+            if t:
+                tipi.add(t)
+        return sorted(tipi)
+
     def _clean_sources(raw):
         """Domain unici; URL http se c'è, altrimenti domain-only (chip senza link)."""
         out, seen = [], set()
@@ -435,6 +466,20 @@ def export(db_path: Path, out_path: Path) -> dict:
             "score": sc["score"], "confidence": sc["confidence"],
             "breakdown": sc["breakdown"],
             "n_sources": n_sources, "sources": sources,
+            # Quante di quelle fonti il registro le conosce — cioè quante
+            # possono provare qualcosa. Il badge diceva "VERIFICATO — 2 fonti
+            # indipendenti" per un profilo le cui due fonti erano una scheda
+            # Transfermarkt e un link TikTok: vero alla lettera (due domini),
+            # falso nella sostanza, e proprio sulla frase che è la promessa
+            # del prodotto. Misurato il 31 ago 2026: 8 pubblicati su 157.
+            # Campo a parte e non `n_sources` corretto sul posto, perché
+            # n_sources entra nel punteggio (score_player): qui si sta
+            # sistemando cosa DICIAMO, non come pesiamo — sono due decisioni
+            # e vanno prese separate.
+            "n_sources_registro": sum(
+                1 for s in sources
+                if (lambda d: d[4:] if d.startswith("www.") else d)(
+                    (s.get("domain") or "").lower()) in _registro),
             "stats": stats,
             "publishable": bool(p["publishable"]),
             "identity_complete": bool(p["identity_complete"]),
@@ -452,6 +497,21 @@ def export(db_path: Path, out_path: Path) -> dict:
             # per cui questo nome è in lista, ed è verificabile aprendo i
             # link — la scheda porta la prova, non l'affermazione.
             "selezione": selezione,
+            # Perché QUESTO nome e non un altro: la ragione in una riga, con
+            # i documenti sotto. È la merce che un agente può usare — noi
+            # diciamo cosa risulta anomalo e lo dimostriamo, l'ultimo passo
+            # è suo. Lista vuota = niente che sappiamo dimostrare, che non
+            # è la stessa cosa di "giocatore normale". Vedi src/anomalie_v2.py.
+            #
+            # L'età passata è solo quella DICHIARATA — non `eta_mostrabile`,
+            # che include anche DEDOTTO. Un'età dedotta dalla categoria del
+            # torneo, data in pasto a "è giovane per la categoria", chiude un
+            # cerchio su se stessa e risponde sempre di sì: al primo giro
+            # l'unico anticipo esportato era esattamente quello.
+            "anomalie": anomalie_dict(leggi_anomalie(
+                selezione,
+                p["age"] if eta_claim.get("stato") == DICHIARATO else None,
+                _tipi_fonte(pid), scala_categorie)),
         }
         entry["assessment"] = assess_player(entry, p["evidence_count"] or 1)
         players.append(entry)

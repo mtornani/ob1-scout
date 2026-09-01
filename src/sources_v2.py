@@ -231,8 +231,25 @@ class SourceMonitor:
         return self.db.filter_new_items(source["id"], found)
 
     async def _da_indice_sito(self, source: dict, dom: str) -> list:
-        """Prova ogni INDEX_PATHS finché uno risponde con articoli veri."""
+        """
+        Prova ogni INDEX_PATHS finché uno risponde con articoli veri.
+
+        `"indice": "self"` nel registro dice che l'indice È l'URL registrato,
+        e che gli INDEX_PATHS non vanno nemmeno provati. Serve dove il sito
+        pubblica un elenco leggibile ma non un feed: miseleccion.mx/noticia
+        elenca 20 convocatorias vere, mentre /wp-json e /feed sullo stesso
+        dominio restituiscono due link spazzatura (una pagina e una pubblicità
+        Amazon) — abbastanza da sembrare un successo e fermare la ricerca lì.
+        È dichiarato per fonte e non dedotto: provare l'URL registrato come
+        indice per TUTTI farebbe regredire proprio la fonte che oggi produce
+        la maggior parte delle nostre prove, perché la home della FCF elenca
+        le voci del menu (/seleccion-mayores/, /mundial-2026/) mentre il suo
+        /wp-json elenca le convocatorias. Un'euristica buona in media qui
+        peggiorerebbe il caso che conta.
+        """
         base = source["url"].rstrip("/")
+        if source.get("indice") == "self":
+            return parse_index(await self.scraper.read_raw(source["url"]), dom)
         for path in INDEX_PATHS:
             text = await self.scraper.read_raw(base + path)
             found = parse_index(text, dom)
@@ -347,6 +364,49 @@ def _test() -> None:
     </channel></rss>"""
     trovati = parse_index(rumore, "example.org")
     assert trovati == ["https://example.org/2026/08/26/vero-articolo-sub17"], trovati
+
+    # 8. `"indice": "self"` legge l'URL registrato e NON tocca gli
+    #    INDEX_PATHS. Caso reale, miseleccion.mx il 31 ago 2026: /noticia
+    #    elenca venti convocatorias vere, mentre /wp-json e /feed sullo stesso
+    #    dominio rispondono con due link spazzatura — abbastanza da sembrare
+    #    un indice riuscito e fermare la ricerca sul risultato peggiore.
+    import asyncio
+
+    class _ScraperFinto:
+        def __init__(self):
+            self.letti = []
+
+        async def read_raw(self, url):
+            self.letti.append(url)
+            if url == "https://miseleccion.mx/noticia":
+                return ("Markdown Content:\n"
+                        "[CONVOCATORIA Sub-17](https://miseleccion.mx/noticia/"
+                        "6597-CONVOCATORIA-Seleccion-Sub-17)\n")
+            return ("Markdown Content:\n"
+                    "[Somos](https://miseleccion.mx/somos-mexico)\n")
+
+    class _DbFinto:
+        def filter_new_items(self, source_id, keys):
+            return keys
+
+    finto = _ScraperFinto()
+    mon = SourceMonitor(_DbFinto(), finto)
+    fonte = {"id": "mx_fmf", "url": "https://miseleccion.mx/noticia",
+             "indice": "self", "tier": "primary"}
+    trovati = asyncio.run(mon.new_items(fonte))
+    assert trovati == ["https://miseleccion.mx/noticia/"
+                       "6597-CONVOCATORIA-Seleccion-Sub-17"], trovati
+    assert finto.letti == ["https://miseleccion.mx/noticia"], finto.letti
+
+    # 8b. Senza il campo, il comportamento di prima non cambia di una virgola:
+    #     si provano gli INDEX_PATHS appesi all'URL, non l'URL stesso.
+    finto2 = _ScraperFinto()
+    mon2 = SourceMonitor(_DbFinto(), finto2)
+    asyncio.run(mon2.new_items({"id": "x", "url": "https://miseleccion.mx/noticia",
+                                "tier": "primary"}))
+    assert "https://miseleccion.mx/noticia" not in finto2.letti, finto2.letti
+    assert all(u.startswith("https://miseleccion.mx/noticia/")
+               for u in finto2.letti), finto2.letti
 
     print("sources_v2: ok")
 

@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-08-31T23:16:16.733690+00:00",
+ "generated_at": "2026-09-01T04:39:59.458069+00:00",
  "version": "1.0.0",
- "build": "045f9cf",
+ "build": "2d25fd8",
  "total": 308,
  "publishable": 157,
  "tracking": 151,
@@ -75,6 +75,7 @@
      "seen": "2026-07-25T14:11:15.071449"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -133,6 +134,28 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 5 times by Federación Colombiana de Fútbol between February 2025 and July 2026, from U16 to U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "5 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "5 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
+      "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
+     ],
+     "dati": {
+      "convocazioni": 5,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -225,6 +248,7 @@
      "seen": "2026-07-26T14:10:12.857220"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -277,6 +301,28 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 4 times by Federación Colombiana de Fútbol between July 2025 and July 2026, from U16 to U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "4 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "4 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
+      "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+      "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
+     ],
+     "dati": {
+      "convocazioni": 4,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -369,6 +415,7 @@
      "seen": "2026-07-19T04:04:37.790338"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -427,6 +474,28 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 5 times by Federación Colombiana de Fútbol between January 2025 and July 2026."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "5 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "5 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
+      "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
+     ],
+     "dati": {
+      "convocazioni": 5,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Molto giovane (16 anni): ampio margine di sviluppo",
@@ -519,6 +588,7 @@
      "seen": "2026-07-18T13:58:07.995503"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -570,6 +640,28 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 4 times by Federación Colombiana de Fútbol between September 2024 and July 2026, U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "4 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "4 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
+      "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+      "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+      "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
+     ],
+     "dati": {
+      "convocazioni": 4,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -662,6 +754,7 @@
      "seen": "2026-07-25T14:11:15.071449"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -714,6 +807,28 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 4 times by Federación Colombiana de Fútbol between July 2025 and May 2026, from U16 to U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "4 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "4 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
+      "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+      "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
+     ],
+     "dati": {
+      "convocazioni": 4,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -806,6 +921,7 @@
      "seen": "2026-08-28T22:33:06.502357"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -852,6 +968,27 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 3 times by Federación Colombiana de Fútbol between February 2025 and February 2026, from U16 to U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "3 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "3 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
+      "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
+     ],
+     "dati": {
+      "convocazioni": 3,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -944,6 +1081,7 @@
      "seen": "2026-07-18T19:43:47.999709"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -1002,6 +1140,28 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 5 times by Federación Colombiana de Fútbol between February 2025 and July 2026."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "5 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "5 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
+      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
+      "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
+     ],
+     "dati": {
+      "convocazioni": 5,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -1094,6 +1254,7 @@
      "seen": "2026-07-25T14:11:15.071449"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -1140,6 +1301,27 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 3 times by Federación Colombiana de Fútbol between February 2025 and May 2026, from U16 to U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "3 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "3 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
+      "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
+     ],
+     "dati": {
+      "convocazioni": 3,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -1232,6 +1414,7 @@
      "seen": "2026-07-21T20:01:49.390143"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -1278,6 +1461,27 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 3 times by Federación Colombiana de Fútbol between September 2024 and May 2026."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "3 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "3 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
+      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
+     ],
+     "dati": {
+      "convocazioni": 3,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -1370,6 +1574,7 @@
      "seen": "2026-07-28T09:18:44.128588"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -1415,6 +1620,27 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 3 times by Federación Colombiana de Fútbol between January 2026 and July 2026, U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "3 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "3 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
+      "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+      "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
+     ],
+     "dati": {
+      "convocazioni": 3,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -1507,6 +1733,7 @@
      "seen": "2026-07-27T15:25:26.644504"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -1552,6 +1779,27 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 3 times by Federación Colombiana de Fútbol between January 2026 and July 2026, U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "3 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "3 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
+      "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+      "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
+     ],
+     "dati": {
+      "convocazioni": 3,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -1644,6 +1892,7 @@
      "seen": "2026-07-18T19:43:47.999709"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -1689,6 +1938,27 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 3 times by Federación Colombiana de Fútbol between September 2024 and February 2025, U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "3 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "3 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
+      "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+      "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
+     ],
+     "dati": {
+      "convocazioni": 3,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -1696,7 +1966,7 @@
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
@@ -1710,7 +1980,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why",
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why",
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -1783,6 +2053,7 @@
      "seen": "2026-07-20T04:23:18.085592"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -1828,6 +2099,27 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 3 times by Federación Colombiana de Fútbol between September 2024 and February 2025, U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "3 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "3 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
+      "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+      "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
+     ],
+     "dati": {
+      "convocazioni": 3,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -1835,7 +2127,7 @@
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
@@ -1849,7 +2141,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why",
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why",
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -1922,6 +2214,7 @@
      "seen": "2026-07-29T14:52:11.689075"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -1962,6 +2255,26 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between February 2025 and January 2026, from U16 to U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -2049,6 +2362,7 @@
      "seen": "2026-07-18T08:21:52.280337"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -2101,6 +2415,27 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 4 times by Federación Colombiana de Fútbol between September 2024 and July 2026, from U17 to U19."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "4 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "4 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
+      "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+      "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
+      "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+     ],
+     "dati": {
+      "convocazioni": 4,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -2193,6 +2528,7 @@
      "seen": "2026-07-30T09:15:25.940294"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -2232,13 +2568,33 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between September 2024 and January 2025, U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
+      "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 19 mesi fa (gennaio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 20 mesi fa (gennaio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata",
      "Età non confermata"
     ],
@@ -2252,7 +2608,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 19 months ago (January 2025): the run has stopped — worth finding out why",
+     "Last call-up 20 months ago (January 2025): the run has stopped — worth finding out why",
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -2326,6 +2682,7 @@
      "seen": "2026-07-19T14:03:01.513039"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -2365,13 +2722,33 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between September 2024 and January 2025, U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
+      "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 19 mesi fa (gennaio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 20 mesi fa (gennaio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata",
      "Età non confermata"
     ],
@@ -2385,7 +2762,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 19 months ago (January 2025): the run has stopped — worth finding out why",
+     "Last call-up 20 months ago (January 2025): the run has stopped — worth finding out why",
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -2459,6 +2836,7 @@
      "seen": "2026-08-21T05:05:56.438529"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -2498,6 +2876,26 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between January 2025 and February 2025, U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+      "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -2505,7 +2903,7 @@
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
@@ -2519,7 +2917,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why",
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why",
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -2592,6 +2990,7 @@
      "seen": "2026-08-01T14:07:45.430565"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -2631,6 +3030,26 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between September 2024 and February 2025, U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
+      "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -2638,7 +3057,7 @@
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
@@ -2652,7 +3071,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why",
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why",
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -2725,6 +3144,7 @@
      "seen": "2026-07-21T20:01:49.390143"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -2764,6 +3184,26 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between September 2024 and February 2025, U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
+      "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -2771,7 +3211,7 @@
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
@@ -2785,7 +3225,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why",
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why",
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -2858,6 +3298,7 @@
      "seen": "2026-07-29T14:52:11.689075"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -2897,6 +3338,26 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between January 2026 and July 2026, U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
+      "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -2989,6 +3450,7 @@
      "seen": "2026-07-25T19:44:55.584169"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -3028,6 +3490,26 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between January 2026 and July 2026, U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
+      "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -3115,6 +3597,7 @@
      "seen": "2026-07-18T08:21:52.280337"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -3160,6 +3643,26 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 3 times by Federación Colombiana de Fútbol between September 2024 and February 2025, U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "3 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "3 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
+      "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+      "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
+     ],
+     "dati": {
+      "convocazioni": 3,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -3167,7 +3670,7 @@
     ],
     "cautions": [
      "Una sola fonte: non ancora corroborato",
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
@@ -3181,7 +3684,7 @@
     ],
     "cautions_en": [
      "Single source: not yet corroborated",
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why",
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why",
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -3254,6 +3757,7 @@
      "seen": "2026-08-01T08:41:41.920525"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -3294,6 +3798,26 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between February 2025 and July 2026."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/02/17/conmebol-sub-20-masculino-2025/",
+      "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze",
@@ -3386,6 +3910,7 @@
      "seen": "2026-08-22T13:10:03.073566"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 1,
     "assists": 0,
@@ -3419,6 +3944,7 @@
     "fonte": "Fédération Sénégalaise de Football",
     "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -3502,6 +4028,7 @@
      "seen": "2026-07-26T08:58:15.224553"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -3542,6 +4069,25 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between July 2025 and July 2026, from U16 to U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
+      "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Molto giovane (16 anni): ampio margine di sviluppo",
@@ -3639,6 +4185,7 @@
      "seen": "2026-08-30T16:55:24.926157"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -3652,6 +4199,7 @@
    "first_detected": "2026-06-03T04:06:33.789694",
    "last_seen": "2026-08-30T16:55:24.926157",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -3744,6 +4292,7 @@
      "seen": "2026-08-27T19:33:38.958735"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -3777,13 +4326,14 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 19 mesi fa (gennaio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 20 mesi fa (gennaio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata",
      "Età non confermata"
     ],
@@ -3797,7 +4347,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 19 months ago (January 2025): the run has stopped — worth finding out why",
+     "Last call-up 20 months ago (January 2025): the run has stopped — worth finding out why",
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -3871,6 +4421,7 @@
      "seen": "2026-08-12T13:58:27.654919"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -3904,13 +4455,14 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 19 mesi fa (gennaio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 20 mesi fa (gennaio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata",
      "Età non confermata"
     ],
@@ -3924,7 +4476,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 19 months ago (January 2025): the run has stopped — worth finding out why",
+     "Last call-up 20 months ago (January 2025): the run has stopped — worth finding out why",
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -3998,6 +4550,7 @@
      "seen": "2026-07-30T14:42:56.853482"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -4031,13 +4584,14 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 19 mesi fa (gennaio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 20 mesi fa (gennaio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata",
      "Età non confermata"
     ],
@@ -4051,7 +4605,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 19 months ago (January 2025): the run has stopped — worth finding out why",
+     "Last call-up 20 months ago (January 2025): the run has stopped — worth finding out why",
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -4120,6 +4674,7 @@
      "seen": "2026-07-19T08:56:55.551442"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -4160,6 +4715,25 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between February 2025 and January 2026, from U16 to U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -4252,6 +4826,7 @@
      "seen": "2026-07-26T19:45:13.397131"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -4285,6 +4860,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -4377,6 +4953,7 @@
      "seen": "2026-07-26T19:45:13.397131"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -4410,6 +4987,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -4512,6 +5090,7 @@
      "seen": "2026-08-30T16:55:24.926157"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -4545,6 +5124,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze",
@@ -4552,7 +5132,7 @@
      "Identità confermata da 4 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
      "Età non confermata"
     ],
     "next_steps": [
@@ -4566,7 +5146,7 @@
      "Identity confirmed by 4 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why",
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why",
      "Age not confirmed"
     ],
     "next_steps_en": [
@@ -4644,6 +5224,7 @@
      "seen": "2026-08-29T21:05:07.037910"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -4657,6 +5238,7 @@
    "first_detected": "2026-06-12T10:14:17.417292",
    "last_seen": "2026-08-29T21:05:07.037910",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -4751,6 +5333,7 @@
      "seen": "2026-07-18T13:58:07.995503"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -4764,6 +5347,7 @@
    "first_detected": "2026-06-16T04:06:42.168560",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -4851,6 +5435,7 @@
      "seen": "2026-07-18T08:21:52.280337"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -4890,6 +5475,25 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between January 2025 and February 2025, U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+      "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -4897,7 +5501,7 @@
     ],
     "cautions": [
      "Una sola fonte: non ancora corroborato",
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
@@ -4911,7 +5515,7 @@
     ],
     "cautions_en": [
      "Single source: not yet corroborated",
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why",
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why",
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -4979,6 +5583,7 @@
      "seen": "2026-07-18T08:21:52.280337"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -5018,6 +5623,25 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between September 2024 and February 2025, U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
+      "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -5025,7 +5649,7 @@
     ],
     "cautions": [
      "Una sola fonte: non ancora corroborato",
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
@@ -5039,7 +5663,7 @@
     ],
     "cautions_en": [
      "Single source: not yet corroborated",
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why",
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why",
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -5112,6 +5736,7 @@
      "seen": "2026-08-02T08:56:21.179010"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -5145,6 +5770,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -5152,7 +5778,7 @@
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 23 mesi fa (settembre 2024): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 24 mesi fa (settembre 2024): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
@@ -5166,7 +5792,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 23 months ago (September 2024): the run has stopped — worth finding out why",
+     "Last call-up 24 months ago (September 2024): the run has stopped — worth finding out why",
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -5239,6 +5865,7 @@
      "seen": "2026-08-22T13:10:03.073566"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 1,
     "assists": 0,
@@ -5272,6 +5899,7 @@
     "fonte": "Fédération Sénégalaise de Football",
     "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Produzione documentata: 1 gol",
@@ -5358,6 +5986,7 @@
      "seen": "2026-08-22T13:10:03.073566"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 1,
     "assists": 0,
@@ -5391,6 +6020,7 @@
     "fonte": "Fédération Sénégalaise de Football",
     "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Produzione documentata: 1 gol",
@@ -5477,6 +6107,7 @@
      "seen": "2026-08-22T07:10:10.145262"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 1,
     "assists": 0,
@@ -5509,6 +6140,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Produzione documentata: 1 gol in 1 presenze",
@@ -5516,7 +6148,7 @@
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché"
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché"
     ],
     "next_steps": [
      "Richiedere video o programmare una visione diretta",
@@ -5528,7 +6160,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why"
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why"
     ],
     "next_steps_en": [
      "Request video or schedule a live viewing",
@@ -5604,6 +6236,7 @@
      "seen": "2026-08-30T05:41:36.786472"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -5617,6 +6250,7 @@
    "first_detected": "2026-06-01T17:39:25.162813",
    "last_seen": "2026-08-30T05:41:36.786472",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -5711,6 +6345,7 @@
      "seen": "2026-07-20T09:42:48.018685"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -5724,6 +6359,7 @@
    "first_detected": "2026-06-20T19:27:19.694852",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (18 anni)",
@@ -5818,6 +6454,7 @@
      "seen": "2026-07-24T09:04:25.094523"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": true,
    "identity_complete": true,
@@ -5826,6 +6463,7 @@
    "first_detected": "2026-07-03T02:57:38.988114",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -5915,6 +6553,7 @@
      "seen": "2026-07-18T08:21:52.280337"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -5948,13 +6587,14 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
     ],
     "cautions": [
      "Una sola fonte: non ancora corroborato",
-     "Ultima convocazione 19 mesi fa (gennaio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 20 mesi fa (gennaio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata",
      "Età non confermata"
     ],
@@ -5968,7 +6608,7 @@
     ],
     "cautions_en": [
      "Single source: not yet corroborated",
-     "Last call-up 19 months ago (January 2025): the run has stopped — worth finding out why",
+     "Last call-up 20 months ago (January 2025): the run has stopped — worth finding out why",
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -6042,6 +6682,7 @@
      "seen": "2026-08-22T13:10:03.073566"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 1,
@@ -6074,6 +6715,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Produzione documentata: 1 assist in 1 presenze",
@@ -6081,7 +6723,7 @@
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché"
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché"
     ],
     "next_steps": [
      "Richiedere video o programmare una visione diretta",
@@ -6093,7 +6735,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why"
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why"
     ],
     "next_steps_en": [
      "Request video or schedule a live viewing",
@@ -6164,6 +6806,7 @@
      "seen": "2026-08-22T07:10:10.145262"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -6177,6 +6820,7 @@
    "first_detected": "2026-08-22T07:10:10.145262",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (18 anni)",
@@ -6269,6 +6913,7 @@
      "seen": "2026-08-21T19:07:28.602721"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -6282,6 +6927,7 @@
    "first_detected": "2026-08-21T05:49:01.085919",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (18 anni)",
@@ -6374,6 +7020,7 @@
      "seen": "2026-07-31T09:25:55.883241"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -6407,6 +7054,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -6494,6 +7142,7 @@
      "seen": "2026-07-18T08:21:52.280337"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -6533,6 +7182,25 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between June 2026 and July 2026, U19."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2026/06/12/resolucion-super-copa-juvenil-no-013-de-2026-12-de-junio-2026/",
+      "https://fcf.com.co/2026/07/13/convocatoria-de-la-seleccion-colombia-masculina-sub-19-microciclo-previo-a-a-los-juegos-suramericanos-y-centroamericanos-y-del-caribe-2026/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -6620,6 +7288,7 @@
      "seen": "2026-07-19T08:56:55.551442"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -6659,13 +7328,32 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between February 2025 and July 2025, U16."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
     ],
     "cautions": [
      "Una sola fonte: non ancora corroborato",
-     "Ultima convocazione 13 mesi fa (luglio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 14 mesi fa (luglio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata",
      "Età non confermata"
     ],
@@ -6679,7 +7367,7 @@
     ],
     "cautions_en": [
      "Single source: not yet corroborated",
-     "Last call-up 13 months ago (July 2025): the run has stopped — worth finding out why",
+     "Last call-up 14 months ago (July 2025): the run has stopped — worth finding out why",
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -6748,6 +7436,7 @@
      "seen": "2026-07-18T08:21:52.280337"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -6781,6 +7470,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -6788,7 +7478,7 @@
     ],
     "cautions": [
      "Una sola fonte: non ancora corroborato",
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
@@ -6802,7 +7492,7 @@
     ],
     "cautions_en": [
      "Single source: not yet corroborated",
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why",
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why",
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -6870,6 +7560,7 @@
      "seen": "2026-07-18T08:21:52.280337"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -6903,6 +7594,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -6910,7 +7602,7 @@
     ],
     "cautions": [
      "Una sola fonte: non ancora corroborato",
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
@@ -6924,7 +7616,7 @@
     ],
     "cautions_en": [
      "Single source: not yet corroborated",
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why",
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why",
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -6997,6 +7689,7 @@
      "seen": "2026-08-23T07:11:16.983089"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -7030,6 +7723,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze",
@@ -7122,6 +7816,7 @@
      "seen": "2026-08-23T13:11:41.317748"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -7155,6 +7850,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 2 presenze",
@@ -7247,6 +7943,7 @@
      "seen": "2026-08-23T18:58:14.228962"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -7280,6 +7977,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 2 presenze",
@@ -7372,6 +8070,7 @@
      "seen": "2026-08-24T02:08:37.281942"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -7405,6 +8104,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze",
@@ -7492,6 +8192,7 @@
      "seen": "2026-07-21T09:11:23.011662"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": true,
    "identity_complete": true,
@@ -7520,6 +8221,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -7527,7 +8229,7 @@
     ],
     "cautions": [
      "Una sola fonte: non ancora corroborato",
-     "Ultima convocazione 23 mesi fa (settembre 2024): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 24 mesi fa (settembre 2024): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
@@ -7541,7 +8243,7 @@
     ],
     "cautions_en": [
      "Single source: not yet corroborated",
-     "Last call-up 23 months ago (September 2024): the run has stopped — worth finding out why",
+     "Last call-up 24 months ago (September 2024): the run has stopped — worth finding out why",
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -7609,6 +8311,7 @@
      "seen": "2026-07-21T09:11:23.011662"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": true,
    "identity_complete": true,
@@ -7637,6 +8340,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -7644,7 +8348,7 @@
     ],
     "cautions": [
      "Una sola fonte: non ancora corroborato",
-     "Ultima convocazione 23 mesi fa (settembre 2024): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 24 mesi fa (settembre 2024): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
@@ -7658,7 +8362,7 @@
     ],
     "cautions_en": [
      "Single source: not yet corroborated",
-     "Last call-up 23 months ago (September 2024): the run has stopped — worth finding out why",
+     "Last call-up 24 months ago (September 2024): the run has stopped — worth finding out why",
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -7726,6 +8430,7 @@
      "seen": "2026-07-25T08:31:05.339718"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -7759,6 +8464,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -7851,6 +8557,7 @@
      "seen": "2026-08-25T02:03:52.774865"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -7884,6 +8591,7 @@
     "fonte": "ANFP Chile",
     "frase_en": "Called up 1 times by ANFP Chile, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -7974,6 +8682,7 @@
      "seen": "2026-08-24T07:39:07.373183"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -8006,6 +8715,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze",
@@ -8013,7 +8723,7 @@
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché"
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché"
     ],
     "next_steps": [
      "Richiedere video o programmare una visione diretta",
@@ -8025,7 +8735,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why"
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why"
     ],
     "next_steps_en": [
      "Request video or schedule a live viewing",
@@ -8096,6 +8806,7 @@
      "seen": "2026-08-24T07:39:07.373183"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -8129,6 +8840,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze",
@@ -8136,7 +8848,7 @@
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché"
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché"
     ],
     "next_steps": [
      "Richiedere video o programmare una visione diretta",
@@ -8148,7 +8860,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why"
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why"
     ],
     "next_steps_en": [
      "Request video or schedule a live viewing",
@@ -8219,6 +8931,7 @@
      "seen": "2026-08-24T13:31:36.232233"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -8252,6 +8965,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze",
@@ -8259,7 +8973,7 @@
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché"
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché"
     ],
     "next_steps": [
      "Richiedere video o programmare una visione diretta",
@@ -8271,7 +8985,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why"
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why"
     ],
     "next_steps_en": [
      "Request video or schedule a live viewing",
@@ -8342,6 +9056,7 @@
      "seen": "2026-08-24T13:31:36.232233"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -8374,6 +9089,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze",
@@ -8381,7 +9097,7 @@
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché"
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché"
     ],
     "next_steps": [
      "Richiedere video o programmare una visione diretta",
@@ -8393,7 +9109,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why"
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why"
     ],
     "next_steps_en": [
      "Request video or schedule a live viewing",
@@ -8464,6 +9180,7 @@
      "seen": "2026-07-22T09:10:40.233331"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -8477,6 +9194,7 @@
    "first_detected": "2026-06-01T05:31:43.066722",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -8569,6 +9287,7 @@
      "seen": "2026-08-22T18:59:18.028374"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -8582,6 +9301,7 @@
    "first_detected": "2026-08-22T18:59:18.028374",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
@@ -8674,6 +9394,7 @@
      "seen": "2026-08-23T02:09:50.908546"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -8687,6 +9408,7 @@
    "first_detected": "2026-08-23T02:09:50.908546",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
@@ -8779,6 +9501,7 @@
      "seen": "2026-08-23T02:09:50.908546"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -8792,6 +9515,7 @@
    "first_detected": "2026-08-23T02:09:50.908546",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
@@ -8884,6 +9608,7 @@
      "seen": "2026-08-01T04:02:16.075469"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -8917,6 +9642,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -9009,6 +9735,7 @@
      "seen": "2026-07-28T15:01:27.854628"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -9042,6 +9769,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -9134,6 +9862,7 @@
      "seen": "2026-08-01T04:02:16.075469"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -9167,13 +9896,14 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U16."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata",
      "Età non confermata"
     ],
@@ -9187,7 +9917,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why",
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why",
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -9261,6 +9991,7 @@
      "seen": "2026-08-01T08:41:41.920525"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -9294,13 +10025,14 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U16."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata",
      "Età non confermata"
     ],
@@ -9314,7 +10046,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why",
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why",
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -9388,6 +10120,7 @@
      "seen": "2026-08-01T04:02:16.075469"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -9421,13 +10154,14 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U16."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata",
      "Età non confermata"
     ],
@@ -9441,7 +10175,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why",
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why",
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -9515,6 +10249,7 @@
      "seen": "2026-08-22T01:58:37.132698"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {},
    "publishable": true,
    "identity_complete": false,
@@ -9541,6 +10276,7 @@
     "fonte": "Nigeria Football Federation",
     "frase_en": "Called up 1 times by Nigeria Football Federation."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -9633,6 +10369,7 @@
      "seen": "2026-08-22T01:58:37.132698"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -9666,6 +10403,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -9758,6 +10496,7 @@
      "seen": "2026-08-22T01:58:37.132698"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -9791,6 +10530,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -9883,6 +10623,7 @@
      "seen": "2026-08-01T08:41:41.920525"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -9916,6 +10657,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -10008,6 +10750,7 @@
      "seen": "2026-08-01T08:41:41.920525"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -10041,6 +10784,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -10133,6 +10877,7 @@
      "seen": "2026-08-03T04:07:20.536590"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -10166,6 +10911,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -10258,6 +11004,7 @@
      "seen": "2026-08-02T08:56:21.179010"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -10291,6 +11038,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -10383,6 +11131,7 @@
      "seen": "2026-08-22T07:10:10.145262"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -10416,13 +11165,14 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U16."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 13 mesi fa (luglio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 14 mesi fa (luglio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata",
      "Età non confermata"
     ],
@@ -10436,7 +11186,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 13 months ago (July 2025): the run has stopped — worth finding out why",
+     "Last call-up 14 months ago (July 2025): the run has stopped — worth finding out why",
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -10510,6 +11260,7 @@
      "seen": "2026-08-24T19:10:43.674133"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -10523,6 +11274,7 @@
    "first_detected": "2026-08-24T19:10:43.674133",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
@@ -10615,6 +11367,7 @@
      "seen": "2026-08-24T19:10:43.674133"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -10628,6 +11381,7 @@
    "first_detected": "2026-08-24T19:10:43.674133",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
@@ -10720,6 +11474,7 @@
      "seen": "2026-08-21T19:07:28.602721"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {},
    "publishable": true,
    "identity_complete": false,
@@ -10746,6 +11501,7 @@
     "fonte": "ANFP Chile",
     "frase_en": "Called up 1 times by ANFP Chile."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -10838,6 +11594,7 @@
      "seen": "2026-08-22T18:59:18.028374"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -10851,6 +11608,7 @@
    "first_detected": "2026-08-21T05:49:01.085919",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
@@ -10943,6 +11701,7 @@
      "seen": "2026-08-23T13:11:41.317748"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 1
    },
@@ -10953,6 +11712,7 @@
    "first_detected": "2026-08-23T07:11:16.983089",
    "last_seen": "2026-08-23T13:11:41.317748",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Produzione documentata: 1 gol",
@@ -11045,6 +11805,7 @@
      "seen": "2026-08-25T13:29:20.133485"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -11058,6 +11819,7 @@
    "first_detected": "2026-08-25T07:26:08.819289",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
@@ -11150,6 +11912,7 @@
      "seen": "2026-08-26T20:24:32.996419"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -11183,6 +11946,7 @@
     "fonte": "South African Football Association",
     "frase_en": "Called up 1 times by South African Football Association, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -11275,6 +12039,7 @@
      "seen": "2026-08-26T20:24:32.996419"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -11308,6 +12073,7 @@
     "fonte": "South African Football Association",
     "frase_en": "Called up 1 times by South African Football Association, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -11400,6 +12166,7 @@
      "seen": "2026-08-26T20:24:32.996419"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -11433,6 +12200,7 @@
     "fonte": "South African Football Association",
     "frase_en": "Called up 1 times by South African Football Association, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -11525,6 +12293,7 @@
      "seen": "2026-08-24T07:39:07.373183"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -11557,6 +12326,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze",
@@ -11564,7 +12334,7 @@
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché"
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché"
     ],
     "next_steps": [
      "Richiedere video o programmare una visione diretta",
@@ -11576,7 +12346,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why"
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why"
     ],
     "next_steps_en": [
      "Request video or schedule a live viewing",
@@ -11647,6 +12417,7 @@
      "seen": "2026-08-24T07:39:07.373183"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -11680,6 +12451,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze",
@@ -11687,7 +12459,7 @@
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché"
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché"
     ],
     "next_steps": [
      "Richiedere video o programmare una visione diretta",
@@ -11699,7 +12471,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why"
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why"
     ],
     "next_steps_en": [
      "Request video or schedule a live viewing",
@@ -11770,6 +12542,7 @@
      "seen": "2026-08-24T13:31:36.232233"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -11803,6 +12576,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze",
@@ -11810,7 +12584,7 @@
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché"
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché"
     ],
     "next_steps": [
      "Richiedere video o programmare una visione diretta",
@@ -11822,7 +12596,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why"
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why"
     ],
     "next_steps_en": [
      "Request video or schedule a live viewing",
@@ -11893,6 +12667,7 @@
      "seen": "2026-08-24T19:10:43.674133"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -11906,6 +12681,7 @@
    "first_detected": "2026-08-24T19:10:43.674133",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -11996,6 +12772,7 @@
      "seen": "2026-08-25T02:03:52.774865"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -12009,6 +12786,7 @@
    "first_detected": "2026-08-25T02:03:52.774865",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -12099,6 +12877,7 @@
      "seen": "2026-08-25T02:03:52.774865"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -12112,6 +12891,7 @@
    "first_detected": "2026-08-25T02:03:52.774865",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -12202,6 +12982,7 @@
      "seen": "2026-08-25T02:03:52.774865"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -12215,6 +12996,7 @@
    "first_detected": "2026-08-25T02:03:52.774865",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -12305,6 +13087,7 @@
      "seen": "2026-08-24T13:31:36.232233"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -12338,13 +13121,14 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U16."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 13 mesi fa (luglio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 14 mesi fa (luglio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
@@ -12357,7 +13141,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 13 months ago (July 2025): the run has stopped — worth finding out why",
+     "Last call-up 14 months ago (July 2025): the run has stopped — worth finding out why",
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -12430,6 +13214,7 @@
      "seen": "2026-08-21T13:26:54.585139"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -12443,6 +13228,7 @@
    "first_detected": "2026-08-21T07:24:39.977541",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -12533,6 +13319,7 @@
      "seen": "2026-08-27T22:30:15.991675"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {},
    "publishable": true,
    "identity_complete": true,
@@ -12541,6 +13328,7 @@
    "first_detected": "2026-08-21T13:26:54.585139",
    "last_seen": "2026-08-27T22:30:15.991675",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
@@ -12633,6 +13421,7 @@
      "seen": "2026-08-24T19:10:43.674133"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {},
    "publishable": true,
    "identity_complete": true,
@@ -12641,6 +13430,7 @@
    "first_detected": "2026-08-21T13:26:54.585139",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -12731,6 +13521,7 @@
      "seen": "2026-08-26T12:03:31.516103"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {},
    "publishable": true,
    "identity_complete": true,
@@ -12739,6 +13530,7 @@
    "first_detected": "2026-08-26T07:26:47.780016",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -12834,6 +13626,7 @@
      "seen": "2026-08-31T05:57:51.267979"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -12847,6 +13640,7 @@
    "first_detected": "2026-08-25T19:09:27.983861",
    "last_seen": "2026-08-31T05:57:51.267979",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -12942,6 +13736,7 @@
      "seen": "2026-08-31T05:57:51.267979"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -12955,6 +13750,7 @@
    "first_detected": "2026-08-25T19:09:27.983861",
    "last_seen": "2026-08-31T05:57:51.267979",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -13040,6 +13836,7 @@
      "seen": "2026-07-16T19:42:31.108991"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -13073,6 +13870,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -13170,6 +13968,7 @@
      "seen": "2026-08-30T21:24:30.448610"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -13183,6 +13982,7 @@
    "first_detected": "2026-08-30T21:24:30.448610",
    "last_seen": "2026-08-30T21:24:30.448610",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -13268,6 +14068,7 @@
      "seen": "2026-07-19T08:56:55.551442"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -13301,13 +14102,14 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U16."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
     ],
     "cautions": [
      "Una sola fonte: non ancora corroborato",
-     "Ultima convocazione 18 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata",
      "Età non confermata"
     ],
@@ -13321,7 +14123,7 @@
     ],
     "cautions_en": [
      "Single source: not yet corroborated",
-     "Last call-up 18 months ago (February 2025): the run has stopped — worth finding out why",
+     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why",
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -13390,6 +14192,7 @@
      "seen": "2026-07-24T09:04:25.094523"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -13421,6 +14224,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -13508,6 +14312,7 @@
      "seen": "2026-07-27T10:27:21.110413"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -13539,6 +14344,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -13626,6 +14432,7 @@
      "seen": "2026-07-27T10:27:21.110413"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -13657,6 +14464,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -13744,6 +14552,7 @@
      "seen": "2026-07-28T09:18:44.128588"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": true,
    "identity_complete": false,
@@ -13770,6 +14579,7 @@
     "fonte": "Nigeria Football Federation",
     "frase_en": "Called up 1 times by Nigeria Football Federation."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -13857,6 +14667,7 @@
      "seen": "2026-07-28T09:18:44.128588"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": true,
    "identity_complete": false,
@@ -13883,6 +14694,7 @@
     "fonte": "Nigeria Football Federation",
     "frase_en": "Called up 1 times by Nigeria Football Federation."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -13970,6 +14782,7 @@
      "seen": "2026-07-28T09:18:44.128588"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": true,
    "identity_complete": false,
@@ -13996,6 +14809,7 @@
     "fonte": "Nigeria Football Federation",
     "frase_en": "Called up 1 times by Nigeria Football Federation."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -14093,6 +14907,7 @@
      "seen": "2026-08-30T12:09:12.375789"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -14106,6 +14921,7 @@
    "first_detected": "2026-08-30T12:09:12.375789",
    "last_seen": "2026-08-30T12:09:12.375789",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -14201,6 +15017,7 @@
      "seen": "2026-08-31T05:57:51.267979"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -14214,6 +15031,7 @@
    "first_detected": "2026-08-26T02:09:29.229545",
    "last_seen": "2026-08-31T05:57:51.267979",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -14299,6 +15117,7 @@
      "seen": "2026-07-31T04:02:04.097438"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -14332,6 +15151,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -14419,6 +15239,7 @@
      "seen": "2026-07-31T04:02:04.097438"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -14452,6 +15273,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -14539,6 +15361,7 @@
      "seen": "2026-08-05T03:45:27.804918"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -14572,13 +15395,14 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U16."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
     ],
     "cautions": [
      "Una sola fonte: non ancora corroborato",
-     "Ultima convocazione 13 mesi fa (luglio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 14 mesi fa (luglio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata",
      "Età non confermata"
     ],
@@ -14592,7 +15416,7 @@
     ],
     "cautions_en": [
      "Single source: not yet corroborated",
-     "Last call-up 13 months ago (July 2025): the run has stopped — worth finding out why",
+     "Last call-up 14 months ago (July 2025): the run has stopped — worth finding out why",
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -14661,6 +15485,7 @@
      "seen": "2026-08-05T03:45:27.804918"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -14694,13 +15519,14 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U16."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
     ],
     "cautions": [
      "Una sola fonte: non ancora corroborato",
-     "Ultima convocazione 13 mesi fa (luglio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 14 mesi fa (luglio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata",
      "Età non confermata"
     ],
@@ -14714,7 +15540,7 @@
     ],
     "cautions_en": [
      "Single source: not yet corroborated",
-     "Last call-up 13 months ago (July 2025): the run has stopped — worth finding out why",
+     "Last call-up 14 months ago (July 2025): the run has stopped — worth finding out why",
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -14783,6 +15609,7 @@
      "seen": "2026-08-05T03:45:27.804918"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -14816,13 +15643,14 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U16."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
     ],
     "cautions": [
      "Una sola fonte: non ancora corroborato",
-     "Ultima convocazione 13 mesi fa (luglio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 14 mesi fa (luglio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata",
      "Età non confermata"
     ],
@@ -14836,7 +15664,7 @@
     ],
     "cautions_en": [
      "Single source: not yet corroborated",
-     "Last call-up 13 months ago (July 2025): the run has stopped — worth finding out why",
+     "Last call-up 14 months ago (July 2025): the run has stopped — worth finding out why",
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -14905,6 +15733,7 @@
      "seen": "2026-08-05T03:45:27.804918"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -14938,13 +15767,14 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U16."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
     ],
     "cautions": [
      "Una sola fonte: non ancora corroborato",
-     "Ultima convocazione 13 mesi fa (luglio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 14 mesi fa (luglio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata",
      "Età non confermata"
     ],
@@ -14958,7 +15788,7 @@
     ],
     "cautions_en": [
      "Single source: not yet corroborated",
-     "Last call-up 13 months ago (July 2025): the run has stopped — worth finding out why",
+     "Last call-up 14 months ago (July 2025): the run has stopped — worth finding out why",
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -15037,6 +15867,7 @@
      "seen": "2026-08-31T05:57:51.267979"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -15050,6 +15881,7 @@
    "first_detected": "2026-08-26T13:35:08.974158",
    "last_seen": "2026-08-31T05:57:51.267979",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -15140,6 +15972,7 @@
      "seen": "2026-08-26T02:09:29.229545"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {},
    "publishable": true,
    "identity_complete": true,
@@ -15148,6 +15981,7 @@
    "first_detected": "2026-08-25T19:09:27.983861",
    "last_seen": "2026-08-26T02:09:29.229545",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -15233,6 +16067,7 @@
      "seen": "2026-08-26T13:52:17.702316"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -15266,6 +16101,7 @@
     "fonte": "South African Football Association",
     "frase_en": "Called up 1 times by South African Football Association, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -15353,6 +16189,7 @@
      "seen": "2026-08-26T13:52:17.702316"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -15386,6 +16223,7 @@
     "fonte": "South African Football Association",
     "frase_en": "Called up 1 times by South African Football Association, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -15473,6 +16311,7 @@
      "seen": "2026-08-27T20:09:40.090128"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": true,
    "identity_complete": false,
@@ -15499,6 +16338,7 @@
     "fonte": "Fédération Sénégalaise de Football",
     "frase_en": "Called up 1 times by Fédération Sénégalaise de Football."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -15591,6 +16431,7 @@
      "seen": "2026-08-22T18:59:18.028374"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": true,
    "identity_complete": true,
@@ -15599,6 +16440,7 @@
    "first_detected": "2026-07-03T09:18:37.487425",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -15691,6 +16533,7 @@
      "seen": "2026-08-01T08:41:41.920525"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -15704,6 +16547,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -15794,6 +16638,7 @@
      "seen": "2026-07-29T09:23:20.822740"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -15807,6 +16652,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -15897,6 +16743,7 @@
      "seen": "2026-07-29T09:23:20.822740"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -15910,6 +16757,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -16000,6 +16848,7 @@
      "seen": "2026-07-31T09:25:55.883241"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -16013,6 +16862,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -16103,6 +16953,7 @@
      "seen": "2026-08-27T10:10:07.490060"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -16116,6 +16967,7 @@
    "first_detected": "2026-08-27T10:10:07.490060",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -16206,6 +17058,7 @@
      "seen": "2026-08-26T07:26:47.780016"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -16219,6 +17072,7 @@
    "first_detected": "2026-08-26T07:26:47.780016",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -16309,6 +17163,7 @@
      "seen": "2026-08-26T07:26:47.780016"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -16322,6 +17177,7 @@
    "first_detected": "2026-08-26T07:26:47.780016",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -16412,6 +17268,7 @@
      "seen": "2026-08-26T07:26:47.780016"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -16425,6 +17282,7 @@
    "first_detected": "2026-08-26T07:26:47.780016",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -16515,6 +17373,7 @@
      "seen": "2026-08-26T07:26:47.780016"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -16528,6 +17387,7 @@
    "first_detected": "2026-08-26T07:26:47.780016",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -16618,6 +17478,7 @@
      "seen": "2026-08-26T12:03:31.516103"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -16631,6 +17492,7 @@
    "first_detected": "2026-08-26T12:03:31.516103",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -16721,6 +17583,7 @@
      "seen": "2026-08-27T16:37:11.453695"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -16734,6 +17597,7 @@
    "first_detected": "2026-08-27T16:37:11.453695",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -16824,6 +17688,7 @@
      "seen": "2026-08-26T13:35:08.974158"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -16837,6 +17702,7 @@
    "first_detected": "2026-08-26T13:35:08.974158",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -16927,6 +17793,7 @@
      "seen": "2026-08-26T13:35:08.974158"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -16940,6 +17807,7 @@
    "first_detected": "2026-08-26T13:35:08.974158",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -17030,6 +17898,7 @@
      "seen": "2026-08-26T13:35:08.974158"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -17043,6 +17912,7 @@
    "first_detected": "2026-08-26T13:35:08.974158",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -17133,6 +18003,7 @@
      "seen": "2026-08-27T16:37:11.453695"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -17146,6 +18017,7 @@
    "first_detected": "2026-08-27T16:37:11.453695",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -17236,6 +18108,7 @@
      "seen": "2026-08-21T13:26:54.585139"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {},
    "publishable": true,
    "identity_complete": true,
@@ -17244,6 +18117,7 @@
    "first_detected": "2026-08-21T07:24:39.977541",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -17334,6 +18208,7 @@
      "seen": "2026-08-25T13:29:20.133485"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {},
    "publishable": true,
    "identity_complete": true,
@@ -17342,6 +18217,7 @@
    "first_detected": "2026-08-21T13:26:54.585139",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -17432,6 +18308,7 @@
      "seen": "2026-08-25T13:29:20.133485"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -17445,6 +18322,7 @@
    "first_detected": "2026-08-21T13:26:54.585139",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -17535,6 +18413,7 @@
      "seen": "2026-08-27T05:57:46.052232"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {},
    "publishable": true,
    "identity_complete": true,
@@ -17543,6 +18422,7 @@
    "first_detected": "2026-08-21T13:26:54.585139",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -17633,6 +18513,7 @@
      "seen": "2026-08-16T07:09:24.134454"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -17646,6 +18527,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -17731,6 +18613,7 @@
      "seen": "2026-08-25T02:03:52.774865"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": true,
    "identity_complete": false,
@@ -17739,6 +18622,7 @@
    "first_detected": "2026-08-25T02:03:52.774865",
    "last_seen": "2026-08-25T02:03:52.774865",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -17826,6 +18710,7 @@
      "seen": "2026-08-25T13:29:20.133485"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -17839,6 +18724,7 @@
    "first_detected": "2026-08-25T13:29:20.133485",
    "last_seen": "2026-08-25T13:29:20.133485",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -17926,6 +18812,7 @@
      "seen": "2026-08-26T20:24:32.996419"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -17939,6 +18826,7 @@
    "first_detected": "2026-08-26T20:24:32.996419",
    "last_seen": "2026-08-26T20:24:32.996419",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -18026,6 +18914,7 @@
      "seen": "2026-08-30T16:55:24.926157"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": true,
    "identity_complete": false,
@@ -18034,6 +18923,7 @@
    "first_detected": "2026-08-30T16:55:24.926157",
    "last_seen": "2026-08-30T16:55:24.926157",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -18126,6 +19016,7 @@
      "seen": "2026-07-16T19:42:31.108991"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -18139,6 +19030,7 @@
    "first_detected": "2026-03-10T06:51:55.040509",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (14 anni): ampio margine di sviluppo",
@@ -18233,6 +19125,7 @@
      "seen": "2026-08-25T19:09:27.983861"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": true,
    "identity_complete": true,
@@ -18241,6 +19134,7 @@
    "first_detected": "2026-06-13T08:59:14.737398",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Identità confermata da 2 fonti indipendenti"
@@ -18333,6 +19227,7 @@
      "seen": "2026-08-22T18:59:18.028374"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {},
    "publishable": true,
    "identity_complete": true,
@@ -18341,6 +19236,7 @@
    "first_detected": "2026-08-21T13:26:54.585139",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
@@ -18433,6 +19329,7 @@
      "seen": "2026-08-26T20:40:05.526677"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {},
    "publishable": true,
    "identity_complete": true,
@@ -18441,6 +19338,7 @@
    "first_detected": "2026-08-21T13:26:54.585139",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
@@ -18538,6 +19436,7 @@
      "seen": "2026-08-23T07:11:16.983089"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 12,
     "assists": 9,
@@ -18551,6 +19450,7 @@
    "first_detected": "2026-06-02T16:26:08.016372",
    "last_seen": "2026-08-23T07:11:16.983089",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Produzione documentata: 12 gol e 9 assist",
@@ -18634,6 +19534,7 @@
      "seen": "2026-07-16T19:42:31.108991"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -18698,6 +19599,27 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 6 times by Federación Colombiana de Fútbol between February 2025 and July 2026, from U16 to U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "6 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "6 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
+      "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
+     ],
+     "dati": {
+      "convocazioni": 6,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -18795,6 +19717,7 @@
      "seen": "2026-08-29T16:50:29.768229"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -18808,6 +19731,7 @@
    "first_detected": "2026-07-05T03:23:40.915578",
    "last_seen": "2026-08-29T16:50:29.768229",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -18900,6 +19824,7 @@
      "seen": "2026-08-02T08:56:21.179010"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 1,
     "assists": 0,
@@ -18933,6 +19858,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -19020,6 +19946,7 @@
      "seen": "2026-08-29T16:50:29.768229"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -19033,6 +19960,7 @@
    "first_detected": "2026-08-29T16:50:29.768229",
    "last_seen": "2026-08-29T16:50:29.768229",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -19128,6 +20056,7 @@
      "seen": "2026-08-29T21:05:07.037910"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -19141,6 +20070,7 @@
    "first_detected": "2026-03-03T12:58:52.925498",
    "last_seen": "2026-08-29T21:05:07.037910",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -19235,6 +20165,7 @@
      "seen": "2026-07-18T03:42:09.534103"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -19248,6 +20179,7 @@
    "first_detected": "2026-03-16T13:13:57.556669",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -19340,6 +20272,7 @@
      "seen": "2026-07-18T03:42:09.534103"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -19353,6 +20286,7 @@
    "first_detected": "2026-03-07T08:58:35.986874",
    "last_seen": "2026-07-07T03:22:18.663706",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -19441,6 +20375,7 @@
      "seen": "2026-07-17T14:13:24.320053"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -19454,6 +20389,7 @@
    "first_detected": "2026-03-14T02:02:03.134054",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -19544,6 +20480,7 @@
      "seen": "2026-07-18T08:21:52.280337"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -19557,6 +20494,7 @@
    "first_detected": "2026-06-01T04:04:27.385838",
    "last_seen": "2026-07-12T13:19:27.929274",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -19647,6 +20585,7 @@
      "seen": "2026-07-18T13:58:07.995503"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -19660,6 +20599,7 @@
    "first_detected": "2026-06-03T16:49:26.441555",
    "last_seen": "2026-07-03T02:57:38.714046",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -19747,6 +20687,7 @@
      "seen": "2026-06-07T08:56:43.152008"
     }
    ],
+   "n_sources_registro": 0,
    "stats": {},
    "publishable": false,
    "identity_complete": true,
@@ -19755,6 +20696,7 @@
    "first_detected": "2026-06-07T08:56:43.152008",
    "last_seen": "2026-06-07T08:56:43.152008",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Fuori dai radar mainstream: alta asimmetria informativa"
@@ -19847,6 +20789,7 @@
      "seen": "2026-07-18T08:21:52.280337"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -19860,6 +20803,7 @@
    "first_detected": "2026-06-12T14:59:14.299313",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (18 anni)",
@@ -19952,6 +20896,7 @@
      "seen": "2026-07-19T14:03:01.513039"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -19965,6 +20910,7 @@
    "first_detected": "2026-06-20T14:04:12.453142",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (18 anni)",
@@ -20053,6 +20999,7 @@
      "seen": "2026-07-20T04:23:18.085592"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -20066,6 +21013,7 @@
    "first_detected": "2026-07-03T02:57:38.854065",
    "last_seen": "2026-07-13T19:23:44.418165",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -20101,7 +21049,7 @@
    "claims": {
     "nome": {
      "stato": "dichiarato",
-     "fonte": "AUF — Selecciones Juveniles",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
      "tipo": "federation",
      "citazione": "Lucas Ferreira",
      "url": "https://www.auf.org.uy/la-copa-de-las-oportunidades/"
@@ -20156,6 +21104,7 @@
      "seen": "2026-07-31T09:25:55.883241"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -20187,6 +21136,7 @@
     "fonte": "AUF — Selecciones Juveniles",
     "frase_en": "Called up 1 times by AUF — Selecciones Juveniles."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -20273,6 +21223,7 @@
      "seen": "2026-07-28T09:18:44.128588"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -20286,6 +21237,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
@@ -20374,6 +21326,7 @@
      "seen": "2026-07-21T09:11:23.011662"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -20387,6 +21340,7 @@
    "first_detected": "2026-03-01T18:34:20.455948",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -20486,6 +21440,7 @@
      "seen": "2026-08-30T05:41:36.786472"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -20499,6 +21454,7 @@
    "first_detected": "2026-03-01T19:00:00.487652",
    "last_seen": "2026-08-30T05:41:36.786472",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -20585,6 +21541,7 @@
      "seen": "2026-07-24T09:04:25.094523"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -20598,6 +21555,7 @@
    "first_detected": "2026-06-16T16:52:57.665170",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
@@ -20695,6 +21653,7 @@
      "seen": "2026-08-30T12:09:12.375789"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -20708,6 +21667,7 @@
    "first_detected": "2026-07-02T19:24:55.993595",
    "last_seen": "2026-08-30T12:09:12.375789",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -20802,6 +21762,7 @@
      "seen": "2026-07-23T09:09:17.676484"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -20815,6 +21776,7 @@
    "first_detected": "2026-06-01T06:01:15.061613",
    "last_seen": "2026-07-12T02:44:16.822132",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -20909,6 +21871,7 @@
      "seen": "2026-07-22T09:10:40.233331"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -20922,6 +21885,7 @@
    "first_detected": "2026-07-01T19:56:29.735740",
    "last_seen": "2026-07-13T19:23:43.804509",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -20961,7 +21925,7 @@
    "claims": {
     "nome": {
      "stato": "dichiarato",
-     "fonte": "AUF — Selecciones Juveniles",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
      "tipo": "federation",
      "citazione": "Ignacio Pintos",
      "url": "https://www.auf.org.uy/la-copa-de-las-oportunidades/"
@@ -21016,6 +21980,7 @@
      "seen": "2026-07-31T09:25:55.883241"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -21047,6 +22012,7 @@
     "fonte": "AUF — Selecciones Juveniles",
     "frase_en": "Called up 1 times by AUF — Selecciones Juveniles."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -21133,6 +22099,7 @@
      "seen": "2026-07-31T04:02:04.097438"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -21146,6 +22113,7 @@
    "first_detected": "2026-03-07T08:58:34.836776",
    "last_seen": "2026-06-13T08:59:14.608336",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -21241,6 +22209,7 @@
      "seen": "2026-08-30T12:09:12.375789"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -21254,6 +22223,7 @@
    "first_detected": "2026-08-30T12:09:12.375789",
    "last_seen": "2026-08-30T12:09:12.375789",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -21345,6 +22315,7 @@
      "seen": "2026-08-27T22:30:15.991675"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -21358,6 +22329,7 @@
    "first_detected": "2026-08-25T02:03:52.774865",
    "last_seen": "2026-08-27T22:30:15.991675",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -21444,6 +22416,7 @@
      "seen": "2026-08-21T13:26:54.585139"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -21457,6 +22430,7 @@
    "first_detected": "2026-08-21T13:26:54.585139",
    "last_seen": "2026-08-30T21:24:30.448610",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -21543,6 +22517,7 @@
      "seen": "2026-08-23T18:58:14.228962"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -21556,6 +22531,7 @@
    "first_detected": "2026-08-23T13:11:41.317748",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -21637,6 +22613,7 @@
      "seen": "2026-08-25T02:03:52.774865"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": true,
@@ -21645,6 +22622,7 @@
    "first_detected": "2026-08-25T02:03:52.774865",
    "last_seen": "2026-08-25T02:03:52.774865",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -21737,6 +22715,7 @@
      "seen": "2026-08-28T11:41:13.612676"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -21750,6 +22729,7 @@
    "first_detected": "2026-08-27T22:30:15.991675",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -21836,6 +22816,7 @@
      "seen": "2026-08-16T07:09:24.134454"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -21849,6 +22830,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -21940,6 +22922,7 @@
      "seen": "2026-08-30T12:09:12.375789"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -21953,6 +22936,7 @@
    "first_detected": "2026-06-06T13:43:55.807655",
    "last_seen": "2026-08-30T12:09:12.375789",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
@@ -22041,6 +23025,7 @@
      "seen": "2026-07-28T09:18:44.128588"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -22054,6 +23039,7 @@
    "first_detected": "2026-06-08T15:53:26.419652",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Identità confermata da 2 fonti indipendenti"
@@ -22153,6 +23139,7 @@
      "seen": "2026-08-31T05:57:51.267979"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {},
    "publishable": false,
    "identity_complete": true,
@@ -22161,6 +23148,7 @@
    "first_detected": "2026-08-21T13:26:54.585139",
    "last_seen": "2026-08-31T05:57:51.267979",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Identità confermata da 3 fonti indipendenti"
@@ -22247,6 +23235,7 @@
      "seen": "2026-08-28T11:41:13.612676"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -22260,6 +23249,7 @@
    "first_detected": "2026-08-27T22:30:15.991675",
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Identità confermata da 2 fonti indipendenti"
@@ -22341,6 +23331,7 @@
      "seen": "2026-08-28T15:47:13.194942"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -22354,6 +23345,7 @@
    "first_detected": "2026-08-28T15:47:13.194942",
    "last_seen": "2026-08-28T15:47:13.194942",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -22449,6 +23441,7 @@
      "seen": "2026-08-31T22:58:50.253701"
     }
    ],
+   "n_sources_registro": 3,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -22462,6 +23455,7 @@
    "first_detected": "2026-08-28T15:47:13.194942",
    "last_seen": "2026-08-31T22:58:50.253701",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
@@ -22555,6 +23549,7 @@
      "seen": "2026-08-30T16:55:24.926157"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -22568,6 +23563,7 @@
    "first_detected": "2026-03-01T18:34:38.117964",
    "last_seen": "2026-08-30T16:55:24.926157",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -22664,6 +23660,7 @@
      "seen": "2026-08-02T04:04:45.301932"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -22677,6 +23674,7 @@
    "first_detected": "2026-03-20T02:06:49.668180",
    "last_seen": "2026-03-20T02:06:49.668180",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Fuori dai radar mainstream: alta asimmetria informativa",
@@ -22715,11 +23713,11 @@
    "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
    "claims": {
     "nome": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Joaquín Muñoz - Perfil del jugador",
+     "url": "https://www.transfermarkt.es/joaquin-munoz/profil/spieler/1379945"
     },
     "club": {
      "stato": "assente",
@@ -22771,6 +23769,7 @@
      "seen": "2026-08-01T08:41:41.920525"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -22779,6 +23778,7 @@
    "first_detected": "2026-06-03T04:06:32.617834",
    "last_seen": "2026-07-12T19:06:33.505542",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -22866,6 +23866,7 @@
      "seen": "2026-08-30T12:09:12.375789"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 3,
     "assists": 0,
@@ -22897,6 +23898,7 @@
     "fonte": "All India Football Federation",
     "frase_en": "Called up 1 times by All India Football Federation."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Produzione documentata: 3 gol in 1 presenze",
@@ -22982,6 +23984,7 @@
      "seen": "2026-06-03T16:49:28.387140"
     }
    ],
+   "n_sources_registro": 0,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -22990,6 +23993,7 @@
    "first_detected": "2026-06-03T16:49:28.387140",
    "last_seen": "2026-06-03T16:49:28.387140",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Fuori dai radar mainstream: alta asimmetria informativa"
@@ -23082,6 +24086,7 @@
      "seen": "2026-08-26T13:52:17.702316"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 3,
     "assists": 0,
@@ -23095,6 +24100,7 @@
    "first_detected": "2026-08-26T13:52:17.702316",
    "last_seen": "2026-08-26T13:52:17.702316",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Produzione documentata: 3 gol in 6 presenze",
@@ -23189,6 +24195,7 @@
      "seen": "2026-08-28T15:47:13.194942"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -23202,6 +24209,7 @@
    "first_detected": "2026-08-24T13:31:36.232233",
    "last_seen": "2026-08-31T22:58:50.253701",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -23292,6 +24300,7 @@
      "seen": "2026-07-28T03:47:54.017488"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -23305,6 +24314,7 @@
    "first_detected": "2026-03-19T19:00:03.100674",
    "last_seen": "2026-03-20T02:06:47.555498",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -23395,6 +24405,7 @@
      "seen": "2026-07-26T19:45:13.397131"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -23408,6 +24419,7 @@
    "first_detected": "2026-06-01T11:34:15.903191",
    "last_seen": "2026-06-01T11:34:15.903191",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -23502,6 +24514,7 @@
      "seen": "2026-07-26T19:45:13.397131"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -23515,6 +24528,7 @@
    "first_detected": "2026-06-18T03:58:48.847661",
    "last_seen": "2026-07-08T02:39:57.779168",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -23609,6 +24623,7 @@
      "seen": "2026-07-26T19:45:13.397131"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -23622,6 +24637,7 @@
    "first_detected": "2026-07-08T14:06:54.401295",
    "last_seen": "2026-07-08T14:06:54.401295",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -23716,6 +24732,7 @@
      "seen": "2026-08-01T04:02:16.075469"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -23729,6 +24746,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -23819,6 +24837,7 @@
      "seen": "2026-08-01T08:41:41.920525"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -23832,6 +24851,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -23922,6 +24942,7 @@
      "seen": "2026-08-21T19:07:28.602721"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -23935,6 +24956,7 @@
    "first_detected": "2026-08-21T13:26:54.585139",
    "last_seen": "2026-08-21T19:07:28.602721",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -24025,6 +25047,7 @@
      "seen": "2026-08-23T18:58:14.228962"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -24033,6 +25056,7 @@
    "first_detected": "2026-08-23T13:11:41.317748",
    "last_seen": "2026-08-23T18:58:14.228962",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -24123,6 +25147,7 @@
      "seen": "2026-08-27T16:37:11.453695"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -24136,6 +25161,7 @@
    "first_detected": "2026-08-27T10:10:07.490060",
    "last_seen": "2026-08-27T16:37:11.453695",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -24226,6 +25252,7 @@
      "seen": "2026-08-23T07:11:16.983089"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -24259,6 +25286,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze",
@@ -24349,6 +25377,7 @@
      "seen": "2026-08-24T02:08:37.281942"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -24382,6 +25411,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze",
@@ -24467,6 +25497,7 @@
      "seen": "2026-07-27T04:23:28.053107"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -24500,6 +25531,7 @@
     "fonte": "Fudbalski savez Srbije",
     "frase_en": "Called up 1 times by Fudbalski savez Srbije, U19."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -24587,6 +25619,7 @@
      "seen": "2026-07-27T04:23:28.053107"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -24620,6 +25653,7 @@
     "fonte": "Fudbalski savez Srbije",
     "frase_en": "Called up 1 times by Fudbalski savez Srbije, U19."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -24707,6 +25741,7 @@
      "seen": "2026-07-27T04:23:28.053107"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -24740,6 +25775,7 @@
     "fonte": "Fudbalski savez Srbije",
     "frase_en": "Called up 1 times by Fudbalski savez Srbije, U19."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -24827,6 +25863,7 @@
      "seen": "2026-07-27T04:23:28.053107"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -24860,6 +25897,7 @@
     "fonte": "Fudbalski savez Srbije",
     "frase_en": "Called up 1 times by Fudbalski savez Srbije, U19."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -24947,6 +25985,7 @@
      "seen": "2026-07-27T04:23:28.053107"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -24980,6 +26019,7 @@
     "fonte": "Fudbalski savez Srbije",
     "frase_en": "Called up 1 times by Fudbalski savez Srbije, U19."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -25067,6 +26107,7 @@
      "seen": "2026-08-31T05:57:51.267979"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 2
    },
@@ -25095,6 +26136,7 @@
     "fonte": "Vietnam Football Federation",
     "frase_en": "Called up 1 times by Vietnam Football Federation."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Produzione documentata: 2 gol"
@@ -25187,6 +26229,7 @@
      "seen": "2026-08-23T13:11:41.317748"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -25220,6 +26263,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze",
@@ -25310,6 +26354,7 @@
      "seen": "2026-08-31T08:50:48.742491"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -25343,6 +26388,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze",
@@ -25433,6 +26479,7 @@
      "seen": "2026-08-24T07:39:07.373183"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -25466,6 +26513,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze",
@@ -25551,6 +26599,7 @@
      "seen": "2026-06-29T15:47:10.284987"
     }
    ],
+   "n_sources_registro": 0,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -25559,6 +26608,7 @@
    "first_detected": "2026-06-29T15:47:10.284987",
    "last_seen": "2026-06-29T15:47:10.284987",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -25596,7 +26646,7 @@
    "claims": {
     "nome": {
      "stato": "dichiarato",
-     "fonte": "AUF — Selecciones Juveniles",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
      "tipo": "federation",
      "citazione": "Ignacio González y dos futbolistas",
      "url": "https://auf.org.uy/noticia-categoria/3/"
@@ -25651,6 +26701,7 @@
      "seen": "2026-08-23T07:11:16.983089"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -25682,6 +26733,7 @@
     "fonte": "AUF — Selecciones Juveniles",
     "frase_en": "Called up 1 times by AUF — Selecciones Juveniles."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Identità confermata da 2 fonti indipendenti"
@@ -25769,6 +26821,7 @@
      "seen": "2026-07-18T13:58:07.995503"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 1,
     "assists": 0,
@@ -25802,6 +26855,7 @@
     "fonte": "Nigeria Football Federation",
     "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Produzione documentata: 1 gol"
@@ -25894,6 +26948,7 @@
      "seen": "2026-08-31T08:50:48.742491"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -25927,6 +26982,7 @@
     "fonte": "Nigeria Football Federation",
     "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Identità confermata da 2 fonti indipendenti"
@@ -26014,6 +27070,7 @@
      "seen": "2026-08-23T13:11:41.317748"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -26022,6 +27079,7 @@
    "first_detected": "2026-08-23T13:11:41.317748",
    "last_seen": "2026-08-23T13:11:41.317748",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -26109,6 +27167,7 @@
      "seen": "2026-08-30T16:55:24.926157"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -26117,6 +27176,7 @@
    "first_detected": "2026-08-30T16:55:24.926157",
    "last_seen": "2026-08-30T16:55:24.926157",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -26206,6 +27266,7 @@
      "seen": "2026-08-30T16:55:24.926157"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -26214,6 +27275,7 @@
    "first_detected": "2026-08-30T16:55:24.926157",
    "last_seen": "2026-08-30T16:55:24.926157",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -26301,6 +27363,7 @@
      "seen": "2026-07-19T04:04:37.790338"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -26334,6 +27397,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze"
@@ -26421,6 +27485,7 @@
      "seen": "2026-07-19T04:04:37.790338"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -26454,6 +27519,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze"
@@ -26541,6 +27607,7 @@
      "seen": "2026-07-19T04:04:37.790338"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -26574,6 +27641,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze"
@@ -26661,6 +27729,7 @@
      "seen": "2026-07-19T04:04:37.790338"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -26694,6 +27763,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze"
@@ -26781,6 +27851,7 @@
      "seen": "2026-07-19T04:04:37.790338"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -26814,6 +27885,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze"
@@ -26901,6 +27973,7 @@
      "seen": "2026-07-19T04:04:37.790338"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -26934,6 +28007,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze"
@@ -27021,6 +28095,7 @@
      "seen": "2026-07-19T04:04:37.790338"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -27054,6 +28129,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze"
@@ -27141,6 +28217,7 @@
      "seen": "2026-07-20T04:23:18.085592"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -27174,6 +28251,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 2 presenze"
@@ -27261,6 +28339,7 @@
      "seen": "2026-07-20T04:23:18.085592"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -27294,6 +28373,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 2 presenze"
@@ -27381,6 +28461,7 @@
      "seen": "2026-07-20T04:23:18.085592"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -27414,6 +28495,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 2 presenze"
@@ -27501,6 +28583,7 @@
      "seen": "2026-07-20T04:23:18.085592"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -27534,6 +28617,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 2 presenze"
@@ -27621,6 +28705,7 @@
      "seen": "2026-07-20T04:23:18.085592"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -27654,6 +28739,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 2 presenze"
@@ -27741,6 +28827,7 @@
      "seen": "2026-07-20T04:23:18.085592"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -27774,6 +28861,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze"
@@ -27866,6 +28954,7 @@
      "seen": "2026-08-23T02:09:50.908546"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -27879,6 +28968,7 @@
    "first_detected": "2026-08-23T02:09:50.908546",
    "last_seen": "2026-08-23T02:09:50.908546",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Identità confermata da 2 fonti indipendenti"
@@ -27966,6 +29056,7 @@
      "seen": "2026-07-18T13:58:07.995503"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -27999,6 +29090,7 @@
     "fonte": "Nigeria Football Federation",
     "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -28084,6 +29176,7 @@
      "seen": "2026-07-18T19:43:47.999709"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -28117,6 +29210,7 @@
     "fonte": "Ghana Football Association",
     "frase_en": "Called up 1 times by Ghana Football Association, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -28202,6 +29296,7 @@
      "seen": "2026-07-27T04:23:28.053107"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -28235,6 +29330,7 @@
     "fonte": "Fudbalski savez Srbije",
     "frase_en": "Called up 1 times by Fudbalski savez Srbije, U19."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -28320,6 +29416,7 @@
      "seen": "2026-08-04T03:49:43.651791"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -28351,6 +29448,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -28436,6 +29534,7 @@
      "seen": "2026-08-17T02:04:44.726952"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -28469,6 +29568,7 @@
     "fonte": "Fédération Sénégalaise de Football",
     "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -28554,6 +29654,7 @@
      "seen": "2026-08-22T18:59:18.028374"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -28582,6 +29683,7 @@
     "fonte": "Fudbalski savez Srbije",
     "frase_en": "Called up 1 times by Fudbalski savez Srbije, U19."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -28672,6 +29774,7 @@
      "seen": "2026-08-23T18:58:14.228962"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -28680,6 +29783,7 @@
    "first_detected": "2026-08-23T13:11:41.317748",
    "last_seen": "2026-08-23T18:58:14.228962",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Identità confermata da 2 fonti indipendenti"
@@ -28772,6 +29876,7 @@
      "seen": "2026-08-23T18:58:14.228962"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -28785,6 +29890,7 @@
    "first_detected": "2026-08-23T13:11:41.317748",
    "last_seen": "2026-08-23T18:58:14.228962",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Identità confermata da 2 fonti indipendenti"
@@ -28877,6 +29983,7 @@
      "seen": "2026-08-25T07:26:08.819289"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -28890,6 +29997,7 @@
    "first_detected": "2026-08-25T02:03:52.774865",
    "last_seen": "2026-08-25T07:26:08.819289",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Identità confermata da 2 fonti indipendenti"
@@ -28977,6 +30085,7 @@
      "seen": "2026-08-25T07:26:08.819289"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 1,
     "assists": 0,
@@ -28990,6 +30099,7 @@
    "first_detected": "2026-08-25T07:26:08.819289",
    "last_seen": "2026-08-25T07:26:08.819289",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Produzione documentata: 1 gol"
@@ -29077,6 +30187,7 @@
      "seen": "2026-08-25T13:29:20.133485"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -29105,6 +30216,7 @@
     "fonte": "Nigeria Football Federation",
     "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -29190,6 +30302,7 @@
      "seen": "2026-08-25T13:29:20.133485"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -29218,6 +30331,7 @@
     "fonte": "Nigeria Football Federation",
     "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -29303,6 +30417,7 @@
      "seen": "2026-08-31T05:57:51.267979"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -29329,6 +30444,7 @@
     "fonte": "Vietnam Football Federation",
     "frase_en": "Called up 1 times by Vietnam Football Federation."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -29414,6 +30530,7 @@
      "seen": "2026-08-31T05:57:51.267979"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -29440,6 +30557,7 @@
     "fonte": "Vietnam Football Federation",
     "frase_en": "Called up 1 times by Vietnam Football Federation."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -29525,6 +30643,7 @@
      "seen": "2026-07-16T15:34:33.049129"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -29538,6 +30657,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -29623,6 +30743,7 @@
      "seen": "2026-07-18T13:58:07.995503"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -29636,6 +30757,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -29721,6 +30843,7 @@
      "seen": "2026-08-24T19:10:43.674133"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -29729,6 +30852,7 @@
    "first_detected": "2026-08-24T19:10:43.674133",
    "last_seen": "2026-08-24T19:10:43.674133",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -29814,6 +30938,7 @@
      "seen": "2026-08-25T02:03:52.774865"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -29822,6 +30947,7 @@
    "first_detected": "2026-08-25T02:03:52.774865",
    "last_seen": "2026-08-25T02:03:52.774865",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -29907,6 +31033,7 @@
      "seen": "2026-08-27T22:30:15.991675"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -29920,6 +31047,7 @@
    "first_detected": "2026-08-27T22:30:15.991675",
    "last_seen": "2026-08-27T22:30:15.991675",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -30005,6 +31133,7 @@
      "seen": "2026-08-27T22:30:15.991675"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -30018,6 +31147,7 @@
    "first_detected": "2026-08-27T22:30:15.991675",
    "last_seen": "2026-08-27T22:30:15.991675",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -30103,6 +31233,7 @@
      "seen": "2026-08-30T16:55:24.926157"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -30116,6 +31247,7 @@
    "first_detected": "2026-08-30T16:55:24.926157",
    "last_seen": "2026-08-30T16:55:24.926157",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -30206,6 +31338,7 @@
      "seen": "2026-08-27T05:57:46.052232"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -30219,6 +31352,7 @@
    "first_detected": "2026-08-27T05:57:46.052232",
    "last_seen": "2026-08-27T05:57:46.052232",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Continuità documentata: 4 presenze",
@@ -30308,6 +31442,7 @@
      "seen": "2026-08-10T19:32:58.530254"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -30321,6 +31456,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -30404,6 +31540,7 @@
      "seen": "2026-08-21T13:26:54.585139"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -30412,6 +31549,7 @@
    "first_detected": "2026-08-21T13:26:54.585139",
    "last_seen": "2026-08-21T13:26:54.585139",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -30500,6 +31638,7 @@
      "seen": "2026-08-27T05:57:46.052232"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -30513,6 +31652,7 @@
    "first_detected": "2026-08-27T05:57:46.052232",
    "last_seen": "2026-08-27T05:57:46.052232",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Identità confermata da 2 fonti indipendenti"
@@ -30601,6 +31741,7 @@
      "seen": "2026-08-26T02:09:29.229545"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -30614,6 +31755,7 @@
    "first_detected": "2026-08-26T02:09:29.229545",
    "last_seen": "2026-08-26T02:09:29.229545",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Identità confermata da 2 fonti indipendenti"
@@ -30702,6 +31844,7 @@
      "seen": "2026-08-26T07:26:47.780016"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -30715,6 +31858,7 @@
    "first_detected": "2026-08-26T07:26:47.780016",
    "last_seen": "2026-08-26T07:26:47.780016",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Identità confermata da 2 fonti indipendenti"
@@ -30803,6 +31947,7 @@
      "seen": "2026-08-26T12:03:31.516103"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -30816,6 +31961,7 @@
    "first_detected": "2026-08-26T12:03:31.516103",
    "last_seen": "2026-08-26T12:03:31.516103",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Identità confermata da 2 fonti indipendenti"
@@ -30904,6 +32050,7 @@
      "seen": "2026-08-26T12:03:31.516103"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -30917,6 +32064,7 @@
    "first_detected": "2026-08-26T12:03:31.516103",
    "last_seen": "2026-08-26T12:03:31.516103",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Identità confermata da 2 fonti indipendenti"
@@ -31005,6 +32153,7 @@
      "seen": "2026-08-25T13:29:20.133485"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -31013,6 +32162,7 @@
    "first_detected": "2026-08-21T13:26:54.585139",
    "last_seen": "2026-08-25T13:29:20.133485",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Identità confermata da 2 fonti indipendenti"
@@ -31096,6 +32246,7 @@
      "seen": "2026-07-22T09:10:40.233331"
     }
    ],
+   "n_sources_registro": 0,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -31109,6 +32260,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -31194,6 +32346,7 @@
      "seen": "2026-08-06T14:55:12.859969"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -31207,6 +32360,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -31290,6 +32444,7 @@
      "seen": "2026-08-06T14:55:12.859969"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -31303,6 +32458,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -31386,6 +32542,7 @@
      "seen": "2026-08-06T14:55:12.859969"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -31399,6 +32556,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -31492,6 +32650,7 @@
      "seen": "2026-08-24T02:08:37.281942"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -31551,6 +32710,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 5 times by Federación Colombiana de Fútbol between July 2025 and July 2026, from U16 to U19."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (16 anni): ampio margine di sviluppo",
@@ -31648,6 +32808,7 @@
      "seen": "2026-08-21T07:24:39.977541"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -31706,6 +32867,28 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 5 times by Federación Colombiana de Fútbol between February 2025 and July 2026, from U16 to U17."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "5 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "5 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
+      "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
+     ],
+     "dati": {
+      "convocazioni": 5,
+      "tipi_fonte": [
+       "federation",
+       "results_stats"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -31800,6 +32983,7 @@
      "seen": "2026-07-16T19:42:31.108991"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -31852,6 +33036,27 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 4 times by Federación Colombiana de Fútbol between January 2025 and July 2026."
    },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "4 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "4 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+      "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+      "https://fcf.com.co/2026/07/13/convocatoria-de-la-seleccion-colombia-masculina-sub-19-microciclo-previo-a-a-los-juegos-suramericanos-y-centroamericanos-y-del-caribe-2026/",
+      "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
+     ],
+     "dati": {
+      "convocazioni": 4,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
@@ -31946,6 +33151,7 @@
      "seen": "2026-07-18T08:21:52.280337"
     }
    ],
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -31979,6 +33185,7 @@
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -31986,7 +33193,7 @@
      "Identità confermata da 2 fonti indipendenti"
     ],
     "cautions": [
-     "Ultima convocazione 19 mesi fa (gennaio 2025): la serie si è interrotta, da capire perché",
+     "Ultima convocazione 20 mesi fa (gennaio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata",
      "Identità debole: nome incompleto o soprannome"
     ],
@@ -32000,7 +33207,7 @@
      "Identity confirmed by 2 independent sources"
     ],
     "cautions_en": [
-     "Last call-up 19 months ago (January 2025): the run has stopped — worth finding out why",
+     "Last call-up 20 months ago (January 2025): the run has stopped — worth finding out why",
      "No documented performance stats",
      "Weak identity: incomplete name or nickname"
     ],
@@ -32068,6 +33275,7 @@
      "seen": "2026-06-12T20:12:12.180745"
     }
    ],
+   "n_sources_registro": 0,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -32076,6 +33284,7 @@
    "first_detected": "2026-06-12T20:12:12.180745",
    "last_seen": "2026-06-12T20:12:12.180745",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -32165,6 +33374,7 @@
      "seen": "2026-06-15T12:14:44.591546"
     }
    ],
+   "n_sources_registro": 0,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -32173,6 +33383,7 @@
    "first_detected": "2026-06-15T12:14:44.591546",
    "last_seen": "2026-06-15T12:14:44.591546",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -32262,6 +33473,7 @@
      "seen": "2026-06-10T03:42:58.253982"
     }
    ],
+   "n_sources_registro": 0,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -32270,6 +33482,7 @@
    "first_detected": "2026-06-10T03:42:58.253982",
    "last_seen": "2026-06-10T10:00:49.849819",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
@@ -32359,6 +33572,7 @@
      "seen": "2026-03-14T02:02:05.551143"
     }
    ],
+   "n_sources_registro": 0,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -32367,6 +33581,7 @@
    "first_detected": "2026-03-14T02:02:05.551143",
    "last_seen": "2026-03-15T18:40:23.344060",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Fuori dai radar mainstream: alta asimmetria informativa"
@@ -32456,6 +33671,7 @@
      "seen": "2026-03-13T06:55:11.855508"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -32469,6 +33685,7 @@
    "first_detected": "2026-03-13T06:55:11.855508",
    "last_seen": "2026-08-28T15:47:13.194942",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -32558,6 +33775,7 @@
      "seen": "2026-06-01T11:34:17.264645"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -32566,6 +33784,7 @@
    "first_detected": "2026-06-01T11:34:17.264645",
    "last_seen": "2026-07-15T13:43:50.780467",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -32655,6 +33874,7 @@
      "seen": "2026-06-20T03:39:51.811477"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -32663,6 +33883,7 @@
    "first_detected": "2026-06-20T03:39:51.811477",
    "last_seen": "2026-06-20T03:39:51.811477",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -32752,6 +33973,7 @@
      "seen": "2026-07-03T19:23:26.235226"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -32760,6 +33982,7 @@
    "first_detected": "2026-07-03T19:23:26.235226",
    "last_seen": "2026-07-08T14:06:56.576518",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -32849,6 +34072,7 @@
      "seen": "2026-07-14T08:05:34.863583"
     }
    ],
+   "n_sources_registro": 0,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -32857,6 +34081,7 @@
    "first_detected": "2026-07-14T08:05:34.863583",
    "last_seen": "2026-07-14T08:05:34.863583",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -32946,6 +34171,7 @@
      "seen": null
     }
    ],
+   "n_sources_registro": 0,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -32954,6 +34180,7 @@
    "first_detected": null,
    "last_seen": "2026-03-11T13:01:34.013672",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -33043,6 +34270,7 @@
      "seen": "2026-03-03T02:09:08.455579"
     }
    ],
+   "n_sources_registro": 0,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -33051,6 +34279,7 @@
    "first_detected": "2026-03-03T02:09:08.455579",
    "last_seen": "2026-03-03T02:09:08.455579",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -33140,6 +34369,7 @@
      "seen": "2026-03-20T02:06:56.795449"
     }
    ],
+   "n_sources_registro": 0,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -33148,6 +34378,7 @@
    "first_detected": "2026-03-20T02:06:56.795449",
    "last_seen": "2026-06-08T15:53:24.325574",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -33237,6 +34468,7 @@
      "seen": "2026-06-07T13:53:02.824439"
     }
    ],
+   "n_sources_registro": 0,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -33245,6 +34477,7 @@
    "first_detected": "2026-06-07T13:53:02.824439",
    "last_seen": "2026-06-20T03:39:52.064914",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -33334,6 +34567,7 @@
      "seen": "2026-06-07T13:53:03.718882"
     }
    ],
+   "n_sources_registro": 0,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -33342,6 +34576,7 @@
    "first_detected": "2026-06-07T13:53:03.718882",
    "last_seen": "2026-06-17T10:57:26.974727",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -33431,6 +34666,7 @@
      "seen": "2026-07-10T14:26:49.300291"
     }
    ],
+   "n_sources_registro": 0,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -33439,6 +34675,7 @@
    "first_detected": "2026-07-10T14:26:49.300291",
    "last_seen": "2026-07-10T14:26:49.300291",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -33528,6 +34765,7 @@
      "seen": "2026-07-10T14:26:50.066007"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -33536,6 +34774,7 @@
    "first_detected": "2026-07-10T14:26:50.066007",
    "last_seen": "2026-07-10T14:26:50.066007",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -33625,6 +34864,7 @@
      "seen": "2026-07-10T14:26:51.362879"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -33633,6 +34873,7 @@
    "first_detected": "2026-07-10T14:26:51.362879",
    "last_seen": "2026-07-10T14:26:51.362879",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -33722,6 +34963,7 @@
      "seen": "2026-06-09T09:44:07.437280"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -33730,6 +34972,7 @@
    "first_detected": "2026-06-09T09:44:07.437280",
    "last_seen": "2026-06-09T09:44:07.437280",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
@@ -33819,6 +35062,7 @@
      "seen": "2026-07-18T19:43:47.999709"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -33832,6 +35076,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -33917,6 +35162,7 @@
      "seen": "2026-07-25T14:11:15.071449"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -33930,6 +35176,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -34015,6 +35262,7 @@
      "seen": "2026-07-25T14:11:15.071449"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -34028,6 +35276,7 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -34113,6 +35362,7 @@
      "seen": "2026-08-22T13:10:03.073566"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -34121,6 +35371,7 @@
    "first_detected": "2026-08-22T13:10:03.073566",
    "last_seen": "2026-08-22T13:10:03.073566",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -34206,6 +35457,7 @@
      "seen": "2026-08-25T02:03:52.774865"
     }
    ],
+   "n_sources_registro": 1,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -34219,6 +35471,7 @@
    "first_detected": "2026-08-25T02:03:52.774865",
    "last_seen": "2026-08-25T02:03:52.774865",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -34304,6 +35557,7 @@
      "seen": "2026-06-18T10:21:53.480483"
     }
    ],
+   "n_sources_registro": 0,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -34312,6 +35566,7 @@
    "first_detected": "2026-06-18T10:21:53.480483",
    "last_seen": "2026-06-18T10:21:53.480483",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [],
     "cautions": [
@@ -34391,6 +35646,7 @@
    },
    "n_sources": 0,
    "sources": [],
+   "n_sources_registro": 0,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -34399,6 +35655,7 @@
    "first_detected": "2026-03-16T13:14:08.365987",
    "last_seen": "2026-03-16T13:14:08.365987",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Fuori dai radar mainstream: alta asimmetria informativa"
@@ -34482,6 +35739,7 @@
    },
    "n_sources": 0,
    "sources": [],
+   "n_sources_registro": 0,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -34490,6 +35748,7 @@
    "first_detected": "2026-03-20T02:06:58.552325",
    "last_seen": "2026-03-20T02:06:58.552325",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Fuori dai radar mainstream: alta asimmetria informativa"
@@ -34573,6 +35832,7 @@
    },
    "n_sources": 0,
    "sources": [],
+   "n_sources_registro": 0,
    "stats": {},
    "publishable": false,
    "identity_complete": false,
@@ -34581,6 +35841,7 @@
    "first_detected": "2026-03-17T19:03:30.174168",
    "last_seen": "2026-07-05T19:18:24.173328",
    "selezione": {},
+   "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato"
