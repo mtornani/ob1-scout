@@ -57,6 +57,20 @@ from src.database_v2 import OB1DatabaseV2
 DA_SPACCHETTARE = {
     7: "fcf.com.co",    # "Felipe" — il cileno del Colo Colo resta, i colombiani no
     47: "fcf.com.co",   # "Eduardo" — il brasiliano del Palmeiras resta
+    # Secondo giro (1 set 2026, sera). Il primo controllo guardava solo i nomi
+    # di UN token e dava "da 6 a 0": era incompleto. Ripassando tutti i 348
+    # record sono usciti tre colombiani che avevano assorbito un omonimo
+    # ciascuno — tutti con la stessa forma, "Juan + secondo nome + cognome",
+    # dove i due nomi di battesimo bastavano a far scattare il ramo dei
+    # cognomi. E' esattamente il caso che il commento in _names_match dava
+    # per risolto dal 2026 e che invece passava ancora.
+    #
+    # Qui, a differenza di "Felipe" ed "Eduardo", il record E' colombiano e
+    # quasi tutte le sue prove FCF sono sue: si sposta solo quella che non
+    # combacia col nome del record (vedi `appartiene`).
+    88: "fcf.com.co",   # Juan Jose Fori Viveros   <- Juan Jose Catano Vahos
+    94: "fcf.com.co",   # Juan David Altamiranda   <- Cordoba Moya, Aponza Gonzalez
+    145: "fcf.com.co",  # Juan Fernando Alegria R. <- Juan Camilo Alegria Palomino
 }
 
 # "SANCIONADO LUIS FELIPE MARQUINEZ VALVERDE": la prima parola e' il verdetto
@@ -84,7 +98,10 @@ DA_SPOGLIARE = (3, 21, 41)
 
 def nome_e_club(testo: str):
     """Da 'Nome Completo – Club' al nome e al club. Club None se non c'e'."""
-    t = (testo or "").strip()
+    # I comunicati FCF contengono zero-width space: "Juan David Aponza
+    # Gonzalez​​". Invisibili a occhio, ma fanno parte della stringa,
+    # e un nome che se li porta dietro non combacera' mai piu' con se stesso.
+    t = (testo or "").replace("​", "").replace("﻿", "").strip()
     for p in _PREFISSI:
         if t.upper().startswith(p):
             t = t[len(p):].strip()
@@ -138,6 +155,12 @@ def main() -> int:
             nome, club = nome_e_club(e["raw_content"])
             if len(nome.split()) < 2:
                 print(f"  [{e['id']}] nome non affidabile ({nome!r}): lasciata dov'e'")
+                continue
+            # Una prova che nomina il titolare del record resta dov'e'. Serve
+            # dove il record e' della stessa federazione delle prove: li' la
+            # maggior parte gli appartiene davvero, e spostarle tutte
+            # svuoterebbe un profilo giusto.
+            if db._names_match(nome, nome_vecchio):
                 continue
             print(f"  [{e['id']}] -> {nome!r}" + (f"  ({club})" if club else ""))
             spostate += 1
