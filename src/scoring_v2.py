@@ -85,11 +85,34 @@ def _production_points(stats: dict) -> float:
 
 def _asymmetry_points(is_ghost: bool, club, league) -> float:
     """Asimmetria informativa: invisibile al mainstream = più valore. Max 25."""
+    # Il caso Yan Diomande — quello che ha dato il nome al bloccante
+    # gia_coperto_da_tutti in src/challenge_v2.py — è tornato qui, nella
+    # metà del prodotto che quel bloccante non tocca. Diomande e' bloccato
+    # (publishable=0) correttamente: CLUB_GIA_COPERTI lo riconosce. Ma il
+    # PUNTEGGIO mostrato in tracking veniva ancora da TOP_MARKERS, una
+    # SECONDA lista di club noti, piu' corta e scollegata dalla prima, che
+    # controlla `club + league` insieme invece del solo club — e con
+    # `league` quasi sempre vuoto (misurato: None su Diomande), un
+    # giocatore di un club di Bundesliga vero prendeva il bonus per
+    # "contesto minore" (+8) invece della penalita' (-20): 28 punti sul
+    # merito, 26 sul punteggio finale dopo la confidenza (53 -> 27, misurato
+    # in produzione) — per lo stesso motivo per cui la scheda non doveva mai
+    # sembrare una scoperta.
+    #
+    # Fix additivo, non una sostituzione: CLUB_GIA_COPERTI (34 voci, curata
+    # per il gate) controlla il CLUB da solo, con lo stesso confronto esatto
+    # gia' in uso li'. TOP_MARKERS resta per le leghe e le varianti
+    # colloquiali che CLUB_GIA_COPERTI non ha (es. "man city", "barcellona"
+    # con la doppia elle) — toglierla avrebbe rischiato di perdere copertura
+    # vera per guadagnarne un'altra.
+    from src.challenge_v2 import CLUB_GIA_COPERTI
+    from src.challenge_v2 import _norm as _norm_club
     pts = 0.0
     if is_ghost:
         pts += 15.0                         # nessuna presenza Transfermarkt
+    club_e_un_gigante = _norm_club(club) in {_norm_club(c) for c in CLUB_GIA_COPERTI}
     ctx = f"{club or ''} {league or ''}".lower()
-    if any(m in ctx for m in TOP_MARKERS):
+    if club_e_un_gigante or any(m in ctx for m in TOP_MARKERS):
         pts -= 20.0                         # top club/lega = già visibile
     elif club or league:
         pts += 8.0                          # contesto minore/identificato
@@ -196,3 +219,19 @@ if __name__ == "__main__":
     print("Convocato 4x (sale di categoria):", convocato["score"],
           convocato["breakdown"])
     print("Stesso profilo, zero convocazioni:", senza["score"])
+
+    # Il caso Diomande, di nuovo (1 set 2026): un club in CLUB_GIA_COPERTI
+    # (src/challenge_v2.py) ma con `league` vuoto — il caso comune, non
+    # quello raro: misurato lo stesso giorno, `league` era None su 8 dei 10
+    # giocatori con questo bloccante nel database (gli altri due, Chelsea e
+    # Barcelona, avevano gia' la lega scritta e prendevano gia' la
+    # penalita' — la falla era solo per chi ne era privo). Prima dava +8
+    # invece di -20, 28 punti sul componente più pesante dopo la produzione.
+    diomande = score_player(age=15, is_ghost=False, club="RB Leipzig",
+                            league=None, stats={"goals": 12, "assists": 9},
+                            n_sources=3, detection_count=3)
+    assert diomande["breakdown"]["asymmetry"] == -20.0, diomande
+    assert diomande["score"] < 53, \
+        f"deve scendere dal punteggio sbagliato misurato in produzione: {diomande}"
+    print("Diomande (RB Leipzig, league=None):", diomande["score"],
+          diomande["breakdown"])

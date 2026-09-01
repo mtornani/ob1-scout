@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-01T13:31:16.425092+00:00",
+ "generated_at": "2026-09-01T14:45:31.003260+00:00",
  "version": "1.0.0",
- "build": "8c1eeeb",
+ "build": "3bff366",
  "total": 355,
  "publishable": 191,
  "tracking": 164,
@@ -24069,117 +24069,6 @@
    }
   },
   {
-   "id": 31,
-   "name": "Yan Diomande",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 15 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Yan Diomande - Player profile 26/27",
-     "url": "https://www.transfermarkt.com/yan-diomande/profil/spieler/1390649"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "winger",
-   "club": "RB Leipzig",
-   "league": null,
-   "region": "Ivory Coast",
-   "gender": "male",
-   "score": 53,
-   "confidence": 0.91,
-   "breakdown": {
-    "youth": 20.0,
-    "production": 30,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 3
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "latimes.com",
-     "url": "https://www.latimes.com/espanol/deportes/articulo/2026-05-19/la-joven-promesa-yan-diomande-siguio-un-camino-loco-de-una-secundaria-de-florida-al-mundial",
-     "seen": "2026-06-02T16:26:08.016372"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/yan-diomande/profil/spieler/1390649",
-     "seen": "2026-07-26T19:45:13.397131"
-    },
-    {
-     "domain": "placar.com.br",
-     "url": "https://placar.com.br/copa-do-mundo/cinco-jovens-pouco-conhecidos-para-ficar-de-olho-na-copa-2026/",
-     "seen": "2026-08-23T07:11:16.983089"
-    }
-   ],
-   "n_sources_registro": 3,
-   "stats": {
-    "goals": 12,
-    "assists": 9,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "eta_assente,club_assente,gia_coperto_da_tutti",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-06-02T16:26:08.016372",
-   "last_seen": "2026-08-23T07:11:16.983089",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 12 gol e 9 assist",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società"
-    ],
-    "pros_en": [
-     "Documented output: 12 goals and 9 assists",
-     "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club"
-    ]
-   }
-  },
-  {
    "id": 85,
    "name": "José Rafael Escor",
    "age": null,
@@ -24356,6 +24245,117 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 31,
+   "name": "Yan Diomande",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 15 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Yan Diomande - Player profile 26/27",
+     "url": "https://www.transfermarkt.com/yan-diomande/profil/spieler/1390649"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "winger",
+   "club": "RB Leipzig",
+   "league": null,
+   "region": "Ivory Coast",
+   "gender": "male",
+   "score": 27,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 20.0,
+    "production": 30,
+    "asymmetry": -20.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "latimes.com",
+     "url": "https://www.latimes.com/espanol/deportes/articulo/2026-05-19/la-joven-promesa-yan-diomande-siguio-un-camino-loco-de-una-secundaria-de-florida-al-mundial",
+     "seen": "2026-06-02T16:26:08.016372"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/yan-diomande/profil/spieler/1390649",
+     "seen": "2026-07-26T19:45:13.397131"
+    },
+    {
+     "domain": "placar.com.br",
+     "url": "https://placar.com.br/copa-do-mundo/cinco-jovens-pouco-conhecidos-para-ficar-de-olho-na-copa-2026/",
+     "seen": "2026-08-23T07:11:16.983089"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {
+    "goals": 12,
+    "assists": 9,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "eta_assente,club_assente,gia_coperto_da_tutti",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-06-02T16:26:08.016372",
+   "last_seen": "2026-08-23T07:11:16.983089",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 12 gol e 9 assist",
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Età non confermata",
+     "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented output: 12 goals and 9 assists",
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "Age not confirmed",
+     "High-visibility club/league: low asymmetry, competition likely"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club"
     ]
    }
   },
@@ -27054,115 +27054,6 @@
    }
   },
   {
-   "id": 275,
-   "name": "Enzo Fernández",
-   "age": 21,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "GZH — Grupo RBS (Rio Grande do Sul)",
-     "tipo": "local_press",
-     "citazione": "Enzo Fernández, volante do Benfica e à época com 21 anos, foi considerado o melhor jogador jovem do torneio",
-     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "GZH — Grupo RBS (Rio Grande do Sul)",
-     "tipo": "local_press",
-     "citazione": "Enzo Fernández, volante do Benfica e à época com 21 anos, foi considerado o melhor jogador jovem do torneio",
-     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html"
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "GZH — Grupo RBS (Rio Grande do Sul)",
-     "tipo": "local_press",
-     "citazione": "Enzo Fernández, volante do Benfica e à época com 21 anos, foi considerado o melhor jogador jovem do torneio",
-     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "midfielder",
-   "club": "Benfica",
-   "league": null,
-   "region": "Brazil",
-   "gender": "male",
-   "score": 8,
-   "confidence": 0.91,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 3
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "gauchazh.clicrbs.com.br",
-     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html",
-     "seen": "2026-08-25T02:03:52.774865"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/enzo-fernandez/profil/spieler/648195",
-     "seen": "2026-08-25T07:26:08.819289"
-    },
-    {
-     "domain": "placar.com.br",
-     "url": "https://placar.com.br/ultimas-noticias/",
-     "seen": "2026-08-27T22:30:15.991675"
-    }
-   ],
-   "n_sources_registro": 3,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-25T02:03:52.774865",
-   "last_seen": "2026-08-27T22:30:15.991675",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da GZH — Grupo RBS (Rio Grande do Sul)",
-     "3 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by GZH — Grupo RBS (Rio Grande do Sul)",
-     "3 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 245,
    "name": "Leonel Canzoniero",
    "age": 26,
@@ -27468,110 +27359,6 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 297,
-   "name": "Bradley Barcola",
-   "age": 23,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Placar",
-     "tipo": "national_press",
-     "citazione": "Bradley Barcola, Gabriel Martinelli e Enzo Fernández são só alguns dos jogadores",
-     "url": "https://placar.com.br/ultimas-noticias/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Bradley Jean-Manuel Essolisam Addo Barcola, 23 anni, Paris Saint-Germain",
-     "url": "https://www.transfermarkt.us/bradley-barcola/profil/spieler/708265"
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Bradley Jean-Manuel Essolisam Addo Barcola, 23 anni, Paris Saint-Germain",
-     "url": "https://www.transfermarkt.us/bradley-barcola/profil/spieler/708265"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Left Winger",
-   "club": "Paris Saint-Germain",
-   "league": null,
-   "region": "Brazil",
-   "gender": "male",
-   "score": 7,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 3
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "placar.com.br",
-     "url": "https://placar.com.br/ultimas-noticias/",
-     "seen": "2026-08-27T22:30:15.991675"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/bradley-barcola/profil/spieler/708265",
-     "seen": "2026-08-28T11:41:13.612676"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-27T22:30:15.991675",
-   "last_seen": null,
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Transfermarkt",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by Transfermarkt",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
      "Get performance stats (match reports)"
     ]
    }
@@ -28008,6 +27795,115 @@
    }
   },
   {
+   "id": 275,
+   "name": "Enzo Fernández",
+   "age": 21,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "GZH — Grupo RBS (Rio Grande do Sul)",
+     "tipo": "local_press",
+     "citazione": "Enzo Fernández, volante do Benfica e à época com 21 anos, foi considerado o melhor jogador jovem do torneio",
+     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "GZH — Grupo RBS (Rio Grande do Sul)",
+     "tipo": "local_press",
+     "citazione": "Enzo Fernández, volante do Benfica e à época com 21 anos, foi considerado o melhor jogador jovem do torneio",
+     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "GZH — Grupo RBS (Rio Grande do Sul)",
+     "tipo": "local_press",
+     "citazione": "Enzo Fernández, volante do Benfica e à época com 21 anos, foi considerado o melhor jogador jovem do torneio",
+     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "midfielder",
+   "club": "Benfica",
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 0,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": -20.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "gauchazh.clicrbs.com.br",
+     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html",
+     "seen": "2026-08-25T02:03:52.774865"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/enzo-fernandez/profil/spieler/648195",
+     "seen": "2026-08-25T07:26:08.819289"
+    },
+    {
+     "domain": "placar.com.br",
+     "url": "https://placar.com.br/ultimas-noticias/",
+     "seen": "2026-08-27T22:30:15.991675"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-25T02:03:52.774865",
+   "last_seen": "2026-08-27T22:30:15.991675",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Nome e club scritti da GZH — Grupo RBS (Rio Grande do Sul)",
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Name and club stated by GZH — Grupo RBS (Rio Grande do Sul)",
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "High-visibility club/league: low asymmetry, competition likely"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 295,
    "name": "Fermín López",
    "age": 23,
@@ -28068,6 +27964,110 @@
     {
      "domain": "transfermarkt.us",
      "url": "https://www.transfermarkt.us/fermin-lopez/profil/spieler/636703",
+     "seen": "2026-08-28T11:41:13.612676"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-27T22:30:15.991675",
+   "last_seen": null,
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "High-visibility club/league: low asymmetry, competition likely"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 297,
+   "name": "Bradley Barcola",
+   "age": 23,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Placar",
+     "tipo": "national_press",
+     "citazione": "Bradley Barcola, Gabriel Martinelli e Enzo Fernández são só alguns dos jogadores",
+     "url": "https://placar.com.br/ultimas-noticias/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Bradley Jean-Manuel Essolisam Addo Barcola, 23 anni, Paris Saint-Germain",
+     "url": "https://www.transfermarkt.us/bradley-barcola/profil/spieler/708265"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Bradley Jean-Manuel Essolisam Addo Barcola, 23 anni, Paris Saint-Germain",
+     "url": "https://www.transfermarkt.us/bradley-barcola/profil/spieler/708265"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Left Winger",
+   "club": "Paris Saint-Germain",
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 0,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": -20.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "placar.com.br",
+     "url": "https://placar.com.br/ultimas-noticias/",
+     "seen": "2026-08-27T22:30:15.991675"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/bradley-barcola/profil/spieler/708265",
      "seen": "2026-08-28T11:41:13.612676"
     }
    ],
