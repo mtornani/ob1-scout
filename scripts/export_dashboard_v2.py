@@ -87,13 +87,22 @@ def _selezione_di(p) -> dict:
 def _come_persistenza(sel: dict):
     """
     Il dict salvato in colonna, riportato alla forma che `punti()` sa pesare.
-    Solo i campi che contano per il punteggio: il resto serve alla scheda.
+
+    `eventi` viene ricostruito (data/categoria/federazione dagli stessi campi
+    salvati in JSON, fonte->federazione) perché `punti()` ne ha bisogno per
+    distinguere un vero sorpasso da un compleanno (selezione_v2._salto_reale):
+    senza gli eventi non c'è primo/ultimo da confrontare con la scala.
     """
     if not sel or not sel.get("quante"):
         return None
-    from src.selezione_v2 import Persistenza
+    from src.selezione_v2 import Evento, Persistenza
+    eventi = [Evento(data=e.get("data") or "", categoria=e.get("categoria") or "",
+                     federazione=e.get("fonte") or "", dominio="",
+                     url=e.get("url") or "")
+              for e in (sel.get("eventi") or [])]
     return Persistenza(
         quante=sel.get("quante", 0),
+        eventi=eventi,
         progressione=bool(sel.get("progressione")),
         mesi_di_arco=sel.get("mesi_di_arco", 0),
         categorie=sel.get("categorie") or [],
@@ -432,6 +441,7 @@ def export(db_path: Path, out_path: Path) -> dict:
             league=p["league"], stats=stats, n_sources=max(n_sources, 1),
             detection_count=p["evidence_count"] or 1,
             selezione=_come_persistenza(selezione),
+            scala_categorie=scala_categorie,
         )
         # Nome senza contenuto utile → non in dashboard pubblica
         name = (p["canonical_name"] or "").strip()

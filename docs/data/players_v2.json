@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-01T04:39:59.458069+00:00",
+ "generated_at": "2026-09-01T05:12:41.344849+00:00",
  "version": "1.0.0",
- "build": "2d25fd8",
+ "build": "f2a0e1d",
  "total": 308,
  "publishable": 157,
  "tracking": 151,
@@ -12,346 +12,6 @@
   "avg_lead_time_days": 2.0
  },
  "players": [
-  {
-   "name": "Simón Alejandro Rojas Merchán",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Simón Alejandro Rojas Merchán – Atlético Nacional",
-     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Simón Alejandro Rojas Merchán – Atlético Nacional",
-     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Atlético Nacional",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 40,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 32.0,
-    "n_sources": 2,
-    "detection_count": 6
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
-     "seen": "2026-07-16T19:42:31.108991"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/simon-rojas/profil/spieler/1531677",
-     "seen": "2026-07-25T14:11:15.071449"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": true,
-   "review_flags": "eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {
-    "quante": 5,
-    "frase": "Convocato 5 volte da Federación Colombiana de Fútbol tra febbraio 2025 e luglio 2026, dal Sub-16 al Sub-17.",
-    "dal": "2025-02-17",
-    "al": "2026-07-19",
-    "categorie": [
-     "sub-16",
-     "sub-17"
-    ],
-    "progressione": true,
-    "mesi_di_arco": 17,
-    "eventi": [
-     {
-      "data": "2025-02-17",
-      "categoria": "sub-16",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
-     },
-     {
-      "data": "2025-07-31",
-      "categoria": "sub-16",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/"
-     },
-     {
-      "data": "2026-01-13",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
-     },
-     {
-      "data": "2026-02-17",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
-     },
-     {
-      "data": "2026-07-19",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 5 times by Federación Colombiana de Fútbol between February 2025 and July 2026, from U16 to U17."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "5 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "5 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
-      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
-      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
-      "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
-     ],
-     "dati": {
-      "convocazioni": 5,
-      "tipi_fonte": [
-       "aggregator",
-       "federation"
-      ]
-     }
-    }
-   ],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)",
-     "Richiedere video o programmare una visione diretta"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)",
-     "Request video or schedule a live viewing"
-    ]
-   }
-  },
-  {
-   "name": "Edwin Estrella De La Rosa",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Edwin Estrella De La Rosa – Belen La Nubia – Arco Zaragoza",
-     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Edwin Estrella De La Rosa – Belen La Nubia – Arco Zaragoza",
-     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Belen La Nubia – Arco Zaragoza",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 39,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 30.0,
-    "n_sources": 2,
-    "detection_count": 5
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
-     "seen": "2026-07-16T19:42:31.108991"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/edwin-estrella/profil/spieler/1531672",
-     "seen": "2026-07-26T14:10:12.857220"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": true,
-   "review_flags": "eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {
-    "quante": 4,
-    "frase": "Convocato 4 volte da Federación Colombiana de Fútbol tra luglio 2025 e luglio 2026, dal Sub-16 al Sub-17.",
-    "dal": "2025-07-31",
-    "al": "2026-07-19",
-    "categorie": [
-     "sub-16",
-     "sub-17"
-    ],
-    "progressione": true,
-    "mesi_di_arco": 12,
-    "eventi": [
-     {
-      "data": "2025-07-31",
-      "categoria": "sub-16",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/"
-     },
-     {
-      "data": "2026-01-13",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
-     },
-     {
-      "data": "2026-02-17",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
-     },
-     {
-      "data": "2026-07-19",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 4 times by Federación Colombiana de Fútbol between July 2025 and July 2026, from U16 to U17."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "4 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "4 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
-      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
-      "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
-      "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
-     ],
-     "dati": {
-      "convocazioni": 4,
-      "tipi_fonte": [
-       "aggregator",
-       "federation"
-      ]
-     }
-    }
-   ],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)",
-     "Richiedere video o programmare una visione diretta"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)",
-     "Request video or schedule a live viewing"
-    ]
-   }
-  },
   {
    "name": "Juan José Fori Viveros",
    "age": 16,
@@ -692,7 +352,7 @@
    }
   },
   {
-   "name": "Luigi Joel Ortiz Mañunga",
+   "name": "Simón Alejandro Rojas Merchán",
    "age": null,
    "age_stato": "assente",
    "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
@@ -701,14 +361,14 @@
      "stato": "dichiarato",
      "fonte": "Federación Colombiana de Fútbol",
      "tipo": "federation",
-     "citazione": "Luigi Joel Ortiz Mañunga- Deportivo Cali",
+     "citazione": "Simón Alejandro Rojas Merchán – Atlético Nacional",
      "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
     },
     "club": {
      "stato": "dichiarato",
      "fonte": "Federación Colombiana de Fútbol",
      "tipo": "federation",
-     "citazione": "Luigi Joel Ortiz Mañunga- Deportivo Cali",
+     "citazione": "Simón Alejandro Rojas Merchán – Atlético Nacional",
      "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
     },
     "eta": {
@@ -727,7 +387,7 @@
     }
    },
    "position": null,
-   "club": "Deportivo Cali",
+   "club": "Atlético Nacional",
    "league": null,
    "region": "Colombia",
    "gender": "male",
@@ -739,7 +399,7 @@
     "asymmetry": 8.0,
     "selection": 27.0,
     "n_sources": 2,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 2,
    "sources": [
@@ -750,7 +410,7 @@
     },
     {
      "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/luigi-ortiz/profil/spieler/1531669",
+     "url": "https://www.transfermarkt.com/simon-rojas/profil/spieler/1531677",
      "seen": "2026-07-25T14:11:15.071449"
     }
    ],
@@ -768,17 +428,23 @@
    "first_detected": null,
    "last_seen": null,
    "selezione": {
-    "quante": 4,
-    "frase": "Convocato 4 volte da Federación Colombiana de Fútbol tra luglio 2025 e maggio 2026, dal Sub-16 al Sub-17.",
-    "dal": "2025-07-31",
-    "al": "2026-05-14",
+    "quante": 5,
+    "frase": "Convocato 5 volte da Federación Colombiana de Fútbol tra febbraio 2025 e luglio 2026, dal Sub-16 al Sub-17.",
+    "dal": "2025-02-17",
+    "al": "2026-07-19",
     "categorie": [
      "sub-16",
      "sub-17"
     ],
     "progressione": true,
-    "mesi_di_arco": 10,
+    "mesi_di_arco": 17,
     "eventi": [
+     {
+      "data": "2025-02-17",
+      "categoria": "sub-16",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+     },
      {
       "data": "2025-07-31",
       "categoria": "sub-16",
@@ -798,190 +464,30 @@
       "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
      },
      {
-      "data": "2026-05-14",
+      "data": "2026-07-19",
       "categoria": "sub-17",
       "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
+      "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
      }
     ],
     "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 4 times by Federación Colombiana de Fútbol between July 2025 and May 2026, from U16 to U17."
+    "frase_en": "Called up 5 times by Federación Colombiana de Fútbol between February 2025 and July 2026, from U16 to U17."
    },
    "anomalie": [
     {
      "codice": "asimmetria_copertura",
      "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "4 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "4 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
-      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
-      "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
-      "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
-     ],
-     "dati": {
-      "convocazioni": 4,
-      "tipi_fonte": [
-       "aggregator",
-       "federation"
-      ]
-     }
-    }
-   ],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)",
-     "Richiedere video o programmare una visione diretta"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)",
-     "Request video or schedule a live viewing"
-    ]
-   }
-  },
-  {
-   "name": "John Mauricio Maturana Carabalí",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "John Mauricio Maturana Carabalí – Internacional De Palmira",
-     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "John Mauricio Maturana Carabalí – Internacional De Palmira",
-     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Left Winger",
-   "club": "Internacional De Palmira",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 36,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 27.0,
-    "n_sources": 2,
-    "detection_count": 4
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
-     "seen": "2026-07-16T19:42:31.108991"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/jhon-maturana/profil/spieler/1381075",
-     "seen": "2026-08-28T22:33:06.502357"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": true,
-   "review_flags": "eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-28T22:33:06.502357",
-   "last_seen": "2026-08-28T22:33:06.502357",
-   "selezione": {
-    "quante": 3,
-    "frase": "Convocato 3 volte da Federación Colombiana de Fútbol tra febbraio 2025 e febbraio 2026, dal Sub-16 al Sub-17.",
-    "dal": "2025-02-17",
-    "al": "2026-02-17",
-    "categorie": [
-     "sub-16",
-     "sub-17"
-    ],
-    "progressione": true,
-    "mesi_di_arco": 12,
-    "eventi": [
-     {
-      "data": "2025-02-17",
-      "categoria": "sub-16",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
-     },
-     {
-      "data": "2026-01-13",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
-     },
-     {
-      "data": "2026-02-17",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 3 times by Federación Colombiana de Fútbol between February 2025 and February 2026, from U16 to U17."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "3 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "3 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "frase": "5 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "5 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
      "forza": "indicativa",
      "prove": [
       "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
       "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
       "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
      ],
      "dati": {
-      "convocazioni": 3,
+      "convocazioni": 5,
       "tipi_fonte": [
        "aggregator",
        "federation"
@@ -1192,6 +698,500 @@
    }
   },
   {
+   "name": "Edwin Estrella De La Rosa",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Edwin Estrella De La Rosa – Belen La Nubia – Arco Zaragoza",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Edwin Estrella De La Rosa – Belen La Nubia – Arco Zaragoza",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Belen La Nubia – Arco Zaragoza",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 35,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 25.0,
+    "n_sources": 2,
+    "detection_count": 5
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/edwin-estrella/profil/spieler/1531672",
+     "seen": "2026-07-26T14:10:12.857220"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": null,
+   "last_seen": null,
+   "selezione": {
+    "quante": 4,
+    "frase": "Convocato 4 volte da Federación Colombiana de Fútbol tra luglio 2025 e luglio 2026, dal Sub-16 al Sub-17.",
+    "dal": "2025-07-31",
+    "al": "2026-07-19",
+    "categorie": [
+     "sub-16",
+     "sub-17"
+    ],
+    "progressione": true,
+    "mesi_di_arco": 12,
+    "eventi": [
+     {
+      "data": "2025-07-31",
+      "categoria": "sub-16",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/"
+     },
+     {
+      "data": "2026-01-13",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
+     },
+     {
+      "data": "2026-02-17",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
+     },
+     {
+      "data": "2026-07-19",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 4 times by Federación Colombiana de Fútbol between July 2025 and July 2026, from U16 to U17."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "4 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "4 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
+      "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+      "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
+     ],
+     "dati": {
+      "convocazioni": 4,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Luigi Joel Ortiz Mañunga",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Luigi Joel Ortiz Mañunga- Deportivo Cali",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Luigi Joel Ortiz Mañunga- Deportivo Cali",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Deportivo Cali",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 33,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 22.0,
+    "n_sources": 2,
+    "detection_count": 5
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/luigi-ortiz/profil/spieler/1531669",
+     "seen": "2026-07-25T14:11:15.071449"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": null,
+   "last_seen": null,
+   "selezione": {
+    "quante": 4,
+    "frase": "Convocato 4 volte da Federación Colombiana de Fútbol tra luglio 2025 e maggio 2026, dal Sub-16 al Sub-17.",
+    "dal": "2025-07-31",
+    "al": "2026-05-14",
+    "categorie": [
+     "sub-16",
+     "sub-17"
+    ],
+    "progressione": true,
+    "mesi_di_arco": 10,
+    "eventi": [
+     {
+      "data": "2025-07-31",
+      "categoria": "sub-16",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/"
+     },
+     {
+      "data": "2026-01-13",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
+     },
+     {
+      "data": "2026-02-17",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
+     },
+     {
+      "data": "2026-05-14",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 4 times by Federación Colombiana de Fútbol between July 2025 and May 2026, from U16 to U17."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "4 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "4 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
+      "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+      "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
+     ],
+     "dati": {
+      "convocazioni": 4,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "John Mauricio Maturana Carabalí",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "John Mauricio Maturana Carabalí – Internacional De Palmira",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "John Mauricio Maturana Carabalí – Internacional De Palmira",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Left Winger",
+   "club": "Internacional De Palmira",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 33,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 22.0,
+    "n_sources": 2,
+    "detection_count": 4
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/jhon-maturana/profil/spieler/1381075",
+     "seen": "2026-08-28T22:33:06.502357"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-28T22:33:06.502357",
+   "last_seen": "2026-08-28T22:33:06.502357",
+   "selezione": {
+    "quante": 3,
+    "frase": "Convocato 3 volte da Federación Colombiana de Fútbol tra febbraio 2025 e febbraio 2026, dal Sub-16 al Sub-17.",
+    "dal": "2025-02-17",
+    "al": "2026-02-17",
+    "categorie": [
+     "sub-16",
+     "sub-17"
+    ],
+    "progressione": true,
+    "mesi_di_arco": 12,
+    "eventi": [
+     {
+      "data": "2025-02-17",
+      "categoria": "sub-16",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+     },
+     {
+      "data": "2026-01-13",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
+     },
+     {
+      "data": "2026-02-17",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 3 times by Federación Colombiana de Fútbol between February 2025 and February 2026, from U16 to U17."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "3 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "3 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
+      "https://fcf.com.co/2026/02/17/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-febrero-2026/"
+     ],
+     "dati": {
+      "convocazioni": 3,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
    "name": "Eider Luis Carrillo Córdoba",
    "age": null,
    "age_stato": "assente",
@@ -1231,13 +1231,13 @@
    "league": null,
    "region": "Colombia",
    "gender": "male",
-   "score": 36,
+   "score": 33,
    "confidence": 0.73,
    "breakdown": {
     "youth": 15.0,
     "production": 0.0,
     "asymmetry": 8.0,
-    "selection": 27.0,
+    "selection": 22.0,
     "n_sources": 2,
     "detection_count": 4
    },
@@ -2152,320 +2152,6 @@
    }
   },
   {
-   "name": "Juan Fernando Alegría Rodríguez",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Juan Fernando Alegría Rodríguez – Deportivo Cali (Cantera)",
-     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Juan Fernando Alegría Rodríguez – Deportivo Cali (Cantera)",
-     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Deportivo Cali",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 31,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 19.0,
-    "n_sources": 2,
-    "detection_count": 3
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
-     "seen": "2026-07-19T08:56:55.551442"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/juan-alegria/profil/spieler/662452",
-     "seen": "2026-07-29T14:52:11.689075"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": true,
-   "review_flags": "eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {
-    "quante": 2,
-    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra febbraio 2025 e gennaio 2026, dal Sub-16 al Sub-17.",
-    "dal": "2025-02-17",
-    "al": "2026-01-13",
-    "categorie": [
-     "sub-16",
-     "sub-17"
-    ],
-    "progressione": true,
-    "mesi_di_arco": 11,
-    "eventi": [
-     {
-      "data": "2025-02-17",
-      "categoria": "sub-16",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
-     },
-     {
-      "data": "2026-01-13",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between February 2025 and January 2026, from U16 to U17."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
-      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
-     ],
-     "dati": {
-      "convocazioni": 2,
-      "tipi_fonte": [
-       "aggregator",
-       "federation"
-      ]
-     }
-    }
-   ],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Identità confermata da 2 fonti indipendenti"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)",
-     "Richiedere video o programmare una visione diretta"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Identity confirmed by 2 independent sources"
-    ],
-    "cautions_en": [
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)",
-     "Request video or schedule a live viewing"
-    ]
-   }
-  },
-  {
-   "name": "Edmilson Yosue Herazo Torres",
-   "age": 17,
-   "age_stato": "dedotto",
-   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Edmilson Yosue Herazo Torres – Barranquilla F.C",
-     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Edmilson Yosue Herazo Torres – Barranquilla F.C",
-     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
-    },
-    "eta": {
-     "stato": "dedotto",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Barranquilla F.C",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 29,
-   "confidence": 0.55,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 30.0,
-    "n_sources": 1,
-    "detection_count": 4
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
-     "seen": "2026-07-18T08:21:52.280337"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": true,
-   "review_flags": "fonte_singola,eta_dedotto",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {
-    "quante": 4,
-    "frase": "Convocato 4 volte da Federación Colombiana de Fútbol tra settembre 2024 e luglio 2026, dal Sub-17 al Sub-19.",
-    "dal": "2024-09-17",
-    "al": "2026-07-27",
-    "categorie": [
-     "sub-17",
-     "sub-19"
-    ],
-    "progressione": true,
-    "mesi_di_arco": 22,
-    "eventi": [
-     {
-      "data": "2024-09-17",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/"
-     },
-     {
-      "data": "2025-01-14",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
-     },
-     {
-      "data": "2025-02-06",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
-     },
-     {
-      "data": "2026-07-27",
-      "categoria": "sub-19",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 4 times by Federación Colombiana de Fútbol between September 2024 and July 2026, from U17 to U19."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "4 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "4 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
-      "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
-      "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
-      "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-     ],
-     "dati": {
-      "convocazioni": 4,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)",
-     "Richiedere video o programmare una visione diretta"
-    ],
-    "pros_en": [
-     "Very young (17 yo): plenty of room to develop",
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)",
-     "Request video or schedule a live viewing"
-    ]
-   }
-  },
-  {
    "name": "Óscar Yesid Gómez Hinestroza",
    "age": null,
    "age_stato": "assente",
@@ -2763,6 +2449,159 @@
     ],
     "cautions_en": [
      "Last call-up 20 months ago (January 2025): the run has stopped — worth finding out why",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "name": "Juan Fernando Alegría Rodríguez",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Juan Fernando Alegría Rodríguez – Deportivo Cali (Cantera)",
+     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Juan Fernando Alegría Rodríguez – Deportivo Cali (Cantera)",
+     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Deportivo Cali",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 27,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+     "seen": "2026-07-19T08:56:55.551442"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/juan-alegria/profil/spieler/662452",
+     "seen": "2026-07-29T14:52:11.689075"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": null,
+   "last_seen": null,
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra febbraio 2025 e gennaio 2026, dal Sub-16 al Sub-17.",
+    "dal": "2025-02-17",
+    "al": "2026-01-13",
+    "categorie": [
+     "sub-16",
+     "sub-17"
+    ],
+    "progressione": true,
+    "mesi_di_arco": 11,
+    "eventi": [
+     {
+      "data": "2025-02-17",
+      "categoria": "sub-16",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+     },
+     {
+      "data": "2026-01-13",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between February 2025 and January 2026, from U16 to U17."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Identità confermata da 2 fonti indipendenti"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Identity confirmed by 2 independent sources"
+    ],
+    "cautions_en": [
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -3540,6 +3379,167 @@
    }
   },
   {
+   "name": "Edmilson Yosue Herazo Torres",
+   "age": 17,
+   "age_stato": "dedotto",
+   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Edmilson Yosue Herazo Torres – Barranquilla F.C",
+     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Edmilson Yosue Herazo Torres – Barranquilla F.C",
+     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
+    },
+    "eta": {
+     "stato": "dedotto",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Barranquilla F.C",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 26,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 25.0,
+    "n_sources": 1,
+    "detection_count": 4
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dedotto",
+   "coverage_tier": "standard",
+   "first_detected": null,
+   "last_seen": null,
+   "selezione": {
+    "quante": 4,
+    "frase": "Convocato 4 volte da Federación Colombiana de Fútbol tra settembre 2024 e luglio 2026, dal Sub-17 al Sub-19.",
+    "dal": "2024-09-17",
+    "al": "2026-07-27",
+    "categorie": [
+     "sub-17",
+     "sub-19"
+    ],
+    "progressione": true,
+    "mesi_di_arco": 22,
+    "eventi": [
+     {
+      "data": "2024-09-17",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/"
+     },
+     {
+      "data": "2025-01-14",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
+     },
+     {
+      "data": "2025-02-06",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
+     },
+     {
+      "data": "2026-07-27",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 4 times by Federación Colombiana de Fútbol between September 2024 and July 2026, from U17 to U19."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "4 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "4 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
+      "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+      "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
+      "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+     ],
+     "dati": {
+      "convocazioni": 4,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
    "name": "Darwin Daez Torres Redondo",
    "age": 17,
    "age_stato": "dedotto",
@@ -3971,153 +3971,6 @@
    }
   },
   {
-   "name": "Jacky Yoel Muñoz Yerena",
-   "age": 16,
-   "age_stato": "dedotto",
-   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-16)",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Jacky Yoel Muñoz Yerena – Barranquilla F.C",
-     "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Jacky Yoel Muñoz Yerena – Barranquilla F.C",
-     "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
-    },
-    "eta": {
-     "stato": "dedotto",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Barranquilla F.C",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 22,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 18.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 22.0,
-    "n_sources": 1,
-    "detection_count": 2
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/",
-     "seen": "2026-07-26T08:58:15.224553"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": true,
-   "review_flags": "fonte_singola,eta_dedotto",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {
-    "quante": 2,
-    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra luglio 2025 e luglio 2026, dal Sub-16 al Sub-17.",
-    "dal": "2025-07-31",
-    "al": "2026-07-19",
-    "categorie": [
-     "sub-16",
-     "sub-17"
-    ],
-    "progressione": true,
-    "mesi_di_arco": 12,
-    "eventi": [
-     {
-      "data": "2025-07-31",
-      "categoria": "sub-16",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/"
-     },
-     {
-      "data": "2026-07-19",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between July 2025 and July 2026, from U16 to U17."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
-      "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
-     ],
-     "dati": {
-      "convocazioni": 2,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "assessment": {
-    "pros": [
-     "Molto giovane (16 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)",
-     "Richiedere video o programmare una visione diretta"
-    ],
-    "pros_en": [
-     "Very young (16 yo): plenty of room to develop",
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)",
-     "Request video or schedule a live viewing"
-    ]
-   }
-  },
-  {
    "name": "Amaro Pérez",
    "age": 17,
    "age_stato": "dedotto",
@@ -4226,6 +4079,153 @@
      "Get performance stats (match reports)",
      "Request video or schedule a live viewing",
      "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "name": "Jacky Yoel Muñoz Yerena",
+   "age": 16,
+   "age_stato": "dedotto",
+   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-16)",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Jacky Yoel Muñoz Yerena – Barranquilla F.C",
+     "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Jacky Yoel Muñoz Yerena – Barranquilla F.C",
+     "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
+    },
+    "eta": {
+     "stato": "dedotto",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Barranquilla F.C",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 19,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 17.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/",
+     "seen": "2026-07-26T08:58:15.224553"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dedotto",
+   "coverage_tier": "standard",
+   "first_detected": null,
+   "last_seen": null,
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra luglio 2025 e luglio 2026, dal Sub-16 al Sub-17.",
+    "dal": "2025-07-31",
+    "al": "2026-07-19",
+    "categorie": [
+     "sub-16",
+     "sub-17"
+    ],
+    "progressione": true,
+    "mesi_di_arco": 12,
+    "eventi": [
+     {
+      "data": "2025-07-31",
+      "categoria": "sub-16",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/"
+     },
+     {
+      "data": "2026-07-19",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between July 2025 and July 2026, from U16 to U17."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/07/31/convocatoria-de-la-seleccion-colombia-masculina-sub16-para-microciclo-de-trabajo-agosto-2025/",
+      "https://fcf.com.co/2026/07/19/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026-2/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (16 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
     ]
    }
   },
@@ -4613,153 +4613,6 @@
      "Confirm the birth year with the club",
      "Get performance stats (match reports)",
      "Request video or schedule a live viewing"
-    ]
-   }
-  },
-  {
-   "name": "Brayner Quiñones Charrupi",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Brayner Quiñones Charrupi – Atlético Boca Juniors",
-     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Brayner Quiñones Charrupi – Atlético Boca Juniors",
-     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Atlético Boca Juniors",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 19,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 19.0,
-    "n_sources": 1,
-    "detection_count": 2
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
-     "seen": "2026-07-19T08:56:55.551442"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": true,
-   "review_flags": "fonte_singola,eta_assente",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {
-    "quante": 2,
-    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra febbraio 2025 e gennaio 2026, dal Sub-16 al Sub-17.",
-    "dal": "2025-02-17",
-    "al": "2026-01-13",
-    "categorie": [
-     "sub-16",
-     "sub-17"
-    ],
-    "progressione": true,
-    "mesi_di_arco": 11,
-    "eventi": [
-     {
-      "data": "2025-02-17",
-      "categoria": "sub-16",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
-     },
-     {
-      "data": "2026-01-13",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between February 2025 and January 2026, from U16 to U17."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
-      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
-     ],
-     "dati": {
-      "convocazioni": 2,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
     ]
    }
   },
@@ -5153,6 +5006,153 @@
      "Confirm the birth year with the club",
      "Request video or schedule a live viewing",
      "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "name": "Brayner Quiñones Charrupi",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Brayner Quiñones Charrupi – Atlético Boca Juniors",
+     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Brayner Quiñones Charrupi – Atlético Boca Juniors",
+     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Atlético Boca Juniors",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 17,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+     "seen": "2026-07-19T08:56:55.551442"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_assente",
+   "coverage_tier": "standard",
+   "first_detected": null,
+   "last_seen": null,
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra febbraio 2025 e gennaio 2026, dal Sub-16 al Sub-17.",
+    "dal": "2025-02-17",
+    "al": "2026-01-13",
+    "categorie": [
+     "sub-16",
+     "sub-17"
+    ],
+    "progressione": true,
+    "mesi_di_arco": 11,
+    "eventi": [
+     {
+      "data": "2025-02-17",
+      "categoria": "sub-16",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+     },
+     {
+      "data": "2026-01-13",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between February 2025 and January 2026, from U16 to U17."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
     ]
    }
   },
@@ -19516,13 +19516,13 @@
    "league": null,
    "region": "Colombia",
    "gender": "male",
-   "score": 30,
+   "score": 28,
    "confidence": 0.55,
    "breakdown": {
     "youth": 15.0,
     "production": 0.0,
     "asymmetry": 8.0,
-    "selection": 32.0,
+    "selection": 27.0,
     "n_sources": 1,
     "detection_count": 6
    },
@@ -32780,13 +32780,13 @@
    "league": null,
    "region": "Spain",
    "gender": "male",
-   "score": 50,
+   "score": 46,
    "confidence": 0.91,
    "breakdown": {
     "youth": 15.0,
     "production": 0.0,
     "asymmetry": 8.0,
-    "selection": 32.0,
+    "selection": 27.0,
     "n_sources": 3,
     "detection_count": 8
    },

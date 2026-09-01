@@ -117,7 +117,7 @@ def _confidence(n_sources: int, detection_count: int) -> float:
 
 def score_player(age=None, is_ghost=False, club=None, league=None,
                  stats=None, n_sources=1, detection_count=1,
-                 position=None, selezione=None) -> dict:
+                 position=None, selezione=None, scala_categorie=None) -> dict:
     """
     Ritorna {'score': int 0-100, 'confidence': float, 'merit': float,
              'breakdown': {...}} — tutto ispezionabile.
@@ -151,7 +151,7 @@ def score_player(age=None, is_ghost=False, club=None, league=None,
     selection = 0.0
     if selezione is not None:
         from src.selezione_v2 import punti as _punti_selezione
-        selection = _punti_selezione(selezione)
+        selection = _punti_selezione(selezione, scala_categorie)
     merit = max(0.0, youth + production + asymmetry + selection)
 
     confidence = _confidence(n_sources, detection_count)

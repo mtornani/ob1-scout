@@ -30,6 +30,7 @@ from src.challenge_v2 import contesta, sopravvive
 from src.claims_v2 import (stabilisci, pubblicabile as pubblicabile_da_claims,
                            fonti_che_stabiliscono, registro, DICHIARATO)
 from src.selezione_v2 import leggi_dal_registro as leggi_selezione
+from src.anomalie_v2 import scala_osservata
 
 # La data dell'atto nel percorso dell'URL: /2026/07/19/... Stessa lettura di
 # selezione_v2._DATA_NEL_PATH — è quando il documento è stato pubblicato, non
@@ -633,6 +634,31 @@ class OB1DatabaseV2:
                 return pid
         return None
 
+    def _scala_categorie(self, conn) -> dict:
+        """
+        La scala reale di categorie di ogni federazione, ricavata dai
+        comunicati stessi (anomalie_v2.scala_osservata) — non un'assunzione.
+
+        Serve a selezione_v2.punti() per distinguere un vero sorpasso (una
+        categoria saltata che la federazione usa davvero) da un compleanno
+        (il gradino successivo): senza, Sub-17 -> Sub-19 in Colombia sembra
+        un salto di due, quando nella scala vera della FCF ([15,16,17,19,20],
+        nessun Sub-18) è il gradino successivo.
+
+        Una query su tutta la tabella per ogni giocatore ricalcolato: costa
+        pochi millisecondi anche sui volumi di oggi, e il budget di chiamate
+        per run tiene comunque bassi i giocatori toccati a ogni giro.
+        """
+        selezioni = []
+        for (grezzo,) in conn.execute(
+                "SELECT selection_json FROM players "
+                "WHERE selection_json IS NOT NULL AND selection_json != ''"):
+            try:
+                selezioni.append(json.loads(grezzo))
+            except (ValueError, TypeError):
+                continue
+        return scala_osservata(selezioni)
+
     def _recompute(self, conn, pid: int):
         """Ricalcola fonti-distinte, gate e punteggio v2 per un giocatore."""
         from src.scoring_v2 import score_player  # lazy: evita cicli d'import
@@ -668,7 +694,8 @@ class OB1DatabaseV2:
 
         sc = score_player(age=age, is_ghost=bool(is_ghost), club=club, league=league,
                           stats=stats, n_sources=n_sources, detection_count=ev_count,
-                          selezione=persistenza)
+                          selezione=persistenza,
+                          scala_categorie=self._scala_categorie(conn))
 
         # L'avvocato del diavolo (src/challenge_v2.py) — l'ULTIMO cancello,
         # dopo il gate classico. Aggiunto il 26 ago 2026: assess_identity()

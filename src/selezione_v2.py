@@ -292,7 +292,54 @@ def frase(p: Persistenza) -> str:
     return testo + "."
 
 
-def punti(p: Persistenza) -> float:
+def _campo(e, nome: str, alias: str = None):
+    """Un evento, che sia un Evento vero o un dict ricostruito dal JSON
+    salvato (export_dashboard_v2._come_persistenza). Le chiavi del JSON
+    ricalcano i nomi dell'Evento tranne 'fonte' al posto di 'federazione'."""
+    if isinstance(e, dict):
+        return e.get(nome) or (e.get(alias) if alias else None)
+    return getattr(e, nome, None) or (getattr(e, alias, None) if alias else None)
+
+
+def _salto_reale(p: Persistenza, scala) -> bool:
+    """
+    True solo se la federazione ha SALTATO una categoria che usa davvero —
+    non il gradino successivo che ogni convocato raggiunge crescendo di un
+    anno. Stessa domanda di anomalie_v2._salto, qui applicata al merito
+    invece che a un'anomalia da segnalare.
+
+    Misurato il 1 set 2026 sui dati di produzione: 12 giocatori avevano
+    `progressione=True` e ricevevano per questo +5 di merito. Rifatta la
+    misura sulla scala REALE di ciascuna federazione (non un'assunzione):
+    10 erano Sub-16 -> Sub-17 in 10-17 mesi (un compleanno), i restanti 2
+    erano Sub-16/17 -> Sub-19, che nella scala vera della FCF
+    ([15, 16, 17, 19, 20] — nessun Sub-18) è ANCH'ESSO il gradino successivo.
+    Zero dei dodici era un sorpasso vero. Il +5 pagava un compleanno per
+    dodici giocatori su dodici.
+
+    `scala`: federazione -> categorie osservate (anomalie_v2.scala_osservata).
+    Senza una scala che copra questa federazione il verdetto è prudente —
+    NESSUN bonus, non il vecchio "qualunque salita conta": un bonus che non
+    si sa giustificare con la scala vera non si dà.
+    """
+    if not scala:
+        return False
+    datati = [e for e in p.eventi
+              if _campo(e, "data") and _numero_categoria(_campo(e, "categoria"))]
+    if len(datati) < 2:
+        return False
+    datati.sort(key=lambda e: _campo(e, "data"))
+    primo, ultimo = datati[0], datati[-1]
+    a = _numero_categoria(_campo(primo, "categoria"))
+    b = _numero_categoria(_campo(ultimo, "categoria"))
+    if not (a and b and b > a):
+        return False
+    fed = _campo(primo, "federazione", "fonte") or _campo(ultimo, "federazione", "fonte")
+    gradini = (scala or {}).get(fed) or []
+    return any(a < c < b for c in gradini)
+
+
+def punti(p: Persistenza, scala=None) -> float:
     """
     Quanto vale la persistenza di selezione nel merito. Max 32.
 
@@ -304,12 +351,16 @@ def punti(p: Persistenza) -> float:
     La scala non è lineare: la seconda convocazione è il salto informativo
     grosso (da "è stato preso una volta" a "continuano a prenderlo"), la
     quinta aggiunge poco.
+
+    `scala`: la scala osservata per federazione (vedi _salto_reale). Senza
+    di essa il bonus di sorpasso non si dà mai — non perché nessuno l'abbia
+    mai meritato, ma perché non abbiamo come verificarlo.
     """
     if not p:
         return 0.0
     base = {0: 0.0, 1: 4.0, 2: 14.0, 3: 19.0, 4: 22.0}.get(p.quante, 24.0)
-    if p.progressione:
-        base += 5.0            # salire di categoria è la conferma piu' pulita
+    if _salto_reale(p, scala):
+        base += 5.0            # un vero sorpasso, non un compleanno
     if p.mesi_di_arco >= 12:
         base += 3.0            # ricorre da piu' di una stagione
     return min(base, 32.0)
@@ -341,7 +392,27 @@ def _test() -> None:
     assert p.mesi_di_arco == 22, p.mesi_di_arco
     assert frase(p) == ("Convocato 4 volte da Federación Colombiana de Fútbol "
                         "tra settembre 2024 e luglio 2026, dal Sub-17 al Sub-19."), frase(p)
-    assert punti(p) == 30.0, punti(p)
+    # Senza una scala nota, il bonus di sorpasso non si dà: prudente, non il
+    # vecchio "qualunque salita conta".
+    assert punti(p) == 25.0, punti(p)
+    # E con la scala VERA della FCF ([15,16,17,19,20], nessun Sub-18),
+    # Sub-17 -> Sub-19 resta il gradino successivo — non un sorpasso.
+    # Misurato il 1 set 2026: era esattamente questo il caso che pagava
+    # dodici compleanni come se fossero dodici sorpassi.
+    scala_fcf = {"Federación Colombiana de Fútbol": [15, 16, 17, 19, 20]}
+    assert punti(p, scala_fcf) == 25.0, punti(p, scala_fcf)
+
+    # 1b. Un sorpasso vero: la stessa federazione lo porta da Sub-16 a
+    #     Sub-20, saltando Sub-17 e Sub-19 che la sua scala usa davvero.
+    #     Qui il +5 è giustificato, e solo qui.
+    sorpasso = [
+        ev(f"https://{fcf}/2025/01/14/convocatoria-seleccion-colombia-sub-16/"),
+        ev(f"https://{fcf}/2026/07/27/convocatoria-seleccion-colombia-sub-20/"),
+    ]
+    ps = leggi(sorpasso, e_fed, nomi)
+    assert ps.quante == 2, ps.quante   # base 14.0
+    assert punti(ps, scala_fcf) == 14.0 + 5.0 + 3.0, punti(ps, scala_fcf)
+    assert punti(ps) == 14.0 + 3.0, "senza scala, niente bonus di sorpasso"
 
     # 2. Due pagine dello stesso raduno non sono due selezioni.
     stesso = [
@@ -385,6 +456,24 @@ def _test() -> None:
 
     # 8. L'anno nell'URL non deve diventare una categoria ("sub-2026").
     assert _categoria_da("https://x/2026/07/19/convocatoria-2026/") == ""
+
+    # 9. Una scala che non copre QUESTA federazione è come non averla: niente
+    #    bonus indovinato su una scala di qualcun altro.
+    scala_altrove = {"Nigeria Football Federation": [17, 20]}
+    assert _salto_reale(ps, scala_altrove) is False
+
+    # 10. Il salto verso la nazionale maggiore (99) è un sorpasso quanto gli
+    #     altri, se la federazione usa davvero categorie in mezzo.
+    verso_maggiore = [
+        ev(f"https://{fcf}/2025/01/14/convocatoria-seleccion-colombia-sub-16/"),
+        ev(f"http://www.{fcf}/2026/07/27/convocatoria-seleccion-colombia-mayor/"),
+    ]
+    pm = leggi(verso_maggiore, e_fed, nomi)
+    assert _salto_reale(pm, scala_fcf) is True
+
+    # 11. Una sola convocazione datata non basta a giudicare un sorpasso:
+    #     serve un prima e un dopo.
+    assert _salto_reale(una, scala_fcf) is False
 
     print("selezione_v2: ok")
 
