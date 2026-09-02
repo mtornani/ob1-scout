@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-02T05:30:44.166235+00:00",
+ "generated_at": "2026-09-02T12:02:15.468889+00:00",
  "version": "1.0.0",
- "build": "7b9266b",
- "total": 376,
- "publishable": 192,
- "tracking": 184,
- "shown": 376,
+ "build": "36d4c17",
+ "total": 377,
+ "publishable": 196,
+ "tracking": 181,
+ "shown": 377,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -6015,6 +6015,110 @@
    }
   },
   {
+   "id": 374,
+   "name": "Van Fitzharris",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "It was all about the substitutes after the break, Van Fitzharris coming off the bench to score two goals, and Oliver Grosso and Waisea Henry both also getting on the scoresheet to round it out.",
+     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Van Fleming Fitzharris, 18 anni, Auckland FC",
+     "url": "https://www.transfermarkt.us/van-fitzharris/profil/spieler/1289282"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Van Fleming Fitzharris, 18 anni, Auckland FC",
+     "url": "https://www.transfermarkt.us/van-fitzharris/profil/spieler/1289282"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attacking Midfield",
+   "club": "Auckland FC",
+   "league": null,
+   "region": "Pacific Islands",
+   "gender": "male",
+   "score": 17,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 8.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/",
+     "seen": "2026-09-02T04:56:55.584928"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/van-fitzharris/profil/spieler/1289282",
+     "seen": "2026-09-02T11:36:47.125772"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 2,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-02T04:56:55.584928",
+   "last_seen": "2026-09-02T11:36:47.125772",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Produzione documentata: 2 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt"
+    ],
+    "cautions": [],
+    "next_steps": [
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Documented output: 2 goals",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt"
+    ],
+    "cautions_en": [],
+    "next_steps_en": [
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "id": 173,
    "name": "Cheikh Tidiane Thiam",
    "age": 20,
@@ -8539,6 +8643,214 @@
     ],
     "next_steps_en": [
      "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 373,
+   "name": "Harley Hill",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "Harley Hill and Jayden Smith added to the New Zealand tally in the first half, deciding the outcome of the contest inside 45 minutes.",
+     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Harley Hill, 18 anni, Auckland FC Reserves",
+     "url": "https://www.transfermarkt.com/harley-hill/profil/spieler/1289281"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Harley Hill, 18 anni, Auckland FC Reserves",
+     "url": "https://www.transfermarkt.com/harley-hill/profil/spieler/1289281"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Centre-Forward",
+   "club": "Auckland FC Reserves",
+   "league": null,
+   "region": "Pacific Islands",
+   "gender": "male",
+   "score": 14,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/",
+     "seen": "2026-09-02T04:56:55.584928"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/harley-hill/profil/spieler/1289281",
+     "seen": "2026-09-02T11:36:47.125772"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-02T04:56:55.584928",
+   "last_seen": "2026-09-02T11:36:47.125772",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt"
+    ],
+    "cautions": [],
+    "next_steps": [
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt"
+    ],
+    "cautions_en": [],
+    "next_steps_en": [
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 375,
+   "name": "Oliver Grosso",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "It was all about the substitutes after the break, Van Fitzharris coming off the bench to score two goals, and Oliver Grosso and Waisea Henry both also getting on the scoresheet to round it out.",
+     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Oliver Grosso, 18 anni, Christchurch United",
+     "url": "https://www.transfermarkt.us/oliver-grosso/profil/spieler/1165302"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Oliver Grosso, 18 anni, Christchurch United",
+     "url": "https://www.transfermarkt.us/oliver-grosso/profil/spieler/1165302"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Centre-Forward",
+   "club": "Christchurch United",
+   "league": null,
+   "region": "Pacific Islands",
+   "gender": "male",
+   "score": 14,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/",
+     "seen": "2026-09-02T04:56:55.584928"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/oliver-grosso/profil/spieler/1165302",
+     "seen": "2026-09-02T11:36:47.125772"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-02T04:56:55.584928",
+   "last_seen": "2026-09-02T11:36:47.125772",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt"
+    ],
+    "cautions": [],
+    "next_steps": [
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt"
+    ],
+    "cautions_en": [],
+    "next_steps_en": [
      "Request video or schedule a live viewing",
      "Call the club: confirm identity and contract status"
     ]
@@ -12290,6 +12602,110 @@
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)",
      "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "id": 376,
+   "name": "Waisea Henry",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "It was all about the substitutes after the break, Van Fitzharris coming off the bench to score two goals, and Oliver Grosso and Waisea Henry both also getting on the scoresheet to round it out.",
+     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Waisea Henry, 19 anni, Christchurch United",
+     "url": "https://www.transfermarkt.us/waisea-henry/profil/spieler/1240671"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Waisea Henry, 19 anni, Christchurch United",
+     "url": "https://www.transfermarkt.us/waisea-henry/profil/spieler/1240671"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Midfield",
+   "club": "Christchurch United",
+   "league": null,
+   "region": "Pacific Islands",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/",
+     "seen": "2026-09-02T04:56:55.584928"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/waisea-henry/profil/spieler/1240671",
+     "seen": "2026-09-02T11:36:47.125772"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-02T04:56:55.584928",
+   "last_seen": "2026-09-02T11:36:47.125772",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt"
+    ],
+    "cautions": [],
+    "next_steps": [
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (19 yo)",
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt"
+    ],
+    "cautions_en": [],
+    "next_steps_en": [
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
     ]
    }
   },
@@ -28947,7 +29363,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 3
+    "detection_count": 4
    },
    "n_sources": 3,
    "sources": [
@@ -28979,7 +29395,7 @@
    "review_flags": "club_mancante,senza_fonte_primary,eta_assente,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-03-01T18:34:38.117964",
-   "last_seen": "2026-08-30T16:55:24.926157",
+   "last_seen": "2026-09-02T11:36:47.125772",
    "selezione": {},
    "anomalie": [],
    "assessment": {
@@ -29678,6 +30094,108 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 377,
+   "name": "Welber Jardim",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Bola.com",
+     "tipo": "national_press",
+     "citazione": "Welber Jardim Siap Jadi Andalan Timnas Indonesia U-20, Bidik Gelar Juara Piala AFF U-19 2026",
+     "url": "https://www.bola.com/indonesia/read/6410461/welber-jardim-siap-jadi-andalan-timnas-indonesia-u-20-bidik-gelar-juara-piala-aff-u-19-2026"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": "Timnas Indonesia U-20",
+   "region": "Indonesia",
+   "gender": "male",
+   "score": 10,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "bola.com",
+     "url": "https://www.bola.com/indonesia/read/6410461/welber-jardim-siap-jadi-andalan-timnas-indonesia-u-20-bidik-gelar-juara-piala-aff-u-19-2026",
+     "seen": "2026-09-02T11:36:47.125772"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-02T11:36:47.125772",
+   "last_seen": "2026-09-02T11:36:47.125772",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
@@ -34776,113 +35294,6 @@
    }
   },
   {
-   "id": 374,
-   "name": "Van Fitzharris",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "It was all about the substitutes after the break, Van Fitzharris coming off the bench to score two goals, and Oliver Grosso and Waisea Henry both also getting on the scoresheet to round it out.",
-     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Pacific Islands",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 8.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/",
-     "seen": "2026-09-02T04:56:55.584928"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 2,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-02T04:56:55.584928",
-   "last_seen": "2026-09-02T04:56:55.584928",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 2 gol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 2 goals"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "id": 129,
    "name": "Juana Flores",
    "age": null,
@@ -38266,327 +38677,6 @@
      "Single source: not yet corroborated",
      "No documented performance stats",
      "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 373,
-   "name": "Harley Hill",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "Harley Hill and Jayden Smith added to the New Zealand tally in the first half, deciding the outcome of the contest inside 45 minutes.",
-     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Pacific Islands",
-   "gender": "male",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 4.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/",
-     "seen": "2026-09-02T04:56:55.584928"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-02T04:56:55.584928",
-   "last_seen": "2026-09-02T04:56:55.584928",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 375,
-   "name": "Oliver Grosso",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "It was all about the substitutes after the break, Van Fitzharris coming off the bench to score two goals, and Oliver Grosso and Waisea Henry both also getting on the scoresheet to round it out.",
-     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Pacific Islands",
-   "gender": "male",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 4.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/",
-     "seen": "2026-09-02T04:56:55.584928"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-02T04:56:55.584928",
-   "last_seen": "2026-09-02T04:56:55.584928",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 376,
-   "name": "Waisea Henry",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "It was all about the substitutes after the break, Van Fitzharris coming off the bench to score two goals, and Oliver Grosso and Waisea Henry both also getting on the scoresheet to round it out.",
-     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Pacific Islands",
-   "gender": "male",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 4.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/",
-     "seen": "2026-09-02T04:56:55.584928"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-02T04:56:55.584928",
-   "last_seen": "2026-09-02T04:56:55.584928",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
     ],
     "next_steps_en": [
      "Verify the current club",
