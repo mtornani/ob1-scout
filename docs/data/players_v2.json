@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-02T21:32:10.061507+00:00",
+ "generated_at": "2026-09-03T05:18:49.406475+00:00",
  "version": "1.0.0",
- "build": "708ba43",
- "total": 379,
- "publishable": 198,
+ "build": "e3094b1",
+ "total": 382,
+ "publishable": 201,
  "tracking": 181,
- "shown": 379,
+ "shown": 382,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -24395,6 +24395,312 @@
    }
   },
   {
+   "id": 380,
+   "name": "Abdul Mumin",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 27 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Right to Dream Academy",
+     "tipo": "academy",
+     "citazione": "Abdul Mumin (27) – Rayo Vallecano",
+     "url": "https://www.righttodream.com/post/seven-right-to-dream-academy-graduates-2026-world-cup"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Right to Dream Academy",
+     "tipo": "academy",
+     "citazione": "Abdul Mumin (27) – Rayo Vallecano",
+     "url": "https://www.righttodream.com/post/seven-right-to-dream-academy-graduates-2026-world-cup"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Rayo Vallecano",
+   "league": null,
+   "region": "Ghana",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "righttodream.com",
+     "url": "https://www.righttodream.com/post/seven-right-to-dream-academy-graduates-2026-world-cup",
+     "seen": "2026-09-03T04:54:01.000935"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-03T04:54:01.000935",
+   "last_seen": "2026-09-03T04:54:01.000935",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Right to Dream Academy"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Right to Dream Academy"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 381,
+   "name": "Kamaldeen Sulemana",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 24 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Right to Dream Academy",
+     "tipo": "academy",
+     "citazione": "Kamaldeen Sulemana (24) – Atalanta",
+     "url": "https://www.righttodream.com/post/seven-right-to-dream-academy-graduates-2026-world-cup"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Right to Dream Academy",
+     "tipo": "academy",
+     "citazione": "Kamaldeen Sulemana (24) – Atalanta",
+     "url": "https://www.righttodream.com/post/seven-right-to-dream-academy-graduates-2026-world-cup"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Atalanta",
+   "league": null,
+   "region": "Ghana",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "righttodream.com",
+     "url": "https://www.righttodream.com/post/seven-right-to-dream-academy-graduates-2026-world-cup",
+     "seen": "2026-09-03T04:54:01.000935"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-03T04:54:01.000935",
+   "last_seen": "2026-09-03T04:54:01.000935",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Right to Dream Academy"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Right to Dream Academy"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 382,
+   "name": "Ernest Nuamah",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 22 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Right to Dream Academy",
+     "tipo": "academy",
+     "citazione": "Ernest Nuamah (22) – Olympique Lyonnais",
+     "url": "https://www.righttodream.com/post/seven-right-to-dream-academy-graduates-2026-world-cup"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Right to Dream Academy",
+     "tipo": "academy",
+     "citazione": "Ernest Nuamah (22) – Olympique Lyonnais",
+     "url": "https://www.righttodream.com/post/seven-right-to-dream-academy-graduates-2026-world-cup"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Olympique Lyonnais",
+   "league": null,
+   "region": "Ghana",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "righttodream.com",
+     "url": "https://www.righttodream.com/post/seven-right-to-dream-academy-graduates-2026-world-cup",
+     "seen": "2026-09-03T04:54:01.000935"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-03T04:54:01.000935",
+   "last_seen": "2026-09-03T04:54:01.000935",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Right to Dream Academy"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Right to Dream Academy"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 12,
    "name": "Fode Diallo",
    "age": 14,
@@ -33722,6 +34028,136 @@
    }
   },
   {
+   "id": 125,
+   "name": "Maureen Kenneth",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "an own goal by visiting defender Maureen Kenneth",
+     "url": "https://thenff.com/nigeria-qualify-for-fifa-u20-womens-world-cup-poland-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "defender",
+   "club": null,
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 7,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/nigeria-qualify-for-fifa-u20-womens-world-cup-poland-2026/",
+     "seen": "2026-07-18T13:58:07.995503"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/kenneth-mauren/fc4gmGrL/",
+     "seen": "2026-08-31T08:50:48.742491"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-31T08:50:48.742491",
+   "last_seen": "2026-09-03T04:54:01.000935",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/nigeria-qualify-for-fifa-u20-womens-world-cup-poland-2026/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 136,
    "name": "Andrea Montenegro",
    "age": null,
@@ -34459,136 +34895,6 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 125,
-   "name": "Maureen Kenneth",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "an own goal by visiting defender Maureen Kenneth",
-     "url": "https://thenff.com/nigeria-qualify-for-fifa-u20-womens-world-cup-poland-2026/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "defender",
-   "club": null,
-   "league": null,
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 6,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/nigeria-qualify-for-fifa-u20-womens-world-cup-poland-2026/",
-     "seen": "2026-07-18T13:58:07.995503"
-    },
-    {
-     "domain": "us.soccerway.com",
-     "url": "https://us.soccerway.com/player/kenneth-mauren/fc4gmGrL/",
-     "seen": "2026-08-31T08:50:48.742491"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-08-31T08:50:48.742491",
-   "last_seen": "2026-08-31T08:50:48.742491",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/nigeria-qualify-for-fifa-u20-womens-world-cup-poland-2026/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
     ]
    }
   },
