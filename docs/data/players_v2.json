@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-03T05:18:49.406475+00:00",
+ "generated_at": "2026-09-03T12:00:28.002332+00:00",
  "version": "1.0.0",
- "build": "e3094b1",
- "total": 382,
+ "build": "3ae3bb8",
+ "total": 383,
  "publishable": 201,
- "tracking": 181,
- "shown": 382,
+ "tracking": 182,
+ "shown": 383,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -29425,20 +29425,20 @@
    },
    "position": "Right Winger",
    "club": "Barcelona",
-   "league": null,
+   "league": "LaLiga",
    "region": "Mexico",
    "gender": "male",
    "score": 0,
-   "confidence": 0.91,
+   "confidence": 1.0,
    "breakdown": {
     "youth": 7.0,
-    "production": 0.0,
+    "production": 8.0,
     "asymmetry": -20.0,
     "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 4
+    "n_sources": 4,
+    "detection_count": 5
    },
-   "n_sources": 3,
+   "n_sources": 4,
    "sources": [
     {
      "domain": "record.com.mx",
@@ -29454,48 +29454,49 @@
      "domain": "soccerway.com",
      "url": "https://www.soccerway.com/player/lamine-yamal/lAt3vEub/",
      "seen": "2026-08-31T22:58:50.253701"
+    },
+    {
+     "domain": "thedailystar.net",
+     "url": "https://www.thedailystar.net/sports/sports-special/fifa-world-cup-2026/news/we-didnt-see-the-best-yamal-lewandowski-reflects-young-stars-world-cup-performance-4230556",
+     "seen": "2026-09-03T11:35:15.589259"
     }
    ],
-   "n_sources_registro": 3,
+   "n_sources_registro": 4,
    "stats": {
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
-    "apps": 0,
-    "minutes": 0
+    "apps": 8,
+    "minutes": 616
    },
    "publishable": false,
    "identity_complete": true,
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-08-28T15:47:13.194942",
-   "last_seen": "2026-08-31T22:58:50.253701",
+   "last_seen": "2026-09-03T11:35:15.589259",
    "selezione": {},
    "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
+     "Produzione documentata: 1 gol in 8 presenze",
      "Nome e club scritti da Récord",
-     "3 domini distinti lo nominano"
+     "4 domini distinti lo nominano"
     ],
     "cautions": [
-     "Nessuna statistica di rendimento documentata",
      "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
     ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
+    "next_steps": [],
     "pros_en": [
      "Young (19 yo)",
+     "Documented output: 1 goals in 8 appearances",
      "Name and club stated by Récord",
-     "3 distinct domains mention him"
+     "4 distinct domains mention him"
     ],
     "cautions_en": [
-     "No documented performance stats",
      "High-visibility club/league: low asymmetry, competition likely"
     ],
-    "next_steps_en": [
-     "Get performance stats (match reports)"
-    ]
+    "next_steps_en": []
    }
   },
   {
@@ -31941,6 +31942,134 @@
    }
   },
   {
+   "id": 138,
+   "name": "Valentina Montenegro",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Así formó Colombia: Valentina Montenegro",
+     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "female",
+   "score": 8,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/",
+     "seen": "2026-07-19T04:04:37.790338"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/montenegro-valentina/IDxKQXI7/injury-history/",
+     "seen": "2026-08-31T08:50:48.742491"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-31T08:50:48.742491",
+   "last_seen": "2026-09-03T11:35:15.589259",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-15 (giugno 2026).",
+    "dal": "2026-06-17",
+    "al": "2026-06-17",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-06-17",
+      "categoria": "sub-15",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "id": 153,
    "name": "Vanessa Puerta",
    "age": null,
@@ -34234,134 +34363,6 @@
    "coverage_tier": "standard",
    "first_detected": "2026-08-23T13:11:41.317748",
    "last_seen": "2026-08-23T13:11:41.317748",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-15 (giugno 2026).",
-    "dal": "2026-06-17",
-    "al": "2026-06-17",
-    "categorie": [
-     "sub-15"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-06-17",
-      "categoria": "sub-15",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club"
-    ]
-   }
-  },
-  {
-   "id": 138,
-   "name": "Valentina Montenegro",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Así formó Colombia: Valentina Montenegro",
-     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "female",
-   "score": 7,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/",
-     "seen": "2026-07-19T04:04:37.790338"
-    },
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/montenegro-valentina/IDxKQXI7/injury-history/",
-     "seen": "2026-08-31T08:50:48.742491"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-31T08:50:48.742491",
-   "last_seen": "2026-08-31T08:50:48.742491",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-15 (giugno 2026).",
@@ -40692,6 +40693,104 @@
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-02T04:56:55.584928",
    "last_seen": "2026-09-02T04:56:55.584928",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 383,
+   "name": "Adam Abbas",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "The Daily Star — Football",
+     "tipo": "national_press",
+     "citazione": "Adam Abbas joins U-20 camp",
+     "url": "https://www.thedailystar.net/sports/football/news/adam-abbas-joins-u-20-camp-wahid-moves-boreham-wood-4243081"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Bangladesh",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "thedailystar.net",
+     "url": "https://www.thedailystar.net/sports/football/news/adam-abbas-joins-u-20-camp-wahid-moves-boreham-wood-4243081",
+     "seen": "2026-09-03T11:35:15.589259"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-03T11:35:15.589259",
+   "last_seen": "2026-09-03T11:35:15.589259",
    "selezione": {},
    "anomalie": [],
    "assessment": {
