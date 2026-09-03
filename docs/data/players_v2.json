@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-03T16:54:04.577892+00:00",
+ "generated_at": "2026-09-03T21:28:41.082632+00:00",
  "version": "1.0.0",
- "build": "a15c180",
- "total": 387,
- "publishable": 201,
- "tracking": 186,
- "shown": 387,
+ "build": "f2e9d53",
+ "total": 390,
+ "publishable": 203,
+ "tracking": 187,
+ "shown": 390,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -7334,6 +7334,154 @@
     "next_steps_en": [
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "id": 388,
+   "name": "Desmond Korlettey",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Ghana Football Association",
+     "tipo": "federation",
+     "citazione": "MTN Elite U19: Desmond Korlettey makes it four as Central Region captain inspires bronze medal finish",
+     "url": "https://www.ghanafa.org/mtn-elite-u19-desmond-korlettey-makes-it-four-as-central-region-captain-inspires-bronze-medal-finish"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Ghana Football Association",
+     "tipo": "federation",
+     "citazione": "MTN Elite U19: Desmond Korlettey makes it four as Central Region captain inspires bronze medal finish",
+     "url": "https://www.ghanafa.org/mtn-elite-u19-desmond-korlettey-makes-it-four-as-central-region-captain-inspires-bronze-medal-finish"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Central Region",
+   "league": "MTN Elite U19",
+   "region": "Ghana",
+   "gender": "male",
+   "score": 16,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 8.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "ghanafa.org",
+     "url": "https://www.ghanafa.org/mtn-elite-u19-desmond-korlettey-makes-it-four-as-central-region-captain-inspires-bronze-medal-finish",
+     "seen": "2026-09-03T21:15:16.372475"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 2
+   },
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-03T21:15:16.372475",
+   "last_seen": "2026-09-03T21:15:16.372475",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Ghana Football Association, Sub-19.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-19"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-19",
+      "fonte": "Ghana Football Association",
+      "url": "https://www.ghanafa.org/mtn-elite-u-19-central-region-claim-bronze-as-desmond-korlettey-double-sinks-brong-ahafo"
+     },
+     {
+      "data": "",
+      "categoria": "sub-19",
+      "fonte": "Ghana Football Association",
+      "url": "https://www.ghanafa.org/mtn-elite-u19-desmond-korlettey-makes-it-four-as-central-region-captain-inspires-bronze-medal-finish"
+     }
+    ],
+    "fonte": "Ghana Football Association",
+    "frase_en": "Called up 2 times by Ghana Football Association, U19."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Ghana Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Ghana Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://www.ghanafa.org/mtn-elite-u-19-central-region-claim-bronze-as-desmond-korlettey-double-sinks-brong-ahafo",
+      "https://www.ghanafa.org/mtn-elite-u19-desmond-korlettey-makes-it-four-as-central-region-captain-inspires-bronze-medal-finish"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 2 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Ghana Football Association"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Documented output: 2 goals",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Ghana Football Association"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
      "Request video or schedule a live viewing"
     ]
    }
@@ -25134,6 +25282,113 @@
    }
   },
   {
+   "id": 386,
+   "name": "Ibrahim Diarra",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "CAF — Confederation of African Football",
+     "tipo": "confederation",
+     "citazione": "In 2023, the West African nation made a major statement by clinching third place in Indonesia, a campaign highlighted by Ibrahim Diarra winning the Silver Boot",
+     "url": "https://www.cafonline.com/caf-u-17-africa-cup-of-nations/news/u17-world-cup-mali-s-academy-formula-fuels-another-charge-for-glory/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Ibrahim Diarra, 19 anni, FC Barcelona Atlètic",
+     "url": "https://www.transfermarkt.us/ibrahim-diarra/profil/spieler/1132629"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Ibrahim Diarra, 19 anni, FC Barcelona Atlètic",
+     "url": "https://www.transfermarkt.us/ibrahim-diarra/profil/spieler/1132629"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Right Winger",
+   "club": "FC Barcelona Atlètic",
+   "league": null,
+   "region": "Africa",
+   "gender": "male",
+   "score": 0,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": -20.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "cafonline.com",
+     "url": "https://www.cafonline.com/caf-u-17-africa-cup-of-nations/news/u17-world-cup-mali-s-academy-formula-fuels-another-charge-for-glory/",
+     "seen": "2026-09-03T16:38:07.305830"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/ibrahim-diarra/profil/spieler/1132629",
+     "seen": "2026-09-03T21:15:16.372475"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato,club_satellite_di_gigante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-03T16:38:07.305830",
+   "last_seen": "2026-09-03T21:15:16.372475",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "'FC Barcelona Atlètic' porta il nome di FC Barcelona: più visibile di un club satellite qualunque per il nome da solo",
+     "Nessuna statistica di rendimento documentata",
+     "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (19 yo)",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "'FC Barcelona Atlètic' carries FC Barcelona's name: more visible than an ordinary satellite club on the name alone",
+     "No documented performance stats",
+     "High-visibility club/league: low asymmetry, competition likely"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "id": 85,
    "name": "José Rafael Escor",
    "age": null,
@@ -29548,7 +29803,7 @@
     "asymmetry": -20.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 2,
    "sources": [
@@ -29570,7 +29825,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-03T16:38:07.305830",
+   "last_seen": "2026-09-03T21:15:16.372475",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -29598,7 +29853,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -29611,7 +29866,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "2 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -29845,6 +30100,104 @@
      "High-visibility club/league: low asymmetry, competition likely"
     ],
     "next_steps_en": []
+   }
+  },
+  {
+   "id": 390,
+   "name": "Eli Junior Kroupi",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 20 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "attaccante",
+   "club": "Bournemouth",
+   "league": "Premier League",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 0,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": -20.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "trivela.com.br",
+     "url": "https://trivela.com.br/inglaterra/arsenal-prepara-oferta-milionaria-sensacao-bournemouth-frustracoes-mercado/",
+     "seen": "2026-09-03T21:15:16.372475"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-03T21:15:16.372475",
+   "last_seen": "2026-09-03T21:15:16.372475",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
    }
   },
   {
@@ -41023,104 +41376,6 @@
    }
   },
   {
-   "id": 386,
-   "name": "Ibrahim Diarra",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "CAF — Confederation of African Football",
-     "tipo": "confederation",
-     "citazione": "In 2023, the West African nation made a major statement by clinching third place in Indonesia, a campaign highlighted by Ibrahim Diarra winning the Silver Boot",
-     "url": "https://www.cafonline.com/caf-u-17-africa-cup-of-nations/news/u17-world-cup-mali-s-academy-formula-fuels-another-charge-for-glory/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Africa",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "cafonline.com",
-     "url": "https://www.cafonline.com/caf-u-17-africa-cup-of-nations/news/u17-world-cup-mali-s-academy-formula-fuels-another-charge-for-glory/",
-     "seen": "2026-09-03T16:38:07.305830"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-03T16:38:07.305830",
-   "last_seen": "2026-09-03T16:38:07.305830",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "id": 387,
    "name": "Hamidou Makalou",
    "age": null,
@@ -44811,6 +45066,108 @@
    "coverage_tier": "standard",
    "first_detected": "2026-07-10T14:26:51.362879",
    "last_seen": "2026-07-10T14:26:51.362879",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Risolvere l'identità: serve un nome completo verificabile",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Resolve the identity: needs a verifiable full name",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 389,
+   "name": "Fred",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "ge.globo (Globo Esporte)",
+     "tipo": "national_press",
+     "citazione": "Fred impressiona nos primeiros dias de trabalho com o sub-20 do Flu",
+     "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/08/14/inicio-de-fred-no-sub-20-do-fluminense-tem-estilo-ofensivo-treinos-intensos-e-boa-impressao.ghtml"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Fluminense",
+   "league": "Sub-20",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "ge.globo.com",
+     "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/08/14/inicio-de-fred-no-sub-20-do-fluminense-tem-estilo-ofensivo-treinos-intensos-e-boa-impressao.ghtml",
+     "seen": "2026-09-03T21:15:16.372475"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "nome_singolo,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-03T21:15:16.372475",
+   "last_seen": "2026-09-03T21:15:16.372475",
    "selezione": {},
    "anomalie": [],
    "assessment": {
