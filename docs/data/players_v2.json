@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-03T21:28:41.082632+00:00",
+ "generated_at": "2026-09-04T05:19:37.154117+00:00",
  "version": "1.0.0",
- "build": "f2e9d53",
- "total": 390,
- "publishable": 203,
- "tracking": 187,
- "shown": 390,
+ "build": "9b1607d",
+ "total": 393,
+ "publishable": 204,
+ "tracking": 189,
+ "shown": 393,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -25389,6 +25389,111 @@
    }
   },
   {
+   "id": 390,
+   "name": "Eli Junior Kroupi",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 20 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Soccerway",
+     "tipo": "aggregator",
+     "citazione": "Eli Junior Kroupi (Bournemouth) Stats",
+     "url": "https://www.soccerway.com/player/kroupi-eli-junior/fHMXip22/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Soccerway",
+     "tipo": "aggregator",
+     "citazione": "Eli Junior Kroupi (Bournemouth) Stats",
+     "url": "https://www.soccerway.com/player/kroupi-eli-junior/fHMXip22/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "attaccante",
+   "club": "Bournemouth",
+   "league": "Premier League",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 0,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": -20.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "trivela.com.br",
+     "url": "https://trivela.com.br/inglaterra/arsenal-prepara-oferta-milionaria-sensacao-bournemouth-frustracoes-mercado/",
+     "seen": "2026-09-03T21:15:16.372475"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/kroupi-eli-junior/fHMXip22/",
+     "seen": "2026-09-04T04:58:22.850852"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-03T21:15:16.372475",
+   "last_seen": "2026-09-04T04:58:22.850852",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Nome e club scritti da Soccerway",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Name and club stated by Soccerway",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed",
+     "High-visibility club/league: low asymmetry, competition likely"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
    "id": 85,
    "name": "José Rafael Escor",
    "age": null,
@@ -25801,6 +25906,108 @@
      "Look for a primary press/federation source to bring it to the full standard",
      "Get performance stats (match reports)"
     ]
+   }
+  },
+  {
+   "id": 366,
+   "name": "Jayroll Patty",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "a pinpoint pass in-behind the opposition defence from captain Jayroll Patty",
+     "url": "https://www.oceaniafootball.com/solomon-islands-and-new-caledonia-enter-winners-circle-on-first-day-at-ofc-u-19-mens-championship/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Jayroll Patty, 19 anni, Solomon Kings FC",
+     "url": "https://www.transfermarkt.us/jayroll-patty/profil/spieler/1284538"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defender",
+   "club": "Solomon Islands U-19 national team",
+   "league": "OFC U-19 Men's Championship 2026",
+   "region": "Solomon Islands",
+   "gender": "male",
+   "score": 22,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 15.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/solomon-islands-and-new-caledonia-enter-winners-circle-on-first-day-at-ofc-u-19-mens-championship/",
+     "seen": "2026-09-01T16:50:33.171492"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/jayroll-patty/profil/spieler/1284538",
+     "seen": "2026-09-01T21:14:30.444821"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 3,
+    "assists": 1,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-01T16:50:33.171492",
+   "last_seen": "2026-09-04T04:58:22.850852",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Produzione documentata: 3 gol e 1 assist in 1 presenze",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo"
+    ],
+    "next_steps": [],
+    "pros_en": [
+     "Young (19 yo)",
+     "Documented output: 3 goals and 1 assists in 1 appearances",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it"
+    ],
+    "next_steps_en": []
    }
   },
   {
@@ -27691,108 +27898,6 @@
      "Look for a primary press/federation source to bring it to the full standard",
      "Get performance stats (match reports)"
     ]
-   }
-  },
-  {
-   "id": 366,
-   "name": "Jayroll Patty",
-   "age": 19,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "a pinpoint pass in-behind the opposition defence from captain Jayroll Patty",
-     "url": "https://www.oceaniafootball.com/solomon-islands-and-new-caledonia-enter-winners-circle-on-first-day-at-ofc-u-19-mens-championship/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Jayroll Patty, 19 anni, Solomon Kings FC",
-     "url": "https://www.transfermarkt.us/jayroll-patty/profil/spieler/1284538"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Defender",
-   "club": "Solomon Islands U-19 national team",
-   "league": "OFC U-19 Men's Championship 2026",
-   "region": "Solomon Islands",
-   "gender": "male",
-   "score": 11,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 3.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/solomon-islands-and-new-caledonia-enter-winners-circle-on-first-day-at-ofc-u-19-mens-championship/",
-     "seen": "2026-09-01T16:50:33.171492"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/jayroll-patty/profil/spieler/1284538",
-     "seen": "2026-09-01T21:14:30.444821"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 1,
-    "apps": 1,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-01T16:50:33.171492",
-   "last_seen": "2026-09-01T21:14:30.444821",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Giovane (19 anni)",
-     "Produzione documentata: 1 assist in 1 presenze",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo"
-    ],
-    "next_steps": [],
-    "pros_en": [
-     "Young (19 yo)",
-     "Documented output: 1 assists in 1 appearances",
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it"
-    ],
-    "next_steps_en": []
    }
   },
   {
@@ -30100,104 +30205,6 @@
      "High-visibility club/league: low asymmetry, competition likely"
     ],
     "next_steps_en": []
-   }
-  },
-  {
-   "id": 390,
-   "name": "Eli Junior Kroupi",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 20 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "attaccante",
-   "club": "Bournemouth",
-   "league": "Premier League",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 0,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 4.0,
-    "production": 0.0,
-    "asymmetry": -20.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "trivela.com.br",
-     "url": "https://trivela.com.br/inglaterra/arsenal-prepara-oferta-milionaria-sensacao-bournemouth-frustracoes-mercado/",
-     "seen": "2026-09-03T21:15:16.372475"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-03T21:15:16.372475",
-   "last_seen": "2026-09-03T21:15:16.372475",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
    }
   },
   {
@@ -34514,6 +34521,128 @@
    }
   },
   {
+   "id": 393,
+   "name": "Sintia Cabezas",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "«Nosotras saldremos a jugar por los tres puntos»: Sintia Cabezas, Selección Colombia Femenina Sub-20",
+     "url": "https://fcf.com.co/2026/09/03/nosotras-saldremos-a-jugar-por-los-tres-puntos-sintia-cabezas-seleccion-colombia-femenina-sub-20/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": "Selección Colombia Femenina Sub-20",
+   "region": "Colombia",
+   "gender": "female",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/09/03/nosotras-saldremos-a-jugar-por-los-tres-puntos-sintia-cabezas-seleccion-colombia-femenina-sub-20/",
+     "seen": "2026-09-04T04:58:22.850852"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-04T04:58:22.850852",
+   "last_seen": "2026-09-04T04:58:22.850852",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (settembre 2026).",
+    "dal": "2026-09-03",
+    "al": "2026-09-03",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-09-03",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/03/nosotras-saldremos-a-jugar-por-los-tres-puntos-sintia-cabezas-seleccion-colombia-femenina-sub-20/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "id": 125,
    "name": "Maureen Kenneth",
    "age": null,
@@ -34896,6 +35025,108 @@
     "next_steps_en": [
      "Verify the current club",
      "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "id": 392,
+   "name": "Maurice Katrawa",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "A superbly flighted corner from Maurice Katrawa two minutes before half-time",
+     "url": "https://www.oceaniafootball.com/solomon-islands-progress-png-keep-hopes-alive/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "New Caledonia",
+   "league": "OFC Men's Under-19 Championships",
+   "region": "New Caledonia",
+   "gender": "male",
+   "score": 7,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 2.5,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/solomon-islands-progress-png-keep-hopes-alive/",
+     "seen": "2026-09-04T04:58:22.850852"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "assists": 1
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-04T04:58:22.850852",
+   "last_seen": "2026-09-04T04:58:22.850852",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 assist",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 assists",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
@@ -36144,6 +36375,108 @@
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-02T04:56:55.584928",
    "last_seen": "2026-09-02T04:56:55.584928",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 391,
+   "name": "Kyllian Wiako",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "Kyllian Wiako, unhappy with the treatment he received in the tackle, was dismissed for retaliation",
+     "url": "https://www.oceaniafootball.com/solomon-islands-progress-png-keep-hopes-alive/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "New Caledonia",
+   "league": "OFC Men's Under-19 Championships",
+   "region": "New Caledonia",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/solomon-islands-progress-png-keep-hopes-alive/",
+     "seen": "2026-09-04T04:58:22.850852"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-04T04:58:22.850852",
+   "last_seen": "2026-09-04T04:58:22.850852",
    "selezione": {},
    "anomalie": [],
    "assessment": {
