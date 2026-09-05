@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-04T21:25:15.596030+00:00",
+ "generated_at": "2026-09-05T05:12:40.078133+00:00",
  "version": "1.0.0",
- "build": "e146071",
- "total": 399,
+ "build": "2587b34",
+ "total": 402,
  "publishable": 204,
- "tracking": 195,
- "shown": 399,
+ "tracking": 198,
+ "shown": 402,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -6292,6 +6292,110 @@
    }
   },
   {
+   "id": 373,
+   "name": "Harley Hill",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "Harley Hill and Jayden Smith added to the New Zealand tally in the first half, deciding the outcome of the contest inside 45 minutes.",
+     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Harley Hill, 18 anni, Auckland FC Reserves",
+     "url": "https://www.transfermarkt.com/harley-hill/profil/spieler/1289281"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Harley Hill, 18 anni, Auckland FC Reserves",
+     "url": "https://www.transfermarkt.com/harley-hill/profil/spieler/1289281"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Centre-Forward",
+   "club": "Auckland FC Reserves",
+   "league": "OFC U-19 Men's Championship 2026",
+   "region": "Pacific Islands",
+   "gender": "male",
+   "score": 17,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/",
+     "seen": "2026-09-02T04:56:55.584928"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/harley-hill/profil/spieler/1289281",
+     "seen": "2026-09-02T11:36:47.125772"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-02T04:56:55.584928",
+   "last_seen": "2026-09-05T04:51:08.752162",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt"
+    ],
+    "cautions": [],
+    "next_steps": [
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt"
+    ],
+    "cautions_en": [],
+    "next_steps_en": [
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "id": 374,
    "name": "Van Fitzharris",
    "age": 18,
@@ -10018,110 +10122,6 @@
     ],
     "next_steps_en": [
      "Get performance stats (match reports)",
-     "Request video or schedule a live viewing",
-     "Call the club: confirm identity and contract status"
-    ]
-   }
-  },
-  {
-   "id": 373,
-   "name": "Harley Hill",
-   "age": 18,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "Harley Hill and Jayden Smith added to the New Zealand tally in the first half, deciding the outcome of the contest inside 45 minutes.",
-     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Harley Hill, 18 anni, Auckland FC Reserves",
-     "url": "https://www.transfermarkt.com/harley-hill/profil/spieler/1289281"
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Harley Hill, 18 anni, Auckland FC Reserves",
-     "url": "https://www.transfermarkt.com/harley-hill/profil/spieler/1289281"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Centre-Forward",
-   "club": "Auckland FC Reserves",
-   "league": null,
-   "region": "Pacific Islands",
-   "gender": "male",
-   "score": 14,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 4.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/new-zealand-and-fiji-open-group-b-with-big-victories/",
-     "seen": "2026-09-02T04:56:55.584928"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/harley-hill/profil/spieler/1289281",
-     "seen": "2026-09-02T11:36:47.125772"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-02T04:56:55.584928",
-   "last_seen": "2026-09-02T11:36:47.125772",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Giovane (18 anni)",
-     "Produzione documentata: 1 gol",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Transfermarkt"
-    ],
-    "cautions": [],
-    "next_steps": [
-     "Richiedere video o programmare una visione diretta",
-     "Telefonata al club: conferma anagrafica e status contrattuale"
-    ],
-    "pros_en": [
-     "Young (18 yo)",
-     "Documented output: 1 goals",
-     "Minor context: potentially underpriced",
-     "Name and club stated by Transfermarkt"
-    ],
-    "cautions_en": [],
-    "next_steps_en": [
      "Request video or schedule a live viewing",
      "Call the club: confirm identity and contract status"
     ]
@@ -27345,6 +27345,105 @@
    }
   },
   {
+   "id": 400,
+   "name": "Bailey Ferguson",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "half-time substitute Bailey Ferguson pouncing on a rebound inside the penalty box",
+     "url": "https://www.oceaniafootball.com/defending-champions-advance-after-second-matchday-in-group-b/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Bailey Kendall Ferguson, 18 anni, Without Club",
+     "url": "https://www.transfermarkt.us/bailey-ferguson/profil/spieler/1490070"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Right Winger",
+   "club": "New Zealand (Junior All Whites)",
+   "league": "OFC U-19 Men's Championship 2026",
+   "region": "Pacific Islands",
+   "gender": "male",
+   "score": 14,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/defending-champions-advance-after-second-matchday-in-group-b/",
+     "seen": "2026-09-05T04:51:08.752162"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/bailey-ferguson/profil/spieler/1490070",
+     "seen": "2026-09-05T04:51:08.752162"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 1
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-05T04:51:08.752162",
+   "last_seen": "2026-09-05T04:51:08.752162",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo"
+    ],
+    "next_steps": [],
+    "pros_en": [
+     "Young (18 yo)",
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it"
+    ],
+    "next_steps_en": []
+   }
+  },
+  {
    "id": 59,
    "name": "Yastin Cuevas",
    "age": null,
@@ -27841,7 +27940,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 3,
    "sources": [
@@ -27873,14 +27972,14 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-03-01T19:00:00.487652",
-   "last_seen": "2026-09-02T04:56:55.584928",
+   "last_seen": "2026-09-05T04:51:08.752162",
    "selezione": {},
    "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -27892,7 +27991,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -35223,6 +35322,128 @@
    }
   },
   {
+   "id": 402,
+   "name": "Brenda Cardona",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Brenda Cardona, Selección Colombia Femenina Sub-20",
+     "url": "https://fcf.com.co/2026/09/04/tenemos-la-energia-al-100-y-con-toda-la-actitud-para-el-debut-brenda-cardona-seleccion-colombia-femenina-sub-20/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": "Selección Colombia Femenina Sub-20",
+   "region": "Colombia",
+   "gender": "female",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/09/04/tenemos-la-energia-al-100-y-con-toda-la-actitud-para-el-debut-brenda-cardona-seleccion-colombia-femenina-sub-20/",
+     "seen": "2026-09-05T04:51:08.752162"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-05T04:51:08.752162",
+   "last_seen": "2026-09-05T04:51:08.752162",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (settembre 2026).",
+    "dal": "2026-09-04",
+    "al": "2026-09-04",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-09-04",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/04/tenemos-la-energia-al-100-y-con-toda-la-actitud-para-el-debut-brenda-cardona-seleccion-colombia-femenina-sub-20/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "id": 125,
    "name": "Maureen Kenneth",
    "age": null,
@@ -36853,6 +37074,108 @@
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-02T04:56:55.584928",
    "last_seen": "2026-09-02T04:56:55.584928",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 401,
+   "name": "Aaron Cartwright",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "an impressive run down the right from player of the match Aaron Cartwright",
+     "url": "https://www.oceaniafootball.com/defending-champions-advance-after-second-matchday-in-group-b/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "New Zealand (Junior All Whites)",
+   "league": "OFC U-19 Men's Championship 2026",
+   "region": "Pacific Islands",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/defending-champions-advance-after-second-matchday-in-group-b/",
+     "seen": "2026-09-05T04:51:08.752162"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-05T04:51:08.752162",
+   "last_seen": "2026-09-05T04:51:08.752162",
    "selezione": {},
    "anomalie": [],
    "assessment": {
