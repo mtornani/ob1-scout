@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-05T11:16:53.786106+00:00",
+ "generated_at": "2026-09-05T15:50:15.521052+00:00",
  "version": "1.0.0",
- "build": "890cd39",
+ "build": "11ad60e",
  "total": 402,
  "publishable": 204,
  "tracking": 198,
@@ -28942,7 +28942,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 2,
    "sources": [
@@ -28969,14 +28969,14 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-08-21T13:26:54.585139",
-   "last_seen": "2026-09-02T16:47:49.909957",
+   "last_seen": "2026-09-05T15:28:07.276981",
    "selezione": {},
    "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -28988,7 +28988,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -32787,7 +32787,7 @@
     "asymmetry": 0.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 2,
    "sources": [
@@ -32814,7 +32814,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-08-23T07:11:16.983089",
-   "last_seen": "2026-09-02T16:47:49.909957",
+   "last_seen": "2026-09-05T15:28:07.276981",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-15 (giugno 2026).",
@@ -32840,7 +32840,8 @@
    "assessment": {
     "pros": [
      "Continuità documentata: 1 presenze",
-     "2 domini distinti lo nominano"
+     "2 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -32853,7 +32854,8 @@
     ],
     "pros_en": [
      "Documented continuity: 1 appearances",
-     "2 distinct domains mention him"
+     "2 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
