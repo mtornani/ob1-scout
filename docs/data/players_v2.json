@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-06T16:01:57.105695+00:00",
+ "generated_at": "2026-09-06T21:20:31.037797+00:00",
  "version": "1.0.0",
- "build": "01f67e6",
- "total": 413,
- "publishable": 212,
+ "build": "d1b61bb",
+ "total": 414,
+ "publishable": 213,
  "tracking": 201,
- "shown": 413,
+ "shown": 414,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -16646,6 +16646,131 @@
    }
   },
   {
+   "id": 393,
+   "name": "Sintia Cabezas",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "«Nosotras saldremos a jugar por los tres puntos»: Sintia Cabezas, Selección Colombia Femenina Sub-20",
+     "url": "https://fcf.com.co/2026/09/03/nosotras-saldremos-a-jugar-por-los-tres-puntos-sintia-cabezas-seleccion-colombia-femenina-sub-20/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Soccerway",
+     "tipo": "aggregator",
+     "citazione": "Sintia Cabezas (Marseille) Stats",
+     "url": "https://www.soccerway.com/player/cabezas-sintia/lzW35br2/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Marseille",
+   "league": "Selección Colombia Femenina Sub-20",
+   "region": "Colombia",
+   "gender": "female",
+   "score": 11,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/09/03/nosotras-saldremos-a-jugar-por-los-tres-puntos-sintia-cabezas-seleccion-colombia-femenina-sub-20/",
+     "seen": "2026-09-04T04:58:22.850852"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/cabezas-sintia/lzW35br2/",
+     "seen": "2026-09-06T20:42:15.699513"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-04T04:58:22.850852",
+   "last_seen": "2026-09-06T20:42:15.699513",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (settembre 2026).",
+    "dal": "2026-09-03",
+    "al": "2026-09-03",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-09-03",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/03/nosotras-saldremos-a-jugar-por-los-tres-puntos-sintia-cabezas-seleccion-colombia-femenina-sub-20/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Soccerway",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Soccerway",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
    "id": 211,
    "name": "Simón García",
    "age": 21,
@@ -31490,7 +31615,7 @@
     "asymmetry": -20.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 2,
    "sources": [
@@ -31512,7 +31637,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-06T20:42:15.699513",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -31540,7 +31665,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -31553,7 +31678,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "2 distinct domains mention him",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -36313,128 +36438,6 @@
       "categoria": "sub-20",
       "fonte": "Federación Colombiana de Fútbol",
       "url": "https://fcf.com.co/2026/08/31/luisa-agudelo-se-integra-a-la-seleccion-colombia-femenina-sub-20/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 393,
-   "name": "Sintia Cabezas",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "«Nosotras saldremos a jugar por los tres puntos»: Sintia Cabezas, Selección Colombia Femenina Sub-20",
-     "url": "https://fcf.com.co/2026/09/03/nosotras-saldremos-a-jugar-por-los-tres-puntos-sintia-cabezas-seleccion-colombia-femenina-sub-20/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": "Selección Colombia Femenina Sub-20",
-   "region": "Colombia",
-   "gender": "female",
-   "score": 8,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/09/03/nosotras-saldremos-a-jugar-por-los-tres-puntos-sintia-cabezas-seleccion-colombia-femenina-sub-20/",
-     "seen": "2026-09-04T04:58:22.850852"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-04T04:58:22.850852",
-   "last_seen": "2026-09-04T04:58:22.850852",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (settembre 2026).",
-    "dal": "2026-09-03",
-    "al": "2026-09-03",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-09-03",
-      "categoria": "sub-20",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/09/03/nosotras-saldremos-a-jugar-por-los-tres-puntos-sintia-cabezas-seleccion-colombia-femenina-sub-20/"
      }
     ],
     "fonte": "Federación Colombiana de Fútbol",
@@ -44330,6 +44333,109 @@
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-06T11:15:56.449367",
    "last_seen": "2026-09-06T11:15:56.449367",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 414,
+   "name": "Brooke Neary",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "goalkeeper Brooke Neary who had been outstanding throughout was adjudged to have brought down a Japanese attacker",
+     "url": "https://www.oceaniafootball.com/late-penalty-sinks-brave-junior-football-ferns-in-fifa-u-20-womens-world-cup-opener/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "goalkeeper",
+   "club": null,
+   "league": null,
+   "region": "Pacific Islands",
+   "gender": "female",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/late-penalty-sinks-brave-junior-football-ferns-in-fifa-u-20-womens-world-cup-opener/",
+     "seen": "2026-09-06T20:42:15.699513"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-06T20:42:15.699513",
+   "last_seen": "2026-09-06T20:42:15.699513",
    "selezione": {},
    "anomalie": [],
    "assessment": {
