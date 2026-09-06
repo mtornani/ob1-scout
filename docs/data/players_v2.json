@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-06T11:39:39.001369+00:00",
+ "generated_at": "2026-09-06T16:01:57.105695+00:00",
  "version": "1.0.0",
- "build": "bcbaa9f",
- "total": 405,
- "publishable": 204,
+ "build": "01f67e6",
+ "total": 413,
+ "publishable": 212,
  "tracking": 201,
- "shown": 405,
+ "shown": 413,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -2347,6 +2347,180 @@
    }
   },
   {
+   "id": 105,
+   "name": "Edmilson Yosue Herazo Torres",
+   "age": 17,
+   "age_stato": "dedotto",
+   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Edmilson Yosue Herazo Torres – Barranquilla F.C",
+     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Edmilson Yosue Herazo Torres – Barranquilla F.C",
+     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
+    },
+    "eta": {
+     "stato": "dedotto",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Barranquilla F.C",
+   "league": "Selección Colombia Masculina Sub-19",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 28,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 27.0,
+    "n_sources": 1,
+    "detection_count": 5
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dedotto,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-06T15:40:50.095365",
+   "last_seen": "2026-09-06T15:40:50.095365",
+   "selezione": {
+    "quante": 5,
+    "frase": "Convocato 5 volte da Federación Colombiana de Fútbol tra settembre 2024 e settembre 2026, dal Sub-17 al Sub-19.",
+    "dal": "2024-09-17",
+    "al": "2026-09-06",
+    "categorie": [
+     "sub-17",
+     "sub-19"
+    ],
+    "progressione": true,
+    "mesi_di_arco": 24,
+    "eventi": [
+     {
+      "data": "2024-09-17",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/"
+     },
+     {
+      "data": "2025-01-14",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
+     },
+     {
+      "data": "2025-02-06",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
+     },
+     {
+      "data": "2026-07-27",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+     },
+     {
+      "data": "2026-09-06",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 5 times by Federación Colombiana de Fútbol between September 2024 and September 2026, from U17 to U19."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "5 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "5 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
+      "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+      "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
+      "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+     ],
+     "dati": {
+      "convocazioni": 5,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "L'età (17) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-17)",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The age (17) is not stated by any source: it is inferred from the tournament category (U-17)",
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
    "id": 101,
    "name": "Cristian David Flórez Palacios",
    "age": 17,
@@ -3138,174 +3312,6 @@
    }
   },
   {
-   "id": 105,
-   "name": "Edmilson Yosue Herazo Torres",
-   "age": 17,
-   "age_stato": "dedotto",
-   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Edmilson Yosue Herazo Torres – Barranquilla F.C",
-     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Edmilson Yosue Herazo Torres – Barranquilla F.C",
-     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
-    },
-    "eta": {
-     "stato": "dedotto",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Barranquilla F.C",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 26,
-   "confidence": 0.55,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 25.0,
-    "n_sources": 1,
-    "detection_count": 4
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
-     "seen": "2026-07-18T08:21:52.280337"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": true,
-   "review_flags": "fonte_singola,eta_dedotto,club_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {
-    "quante": 4,
-    "frase": "Convocato 4 volte da Federación Colombiana de Fútbol tra settembre 2024 e luglio 2026, dal Sub-17 al Sub-19.",
-    "dal": "2024-09-17",
-    "al": "2026-07-27",
-    "categorie": [
-     "sub-17",
-     "sub-19"
-    ],
-    "progressione": true,
-    "mesi_di_arco": 22,
-    "eventi": [
-     {
-      "data": "2024-09-17",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/"
-     },
-     {
-      "data": "2025-01-14",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
-     },
-     {
-      "data": "2025-02-06",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
-     },
-     {
-      "data": "2026-07-27",
-      "categoria": "sub-19",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 4 times by Federación Colombiana de Fútbol between September 2024 and July 2026, from U17 to U19."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "4 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "4 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
-      "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
-      "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/",
-      "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-     ],
-     "dati": {
-      "convocazioni": 4,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Federación Colombiana de Fútbol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "L'età (17) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-17)",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)",
-     "Richiedere video o programmare una visione diretta"
-    ],
-    "pros_en": [
-     "Very young (17 yo): plenty of room to develop",
-     "Minor context: potentially underpriced",
-     "Name and club stated by Federación Colombiana de Fútbol"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The age (17) is not stated by any source: it is inferred from the tournament category (U-17)",
-     "Single source: not yet corroborated",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)",
-     "Request video or schedule a live viewing"
-    ]
-   }
-  },
-  {
    "id": 104,
    "name": "Darwin Daez Torres Redondo",
    "age": 17,
@@ -4016,6 +4022,471 @@
      "Get performance stats (match reports)",
      "Request video or schedule a live viewing",
      "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 200,
+   "name": "Carlos Mario Pérez Cueto",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Carlos Mario Pérez Cueto – Junior F.C",
+     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Carlos Mario Pérez Cueto – Junior F.C",
+     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Junior F.C",
+   "league": "Selección Colombia Masculina Sub-19",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 20,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
+     "seen": "2026-07-31T04:02:04.097438"
+    },
+    {
+     "domain": "transfermarkt.co.uk",
+     "url": "https://www.transfermarkt.co.uk/carlos-perez/profil/spieler/1377973",
+     "seen": "2026-08-22T01:58:37.132698"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-22T01:58:37.132698",
+   "last_seen": "2026-09-06T15:40:50.095365",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra luglio 2026 e settembre 2026, Sub-19.",
+    "dal": "2026-07-27",
+    "al": "2026-09-06",
+    "categorie": [
+     "sub-19"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 2,
+    "eventi": [
+     {
+      "data": "2026-07-27",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+     },
+     {
+      "data": "2026-09-06",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between July 2026 and September 2026, U19."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
+      "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "id": 202,
+   "name": "Daniel David Socarras Villamil",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Daniel David Socarras Villamil – Junior F.C",
+     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Daniel David Socarras Villamil – Junior F.C",
+     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Junior F.C",
+   "league": "Selección Colombia Masculina Sub-19",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 20,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
+     "seen": "2026-07-31T04:02:04.097438"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/daniel-socarras/profil/spieler/1408636",
+     "seen": "2026-08-01T08:41:41.920525"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-06T15:40:50.095365",
+   "last_seen": "2026-09-06T15:40:50.095365",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra luglio 2026 e settembre 2026, Sub-19.",
+    "dal": "2026-07-27",
+    "al": "2026-09-06",
+    "categorie": [
+     "sub-19"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 2,
+    "eventi": [
+     {
+      "data": "2026-07-27",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+     },
+     {
+      "data": "2026-09-06",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between July 2026 and September 2026, U19."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
+      "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "id": 204,
+   "name": "Camilo Amú",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Camilo Amú – América de Cali",
+     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Camilo Amú – América de Cali",
+     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "América de Cali",
+   "league": "Selección Colombia Masculina Sub-19",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 20,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
+     "seen": "2026-07-31T04:02:04.097438"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/camilo-amu/profil/spieler/1420781",
+     "seen": "2026-08-03T04:07:20.536590"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-06T15:40:50.095365",
+   "last_seen": "2026-09-06T15:40:50.095365",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra luglio 2026 e settembre 2026, Sub-19.",
+    "dal": "2026-07-27",
+    "al": "2026-09-06",
+    "categorie": [
+     "sub-19"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 2,
+    "eventi": [
+     {
+      "data": "2026-07-27",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+     },
+     {
+      "data": "2026-09-06",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between July 2026 and September 2026, U19."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
+      "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
     ]
    }
   },
@@ -6498,6 +6969,176 @@
     "next_steps_en": [
      "Request video or schedule a live viewing",
      "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 143,
+   "name": "Yeiler Mosquera Caicedo",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Yeiler Mosquera Caicedo – Atl. Nacional- Div Inferiores",
+     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Yeiler Mosquera Caicedo – Atl. Nacional- Div Inferiores",
+     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Atl. Nacional",
+   "league": "Selección Colombia Masculina Sub-19",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 16,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 22.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+     "seen": "2026-07-19T08:56:55.551442"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-06T15:40:50.095365",
+   "last_seen": "2026-09-06T15:40:50.095365",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra febbraio 2025 e settembre 2026, dal Sub-16 al Sub-19.",
+    "dal": "2025-02-17",
+    "al": "2026-09-06",
+    "categorie": [
+     "sub-16",
+     "sub-19"
+    ],
+    "progressione": true,
+    "mesi_di_arco": 19,
+    "eventi": [
+     {
+      "data": "2025-02-17",
+      "categoria": "sub-16",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+     },
+     {
+      "data": "2026-09-06",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between February 2025 and September 2026, from U16 to U19."
+   },
+   "anomalie": [
+    {
+     "codice": "salto_categoria",
+     "titolo": "Ha saltato una categoria",
+     "frase": "Da Sub-16 (febbraio 2025) a Sub-19 (settembre 2026) senza passare da Sub-17, che la stessa federazione convoca.",
+     "frase_en": "From U16 (February 2025) to U19 (September 2026) without passing through U17, which the same federation does call up.",
+     "forza": "forte",
+     "prove": [
+      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     ],
+     "dati": {
+      "saltate": [
+       17
+      ],
+      "da": "sub-16",
+      "a": "sub-19"
+     }
+    },
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
     ]
    }
   },
@@ -10162,6 +10803,153 @@
    }
   },
   {
+   "id": 351,
+   "name": "Juan David Aponzá González",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Juan David Aponzá González​​ – América De Cali (Cat. Formación)",
+     "url": "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Juan David Aponzá González​​ – América De Cali (Cat. Formación)",
+     "url": "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "América De Cali (Cat. Formación)",
+   "league": "Selección Colombia Masculina Sub-19",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 14,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 17.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
+     "seen": "2026-07-21T09:11:23.011662"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-07-21T09:11:23.011662",
+   "last_seen": "2026-09-06T15:40:50.095365",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra settembre 2024 e settembre 2026, dal Sub-17 al Sub-19.",
+    "dal": "2024-09-17",
+    "al": "2026-09-06",
+    "categorie": [
+     "sub-17",
+     "sub-19"
+    ],
+    "progressione": true,
+    "mesi_di_arco": 24,
+    "eventi": [
+     {
+      "data": "2024-09-17",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/"
+     },
+     {
+      "data": "2026-09-06",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between September 2024 and September 2026, from U17 to U19."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
+      "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 375,
    "name": "Oliver Grosso",
    "age": 18,
@@ -10803,6 +11591,152 @@
      "prove": [
       "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
       "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 342,
+   "name": "Jhojan Felipe Zuñiga Gomez",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Jhojan Felipe Zuñiga Gomez – Independiente Santa Fe",
+     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Jhojan Felipe Zuñiga Gomez – Independiente Santa Fe",
+     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Independiente Santa Fe",
+   "league": "Selección Colombia Masculina Sub-19",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
+     "seen": "2026-07-31T04:02:04.097438"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-07-31T04:02:04.097438",
+   "last_seen": "2026-09-06T15:40:50.095365",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra luglio 2026 e settembre 2026, Sub-19.",
+    "dal": "2026-07-27",
+    "al": "2026-09-06",
+    "categorie": [
+     "sub-19"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 2,
+    "eventi": [
+     {
+      "data": "2026-07-27",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+     },
+     {
+      "data": "2026-09-06",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between July 2026 and September 2026, U19."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
+      "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
      ],
      "dati": {
       "convocazioni": 2,
@@ -14240,136 +15174,6 @@
    }
   },
   {
-   "id": 200,
-   "name": "Carlos Mario Pérez Cueto",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Carlos Mario Pérez Cueto – Junior F.C",
-     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Carlos Mario Pérez Cueto – Junior F.C",
-     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Junior F.C",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 11,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
-     "seen": "2026-07-31T04:02:04.097438"
-    },
-    {
-     "domain": "transfermarkt.co.uk",
-     "url": "https://www.transfermarkt.co.uk/carlos-perez/profil/spieler/1377973",
-     "seen": "2026-08-22T01:58:37.132698"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,eta_assente,club_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-22T01:58:37.132698",
-   "last_seen": "2026-08-22T01:58:37.132698",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-19 (luglio 2026).",
-    "dal": "2026-07-27",
-    "al": "2026-07-27",
-    "categorie": [
-     "sub-19"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-07-27",
-      "categoria": "sub-19",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Federación Colombiana de Fútbol",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)",
-     "Richiedere video o programmare una visione diretta"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by Federación Colombiana de Fútbol",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)",
-     "Request video or schedule a live viewing"
-    ]
-   }
-  },
-  {
    "id": 201,
    "name": "Cristian Enrique Uribe Caro",
    "age": null,
@@ -14500,136 +15304,6 @@
    }
   },
   {
-   "id": 202,
-   "name": "Daniel David Socarras Villamil",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Daniel David Socarras Villamil – Junior F.C",
-     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Daniel David Socarras Villamil – Junior F.C",
-     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Junior F.C",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 11,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
-     "seen": "2026-07-31T04:02:04.097438"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/daniel-socarras/profil/spieler/1408636",
-     "seen": "2026-08-01T08:41:41.920525"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,eta_assente,club_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-19 (luglio 2026).",
-    "dal": "2026-07-27",
-    "al": "2026-07-27",
-    "categorie": [
-     "sub-19"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-07-27",
-      "categoria": "sub-19",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Federación Colombiana de Fútbol",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)",
-     "Richiedere video o programmare una visione diretta"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by Federación Colombiana de Fútbol",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)",
-     "Request video or schedule a live viewing"
-    ]
-   }
-  },
-  {
    "id": 203,
    "name": "Jaidinson Córdoba Urrutia",
    "age": null,
@@ -14691,136 +15365,6 @@
      "domain": "transfermarkt.com",
      "url": "https://www.transfermarkt.com/jaidinson-cordoba/profil/spieler/1517659",
      "seen": "2026-08-01T08:41:41.920525"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,eta_assente,club_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-19 (luglio 2026).",
-    "dal": "2026-07-27",
-    "al": "2026-07-27",
-    "categorie": [
-     "sub-19"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-07-27",
-      "categoria": "sub-19",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Federación Colombiana de Fútbol",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)",
-     "Richiedere video o programmare una visione diretta"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by Federación Colombiana de Fútbol",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)",
-     "Request video or schedule a live viewing"
-    ]
-   }
-  },
-  {
-   "id": 204,
-   "name": "Camilo Amú",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Camilo Amú – América de Cali",
-     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Camilo Amú – América de Cali",
-     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "América de Cali",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 11,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
-     "seen": "2026-07-31T04:02:04.097438"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/camilo-amu/profil/spieler/1420781",
-     "seen": "2026-08-03T04:07:20.536590"
     }
    ],
    "n_sources_registro": 2,
@@ -18056,135 +18600,6 @@
    }
   },
   {
-   "id": 143,
-   "name": "Yeiler Mosquera Caicedo",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Yeiler Mosquera Caicedo – Atl. Nacional- Div Inferiores",
-     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Yeiler Mosquera Caicedo – Atl. Nacional- Div Inferiores",
-     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Atl. Nacional",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 8,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
-     "seen": "2026-07-19T08:56:55.551442"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": true,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-16 (febbraio 2025).",
-    "dal": "2025-02-17",
-    "al": "2025-02-17",
-    "categorie": [
-     "sub-16"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2025-02-17",
-      "categoria": "sub-16",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U16."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Federación Colombiana de Fútbol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Una sola fonte: non ancora corroborato",
-     "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by Federación Colombiana de Fútbol"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "Single source: not yet corroborated",
-     "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 164,
    "name": "Julian David Bermeo Suarez",
    "age": null,
@@ -20506,128 +20921,6 @@
    }
   },
   {
-   "id": 342,
-   "name": "Jhojan Felipe Zuñiga Gomez",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Jhojan Felipe Zuñiga Gomez – Independiente Santa Fe",
-     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Jhojan Felipe Zuñiga Gomez – Independiente Santa Fe",
-     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Independiente Santa Fe",
-   "league": null,
-   "region": "Colombia",
-   "gender": "unknown",
-   "score": 8,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
-     "seen": "2026-07-31T04:02:04.097438"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": true,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-07-31T04:02:04.097438",
-   "last_seen": "2026-07-31T04:02:04.097438",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-19 (luglio 2026).",
-    "dal": "2026-07-27",
-    "al": "2026-07-27",
-    "categorie": [
-     "sub-19"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-07-27",
-      "categoria": "sub-19",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Federación Colombiana de Fútbol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by Federación Colombiana de Fútbol"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 344,
    "name": "Johan Felipe Lozano Briceño",
    "age": null,
@@ -21246,130 +21539,6 @@
    }
   },
   {
-   "id": 351,
-   "name": "Juan David Aponzá González",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Juan David Aponzá González​​ – América De Cali (Cat. Formación)",
-     "url": "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Juan David Aponzá González​​ – América De Cali (Cat. Formación)",
-     "url": "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "América De Cali (Cat. Formación)",
-   "league": null,
-   "region": "Colombia",
-   "gender": "unknown",
-   "score": 8,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
-     "seen": "2026-07-21T09:11:23.011662"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": true,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-07-21T09:11:23.011662",
-   "last_seen": "2026-07-21T09:11:23.011662",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (settembre 2024).",
-    "dal": "2024-09-17",
-    "al": "2024-09-17",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2024-09-17",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Federación Colombiana de Fútbol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Una sola fonte: non ancora corroborato",
-     "Ultima convocazione 24 mesi fa (settembre 2024): la serie si è interrotta, da capire perché",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by Federación Colombiana de Fútbol"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "Single source: not yet corroborated",
-     "Last call-up 24 months ago (September 2024): the run has stopped — worth finding out why",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 352,
    "name": "Juan Camilo Alegría Palomino",
    "age": null,
@@ -21597,6 +21766,963 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "Name and club stated by Football Association of Thailand"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 387,
+   "name": "Hamidou Makalou",
+   "age": 20,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "CAF — Confederation of African Football",
+     "tipo": "confederation",
+     "citazione": "a campaign highlighted by Ibrahim Diarra winning the Silver Boot and Hamidou Makalou earning the Silver Ball",
+     "url": "https://www.cafonline.com/caf-u-17-africa-cup-of-nations/news/u17-world-cup-mali-s-academy-formula-fuels-another-charge-for-glory/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Hamidou Makalou, 20 anni, SC Bastia",
+     "url": "https://www.transfermarkt.us/hamidou-makalou/profil/spieler/1200289"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Hamidou Makalou, 20 anni, SC Bastia",
+     "url": "https://www.transfermarkt.us/hamidou-makalou/profil/spieler/1200289"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defensive Midfield",
+   "club": "SC Bastia",
+   "league": null,
+   "region": "Africa",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "cafonline.com",
+     "url": "https://www.cafonline.com/caf-u-17-africa-cup-of-nations/news/u17-world-cup-mali-s-academy-formula-fuels-another-charge-for-glory/",
+     "seen": "2026-09-03T16:38:07.305830"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/hamidou-makalou/profil/spieler/1200289",
+     "seen": "2026-09-06T15:40:50.095365"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-03T16:38:07.305830",
+   "last_seen": "2026-09-06T15:40:50.095365",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 406,
+   "name": "Juan Sebastián Hurtado Castaño",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Juan Sebastián Hurtado Castaño – Águilas Doradas",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Juan Sebastián Hurtado Castaño – Águilas Doradas",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Águilas Doradas",
+   "league": "Selección Colombia Masculina Sub-19",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/",
+     "seen": "2026-09-06T15:40:50.095365"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-06T15:40:50.095365",
+   "last_seen": "2026-09-06T15:40:50.095365",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-19 (settembre 2026).",
+    "dal": "2026-09-06",
+    "al": "2026-09-06",
+    "categorie": [
+     "sub-19"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-09-06",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 407,
+   "name": "Deimer Estiven Longas Rivas",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Deimer Estiven Longas Rivas – Deportivo Independiente Medellin",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Deimer Estiven Longas Rivas – Deportivo Independiente Medellin",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Deportivo Independiente Medellín",
+   "league": "Selección Colombia Masculina Sub-19",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/",
+     "seen": "2026-09-06T15:40:50.095365"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-06T15:40:50.095365",
+   "last_seen": "2026-09-06T15:40:50.095365",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-19 (settembre 2026).",
+    "dal": "2026-09-06",
+    "al": "2026-09-06",
+    "categorie": [
+     "sub-19"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-09-06",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 408,
+   "name": "Eyder Robihno Quinto Robledo",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Eyder Robihno Quinto Robledo – River Plate (Arg)",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Eyder Robihno Quinto Robledo – River Plate (Arg)",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "River Plate (Arg)",
+   "league": "Selección Colombia Masculina Sub-19",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/",
+     "seen": "2026-09-06T15:40:50.095365"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-06T15:40:50.095365",
+   "last_seen": "2026-09-06T15:40:50.095365",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-19 (settembre 2026).",
+    "dal": "2026-09-06",
+    "al": "2026-09-06",
+    "categorie": [
+     "sub-19"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-09-06",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 409,
+   "name": "Leandro Solarte Alvariñas",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Leandro Solarte Alvariñas – Racing Club (Arg)",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Leandro Solarte Alvariñas – Racing Club (Arg)",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Racing Club (Arg)",
+   "league": "Selección Colombia Masculina Sub-19",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/",
+     "seen": "2026-09-06T15:40:50.095365"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-06T15:40:50.095365",
+   "last_seen": "2026-09-06T15:40:50.095365",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-19 (settembre 2026).",
+    "dal": "2026-09-06",
+    "al": "2026-09-06",
+    "categorie": [
+     "sub-19"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-09-06",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 410,
+   "name": "Mateo Betancur González",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Mateo Betancur González – Envigado D.C (Hasta El 13/09 En Bog)",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Mateo Betancur González – Envigado D.C (Hasta El 13/09 En Bog)",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Envigado D.C",
+   "league": "Selección Colombia Masculina Sub-19",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/",
+     "seen": "2026-09-06T15:40:50.095365"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-06T15:40:50.095365",
+   "last_seen": "2026-09-06T15:40:50.095365",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-19 (settembre 2026).",
+    "dal": "2026-09-06",
+    "al": "2026-09-06",
+    "categorie": [
+     "sub-19"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-09-06",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 411,
+   "name": "Andres Felipe Marín Bernal",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Andres Felipe Marín Bernal – Atlético Nacional",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Andres Felipe Marín Bernal – Atlético Nacional",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Atlético Nacional",
+   "league": "Selección Colombia Masculina Sub-19",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/",
+     "seen": "2026-09-06T15:40:50.095365"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-06T15:40:50.095365",
+   "last_seen": "2026-09-06T15:40:50.095365",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-19 (settembre 2026).",
+    "dal": "2026-09-06",
+    "al": "2026-09-06",
+    "categorie": [
+     "sub-19"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-09-06",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 412,
+   "name": "Junior Julián Mosquera Villafañe",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Junior Julián Mosquera Villafañe – Internacional De Palmira",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Junior Julián Mosquera Villafañe – Internacional De Palmira",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Internacional De Palmira",
+   "league": "Selección Colombia Masculina Sub-19",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/",
+     "seen": "2026-09-06T15:40:50.095365"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-06T15:40:50.095365",
+   "last_seen": "2026-09-06T15:40:50.095365",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-19 (settembre 2026).",
+    "dal": "2026-09-06",
+    "al": "2026-09-06",
+    "categorie": [
+     "sub-19"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-09-06",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -30252,7 +31378,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 4,
    "sources": [
@@ -30289,7 +31415,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-08-28T15:47:13.194942",
-   "last_seen": "2026-09-03T16:38:07.305830",
+   "last_seen": "2026-09-06T15:40:50.095365",
    "selezione": {},
    "anomalie": [],
    "assessment": {
@@ -35699,6 +36825,128 @@
    }
   },
   {
+   "id": 413,
+   "name": "Alejandro Qu…",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Alejandro Qu",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": "Selección Colombia Masculina Sub-19",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/",
+     "seen": "2026-09-06T15:40:50.095365"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-06T15:40:50.095365",
+   "last_seen": "2026-09-06T15:40:50.095365",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-19 (settembre 2026).",
+    "dal": "2026-09-06",
+    "al": "2026-09-06",
+    "categorie": [
+     "sub-19"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-09-06",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U19."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "id": 125,
    "name": "Maureen Kenneth",
    "age": null,
@@ -36539,6 +37787,136 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 282,
+   "name": "Clinton Lawani",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "Flying Eagles goalkeeper Clinton Lawani was alert and kept Nigeria in the game.",
+     "url": "https://thenff.com/wafu-b-u20-tourney-flying-eagles-edge-young-elephants-4-3-on-penalties-reach-final/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "goalkeeper",
+   "club": null,
+   "league": null,
+   "region": "Nigeria",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/wafu-b-u20-tourney-flying-eagles-edge-young-elephants-4-3-on-penalties-reach-final/",
+     "seen": "2026-08-25T13:29:20.133485"
+    },
+    {
+     "domain": "transfermarkt.co",
+     "url": "https://www.transfermarkt.co/clinton-lawani/profil/spieler/1592393",
+     "seen": "2026-09-06T15:40:50.095365"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-25T13:29:20.133485",
+   "last_seen": "2026-09-06T15:40:50.095365",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/wafu-b-u20-tourney-flying-eagles-edge-young-elephants-4-3-on-penalties-reach-final/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
      "Get performance stats (match reports)"
     ]
    }
@@ -40493,124 +41871,6 @@
    }
   },
   {
-   "id": 282,
-   "name": "Clinton Lawani",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "Flying Eagles goalkeeper Clinton Lawani was alert and kept Nigeria in the game.",
-     "url": "https://thenff.com/wafu-b-u20-tourney-flying-eagles-edge-young-elephants-4-3-on-penalties-reach-final/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "goalkeeper",
-   "club": null,
-   "league": null,
-   "region": "Nigeria",
-   "gender": "male",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/wafu-b-u20-tourney-flying-eagles-edge-young-elephants-4-3-on-penalties-reach-final/",
-     "seen": "2026-08-25T13:29:20.133485"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-08-25T13:29:20.133485",
-   "last_seen": "2026-08-25T13:29:20.133485",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/wafu-b-u20-tourney-flying-eagles-edge-young-elephants-4-3-on-penalties-reach-final/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "id": 283,
    "name": "Habila Simeon",
    "age": null,
@@ -42867,104 +44127,6 @@
    "identity_complete": false,
    "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-03T16:38:07.305830",
-   "last_seen": "2026-09-03T16:38:07.305830",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 387,
-   "name": "Hamidou Makalou",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "CAF — Confederation of African Football",
-     "tipo": "confederation",
-     "citazione": "a campaign highlighted by Ibrahim Diarra winning the Silver Boot and Hamidou Makalou earning the Silver Ball",
-     "url": "https://www.cafonline.com/caf-u-17-africa-cup-of-nations/news/u17-world-cup-mali-s-academy-formula-fuels-another-charge-for-glory/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Africa",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "cafonline.com",
-     "url": "https://www.cafonline.com/caf-u-17-africa-cup-of-nations/news/u17-world-cup-mali-s-academy-formula-fuels-another-charge-for-glory/",
-     "seen": "2026-09-03T16:38:07.305830"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "standard",
    "first_detected": "2026-09-03T16:38:07.305830",
    "last_seen": "2026-09-03T16:38:07.305830",
    "selezione": {},
