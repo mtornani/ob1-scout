@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-08T12:08:33.588517+00:00",
+ "generated_at": "2026-09-08T17:26:59.098629+00:00",
  "version": "1.0.0",
- "build": "be7654c",
+ "build": "29efd38",
  "total": 433,
  "publishable": 217,
  "tracking": 216,
@@ -30982,7 +30982,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 2,
    "sources": [
@@ -31009,14 +31009,14 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-08-21T13:26:54.585139",
-   "last_seen": "2026-09-05T15:28:07.276981",
+   "last_seen": "2026-09-08T16:48:07.988080",
    "selezione": {},
    "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -31028,7 +31028,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
