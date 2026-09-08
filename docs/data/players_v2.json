@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-08T05:24:06.144128+00:00",
+ "generated_at": "2026-09-08T12:08:33.588517+00:00",
  "version": "1.0.0",
- "build": "af59220",
+ "build": "be7654c",
  "total": 433,
- "publishable": 214,
- "tracking": 219,
+ "publishable": 217,
+ "tracking": 216,
  "shown": 433,
  "tracking_capped": 0,
  "outcomes": {
@@ -5491,7 +5491,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 1,
    "sources": [
@@ -5508,7 +5508,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -5536,7 +5536,7 @@
      "Molto giovane (15 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -5552,7 +5552,7 @@
      "Very young (15 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -7191,7 +7191,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 1,
    "sources": [
@@ -7208,7 +7208,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -7236,7 +7236,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -7252,7 +7252,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -7263,130 +7263,6 @@
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)",
      "Request video or schedule a live viewing"
-    ]
-   }
-  },
-  {
-   "id": 324,
-   "name": "Dahel Guedes",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 16 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "AUF — Asociación Uruguaya de Fútbol",
-     "tipo": "federation",
-     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Dahel Guedes, Difensore, nato il 08/09/2009, Peñarol",
-     "url": "https://www.auf.org.uy/sub-17/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "AUF — Asociación Uruguaya de Fútbol",
-     "tipo": "federation",
-     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Dahel Guedes, Difensore, nato il 08/09/2009, Peñarol",
-     "url": "https://www.auf.org.uy/sub-17/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Difensore",
-   "club": "Peñarol",
-   "league": null,
-   "region": "Uruguay",
-   "gender": "unknown",
-   "score": 16,
-   "confidence": 0.55,
-   "breakdown": {
-    "youth": 18.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 5
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "auf.org.uy",
-     "url": "https://www.auf.org.uy/sub-17/",
-     "seen": "2026-09-01T08:32:38.659540"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": true,
-   "identity_complete": true,
-   "review_flags": "fonte_singola,eta_assente,club_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "AUF — Asociación Uruguaya de Fútbol",
-      "url": "https://www.auf.org.uy/sub-17/"
-     }
-    ],
-    "fonte": "AUF — Asociación Uruguaya de Fútbol",
-    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 5 rilevamenti"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 5 detections"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
     ]
    }
   },
@@ -7439,7 +7315,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 1,
    "sources": [
@@ -7456,7 +7332,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -7484,7 +7360,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -7500,7 +7376,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -7563,7 +7439,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 1,
    "sources": [
@@ -7580,7 +7456,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -7608,7 +7484,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -7624,7 +7500,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -7687,7 +7563,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 1,
    "sources": [
@@ -7704,7 +7580,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -7732,7 +7608,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -7748,7 +7624,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -7811,7 +7687,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 1,
    "sources": [
@@ -7828,7 +7704,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -7856,7 +7732,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -7872,7 +7748,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -7935,7 +7811,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 1,
    "sources": [
@@ -7952,7 +7828,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -7980,7 +7856,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -7996,7 +7872,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -8059,7 +7935,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 1,
    "sources": [
@@ -8076,7 +7952,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:40:56.884177",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -8103,7 +7979,8 @@
     "pros": [
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol"
+     "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -8118,7 +7995,8 @@
     "pros_en": [
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
-     "Name and club stated by AUF — Asociación Uruguaya de Fútbol"
+     "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -8181,7 +8059,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 1,
    "sources": [
@@ -8198,7 +8076,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:40:56.884177",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -8225,7 +8103,8 @@
     "pros": [
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol"
+     "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -8240,7 +8119,8 @@
     "pros_en": [
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
-     "Name and club stated by AUF — Asociación Uruguaya de Fútbol"
+     "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -8678,7 +8558,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 1,
    "sources": [
@@ -8695,7 +8575,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -8723,7 +8603,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -8739,7 +8619,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -8802,7 +8682,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 1,
    "sources": [
@@ -8819,7 +8699,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -8847,7 +8727,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -8863,7 +8743,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -8926,7 +8806,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 1,
    "sources": [
@@ -8943,7 +8823,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -8971,7 +8851,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -8987,7 +8867,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -9050,7 +8930,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 1,
    "sources": [
@@ -9067,7 +8947,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -9095,7 +8975,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -9111,7 +8991,131 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "id": 324,
+   "name": "Dahel Guedes",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Dahel Guedes, Difensore, nato il 08/09/2009, Peñarol",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Dahel Guedes, Difensore, nato il 08/09/2009, Peñarol",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Dahel Guedes, Difensore, nato il 08/09/2009, Peñarol",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Difensore",
+   "club": "Peñarol",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 15,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 6
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-08T11:38:42.619417",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
+     "Segnale persistente: 6 rilevamenti"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -9174,7 +9178,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 1,
    "sources": [
@@ -9191,7 +9195,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -9219,7 +9223,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -9235,7 +9239,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -9298,7 +9302,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 1,
    "sources": [
@@ -9315,7 +9319,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -9343,7 +9347,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -9359,7 +9363,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -9422,7 +9426,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 1,
    "sources": [
@@ -9439,7 +9443,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -9467,7 +9471,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -9483,7 +9487,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -9546,7 +9550,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 1,
    "sources": [
@@ -9563,7 +9567,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -9591,7 +9595,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -9607,7 +9611,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -9670,7 +9674,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 1,
    "sources": [
@@ -9687,7 +9691,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -9715,7 +9719,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -9731,7 +9735,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -9794,7 +9798,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 1,
    "sources": [
@@ -9811,7 +9815,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:40:56.884177",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -9838,7 +9842,8 @@
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol"
+     "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -9853,7 +9858,8 @@
     "pros_en": [
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
-     "Name and club stated by AUF — Asociación Uruguaya de Fútbol"
+     "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -14080,6 +14086,216 @@
    }
   },
   {
+   "id": 429,
+   "name": "Jovesa Uqe",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "Jovesa Uqe had the clearest opening after 15 minutes, but dragged his effort wide of the far post having been fed by Bula FC’s Ryan Naresh.",
+     "url": "https://www.oceaniafootball.com/tahiti-and-new-zealand-pick-up-wins-as-both-sides-head-for-the-semi-finals/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Jovesa Uqe, 18 anni, Labasa FC",
+     "url": "https://www.transfermarkt.com/jovesa-uqe/profil/spieler/1129079"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Jovesa Uqe, 18 anni, Labasa FC",
+     "url": "https://www.transfermarkt.com/jovesa-uqe/profil/spieler/1129079"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Midfield",
+   "club": "Labasa FC",
+   "league": "OFC U-19 Men’s Championship",
+   "region": "Fiji",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/tahiti-and-new-zealand-pick-up-wins-as-both-sides-head-for-the-semi-finals/",
+     "seen": "2026-09-08T05:03:28.858009"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/jovesa-uqe/profil/spieler/1129079",
+     "seen": "2026-09-08T11:38:42.619417"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-08T05:03:28.858009",
+   "last_seen": "2026-09-08T11:38:42.619417",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 431,
+   "name": "Keahinui Brown",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "A neat through ball from Keahinui Brown found Elias Jamet",
+     "url": "https://www.oceaniafootball.com/tahiti-and-new-zealand-pick-up-wins-as-both-sides-head-for-the-semi-finals/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Keahinui Brown, 18 anni, AS Venus Mahina Youth",
+     "url": "https://www.transfermarkt.com/keahinui-brown/profil/spieler/1129418"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Keahinui Brown, 18 anni, AS Venus Mahina Youth",
+     "url": "https://www.transfermarkt.com/keahinui-brown/profil/spieler/1129418"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Midfield",
+   "club": "AS Venus Mahina Youth",
+   "league": "OFC U-19 Men’s Championship",
+   "region": "Tahiti",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/tahiti-and-new-zealand-pick-up-wins-as-both-sides-head-for-the-semi-finals/",
+     "seen": "2026-09-08T05:03:28.858009"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/keahinui-brown/profil/spieler/1129418",
+     "seen": "2026-09-08T11:38:42.619417"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-08T05:03:28.858009",
+   "last_seen": "2026-09-08T11:38:42.619417",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "id": 25,
    "name": "Luis Benedetti",
    "age": null,
@@ -17202,7 +17418,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 1,
    "sources": [
@@ -17219,7 +17435,7 @@
    "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -17246,7 +17462,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -17262,7 +17478,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -18244,6 +18460,111 @@
      "Telefonata al club: conferma anagrafica e status contrattuale"
     ],
     "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 433,
+   "name": "Ibraheem Afazal",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "Ibraheem Afazal had a wonderful chance to level the scores soon after the break but was denied by a fine save from Courtois.",
+     "url": "https://www.oceaniafootball.com/tahiti-and-new-zealand-pick-up-wins-as-both-sides-head-for-the-semi-finals/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Ibraheem Afazal, 19 anni, Bula FC",
+     "url": "https://www.transfermarkt.com/ibraheem-afazal/profil/spieler/1097744"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Ibraheem Afazal, 19 anni, Bula FC",
+     "url": "https://www.transfermarkt.com/ibraheem-afazal/profil/spieler/1097744"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Right Winger",
+   "club": "Bula FC",
+   "league": "OFC U-19 Men’s Championship",
+   "region": "Fiji",
+   "gender": "male",
+   "score": 9,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/tahiti-and-new-zealand-pick-up-wins-as-both-sides-head-for-the-semi-finals/",
+     "seen": "2026-09-08T05:03:28.858009"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/ibraheem-afazal/profil/spieler/1097744",
+     "seen": "2026-09-08T11:38:42.619417"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-08T05:03:28.858009",
+   "last_seen": "2026-09-08T11:38:42.619417",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (19 yo)",
      "Minor context: potentially underpriced",
      "Name and club stated by Transfermarkt",
      "2 distinct domains mention him"
@@ -27074,7 +27395,7 @@
    "name": "Yan Diomande",
    "age": null,
    "age_stato": "assente",
-   "age_nota": "il valore 15 non è scritto da nessuna fonte competente",
+   "age_nota": "il valore 19 non è scritto da nessuna fonte competente",
    "claims": {
     "nome": {
      "stato": "dichiarato",
@@ -27111,16 +27432,16 @@
    "region": "Ivory Coast",
    "gender": "male",
    "score": 27,
-   "confidence": 0.91,
+   "confidence": 1.0,
    "breakdown": {
-    "youth": 20.0,
-    "production": 30,
+    "youth": 7.0,
+    "production": 40,
     "asymmetry": -20.0,
     "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 3
+    "n_sources": 4,
+    "detection_count": 4
    },
-   "n_sources": 3,
+   "n_sources": 4,
    "sources": [
     {
      "domain": "latimes.com",
@@ -27136,13 +27457,18 @@
      "domain": "placar.com.br",
      "url": "https://placar.com.br/copa-do-mundo/cinco-jovens-pouco-conhecidos-para-ficar-de-olho-na-copa-2026/",
      "seen": "2026-08-23T07:11:16.983089"
+    },
+    {
+     "domain": "trivela.com.br",
+     "url": "https://trivela.com.br/espanha/la-liga/real-madrid-e-preciso-se-preocupar-com-yan-diomande/",
+     "seen": "2026-09-08T11:38:42.619417"
     }
    ],
-   "n_sources_registro": 3,
+   "n_sources_registro": 4,
    "stats": {
     "goals": 12,
     "assists": 9,
-    "apps": 0,
+    "apps": 33,
     "minutes": 0
    },
    "publishable": false,
@@ -27150,13 +27476,13 @@
    "review_flags": "eta_assente,club_assente,gia_coperto_da_tutti",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-06-02T16:26:08.016372",
-   "last_seen": "2026-08-23T07:11:16.983089",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {},
    "anomalie": [],
    "assessment": {
     "pros": [
-     "Produzione documentata: 12 gol e 9 assist",
-     "3 domini distinti lo nominano"
+     "Produzione documentata: 12 gol e 9 assist in 33 presenze",
+     "4 domini distinti lo nominano"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -27167,8 +27493,8 @@
      "Confermare l'anno di nascita con la società"
     ],
     "pros_en": [
-     "Documented output: 12 goals and 9 assists",
-     "3 distinct domains mention him"
+     "Documented output: 12 goals and 9 assists in 33 appearances",
+     "4 distinct domains mention him"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -29291,6 +29617,107 @@
    }
   },
   {
+   "id": 401,
+   "name": "Aaron Cartwright",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "an impressive run down the right from player of the match Aaron Cartwright",
+     "url": "https://www.oceaniafootball.com/defending-champions-advance-after-second-matchday-in-group-b/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Aaron Cen Cartwright, 18 anni, Auckland FC",
+     "url": "https://www.transfermarkt.us/aaron-cartwright/profil/spieler/1291443"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Right Winger",
+   "club": "New Zealand (Junior All Whites)",
+   "league": "OFC U-19 Men's Championship 2026",
+   "region": "Pacific Islands",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/defending-champions-advance-after-second-matchday-in-group-b/",
+     "seen": "2026-09-05T04:51:08.752162"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/aaron-cartwright/profil/spieler/1291443",
+     "seen": "2026-09-08T11:38:42.619417"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-05T04:51:08.752162",
+   "last_seen": "2026-09-08T11:38:42.619417",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 417,
    "name": "Gregory Diko",
    "age": 19,
@@ -29553,7 +29980,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 3,
    "sources": [
@@ -29585,14 +30012,14 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-03-01T19:00:00.487652",
-   "last_seen": "2026-09-05T04:51:08.752162",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {},
    "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -29604,7 +30031,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -30444,7 +30871,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 3,
    "sources": [
@@ -30476,14 +30903,14 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-08-30T12:09:12.375789",
-   "last_seen": "2026-09-05T10:51:36.939837",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {},
    "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -30495,7 +30922,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -31074,7 +31501,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 3,
    "sources": [
@@ -31106,14 +31533,14 @@
    "review_flags": "eta_dichiarato,club_assente,club_e_una_descrizione_non_un_nome",
    "coverage_tier": "standard",
    "first_detected": "2026-06-06T13:43:55.807655",
-   "last_seen": "2026-09-05T10:51:36.939837",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {},
    "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -31126,7 +31553,7 @@
     "pros_en": [
      "Young (19 yo)",
      "3 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -31941,7 +32368,7 @@
     "asymmetry": -20.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 8
+    "detection_count": 9
    },
    "n_sources": 2,
    "sources": [
@@ -31963,7 +32390,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T20:42:15.699513",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -31991,7 +32418,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 8 rilevamenti"
+     "Segnale persistente: 9 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -32004,7 +32431,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "2 distinct domains mention him",
-     "Persistent signal: 8 detections"
+     "Persistent signal: 9 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -32064,7 +32491,7 @@
     "asymmetry": -20.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 2,
    "sources": [
@@ -32086,7 +32513,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-06T11:15:56.449367",
+   "last_seen": "2026-09-08T11:38:42.619417",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -32114,7 +32541,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -32127,7 +32554,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "2 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -39516,108 +39943,6 @@
    }
   },
   {
-   "id": 401,
-   "name": "Aaron Cartwright",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "an impressive run down the right from player of the match Aaron Cartwright",
-     "url": "https://www.oceaniafootball.com/defending-champions-advance-after-second-matchday-in-group-b/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "New Zealand (Junior All Whites)",
-   "league": "OFC U-19 Men's Championship 2026",
-   "region": "Pacific Islands",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/defending-champions-advance-after-second-matchday-in-group-b/",
-     "seen": "2026-09-05T04:51:08.752162"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-05T04:51:08.752162",
-   "last_seen": "2026-09-05T04:51:08.752162",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 405,
    "name": "Rose Beui",
    "age": null,
@@ -40499,210 +40824,6 @@
    }
   },
   {
-   "id": 429,
-   "name": "Jovesa Uqe",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "Jovesa Uqe had the clearest opening after 15 minutes, but dragged his effort wide of the far post having been fed by Bula FC’s Ryan Naresh.",
-     "url": "https://www.oceaniafootball.com/tahiti-and-new-zealand-pick-up-wins-as-both-sides-head-for-the-semi-finals/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": "OFC U-19 Men’s Championship",
-   "region": "Fiji",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/tahiti-and-new-zealand-pick-up-wins-as-both-sides-head-for-the-semi-finals/",
-     "seen": "2026-09-08T05:03:28.858009"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-08T05:03:28.858009",
-   "last_seen": "2026-09-08T05:03:28.858009",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 431,
-   "name": "Keahinui Brown",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "A neat through ball from Keahinui Brown found Elias Jamet",
-     "url": "https://www.oceaniafootball.com/tahiti-and-new-zealand-pick-up-wins-as-both-sides-head-for-the-semi-finals/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": "OFC U-19 Men’s Championship",
-   "region": "Tahiti",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/tahiti-and-new-zealand-pick-up-wins-as-both-sides-head-for-the-semi-finals/",
-     "seen": "2026-09-08T05:03:28.858009"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-08T05:03:28.858009",
-   "last_seen": "2026-09-08T05:03:28.858009",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "id": 432,
    "name": "Elias Jamet",
    "age": null,
@@ -40742,108 +40863,6 @@
    "club": null,
    "league": "OFC U-19 Men’s Championship",
    "region": "Tahiti",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/tahiti-and-new-zealand-pick-up-wins-as-both-sides-head-for-the-semi-finals/",
-     "seen": "2026-09-08T05:03:28.858009"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-08T05:03:28.858009",
-   "last_seen": "2026-09-08T05:03:28.858009",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 433,
-   "name": "Ibraheem Afazal",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "Ibraheem Afazal had a wonderful chance to level the scores soon after the break but was denied by a fine save from Courtois.",
-     "url": "https://www.oceaniafootball.com/tahiti-and-new-zealand-pick-up-wins-as-both-sides-head-for-the-semi-finals/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": "OFC U-19 Men’s Championship",
-   "region": "Fiji",
    "gender": "male",
    "score": 6,
    "confidence": 0.45,
