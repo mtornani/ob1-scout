@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-08T17:26:59.098629+00:00",
+ "generated_at": "2026-09-08T22:02:11.366617+00:00",
  "version": "1.0.0",
- "build": "29efd38",
- "total": 433,
+ "build": "1bacd43",
+ "total": 435,
  "publishable": 217,
- "tracking": 216,
- "shown": 433,
+ "tracking": 218,
+ "shown": 435,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 0,
@@ -31726,7 +31726,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 3,
    "sources": [
@@ -31753,14 +31753,14 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-08-21T13:26:54.585139",
-   "last_seen": "2026-09-05T20:37:26.454033",
+   "last_seen": "2026-09-08T21:20:18.348983",
    "selezione": {},
    "anomalie": [],
    "assessment": {
     "pros": [
      "Nome e club scritti da Soccerway",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -31772,7 +31772,7 @@
     "pros_en": [
      "Name and club stated by Soccerway",
      "3 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -35424,7 +35424,7 @@
     "asymmetry": 0.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 2,
    "sources": [
@@ -35451,7 +35451,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-08-24T02:08:37.281942",
-   "last_seen": "2026-09-05T20:37:26.454033",
+   "last_seen": "2026-09-08T21:20:18.348983",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (giugno 2026).",
@@ -35478,7 +35478,7 @@
     "pros": [
      "Continuità documentata: 1 presenze",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -35492,7 +35492,7 @@
     "pros_en": [
      "Documented continuity: 1 appearances",
      "2 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -46412,6 +46412,212 @@
    "coverage_tier": "standard",
    "first_detected": "2026-09-06T20:42:15.699513",
    "last_seen": "2026-09-06T20:42:15.699513",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 434,
+   "name": "Amsatou Diouf",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Wiwsport",
+     "tipo": "national_press",
+     "citazione": "Amsatou Diouf et Aliou Dieye, premières impressions",
+     "url": "https://wiwsport.com/2026/09/08/carnet-ufoa-a-u17-jour-1-amsatou-diouf-et-aliou-dieye-premieres-impressions/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Senegal",
+   "gender": "female",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "wiwsport.com",
+     "url": "https://wiwsport.com/2026/09/08/carnet-ufoa-a-u17-jour-1-amsatou-diouf-et-aliou-dieye-premieres-impressions/",
+     "seen": "2026-09-08T21:20:18.348983"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-08T21:20:18.348983",
+   "last_seen": "2026-09-08T21:20:18.348983",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 435,
+   "name": "Aliou Dieye",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Wiwsport",
+     "tipo": "national_press",
+     "citazione": "Amsatou Diouf et Aliou Dieye, premières impressions",
+     "url": "https://wiwsport.com/2026/09/08/carnet-ufoa-a-u17-jour-1-amsatou-diouf-et-aliou-dieye-premieres-impressions/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "wiwsport.com",
+     "url": "https://wiwsport.com/2026/09/08/carnet-ufoa-a-u17-jour-1-amsatou-diouf-et-aliou-dieye-premieres-impressions/",
+     "seen": "2026-09-08T21:20:18.348983"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-08T21:20:18.348983",
+   "last_seen": "2026-09-08T21:20:18.348983",
    "selezione": {},
    "anomalie": [],
    "assessment": {
