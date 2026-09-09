@@ -1,16 +1,26 @@
 {
- "generated_at": "2026-09-08T22:02:11.366617+00:00",
+ "generated_at": "2026-09-09T05:28:50.493055+00:00",
  "version": "1.0.0",
- "build": "1bacd43",
+ "build": "b84e66c",
  "total": 435,
  "publishable": 217,
  "tracking": 218,
  "shown": 435,
  "tracking_capped": 0,
  "outcomes": {
-  "checked": 0,
-  "avg_lead_time_days": null,
-  "casi": []
+  "checked": 1,
+  "avg_lead_time_days": 6.0,
+  "casi": [
+   {
+    "player_id": 379,
+    "nome": "Cristo Navarrete",
+    "club": "Deportivo Guadalajara U21",
+    "giorni": 6,
+    "url": "https://es.concacaf.com/competitions/under-20-championship/videos/cristo-navarrete-best-goalkeeper-2026-concacaf-u-20-championship",
+    "dominio": "es.concacaf.com",
+    "quando": "2026-09-09T05:02:27.617391"
+   }
+  ]
  },
  "players": [
   {
@@ -5297,6 +5307,133 @@
      "Confirm the birth year with the club",
      "Get performance stats (match reports)",
      "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
+   "id": 379,
+   "name": "Cristo Navarrete",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Mi Selección (Federación Mexicana de Fútbol)",
+     "tipo": "federation",
+     "citazione": "Cristo Navarrete recibió apenas un gol en sus tres apariciones durante el torneo",
+     "url": "https://miseleccion.mx/noticia/6586-Cinco-mexicanos-en-el-XI-Ideal-del-Campeonato-Sub-20-de-Concacaf"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Cristo Armando Navarrete González, 19 anni, Deportivo Guadalajara U21",
+     "url": "https://www.transfermarkt.us/cristo-navarrete/profil/spieler/1011030"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Cristo Armando Navarrete González, 19 anni, Deportivo Guadalajara U21",
+     "url": "https://www.transfermarkt.us/cristo-navarrete/profil/spieler/1011030"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Goalkeeper",
+   "club": "Deportivo Guadalajara U21",
+   "league": null,
+   "region": "Mexico",
+   "gender": "male",
+   "score": 19,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 1.5,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "miseleccion.mx",
+     "url": "https://miseleccion.mx/noticia/6586-Cinco-mexicanos-en-el-XI-Ideal-del-Campeonato-Sub-20-de-Concacaf",
+     "seen": "2026-09-02T16:47:49.909957"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/cristo-navarrete/profil/spieler/1011030",
+     "seen": "2026-09-02T21:12:34.632172"
+    },
+    {
+     "domain": "es.concacaf.com",
+     "url": "https://es.concacaf.com/competitions/under-20-championship/videos/cristo-navarrete-best-goalkeeper-2026-concacaf-u-20-championship",
+     "seen": "2026-09-09T05:02:27.617391"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "apps": 3,
+    "goals": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-02T16:47:49.909957",
+   "last_seen": "2026-09-09T05:02:27.617391",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Mi Selección (Federación Mexicana de Fútbol), Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Mi Selección (Federación Mexicana de Fútbol)",
+      "url": "https://miseleccion.mx/noticia/6586-Cinco-mexicanos-en-el-XI-Ideal-del-Campeonato-Sub-20-de-Concacaf"
+     }
+    ],
+    "fonte": "Mi Selección (Federación Mexicana de Fútbol)",
+    "frase_en": "Called up 1 times by Mi Selección (Federación Mexicana de Fútbol), U20."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Continuità documentata: 3 presenze",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt"
+    ],
+    "cautions": [],
+    "next_steps": [
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (19 yo)",
+     "Documented continuity: 3 appearances",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt"
+    ],
+    "cautions_en": [],
+    "next_steps_en": [
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
     ]
    }
   },
@@ -11928,128 +12065,6 @@
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 379,
-   "name": "Cristo Navarrete",
-   "age": 19,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Mi Selección (Federación Mexicana de Fútbol)",
-     "tipo": "federation",
-     "citazione": "Cristo Navarrete recibió apenas un gol en sus tres apariciones durante el torneo",
-     "url": "https://miseleccion.mx/noticia/6586-Cinco-mexicanos-en-el-XI-Ideal-del-Campeonato-Sub-20-de-Concacaf"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Cristo Armando Navarrete González, 19 anni, Deportivo Guadalajara U21",
-     "url": "https://www.transfermarkt.us/cristo-navarrete/profil/spieler/1011030"
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Cristo Armando Navarrete González, 19 anni, Deportivo Guadalajara U21",
-     "url": "https://www.transfermarkt.us/cristo-navarrete/profil/spieler/1011030"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Goalkeeper",
-   "club": "Deportivo Guadalajara U21",
-   "league": null,
-   "region": "Mexico",
-   "gender": "male",
-   "score": 13,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 1.5,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "miseleccion.mx",
-     "url": "https://miseleccion.mx/noticia/6586-Cinco-mexicanos-en-el-XI-Ideal-del-Campeonato-Sub-20-de-Concacaf",
-     "seen": "2026-09-02T16:47:49.909957"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/cristo-navarrete/profil/spieler/1011030",
-     "seen": "2026-09-02T21:12:34.632172"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "apps": 3,
-    "goals": 0
-   },
-   "publishable": true,
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-02T16:47:49.909957",
-   "last_seen": "2026-09-02T21:12:34.632172",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Mi Selección (Federación Mexicana de Fútbol), Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Mi Selección (Federación Mexicana de Fútbol)",
-      "url": "https://miseleccion.mx/noticia/6586-Cinco-mexicanos-en-el-XI-Ideal-del-Campeonato-Sub-20-de-Concacaf"
-     }
-    ],
-    "fonte": "Mi Selección (Federación Mexicana de Fútbol)",
-    "frase_en": "Called up 1 times by Mi Selección (Federación Mexicana de Fútbol), U20."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Giovane (19 anni)",
-     "Continuità documentata: 3 presenze",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Transfermarkt"
-    ],
-    "cautions": [],
-    "next_steps": [
-     "Richiedere video o programmare una visione diretta",
-     "Telefonata al club: conferma anagrafica e status contrattuale"
-    ],
-    "pros_en": [
-     "Young (19 yo)",
-     "Documented continuity: 3 appearances",
-     "Minor context: potentially underpriced",
-     "Name and club stated by Transfermarkt"
-    ],
-    "cautions_en": [],
-    "next_steps_en": [
-     "Request video or schedule a live viewing",
-     "Call the club: confirm identity and contract status"
     ]
    }
   },
