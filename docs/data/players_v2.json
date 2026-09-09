@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-09T17:23:35.663296+00:00",
+ "generated_at": "2026-09-09T21:30:41.202607+00:00",
  "version": "1.0.0",
- "build": "3353296",
+ "build": "ad11091",
  "total": 441,
  "publishable": 220,
  "tracking": 221,
@@ -27993,7 +27993,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 4,
    "sources": [
@@ -28030,7 +28030,7 @@
    "review_flags": "senza_fonte_primary,eta_dedotto,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-07-05T03:23:40.915578",
-   "last_seen": "2026-09-01T05:30:45.135627",
+   "last_seen": "2026-09-09T21:06:14.697256",
    "selezione": {},
    "anomalie": [],
    "assessment": {
@@ -28038,7 +28038,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -28054,11 +28054,126 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
      "The age (17) is not stated by any source: it is inferred from the tournament category (U-17)",
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Look for a primary press/federation source to bring it to the full standard",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 16,
+   "name": "Iago Machado",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Iago Machado - Player profile",
+     "url": "https://www.transfermarkt.com/iago-machado/profil/spieler/1497709"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Iago Machado, 17 anni, SC Corinthians U20",
+     "url": "https://www.transfermarkt.com/iago-machado/profil/spieler/1497709"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defender",
+   "club": "Flamengo",
+   "league": "Brazil (Youth/Professional)",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 21,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 4
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "meutimao.com.br",
+     "url": "https://www.meutimao.com.br/noticias-do-corinthians/528696/executivo-do-corinthians-projeta-evolucao-de-zagueiro-promessa-do-sub-20",
+     "seen": "2026-03-16T13:13:57.556669"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/iago-machado/profil/spieler/1497709",
+     "seen": "2026-07-18T03:42:09.534103"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/iago-machado-3778185",
+     "seen": "2026-09-09T21:06:14.697256"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "senza_fonte_primary,eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-03-16T13:13:57.556669",
+   "last_seen": "2026-09-09T21:06:14.697256",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
      "The club appears in no source: re-verify before relying on it",
      "No documented performance stats"
     ],
@@ -28967,116 +29082,6 @@
      "No documented performance stats"
     ],
     "next_steps_en": [
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 16,
-   "name": "Iago Machado",
-   "age": 17,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Iago Machado - Player profile",
-     "url": "https://www.transfermarkt.com/iago-machado/profil/spieler/1497709"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Iago Machado, 17 anni, SC Corinthians U20",
-     "url": "https://www.transfermarkt.com/iago-machado/profil/spieler/1497709"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Defender",
-   "club": "Flamengo",
-   "league": "Brazil (Youth/Professional)",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 17,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 3
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "meutimao.com.br",
-     "url": "https://www.meutimao.com.br/noticias-do-corinthians/528696/executivo-do-corinthians-projeta-evolucao-de-zagueiro-promessa-do-sub-20",
-     "seen": "2026-03-16T13:13:57.556669"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/iago-machado/profil/spieler/1497709",
-     "seen": "2026-07-18T03:42:09.534103"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "senza_fonte_primary,eta_dichiarato,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-03-16T13:13:57.556669",
-   "last_seen": null,
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Very young (17 yo): plenty of room to develop",
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Look for a primary press/federation source to bring it to the full standard",
      "Get performance stats (match reports)"
     ]
    }
