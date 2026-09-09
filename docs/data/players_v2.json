@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-09T12:10:40.212902+00:00",
+ "generated_at": "2026-09-09T17:23:35.663296+00:00",
  "version": "1.0.0",
- "build": "6c8603a",
- "total": 439,
- "publishable": 219,
- "tracking": 220,
- "shown": 439,
+ "build": "3353296",
+ "total": 441,
+ "publishable": 220,
+ "tracking": 221,
+ "shown": 441,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -26489,6 +26489,108 @@
    }
   },
   {
+   "id": 441,
+   "name": "Lê Thắng Long",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 20 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "Lê Thắng Long ra mắt V.League trong màu áo CLB Bắc Ninh Tối 6/9, học viên lớp 2006 PVF",
+     "url": "https://pvf.com.vn/author/tran-hong/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "Lê Thắng Long ra mắt V.League trong màu áo CLB Bắc Ninh Tối 6/9, học viên lớp 2006 PVF",
+     "url": "https://pvf.com.vn/author/tran-hong/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "CLB Bắc Ninh",
+   "league": "V.League",
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 5,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/author/tran-hong/",
+     "seen": "2026-09-09T16:50:32.352773"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-09T16:50:32.352773",
+   "last_seen": "2026-09-09T16:50:32.352773",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da PVF Football Academy"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by PVF Football Academy"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 380,
    "name": "Abdul Mumin",
    "age": null,
@@ -32485,7 +32587,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 4,
    "sources": [
@@ -32522,7 +32624,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-08-28T15:47:13.194942",
-   "last_seen": "2026-09-06T15:40:50.095365",
+   "last_seen": "2026-09-09T16:50:32.352773",
    "selezione": {},
    "anomalie": [],
    "assessment": {
@@ -38973,6 +39075,136 @@
    }
   },
   {
+   "id": 282,
+   "name": "Clinton Lawani",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "Flying Eagles goalkeeper Clinton Lawani was alert and kept Nigeria in the game.",
+     "url": "https://thenff.com/wafu-b-u20-tourney-flying-eagles-edge-young-elephants-4-3-on-penalties-reach-final/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "goalkeeper",
+   "club": null,
+   "league": null,
+   "region": "Nigeria",
+   "gender": "male",
+   "score": 7,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/wafu-b-u20-tourney-flying-eagles-edge-young-elephants-4-3-on-penalties-reach-final/",
+     "seen": "2026-08-25T13:29:20.133485"
+    },
+    {
+     "domain": "transfermarkt.co",
+     "url": "https://www.transfermarkt.co/clinton-lawani/profil/spieler/1592393",
+     "seen": "2026-09-06T15:40:50.095365"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-25T13:29:20.133485",
+   "last_seen": "2026-09-09T16:50:32.352773",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/wafu-b-u20-tourney-flying-eagles-edge-young-elephants-4-3-on-penalties-reach-final/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 56,
    "name": "Esteval William",
    "age": null,
@@ -39427,136 +39659,6 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 282,
-   "name": "Clinton Lawani",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "Flying Eagles goalkeeper Clinton Lawani was alert and kept Nigeria in the game.",
-     "url": "https://thenff.com/wafu-b-u20-tourney-flying-eagles-edge-young-elephants-4-3-on-penalties-reach-final/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "goalkeeper",
-   "club": null,
-   "league": null,
-   "region": "Nigeria",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/wafu-b-u20-tourney-flying-eagles-edge-young-elephants-4-3-on-penalties-reach-final/",
-     "seen": "2026-08-25T13:29:20.133485"
-    },
-    {
-     "domain": "transfermarkt.co",
-     "url": "https://www.transfermarkt.co/clinton-lawani/profil/spieler/1592393",
-     "seen": "2026-09-06T15:40:50.095365"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-08-25T13:29:20.133485",
-   "last_seen": "2026-09-06T15:40:50.095365",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/wafu-b-u20-tourney-flying-eagles-edge-young-elephants-4-3-on-penalties-reach-final/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
      "Get performance stats (match reports)"
     ]
    }
@@ -41330,6 +41432,108 @@
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-08T05:03:28.858009",
    "last_seen": "2026-09-08T05:03:28.858009",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 440,
+   "name": "Bùi Vương Gia Bảo",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "Bùi Vương Gia Bảo dành danh vua phá lưới giải giao hữu quốc tế K League Asian 2026",
+     "url": "https://pvf.com.vn/author/tran-hong/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": "K League Asian",
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/author/tran-hong/",
+     "seen": "2026-09-09T16:50:32.352773"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-09T16:50:32.352773",
+   "last_seen": "2026-09-09T16:50:32.352773",
    "selezione": {},
    "anomalie": [],
    "assessment": {
