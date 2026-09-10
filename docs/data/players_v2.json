@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-10T12:22:14.094935+00:00",
+ "generated_at": "2026-09-10T17:21:21.231708+00:00",
  "version": "1.0.0",
- "build": "50e8dab",
+ "build": "3bd2e24",
  "total": 445,
  "publishable": 221,
  "tracking": 224,
@@ -27996,7 +27996,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 3,
    "sources": [
@@ -28028,7 +28028,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-01T16:50:33.171492",
-   "last_seen": "2026-09-04T20:57:00.044313",
+   "last_seen": "2026-09-10T16:36:59.499111",
    "selezione": {},
    "anomalie": [],
    "assessment": {
@@ -29133,7 +29133,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 3,
    "sources": [
@@ -29165,13 +29165,14 @@
    "review_flags": "senza_fonte_primary,eta_assente,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-03-03T12:58:52.925498",
-   "last_seen": "2026-09-04T20:57:00.044313",
+   "last_seen": "2026-09-10T16:36:59.499111",
    "selezione": {},
    "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
+     "3 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -29186,7 +29187,8 @@
     ],
     "pros_en": [
      "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
+     "3 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
