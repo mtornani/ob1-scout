@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-10T17:21:21.231708+00:00",
+ "generated_at": "2026-09-10T21:44:27.004313+00:00",
  "version": "1.0.0",
- "build": "3bd2e24",
+ "build": "400205b",
  "total": 445,
  "publishable": 221,
  "tracking": 224,
@@ -28572,7 +28572,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 3
+    "detection_count": 4
    },
    "n_sources": 3,
    "sources": [
@@ -28601,7 +28601,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-09-05T04:51:08.752162",
-   "last_seen": "2026-09-08T05:03:28.858009",
+   "last_seen": "2026-09-10T21:06:33.029207",
    "selezione": {},
    "anomalie": [],
    "assessment": {
@@ -29252,7 +29252,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 3,
    "sources": [
@@ -29284,14 +29284,15 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-09-07T21:43:15.578513",
-   "last_seen": "2026-09-07T21:43:15.578513",
+   "last_seen": "2026-09-10T21:06:33.029207",
    "selezione": {},
    "anomalie": [],
    "assessment": {
     "pros": [
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
+     "3 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -29303,7 +29304,8 @@
     "pros_en": [
      "Young (19 yo)",
      "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
+     "3 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
