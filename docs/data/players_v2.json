@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-09T21:30:41.202607+00:00",
+ "generated_at": "2026-09-10T05:48:47.457895+00:00",
  "version": "1.0.0",
- "build": "ad11091",
- "total": 441,
- "publishable": 220,
+ "build": "72c8028",
+ "total": 442,
+ "publishable": 221,
  "tracking": 221,
- "shown": 441,
+ "shown": 442,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -17002,6 +17002,116 @@
    }
   },
   {
+   "id": 442,
+   "name": "Rosanna Ventriglia",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "once substitute Rosanna Ventriglia finally broke the resistance, Italy struck twice more",
+     "url": "https://www.oceaniafootball.com/new-zealand-suffer-late-defeat-against-italy-at-fifa-u-20-womens-world-cup/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Soccerway",
+     "tipo": "aggregator",
+     "citazione": "Rosanna Ventriglia (Ternana) Stats",
+     "url": "https://www.soccerway.com/player/ventriglia-rosanna/t4N84J3F/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Ternana",
+   "league": null,
+   "region": "Pacific Islands",
+   "gender": "female",
+   "score": 11,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/new-zealand-suffer-late-defeat-against-italy-at-fifa-u-20-womens-world-cup/",
+     "seen": "2026-09-10T05:05:35.381205"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/ventriglia-rosanna/t4N84J3F/",
+     "seen": "2026-09-10T05:05:35.381205"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-10T05:05:35.381205",
+   "last_seen": "2026-09-10T05:05:35.381205",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Soccerway",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Soccerway",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "id": 211,
    "name": "Simón García",
    "age": 21,
@@ -28744,6 +28854,122 @@
    }
   },
   {
+   "id": 11,
+   "name": "Gustavo Gomes",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Soccerway",
+     "tipo": "aggregator",
+     "citazione": "Gustavo Gomes (Araguaina) Stats",
+     "url": "https://www.soccerway.com/player/gustavo-gomes/KErB2vi9/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Gustavo Rodrigues Gomes, 18 anni, Athletico Paranaense U20",
+     "url": "https://www.transfermarkt.us/gustavo-gomes/profil/spieler/1355816"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "CAM/CM",
+   "club": "Raio Amado",
+   "league": "Paulista Sub-17",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 19,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 4,
+    "detection_count": 4
+   },
+   "n_sources": 4,
+   "sources": [
+    {
+     "domain": "ge.globo.com",
+     "url": "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/06/athletico-renova-com-o-meia-gustavo-gomes-promessa-da-base.ghtml",
+     "seen": "2026-03-07T08:58:35.986874"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/gustavo-gomes/KErB2vi9/",
+     "seen": "2026-07-18T03:42:09.534103"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/gustavo-gomes/profil/spieler/1355816",
+     "seen": "2026-09-01T11:56:15.018093"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/gustavo-gomes-3394168",
+     "seen": "2026-09-10T05:05:35.381205"
+    }
+   ],
+   "n_sources_registro": 4,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-03-07T08:58:35.986874",
+   "last_seen": "2026-09-10T05:05:35.381205",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "4 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Minor context: potentially underpriced",
+     "4 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 2,
    "name": "Mateus Romero",
    "age": null,
@@ -28971,117 +29197,6 @@
     "next_steps_en": [
      "Look for a primary press/federation source to bring it to the full standard",
      "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 11,
-   "name": "Gustavo Gomes",
-   "age": 18,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Soccerway",
-     "tipo": "aggregator",
-     "citazione": "Gustavo Gomes (Araguaina) Stats",
-     "url": "https://www.soccerway.com/player/gustavo-gomes/KErB2vi9/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Gustavo Rodrigues Gomes, 18 anni, Athletico Paranaense U20",
-     "url": "https://www.transfermarkt.us/gustavo-gomes/profil/spieler/1355816"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "CAM/CM",
-   "club": "Raio Amado",
-   "league": "Paulista Sub-17",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 17,
-   "confidence": 0.91,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 3
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "ge.globo.com",
-     "url": "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/06/athletico-renova-com-o-meia-gustavo-gomes-promessa-da-base.ghtml",
-     "seen": "2026-03-07T08:58:35.986874"
-    },
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/gustavo-gomes/KErB2vi9/",
-     "seen": "2026-07-18T03:42:09.534103"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/gustavo-gomes/profil/spieler/1355816",
-     "seen": "2026-09-01T11:56:15.018093"
-    }
-   ],
-   "n_sources_registro": 3,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-03-07T08:58:35.986874",
-   "last_seen": "2026-09-01T11:56:15.018093",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Giovane (18 anni)",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Young (18 yo)",
-     "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
      "Get performance stats (match reports)"
     ]
    }
@@ -32697,14 +32812,14 @@
    "region": "Uruguay",
    "gender": "unknown",
    "score": 0,
-   "confidence": 0.73,
+   "confidence": 0.83,
    "breakdown": {
     "youth": 15.0,
     "production": 0.0,
     "asymmetry": -20.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 9
+    "detection_count": 10
    },
    "n_sources": 2,
    "sources": [
@@ -32726,7 +32841,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-08T11:38:42.619417",
+   "last_seen": "2026-09-10T05:05:35.381205",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -32754,7 +32869,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 9 rilevamenti"
+     "Segnale persistente: 10 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -32767,7 +32882,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "2 distinct domains mention him",
-     "Persistent signal: 9 detections"
+     "Persistent signal: 10 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -32827,7 +32942,7 @@
     "asymmetry": -20.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 2,
    "sources": [
@@ -32849,7 +32964,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-08T11:38:42.619417",
+   "last_seen": "2026-09-10T05:05:35.381205",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -32877,7 +32992,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -32890,7 +33005,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "2 distinct domains mention him",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
