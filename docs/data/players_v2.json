@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-11T17:14:08.863293+00:00",
+ "generated_at": "2026-09-11T21:34:39.142992+00:00",
  "version": "1.0.0",
- "build": "a56c064",
- "total": 457,
+ "build": "f0a1514",
+ "total": 458,
  "publishable": 223,
- "tracking": 234,
- "shown": 457,
+ "tracking": 235,
+ "shown": 458,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -31769,7 +31769,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 2,
    "sources": [
@@ -31796,14 +31796,14 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-08-21T13:26:54.585139",
-   "last_seen": "2026-09-08T16:48:07.988080",
+   "last_seen": "2026-09-11T21:10:53.214663",
    "selezione": {},
    "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -31815,7 +31815,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -33561,6 +33561,104 @@
    }
   },
   {
+   "id": 458,
+   "name": "Arda Güler",
+   "age": 21,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Arda Güler, 21 anni, Real Madrid",
+     "url": "https://www.transfermarkt.us/arda-guler/profil/spieler/861410"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Arda Güler, 21 anni, Real Madrid",
+     "url": "https://www.transfermarkt.us/arda-guler/profil/spieler/861410"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Arda Güler, 21 anni, Real Madrid",
+     "url": "https://www.transfermarkt.us/arda-guler/profil/spieler/861410"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "meia pela direita",
+   "club": "Real Madrid",
+   "league": "La Liga",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 0,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 6.5,
+    "asymmetry": -20.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/arda-guler/profil/spieler/861410",
+     "seen": "2026-09-11T21:10:53.214663"
+    },
+    {
+     "domain": "trivela.com.br",
+     "url": "https://trivela.com.br/espanha/arda-guler-mourinho-duvida-real-madrid-diomande-rodrygo/",
+     "seen": "2026-09-11T21:10:53.214663"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 1,
+    "assists": 1
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-11T21:10:53.214663",
+   "last_seen": "2026-09-11T21:10:53.214663",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol e 1 assist",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
+    ],
+    "next_steps": [],
+    "pros_en": [
+     "Documented output: 1 goals and 1 assists",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "High-visibility club/league: low asymmetry, competition likely"
+    ],
+    "next_steps_en": []
+   }
+  },
+  {
    "id": 5,
    "name": "André Maia",
    "age": null,
@@ -33676,6 +33774,274 @@
     ],
     "next_steps_en": [
      "Look for a primary press/federation source to bring it to the full standard",
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "id": 128,
+   "name": "Gabriela Delgadillo",
+   "age": 15,
+   "age_stato": "dedotto",
+   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-15)",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Así formó Colombia: Gabriela Delgadillo",
+     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dedotto",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Goalkeeper",
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "female",
+   "score": 22,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 20.0,
+    "production": 0.5,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 3,
+    "detection_count": 6
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/",
+     "seen": "2026-07-19T04:04:37.790338"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/delgadillo-gabriela/zg1jeVBs/",
+     "seen": "2026-08-23T07:11:16.983089"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/delgadillo-gabriela/zg1jeVBs/",
+     "seen": "2026-09-11T21:10:53.214663"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_dedotto,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-23T07:11:16.983089",
+   "last_seen": "2026-09-11T21:10:53.214663",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-15 (giugno 2026).",
+    "dal": "2026-06-17",
+    "al": "2026-06-17",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-06-17",
+      "categoria": "sub-15",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Molto giovane (15 anni): ampio margine di sviluppo",
+     "Continuità documentata: 1 presenze",
+     "3 domini distinti lo nominano",
+     "Segnale persistente: 6 rilevamenti"
+    ],
+    "cautions": [
+     "L'età (15) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-15)",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale"
+    ],
+    "pros_en": [
+     "Very young (15 yo): plenty of room to develop",
+     "Documented continuity: 1 appearances",
+     "3 distinct domains mention him",
+     "Persistent signal: 6 detections"
+    ],
+    "cautions_en": [
+     "The age (15) is not stated by any source: it is inferred from the tournament category (U-15)",
+     "The club appears in no source: re-verify before relying on it",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club"
+    ]
+   }
+  },
+  {
+   "id": 157,
+   "name": "Joy Palacios",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 16 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Joy Palacios",
+     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-17-conmebol-sub-17-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Midfielder",
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "female",
+   "score": 20,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.5,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-17-conmebol-sub-17-2026/",
+     "seen": "2026-07-20T04:23:18.085592"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/palacios-joy/W0br10r3/",
+     "seen": "2026-08-24T07:39:07.373183"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/palacios-joy/W0br10r3/",
+     "seen": "2026-09-11T21:10:53.214663"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-24T07:39:07.373183",
+   "last_seen": "2026-09-11T21:10:53.214663",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (giugno 2026).",
+    "dal": "2026-06-17",
+    "al": "2026-06-17",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-06-17",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-17-conmebol-sub-17-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
      "Verify the current club",
      "Confirm the birth year with the club"
     ]
@@ -36119,136 +36485,6 @@
    }
   },
   {
-   "id": 128,
-   "name": "Gabriela Delgadillo",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Así formó Colombia: Gabriela Delgadillo",
-     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "female",
-   "score": 8,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 5
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/",
-     "seen": "2026-07-19T04:04:37.790338"
-    },
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/delgadillo-gabriela/zg1jeVBs/",
-     "seen": "2026-08-23T07:11:16.983089"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-23T07:11:16.983089",
-   "last_seen": "2026-09-05T15:28:07.276981",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-15 (giugno 2026).",
-    "dal": "2026-06-17",
-    "al": "2026-06-17",
-    "categorie": [
-     "sub-15"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-06-17",
-      "categoria": "sub-15",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-15-iv-juegos-suramericanos-de-la-juventud-panama-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze",
-     "2 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances",
-     "2 distinct domains mention him",
-     "Persistent signal: 5 detections"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club"
-    ]
-   }
-  },
-  {
    "id": 138,
    "name": "Valentina Montenegro",
    "age": null,
@@ -36425,7 +36661,7 @@
     "asymmetry": 0.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 2,
    "sources": [
@@ -36452,7 +36688,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-08-24T02:08:37.281942",
-   "last_seen": "2026-09-08T21:20:18.348983",
+   "last_seen": "2026-09-11T21:10:53.214663",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (giugno 2026).",
@@ -36479,7 +36715,7 @@
     "pros": [
      "Continuità documentata: 1 presenze",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -36493,7 +36729,7 @@
     "pros_en": [
      "Documented continuity: 1 appearances",
      "2 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -39483,134 +39719,6 @@
     ],
     "fonte": "Federación Colombiana de Fútbol",
     "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U15."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club"
-    ]
-   }
-  },
-  {
-   "id": 157,
-   "name": "Joy Palacios",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Joy Palacios",
-     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-17-conmebol-sub-17-2026/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "female",
-   "score": 7,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-17-conmebol-sub-17-2026/",
-     "seen": "2026-07-20T04:23:18.085592"
-    },
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/palacios-joy/W0br10r3/",
-     "seen": "2026-08-24T07:39:07.373183"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-24T07:39:07.373183",
-   "last_seen": "2026-08-24T07:39:07.373183",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (giugno 2026).",
-    "dal": "2026-06-17",
-    "al": "2026-06-17",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-06-17",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/06/17/seleccion-colombia-femenina-sub-17-conmebol-sub-17-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
    "anomalie": [],
    "assessment": {
