@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-11T12:19:45.518929+00:00",
+ "generated_at": "2026-09-11T17:14:08.863293+00:00",
  "version": "1.0.0",
- "build": "b4b0488",
+ "build": "a56c064",
  "total": 457,
- "publishable": 222,
- "tracking": 235,
+ "publishable": 223,
+ "tracking": 234,
  "shown": 457,
  "tracking_capped": 0,
  "outcomes": {
@@ -17213,6 +17213,131 @@
      "Confirm the birth year with the club",
      "Request video or schedule a live viewing",
      "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 454,
+   "name": "Chen Ruilin",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "introducing Chen Ruilin for Xiao Yafei",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "BeSoccer",
+     "tipo": "aggregator",
+     "citazione": "Title: Profile Chen Ruilin today, Shanghai RCB W",
+     "url": "https://www.besoccer.com/player/chen-ruilin-3755825"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Shanghai RCB W",
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 11,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/",
+     "seen": "2026-09-11T11:42:44.704482"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/chen-ruilin-3755825",
+     "seen": "2026-09-11T16:41:35.582361"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-11T11:42:44.704482",
+   "last_seen": "2026-09-11T16:41:35.582361",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da BeSoccer",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by BeSoccer",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
     ]
    }
   },
@@ -39648,6 +39773,136 @@
    }
   },
   {
+   "id": 455,
+   "name": "Xiao Yafei",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 19 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "introducing Chen Ruilin for Xiao Yafei",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Midfielder",
+   "club": null,
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 7,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/",
+     "seen": "2026-09-11T11:42:44.704482"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/yafei-xiao/n3RiCCBU/",
+     "seen": "2026-09-11T16:41:35.582361"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-11T11:42:44.704482",
+   "last_seen": "2026-09-11T16:41:35.582361",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 56,
    "name": "Esteval William",
    "age": null,
@@ -42446,6 +42701,136 @@
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-11T11:42:44.704482",
    "last_seen": "2026-09-11T11:42:44.704482",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 456,
+   "name": "Queen Joseph",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "Queen Joseph(in the 58th minute)",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/",
+     "seen": "2026-09-11T11:42:44.704482"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/joseph-queen/MT5Tu6jU/",
+     "seen": "2026-09-11T16:41:35.582361"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-11T11:42:44.704482",
+   "last_seen": "2026-09-11T16:41:35.582361",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
@@ -46162,360 +46547,6 @@
     }
    },
    "position": "Goalkeeper",
-   "club": null,
-   "league": null,
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/",
-     "seen": "2026-09-11T11:42:44.704482"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-11T11:42:44.704482",
-   "last_seen": "2026-09-11T11:42:44.704482",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 454,
-   "name": "Chen Ruilin",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "introducing Chen Ruilin for Xiao Yafei",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/",
-     "seen": "2026-09-11T11:42:44.704482"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-11T11:42:44.704482",
-   "last_seen": "2026-09-11T11:42:44.704482",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 455,
-   "name": "Xiao Yafei",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "introducing Chen Ruilin for Xiao Yafei",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/",
-     "seen": "2026-09-11T11:42:44.704482"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-11T11:42:44.704482",
-   "last_seen": "2026-09-11T11:42:44.704482",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 456,
-   "name": "Queen Joseph",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "Queen Joseph(in the 58th minute)",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
    "club": null,
    "league": null,
    "region": "Nigeria",
