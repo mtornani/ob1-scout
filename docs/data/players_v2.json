@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-11T21:34:39.142992+00:00",
+ "generated_at": "2026-09-12T05:21:48.255278+00:00",
  "version": "1.0.0",
- "build": "f0a1514",
- "total": 458,
- "publishable": 223,
- "tracking": 235,
- "shown": 458,
+ "build": "89843ca",
+ "total": 465,
+ "publishable": 225,
+ "tracking": 240,
+ "shown": 465,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -26829,6 +26829,210 @@
    }
   },
   {
+   "id": 464,
+   "name": "Maikah Dau",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "Bula FC duo Maikah Dau and Delon Shankar both missing",
+     "url": "https://www.oceaniafootball.com/papua-new-guinea-and-samoa-finish-on-a-high-at-ofc-u-19-mens-championship/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "Bula FC duo Maikah Dau and Delon Shankar both missing",
+     "url": "https://www.oceaniafootball.com/papua-new-guinea-and-samoa-finish-on-a-high-at-ofc-u-19-mens-championship/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Bula FC",
+   "league": null,
+   "region": "Fiji",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/papua-new-guinea-and-samoa-finish-on-a-high-at-ofc-u-19-mens-championship/",
+     "seen": "2026-09-12T04:54:03.412363"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-12T04:54:03.412363",
+   "last_seen": "2026-09-12T04:54:03.412363",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da OFC — Oceania Football Confederation"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by OFC — Oceania Football Confederation"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 465,
+   "name": "Delon Shankar",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "Bula FC duo Maikah Dau and Delon Shankar both missing",
+     "url": "https://www.oceaniafootball.com/papua-new-guinea-and-samoa-finish-on-a-high-at-ofc-u-19-mens-championship/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "Bula FC duo Maikah Dau and Delon Shankar both missing",
+     "url": "https://www.oceaniafootball.com/papua-new-guinea-and-samoa-finish-on-a-high-at-ofc-u-19-mens-championship/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Bula FC",
+   "league": null,
+   "region": "Fiji",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/papua-new-guinea-and-samoa-finish-on-a-high-at-ofc-u-19-mens-championship/",
+     "seen": "2026-09-12T04:54:03.412363"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-12T04:54:03.412363",
+   "last_seen": "2026-09-12T04:54:03.412363",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da OFC — Oceania Football Confederation"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by OFC — Oceania Football Confederation"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 441,
    "name": "Lê Thắng Long",
    "age": null,
@@ -34604,6 +34808,135 @@
    }
   },
   {
+   "id": 460,
+   "name": "Cheikh Oumar Sy",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Fédération Sénégalaise de Football",
+     "tipo": "federation",
+     "citazione": "Cheikh Oumar Sy s’est ensuite illustré avec un doublé (31e et 37e)",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": "UFOA A U17",
+   "region": "Senegal",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 8.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/",
+     "seen": "2026-09-12T04:54:03.412363"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 2,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-12T04:54:03.412363",
+   "last_seen": "2026-09-12T04:54:03.412363",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 2 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 2 goals",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "id": 272,
    "name": "Pietra Lucci",
    "age": null,
@@ -35150,6 +35483,393 @@
     ],
     "pros_en": [
      "Documented output: 2 goals",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 459,
+   "name": "Souleymane Faye",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Fédération Sénégalaise de Football",
+     "tipo": "federation",
+     "citazione": "Souleymane Faye, auteur de l’ouverture du score à la 15e minute.",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": "UFOA A U17",
+   "region": "Senegal",
+   "gender": "male",
+   "score": 10,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/",
+     "seen": "2026-09-12T04:54:03.412363"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-12T04:54:03.412363",
+   "last_seen": "2026-09-12T04:54:03.412363",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 461,
+   "name": "Amadou Assane Seck",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Fédération Sénégalaise de Football",
+     "tipo": "federation",
+     "citazione": "Amadou Assane Seck a ajouté un quatrième but à la 50e minute",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": "UFOA A U17",
+   "region": "Senegal",
+   "gender": "male",
+   "score": 10,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/",
+     "seen": "2026-09-12T04:54:03.412363"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-12T04:54:03.412363",
+   "last_seen": "2026-09-12T04:54:03.412363",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 462,
+   "name": "Serigne Aliou Diop",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Fédération Sénégalaise de Football",
+     "tipo": "federation",
+     "citazione": "Serigne Aliou Diop ne parachève le succès sénégalais à la 82e minute.",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": "UFOA A U17",
+   "region": "Senegal",
+   "gender": "male",
+   "score": 10,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/",
+     "seen": "2026-09-12T04:54:03.412363"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-12T04:54:03.412363",
+   "last_seen": "2026-09-12T04:54:03.412363",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
      "Minor context: potentially underpriced"
     ],
     "cautions_en": [
@@ -46846,6 +47566,110 @@
      "Single source: not yet corroborated",
      "No documented performance stats",
      "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 463,
+   "name": "Nalau Moses",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "It took just five minutes for Nalau Moses to score the opener",
+     "url": "https://www.oceaniafootball.com/papua-new-guinea-and-samoa-finish-on-a-high-at-ofc-u-19-mens-championship/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Papua New Guinea",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/papua-new-guinea-and-samoa-finish-on-a-high-at-ofc-u-19-mens-championship/",
+     "seen": "2026-09-12T04:54:03.412363"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-12T04:54:03.412363",
+   "last_seen": "2026-09-12T04:54:03.412363",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
     ],
     "next_steps_en": [
      "Verify the current club",
