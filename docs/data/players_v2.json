@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-12T21:23:02.998964+00:00",
+ "generated_at": "2026-09-13T05:40:11.613129+00:00",
  "version": "1.0.0",
- "build": "a2ea8a4",
- "total": 471,
+ "build": "24e9691",
+ "total": 472,
  "publishable": 226,
- "tracking": 245,
- "shown": 471,
+ "tracking": 246,
+ "shown": 472,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -33413,7 +33413,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 8
+    "detection_count": 9
    },
    "n_sources": 4,
    "sources": [
@@ -33450,7 +33450,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-08-28T15:47:13.194942",
-   "last_seen": "2026-09-09T16:50:32.352773",
+   "last_seen": "2026-09-13T05:14:51.953564",
    "selezione": {},
    "anomalie": [],
    "assessment": {
@@ -40685,7 +40685,7 @@
     "asymmetry": 0.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 3
+    "detection_count": 4
    },
    "n_sources": 2,
    "sources": [
@@ -40712,7 +40712,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-08-25T13:29:20.133485",
-   "last_seen": "2026-09-09T16:50:32.352773",
+   "last_seen": "2026-09-13T05:14:51.953564",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
@@ -43980,6 +43980,108 @@
     "next_steps_en": [
      "Verify the current club",
      "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "id": 472,
+   "name": "Luis Ángel Malagón",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "portero",
+   "club": "América",
+   "league": "Primera División",
+   "region": "Mexico",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "record.com.mx",
+     "url": "https://www.record.com.mx/historia/luis-angel-malagon-salio-a-la-banca-en-el-clasico-joven-2026091305004604641",
+     "seen": "2026-09-13T05:14:51.953564"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-13T05:14:51.953564",
+   "last_seen": "2026-09-13T05:14:51.953564",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
     ]
    }
   },
