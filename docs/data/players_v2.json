@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-14T05:50:47.460559+00:00",
+ "generated_at": "2026-09-14T13:39:45.488433+00:00",
  "version": "1.0.0",
- "build": "cac32b1",
- "total": 488,
+ "build": "e8e63bb",
+ "total": 492,
  "publishable": 229,
- "tracking": 259,
- "shown": 488,
+ "tracking": 263,
+ "shown": 492,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -28976,6 +28976,179 @@
    }
   },
   {
+   "id": 490,
+   "name": "Natalie Collins",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 19 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "19-year-old Natalie Collins scored a late equalizer just minutes after coming off the bench.",
+     "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Philippine Women's National Football Team",
+   "league": "Asian Games",
+   "region": "Philippines",
+   "gender": "female",
+   "score": 24,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 24.0,
+    "n_sources": 1,
+    "detection_count": 6
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/",
+     "seen": "2026-09-14T13:13:27.808740"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-14T13:13:27.808740",
+   "last_seen": "2026-09-14T13:13:27.808740",
+   "selezione": {
+    "quante": 6,
+    "frase": "Convocato 6 volte da Philippine Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#breadcrumblist"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#listItem"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#organizationLogo"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#webpage"
+     }
+    ],
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 6 times by Philippine Football Federation."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "6 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "6 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/",
+      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting",
+      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#breadcrumblist",
+      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#listItem"
+     ],
+     "dati": {
+      "convocazioni": 6,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "id": 63,
    "name": "Tiago Camargo",
    "age": 17,
@@ -30056,7 +30229,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 3,
    "sources": [
@@ -30088,14 +30261,14 @@
    "review_flags": "senza_fonte_primary,eta_assente,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-03-03T12:58:52.925498",
-   "last_seen": "2026-09-10T16:36:59.499111",
+   "last_seen": "2026-09-14T13:13:27.808740",
    "selezione": {},
    "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -30111,7 +30284,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -34618,6 +34791,116 @@
    }
   },
   {
+   "id": 421,
+   "name": "Taimane Devoux",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 16 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "two goals in two first half minutes from Taimane Devoux proved enough for Samoa",
+     "url": "https://www.oceaniafootball.com/samoa-and-new-caledonia-kickstart-group-b-with-wins-in-honiara/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Midfielder",
+   "club": null,
+   "league": "OFC U-16 Women's Championship 2026",
+   "region": "Samoa",
+   "gender": "female",
+   "score": 21,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 8.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/samoa-and-new-caledonia-kickstart-group-b-with-wins-in-honiara/",
+     "seen": "2026-09-07T12:56:51.184114"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/devoux-taimane/n7qzskWa/",
+     "seen": "2026-09-14T13:13:27.808740"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 2,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-07T12:56:51.184114",
+   "last_seen": "2026-09-14T13:13:27.808740",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 2 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented output: 2 goals",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "id": 157,
    "name": "Joy Palacios",
    "age": null,
@@ -36565,115 +36848,6 @@
      "Age not confirmed"
     ],
     "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 421,
-   "name": "Taimane Devoux",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "two goals in two first half minutes from Taimane Devoux proved enough for Samoa",
-     "url": "https://www.oceaniafootball.com/samoa-and-new-caledonia-kickstart-group-b-with-wins-in-honiara/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": "OFC U-16 Women's Championship 2026",
-   "region": "Samoa",
-   "gender": "female",
-   "score": 10,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 8.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/samoa-and-new-caledonia-kickstart-group-b-with-wins-in-honiara/",
-     "seen": "2026-09-07T12:56:51.184114"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 2,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-07T12:56:51.184114",
-   "last_seen": "2026-09-07T12:56:51.184114",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 2 gol",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 2 goals",
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
     ]
@@ -45799,6 +45973,113 @@
    }
   },
   {
+   "id": 489,
+   "name": "Othmane Maamma",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Khel Now Football",
+     "tipo": "national_press",
+     "citazione": "Yassir Zabiri of Morocco celebrates scoring his team’s second goal with teammate Othmane Maamma during the FIFA U-20 World Cup",
+     "url": "https://khelnow.com/football/who-is-yassir-zabiri-moroccan-wonderkid-202609"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Watford FC",
+   "league": null,
+   "region": "Morocco",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "khelnow.com",
+     "url": "https://khelnow.com/football/who-is-yassir-zabiri-moroccan-wonderkid-202609",
+     "seen": "2026-09-14T13:13:27.808740"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-14T13:13:27.808740",
+   "last_seen": "2026-09-14T13:13:27.808740",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 129,
    "name": "Juana Flores",
    "age": null,
@@ -49502,6 +49783,238 @@
     ],
     "fonte": "Nigeria Football Federation",
     "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 491,
+   "name": "Lyudmila Karachik",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "denying Uzbekistan’s Lyudmila Karachik",
+     "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Philippines",
+   "gender": "female",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting",
+     "seen": "2026-09-14T13:13:27.808740"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-14T13:13:27.808740",
+   "last_seen": "2026-09-14T13:13:27.808740",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Philippine Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting"
+     }
+    ],
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 1 times by Philippine Football Federation."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 492,
+   "name": "Mehribon Egamberdieva",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "midfielder Mehribon Egamberdieva struck from the top of the box",
+     "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "midfielder",
+   "club": null,
+   "league": null,
+   "region": "Philippines",
+   "gender": "female",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting",
+     "seen": "2026-09-14T13:13:27.808740"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-14T13:13:27.808740",
+   "last_seen": "2026-09-14T13:13:27.808740",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Philippine Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting"
+     }
+    ],
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 1 times by Philippine Football Federation."
    },
    "anomalie": [],
    "assessment": {
