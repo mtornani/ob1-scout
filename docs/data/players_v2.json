@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-14T22:44:00.474263+00:00",
+ "generated_at": "2026-09-15T05:40:48.723527+00:00",
  "version": "1.0.0",
- "build": "5124c00",
+ "build": "8da2f91",
  "total": 499,
- "publishable": 234,
- "tracking": 265,
+ "publishable": 235,
+ "tracking": 264,
  "shown": 499,
  "tracking_capped": 0,
  "outcomes": {
@@ -17268,6 +17268,131 @@
    }
   },
   {
+   "id": 402,
+   "name": "Brenda Cardona",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Brenda Cardona, Selección Colombia Femenina Sub-20",
+     "url": "https://fcf.com.co/2026/09/04/tenemos-la-energia-al-100-y-con-toda-la-actitud-para-el-debut-brenda-cardona-seleccion-colombia-femenina-sub-20/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Soccerway",
+     "tipo": "aggregator",
+     "citazione": "Brenda Cardona (Santa Fe) Stats",
+     "url": "https://www.soccerway.com/player/cardona-brenda/WIgY01EB/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Santa Fe",
+   "league": "Selección Colombia Femenina Sub-20",
+   "region": "Colombia",
+   "gender": "female",
+   "score": 11,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/09/04/tenemos-la-energia-al-100-y-con-toda-la-actitud-para-el-debut-brenda-cardona-seleccion-colombia-femenina-sub-20/",
+     "seen": "2026-09-05T04:51:08.752162"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/cardona-brenda/WIgY01EB/",
+     "seen": "2026-09-15T05:11:18.442933"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "publishable": true,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-05T04:51:08.752162",
+   "last_seen": "2026-09-15T05:11:18.442933",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (settembre 2026).",
+    "dal": "2026-09-04",
+    "al": "2026-09-04",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-09-04",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/04/tenemos-la-energia-al-100-y-con-toda-la-actitud-para-el-debut-brenda-cardona-seleccion-colombia-femenina-sub-20/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Soccerway",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Soccerway",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing"
+    ]
+   }
+  },
+  {
    "id": 442,
    "name": "Rosanna Ventriglia",
    "age": null,
@@ -30276,7 +30401,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 3,
    "sources": [
@@ -30305,7 +30430,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-09-05T04:51:08.752162",
-   "last_seen": "2026-09-10T21:06:33.029207",
+   "last_seen": "2026-09-15T05:11:18.442933",
    "selezione": {},
    "anomalie": [],
    "assessment": {
@@ -31017,6 +31142,124 @@
    }
   },
   {
+   "id": 1,
+   "name": "Bruno Baldini",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Bruno Baldini - Player profile",
+     "url": "https://www.transfermarkt.com/bruno-baldini/profil/spieler/1362669"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Bruno Baldini, 19 anni, Athletico Paranaense U20",
+     "url": "https://www.transfermarkt.com/bruno-baldini/profil/spieler/1362669"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "ST",
+   "club": "Londrina",
+   "league": "Brasileirão Série B",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 15,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 4,
+    "detection_count": 6
+   },
+   "n_sources": 4,
+   "sources": [
+    {
+     "domain": "gauchazh.clicrbs.com.br",
+     "url": "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html",
+     "seen": null
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/bruno-baldini/profil/spieler/1362669",
+     "seen": "2026-07-28T09:18:44.128588"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/bruno-baldini/W6LUIGzI/",
+     "seen": "2026-09-07T21:43:15.578513"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/bruno-baldini/W6LUIGzI/",
+     "seen": "2026-09-15T05:11:18.442933"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-07T21:43:15.578513",
+   "last_seen": "2026-09-15T05:11:18.442933",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "4 domini distinti lo nominano",
+     "Segnale persistente: 6 rilevamenti"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Young (19 yo)",
+     "Minor context: potentially underpriced",
+     "4 distinct domains mention him",
+     "Persistent signal: 6 detections"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 96,
    "name": "Lucas Ferreira",
    "age": 20,
@@ -31133,119 +31376,6 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 1,
-   "name": "Bruno Baldini",
-   "age": 19,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Bruno Baldini - Player profile",
-     "url": "https://www.transfermarkt.com/bruno-baldini/profil/spieler/1362669"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Bruno Baldini, 19 anni, Athletico Paranaense U20",
-     "url": "https://www.transfermarkt.com/bruno-baldini/profil/spieler/1362669"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "ST",
-   "club": "Londrina",
-   "league": "Brasileirão Série B",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 14,
-   "confidence": 0.91,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 5
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "gauchazh.clicrbs.com.br",
-     "url": "https://gauchazh.clicrbs.com.br/esportes/noticia/2026/02/gremio-e-inter-disputam-a-contratacao-de-promessa-do-avai-cmm4z06us01ym014lm20ujdmz.html",
-     "seen": null
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/bruno-baldini/profil/spieler/1362669",
-     "seen": "2026-07-28T09:18:44.128588"
-    },
-    {
-     "domain": "us.soccerway.com",
-     "url": "https://us.soccerway.com/player/bruno-baldini/W6LUIGzI/",
-     "seen": "2026-09-07T21:43:15.578513"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-07T21:43:15.578513",
-   "last_seen": "2026-09-10T21:06:33.029207",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Giovane (19 anni)",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Young (19 yo)",
-     "Minor context: potentially underpriced",
-     "3 distinct domains mention him",
-     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -32253,7 +32383,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 8
+    "detection_count": 9
    },
    "n_sources": 3,
    "sources": [
@@ -32285,14 +32415,14 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-03-01T19:00:00.487652",
-   "last_seen": "2026-09-11T05:02:28.512947",
+   "last_seen": "2026-09-15T05:11:18.442933",
    "selezione": {},
    "anomalie": [],
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 8 rilevamenti"
+     "Segnale persistente: 9 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -32304,7 +32434,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 8 detections"
+     "Persistent signal: 9 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -36886,6 +37016,113 @@
    }
   },
   {
+   "id": 432,
+   "name": "Elias Jamet",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "found Elias Jamet and the forward prodded his effort past goalkeeper Usaia Tamaniqio",
+     "url": "https://www.oceaniafootball.com/tahiti-and-new-zealand-pick-up-wins-as-both-sides-head-for-the-semi-finals/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "forward",
+   "club": null,
+   "league": "OFC U-19 Men’s Championship",
+   "region": "Tahiti",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/tahiti-and-new-zealand-pick-up-wins-as-both-sides-head-for-the-semi-finals/",
+     "seen": "2026-09-08T05:03:28.858009"
+    },
+    {
+     "domain": "gr.soccerway.com",
+     "url": "https://gr.soccerway.com/player/jamet-elias/MB6tIQfD/",
+     "seen": "2026-09-15T05:11:18.442933"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-08T05:03:28.858009",
+   "last_seen": "2026-09-15T05:11:18.442933",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 460,
    "name": "Cheikh Oumar Sy",
    "age": null,
@@ -37011,6 +37248,131 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 424,
+   "name": "Daniela Ocampo",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Sintia Cabezas of Colombia runs with the ball under pressure from Daniela Ocampo of Costa Rica",
+     "url": "https://fcf.com.co/2026/09/07/copa-mundial-femenina-sub20-de-la-fifa-polonia-2026-colombia-vs-costa-rica-7-de-septiembre/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Midfielder",
+   "club": null,
+   "league": null,
+   "region": "Costa Rica",
+   "gender": "female",
+   "score": 11,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/09/07/copa-mundial-femenina-sub20-de-la-fifa-polonia-2026-colombia-vs-costa-rica-7-de-septiembre/",
+     "seen": "2026-09-07T21:43:15.578513"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/ocampo-fernandez-daniela/02XayER3/",
+     "seen": "2026-09-08T05:03:28.858009"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-07T21:43:15.578513",
+   "last_seen": "2026-09-15T05:11:18.442933",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (settembre 2026).",
+    "dal": "2026-09-07",
+    "al": "2026-09-07",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-09-07",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/07/copa-mundial-femenina-sub20-de-la-fifa-polonia-2026-colombia-vs-costa-rica-7-de-septiembre/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
     ]
    }
   },
@@ -39173,131 +39535,6 @@
      "Age not confirmed"
     ],
     "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 424,
-   "name": "Daniela Ocampo",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Sintia Cabezas of Colombia runs with the ball under pressure from Daniela Ocampo of Costa Rica",
-     "url": "https://fcf.com.co/2026/09/07/copa-mundial-femenina-sub20-de-la-fifa-polonia-2026-colombia-vs-costa-rica-7-de-septiembre/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Midfielder",
-   "club": null,
-   "league": null,
-   "region": "Costa Rica",
-   "gender": "female",
-   "score": 9,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/09/07/copa-mundial-femenina-sub20-de-la-fifa-polonia-2026-colombia-vs-costa-rica-7-de-septiembre/",
-     "seen": "2026-09-07T21:43:15.578513"
-    },
-    {
-     "domain": "us.soccerway.com",
-     "url": "https://us.soccerway.com/player/ocampo-fernandez-daniela/02XayER3/",
-     "seen": "2026-09-08T05:03:28.858009"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-07T21:43:15.578513",
-   "last_seen": "2026-09-08T05:03:28.858009",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (settembre 2026).",
-    "dal": "2026-09-07",
-    "al": "2026-09-07",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-09-07",
-      "categoria": "sub-20",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/09/07/copa-mundial-femenina-sub20-de-la-fifa-polonia-2026-colombia-vs-costa-rica-7-de-septiembre/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
      "Confirm the birth year with the club",
      "Get performance stats (match reports)"
     ]
@@ -41736,128 +41973,6 @@
     ],
     "fonte": "Ghana Football Association",
     "frase_en": "Called up 1 times by Ghana Football Association, U19."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 402,
-   "name": "Brenda Cardona",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Brenda Cardona, Selección Colombia Femenina Sub-20",
-     "url": "https://fcf.com.co/2026/09/04/tenemos-la-energia-al-100-y-con-toda-la-actitud-para-el-debut-brenda-cardona-seleccion-colombia-femenina-sub-20/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": "Selección Colombia Femenina Sub-20",
-   "region": "Colombia",
-   "gender": "female",
-   "score": 8,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/09/04/tenemos-la-energia-al-100-y-con-toda-la-actitud-para-el-debut-brenda-cardona-seleccion-colombia-femenina-sub-20/",
-     "seen": "2026-09-05T04:51:08.752162"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-05T04:51:08.752162",
-   "last_seen": "2026-09-05T04:51:08.752162",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (settembre 2026).",
-    "dal": "2026-09-04",
-    "al": "2026-09-04",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-09-04",
-      "categoria": "sub-20",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/09/04/tenemos-la-energia-al-100-y-con-toda-la-actitud-para-el-debut-brenda-cardona-seleccion-colombia-femenina-sub-20/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
    },
    "anomalie": [],
    "assessment": {
@@ -45263,108 +45378,6 @@
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 432,
-   "name": "Elias Jamet",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "found Elias Jamet and the forward prodded his effort past goalkeeper Usaia Tamaniqio",
-     "url": "https://www.oceaniafootball.com/tahiti-and-new-zealand-pick-up-wins-as-both-sides-head-for-the-semi-finals/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "forward",
-   "club": null,
-   "league": "OFC U-19 Men’s Championship",
-   "region": "Tahiti",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/tahiti-and-new-zealand-pick-up-wins-as-both-sides-head-for-the-semi-finals/",
-     "seen": "2026-09-08T05:03:28.858009"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-08T05:03:28.858009",
-   "last_seen": "2026-09-08T05:03:28.858009",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
