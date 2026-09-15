@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-15T17:39:11.574378+00:00",
+ "generated_at": "2026-09-15T22:12:20.883245+00:00",
  "version": "1.0.0",
- "build": "30104ce",
+ "build": "5e3a041",
  "total": 501,
- "publishable": 236,
- "tracking": 265,
+ "publishable": 237,
+ "tracking": 264,
  "shown": 501,
  "tracking_capped": 0,
  "outcomes": {
@@ -17628,6 +17628,130 @@
    }
   },
   {
+   "id": 459,
+   "name": "Souleymane Faye",
+   "age": 23,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Fédération Sénégalaise de Football",
+     "tipo": "federation",
+     "citazione": "Souleymane Faye, auteur de l’ouverture du score à la 15e minute.",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Souleymane Faye, 23 anni, FC Lorient",
+     "url": "https://www.transfermarkt.us/souleymane-faye/profil/spieler/666971"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Souleymane Faye, 23 anni, FC Lorient",
+     "url": "https://www.transfermarkt.us/souleymane-faye/profil/spieler/666971"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Right Winger",
+   "club": "FC Lorient",
+   "league": "UFOA A U17",
+   "region": "Senegal",
+   "gender": "male",
+   "score": 11,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/",
+     "seen": "2026-09-12T04:54:03.412363"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/souleymane-faye/profil/spieler/666971",
+     "seen": "2026-09-15T21:39:54.770999"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": true,
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-12T04:54:03.412363",
+   "last_seen": "2026-09-15T21:39:54.770999",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U17."
+   },
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [],
+    "next_steps": [
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [],
+    "next_steps_en": [
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "id": 484,
    "name": "Dejaun Naidoo",
    "age": 19,
@@ -34256,7 +34380,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 3,
    "sources": [
@@ -34283,14 +34407,14 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-08-21T13:26:54.585139",
-   "last_seen": "2026-09-08T21:20:18.348983",
+   "last_seen": "2026-09-15T21:39:54.770999",
    "selezione": {},
    "anomalie": [],
    "assessment": {
     "pros": [
      "Nome e club scritti da Soccerway",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -34302,7 +34426,7 @@
     "pros_en": [
      "Name and club stated by Soccerway",
      "3 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -38083,135 +38207,6 @@
    }
   },
   {
-   "id": 459,
-   "name": "Souleymane Faye",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Fédération Sénégalaise de Football",
-     "tipo": "federation",
-     "citazione": "Souleymane Faye, auteur de l’ouverture du score à la 15e minute.",
-     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": "UFOA A U17",
-   "region": "Senegal",
-   "gender": "male",
-   "score": 10,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 4.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fsfoot.sn",
-     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/",
-     "seen": "2026-09-12T04:54:03.412363"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-12T04:54:03.412363",
-   "last_seen": "2026-09-12T04:54:03.412363",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-17.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Fédération Sénégalaise de Football",
-      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
-     }
-    ],
-    "fonte": "Fédération Sénégalaise de Football",
-    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U17."
-   },
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals",
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "id": 461,
    "name": "Amadou Assane Seck",
    "age": null,
@@ -40223,7 +40218,7 @@
     "asymmetry": 0.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 2,
    "sources": [
@@ -40250,7 +40245,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-08-24T02:08:37.281942",
-   "last_seen": "2026-09-11T21:10:53.214663",
+   "last_seen": "2026-09-15T21:39:54.770999",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (giugno 2026).",
@@ -40277,7 +40272,7 @@
     "pros": [
      "Continuità documentata: 1 presenze",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -40291,7 +40286,7 @@
     "pros_en": [
      "Documented continuity: 1 appearances",
      "2 distinct domains mention him",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
