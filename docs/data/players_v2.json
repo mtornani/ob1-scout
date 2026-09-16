@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-16T05:28:28.190767+00:00",
+ "generated_at": "2026-09-16T12:34:52.920589+00:00",
  "version": "1.0.0",
- "build": "7369bef",
- "total": 501,
+ "build": "59d9bd2",
+ "total": 502,
  "publishable": 237,
- "tracking": 264,
- "shown": 501,
+ "tracking": 265,
+ "shown": 502,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -43490,7 +43490,7 @@
     "asymmetry": 0.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 2,
    "sources": [
@@ -43517,7 +43517,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-08-31T08:50:48.742491",
-   "last_seen": "2026-09-12T15:45:19.135112",
+   "last_seen": "2026-09-16T11:57:11.998665",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
@@ -43542,7 +43542,8 @@
    "anomalie": [],
    "assessment": {
     "pros": [
-     "2 domini distinti lo nominano"
+     "2 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -43556,7 +43557,8 @@
      "Recuperare statistiche di rendimento (referti gara)"
     ],
     "pros_en": [
-     "2 distinct domains mention him"
+     "2 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -47174,6 +47176,108 @@
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-14T13:13:27.808740",
    "last_seen": "2026-09-14T13:13:27.808740",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 502,
+   "name": "Ricardo Oliveira",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Santos",
+   "league": "Copinha",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "ge.globo.com",
+     "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2026/01/04/inspirado-em-fenomeno-e-ricardo-oliveira-joia-da-base-do-santos-busca-se-firmar-na-copinha.ghtml",
+     "seen": "2026-09-16T11:57:11.998665"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-16T11:57:11.998665",
+   "last_seen": "2026-09-16T11:57:11.998665",
    "selezione": {},
    "anomalie": [],
    "assessment": {
