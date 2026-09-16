@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-16T12:34:52.920589+00:00",
+ "generated_at": "2026-09-16T17:33:40.462420+00:00",
  "version": "1.0.0",
- "build": "59d9bd2",
- "total": 502,
+ "build": "c0406e3",
+ "total": 503,
  "publishable": 237,
- "tracking": 265,
- "shown": 502,
+ "tracking": 266,
+ "shown": 503,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -35528,6 +35528,107 @@
      "High-visibility club/league: low asymmetry, competition likely"
     ],
     "next_steps_en": []
+   }
+  },
+  {
+   "id": 503,
+   "name": "Lewis Koumas",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 20 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "attacker",
+   "club": "Liverpool",
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 0,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": -20.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "trivela.com.br",
+     "url": "https://trivela.com.br/inglaterra/liverpool-iraola-elogios-lewis-koumas/",
+     "seen": "2026-09-16T17:13:35.864048"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0
+   },
+   "publishable": false,
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_assente,club_assente,gia_coperto_da_tutti",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-16T17:13:35.864048",
+   "last_seen": "2026-09-16T17:13:35.864048",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
    }
   },
   {
