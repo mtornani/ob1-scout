@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-17T18:28:50.184379+00:00",
+ "generated_at": "2026-09-17T19:32:52.238985+00:00",
  "version": "1.0.0",
- "build": "d49423f",
+ "build": "f2cb853",
  "total": 520,
- "publishable": 93,
- "tracking": 427,
+ "publishable": 94,
+ "tracking": 426,
  "shown": 520,
  "tracking_capped": 0,
  "outcomes": {
@@ -26,9 +26,9 @@
   {
    "id": 88,
    "name": "Juan José Fori Viveros",
-   "age": 16,
-   "age_stato": "dedotto",
-   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-16)",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
    "claims": {
     "nome": {
      "stato": "dichiarato",
@@ -45,11 +45,11 @@
      "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
     },
     "eta": {
-     "stato": "dedotto",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Juan José Fori Viveros, 17 anni, CD Estudiantil",
+     "url": "https://www.transfermarkt.com/juan-fori/profil/spieler/1531673"
     },
     "stats": {
      "stato": "assente",
@@ -59,20 +59,20 @@
      "url": ""
     }
    },
-   "position": null,
+   "position": "Centre-Back",
    "club": "C.D Estudiantil",
    "league": null,
    "region": "Colombia",
    "gender": "male",
-   "score": 37,
+   "score": 35,
    "confidence": 0.73,
    "breakdown": {
-    "youth": 18.0,
+    "youth": 15.0,
     "production": 0.0,
     "asymmetry": 8.0,
     "selection": 25.0,
     "n_sources": 2,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 2,
    "sources": [
@@ -95,7 +95,7 @@
     "minutes": 0
    },
    "identity_complete": true,
-   "review_flags": "eta_dedotto,club_dichiarato",
+   "review_flags": "eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": null,
    "last_seen": null,
@@ -164,13 +164,12 @@
    "publishable": true,
    "assessment": {
     "pros": [
-     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da Federación Colombiana de Fútbol",
      "2 domini distinti lo nominano"
     ],
     "cautions": [
-     "L'età (16) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-16)",
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
@@ -179,13 +178,12 @@
      "Telefonata al club: conferma anagrafica e status contrattuale"
     ],
     "pros_en": [
-     "Very young (16 yo): plenty of room to develop",
+     "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by Federación Colombiana de Fútbol",
      "2 distinct domains mention him"
     ],
     "cautions_en": [
-     "The age (16) is not stated by any source: it is inferred from the tournament category (U-16)",
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -1177,8 +1175,8 @@
    "id": 103,
    "name": "Jhon Keiner Sevillano Torres",
    "age": 17,
-   "age_stato": "dedotto",
-   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
+   "age_stato": "dichiarato",
+   "age_nota": "",
    "claims": {
     "nome": {
      "stato": "dichiarato",
@@ -1195,11 +1193,11 @@
      "url": "https://fcf.com.co/2025/02/06/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-febrero-2025/"
     },
     "eta": {
-     "stato": "dedotto",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Jhon Keiner Sevillano, 17 anni, Atlético Nacional U20",
+     "url": "https://www.transfermarkt.com/jhon-keiner-sevillano/profil/spieler/1147449"
     },
     "stats": {
      "stato": "assente",
@@ -1209,7 +1207,7 @@
      "url": ""
     }
    },
-   "position": null,
+   "position": "Left Winger",
    "club": "Atl. Nacional",
    "league": null,
    "region": "Colombia",
@@ -1222,7 +1220,7 @@
     "asymmetry": 8.0,
     "selection": 14.0,
     "n_sources": 2,
-    "detection_count": 3
+    "detection_count": 4
    },
    "n_sources": 2,
    "sources": [
@@ -1245,7 +1243,7 @@
     "minutes": 0
    },
    "identity_complete": true,
-   "review_flags": "eta_dedotto,club_dichiarato",
+   "review_flags": "eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": null,
    "last_seen": null,
@@ -1305,7 +1303,6 @@
      "2 domini distinti lo nominano"
     ],
     "cautions": [
-     "L'età (17) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-17)",
      "Ultima convocazione 19 mesi fa (febbraio 2025): la serie si è interrotta, da capire perché",
      "Nessuna statistica di rendimento documentata"
     ],
@@ -1321,7 +1318,6 @@
      "2 distinct domains mention him"
     ],
     "cautions_en": [
-     "The age (17) is not stated by any source: it is inferred from the tournament category (U-17)",
      "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why",
      "No documented performance stats"
     ],
@@ -1637,6 +1633,163 @@
     ],
     "cautions_en": [
      "The age (17) is not stated by any source: it is inferred from the tournament category (U-17)",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 113,
+   "name": "Jorman Camilo Mendoza Garrido",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Jorman Camilo Mendoza Garrido – Envigado F.C.",
+     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Jorman Camilo Mendoza Garrido – Envigado F.C.",
+     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Jorman Mendoza, 18 anni, Envigado FC U20",
+     "url": "https://www.transfermarkt.com/jorman-mendoza/profil/spieler/1254488"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Goalkeeper",
+   "club": "Envigado F.C.",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 24,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 2,
+    "detection_count": 4
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
+     "seen": "2026-07-18T08:21:52.280337"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/jorman-mendoza/profil/spieler/1254488",
+     "seen": "2026-07-19T14:03:01.513039"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": null,
+   "last_seen": null,
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra settembre 2024 e gennaio 2025, Sub-17.",
+    "dal": "2024-09-17",
+    "al": "2025-01-14",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 4,
+    "eventi": [
+     {
+      "data": "2024-09-17",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/"
+     },
+     {
+      "data": "2025-01-14",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between September 2024 and January 2025, U17."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
+      "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Ultima convocazione 20 mesi fa (gennaio 2025): la serie si è interrotta, da capire perché",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "Last call-up 20 months ago (January 2025): the run has stopped — worth finding out why",
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -12503,161 +12656,6 @@
    }
   },
   {
-   "id": 113,
-   "name": "Jorman Camilo Mendoza Garrido",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 16 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Jorman Camilo Mendoza Garrido – Envigado F.C.",
-     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Jorman Camilo Mendoza Garrido – Envigado F.C.",
-     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Goalkeeper",
-   "club": "Envigado F.C.",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 29,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 18.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 14.0,
-    "n_sources": 2,
-    "detection_count": 3
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/",
-     "seen": "2026-07-18T08:21:52.280337"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/jorman-mendoza/profil/spieler/1254488",
-     "seen": "2026-07-19T14:03:01.513039"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "eta_assente,club_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
-   "selezione": {
-    "quante": 2,
-    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra settembre 2024 e gennaio 2025, Sub-17.",
-    "dal": "2024-09-17",
-    "al": "2025-01-14",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 4,
-    "eventi": [
-     {
-      "data": "2024-09-17",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/"
-     },
-     {
-      "data": "2025-01-14",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between September 2024 and January 2025, U17."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://fcf.com.co/2024/09/17/convocatoria-seleccion-colombia-masculina-sub-17-para-el-conmebol-sudamericano-2024/",
-      "https://fcf.com.co/2025/01/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-enero-2025/"
-     ],
-     "dati": {
-      "convocazioni": 2,
-      "tipi_fonte": [
-       "aggregator",
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Federación Colombiana de Fútbol",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Ultima convocazione 20 mesi fa (gennaio 2025): la serie si è interrotta, da capire perché",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by Federación Colombiana de Fútbol",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "Last call-up 20 months ago (January 2025): the run has stopped — worth finding out why",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 105,
    "name": "Edmilson Yosue Herazo Torres",
    "age": 17,
@@ -13055,6 +13053,128 @@
    }
   },
   {
+   "id": 63,
+   "name": "Tiago Camargo",
+   "age": 16,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Tiago Camargo - Player profile",
+     "url": "https://www.transfermarkt.us/tiago-camargo/profil/spieler/1531329"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Tiago Camargo Monteiro, 16 anni, Estoril Praia U17",
+     "url": "https://www.transfermarkt.us/tiago-camargo/profil/spieler/1531329"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "CAM/RW",
+   "club": "Grupo Desportivo Estoril Praia",
+   "league": "Primeira Liga (Portugal)",
+   "region": "Portugal",
+   "gender": "male",
+   "score": 26,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 4,
+    "detection_count": 8
+   },
+   "n_sources": 4,
+   "sources": [
+    {
+     "domain": "jovenspromessas.pt",
+     "url": "https://jovenspromessas.pt/",
+     "seen": "2026-07-05T03:23:40.915578"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/tiago-camargo/profil/spieler/1531329",
+     "seen": "2026-07-18T03:42:09.534103"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/camargo/8nPk6Ved/",
+     "seen": "2026-08-29T16:50:29.768229"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/tiago-camargo-3415888",
+     "seen": "2026-09-01T05:30:45.135627"
+    }
+   ],
+   "n_sources_registro": 4,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "senza_fonte_primary,eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-07-05T03:23:40.915578",
+   "last_seen": null,
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "4 domini distinti lo nominano",
+     "Segnale persistente: 8 rilevamenti"
+    ],
+    "cautions": [
+     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Very young (16 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "4 distinct domains mention him",
+     "Persistent signal: 8 detections"
+    ],
+    "cautions_en": [
+     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Look for a primary press/federation source to bring it to the full standard",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 490,
    "name": "Natalie Collins",
    "age": null,
@@ -13224,130 +13344,6 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 63,
-   "name": "Tiago Camargo",
-   "age": 17,
-   "age_stato": "dedotto",
-   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Tiago Camargo - Player profile",
-     "url": "https://www.transfermarkt.us/tiago-camargo/profil/spieler/1531329"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dedotto",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "CAM/RW",
-   "club": "Grupo Desportivo Estoril Praia",
-   "league": "Primeira Liga (Portugal)",
-   "region": "Portugal",
-   "gender": "male",
-   "score": 23,
-   "confidence": 1.0,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 4,
-    "detection_count": 7
-   },
-   "n_sources": 4,
-   "sources": [
-    {
-     "domain": "jovenspromessas.pt",
-     "url": "https://jovenspromessas.pt/",
-     "seen": "2026-07-05T03:23:40.915578"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/tiago-camargo/profil/spieler/1531329",
-     "seen": "2026-07-18T03:42:09.534103"
-    },
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/camargo/8nPk6Ved/",
-     "seen": "2026-08-29T16:50:29.768229"
-    },
-    {
-     "domain": "besoccer.com",
-     "url": "https://www.besoccer.com/player/tiago-camargo-3415888",
-     "seen": "2026-09-01T05:30:45.135627"
-    }
-   ],
-   "n_sources_registro": 4,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "senza_fonte_primary,eta_dedotto,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-07-05T03:23:40.915578",
-   "last_seen": "2026-09-17T11:58:50.570866",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "4 domini distinti lo nominano",
-     "Segnale persistente: 7 rilevamenti"
-    ],
-    "cautions": [
-     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
-     "L'età (17) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-17)",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Very young (17 yo): plenty of room to develop",
-     "Minor context: potentially underpriced",
-     "4 distinct domains mention him",
-     "Persistent signal: 7 detections"
-    ],
-    "cautions_en": [
-     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
-     "The age (17) is not stated by any source: it is inferred from the tournament category (U-17)",
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Look for a primary press/federation source to bring it to the full standard",
-     "Get performance stats (match reports)"
     ]
    }
   },
@@ -13560,7 +13556,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 3,
    "sources": [
@@ -13591,7 +13587,7 @@
    "review_flags": "senza_fonte_primary,eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-03-16T13:13:57.556669",
-   "last_seen": "2026-09-17T05:10:14.637676",
+   "last_seen": null,
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -13600,7 +13596,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -13615,7 +13611,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -15222,121 +15218,6 @@
     ],
     "next_steps_en": [
      "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 2,
-   "name": "Mateus Romero",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Mateus Romero - Player profile",
-     "url": "https://www.transfermarkt.us/mateus-romero/profil/spieler/1224587"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "ST",
-   "club": "Santos",
-   "league": "Copa São Paulo de Futebol Júnior (giovanile)",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 17,
-   "confidence": 0.91,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 7
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "itatiaia.com.br",
-     "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-mineiro/atletico/atletico-encaminha-contratacao-de-jogador-semifinalista-da-copinha-para-o-sub-20",
-     "seen": null
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/mateus-romero/profil/spieler/1224587",
-     "seen": "2026-07-16T15:34:33.049129"
-    },
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/romero-mateus/IL69dpAd/",
-     "seen": "2026-08-29T16:50:29.768229"
-    }
-   ],
-   "n_sources_registro": 3,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-29T16:50:29.768229",
-   "last_seen": "2026-09-10T11:42:46.179929",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano",
-     "Segnale persistente: 7 rilevamenti"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "3 distinct domains mention him",
-     "Persistent signal: 7 detections"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
      "Get performance stats (match reports)"
     ]
    }
@@ -18836,114 +18717,6 @@
    }
   },
   {
-   "id": 14,
-   "name": "Kaique Zizero",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Kaique Zizero - Player profile",
-     "url": "https://www.transfermarkt.com/kaique-zizero/profil/spieler/1355395"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Attaccante",
-   "club": "Athletico-PR U20",
-   "league": "Brazilian Youth Leagues",
-   "region": "South America",
-   "gender": "male",
-   "score": 14,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 3
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "ge.globo.com",
-     "url": "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/13/athletico-vai-receber-dois-jogadores-do-america-mg-na-negociacao-por-mastriani-saiba-quem-sao.ghtml",
-     "seen": "2026-03-14T02:02:03.134054"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/kaique-zizero/profil/spieler/1355395",
-     "seen": "2026-07-17T14:13:24.320053"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-03-14T02:02:03.134054",
-   "last_seen": null,
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 29,
    "name": "João Cruz",
    "age": null,
@@ -20658,6 +20431,117 @@
    }
   },
   {
+   "id": 2,
+   "name": "Mateus Romero",
+   "age": 20,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Mateus Romero - Player profile",
+     "url": "https://www.transfermarkt.us/mateus-romero/profil/spieler/1224587"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Mateus Romero, 20 anni, Atlético Mineiro U20",
+     "url": "https://www.transfermarkt.us/mateus-romero/profil/spieler/1224587"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "ST",
+   "club": "Santos",
+   "league": "Copa São Paulo de Futebol Júnior (giovanile)",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 11,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 8
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "itatiaia.com.br",
+     "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-mineiro/atletico/atletico-encaminha-contratacao-de-jogador-semifinalista-da-copinha-para-o-sub-20",
+     "seen": null
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/mateus-romero/profil/spieler/1224587",
+     "seen": "2026-07-16T15:34:33.049129"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/romero-mateus/IL69dpAd/",
+     "seen": "2026-08-29T16:50:29.768229"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-29T16:50:29.768229",
+   "last_seen": null,
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "3 domini distinti lo nominano",
+     "Segnale persistente: 8 rilevamenti"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "3 distinct domains mention him",
+     "Persistent signal: 8 detections"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 4,
    "name": "Ryan Evaristo",
    "age": null,
@@ -20881,6 +20765,112 @@
    }
   },
   {
+   "id": 14,
+   "name": "Kaique Zizero",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Kaique Zizero - Player profile",
+     "url": "https://www.transfermarkt.com/kaique-zizero/profil/spieler/1355395"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Kaique Zizero, 19 anni, América Mineiro U20",
+     "url": "https://www.transfermarkt.com/kaique-zizero/profil/spieler/1355395"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attaccante",
+   "club": "Athletico-PR U20",
+   "league": "Brazilian Youth Leagues",
+   "region": "South America",
+   "gender": "male",
+   "score": 11,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 4
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "ge.globo.com",
+     "url": "https://ge.globo.com/pr/futebol/times/athletico-pr/noticia/2026/03/13/athletico-vai-receber-dois-jogadores-do-america-mg-na-negociacao-por-mastriani-saiba-quem-sao.ghtml",
+     "seen": "2026-03-14T02:02:03.134054"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/kaique-zizero/profil/spieler/1355395",
+     "seen": "2026-07-17T14:13:24.320053"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-03-14T02:02:03.134054",
+   "last_seen": null,
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Young (19 yo)",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 25,
    "name": "Luis Benedetti",
    "age": null,
@@ -21037,7 +21027,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 3
+    "detection_count": 4
    },
    "n_sources": 2,
    "sources": [
@@ -25777,6 +25767,348 @@
    }
   },
   {
+   "id": 504,
+   "name": "Emille Witbooi",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "the Cape Town City duo of Emille Witbooi and Cayden Fortune due to club commitments",
+     "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "the Cape Town City duo of Emille Witbooi and Cayden Fortune due to club commitments",
+     "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Cape Town City",
+   "league": null,
+   "region": "South Africa",
+   "gender": "male",
+   "score": 21,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 24.0,
+    "n_sources": 1,
+    "detection_count": 5
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "safa.net",
+     "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/",
+     "seen": "2026-09-16T21:34:36.164940"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-17T18:48:57.202274",
+   "selezione": {
+    "quante": 5,
+    "frase": "Convocato 5 volte da South African Football Association, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#article"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#breadcrumb"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#primaryima"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#primaryimage"
+     }
+    ],
+    "fonte": "South African Football Association",
+    "frase_en": "Called up 5 times by South African Football Association, U20."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "5 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "5 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/",
+      "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#article",
+      "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#breadcrumb",
+      "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#primaryima"
+     ],
+     "dati": {
+      "convocazioni": 5,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da South African Football Association"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by South African Football Association"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 505,
+   "name": "Cayden Fortune",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "the Cape Town City duo of Emille Witbooi and Cayden Fortune due to club commitments",
+     "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "the Cape Town City duo of Emille Witbooi and Cayden Fortune due to club commitments",
+     "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Cape Town City",
+   "league": null,
+   "region": "South Africa",
+   "gender": "male",
+   "score": 21,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 24.0,
+    "n_sources": 1,
+    "detection_count": 5
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "safa.net",
+     "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/",
+     "seen": "2026-09-16T21:34:36.164940"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-17T18:48:57.202274",
+   "selezione": {
+    "quante": 5,
+    "frase": "Convocato 5 volte da South African Football Association, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#article"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#breadcrumb"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#primaryima"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#primaryimage"
+     }
+    ],
+    "fonte": "South African Football Association",
+    "frase_en": "Called up 5 times by South African Football Association, U20."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "5 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "5 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/",
+      "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#article",
+      "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#breadcrumb",
+      "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#primaryima"
+     ],
+     "dati": {
+      "convocazioni": 5,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da South African Football Association"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by South African Football Association"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 157,
    "name": "Joy Palacios",
    "age": null,
@@ -26500,336 +26832,6 @@
     "next_steps_en": [
      "Verify the current club",
      "Confirm the birth year with the club"
-    ]
-   }
-  },
-  {
-   "id": 504,
-   "name": "Emille Witbooi",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "South African Football Association",
-     "tipo": "federation",
-     "citazione": "the Cape Town City duo of Emille Witbooi and Cayden Fortune due to club commitments",
-     "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "South African Football Association",
-     "tipo": "federation",
-     "citazione": "the Cape Town City duo of Emille Witbooi and Cayden Fortune due to club commitments",
-     "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Cape Town City",
-   "league": null,
-   "region": "South Africa",
-   "gender": "male",
-   "score": 20,
-   "confidence": 0.55,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 22.0,
-    "n_sources": 1,
-    "detection_count": 4
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "safa.net",
-     "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/",
-     "seen": "2026-09-16T21:34:36.164940"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-16T21:34:36.164940",
-   "last_seen": "2026-09-16T21:34:36.164940",
-   "selezione": {
-    "quante": 4,
-    "frase": "Convocato 4 volte da South African Football Association, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/"
-     },
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#article"
-     },
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#breadcrumb"
-     },
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#primaryimage"
-     }
-    ],
-    "fonte": "South African Football Association",
-    "frase_en": "Called up 4 times by South African Football Association, U20."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "4 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "4 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/",
-      "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#article",
-      "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#breadcrumb",
-      "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#primaryimage"
-     ],
-     "dati": {
-      "convocazioni": 4,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da South African Football Association"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by South African Football Association"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 505,
-   "name": "Cayden Fortune",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "South African Football Association",
-     "tipo": "federation",
-     "citazione": "the Cape Town City duo of Emille Witbooi and Cayden Fortune due to club commitments",
-     "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "South African Football Association",
-     "tipo": "federation",
-     "citazione": "the Cape Town City duo of Emille Witbooi and Cayden Fortune due to club commitments",
-     "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Cape Town City",
-   "league": null,
-   "region": "South Africa",
-   "gender": "male",
-   "score": 20,
-   "confidence": 0.55,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 22.0,
-    "n_sources": 1,
-    "detection_count": 4
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "safa.net",
-     "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/",
-     "seen": "2026-09-16T21:34:36.164940"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-16T21:34:36.164940",
-   "last_seen": "2026-09-16T21:34:36.164940",
-   "selezione": {
-    "quante": 4,
-    "frase": "Convocato 4 volte da South African Football Association, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/"
-     },
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#article"
-     },
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#breadcrumb"
-     },
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#primaryimage"
-     }
-    ],
-    "fonte": "South African Football Association",
-    "frase_en": "Called up 4 times by South African Football Association, U20."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "4 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "4 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/",
-      "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#article",
-      "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#breadcrumb",
-      "https://www.safa.net/general-news/mdaka-names-the-2026-cosafa-u20-final-squad/#primaryimage"
-     ],
-     "dati": {
-      "convocazioni": 4,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da South African Football Association"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by South African Football Association"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
     ]
    }
   },
@@ -30096,6 +30098,136 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 480,
+   "name": "Tumininu Adeshina",
+   "age": 20,
+   "age_stato": "dedotto",
+   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-20)",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "Tumininu Adeshina and Tosin Rafiu delivered a series of corners",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dedotto",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defender",
+   "club": null,
+   "league": "2026 FIFA U-20 Women's World Cup",
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 12,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
+     "seen": "2026-09-13T16:34:39.358956"
+    },
+    {
+     "domain": "ke.soccerway.com",
+     "url": "https://ke.soccerway.com/player/adeshina-tumininu/tWi5P8BP/",
+     "seen": "2026-09-13T21:03:18.523174"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_dedotto,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-13T16:34:39.358956",
+   "last_seen": "2026-09-17T18:48:57.202274",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "L'età (20) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-20)",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The age (20) is not stated by any source: it is inferred from the tournament category (U-20)",
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
     ]
    }
   },
@@ -33508,136 +33640,6 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 480,
-   "name": "Tumininu Adeshina",
-   "age": 20,
-   "age_stato": "dedotto",
-   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-20)",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "Tumininu Adeshina and Tosin Rafiu delivered a series of corners",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dedotto",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Defender",
-   "club": null,
-   "league": "2026 FIFA U-20 Women's World Cup",
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 10,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 4.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
-     "seen": "2026-09-13T16:34:39.358956"
-    },
-    {
-     "domain": "ke.soccerway.com",
-     "url": "https://ke.soccerway.com/player/adeshina-tumininu/tWi5P8BP/",
-     "seen": "2026-09-13T21:03:18.523174"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_dedotto,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-13T16:34:39.358956",
-   "last_seen": "2026-09-13T21:03:18.523174",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "L'età (20) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-20)",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The age (20) is not stated by any source: it is inferred from the tournament category (U-20)",
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Get performance stats (match reports)"
     ]
    }
   },
