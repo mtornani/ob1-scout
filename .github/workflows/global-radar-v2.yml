@@ -92,6 +92,11 @@ jobs:
           PYTHONPATH: ${{ github.workspace }}
         run: python scripts/ingest_v2.py
 
+      - name: Rileggi schede Transfermarkt già note (età/club, zero LLM)
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: python scripts/backfill_profili_tm.py --limit 20
+
       - name: Export dashboard v2
         env:
           PYTHONPATH: ${{ github.workspace }}
