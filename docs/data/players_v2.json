@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-17T05:52:42.218357+00:00",
+ "generated_at": "2026-09-17T12:37:50.558169+00:00",
  "version": "1.0.0",
- "build": "69acede",
- "total": 506,
+ "build": "49171b8",
+ "total": 510,
  "publishable": 239,
- "tracking": 267,
- "shown": 506,
+ "tracking": 271,
+ "shown": 510,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -30515,7 +30515,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 4,
    "sources": [
@@ -30552,7 +30552,7 @@
    "review_flags": "senza_fonte_primary,eta_dedotto,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-07-05T03:23:40.915578",
-   "last_seen": "2026-09-09T21:06:14.697256",
+   "last_seen": "2026-09-17T11:58:50.570866",
    "selezione": {},
    "anomalie": [],
    "assessment": {
@@ -30560,7 +30560,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -30576,7 +30576,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -35244,7 +35244,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 10
+    "detection_count": 11
    },
    "n_sources": 4,
    "sources": [
@@ -35281,7 +35281,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-08-28T15:47:13.194942",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-17T11:58:50.570866",
    "selezione": {},
    "anomalie": [],
    "assessment": {
@@ -35356,7 +35356,7 @@
     "asymmetry": -20.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 2,
    "sources": [
@@ -35378,7 +35378,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-17T11:58:50.570866",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -35406,7 +35406,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -35419,7 +35419,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "2 distinct domains mention him",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -35479,7 +35479,7 @@
     "asymmetry": -20.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 10
+    "detection_count": 11
    },
    "n_sources": 2,
    "sources": [
@@ -35501,7 +35501,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-17T11:58:50.570866",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -35529,7 +35529,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 10 rilevamenti"
+     "Segnale persistente: 11 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -35542,7 +35542,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "2 distinct domains mention him",
-     "Persistent signal: 10 detections"
+     "Persistent signal: 11 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -54929,6 +54929,300 @@
    }
   },
   {
+   "id": 507,
+   "name": "Pau Cubarsí",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "ge.globo (Globo Esporte)",
+     "tipo": "national_press",
+     "citazione": "talentos consolidados do Barcelona como Lamine Yamal, Pau Cubarsí e Gavi",
+     "url": "https://ge.globo.com/pe/blogs/cabral-neto/noticia/2026/06/11/de-endrick-a-yamal-as-jovens-estrelas-para-ficar-de-olho-na-copa-do-mundo-2026.ghtml"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "ge.globo.com",
+     "url": "https://ge.globo.com/pe/blogs/cabral-neto/noticia/2026/06/11/de-endrick-a-yamal-as-jovens-estrelas-para-ficar-de-olho-na-copa-do-mundo-2026.ghtml",
+     "seen": "2026-09-17T11:58:50.570866"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-17T11:58:50.570866",
+   "last_seen": "2026-09-17T11:58:50.570866",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 509,
+   "name": "Jude Bellingham",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "ge.globo (Globo Esporte)",
+     "tipo": "national_press",
+     "citazione": "enquanto astros como Jude Bellingham e Warren Zaïre-Emery também chegam sob grande expectativa",
+     "url": "https://ge.globo.com/pe/blogs/cabral-neto/noticia/2026/06/11/de-endrick-a-yamal-as-jovens-estrelas-para-ficar-de-olho-na-copa-do-mundo-2026.ghtml"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "ge.globo.com",
+     "url": "https://ge.globo.com/pe/blogs/cabral-neto/noticia/2026/06/11/de-endrick-a-yamal-as-jovens-estrelas-para-ficar-de-olho-na-copa-do-mundo-2026.ghtml",
+     "seen": "2026-09-17T11:58:50.570866"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-17T11:58:50.570866",
+   "last_seen": "2026-09-17T11:58:50.570866",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 510,
+   "name": "Warren Zaïre-Emery",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "ge.globo (Globo Esporte)",
+     "tipo": "national_press",
+     "citazione": "enquanto astros como Jude Bellingham e Warren Zaïre-Emery também chegam sob grande expectativa",
+     "url": "https://ge.globo.com/pe/blogs/cabral-neto/noticia/2026/06/11/de-endrick-a-yamal-as-jovens-estrelas-para-ficar-de-olho-na-copa-do-mundo-2026.ghtml"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "ge.globo.com",
+     "url": "https://ge.globo.com/pe/blogs/cabral-neto/noticia/2026/06/11/de-endrick-a-yamal-as-jovens-estrelas-para-ficar-de-olho-na-copa-do-mundo-2026.ghtml",
+     "seen": "2026-09-17T11:58:50.570866"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-17T11:58:50.570866",
+   "last_seen": "2026-09-17T11:58:50.570866",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "id": 162,
    "name": "Dominik Kotarski",
    "age": null,
@@ -56904,6 +57198,118 @@
    }
   },
   {
+   "id": 13,
+   "name": "Rayan",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 19 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Trivela",
+     "tipo": "local_press",
+     "citazione": "Modric x Rayan e duelos envolvendo grandes ligas movimentam fase inicial",
+     "url": "https://trivela.com.br/europa/liga-europa/sorteio-fase-liga-milan-bournemouth-confrontos-rayan-modric/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attacker",
+   "club": "Vasco",
+   "league": "Brazilian League / U20",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 11,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 4
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "trivela.com.br",
+     "url": "https://trivela.com.br/inglaterra/rayan-bournemouth-iraola-personalidade-vasco/",
+     "seen": "2026-03-13T06:55:11.855508"
+    },
+    {
+     "domain": "ge.globo.com",
+     "url": "https://ge.globo.com/pe/blogs/cabral-neto/noticia/2026/06/11/de-endrick-a-yamal-as-jovens-estrelas-para-ficar-de-olho-na-copa-do-mundo-2026.ghtml",
+     "seen": "2026-09-17T11:58:50.570866"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "nome_singolo,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-03-13T06:55:11.855508",
+   "last_seen": "2026-09-17T11:58:50.570866",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Identità debole: nome incompleto o soprannome"
+    ],
+    "next_steps": [
+     "Risolvere l'identità: serve un nome completo verificabile",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Weak identity: incomplete name or nickname"
+    ],
+    "next_steps_en": [
+     "Resolve the identity: needs a verifiable full name",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 7,
    "name": "Felipe",
    "age": null,
@@ -57320,113 +57726,6 @@
      "Resolve the identity: needs a verifiable full name",
      "Verify the current club",
      "Confirm the birth year with the club"
-    ]
-   }
-  },
-  {
-   "id": 13,
-   "name": "Rayan",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 19 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Trivela",
-     "tipo": "local_press",
-     "citazione": "Modric x Rayan e duelos envolvendo grandes ligas movimentam fase inicial",
-     "url": "https://trivela.com.br/europa/liga-europa/sorteio-fase-liga-milan-bournemouth-confrontos-rayan-modric/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Attacker",
-   "club": "Vasco",
-   "league": "Brazilian League / U20",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 8,
-   "confidence": 0.55,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 3
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "trivela.com.br",
-     "url": "https://trivela.com.br/inglaterra/rayan-bournemouth-iraola-personalidade-vasco/",
-     "seen": "2026-03-13T06:55:11.855508"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "publishable": false,
-   "identity_complete": false,
-   "review_flags": "nome_singolo,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-03-13T06:55:11.855508",
-   "last_seen": "2026-08-28T15:47:13.194942",
-   "selezione": {},
-   "anomalie": [],
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Risolvere l'identità: serve un nome completo verificabile",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Resolve the identity: needs a verifiable full name",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
@@ -58968,6 +59267,118 @@
    }
   },
   {
+   "id": 276,
+   "name": "Endrick",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "GZH — Grupo RBS (Rio Grande do Sul)",
+     "tipo": "local_press",
+     "citazione": "### **Endrick**",
+     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "gauchazh.clicrbs.com.br",
+     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html",
+     "seen": "2026-08-25T02:03:52.774865"
+    },
+    {
+     "domain": "ge.globo.com",
+     "url": "https://ge.globo.com/pe/blogs/cabral-neto/noticia/2026/06/11/de-endrick-a-yamal-as-jovens-estrelas-para-ficar-de-olho-na-copa-do-mundo-2026.ghtml",
+     "seen": "2026-09-17T11:58:50.570866"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "nome_singolo,club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-25T02:03:52.774865",
+   "last_seen": "2026-09-17T11:58:50.570866",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato",
+     "Identità debole: nome incompleto o soprannome"
+    ],
+    "next_steps": [
+     "Risolvere l'identità: serve un nome completo verificabile",
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified",
+     "Weak identity: incomplete name or nickname"
+    ],
+    "next_steps_en": [
+     "Resolve the identity: needs a verifiable full name",
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "id": 126,
    "name": "Chukwueze",
    "age": null,
@@ -59375,18 +59786,18 @@
    }
   },
   {
-   "id": 276,
-   "name": "Endrick",
+   "id": 508,
+   "name": "Gavi",
    "age": null,
    "age_stato": "assente",
    "age_nota": "",
    "claims": {
     "nome": {
      "stato": "dichiarato",
-     "fonte": "GZH — Grupo RBS (Rio Grande do Sul)",
-     "tipo": "local_press",
-     "citazione": "### **Endrick**",
-     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html"
+     "fonte": "ge.globo (Globo Esporte)",
+     "tipo": "national_press",
+     "citazione": "talentos consolidados do Barcelona como Lamine Yamal, Pau Cubarsí e Gavi",
+     "url": "https://ge.globo.com/pe/blogs/cabral-neto/noticia/2026/06/11/de-endrick-a-yamal-as-jovens-estrelas-para-ficar-de-olho-na-copa-do-mundo-2026.ghtml"
     },
     "club": {
      "stato": "assente",
@@ -59428,24 +59839,19 @@
    "n_sources": 1,
    "sources": [
     {
-     "domain": "gauchazh.clicrbs.com.br",
-     "url": "https://gauchazh.clicrbs.com.br/esportes/copa-do-mundo/noticia/2026/06/conheca-cinco-jovens-que-podem-ser-a-revelacao-da-copa-do-mundo-cmq8slusz01cz0173lzeh9hon.html",
-     "seen": "2026-08-25T02:03:52.774865"
+     "domain": "ge.globo.com",
+     "url": "https://ge.globo.com/pe/blogs/cabral-neto/noticia/2026/06/11/de-endrick-a-yamal-as-jovens-estrelas-para-ficar-de-olho-na-copa-do-mundo-2026.ghtml",
+     "seen": "2026-09-17T11:58:50.570866"
     }
    ],
    "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
+   "stats": {},
    "publishable": false,
    "identity_complete": false,
    "review_flags": "nome_singolo,club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
    "coverage_tier": "standard",
-   "first_detected": "2026-08-25T02:03:52.774865",
-   "last_seen": "2026-08-25T02:03:52.774865",
+   "first_detected": "2026-09-17T11:58:50.570866",
+   "last_seen": "2026-09-17T11:58:50.570866",
    "selezione": {},
    "anomalie": [],
    "assessment": {
