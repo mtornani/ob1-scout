@@ -606,7 +606,9 @@ if (IS_EN) {
   // INTERE (non i chip di outcDetail) dei giocatori dietro "Anticipo
   // confermato" — cerca per player_id, mai per nome: un nome da solo può
   // avere un omonimo fra centinaia di profili.
-  let statFilter = null;
+  // Default = solo vetrina (nomi che reggono una telefonata). Tracking
+  // resta un tap su "In tracking", non la home.
+  let statFilter = 'verified';
 
   function renderList() {
     const region = regionSel.value;
@@ -674,6 +676,7 @@ if (IS_EN) {
   const trkWrap = document.getElementById('st-trk-wrap');
   if ((data.publishable ?? 0) > 0) {
     pubWrap.classList.add('clickable');
+    pubWrap.classList.add('active');
     pubWrap.addEventListener('click', () => setStatFilter('verified'));
   }
   if ((data.tracking ?? 0) > 0) {

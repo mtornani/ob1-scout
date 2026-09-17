@@ -30,6 +30,31 @@ from src.challenge_v2 import _club_satellite_di_gigante
 ROOT = Path(__file__).parent.parent
 
 
+def passa_vetrina(p: dict) -> bool:
+    """True se il profilo, così come verrà mostrato, regge una telefonata.
+
+    Usa i campi DISPLAY (età già filtrata da claims, URL già puliti), non i
+    flag del DB. Il DB può segnare publishable su un'età che l'export poi
+    nasconde: quella riga non entra in vetrina.
+    """
+    name = (p.get("name") or "").strip()
+    tokens = [t for t in name.split() if t]
+    if len(tokens) < 2:
+        return False
+    if any(ch.isdigit() for ch in name) or "_" in name:
+        return False
+    if p.get("age") is None:
+        return False
+    if not (p.get("club") and str(p.get("club")).strip()):
+        return False
+    http_urls = [
+        s for s in (p.get("sources") or [])
+        if isinstance(s, dict)
+        and str(s.get("url") or "").startswith(("http://", "https://"))
+    ]
+    return len(http_urls) >= 2
+
+
 def _version_and_build() -> tuple:
     """
     (version, build) per il footer "è aggiornato al deploy giusto?" — stesso
@@ -554,7 +579,6 @@ def export(db_path: Path, out_path: Path) -> dict:
                 if (lambda d: d[4:] if d.startswith("www.") else d)(
                     (s.get("domain") or "").lower()) in _registro),
             "stats": stats,
-            "publishable": bool(p["publishable"]),
             "identity_complete": bool(p["identity_complete"]),
             "review_flags": p["review_flags"] or "",
             # Algoritmo copertura bassa (2026-08-19b, src/database_v2.py):
@@ -586,6 +610,9 @@ def export(db_path: Path, out_path: Path) -> dict:
                 p["age"] if eta_claim.get("stato") == DICHIARATO else None,
                 _tipi_fonte(pid), scala_categorie)),
         }
+        # Vetrina = telefonata. Il flag DB da solo non basta: se l'export
+        # nasconde l'età o manca un URL, il nome non è pubblicabile.
+        entry["publishable"] = bool(p["publishable"]) and passa_vetrina(entry)
         entry["assessment"] = assess_player(entry, p["evidence_count"] or 1)
         players.append(entry)
     conn.close()
