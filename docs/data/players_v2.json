@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-16T22:09:33.166499+00:00",
+ "generated_at": "2026-09-17T05:52:42.218357+00:00",
  "version": "1.0.0",
- "build": "933aabc",
- "total": 505,
+ "build": "69acede",
+ "total": 506,
  "publishable": 239,
- "tracking": 266,
- "shown": 505,
+ "tracking": 267,
+ "shown": 506,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -30117,7 +30117,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 4,
    "sources": [
@@ -30154,13 +30154,14 @@
    "review_flags": "eta_assente,club_assente,gia_coperto_da_tutti",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-06-02T16:26:08.016372",
-   "last_seen": "2026-09-08T11:38:42.619417",
+   "last_seen": "2026-09-17T05:10:14.637676",
    "selezione": {},
    "anomalie": [],
    "assessment": {
     "pros": [
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
-     "4 domini distinti lo nominano"
+     "4 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -30172,7 +30173,8 @@
     ],
     "pros_en": [
      "Documented output: 12 goals and 9 assists in 33 appearances",
-     "4 distinct domains mention him"
+     "4 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -30637,7 +30639,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 3,
    "sources": [
@@ -30669,14 +30671,15 @@
    "review_flags": "senza_fonte_primary,eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-03-16T13:13:57.556669",
-   "last_seen": "2026-09-09T21:06:14.697256",
+   "last_seen": "2026-09-17T05:10:14.637676",
    "selezione": {},
    "anomalie": [],
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
+     "3 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -30690,7 +30693,8 @@
     "pros_en": [
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
+     "3 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -47717,6 +47721,108 @@
    "coverage_tier": "standard",
    "first_detected": "2026-09-16T11:57:11.998665",
    "last_seen": "2026-09-16T11:57:11.998665",
+   "selezione": {},
+   "anomalie": [],
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 506,
+   "name": "Diego Palacios",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Corinthians",
+   "league": "Brasileirão Sub-20",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "ge.globo.com",
+     "url": "https://ge.globo.com/futebol/times/corinthians/noticia/2026/02/21/corinthians-estreia-no-brasileirao-sub-20-com-reforcos-e-interlocucao-entre-base-e-profissional.ghtml",
+     "seen": "2026-09-17T05:10:14.637676"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "publishable": false,
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-17T05:10:14.637676",
+   "last_seen": "2026-09-17T05:10:14.637676",
    "selezione": {},
    "anomalie": [],
    "assessment": {
