@@ -14,3 +14,6 @@ output/
 venv/
 *.log
 logs/
+gh.exe
+*.exe
+observer/*.jsonl
