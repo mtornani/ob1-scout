@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-18T05:40:19.950097+00:00",
+ "generated_at": "2026-09-18T12:22:51.972492+00:00",
  "version": "1.0.0",
- "build": "a513946",
+ "build": "bd90c16",
  "total": 521,
- "publishable": 103,
- "tracking": 418,
+ "publishable": 104,
+ "tracking": 417,
  "shown": 521,
  "tracking_capped": 0,
  "outcomes": {
@@ -1039,6 +1039,169 @@
      ],
      "dati": {
       "convocazioni": 4,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 90,
+   "name": "Eider Luis Carrillo Córdoba",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Eider Luis Carrillo Córdoba – Deportivo Independiente Medellín",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Eider Luis Carrillo Córdoba – Deportivo Independiente Medellín",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Eíder Luis Carrillo Córdoba, 17 anni, Independiente Medellín B",
+     "url": "https://www.transfermarkt.com/eider-carrillo/profil/spieler/1381082"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defensive Midfield",
+   "club": "Deportivo Independiente Medellín",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 33,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 22.0,
+    "n_sources": 2,
+    "detection_count": 5
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
+     "seen": "2026-07-16T19:42:31.108991"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/eider-carrillo/profil/spieler/1381082",
+     "seen": "2026-07-25T14:11:15.071449"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": null,
+   "last_seen": null,
+   "selezione": {
+    "quante": 3,
+    "frase": "Convocato 3 volte da Federación Colombiana de Fútbol tra febbraio 2025 e maggio 2026, dal Sub-16 al Sub-17.",
+    "dal": "2025-02-17",
+    "al": "2026-05-14",
+    "categorie": [
+     "sub-16",
+     "sub-17"
+    ],
+    "progressione": true,
+    "mesi_di_arco": 15,
+    "eventi": [
+     {
+      "data": "2025-02-17",
+      "categoria": "sub-16",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+     },
+     {
+      "data": "2026-01-13",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
+     },
+     {
+      "data": "2026-05-14",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 3 times by Federación Colombiana de Fútbol between February 2025 and May 2026, from U16 to U17."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "3 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "3 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
+      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
+      "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
+     ],
+     "dati": {
+      "convocazioni": 3,
       "tipi_fonte": [
        "aggregator",
        "federation"
@@ -2374,8 +2537,8 @@
    "id": 166,
    "name": "Camilo Blandón Arriaga",
    "age": 17,
-   "age_stato": "dedotto",
-   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
+   "age_stato": "dichiarato",
+   "age_nota": "",
    "claims": {
     "nome": {
      "stato": "dichiarato",
@@ -2392,11 +2555,11 @@
      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
     },
     "eta": {
-     "stato": "dedotto",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Camilo Blandón Arriaga, 17 anni, CD Estudiantil",
+     "url": "https://www.transfermarkt.com/camilo-blandon/profil/spieler/1531670"
     },
     "stats": {
      "stato": "assente",
@@ -2406,7 +2569,7 @@
      "url": ""
     }
    },
-   "position": null,
+   "position": "Goalkeeper",
    "club": "CD Estudiantil",
    "league": null,
    "region": "Colombia",
@@ -2419,7 +2582,7 @@
     "asymmetry": 8.0,
     "selection": 14.0,
     "n_sources": 2,
-    "detection_count": 3
+    "detection_count": 4
    },
    "n_sources": 2,
    "sources": [
@@ -2442,7 +2605,7 @@
     "minutes": 0
    },
    "identity_complete": true,
-   "review_flags": "eta_dedotto,club_dichiarato",
+   "review_flags": "eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": null,
    "last_seen": null,
@@ -2502,7 +2665,6 @@
      "2 domini distinti lo nominano"
     ],
     "cautions": [
-     "L'età (17) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-17)",
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
@@ -2517,7 +2679,6 @@
      "2 distinct domains mention him"
     ],
     "cautions_en": [
-     "The age (17) is not stated by any source: it is inferred from the tournament category (U-17)",
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -12823,25 +12984,25 @@
    }
   },
   {
-   "id": 90,
-   "name": "Eider Luis Carrillo Córdoba",
+   "id": 490,
+   "name": "Natalie Collins",
    "age": null,
    "age_stato": "assente",
-   "age_nota": "il valore 17 non è scritto da nessuna fonte competente",
+   "age_nota": "il valore 19 non è scritto da nessuna fonte competente",
    "claims": {
     "nome": {
      "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
+     "fonte": "Philippine Football Federation",
      "tipo": "federation",
-     "citazione": "Eider Luis Carrillo Córdoba – Deportivo Independiente Medellín",
-     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
+     "citazione": "19-year-old Natalie Collins scored a late equalizer just minutes after coming off the bench.",
+     "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/"
     },
     "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Eider Luis Carrillo Córdoba – Deportivo Independiente Medellín",
-     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
     },
     "eta": {
      "stato": "assente",
@@ -12858,96 +13019,111 @@
      "url": ""
     }
    },
-   "position": null,
-   "club": "Deportivo Independiente Medellín",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 33,
+   "position": "Forward",
+   "club": "Philippine Women's National Football Team",
+   "league": "Asian Games",
+   "region": "Philippines",
+   "gender": "female",
+   "score": 31,
    "confidence": 0.73,
    "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
+    "youth": 7.0,
+    "production": 4.0,
     "asymmetry": 8.0,
-    "selection": 22.0,
+    "selection": 24.0,
     "n_sources": 2,
-    "detection_count": 4
+    "detection_count": 7
    },
    "n_sources": 2,
    "sources": [
     {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/",
-     "seen": "2026-07-16T19:42:31.108991"
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/",
+     "seen": "2026-09-14T13:13:27.808740"
     },
     {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/eider-carrillo/profil/spieler/1381082",
-     "seen": "2026-07-25T14:11:15.071449"
+     "domain": "ng.soccerway.com",
+     "url": "https://ng.soccerway.com/player/collins-natalie/fw0Riy6N/injury-history/",
+     "seen": "2026-09-18T11:40:09.300963"
     }
    ],
-   "n_sources_registro": 2,
+   "n_sources_registro": 1,
    "stats": {
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
     "apps": 0,
     "minutes": 0
    },
    "identity_complete": true,
-   "review_flags": "eta_assente,club_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": null,
-   "last_seen": null,
+   "review_flags": "eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-14T13:13:27.808740",
+   "last_seen": "2026-09-18T11:40:09.300963",
    "selezione": {
-    "quante": 3,
-    "frase": "Convocato 3 volte da Federación Colombiana de Fútbol tra febbraio 2025 e maggio 2026, dal Sub-16 al Sub-17.",
-    "dal": "2025-02-17",
-    "al": "2026-05-14",
-    "categorie": [
-     "sub-16",
-     "sub-17"
-    ],
-    "progressione": true,
-    "mesi_di_arco": 15,
+    "quante": 6,
+    "frase": "Convocato 6 volte da Philippine Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
     "eventi": [
      {
-      "data": "2025-02-17",
-      "categoria": "sub-16",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/"
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/"
      },
      {
-      "data": "2026-01-13",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/"
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting"
      },
      {
-      "data": "2026-05-14",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#breadcrumblist"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#listItem"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#organizationLogo"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#webpage"
      }
     ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 3 times by Federación Colombiana de Fútbol between February 2025 and May 2026, from U16 to U17."
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 6 times by Philippine Football Federation."
    },
    "anomalie": [
     {
      "codice": "asimmetria_copertura",
      "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "3 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "3 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "frase": "6 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "6 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
      "forza": "indicativa",
      "prove": [
-      "https://fcf.com.co/2025/02/17/convocatoria-para-microciclo-de-la-seleccion-colombia-masculina-sub-16-cuadrangular-internacional/",
-      "https://fcf.com.co/2026/01/13/convocatoria-de-la-seleccion-colombia-masculina-sub17-para-microciclo-de-trabajo-enero-2026/",
-      "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
+      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/",
+      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting",
+      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#breadcrumblist",
+      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#listItem"
      ],
      "dati": {
-      "convocazioni": 3,
+      "convocazioni": 6,
       "tipi_fonte": [
-       "aggregator",
        "federation"
       ]
      }
@@ -12956,30 +13132,28 @@
    "publishable": false,
    "assessment": {
     "pros": [
+     "Produzione documentata: 1 gol",
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Federación Colombiana de Fútbol",
      "2 domini distinti lo nominano"
     ],
     "cautions": [
-     "Nessuna statistica di rendimento documentata",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
      "Età non confermata"
     ],
     "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
+     "Confermare l'anno di nascita con la società"
     ],
     "pros_en": [
+     "Documented output: 1 goals",
      "Minor context: potentially underpriced",
-     "Name and club stated by Federación Colombiana de Fútbol",
      "2 distinct domains mention him"
     ],
     "cautions_en": [
-     "No documented performance stats",
+     "The club appears in no source: re-verify before relying on it",
      "Age not confirmed"
     ],
     "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
+     "Confirm the birth year with the club"
     ]
    }
   },
@@ -13654,179 +13828,6 @@
     "next_steps_en": [
      "Look for a primary press/federation source to bring it to the full standard",
      "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 490,
-   "name": "Natalie Collins",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 19 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Philippine Football Federation",
-     "tipo": "federation",
-     "citazione": "19-year-old Natalie Collins scored a late equalizer just minutes after coming off the bench.",
-     "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Philippine Women's National Football Team",
-   "league": "Asian Games",
-   "region": "Philippines",
-   "gender": "female",
-   "score": 24,
-   "confidence": 0.55,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 4.0,
-    "asymmetry": 8.0,
-    "selection": 24.0,
-    "n_sources": 1,
-    "detection_count": 6
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "pff.org.ph",
-     "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/",
-     "seen": "2026-09-14T13:13:27.808740"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-14T13:13:27.808740",
-   "last_seen": "2026-09-14T13:13:27.808740",
-   "selezione": {
-    "quante": 6,
-    "frase": "Convocato 6 volte da Philippine Football Federation.",
-    "dal": "",
-    "al": "",
-    "categorie": [],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/"
-     },
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting"
-     },
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#breadcrumblist"
-     },
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#listItem"
-     },
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#organizationLogo"
-     },
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#webpage"
-     }
-    ],
-    "fonte": "Philippine Football Federation",
-    "frase_en": "Called up 6 times by Philippine Football Federation."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "6 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "6 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/",
-      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting",
-      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#breadcrumblist",
-      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#listItem"
-     ],
-     "dati": {
-      "convocazioni": 6,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals",
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
@@ -15498,7 +15499,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 3,
    "sources": [
@@ -15529,7 +15530,7 @@
    "review_flags": "senza_fonte_primary,eta_assente,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-03-03T12:58:52.925498",
-   "last_seen": "2026-09-14T13:13:27.808740",
+   "last_seen": "2026-09-18T11:40:09.300963",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -15537,7 +15538,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15553,7 +15554,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19433,7 +19434,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 2,
    "sources": [
@@ -19468,7 +19469,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -19481,7 +19482,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -20934,7 +20935,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 2,
    "sources": [
@@ -20969,7 +20970,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20982,7 +20983,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21150,7 +21151,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 2,
    "sources": [
@@ -21185,7 +21186,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -21200,7 +21201,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -32246,6 +32247,112 @@
    }
   },
   {
+   "id": 367,
+   "name": "Ricky Hulana",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "beating Papua New Guinea goalkeeper Ricky Hulana from close range",
+     "url": "https://www.oceaniafootball.com/solomon-islands-and-new-caledonia-enter-winners-circle-on-first-day-at-ofc-u-19-mens-championship/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "goalkeeper",
+   "club": "Papua New Guinea U-19 national team",
+   "league": "OFC U-19 Men's Championship 2026",
+   "region": "Papua New Guinea",
+   "gender": "male",
+   "score": 11,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/solomon-islands-and-new-caledonia-enter-winners-circle-on-first-day-at-ofc-u-19-mens-championship/",
+     "seen": "2026-09-01T16:50:33.171492"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/ricky-hulana-3829233",
+     "seen": "2026-09-01T21:14:30.444821"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-01T16:50:33.171492",
+   "last_seen": "2026-09-18T11:40:09.300963",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "id": 402,
    "name": "Brenda Cardona",
    "age": null,
@@ -35131,112 +35238,6 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 367,
-   "name": "Ricky Hulana",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "beating Papua New Guinea goalkeeper Ricky Hulana from close range",
-     "url": "https://www.oceaniafootball.com/solomon-islands-and-new-caledonia-enter-winners-circle-on-first-day-at-ofc-u-19-mens-championship/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "goalkeeper",
-   "club": "Papua New Guinea U-19 national team",
-   "league": "OFC U-19 Men's Championship 2026",
-   "region": "Papua New Guinea",
-   "gender": "male",
-   "score": 9,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/solomon-islands-and-new-caledonia-enter-winners-circle-on-first-day-at-ofc-u-19-mens-championship/",
-     "seen": "2026-09-01T16:50:33.171492"
-    },
-    {
-     "domain": "besoccer.com",
-     "url": "https://www.besoccer.com/player/ricky-hulana-3829233",
-     "seen": "2026-09-01T21:14:30.444821"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-01T16:50:33.171492",
-   "last_seen": "2026-09-01T21:14:30.444821",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances",
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club"
     ]
    }
   },
