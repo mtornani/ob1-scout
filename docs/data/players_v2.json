@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T12:22:51.972492+00:00",
+ "generated_at": "2026-09-18T17:09:22.105189+00:00",
  "version": "1.0.0",
- "build": "bd90c16",
- "total": 521,
+ "build": "e169357",
+ "total": 522,
  "publishable": 104,
- "tracking": 417,
- "shown": 521,
+ "tracking": 418,
+ "shown": 522,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -1409,8 +1409,8 @@
    "id": 89,
    "name": "Anderson Yair Murillo Mosquera",
    "age": 17,
-   "age_stato": "dedotto",
-   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
+   "age_stato": "dichiarato",
+   "age_nota": "",
    "claims": {
     "nome": {
      "stato": "dichiarato",
@@ -1427,11 +1427,11 @@
      "url": "https://fcf.com.co/2026/05/14/convocatoria-de-la-seleccion-colombia-masculina-sub-17-para-microciclo-de-trabajo-mayo-2026/"
     },
     "eta": {
-     "stato": "dedotto",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Anderson Yair Murillo Mosquera, 17 anni, Independiente Medellín U20",
+     "url": "https://www.transfermarkt.com/anderson-murillo/profil/spieler/1531674"
     },
     "stats": {
      "stato": "assente",
@@ -1441,7 +1441,7 @@
      "url": ""
     }
    },
-   "position": null,
+   "position": "Left-Back",
    "club": "Deportivo Independiente Medellín",
    "league": null,
    "region": "Colombia",
@@ -1454,7 +1454,7 @@
     "asymmetry": 8.0,
     "selection": 19.0,
     "n_sources": 2,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 2,
    "sources": [
@@ -1477,7 +1477,7 @@
     "minutes": 0
    },
    "identity_complete": true,
-   "review_flags": "eta_dedotto,club_dichiarato",
+   "review_flags": "eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": null,
    "last_seen": null,
@@ -1544,7 +1544,6 @@
      "2 domini distinti lo nominano"
     ],
     "cautions": [
-     "L'età (17) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-17)",
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
@@ -1559,7 +1558,6 @@
      "2 distinct domains mention him"
     ],
     "cautions_en": [
-     "The age (17) is not stated by any source: it is inferred from the tournament category (U-17)",
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -13487,9 +13485,9 @@
   {
    "id": 31,
    "name": "Yan Diomande",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 19 non è scritto da nessuna fonte competente",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
    "claims": {
     "nome": {
      "stato": "dichiarato",
@@ -13506,11 +13504,11 @@
      "url": ""
     },
     "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Yan Diomande, 19 anni, Real Madrid",
+     "url": "https://www.transfermarkt.com/yan-diomande/profil/spieler/1390649"
     },
     "stats": {
      "stato": "assente",
@@ -13533,7 +13531,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 4,
    "sources": [
@@ -13566,40 +13564,36 @@
     "minutes": 0
    },
    "identity_complete": true,
-   "review_flags": "eta_assente,club_assente,gia_coperto_da_tutti",
+   "review_flags": "eta_dichiarato,club_assente,gia_coperto_da_tutti",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-06-02T16:26:08.016372",
-   "last_seen": "2026-09-17T05:10:14.637676",
+   "last_seen": null,
    "selezione": {},
    "anomalie": [],
    "publishable": false,
    "assessment": {
     "pros": [
+     "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Età non confermata",
      "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
     ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società"
-    ],
+    "next_steps": [],
     "pros_en": [
+     "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
-     "Age not confirmed",
      "High-visibility club/league: low asymmetry, competition likely"
     ],
-    "next_steps_en": [
-     "Confirm the birth year with the club"
-    ]
+    "next_steps_en": []
    }
   },
   {
@@ -13758,7 +13752,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 9
+    "detection_count": 10
    },
    "n_sources": 4,
    "sources": [
@@ -13803,7 +13797,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 9 rilevamenti"
+     "Segnale persistente: 10 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -13818,7 +13812,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 9 detections"
+     "Persistent signal: 10 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -14040,7 +14034,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 8
+    "detection_count": 9
    },
    "n_sources": 3,
    "sources": [
@@ -14080,7 +14074,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 8 rilevamenti"
+     "Segnale persistente: 9 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -14095,7 +14089,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 8 detections"
+     "Persistent signal: 9 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -14387,7 +14381,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 3,
    "sources": [
@@ -14415,7 +14409,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-09-05T04:51:08.752162",
-   "last_seen": "2026-09-15T05:11:18.442933",
+   "last_seen": "2026-09-18T16:39:13.322401",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -18993,7 +18987,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 2,
    "sources": [
@@ -19027,7 +19021,8 @@
     "pros": [
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
+     "2 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19041,7 +19036,8 @@
     "pros_en": [
      "Young (18 yo)",
      "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
+     "2 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19322,7 +19318,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 2,
    "sources": [
@@ -19357,7 +19353,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19372,7 +19368,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19434,7 +19430,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 2,
    "sources": [
@@ -19469,7 +19465,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -19482,7 +19478,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -19979,7 +19975,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 10
+    "detection_count": 11
    },
    "n_sources": 3,
    "sources": [
@@ -20010,7 +20006,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-08-29T16:50:29.768229",
-   "last_seen": "2026-09-18T05:03:00.501574",
+   "last_seen": null,
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -20018,7 +20014,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 10 rilevamenti"
+     "Segnale persistente: 11 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20030,7 +20026,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 10 detections"
+     "Persistent signal: 11 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -20090,7 +20086,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 10
+    "detection_count": 11
    },
    "n_sources": 3,
    "sources": [
@@ -20129,7 +20125,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 10 rilevamenti"
+     "Segnale persistente: 11 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20141,7 +20137,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 10 detections"
+     "Persistent signal: 11 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21151,7 +21147,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 2,
    "sources": [
@@ -21186,7 +21182,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -21201,7 +21197,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -32524,7 +32520,7 @@
     "asymmetry": 0.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 3
+    "detection_count": 4
    },
    "n_sources": 2,
    "sources": [
@@ -32545,7 +32541,7 @@
    "review_flags": "club_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-07T21:43:15.578513",
-   "last_seen": "2026-09-15T05:11:18.442933",
+   "last_seen": "2026-09-18T16:39:13.322401",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (settembre 2026).",
@@ -52770,6 +52766,124 @@
      "Single source: not yet corroborated",
      "Age not confirmed",
      "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 522,
+   "name": "Sladjan Nikolic",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Serbia",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fss.rs",
+     "url": "https://fss.rs/u19-selektor-sladjan-nikolic-saopstio-spisak-igraca-za-32-memorijalni-turnir-stevan-cele-vilotic/",
+     "seen": "2026-09-18T16:39:13.322401"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-18T16:39:13.322401",
+   "last_seen": "2026-09-18T16:39:13.322401",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Fudbalski savez Srbije, Sub-19.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-19"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-19",
+      "fonte": "Fudbalski savez Srbije",
+      "url": "https://fss.rs/u19-selektor-sladjan-nikolic-saopstio-spisak-igraca-za-32-memorijalni-turnir-stevan-cele-vilotic/"
+     }
+    ],
+    "fonte": "Fudbalski savez Srbije",
+    "frase_en": "Called up 1 times by Fudbalski savez Srbije, U19."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
     ],
     "next_steps_en": [
      "Verify the current club",
