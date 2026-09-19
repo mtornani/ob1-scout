@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-18T21:32:55.020542+00:00",
+ "generated_at": "2026-09-19T05:38:57.969574+00:00",
  "version": "1.0.0",
- "build": "3227730",
- "total": 524,
- "publishable": 104,
- "tracking": 420,
- "shown": 524,
+ "build": "cca431c",
+ "total": 530,
+ "publishable": 105,
+ "tracking": 425,
+ "shown": 530,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -3328,6 +3328,131 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by Federación Colombiana de Fútbol",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 526,
+   "name": "Cheikh Thior",
+   "age": 15,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Fédération Sénégalaise de Football",
+     "tipo": "federation",
+     "citazione": "Cheikh Thior ne scelle le succès sénégalais dans le temps additionnel, à la 90e+4.",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Cheikh Thior, 15 anni, Oslo Football Academy U17",
+     "url": "https://www.transfermarkt.us/cheikh-thior/profil/spieler/1548173"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Cheikh Thior, 15 anni, Oslo Football Academy U17",
+     "url": "https://www.transfermarkt.us/cheikh-thior/profil/spieler/1548173"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Centre-Back",
+   "club": "Oslo Football Academy U17",
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 20,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 20.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/",
+     "seen": "2026-09-19T04:54:29.466675"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/cheikh-thior/profil/spieler/1548173",
+     "seen": "2026-09-19T04:54:29.466675"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-19T04:54:29.466675",
+   "last_seen": "2026-09-19T04:54:29.466675",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U17."
+   },
+   "anomalie": [],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Molto giovane (15 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Very young (15 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
      "2 distinct domains mention him"
     ],
     "cautions_en": [
@@ -13529,7 +13654,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 4,
    "sources": [
@@ -13574,7 +13699,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -13585,7 +13710,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -16620,9 +16745,9 @@
   {
    "id": 328,
    "name": "Anderson Luz",
-   "age": 16,
-   "age_stato": "dichiarato",
-   "age_nota": "",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 16 non è scritto da nessuna fonte competente",
    "claims": {
     "nome": {
      "stato": "dichiarato",
@@ -16639,11 +16764,11 @@
      "url": "https://www.auf.org.uy/sub-17/"
     },
     "eta": {
-     "stato": "dichiarato",
-     "fonte": "AUF — Asociación Uruguaya de Fútbol",
-     "tipo": "federation",
-     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Anderson Luz, Centrocampista, nato il 19/09/2009, M. City Torque",
-     "url": "https://www.auf.org.uy/sub-17/"
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
     },
     "stats": {
      "stato": "assente",
@@ -16679,7 +16804,7 @@
    "n_sources_registro": 1,
    "stats": {},
    "identity_complete": true,
-   "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
+   "review_flags": "fonte_singola,eta_assente,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
    "last_seen": "2026-09-16T21:34:36.164940",
@@ -16708,7 +16833,6 @@
    "publishable": false,
    "assessment": {
     "pros": [
-     "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "Segnale persistente: 7 rilevamenti"
@@ -16716,14 +16840,15 @@
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
      "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
     ],
     "next_steps": [
+     "Confermare l'anno di nascita con la società",
      "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
      "Recuperare statistiche di rendimento (referti gara)"
     ],
     "pros_en": [
-     "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "Persistent signal: 7 detections"
@@ -16731,9 +16856,11 @@
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
      "Single source: not yet corroborated",
-     "No documented performance stats"
+     "No documented performance stats",
+     "Age not confirmed"
     ],
     "next_steps_en": [
+     "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
@@ -17398,7 +17525,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 4,
    "sources": [
@@ -17434,7 +17561,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-09-07T21:43:15.578513",
-   "last_seen": "2026-09-15T05:11:18.442933",
+   "last_seen": null,
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -17443,7 +17570,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -17456,7 +17583,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -18985,7 +19112,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 2,
    "sources": [
@@ -19020,7 +19147,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19035,7 +19162,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19316,7 +19443,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 2,
    "sources": [
@@ -19351,7 +19478,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19366,7 +19493,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20084,7 +20211,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 13
+    "detection_count": 14
    },
    "n_sources": 3,
    "sources": [
@@ -20123,7 +20250,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 13 rilevamenti"
+     "Segnale persistente: 14 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20135,7 +20262,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 13 detections"
+     "Persistent signal: 14 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24904,7 +25031,7 @@
     "asymmetry": 8.0,
     "selection": 19.0,
     "n_sources": 2,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 2,
    "sources": [
@@ -24930,7 +25057,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-11T11:42:44.704482",
-   "last_seen": "2026-09-17T17:12:41.594570",
+   "last_seen": "2026-09-19T04:54:29.466675",
    "selezione": {
     "quante": 3,
     "frase": "Convocato 3 volte da Nigeria Football Federation, Sub-20.",
@@ -32595,6 +32722,157 @@
    }
   },
   {
+   "id": 425,
+   "name": "Souleymane Commissaire",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Fédération Sénégalaise de Football",
+     "tipo": "federation",
+     "citazione": "Au retour des vestiaires, Souleymane Commissaire a rapidement doublé la mise à la 47e minute",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-frappe-fort-dentree-face-a-la-mauritanie/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 11,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 0.0,
+    "selection": 14.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-frappe-fort-dentree-face-a-la-mauritanie/",
+     "seen": "2026-09-08T05:03:28.858009"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-08T05:03:28.858009",
+   "last_seen": "2026-09-19T04:54:29.466675",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Fédération Sénégalaise de Football, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-frappe-fort-dentree-face-a-la-mauritanie/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 2 times by Fédération Sénégalaise de Football, U17."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Fédération Sénégalaise de Football, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Fédération Sénégalaise de Football, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/",
+      "https://fsfoot.sn/ufoa-a-u17-le-senegal-frappe-fort-dentree-face-a-la-mauritanie/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "id": 442,
    "name": "Rosanna Ventriglia",
    "age": null,
@@ -32697,6 +32975,129 @@
     ],
     "next_steps_en": [
      "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "id": 450,
+   "name": "Kafayat Mafisere",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "Kafayat Mafisere winning a corner in the 33rd minute",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Soccerway",
+     "tipo": "aggregator",
+     "citazione": "Kafayat Mafisere (Edo Queens) Stats",
+     "url": "https://uk.soccerway.com/player/mafisere-kafayat/AaD31vyf/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Edo Queens",
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 11,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/",
+     "seen": "2026-09-11T11:42:44.704482"
+    },
+    {
+     "domain": "uk.soccerway.com",
+     "url": "https://uk.soccerway.com/player/mafisere-kafayat/AaD31vyf/",
+     "seen": "2026-09-19T04:54:29.466675"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-11T11:42:44.704482",
+   "last_seen": "2026-09-19T04:54:29.466675",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Soccerway",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Soccerway",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
     ]
    }
   },
@@ -33612,6 +34013,141 @@
    }
   },
   {
+   "id": 455,
+   "name": "Xiao Yafei",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 19 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "introducing Chen Ruilin for Xiao Yafei",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Midfielder",
+   "club": null,
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 10,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 3,
+    "detection_count": 4
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/",
+     "seen": "2026-09-11T11:42:44.704482"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/yafei-xiao/n3RiCCBU/",
+     "seen": "2026-09-11T16:41:35.582361"
+    },
+    {
+     "domain": "za.soccerway.com",
+     "url": "https://za.soccerway.com/player/yafei-xiao/n3RiCCBU/",
+     "seen": "2026-09-19T04:54:29.466675"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-11T11:42:44.704482",
+   "last_seen": "2026-09-19T04:54:29.466675",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 461,
    "name": "Amadou Assane Seck",
    "age": null,
@@ -34110,6 +34646,381 @@
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 527,
+   "name": "Oluwakemi Adegbuyi",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "The breakthrough came in the 33rd minute when Oluwakemi Adegbuyi broke the deadlock with an excellent finish to give Nigeria a 1-0 lead.",
+     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Flamingos",
+   "league": "WAFU-B U17 Girls Championship",
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 10,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/",
+     "seen": "2026-09-19T04:54:29.466675"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-19T04:54:29.466675",
+   "last_seen": "2026-09-19T04:54:29.466675",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 528,
+   "name": "Harmony Chidi",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "Captain Harmony Chidi then doubled the advantage in first-half stoppage time to ensure the Flamingos went into the interval with a deserved lead.",
+     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "Captain Harmony Chidi then doubled the advantage in first-half stoppage time to ensure the Flamingos went into the interval with a deserved lead.",
+     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Flamingos",
+   "league": "WAFU-B U17 Girls Championship",
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 10,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/",
+     "seen": "2026-09-19T04:54:29.466675"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-19T04:54:29.466675",
+   "last_seen": "2026-09-19T04:54:29.466675",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Nigeria Football Federation"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Nigeria Football Federation"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 530,
+   "name": "Mary Dunstan",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "In the 70th minute, Mary Dunstan restored the two-goal cushion with a brilliant individual effort, beating her marker and rounding the goalkeeper",
+     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Flamingos",
+   "league": "WAFU-B U17 Girls Championship",
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 10,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/",
+     "seen": "2026-09-19T04:54:29.466675"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-19T04:54:29.466675",
+   "last_seen": "2026-09-19T04:54:29.466675",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
      "Single source: not yet corroborated",
      "Age not confirmed"
     ],
@@ -42226,136 +43137,6 @@
    }
   },
   {
-   "id": 455,
-   "name": "Xiao Yafei",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 19 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "introducing Chen Ruilin for Xiao Yafei",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Midfielder",
-   "club": null,
-   "league": null,
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 8,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 3
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/",
-     "seen": "2026-09-11T11:42:44.704482"
-    },
-    {
-     "domain": "us.soccerway.com",
-     "url": "https://us.soccerway.com/player/yafei-xiao/n3RiCCBU/",
-     "seen": "2026-09-11T16:41:35.582361"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-11T11:42:44.704482",
-   "last_seen": "2026-09-15T17:13:01.968067",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 479,
    "name": "Amber Ogbolu",
    "age": null,
@@ -43220,6 +44001,133 @@
    }
   },
   {
+   "id": 529,
+   "name": "Elizabeth Adesuyi",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "The second half took a dramatic twist in the 59th minute when Nigeria were reduced to 10 players after defender Elizabeth Adesuyi was shown a straight red card for a foul on a Ghanaian attacker.",
+     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "defender",
+   "club": "Flamingos",
+   "league": "WAFU-B U17 Girls Championship",
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/",
+     "seen": "2026-09-19T04:54:29.466675"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-19T04:54:29.466675",
+   "last_seen": "2026-09-19T04:54:29.466675",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 125,
    "name": "Maureen Kenneth",
    "age": null,
@@ -43570,6 +44478,131 @@
     ],
     "fonte": "Ghana Football Association",
     "frase_en": "Called up 1 times by Ghana Football Association, U20."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 453,
+   "name": "Xue Sifan",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "Xue Sifan delivered two dangerous corners",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 7,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/xue-sifan-3868186",
+     "seen": "2026-09-11T11:42:44.704482"
+    },
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/",
+     "seen": "2026-09-11T11:42:44.704482"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-11T11:42:44.704482",
+   "last_seen": "2026-09-19T04:54:29.466675",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
    },
    "anomalie": [],
    "publishable": false,
@@ -46058,133 +47091,6 @@
    }
   },
   {
-   "id": 425,
-   "name": "Souleymane Commissaire",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Fédération Sénégalaise de Football",
-     "tipo": "federation",
-     "citazione": "Au retour des vestiaires, Souleymane Commissaire a rapidement doublé la mise à la 47e minute",
-     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-frappe-fort-dentree-face-a-la-mauritanie/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Senegal",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 4.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fsfoot.sn",
-     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-frappe-fort-dentree-face-a-la-mauritanie/",
-     "seen": "2026-09-08T05:03:28.858009"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-08T05:03:28.858009",
-   "last_seen": "2026-09-08T05:03:28.858009",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-17.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Fédération Sénégalaise de Football",
-      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-frappe-fort-dentree-face-a-la-mauritanie/"
-     }
-    ],
-    "fonte": "Fédération Sénégalaise de Football",
-    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U17."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "id": 426,
    "name": "Amadou Ndiaye",
    "age": null,
@@ -47096,131 +48002,6 @@
     {
      "domain": "besoccer.com",
      "url": "https://www.besoccer.com/player/song-lijuan-3755832",
-     "seen": "2026-09-11T11:42:44.704482"
-    },
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/",
-     "seen": "2026-09-11T11:42:44.704482"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-11T11:42:44.704482",
-   "last_seen": "2026-09-11T11:42:44.704482",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 453,
-   "name": "Xue Sifan",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "Xue Sifan delivered two dangerous corners",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 6,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "besoccer.com",
-     "url": "https://www.besoccer.com/player/xue-sifan-3868186",
      "seen": "2026-09-11T11:42:44.704482"
     },
     {
@@ -52287,124 +53068,6 @@
    }
   },
   {
-   "id": 450,
-   "name": "Kafayat Mafisere",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "Kafayat Mafisere winning a corner in the 33rd minute",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/",
-     "seen": "2026-09-11T11:42:44.704482"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-11T11:42:44.704482",
-   "last_seen": "2026-09-11T11:42:44.704482",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "id": 491,
    "name": "Lyudmila Karachik",
    "age": null,
@@ -53062,6 +53725,124 @@
     ],
     "fonte": "Fudbalski savez Srbije",
     "frase_en": "Called up 1 times by Fudbalski savez Srbije, U19."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 525,
+   "name": "Moussa Ndiaye",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Fédération Sénégalaise de Football",
+     "tipo": "federation",
+     "citazione": "Moussa Ndiaye, auteur de l’ouverture du score dès la 13e minute.",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/",
+     "seen": "2026-09-19T04:54:29.466675"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-19T04:54:29.466675",
+   "last_seen": "2026-09-19T04:54:29.466675",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U17."
    },
    "anomalie": [],
    "publishable": false,
