@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-19T21:40:40.313502+00:00",
+ "generated_at": "2026-09-20T05:57:55.720458+00:00",
  "version": "1.0.0",
- "build": "bc43f7a",
- "total": 542,
+ "build": "d219ba4",
+ "total": 543,
  "publishable": 105,
- "tracking": 437,
- "shown": 542,
+ "tracking": 438,
+ "shown": 543,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -13875,7 +13875,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 13
+    "detection_count": 14
    },
    "n_sources": 4,
    "sources": [
@@ -13920,7 +13920,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 13 rilevamenti"
+     "Segnale persistente: 14 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -13935,7 +13935,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 13 detections"
+     "Persistent signal: 14 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -13997,7 +13997,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 13
+    "detection_count": 14
    },
    "n_sources": 3,
    "sources": [
@@ -14037,7 +14037,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 13 rilevamenti"
+     "Segnale persistente: 14 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -14052,7 +14052,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 13 detections"
+     "Persistent signal: 14 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16499,6 +16499,118 @@
    }
   },
   {
+   "id": 4,
+   "name": "Ryan Evaristo",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Ryan Evaristo - Player profile",
+     "url": "https://www.transfermarkt.com/ryan-evaristo/profil/spieler/1568200"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Ryan Evaristo, 18 anni, SC Corinthians U20",
+     "url": "https://www.transfermarkt.com/ryan-evaristo/profil/spieler/1568200"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "ST",
+   "club": "São Paulo",
+   "league": "Youth (Copinha)",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 16,
+   "confidence": 0.83,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 10
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/p/DVRpeUHDlup/",
+     "seen": "2026-03-01T18:34:20.455948"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/ryan-evaristo/profil/spieler/1568200",
+     "seen": "2026-07-21T09:11:23.011662"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "senza_fonte_primary,eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-03-01T18:34:20.455948",
+   "last_seen": null,
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano",
+     "Segnale persistente: 10 rilevamenti"
+    ],
+    "cautions": [
+     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him",
+     "Persistent signal: 10 detections"
+    ],
+    "cautions_en": [
+     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Look for a primary press/federation source to bring it to the full standard",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 44,
    "name": "Gabriel Mec",
    "age": 18,
@@ -16547,7 +16659,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 2,
    "sources": [
@@ -16582,7 +16694,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16597,7 +16709,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17745,7 +17857,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 9
+    "detection_count": 10
    },
    "n_sources": 4,
    "sources": [
@@ -17790,7 +17902,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 9 rilevamenti"
+     "Segnale persistente: 10 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -17803,7 +17915,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 9 detections"
+     "Persistent signal: 10 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -19284,118 +19396,6 @@
    }
   },
   {
-   "id": 4,
-   "name": "Ryan Evaristo",
-   "age": 18,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Ryan Evaristo - Player profile",
-     "url": "https://www.transfermarkt.com/ryan-evaristo/profil/spieler/1568200"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Ryan Evaristo, 18 anni, SC Corinthians U20",
-     "url": "https://www.transfermarkt.com/ryan-evaristo/profil/spieler/1568200"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "ST",
-   "club": "São Paulo",
-   "league": "Youth (Copinha)",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 14,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 9
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "instagram.com",
-     "url": "https://www.instagram.com/p/DVRpeUHDlup/",
-     "seen": "2026-03-01T18:34:20.455948"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/ryan-evaristo/profil/spieler/1568200",
-     "seen": "2026-07-21T09:11:23.011662"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "senza_fonte_primary,eta_dichiarato,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-03-01T18:34:20.455948",
-   "last_seen": null,
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Giovane (18 anni)",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano",
-     "Segnale persistente: 9 rilevamenti"
-    ],
-    "cautions": [
-     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Young (18 yo)",
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him",
-     "Persistent signal: 9 detections"
-    ],
-    "cautions_en": [
-     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Look for a primary press/federation source to bring it to the full standard",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 29,
    "name": "João Cruz",
    "age": null,
@@ -20211,7 +20211,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 16
+    "detection_count": 17
    },
    "n_sources": 3,
    "sources": [
@@ -20250,7 +20250,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 16 rilevamenti"
+     "Segnale persistente: 17 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20262,7 +20262,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 16 detections"
+     "Persistent signal: 17 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22732,6 +22732,104 @@
     ],
     "next_steps_en": [
      "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 543,
+   "name": "Adam Bakoune",
+   "age": 20,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Trivela",
+     "tipo": "local_press",
+     "citazione": "Adam Bakoune, lateral-direito de 20 anos do Monza, foi convocado para a equipe sub-23",
+     "url": "https://trivela.com.br/africa/marrocos-lateral-italia-adam-bakoune/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Trivela",
+     "tipo": "local_press",
+     "citazione": "Adam Bakoune, lateral-direito de 20 anos do Monza, foi convocado para a equipe sub-23",
+     "url": "https://trivela.com.br/africa/marrocos-lateral-italia-adam-bakoune/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Trivela",
+     "tipo": "local_press",
+     "citazione": "Adam Bakoune, lateral-direito de 20 anos do Monza, foi convocado para a equipe sub-23",
+     "url": "https://trivela.com.br/africa/marrocos-lateral-italia-adam-bakoune/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "right-back",
+   "club": "Monza",
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 5,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "trivela.com.br",
+     "url": "https://trivela.com.br/africa/marrocos-lateral-italia-adam-bakoune/",
+     "seen": "2026-09-20T05:15:40.578147"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-20T05:15:40.578147",
+   "last_seen": "2026-09-20T05:15:40.578147",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Trivela"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Trivela"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
@@ -44416,7 +44514,7 @@
     "asymmetry": 0.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 2,
    "sources": [
@@ -44442,7 +44540,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-08-31T08:50:48.742491",
-   "last_seen": "2026-09-16T11:57:11.998665",
+   "last_seen": "2026-09-20T05:15:40.578147",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
@@ -44469,7 +44567,7 @@
    "assessment": {
     "pros": [
      "2 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -44484,7 +44582,7 @@
     ],
     "pros_en": [
      "2 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
