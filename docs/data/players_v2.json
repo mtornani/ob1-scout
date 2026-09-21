@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-20T21:36:06.173859+00:00",
+ "generated_at": "2026-09-21T05:55:03.560403+00:00",
  "version": "1.0.0",
- "build": "be5447d",
- "total": 549,
- "publishable": 105,
+ "build": "735a2ec",
+ "total": 551,
+ "publishable": 107,
  "tracking": 444,
- "shown": 549,
+ "shown": 551,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -1892,6 +1892,160 @@
     ],
     "next_steps_en": [
      "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 547,
+   "name": "Teboho Mlangeni",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "with the exciting Teboho Mlangeni chipping in with the other strike.",
+     "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Teboho Banele Mlangeni, 18 anni, Kaizer Chiefs II",
+     "url": "https://www.transfermarkt.us/teboho-mlangeni/profil/spieler/1391833"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Teboho Banele Mlangeni, 18 anni, Kaizer Chiefs II",
+     "url": "https://www.transfermarkt.us/teboho-mlangeni/profil/spieler/1391833"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defensive Midfield",
+   "club": "Kaizer Chiefs II",
+   "league": "CAF U20 Men's Africa Cup of Nations COSAFA qualifiers",
+   "region": "South Africa",
+   "gender": "male",
+   "score": 31,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 4.5,
+    "asymmetry": 8.0,
+    "selection": 19.0,
+    "n_sources": 2,
+    "detection_count": 4
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "safa.net",
+     "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/",
+     "seen": "2026-09-20T21:00:06.097088"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/teboho-mlangeni/profil/spieler/1391833",
+     "seen": "2026-09-21T05:18:51.145487"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-20T21:00:06.097088",
+   "last_seen": "2026-09-21T05:18:51.145487",
+   "selezione": {
+    "quante": 3,
+    "frase": "Convocato 3 volte da South African Football Association.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#breadcrumb"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#primaryimage"
+     }
+    ],
+    "fonte": "South African Football Association",
+    "frase_en": "Called up 3 times by South African Football Association."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "3 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "3 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/",
+      "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#breadcrumb",
+      "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#primaryimage"
+     ],
+     "dati": {
+      "convocazioni": 3,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Produzione documentata: 1 gol in 1 presenze",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt"
+    ],
+    "cautions": [],
+    "next_steps": [
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Documented output: 1 goals in 1 appearances",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt"
+    ],
+    "cautions_en": [],
+    "next_steps_en": [
      "Request video or schedule a live viewing",
      "Call the club: confirm identity and contract status"
     ]
@@ -6588,6 +6742,111 @@
    "coverage_tier": "standard",
    "first_detected": "2026-09-11T05:02:28.512947",
    "last_seen": "2026-09-11T05:02:28.512947",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 545,
+   "name": "Kgomotso Madiba",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Kgomotso Madiba, 18 anni, Fluminense FC U20",
+     "url": "https://www.transfermarkt.us/kgomotso-madiba/profil/spieler/1401172"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Kgomotso Madiba, 18 anni, Fluminense FC U20",
+     "url": "https://www.transfermarkt.us/kgomotso-madiba/profil/spieler/1401172"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Kgomotso Madiba, 18 anni, Fluminense FC U20",
+     "url": "https://www.transfermarkt.us/kgomotso-madiba/profil/spieler/1401172"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attacking Midfield",
+   "club": "Fluminense",
+   "league": "Libertadores",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "placar.com.br",
+     "url": "https://placar.com.br/tudo-sobre/libertadores/",
+     "seen": "2026-09-20T21:00:06.097088"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/kgomotso-madiba/profil/spieler/1401172",
+     "seen": "2026-09-21T05:18:51.145487"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-20T21:00:06.097088",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {},
    "anomalie": [],
    "publishable": true,
@@ -13654,7 +13913,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 12
+    "detection_count": 13
    },
    "n_sources": 4,
    "sources": [
@@ -13699,7 +13958,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 12 rilevamenti"
+     "Segnale persistente: 13 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -13710,7 +13969,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 12 detections"
+     "Persistent signal: 13 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -13875,7 +14134,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 17
+    "detection_count": 18
    },
    "n_sources": 4,
    "sources": [
@@ -13920,7 +14179,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 17 rilevamenti"
+     "Segnale persistente: 18 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -13935,7 +14194,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 17 detections"
+     "Persistent signal: 18 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -13997,7 +14256,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 17
+    "detection_count": 18
    },
    "n_sources": 3,
    "sources": [
@@ -14037,7 +14296,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 17 rilevamenti"
+     "Segnale persistente: 18 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -14052,7 +14311,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 17 detections"
+     "Persistent signal: 18 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -15494,7 +15753,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 1,
    "sources": [
@@ -15510,7 +15769,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -15539,7 +15798,7 @@
      "Molto giovane (15 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -15554,7 +15813,7 @@
      "Very young (15 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -16547,7 +16806,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 12
+    "detection_count": 13
    },
    "n_sources": 2,
    "sources": [
@@ -16582,7 +16841,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 12 rilevamenti"
+     "Segnale persistente: 13 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16597,7 +16856,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 12 detections"
+     "Persistent signal: 13 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16659,7 +16918,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 15
+    "detection_count": 16
    },
    "n_sources": 2,
    "sources": [
@@ -16694,7 +16953,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 15 rilevamenti"
+     "Segnale persistente: 16 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16709,7 +16968,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 15 detections"
+     "Persistent signal: 16 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16879,7 +17138,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 1,
    "sources": [
@@ -16895,7 +17154,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -16924,7 +17183,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -16939,7 +17198,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -17001,7 +17260,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 1,
    "sources": [
@@ -17017,7 +17276,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -17046,7 +17305,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -17061,7 +17320,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -17069,130 +17328,6 @@
      "No documented performance stats"
     ],
     "next_steps_en": [
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 328,
-   "name": "Anderson Luz",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 16 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "AUF — Asociación Uruguaya de Fútbol",
-     "tipo": "federation",
-     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Anderson Luz, Centrocampista, nato il 19/09/2009, M. City Torque",
-     "url": "https://www.auf.org.uy/sub-17/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "AUF — Asociación Uruguaya de Fútbol",
-     "tipo": "federation",
-     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Anderson Luz, Centrocampista, nato il 19/09/2009, M. City Torque",
-     "url": "https://www.auf.org.uy/sub-17/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Centrocampista",
-   "club": "M. City Torque",
-   "league": null,
-   "region": "Uruguay",
-   "gender": "unknown",
-   "score": 16,
-   "confidence": 0.55,
-   "breakdown": {
-    "youth": 18.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 7
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "auf.org.uy",
-     "url": "https://www.auf.org.uy/sub-17/",
-     "seen": "2026-09-01T08:32:38.659540"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": true,
-   "review_flags": "fonte_singola,eta_assente,club_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "AUF — Asociación Uruguaya de Fútbol",
-      "url": "https://www.auf.org.uy/sub-17/"
-     }
-    ],
-    "fonte": "AUF — Asociación Uruguaya de Fútbol",
-    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 7 rilevamenti"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 7 detections"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
@@ -17247,7 +17382,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 1,
    "sources": [
@@ -17263,7 +17398,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -17292,7 +17427,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -17307,7 +17442,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -17369,7 +17504,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 1,
    "sources": [
@@ -17385,7 +17520,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -17414,7 +17549,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -17429,7 +17564,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -17491,7 +17626,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 1,
    "sources": [
@@ -17507,7 +17642,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -17536,7 +17671,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -17551,7 +17686,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -17613,7 +17748,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 1,
    "sources": [
@@ -17629,7 +17764,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:40:56.884177",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -17658,7 +17793,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -17673,7 +17808,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -17735,7 +17870,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 1,
    "sources": [
@@ -17751,7 +17886,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:40:56.884177",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -17780,7 +17915,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -17795,7 +17930,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -17857,7 +17992,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 4,
    "sources": [
@@ -17902,7 +18037,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -17915,7 +18050,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -18102,7 +18237,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 1,
    "sources": [
@@ -18118,7 +18253,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -18147,7 +18282,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -18162,7 +18297,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -18224,7 +18359,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 1,
    "sources": [
@@ -18240,7 +18375,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -18269,7 +18404,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -18284,7 +18419,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -18346,7 +18481,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 1,
    "sources": [
@@ -18362,7 +18497,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -18391,7 +18526,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -18406,7 +18541,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -18468,7 +18603,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 1,
    "sources": [
@@ -18484,7 +18619,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -18513,7 +18648,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -18528,7 +18663,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -18590,7 +18725,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 1,
    "sources": [
@@ -18606,7 +18741,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -18635,7 +18770,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -18650,7 +18785,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -18712,7 +18847,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 1,
    "sources": [
@@ -18728,7 +18863,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -18757,7 +18892,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -18772,7 +18907,129 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 328,
+   "name": "Anderson Luz",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Anderson Luz, Centrocampista, nato il 19/09/2009, M. City Torque",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Anderson Luz, Centrocampista, nato il 19/09/2009, M. City Torque",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "AUF — Asociación Uruguaya de Fútbol",
+     "tipo": "federation",
+     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Anderson Luz, Centrocampista, nato il 19/09/2009, M. City Torque",
+     "url": "https://www.auf.org.uy/sub-17/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Centrocampista",
+   "club": "M. City Torque",
+   "league": null,
+   "region": "Uruguay",
+   "gender": "unknown",
+   "score": 15,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 8
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "auf.org.uy",
+     "url": "https://www.auf.org.uy/sub-17/",
+     "seen": "2026-09-01T08:32:38.659540"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T08:32:38.659540",
+   "last_seen": "2026-09-21T05:18:51.145487",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "AUF — Asociación Uruguaya de Fútbol",
+      "url": "https://www.auf.org.uy/sub-17/"
+     }
+    ],
+    "fonte": "AUF — Asociación Uruguaya de Fútbol",
+    "frase_en": "Called up 1 times by AUF — Asociación Uruguaya de Fútbol, U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
+     "Segnale persistente: 8 rilevamenti"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -18834,7 +19091,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 1,
    "sources": [
@@ -18850,7 +19107,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -18879,7 +19136,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -18894,7 +19151,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -18956,7 +19213,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 1,
    "sources": [
@@ -18972,7 +19229,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -19001,7 +19258,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -19016,7 +19273,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -19078,7 +19335,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 1,
    "sources": [
@@ -19094,7 +19351,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -19123,7 +19380,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -19138,7 +19395,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -19200,7 +19457,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 1,
    "sources": [
@@ -19216,7 +19473,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -19245,7 +19502,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -19260,7 +19517,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -19322,7 +19579,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 1,
    "sources": [
@@ -19338,7 +19595,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:40:56.884177",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -19367,7 +19624,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -19382,7 +19639,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -20100,7 +20357,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 17
+    "detection_count": 18
    },
    "n_sources": 3,
    "sources": [
@@ -20139,7 +20396,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 17 rilevamenti"
+     "Segnale persistente: 18 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20151,7 +20408,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 17 detections"
+     "Persistent signal: 18 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -20211,7 +20468,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 20
+    "detection_count": 21
    },
    "n_sources": 3,
    "sources": [
@@ -20250,7 +20507,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 20 rilevamenti"
+     "Segnale persistente: 21 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20262,7 +20519,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 20 detections"
+     "Persistent signal: 21 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -20322,7 +20579,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 13
+    "detection_count": 14
    },
    "n_sources": 2,
    "sources": [
@@ -20357,7 +20614,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 13 rilevamenti"
+     "Segnale persistente: 14 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20370,7 +20627,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 13 detections"
+     "Persistent signal: 14 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24058,7 +24315,7 @@
     "asymmetry": -20.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 12
+    "detection_count": 13
    },
    "n_sources": 2,
    "sources": [
@@ -24079,7 +24336,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-17T11:58:50.570866",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -24108,7 +24365,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 12 rilevamenti"
+     "Segnale persistente: 13 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -24121,7 +24378,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "2 distinct domains mention him",
-     "Persistent signal: 12 detections"
+     "Persistent signal: 13 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -24181,7 +24438,7 @@
     "asymmetry": -20.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 2,
    "sources": [
@@ -24202,7 +24459,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-17T11:58:50.570866",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -24231,7 +24488,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -24244,7 +24501,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "2 distinct domains mention him",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -25694,6 +25951,162 @@
    }
   },
   {
+   "id": 548,
+   "name": "Manelis Mazibuko",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "midfielder Manelis Mazibuko had his goal ruled out as early as the sixth minute by the match official for offside.",
+     "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "midfielder",
+   "club": "South African U20 Men's National team (Amajita)",
+   "league": "CAF U20 Men's Africa Cup of Nations COSAFA qualifiers",
+   "region": "South Africa",
+   "gender": "male",
+   "score": 24,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 8.0,
+    "selection": 19.0,
+    "n_sources": 2,
+    "detection_count": 4
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "safa.net",
+     "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/",
+     "seen": "2026-09-20T21:00:06.097088"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/manelis-mazibuko-3650042",
+     "seen": "2026-09-21T05:18:51.145487"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-20T21:00:06.097088",
+   "last_seen": "2026-09-21T05:18:51.145487",
+   "selezione": {
+    "quante": 3,
+    "frase": "Convocato 3 volte da South African Football Association.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#breadcrumb"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#primaryimage"
+     }
+    ],
+    "fonte": "South African Football Association",
+    "frase_en": "Called up 3 times by South African Football Association."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "3 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "3 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/",
+      "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#breadcrumb",
+      "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#primaryimage"
+     ],
+     "dati": {
+      "convocazioni": 3,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "id": 205,
    "name": "Kener Nicolás González Mosquera",
    "age": null,
@@ -26284,6 +26697,136 @@
     ],
     "next_steps_en": [
      "Verify the current club"
+    ]
+   }
+  },
+  {
+   "id": 460,
+   "name": "Cheikh Oumar Sy",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Fédération Sénégalaise de Football",
+     "tipo": "federation",
+     "citazione": "Cheikh Oumar Sy s’est ensuite illustré avec un doublé (31e et 37e)",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": "UFOA A U17",
+   "region": "Senegal",
+   "gender": "male",
+   "score": 21,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 16.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/",
+     "seen": "2026-09-12T04:54:03.412363"
+    },
+    {
+     "domain": "wiwsport.com",
+     "url": "https://wiwsport.com/2026/09/21/ufoa-a-u17-cheikh-oumar-sy-termine-co-meilleur-buteur-avec-4-buts/",
+     "seen": "2026-09-21T05:18:51.145487"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 4,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-12T04:54:03.412363",
+   "last_seen": "2026-09-21T05:18:51.145487",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 4 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented output: 4 goals",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
     ]
    }
   },
@@ -28228,6 +28771,153 @@
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 551,
+   "name": "Steven Mendes",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "The irrepressible Steven Mendes, who was named Player of the Match, grabbed a goal either side of the half",
+     "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#primaryimage"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "South African U20 Men's National team (Amajita)",
+   "league": "CAF U20 Men's Africa Cup of Nations COSAFA qualifiers",
+   "region": "South Africa",
+   "gender": "male",
+   "score": 16,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 8.5,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "safa.net",
+     "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#primaryimage",
+     "seen": "2026-09-21T05:18:51.145487"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 2,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-21T05:18:51.145487",
+   "last_seen": "2026-09-21T05:18:51.145487",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da South African Football Association.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#breadcrumb"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#primaryimage"
+     }
+    ],
+    "fonte": "South African Football Association",
+    "frase_en": "Called up 2 times by South African Football Association."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#breadcrumb",
+      "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#primaryimage"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 2 gol in 1 presenze",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 2 goals in 1 appearances",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
@@ -30815,135 +31505,6 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 460,
-   "name": "Cheikh Oumar Sy",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Fédération Sénégalaise de Football",
-     "tipo": "federation",
-     "citazione": "Cheikh Oumar Sy s’est ensuite illustré avec un doublé (31e et 37e)",
-     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": "UFOA A U17",
-   "region": "Senegal",
-   "gender": "male",
-   "score": 12,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 8.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fsfoot.sn",
-     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/",
-     "seen": "2026-09-12T04:54:03.412363"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 2,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-12T04:54:03.412363",
-   "last_seen": "2026-09-12T04:54:03.412363",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-17.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Fédération Sénégalaise de Football",
-      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
-     }
-    ],
-    "fonte": "Fédération Sénégalaise de Football",
-    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U17."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 2 gol",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 2 goals",
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
@@ -33727,7 +34288,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 1,
    "sources": [
@@ -33743,7 +34304,7 @@
    "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-09-16T21:34:36.164940",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -33771,7 +34332,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -33787,7 +34348,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -50617,18 +51178,18 @@
    }
   },
   {
-   "id": 545,
-   "name": "Kgomotso Madiba",
+   "id": 550,
+   "name": "Assane Sarr",
    "age": null,
    "age_stato": "assente",
    "age_nota": "",
    "claims": {
     "nome": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
+     "stato": "dichiarato",
+     "fonte": "Wiwsport",
+     "tipo": "national_press",
+     "citazione": "Assane Sarr élu meilleur gardien du tournoi",
+     "url": "https://wiwsport.com/2026/09/21/ufoa-a-u17-assane-sarr-elu-meilleur-gardien-du-tournoi/"
     },
     "club": {
      "stato": "assente",
@@ -50652,10 +51213,10 @@
      "url": ""
     }
    },
-   "position": null,
-   "club": "Fluminense",
-   "league": "Libertadores",
-   "region": "Brazil",
+   "position": "gardien",
+   "club": null,
+   "league": "UFOA-A U17",
+   "region": "Senegal",
    "gender": "male",
    "score": 6,
    "confidence": 0.45,
@@ -50670,18 +51231,18 @@
    "n_sources": 1,
    "sources": [
     {
-     "domain": "placar.com.br",
-     "url": "https://placar.com.br/tudo-sobre/libertadores/",
-     "seen": "2026-09-20T21:00:06.097088"
+     "domain": "wiwsport.com",
+     "url": "https://wiwsport.com/2026/09/21/ufoa-a-u17-assane-sarr-elu-meilleur-gardien-du-tournoi/",
+     "seen": "2026-09-21T05:18:51.145487"
     }
    ],
    "n_sources_registro": 1,
    "stats": {},
    "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-20T21:00:06.097088",
-   "last_seen": "2026-09-20T21:00:06.097088",
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-21T05:18:51.145487",
+   "last_seen": "2026-09-21T05:18:51.145487",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -50697,9 +51258,9 @@
      "Età non confermata"
     ],
     "next_steps": [
+     "Verificare il club attuale",
      "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
     ],
     "pros_en": [
      "Minor context: potentially underpriced"
@@ -50710,131 +51271,6 @@
      "Single source: not yet corroborated",
      "No documented performance stats",
      "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 547,
-   "name": "Teboho Mlangeni",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "South African Football Association",
-     "tipo": "federation",
-     "citazione": "with the exciting Teboho Mlangeni chipping in with the other strike.",
-     "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "South Africa",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 4.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "safa.net",
-     "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/",
-     "seen": "2026-09-20T21:00:06.097088"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-20T21:00:06.097088",
-   "last_seen": "2026-09-20T21:00:06.097088",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da South African Football Association.",
-    "dal": "",
-    "al": "",
-    "categorie": [],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/"
-     }
-    ],
-    "fonte": "South African Football Association",
-    "frase_en": "Called up 1 times by South African Football Association."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
     ],
     "next_steps_en": [
      "Verify the current club",
@@ -55468,127 +55904,6 @@
      "High-visibility club/league: low asymmetry, competition likely"
     ],
     "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 548,
-   "name": "Manelis Mazibuko",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "South African Football Association",
-     "tipo": "federation",
-     "citazione": "midfielder Manelis Mazibuko had his goal ruled out as early as the sixth minute by the match official for offside.",
-     "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "midfielder",
-   "club": null,
-   "league": null,
-   "region": "South Africa",
-   "gender": "male",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "safa.net",
-     "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/",
-     "seen": "2026-09-20T21:00:06.097088"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-20T21:00:06.097088",
-   "last_seen": "2026-09-20T21:00:06.097088",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da South African Football Association.",
-    "dal": "",
-    "al": "",
-    "categorie": [],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/"
-     }
-    ],
-    "fonte": "South African Football Association",
-    "frase_en": "Called up 1 times by South African Football Association."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
     ]
