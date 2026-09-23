@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-23T05:22:41.873643+00:00",
+ "generated_at": "2026-09-23T12:26:13.560778+00:00",
  "version": "1.0.0",
- "build": "b0487f9",
- "total": 559,
+ "build": "a331318",
+ "total": 568,
  "publishable": 111,
- "tracking": 448,
- "shown": 559,
+ "tracking": 457,
+ "shown": 568,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -1888,6 +1888,156 @@
     "cautions_en": [
      "The age (17) is not stated by any source: it is inferred from the tournament category (U-17)",
      "Last call-up 19 months ago (February 2025): the run has stopped — worth finding out why",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 526,
+   "name": "Cheikh Thior",
+   "age": 15,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Fédération Sénégalaise de Football",
+     "tipo": "federation",
+     "citazione": "Cheikh Thior ne scelle le succès sénégalais dans le temps additionnel, à la 90e+4.",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Cheikh Thior, 15 anni, Oslo Football Academy U17",
+     "url": "https://www.transfermarkt.us/cheikh-thior/profil/spieler/1548173"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Cheikh Thior, 15 anni, Oslo Football Academy U17",
+     "url": "https://www.transfermarkt.us/cheikh-thior/profil/spieler/1548173"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Centre-Back",
+   "club": "Oslo Football Academy U17",
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 31,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 20.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/",
+     "seen": "2026-09-19T04:54:29.466675"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/cheikh-thior/profil/spieler/1548173",
+     "seen": "2026-09-19T04:54:29.466675"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-19T04:54:29.466675",
+   "last_seen": "2026-09-23T11:59:53.215187",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Fédération Sénégalaise de Football, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/actualites/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 2 times by Fédération Sénégalaise de Football, U17."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Fédération Sénégalaise de Football, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Fédération Sénégalaise de Football, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fsfoot.sn/actualites/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/",
+      "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Molto giovane (15 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Very young (15 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -3983,131 +4133,6 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by Federación Colombiana de Fútbol",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Get performance stats (match reports)",
-     "Request video or schedule a live viewing",
-     "Call the club: confirm identity and contract status"
-    ]
-   }
-  },
-  {
-   "id": 526,
-   "name": "Cheikh Thior",
-   "age": 15,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Fédération Sénégalaise de Football",
-     "tipo": "federation",
-     "citazione": "Cheikh Thior ne scelle le succès sénégalais dans le temps additionnel, à la 90e+4.",
-     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Cheikh Thior, 15 anni, Oslo Football Academy U17",
-     "url": "https://www.transfermarkt.us/cheikh-thior/profil/spieler/1548173"
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Cheikh Thior, 15 anni, Oslo Football Academy U17",
-     "url": "https://www.transfermarkt.us/cheikh-thior/profil/spieler/1548173"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Centre-Back",
-   "club": "Oslo Football Academy U17",
-   "league": null,
-   "region": "Senegal",
-   "gender": "male",
-   "score": 20,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 20.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fsfoot.sn",
-     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/",
-     "seen": "2026-09-19T04:54:29.466675"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/cheikh-thior/profil/spieler/1548173",
-     "seen": "2026-09-19T04:54:29.466675"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {},
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_dichiarato",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-19T04:54:29.466675",
-   "last_seen": "2026-09-19T04:54:29.466675",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-17.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Fédération Sénégalaise de Football",
-      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
-     }
-    ],
-    "fonte": "Fédération Sénégalaise de Football",
-    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U17."
-   },
-   "anomalie": [],
-   "publishable": true,
-   "assessment": {
-    "pros": [
-     "Molto giovane (15 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Transfermarkt",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)",
-     "Richiedere video o programmare una visione diretta",
-     "Telefonata al club: conferma anagrafica e status contrattuale"
-    ],
-    "pros_en": [
-     "Very young (15 yo): plenty of room to develop",
-     "Minor context: potentially underpriced",
-     "Name and club stated by Transfermarkt",
      "2 distinct domains mention him"
     ],
     "cautions_en": [
@@ -14519,7 +14544,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 19
+    "detection_count": 20
    },
    "n_sources": 4,
    "sources": [
@@ -14564,7 +14589,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 19 rilevamenti"
+     "Segnale persistente: 20 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -14575,7 +14600,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 19 detections"
+     "Persistent signal: 20 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -14740,7 +14765,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 22
+    "detection_count": 23
    },
    "n_sources": 4,
    "sources": [
@@ -14785,7 +14810,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 22 rilevamenti"
+     "Segnale persistente: 23 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -14800,7 +14825,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 22 detections"
+     "Persistent signal: 23 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -14862,7 +14887,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 24
+    "detection_count": 25
    },
    "n_sources": 3,
    "sources": [
@@ -14902,7 +14927,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 24 rilevamenti"
+     "Segnale persistente: 25 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -14917,7 +14942,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 24 detections"
+     "Persistent signal: 25 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17415,7 +17440,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 20
+    "detection_count": 21
    },
    "n_sources": 2,
    "sources": [
@@ -17450,7 +17475,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 20 rilevamenti"
+     "Segnale persistente: 21 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17465,7 +17490,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 20 detections"
+     "Persistent signal: 21 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18548,6 +18573,208 @@
     ],
     "next_steps_en": [
      "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 562,
+   "name": "Nguyễn Ngọc Anh Hào",
+   "age": 16,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "cùng 9 cầu thủ: Lý Xuân Hòa, Nguyễn Việt Dũng, Nguyễn Ngọc Anh Hào, Bùi Trung Hiếu, Nguyễn Huỳnh Đăng Khoa, Nguyễn Văn Dương, Lê Sỹ Bách, Nguyễn Trọng Phong và Trương Nguyễn Duy Khang.",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Nguyễn Ngọc Anh Hào, 16 anni, PVF Football Academy",
+     "url": "https://www.transfermarkt.us/anh-hao-nguyen-ngoc/profil/spieler/1415353"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Right-Back",
+   "club": "PVF",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 16,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/",
+     "seen": "2026-09-23T11:59:53.215187"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/anh-hao-nguyen-ngoc/profil/spieler/1415353",
+     "seen": "2026-09-23T11:59:53.215187"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-23T11:59:53.215187",
+   "last_seen": "2026-09-23T11:59:53.215187",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Very young (16 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 565,
+   "name": "Nguyễn Văn Dương",
+   "age": 16,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "cùng 9 cầu thủ: Lý Xuân Hòa, Nguyễn Việt Dũng, Nguyễn Ngọc Anh Hào, Bùi Trung Hiếu, Nguyễn Huỳnh Đăng Khoa, Nguyễn Văn Dương, Lê Sỹ Bách, Nguyễn Trọng Phong và Trương Nguyễn Duy Khang.",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Nguyễn Văn Dương, 16 anni, PVF Football Academy",
+     "url": "https://www.transfermarkt.us/van-duong-nguyen/profil/spieler/1337198"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Left Winger",
+   "club": "PVF",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 16,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/",
+     "seen": "2026-09-23T11:59:53.215187"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/van-duong-nguyen/profil/spieler/1337198",
+     "seen": "2026-09-23T11:59:53.215187"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-23T11:59:53.215187",
+   "last_seen": "2026-09-23T11:59:53.215187",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Very young (16 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
      "Get performance stats (match reports)"
     ]
    }
@@ -20966,7 +21193,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 26
+    "detection_count": 27
    },
    "n_sources": 3,
    "sources": [
@@ -21005,7 +21232,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 26 rilevamenti"
+     "Segnale persistente: 27 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21017,7 +21244,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 26 detections"
+     "Persistent signal: 27 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21077,7 +21304,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 27
+    "detection_count": 28
    },
    "n_sources": 3,
    "sources": [
@@ -21116,7 +21343,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 27 rilevamenti"
+     "Segnale persistente: 28 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21128,7 +21355,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 27 detections"
+     "Persistent signal: 28 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21188,7 +21415,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 2,
    "sources": [
@@ -21223,7 +21450,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21236,7 +21463,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21296,7 +21523,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 18
+    "detection_count": 19
    },
    "n_sources": 2,
    "sources": [
@@ -21331,7 +21558,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 18 rilevamenti"
+     "Segnale persistente: 19 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -21346,7 +21573,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 18 detections"
+     "Persistent signal: 19 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -26688,7 +26915,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 3,
    "sources": [
@@ -26719,7 +26946,7 @@
    "review_flags": "club_mancante,senza_fonte_primary,eta_assente,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-03-01T18:34:38.117964",
-   "last_seen": "2026-09-15T12:00:05.244149",
+   "last_seen": "2026-09-23T11:59:53.215187",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -26727,7 +26954,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -26744,7 +26971,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -29051,6 +29278,177 @@
    }
   },
   {
+   "id": 425,
+   "name": "Souleymane Commissaire",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Fédération Sénégalaise de Football",
+     "tipo": "federation",
+     "citazione": "Au retour des vestiaires, Souleymane Commissaire a rapidement doublé la mise à la 47e minute",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-frappe-fort-dentree-face-a-la-mauritanie/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 19,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 0.0,
+    "selection": 24.0,
+    "n_sources": 1,
+    "detection_count": 5
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-frappe-fort-dentree-face-a-la-mauritanie/",
+     "seen": "2026-09-08T05:03:28.858009"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-08T05:03:28.858009",
+   "last_seen": "2026-09-23T11:59:53.215187",
+   "selezione": {
+    "quante": 5,
+    "frase": "Convocato 5 volte da Fédération Sénégalaise de Football, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/actualites/ufoa-a-u17-le-senegal-cede-son-titre-a-la-gambie-aux-tirs-au-but/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/actualites/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-cede-son-titre-a-la-gambie-aux-tirs-au-but/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-frappe-fort-dentree-face-a-la-mauritanie/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 5 times by Fédération Sénégalaise de Football, U17."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "5 convocazioni di Fédération Sénégalaise de Football, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "5 call-ups by Fédération Sénégalaise de Football, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fsfoot.sn/actualites/ufoa-a-u17-le-senegal-cede-son-titre-a-la-gambie-aux-tirs-au-but/",
+      "https://fsfoot.sn/actualites/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/",
+      "https://fsfoot.sn/ufoa-a-u17-le-senegal-cede-son-titre-a-la-gambie-aux-tirs-au-but/",
+      "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
+     ],
+     "dati": {
+      "convocazioni": 5,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "id": 480,
    "name": "Tumininu Adeshina",
    "age": 20,
@@ -29604,171 +30002,6 @@
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 425,
-   "name": "Souleymane Commissaire",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Fédération Sénégalaise de Football",
-     "tipo": "federation",
-     "citazione": "Au retour des vestiaires, Souleymane Commissaire a rapidement doublé la mise à la 47e minute",
-     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-frappe-fort-dentree-face-a-la-mauritanie/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Senegal",
-   "gender": "male",
-   "score": 18,
-   "confidence": 0.55,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 4.0,
-    "asymmetry": 0.0,
-    "selection": 22.0,
-    "n_sources": 1,
-    "detection_count": 4
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fsfoot.sn",
-     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-frappe-fort-dentree-face-a-la-mauritanie/",
-     "seen": "2026-09-08T05:03:28.858009"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-08T05:03:28.858009",
-   "last_seen": "2026-09-23T05:02:17.165315",
-   "selezione": {
-    "quante": 4,
-    "frase": "Convocato 4 volte da Fédération Sénégalaise de Football, Sub-17.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Fédération Sénégalaise de Football",
-      "url": "https://fsfoot.sn/actualites/ufoa-a-u17-le-senegal-cede-son-titre-a-la-gambie-aux-tirs-au-but/"
-     },
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Fédération Sénégalaise de Football",
-      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-cede-son-titre-a-la-gambie-aux-tirs-au-but/"
-     },
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Fédération Sénégalaise de Football",
-      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
-     },
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Fédération Sénégalaise de Football",
-      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-frappe-fort-dentree-face-a-la-mauritanie/"
-     }
-    ],
-    "fonte": "Fédération Sénégalaise de Football",
-    "frase_en": "Called up 4 times by Fédération Sénégalaise de Football, U17."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "4 convocazioni di Fédération Sénégalaise de Football, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "4 call-ups by Fédération Sénégalaise de Football, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://fsfoot.sn/actualites/ufoa-a-u17-le-senegal-cede-son-titre-a-la-gambie-aux-tirs-au-but/",
-      "https://fsfoot.sn/ufoa-a-u17-le-senegal-cede-son-titre-a-la-gambie-aux-tirs-au-but/",
-      "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/",
-      "https://fsfoot.sn/ufoa-a-u17-le-senegal-frappe-fort-dentree-face-a-la-mauritanie/"
-     ],
-     "dati": {
-      "convocazioni": 4,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
@@ -38689,6 +38922,148 @@
      "prove": [
       "https://thenff.com/fifa-u20-womens-world-cup-falconets-trounce-englands-lionesses-3-0-to-reach-last-eight/",
       "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 525,
+   "name": "Moussa Ndiaye",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Fédération Sénégalaise de Football",
+     "tipo": "federation",
+     "citazione": "Moussa Ndiaye, auteur de l’ouverture du score dès la 13e minute.",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 9,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 14.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/",
+     "seen": "2026-09-19T04:54:29.466675"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-19T04:54:29.466675",
+   "last_seen": "2026-09-23T11:59:53.215187",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Fédération Sénégalaise de Football, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/actualites/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 2 times by Fédération Sénégalaise de Football, U17."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Fédération Sénégalaise de Football, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Fédération Sénégalaise de Football, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fsfoot.sn/actualites/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/",
+      "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
      ],
      "dati": {
       "convocazioni": 2,
@@ -52264,6 +52639,720 @@
    }
   },
   {
+   "id": 560,
+   "name": "Lý Xuân Hòa",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "cùng 9 cầu thủ: Lý Xuân Hòa, Nguyễn Việt Dũng, Nguyễn Ngọc Anh Hào, Bùi Trung Hiếu, Nguyễn Huỳnh Đăng Khoa, Nguyễn Văn Dương, Lê Sỹ Bách, Nguyễn Trọng Phong và Trương Nguyễn Duy Khang.",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "PVF",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/",
+     "seen": "2026-09-23T11:59:53.215187"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-23T11:59:53.215187",
+   "last_seen": "2026-09-23T11:59:53.215187",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 561,
+   "name": "Nguyễn Việt Dũng",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "cùng 9 cầu thủ: Lý Xuân Hòa, Nguyễn Việt Dũng, Nguyễn Ngọc Anh Hào, Bùi Trung Hiếu, Nguyễn Huỳnh Đăng Khoa, Nguyễn Văn Dương, Lê Sỹ Bách, Nguyễn Trọng Phong và Trương Nguyễn Duy Khang.",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "PVF",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/",
+     "seen": "2026-09-23T11:59:53.215187"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-23T11:59:53.215187",
+   "last_seen": "2026-09-23T11:59:53.215187",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 563,
+   "name": "Bùi Trung Hiếu",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "cùng 9 cầu thủ: Lý Xuân Hòa, Nguyễn Việt Dũng, Nguyễn Ngọc Anh Hào, Bùi Trung Hiếu, Nguyễn Huỳnh Đăng Khoa, Nguyễn Văn Dương, Lê Sỹ Bách, Nguyễn Trọng Phong và Trương Nguyễn Duy Khang.",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "PVF",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/",
+     "seen": "2026-09-23T11:59:53.215187"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-23T11:59:53.215187",
+   "last_seen": "2026-09-23T11:59:53.215187",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 564,
+   "name": "Nguyễn Huỳnh Đăng Khoa",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "cùng 9 cầu thủ: Lý Xuân Hòa, Nguyễn Việt Dũng, Nguyễn Ngọc Anh Hào, Bùi Trung Hiếu, Nguyễn Huỳnh Đăng Khoa, Nguyễn Văn Dương, Lê Sỹ Bách, Nguyễn Trọng Phong và Trương Nguyễn Duy Khang.",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "PVF",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/",
+     "seen": "2026-09-23T11:59:53.215187"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-23T11:59:53.215187",
+   "last_seen": "2026-09-23T11:59:53.215187",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 566,
+   "name": "Lê Sỹ Bách",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "cùng 9 cầu thủ: Lý Xuân Hòa, Nguyễn Việt Dũng, Nguyễn Ngọc Anh Hào, Bùi Trung Hiếu, Nguyễn Huỳnh Đăng Khoa, Nguyễn Văn Dương, Lê Sỹ Bách, Nguyễn Trọng Phong và Trương Nguyễn Duy Khang.",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "PVF",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/",
+     "seen": "2026-09-23T11:59:53.215187"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-23T11:59:53.215187",
+   "last_seen": "2026-09-23T11:59:53.215187",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 567,
+   "name": "Nguyễn Trọng Phong",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "cùng 9 cầu thủ: Lý Xuân Hòa, Nguyễn Việt Dũng, Nguyễn Ngọc Anh Hào, Bùi Trung Hiếu, Nguyễn Huỳnh Đăng Khoa, Nguyễn Văn Dương, Lê Sỹ Bách, Nguyễn Trọng Phong và Trương Nguyễn Duy Khang.",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "PVF",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/",
+     "seen": "2026-09-23T11:59:53.215187"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-23T11:59:53.215187",
+   "last_seen": "2026-09-23T11:59:53.215187",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 568,
+   "name": "Trương Nguyễn Duy Khang",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "cùng 9 cầu thủ: Lý Xuân Hòa, Nguyễn Việt Dũng, Nguyễn Ngọc Anh Hào, Bùi Trung Hiếu, Nguyễn Huỳnh Đăng Khoa, Nguyễn Văn Dương, Lê Sỹ Bách, Nguyễn Trọng Phong và Trương Nguyễn Duy Khang.",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "PVF",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/",
+     "seen": "2026-09-23T11:59:53.215187"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-23T11:59:53.215187",
+   "last_seen": "2026-09-23T11:59:53.215187",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 129,
    "name": "Juana Flores",
    "age": null,
@@ -56166,124 +57255,6 @@
     ],
     "fonte": "Fudbalski savez Srbije",
     "frase_en": "Called up 1 times by Fudbalski savez Srbije, U19."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 525,
-   "name": "Moussa Ndiaye",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Fédération Sénégalaise de Football",
-     "tipo": "federation",
-     "citazione": "Moussa Ndiaye, auteur de l’ouverture du score dès la 13e minute.",
-     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Senegal",
-   "gender": "male",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fsfoot.sn",
-     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/",
-     "seen": "2026-09-19T04:54:29.466675"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-19T04:54:29.466675",
-   "last_seen": "2026-09-19T04:54:29.466675",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-17.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Fédération Sénégalaise de Football",
-      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-domine-la-guinee-3-0-et-file-en-finale/"
-     }
-    ],
-    "fonte": "Fédération Sénégalaise de Football",
-    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U17."
    },
    "anomalie": [],
    "publishable": false,
