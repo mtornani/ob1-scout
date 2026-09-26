@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T05:42:23.354475+00:00",
+ "generated_at": "2026-09-26T12:05:45.880336+00:00",
  "version": "1.0.0",
- "build": "af29687",
- "total": 571,
- "publishable": 111,
+ "build": "bd83848",
+ "total": 573,
+ "publishable": 113,
  "tracking": 460,
- "shown": 571,
+ "shown": 573,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -7513,6 +7513,111 @@
    }
   },
   {
+   "id": 572,
+   "name": "Evandra Florasta",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Bola.com",
+     "tipo": "national_press",
+     "citazione": "Evandra Florasta dan Ruben Asoka Perkuat Timnas Indonesia U-20 dalam Uji Coba di China",
+     "url": "https://www.bola.com/indonesia/read/8298662/garuda-calling-evandra-florasta-dan-ruben-asoka-perkuat-timnas-indonesia-u-20-dalam-uji-coba-di-china-bhayangkara-fc-bangga"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Evandra Florasta, 18 anni, Bhayangkara Presisi Lampung FC",
+     "url": "https://www.transfermarkt.us/evandra-florasta/profil/spieler/1275382"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Evandra Florasta, 18 anni, Bhayangkara Presisi Lampung FC",
+     "url": "https://www.transfermarkt.us/evandra-florasta/profil/spieler/1275382"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defensive Midfield",
+   "club": "Bhayangkara Presisi Lampung FC",
+   "league": null,
+   "region": "Indonesia",
+   "gender": "unknown",
+   "score": 12,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "bola.com",
+     "url": "https://www.bola.com/indonesia/read/8298662/garuda-calling-evandra-florasta-dan-ruben-asoka-perkuat-timnas-indonesia-u-20-dalam-uji-coba-di-china-bhayangkara-fc-bangga",
+     "seen": "2026-09-26T11:42:09.730925"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/evandra-florasta/profil/spieler/1275382",
+     "seen": "2026-09-26T11:42:09.730925"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-26T11:42:09.730925",
+   "last_seen": "2026-09-26T11:42:09.730925",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "id": 71,
    "name": "Alvaro Busso",
    "age": 19,
@@ -9945,6 +10050,111 @@
    "coverage_tier": "standard",
    "first_detected": "2026-09-14T05:19:45.838677",
    "last_seen": "2026-09-14T05:19:45.838677",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (19 yo)",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 573,
+   "name": "Ruben Asoka",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Bola.com",
+     "tipo": "national_press",
+     "citazione": "Evandra Florasta dan Ruben Asoka Perkuat Timnas Indonesia U-20 dalam Uji Coba di China",
+     "url": "https://www.bola.com/indonesia/read/8298662/garuda-calling-evandra-florasta-dan-ruben-asoka-perkuat-timnas-indonesia-u-20-dalam-uji-coba-di-china-bhayangkara-fc-bangga"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Ruben Asoka Jaya Prayitno, 19 anni, Bhayangkara Presisi Lampung FC U20",
+     "url": "https://www.transfermarkt.us/ruben-asoka/profil/spieler/1032771"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Ruben Asoka Jaya Prayitno, 19 anni, Bhayangkara Presisi Lampung FC U20",
+     "url": "https://www.transfermarkt.us/ruben-asoka/profil/spieler/1032771"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attacking Midfield",
+   "club": "Bhayangkara Presisi Lampung FC U20",
+   "league": null,
+   "region": "Indonesia",
+   "gender": "unknown",
+   "score": 9,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "bola.com",
+     "url": "https://www.bola.com/indonesia/read/8298662/garuda-calling-evandra-florasta-dan-ruben-asoka-perkuat-timnas-indonesia-u-20-dalam-uji-coba-di-china-bhayangkara-fc-bangga",
+     "seen": "2026-09-26T11:42:09.730925"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/ruben-asoka/profil/spieler/1032771",
+     "seen": "2026-09-26T11:42:09.730925"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-26T11:42:09.730925",
+   "last_seen": "2026-09-26T11:42:09.730925",
    "selezione": {},
    "anomalie": [],
    "publishable": true,
@@ -14544,7 +14754,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 28
+    "detection_count": 29
    },
    "n_sources": 4,
    "sources": [
@@ -14589,7 +14799,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 28 rilevamenti"
+     "Segnale persistente: 29 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -14600,7 +14810,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 28 detections"
+     "Persistent signal: 29 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -14765,7 +14975,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 33
+    "detection_count": 34
    },
    "n_sources": 4,
    "sources": [
@@ -14810,7 +15020,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 33 rilevamenti"
+     "Segnale persistente: 34 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -14825,7 +15035,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 33 detections"
+     "Persistent signal: 34 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -14887,7 +15097,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 35
+    "detection_count": 36
    },
    "n_sources": 3,
    "sources": [
@@ -14927,7 +15137,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 35 rilevamenti"
+     "Segnale persistente: 36 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -14942,7 +15152,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 35 detections"
+     "Persistent signal: 36 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17068,6 +17278,118 @@
     ],
     "next_steps_en": [
      "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 4,
+   "name": "Ryan Evaristo",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Ryan Evaristo - Player profile",
+     "url": "https://www.transfermarkt.com/ryan-evaristo/profil/spieler/1568200"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Ryan Evaristo, 18 anni, SC Corinthians U20",
+     "url": "https://www.transfermarkt.com/ryan-evaristo/profil/spieler/1568200"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "ST",
+   "club": "São Paulo",
+   "league": "Youth (Copinha)",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 18,
+   "confidence": 0.93,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 30
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/p/DVRpeUHDlup/",
+     "seen": "2026-03-01T18:34:20.455948"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/ryan-evaristo/profil/spieler/1568200",
+     "seen": "2026-07-21T09:11:23.011662"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "senza_fonte_primary,eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-03-01T18:34:20.455948",
+   "last_seen": null,
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano",
+     "Segnale persistente: 30 rilevamenti"
+    ],
+    "cautions": [
+     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him",
+     "Persistent signal: 30 detections"
+    ],
+    "cautions_en": [
+     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Look for a primary press/federation source to bring it to the full standard",
      "Get performance stats (match reports)"
     ]
    }
@@ -19447,118 +19769,6 @@
    }
   },
   {
-   "id": 4,
-   "name": "Ryan Evaristo",
-   "age": 18,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Ryan Evaristo - Player profile",
-     "url": "https://www.transfermarkt.com/ryan-evaristo/profil/spieler/1568200"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Ryan Evaristo, 18 anni, SC Corinthians U20",
-     "url": "https://www.transfermarkt.com/ryan-evaristo/profil/spieler/1568200"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "ST",
-   "club": "São Paulo",
-   "league": "Youth (Copinha)",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 16,
-   "confidence": 0.83,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 29
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "instagram.com",
-     "url": "https://www.instagram.com/p/DVRpeUHDlup/",
-     "seen": "2026-03-01T18:34:20.455948"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/ryan-evaristo/profil/spieler/1568200",
-     "seen": "2026-07-21T09:11:23.011662"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "senza_fonte_primary,eta_dichiarato,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-03-01T18:34:20.455948",
-   "last_seen": null,
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Giovane (18 anni)",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano",
-     "Segnale persistente: 29 rilevamenti"
-    ],
-    "cautions": [
-     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Young (18 yo)",
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him",
-     "Persistent signal: 29 detections"
-    ],
-    "cautions_en": [
-     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Look for a primary press/federation source to bring it to the full standard",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 44,
    "name": "Gabriel Mec",
    "age": 18,
@@ -19607,7 +19817,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 28
+    "detection_count": 29
    },
    "n_sources": 2,
    "sources": [
@@ -19642,7 +19852,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 28 rilevamenti"
+     "Segnale persistente: 29 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19657,7 +19867,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 28 detections"
+     "Persistent signal: 29 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19719,7 +19929,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 27
+    "detection_count": 28
    },
    "n_sources": 2,
    "sources": [
@@ -19754,7 +19964,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 27 rilevamenti"
+     "Segnale persistente: 28 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -19767,7 +19977,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 27 detections"
+     "Persistent signal: 28 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -20273,7 +20483,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 30
+    "detection_count": 31
    },
    "n_sources": 4,
    "sources": [
@@ -20318,7 +20528,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 30 rilevamenti"
+     "Segnale persistente: 31 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20331,7 +20541,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 30 detections"
+     "Persistent signal: 31 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -20640,7 +20850,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 31
+    "detection_count": 32
    },
    "n_sources": 2,
    "sources": [
@@ -20675,7 +20885,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 31 rilevamenti"
+     "Segnale persistente: 32 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20688,7 +20898,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 31 detections"
+     "Persistent signal: 32 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -20914,6 +21124,118 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 50,
+   "name": "Gonzalo Petit",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Name in home country:Gonzalo Petit Abad Date of birth/Age:21/09/2006 (19)Place of birth:Carmelo ... Height:1,91 m Citizenship:Uruguay Position: Attack - Centre-Forward Foot:right",
+     "url": "https://www.transfermarkt.com/gonzalo-petit/profil/spieler/997814"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Name in home country:Gonzalo Petit Abad Date of birth/Age:21/09/2006 (19)Place of birth:Carmelo ... Height:1,91 m Citizenship:Uruguay Position: Attack - Centre-Forward Foot:right",
+     "url": "https://www.transfermarkt.com/gonzalo-petit/profil/spieler/997814"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "ST",
+   "club": "Nacional",
+   "league": "Uruguayan Primera División / South American Youth Tournaments",
+   "region": "Uruguay",
+   "gender": "male",
+   "score": 14,
+   "confidence": 0.93,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 30
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "tiktok.com",
+     "url": "https://www.tiktok.com/@santibenitez_juv/video/7500633509426662661",
+     "seen": "2026-06-16T16:52:57.665170"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/gonzalo-petit/profil/spieler/997814",
+     "seen": "2026-07-24T09:04:25.094523"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "senza_fonte_primary,eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-06-16T16:52:57.665170",
+   "last_seen": null,
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano",
+     "Segnale persistente: 30 rilevamenti"
+    ],
+    "cautions": [
+     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Young (19 yo)",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him",
+     "Persistent signal: 30 detections"
+    ],
+    "cautions_en": [
+     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Look for a primary press/federation source to bring it to the full standard",
      "Get performance stats (match reports)"
     ]
    }
@@ -21505,7 +21827,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 37
+    "detection_count": 38
    },
    "n_sources": 3,
    "sources": [
@@ -21544,7 +21866,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 37 rilevamenti"
+     "Segnale persistente: 38 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21556,7 +21878,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 37 detections"
+     "Persistent signal: 38 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21616,7 +21938,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 38
+    "detection_count": 39
    },
    "n_sources": 3,
    "sources": [
@@ -21655,7 +21977,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 38 rilevamenti"
+     "Segnale persistente: 39 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21667,125 +21989,13 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 38 detections"
+     "Persistent signal: 39 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
      "No documented performance stats"
     ],
     "next_steps_en": [
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 50,
-   "name": "Gonzalo Petit",
-   "age": 19,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Name in home country:Gonzalo Petit Abad Date of birth/Age:21/09/2006 (19)Place of birth:Carmelo ... Height:1,91 m Citizenship:Uruguay Position: Attack - Centre-Forward Foot:right",
-     "url": "https://www.transfermarkt.com/gonzalo-petit/profil/spieler/997814"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Name in home country:Gonzalo Petit Abad Date of birth/Age:21/09/2006 (19)Place of birth:Carmelo ... Height:1,91 m Citizenship:Uruguay Position: Attack - Centre-Forward Foot:right",
-     "url": "https://www.transfermarkt.com/gonzalo-petit/profil/spieler/997814"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "ST",
-   "club": "Nacional",
-   "league": "Uruguayan Primera División / South American Youth Tournaments",
-   "region": "Uruguay",
-   "gender": "male",
-   "score": 12,
-   "confidence": 0.83,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 29
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "tiktok.com",
-     "url": "https://www.tiktok.com/@santibenitez_juv/video/7500633509426662661",
-     "seen": "2026-06-16T16:52:57.665170"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/gonzalo-petit/profil/spieler/997814",
-     "seen": "2026-07-24T09:04:25.094523"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "senza_fonte_primary,eta_dichiarato,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-06-16T16:52:57.665170",
-   "last_seen": null,
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Giovane (19 anni)",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano",
-     "Segnale persistente: 29 rilevamenti"
-    ],
-    "cautions": [
-     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Young (19 yo)",
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him",
-     "Persistent signal: 29 detections"
-    ],
-    "cautions_en": [
-     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Look for a primary press/federation source to bring it to the full standard",
      "Get performance stats (match reports)"
     ]
    }
@@ -29868,7 +30078,7 @@
     "asymmetry": 0.0,
     "selection": 22.0,
     "n_sources": 2,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 2,
    "sources": [
@@ -29894,7 +30104,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-21T22:08:09.181084",
-   "last_seen": "2026-09-22T05:17:03.073375",
+   "last_seen": "2026-09-26T11:42:09.730925",
    "selezione": {
     "quante": 4,
     "frase": "Convocato 4 volte da South African Football Association.",
@@ -33280,6 +33490,138 @@
    }
   },
   {
+   "id": 481,
+   "name": "Victory Lucky",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "introducing Amber Ogbolu, Victory Lucky and B",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": "2026 FIFA U-20 Women's World Cup",
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 13,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
+     "seen": "2026-09-13T16:34:39.358956"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/lucky-victory/IPzq2gj4/",
+     "seen": "2026-09-21T22:08:09.181084"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-13T16:34:39.358956",
+   "last_seen": "2026-09-26T11:42:09.730925",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 130,
    "name": "Ana Pérez",
    "age": null,
@@ -36375,138 +36717,6 @@
      "Age not confirmed"
     ],
     "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 481,
-   "name": "Victory Lucky",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "introducing Amber Ogbolu, Victory Lucky and B",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": "2026 FIFA U-20 Women's World Cup",
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 11,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
-     "seen": "2026-09-13T16:34:39.358956"
-    },
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/lucky-victory/IPzq2gj4/",
-     "seen": "2026-09-21T22:08:09.181084"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-13T16:34:39.358956",
-   "last_seen": "2026-09-21T22:08:09.181084",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
      "Confirm the birth year with the club",
      "Get performance stats (match reports)"
     ]
@@ -58494,6 +58704,111 @@
    }
   },
   {
+   "id": 552,
+   "name": "Julia Honakoko",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "attacker Julia Honakoko leaves with memories that will last her a lifetime.",
+     "url": "https://www.oceaniafootball.com/julia-honakoko-reflects-on-new-caledonias-historic-world-cup-journey/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "attacker",
+   "club": null,
+   "league": null,
+   "region": "New Caledonia",
+   "gender": "female",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/julia-honakoko-reflects-on-new-caledonias-historic-world-cup-journey/",
+     "seen": "2026-09-21T22:08:09.181084"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/julia-honakoko-3789384",
+     "seen": "2026-09-26T11:42:09.730925"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-21T22:08:09.181084",
+   "last_seen": "2026-09-26T11:42:09.730925",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 559,
    "name": "Pranav Sundarraman",
    "age": null,
@@ -62295,104 +62610,6 @@
    "coverage_tier": "standard",
    "first_detected": "2026-09-19T11:22:50.278303",
    "last_seen": "2026-09-19T11:22:50.278303",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 552,
-   "name": "Julia Honakoko",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "attacker Julia Honakoko leaves with memories that will last her a lifetime.",
-     "url": "https://www.oceaniafootball.com/julia-honakoko-reflects-on-new-caledonias-historic-world-cup-journey/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "attacker",
-   "club": null,
-   "league": null,
-   "region": "New Caledonia",
-   "gender": "female",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/julia-honakoko-reflects-on-new-caledonias-historic-world-cup-journey/",
-     "seen": "2026-09-21T22:08:09.181084"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-21T22:08:09.181084",
-   "last_seen": "2026-09-21T22:08:09.181084",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
