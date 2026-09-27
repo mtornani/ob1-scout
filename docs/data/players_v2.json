@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-26T21:42:32.129107+00:00",
+ "generated_at": "2026-09-27T06:06:13.884975+00:00",
  "version": "1.0.0",
- "build": "387ed87",
- "total": 573,
+ "build": "0fe51fd",
+ "total": 580,
  "publishable": 113,
- "tracking": 460,
- "shown": 573,
+ "tracking": 467,
+ "shown": 580,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -14253,7 +14253,7 @@
     "asymmetry": 8.0,
     "selection": 24.0,
     "n_sources": 2,
-    "detection_count": 8
+    "detection_count": 9
    },
    "n_sources": 2,
    "sources": [
@@ -14279,7 +14279,7 @@
    "review_flags": "eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-14T13:13:27.808740",
-   "last_seen": "2026-09-22T11:58:46.700940",
+   "last_seen": "2026-09-27T05:36:31.644864",
    "selezione": {
     "quante": 6,
     "frase": "Convocato 6 volte da Philippine Football Federation.",
@@ -14861,7 +14861,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 29
+    "detection_count": 30
    },
    "n_sources": 4,
    "sources": [
@@ -14906,7 +14906,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 29 rilevamenti"
+     "Segnale persistente: 30 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -14917,7 +14917,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 29 detections"
+     "Persistent signal: 30 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -17448,7 +17448,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 30
+    "detection_count": 31
    },
    "n_sources": 2,
    "sources": [
@@ -17483,7 +17483,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 30 rilevamenti"
+     "Segnale persistente: 31 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17498,7 +17498,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 30 detections"
+     "Persistent signal: 31 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17507,6 +17507,114 @@
     ],
     "next_steps_en": [
      "Look for a primary press/federation source to bring it to the full standard",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 54,
+   "name": "Hugo Sochurek",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Hugo Sochurek - Player profile 26/27",
+     "url": "https://www.transfermarkt.us/hugo-sochurek/profil/spieler/1206877"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Hugo Sochůrek, 18 anni, AC Sparta Prague",
+     "url": "https://www.transfermarkt.us/hugo-sochurek/profil/spieler/1206877"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "CM",
+   "club": "Sparta Praga",
+   "league": "Czech First League",
+   "region": "Czech Republic",
+   "gender": "male",
+   "score": 18,
+   "confidence": 0.93,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 30
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "record.com.mx",
+     "url": "https://www.record.com.mx/historia/mundial-2026-las-jovenes-promesas-de-la-copa-del-mundo-2026061522114888840",
+     "seen": "2026-06-20T14:04:12.453142"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/hugo-sochurek/profil/spieler/1206877",
+     "seen": "2026-07-19T14:03:01.513039"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-06-20T14:04:12.453142",
+   "last_seen": null,
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano",
+     "Segnale persistente: 30 rilevamenti"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him",
+     "Persistent signal: 30 detections"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
      "Get performance stats (match reports)"
     ]
    }
@@ -19886,114 +19994,6 @@
    }
   },
   {
-   "id": 54,
-   "name": "Hugo Sochurek",
-   "age": 18,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Hugo Sochurek - Player profile 26/27",
-     "url": "https://www.transfermarkt.us/hugo-sochurek/profil/spieler/1206877"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Hugo Sochůrek, 18 anni, AC Sparta Prague",
-     "url": "https://www.transfermarkt.us/hugo-sochurek/profil/spieler/1206877"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "CM",
-   "club": "Sparta Praga",
-   "league": "Czech First League",
-   "region": "Czech Republic",
-   "gender": "male",
-   "score": 16,
-   "confidence": 0.83,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 29
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "record.com.mx",
-     "url": "https://www.record.com.mx/historia/mundial-2026-las-jovenes-promesas-de-la-copa-del-mundo-2026061522114888840",
-     "seen": "2026-06-20T14:04:12.453142"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/hugo-sochurek/profil/spieler/1206877",
-     "seen": "2026-07-19T14:03:01.513039"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-06-20T14:04:12.453142",
-   "last_seen": null,
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Giovane (18 anni)",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano",
-     "Segnale persistente: 29 rilevamenti"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Young (18 yo)",
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him",
-     "Persistent signal: 29 detections"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 338,
    "name": "Dylan Mora",
    "age": 16,
@@ -20488,7 +20488,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 31
+    "detection_count": 32
    },
    "n_sources": 4,
    "sources": [
@@ -20533,7 +20533,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 31 rilevamenti"
+     "Segnale persistente: 32 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20546,7 +20546,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 31 detections"
+     "Persistent signal: 32 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -20807,6 +20807,113 @@
    }
   },
   {
+   "id": 569,
+   "name": "Nguyễn Xuân Vinh",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 14 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "Nguyễn Xuân Vinh cho biết mình rất bất ngờ khi được triệu tập lên tuyển U15 Việt Nam",
+     "url": "https://pvf.com.vn/nguyen-xuan-vinh-cho-biet-minh-rat-bat-ngo-khi-duoc-trieu-tap-len-tuyen-u15-viet-nam/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "PVF",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 15,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 20.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 4
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/nguyen-xuan-vinh-cho-biet-minh-rat-bat-ngo-khi-duoc-trieu-tap-len-tuyen-u15-viet-nam/",
+     "seen": "2026-09-24T05:13:19.079710"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-24T05:13:19.079710",
+   "last_seen": "2026-09-27T05:36:31.644864",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 14,
    "name": "Kaique Zizero",
    "age": 19,
@@ -20855,7 +20962,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 33
+    "detection_count": 34
    },
    "n_sources": 2,
    "sources": [
@@ -20890,7 +20997,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 33 rilevamenti"
+     "Segnale persistente: 34 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20903,7 +21010,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 33 detections"
+     "Persistent signal: 34 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21784,6 +21891,434 @@
    }
   },
   {
+   "id": 577,
+   "name": "Nhật Minh",
+   "age": 15,
+   "age_stato": "dedotto",
+   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-15)",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "Năm cầu thủ góp mặt trong đợt tập trung của U15 Việt Nam gồm Nhật Minh, Khắc Hiếu, Xuân Vinh, Trí Khang và Hữu Thiện.",
+     "url": "https://pvf.com.vn/5-cau-thu-pvf-lan-dau-duoc-trieu-tap-len-u15-viet-nam/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dedotto",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "PVF",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 20.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/5-cau-thu-pvf-lan-dau-duoc-trieu-tap-len-u15-viet-nam/",
+     "seen": "2026-09-27T05:36:31.644864"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dedotto,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-27T05:36:31.644864",
+   "last_seen": "2026-09-27T05:36:31.644864",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Molto giovane (15 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "L'età (15) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-15)",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Very young (15 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The age (15) is not stated by any source: it is inferred from the tournament category (U-15)",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 578,
+   "name": "Khắc Hiếu",
+   "age": 15,
+   "age_stato": "dedotto",
+   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-15)",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "Trong số các cầu thủ được triệu tập, Xuân Vinh là cầu thủ sinh năm 2012, trong khi Nhật Minh, Khắc Hiếu, Trí Khang và Hữu Thiện đều thuộc lứa 2011.",
+     "url": "https://pvf.com.vn/5-cau-thu-pvf-lan-dau-duoc-trieu-tap-len-u15-viet-nam/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dedotto",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "PVF",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 20.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/5-cau-thu-pvf-lan-dau-duoc-trieu-tap-len-u15-viet-nam/",
+     "seen": "2026-09-27T05:36:31.644864"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dedotto,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-27T05:36:31.644864",
+   "last_seen": "2026-09-27T05:36:31.644864",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Molto giovane (15 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "L'età (15) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-15)",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Very young (15 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The age (15) is not stated by any source: it is inferred from the tournament category (U-15)",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 579,
+   "name": "Trí Khang",
+   "age": 15,
+   "age_stato": "dedotto",
+   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-15)",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "Trong số các cầu thủ được triệu tập, Xuân Vinh là cầu thủ sinh năm 2012, trong khi Nhật Minh, Khắc Hiếu, Trí Khang và Hữu Thiện đều thuộc lứa 2011.",
+     "url": "https://pvf.com.vn/5-cau-thu-pvf-lan-dau-duoc-trieu-tap-len-u15-viet-nam/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dedotto",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "PVF",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 20.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/5-cau-thu-pvf-lan-dau-duoc-trieu-tap-len-u15-viet-nam/",
+     "seen": "2026-09-27T05:36:31.644864"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dedotto,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-27T05:36:31.644864",
+   "last_seen": "2026-09-27T05:36:31.644864",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Molto giovane (15 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "L'età (15) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-15)",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Very young (15 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The age (15) is not stated by any source: it is inferred from the tournament category (U-15)",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 580,
+   "name": "Hữu Thiện",
+   "age": 15,
+   "age_stato": "dedotto",
+   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-15)",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "Trong số các cầu thủ được triệu tập, Xuân Vinh là cầu thủ sinh năm 2012, trong khi Nhật Minh, Khắc Hiếu, Trí Khang và Hữu Thiện đều thuộc lứa 2011.",
+     "url": "https://pvf.com.vn/5-cau-thu-pvf-lan-dau-duoc-trieu-tap-len-u15-viet-nam/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dedotto",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "PVF",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 20.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/5-cau-thu-pvf-lan-dau-duoc-trieu-tap-len-u15-viet-nam/",
+     "seen": "2026-09-27T05:36:31.644864"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dedotto,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-27T05:36:31.644864",
+   "last_seen": "2026-09-27T05:36:31.644864",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Molto giovane (15 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "L'età (15) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-15)",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Very young (15 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The age (15) is not stated by any source: it is inferred from the tournament category (U-15)",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 2,
    "name": "Mateus Romero",
    "age": 20,
@@ -21943,7 +22478,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 40
+    "detection_count": 41
    },
    "n_sources": 3,
    "sources": [
@@ -21982,7 +22517,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 40 rilevamenti"
+     "Segnale persistente: 41 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21994,7 +22529,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 40 detections"
+     "Persistent signal: 41 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -36318,7 +36853,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 3
+    "detection_count": 4
    },
    "n_sources": 2,
    "sources": [
@@ -36344,7 +36879,7 @@
    "review_flags": "eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-01T16:50:33.171492",
-   "last_seen": "2026-09-18T11:40:09.300963",
+   "last_seen": "2026-09-27T05:36:31.644864",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -54089,6 +54624,312 @@
    }
   },
   {
+   "id": 574,
+   "name": "Anthony Matafwali",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "SuperSport Football",
+     "tipo": "national_press",
+     "citazione": "Anthony Matafwali",
+     "url": "https://supersport.com/football/team/da861eb4-1daa-45ff-9e38-6e6cfc991b4a/squad"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Goalkeeper",
+   "club": "AM",
+   "league": "U17",
+   "region": "South Africa",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "supersport.com",
+     "url": "https://supersport.com/football/team/da861eb4-1daa-45ff-9e38-6e6cfc991b4a/squad",
+     "seen": "2026-09-27T05:36:31.644864"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-27T05:36:31.644864",
+   "last_seen": "2026-09-27T05:36:31.644864",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 575,
+   "name": "Shadreck Kalyati",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "SuperSport Football",
+     "tipo": "national_press",
+     "citazione": "Shadreck Kalyati",
+     "url": "https://supersport.com/football/team/da861eb4-1daa-45ff-9e38-6e6cfc991b4a/squad"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Goalkeeper",
+   "club": "SK",
+   "league": "U17",
+   "region": "South Africa",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "supersport.com",
+     "url": "https://supersport.com/football/team/da861eb4-1daa-45ff-9e38-6e6cfc991b4a/squad",
+     "seen": "2026-09-27T05:36:31.644864"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-27T05:36:31.644864",
+   "last_seen": "2026-09-27T05:36:31.644864",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 576,
+   "name": "Hendrix K",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "SuperSport Football",
+     "tipo": "national_press",
+     "citazione": "Hendrix K",
+     "url": "https://supersport.com/football/team/da861eb4-1daa-45ff-9e38-6e6cfc991b4a/squad"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Goalkeeper",
+   "club": "HK",
+   "league": "U17",
+   "region": "South Africa",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "supersport.com",
+     "url": "https://supersport.com/football/team/da861eb4-1daa-45ff-9e38-6e6cfc991b4a/squad",
+     "seen": "2026-09-27T05:36:31.644864"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-27T05:36:31.644864",
+   "last_seen": "2026-09-27T05:36:31.644864",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 129,
    "name": "Juana Flores",
    "age": null,
@@ -62615,104 +63456,6 @@
    "coverage_tier": "standard",
    "first_detected": "2026-09-19T11:22:50.278303",
    "last_seen": "2026-09-19T11:22:50.278303",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 569,
-   "name": "Nguyễn Xuân Vinh",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "PVF Football Academy",
-     "tipo": "academy",
-     "citazione": "Nguyễn Xuân Vinh cho biết mình rất bất ngờ khi được triệu tập lên tuyển U15 Việt Nam",
-     "url": "https://pvf.com.vn/nguyen-xuan-vinh-cho-biet-minh-rat-bat-ngo-khi-duoc-trieu-tap-len-tuyen-u15-viet-nam/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Vietnam",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.55,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 3
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "pvf.com.vn",
-     "url": "https://pvf.com.vn/nguyen-xuan-vinh-cho-biet-minh-rat-bat-ngo-khi-duoc-trieu-tap-len-tuyen-u15-viet-nam/",
-     "seen": "2026-09-24T05:13:19.079710"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-24T05:13:19.079710",
-   "last_seen": "2026-09-24T12:05:44.306392",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
