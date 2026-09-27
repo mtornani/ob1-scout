@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-09-27T17:38:25.787955+00:00",
+ "generated_at": "2026-09-27T21:54:22.333682+00:00",
  "version": "1.0.0",
- "build": "1e7ad34",
- "total": 580,
- "publishable": 113,
- "tracking": 467,
- "shown": 580,
+ "build": "1ef29f3",
+ "total": 583,
+ "publishable": 114,
+ "tracking": 469,
+ "shown": 583,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -4957,6 +4957,110 @@
     "pros_en": [
      "Young (18 yo)",
      "Documented output: 2 goals",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt"
+    ],
+    "cautions_en": [],
+    "next_steps_en": [
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 583,
+   "name": "Gilberto Mora",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Gilberto Rafael Mora Zambrano, 17 anni, Club Tijuana",
+     "url": "https://www.transfermarkt.us/gilberto-mora/profil/spieler/1155723"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Gilberto Rafael Mora Zambrano, 17 anni, Club Tijuana",
+     "url": "https://www.transfermarkt.us/gilberto-mora/profil/spieler/1155723"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Gilberto Rafael Mora Zambrano, 17 anni, Club Tijuana",
+     "url": "https://www.transfermarkt.us/gilberto-mora/profil/spieler/1155723"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "forward",
+   "club": "Club Tijuana",
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 17,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/gilberto-mora/profil/spieler/1155723",
+     "seen": "2026-09-27T21:31:32.127223"
+    },
+    {
+     "domain": "trivela.com.br",
+     "url": "https://trivela.com.br/europa/gilberto-mora-mexico-barcelona-real-madrid/",
+     "seen": "2026-09-27T21:31:32.127223"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-27T21:31:32.127223",
+   "last_seen": "2026-09-27T21:31:32.127223",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt"
+    ],
+    "cautions": [],
+    "next_steps": [
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Documented output: 1 goals",
      "Minor context: potentially underpriced",
      "Name and club stated by Transfermarkt"
     ],
@@ -14861,7 +14965,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 32
+    "detection_count": 33
    },
    "n_sources": 4,
    "sources": [
@@ -14906,7 +15010,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 32 rilevamenti"
+     "Segnale persistente: 33 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -14917,7 +15021,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 32 detections"
+     "Persistent signal: 33 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -15082,7 +15186,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 37
+    "detection_count": 38
    },
    "n_sources": 4,
    "sources": [
@@ -15127,7 +15231,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 37 rilevamenti"
+     "Segnale persistente: 38 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15142,7 +15246,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 37 detections"
+     "Persistent signal: 38 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -15204,7 +15308,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 39
+    "detection_count": 40
    },
    "n_sources": 3,
    "sources": [
@@ -15244,7 +15348,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 39 rilevamenti"
+     "Segnale persistente: 40 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15259,7 +15363,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 39 detections"
+     "Persistent signal: 40 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17336,7 +17440,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 33
+    "detection_count": 34
    },
    "n_sources": 2,
    "sources": [
@@ -17371,7 +17475,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 33 rilevamenti"
+     "Segnale persistente: 34 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17386,7 +17490,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 33 detections"
+     "Persistent signal: 34 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17448,7 +17552,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 33
+    "detection_count": 34
    },
    "n_sources": 2,
    "sources": [
@@ -17483,7 +17587,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 33 rilevamenti"
+     "Segnale persistente: 34 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17498,7 +17602,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 33 detections"
+     "Persistent signal: 34 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17560,7 +17664,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 32
+    "detection_count": 33
    },
    "n_sources": 2,
    "sources": [
@@ -17595,7 +17699,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 32 rilevamenti"
+     "Segnale persistente: 33 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -17608,7 +17712,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 32 detections"
+     "Persistent signal: 33 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -20488,7 +20592,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 33
+    "detection_count": 34
    },
    "n_sources": 4,
    "sources": [
@@ -20533,7 +20637,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 33 rilevamenti"
+     "Segnale persistente: 34 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20546,7 +20650,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 33 detections"
+     "Persistent signal: 34 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -20962,7 +21066,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 36
+    "detection_count": 37
    },
    "n_sources": 2,
    "sources": [
@@ -20997,7 +21101,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 36 rilevamenti"
+     "Segnale persistente: 37 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21010,7 +21114,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 36 detections"
+     "Persistent signal: 37 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21289,7 +21393,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 33
+    "detection_count": 34
    },
    "n_sources": 2,
    "sources": [
@@ -21324,7 +21428,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 33 rilevamenti"
+     "Segnale persistente: 34 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -21339,7 +21443,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 33 detections"
+     "Persistent signal: 34 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22367,7 +22471,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 42
+    "detection_count": 43
    },
    "n_sources": 3,
    "sources": [
@@ -22406,7 +22510,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 42 rilevamenti"
+     "Segnale persistente: 43 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22418,7 +22522,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 42 detections"
+     "Persistent signal: 43 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22478,7 +22582,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 44
+    "detection_count": 45
    },
    "n_sources": 3,
    "sources": [
@@ -22517,7 +22621,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 44 rilevamenti"
+     "Segnale persistente: 45 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22529,7 +22633,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 44 detections"
+     "Persistent signal: 45 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24101,7 +24205,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 8
+    "detection_count": 9
    },
    "n_sources": 3,
    "sources": [
@@ -24132,7 +24236,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-08-30T12:09:12.375789",
-   "last_seen": "2026-09-18T21:08:37.763693",
+   "last_seen": "2026-09-27T21:31:32.127223",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -24140,7 +24244,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 8 rilevamenti"
+     "Segnale persistente: 9 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24152,7 +24256,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 8 detections"
+     "Persistent signal: 9 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25445,7 +25549,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 10
+    "detection_count": 11
    },
    "n_sources": 3,
    "sources": [
@@ -25476,7 +25580,7 @@
    "review_flags": "eta_dichiarato,club_assente,club_e_una_descrizione_non_un_nome",
    "coverage_tier": "standard",
    "first_detected": "2026-06-06T13:43:55.807655",
-   "last_seen": "2026-09-18T21:08:37.763693",
+   "last_seen": "2026-09-27T21:31:32.127223",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -25484,7 +25588,7 @@
     "pros": [
      "Giovane (19 anni)",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 10 rilevamenti"
+     "Segnale persistente: 11 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -25497,7 +25601,7 @@
     "pros_en": [
      "Young (19 yo)",
      "3 distinct domains mention him",
-     "Persistent signal: 10 detections"
+     "Persistent signal: 11 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -27272,15 +27376,15 @@
    "league": "CAF U20 Men's Africa Cup of Nations COSAFA qualifiers",
    "region": "South Africa",
    "gender": "male",
-   "score": 40,
-   "confidence": 0.73,
+   "score": 52,
+   "confidence": 0.83,
    "breakdown": {
     "youth": 6.0,
-    "production": 16.5,
+    "production": 24.5,
     "asymmetry": 8.0,
     "selection": 24.0,
     "n_sources": 2,
-    "detection_count": 6
+    "detection_count": 10
    },
    "n_sources": 2,
    "sources": [
@@ -27297,7 +27401,7 @@
    ],
    "n_sources_registro": 2,
    "stats": {
-    "goals": 4,
+    "goals": 6,
     "assists": 0,
     "apps": 1,
     "minutes": 0
@@ -27306,10 +27410,10 @@
    "review_flags": "eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-21T05:18:51.145487",
-   "last_seen": "2026-09-26T05:19:46.483477",
+   "last_seen": "2026-09-27T21:31:32.127223",
    "selezione": {
-    "quante": 5,
-    "frase": "Convocato 5 volte da South African Football Association, Sub-20.",
+    "quante": 9,
+    "frase": "Convocato 9 volte da South African Football Association, Sub-20.",
     "dal": "",
     "al": "",
     "categorie": [
@@ -27318,6 +27422,30 @@
     "progressione": false,
     "mesi_di_arco": 0,
     "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#article"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#breadcrumb"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#primaryimage"
+     },
      {
       "data": "",
       "categoria": "",
@@ -27350,23 +27478,23 @@
      }
     ],
     "fonte": "South African Football Association",
-    "frase_en": "Called up 5 times by South African Football Association, U20."
+    "frase_en": "Called up 9 times by South African Football Association, U20."
    },
    "anomalie": [
     {
      "codice": "asimmetria_copertura",
      "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "5 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "5 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "frase": "9 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "9 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
      "forza": "indicativa",
      "prove": [
-      "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#breadcrumb",
-      "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#primaryimage",
-      "https://www.safa.net/amajita/amajita-secure-u20-afcon-ticket-will-face-hosts-mozambique-in-the-2026-cosafa-cup-final/",
-      "https://www.safa.net/amajita/amajita-secure-u20-afcon-ticket-will-face-hosts-mozambique-in-the-2026-cosafa-cup-final/#breadcrumb"
+      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/",
+      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#article",
+      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#breadcrumb",
+      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#primaryimage"
      ],
      "dati": {
-      "convocazioni": 5,
+      "convocazioni": 9,
       "tipi_fonte": [
        "aggregator",
        "federation"
@@ -27377,7 +27505,7 @@
    "publishable": false,
    "assessment": {
     "pros": [
-     "Produzione documentata: 4 gol in 1 presenze",
+     "Produzione documentata: 6 gol in 1 presenze",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano"
     ],
@@ -27389,7 +27517,7 @@
      "Confermare l'anno di nascita con la società"
     ],
     "pros_en": [
-     "Documented output: 4 goals in 1 appearances",
+     "Documented output: 6 goals in 1 appearances",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him"
     ],
@@ -28313,6 +28441,360 @@
    }
   },
   {
+   "id": 581,
+   "name": "Alirio Cuna",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "the prolific marksman claimed the Top Goal Scorer Award ahead of Mozambique’s Alirio Cuna, who scored five.",
+     "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "South Africa",
+   "gender": "male",
+   "score": 26,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 20.0,
+    "asymmetry": 0.0,
+    "selection": 22.0,
+    "n_sources": 1,
+    "detection_count": 4
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "safa.net",
+     "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/",
+     "seen": "2026-09-27T21:31:32.127223"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 5,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-27T21:31:32.127223",
+   "last_seen": "2026-09-27T21:31:32.127223",
+   "selezione": {
+    "quante": 4,
+    "frase": "Convocato 4 volte da South African Football Association.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#article"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#breadcrumb"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#primaryimage"
+     }
+    ],
+    "fonte": "South African Football Association",
+    "frase_en": "Called up 4 times by South African Football Association."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "4 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "4 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/",
+      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#article",
+      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#breadcrumb",
+      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#primaryimage"
+     ],
+     "dati": {
+      "convocazioni": 4,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 5 gol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 5 goals"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 571,
+   "name": "Oarabile Booysen",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "they took the lead for the first time in the contest when Oarabile Booysen made it 2-1 two minutes later.",
+     "url": "https://www.safa.net/amajita/amajita-secure-u20-afcon-ticket-will-face-hosts-mozambique-in-the-2026-cosafa-cup-final/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "South Africa",
+   "gender": "male",
+   "score": 25,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 0.0,
+    "selection": 24.0,
+    "n_sources": 2,
+    "detection_count": 9
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "safa.net",
+     "url": "https://www.safa.net/amajita/amajita-secure-u20-afcon-ticket-will-face-hosts-mozambique-in-the-2026-cosafa-cup-final/",
+     "seen": "2026-09-25T21:45:40.789129"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/booysen-oarabile/vuaT5Q16/",
+     "seen": "2026-09-25T21:45:40.789129"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-25T21:45:40.789129",
+   "last_seen": "2026-09-27T21:31:32.127223",
+   "selezione": {
+    "quante": 8,
+    "frase": "Convocato 8 volte da South African Football Association, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#article"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#breadcrumb"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#primaryimage"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-secure-u20-afcon-ticket-will-face-hosts-mozambique-in-the-2026-cosafa-cup-final/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-secure-u20-afcon-ticket-will-face-hosts-mozambique-in-the-2026-cosafa-cup-final/#article"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-secure-u20-afcon-ticket-will-face-hosts-mozambique-in-the-2026-cosafa-cup-final/#breadcrumb"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-secure-u20-afcon-ticket-will-face-hosts-mozambique-in-the-2026-cosafa-cup-final/#primaryimage"
+     }
+    ],
+    "fonte": "South African Football Association",
+    "frase_en": "Called up 8 times by South African Football Association, U20."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "8 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "8 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/",
+      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#article",
+      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#breadcrumb",
+      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#primaryimage"
+     ],
+     "dati": {
+      "convocazioni": 8,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "id": 5,
    "name": "André Maia",
    "age": null,
@@ -28891,173 +29373,6 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 571,
-   "name": "Oarabile Booysen",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "South African Football Association",
-     "tipo": "federation",
-     "citazione": "they took the lead for the first time in the contest when Oarabile Booysen made it 2-1 two minutes later.",
-     "url": "https://www.safa.net/amajita/amajita-secure-u20-afcon-ticket-will-face-hosts-mozambique-in-the-2026-cosafa-cup-final/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "South Africa",
-   "gender": "male",
-   "score": 23,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 4.0,
-    "asymmetry": 0.0,
-    "selection": 22.0,
-    "n_sources": 2,
-    "detection_count": 5
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "safa.net",
-     "url": "https://www.safa.net/amajita/amajita-secure-u20-afcon-ticket-will-face-hosts-mozambique-in-the-2026-cosafa-cup-final/",
-     "seen": "2026-09-25T21:45:40.789129"
-    },
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/booysen-oarabile/vuaT5Q16/",
-     "seen": "2026-09-25T21:45:40.789129"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-25T21:45:40.789129",
-   "last_seen": "2026-09-26T05:19:46.483477",
-   "selezione": {
-    "quante": 4,
-    "frase": "Convocato 4 volte da South African Football Association, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/amajita-secure-u20-afcon-ticket-will-face-hosts-mozambique-in-the-2026-cosafa-cup-final/"
-     },
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/amajita-secure-u20-afcon-ticket-will-face-hosts-mozambique-in-the-2026-cosafa-cup-final/#article"
-     },
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/amajita-secure-u20-afcon-ticket-will-face-hosts-mozambique-in-the-2026-cosafa-cup-final/#breadcrumb"
-     },
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/amajita-secure-u20-afcon-ticket-will-face-hosts-mozambique-in-the-2026-cosafa-cup-final/#primaryimage"
-     }
-    ],
-    "fonte": "South African Football Association",
-    "frase_en": "Called up 4 times by South African Football Association, U20."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "4 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "4 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://www.safa.net/amajita/amajita-secure-u20-afcon-ticket-will-face-hosts-mozambique-in-the-2026-cosafa-cup-final/",
-      "https://www.safa.net/amajita/amajita-secure-u20-afcon-ticket-will-face-hosts-mozambique-in-the-2026-cosafa-cup-final/#article",
-      "https://www.safa.net/amajita/amajita-secure-u20-afcon-ticket-will-face-hosts-mozambique-in-the-2026-cosafa-cup-final/#breadcrumb",
-      "https://www.safa.net/amajita/amajita-secure-u20-afcon-ticket-will-face-hosts-mozambique-in-the-2026-cosafa-cup-final/#primaryimage"
-     ],
-     "dati": {
-      "convocazioni": 4,
-      "tipi_fonte": [
-       "aggregator",
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club"
     ]
    }
   },
@@ -30731,6 +31046,156 @@
     ],
     "next_steps_en": [
      "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 582,
+   "name": "Martinho Começar",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "The home had side responded through Martinho Começar, but it was not to be as Amajita continued where they left off two years to be crowned regional champions again.",
+     "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#article"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Forward",
+   "club": "Black Bulls",
+   "league": null,
+   "region": "South Africa",
+   "gender": "male",
+   "score": 20,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "safa.net",
+     "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#article",
+     "seen": "2026-09-27T21:31:32.127223"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/comecar-martinho/294yic3j/",
+     "seen": "2026-09-27T21:31:32.127223"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-27T21:31:32.127223",
+   "last_seen": "2026-09-27T21:31:32.127223",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da South African Football Association.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#article"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#primaryimage"
+     }
+    ],
+    "fonte": "South African Football Association",
+    "frase_en": "Called up 2 times by South African Football Association."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#article",
+      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#primaryimage"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
      "Confirm the birth year with the club",
      "Get performance stats (match reports)"
     ]
