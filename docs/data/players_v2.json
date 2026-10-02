@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-02T13:30:07.761885+00:00",
+ "generated_at": "2026-10-02T22:42:18.302701+00:00",
  "version": "1.0.0",
- "build": "4a2ec58",
- "total": 599,
+ "build": "263922d",
+ "total": 608,
  "publishable": 115,
- "tracking": 484,
- "shown": 599,
+ "tracking": 493,
+ "shown": 608,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -15199,7 +15199,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 43
+    "detection_count": 44
    },
    "n_sources": 4,
    "sources": [
@@ -15244,7 +15244,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 43 rilevamenti"
+     "Segnale persistente: 44 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -15255,7 +15255,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 43 detections"
+     "Persistent signal: 44 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -15420,7 +15420,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 51
+    "detection_count": 52
    },
    "n_sources": 4,
    "sources": [
@@ -15465,7 +15465,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 51 rilevamenti"
+     "Segnale persistente: 52 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15480,7 +15480,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 51 detections"
+     "Persistent signal: 52 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -15648,7 +15648,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 55
+    "detection_count": 56
    },
    "n_sources": 3,
    "sources": [
@@ -15688,7 +15688,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 55 rilevamenti"
+     "Segnale persistente: 56 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15703,7 +15703,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 55 detections"
+     "Persistent signal: 56 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17303,6 +17303,125 @@
    }
   },
   {
+   "id": 9,
+   "name": "Diego Reyes",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Diego Reyes - Player profile 26/27",
+     "url": "https://www.transfermarkt.us/diego-reyes/profil/spieler/131090"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attacker",
+   "club": "Flamengo U20",
+   "league": "Brazilian U20 competitions / Mexican U21 league",
+   "region": "Latin America",
+   "gender": "male",
+   "score": 19,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 10
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "terra.com.br",
+     "url": "https://www.terra.com.br/esportes/flamengo/flamengo-contrata-promessa-do-futebol-mexicano,65432d95e608a314e94f84ffd00d25fc5llw2fo6.html",
+     "seen": "2026-03-03T12:58:52.925498"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/diego-reyes/profil/spieler/131090",
+     "seen": "2026-08-21T05:49:01.085919"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/reyes-diego/WSE2Yj4d/",
+     "seen": "2026-08-29T21:05:07.037910"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "senza_fonte_primary,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-03-03T12:58:52.925498",
+   "last_seen": "2026-10-02T22:27:57.183169",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "3 domini distinti lo nominano",
+     "Segnale persistente: 10 rilevamenti"
+    ],
+    "cautions": [
+     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "3 distinct domains mention him",
+     "Persistent signal: 10 detections"
+    ],
+    "cautions_en": [
+     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Look for a primary press/federation source to bring it to the full standard",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 11,
    "name": "Gustavo Gomes",
    "age": 18,
@@ -17469,7 +17588,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 48
+    "detection_count": 49
    },
    "n_sources": 3,
    "sources": [
@@ -17509,7 +17628,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 48 rilevamenti"
+     "Segnale persistente: 49 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17524,7 +17643,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 48 detections"
+     "Persistent signal: 49 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18128,7 +18247,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 48
+    "detection_count": 49
    },
    "n_sources": 2,
    "sources": [
@@ -18163,7 +18282,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 48 rilevamenti"
+     "Segnale persistente: 49 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18178,7 +18297,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 48 detections"
+     "Persistent signal: 49 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18240,7 +18359,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 43
+    "detection_count": 44
    },
    "n_sources": 2,
    "sources": [
@@ -18275,7 +18394,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 43 rilevamenti"
+     "Segnale persistente: 44 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -18288,7 +18407,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 43 detections"
+     "Persistent signal: 44 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -19764,125 +19883,6 @@
    }
   },
   {
-   "id": 9,
-   "name": "Diego Reyes",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Diego Reyes - Player profile 26/27",
-     "url": "https://www.transfermarkt.us/diego-reyes/profil/spieler/131090"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Attacker",
-   "club": "Flamengo U20",
-   "league": "Brazilian U20 competitions / Mexican U21 league",
-   "region": "Latin America",
-   "gender": "male",
-   "score": 17,
-   "confidence": 0.91,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 9
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "terra.com.br",
-     "url": "https://www.terra.com.br/esportes/flamengo/flamengo-contrata-promessa-do-futebol-mexicano,65432d95e608a314e94f84ffd00d25fc5llw2fo6.html",
-     "seen": "2026-03-03T12:58:52.925498"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/diego-reyes/profil/spieler/131090",
-     "seen": "2026-08-21T05:49:01.085919"
-    },
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/reyes-diego/WSE2Yj4d/",
-     "seen": "2026-08-29T21:05:07.037910"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "senza_fonte_primary,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-03-03T12:58:52.925498",
-   "last_seen": "2026-09-26T21:24:20.749174",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano",
-     "Segnale persistente: 9 rilevamenti"
-    ],
-    "cautions": [
-     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "3 distinct domains mention him",
-     "Persistent signal: 9 detections"
-    ],
-    "cautions_en": [
-     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Look for a primary press/federation source to bring it to the full standard",
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 43,
    "name": "Pedro Ferreira",
    "age": null,
@@ -20945,7 +20945,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 47
+    "detection_count": 48
    },
    "n_sources": 4,
    "sources": [
@@ -20990,7 +20990,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 47 rilevamenti"
+     "Segnale persistente: 48 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21003,7 +21003,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 47 detections"
+     "Persistent signal: 48 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21297,7 +21297,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 48
+    "detection_count": 49
    },
    "n_sources": 2,
    "sources": [
@@ -21332,7 +21332,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 48 rilevamenti"
+     "Segnale persistente: 49 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21345,7 +21345,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 48 detections"
+     "Persistent signal: 49 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21624,7 +21624,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 47
+    "detection_count": 48
    },
    "n_sources": 2,
    "sources": [
@@ -21659,7 +21659,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 47 rilevamenti"
+     "Segnale persistente: 48 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -21674,7 +21674,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 47 detections"
+     "Persistent signal: 48 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22803,7 +22803,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 58
+    "detection_count": 59
    },
    "n_sources": 3,
    "sources": [
@@ -22842,7 +22842,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 58 rilevamenti"
+     "Segnale persistente: 59 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22854,7 +22854,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 58 detections"
+     "Persistent signal: 59 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22914,7 +22914,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 59
+    "detection_count": 60
    },
    "n_sources": 3,
    "sources": [
@@ -22953,7 +22953,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 59 rilevamenti"
+     "Segnale persistente: 60 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22965,7 +22965,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 59 detections"
+     "Persistent signal: 60 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -38998,6 +38998,127 @@
     ],
     "next_steps_en": [
      "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 491,
+   "name": "Lyudmila Karachik",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "denying Uzbekistan’s Lyudmila Karachik",
+     "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Soccerway",
+     "tipo": "aggregator",
+     "citazione": "Lyudmila Karachik (Nasaf Qarshi) Stats",
+     "url": "https://www.soccerway.com/player/karachik-lyudmila/0GBHvZr0/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Nasaf Qarshi",
+   "league": null,
+   "region": "Philippines",
+   "gender": "female",
+   "score": 11,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting",
+     "seen": "2026-09-14T13:13:27.808740"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/karachik-lyudmila/0GBHvZr0/",
+     "seen": "2026-10-02T22:27:57.183169"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-14T13:13:27.808740",
+   "last_seen": "2026-10-02T22:27:57.183169",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Philippine Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting"
+     }
+    ],
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 1 times by Philippine Football Federation."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Soccerway",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Soccerway",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
      "Confirm the birth year with the club",
      "Get performance stats (match reports)"
     ]
@@ -56788,6 +56909,113 @@
    }
   },
   {
+   "id": 600,
+   "name": "Uziel Vargas",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Récord",
+     "tipo": "national_press",
+     "citazione": "Uziel Vargas, el juvenil de Chivas que comienza a brillar en los escenarios internacionales",
+     "url": "https://www.record.com.mx/historia/uziel-vargas-el-juvenil-de-chivas-que-comienza-a-brillar-en-los-escenarios-internacionales-2026060418160694726"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Récord",
+     "tipo": "national_press",
+     "citazione": "Uziel Vargas, el juvenil de Chivas que comienza a brillar en los escenarios internacionales",
+     "url": "https://www.record.com.mx/historia/uziel-vargas-el-juvenil-de-chivas-que-comienza-a-brillar-en-los-escenarios-internacionales-2026060418160694726"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Chivas",
+   "league": null,
+   "region": "Mexico",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "record.com.mx",
+     "url": "https://www.record.com.mx/historia/uziel-vargas-el-juvenil-de-chivas-que-comienza-a-brillar-en-los-escenarios-internacionales-2026060418160694726",
+     "seen": "2026-10-02T22:27:57.183169"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-10-02T22:27:57.183169",
+   "last_seen": "2026-10-02T22:27:57.183169",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Récord"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Récord"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 129,
    "name": "Juana Flores",
    "age": null,
@@ -58308,6 +58536,108 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 601,
+   "name": "Bilal El Khanouss",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Le360 Sport",
+     "tipo": "national_press",
+     "citazione": "Bilal El Khanouss, 18 ans et passé par plusieurs catégories de la sélection belge",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Le360 Sport",
+     "tipo": "national_press",
+     "citazione": "Bilal El Khanouss, 18 ans et passé par plusieurs catégories de la sélection belge",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Morocco",
+   "gender": "male",
+   "score": 5,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "sport.le360.ma",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/",
+     "seen": "2026-10-02T22:27:57.183169"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,fonte_singola,eta_dichiarato,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-02T22:27:57.183169",
+   "last_seen": "2026-10-02T22:27:57.183169",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Young (18 yo)"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
     ]
    }
   },
@@ -60023,122 +60353,6 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 491,
-   "name": "Lyudmila Karachik",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Philippine Football Federation",
-     "tipo": "federation",
-     "citazione": "denying Uzbekistan’s Lyudmila Karachik",
-     "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Philippines",
-   "gender": "female",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "pff.org.ph",
-     "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting",
-     "seen": "2026-09-14T13:13:27.808740"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-14T13:13:27.808740",
-   "last_seen": "2026-09-14T13:13:27.808740",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Philippine Football Federation.",
-    "dal": "",
-    "al": "",
-    "categorie": [],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting"
-     }
-    ],
-    "fonte": "Philippine Football Federation",
-    "frase_en": "Called up 1 times by Philippine Football Federation."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
@@ -65704,6 +65918,696 @@
    "coverage_tier": "low_coverage",
    "first_detected": "2026-10-02T13:02:20.814188",
    "last_seen": "2026-10-02T13:02:20.814188",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 602,
+   "name": "Eliesse Ben Seghir",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Le360 Sport",
+     "tipo": "national_press",
+     "citazione": "Eliesse Ben Seghir, est arrivé en sélection à 19 ans, alors qu’il représentait un des plus grands espoirs du football français",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Le360 Sport",
+     "tipo": "national_press",
+     "citazione": "Eliesse Ben Seghir, est arrivé en sélection à 19 ans, alors qu’il représentait un des plus grands espoirs du football français",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Morocco",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "sport.le360.ma",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/",
+     "seen": "2026-10-02T22:27:57.183169"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,fonte_singola,eta_dichiarato,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-02T22:27:57.183169",
+   "last_seen": "2026-10-02T22:27:57.183169",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Young (19 yo)"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 603,
+   "name": "Youssef Lekhedim",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Le360 Sport",
+     "tipo": "national_press",
+     "citazione": "Youssef Lekhedim alias Yusi",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Morocco",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "sport.le360.ma",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/",
+     "seen": "2026-10-02T22:27:57.183169"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-02T22:27:57.183169",
+   "last_seen": "2026-10-02T22:27:57.183169",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 604,
+   "name": "Chadi Riad",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Le360 Sport",
+     "tipo": "national_press",
+     "citazione": "Chadi Riad",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Morocco",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "sport.le360.ma",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/",
+     "seen": "2026-10-02T22:27:57.183169"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-02T22:27:57.183169",
+   "last_seen": "2026-10-02T22:27:57.183169",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 605,
+   "name": "Amir Richardson",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Le360 Sport",
+     "tipo": "national_press",
+     "citazione": "Amir Richardson",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Morocco",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "sport.le360.ma",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/",
+     "seen": "2026-10-02T22:27:57.183169"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-02T22:27:57.183169",
+   "last_seen": "2026-10-02T22:27:57.183169",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 606,
+   "name": "Achraf Hakimi",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Le360 Sport",
+     "tipo": "national_press",
+     "citazione": "Achraf Hakimi",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Morocco",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "sport.le360.ma",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/",
+     "seen": "2026-10-02T22:27:57.183169"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-02T22:27:57.183169",
+   "last_seen": "2026-10-02T22:27:57.183169",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 607,
+   "name": "Sofyan Amrabat",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Le360 Sport",
+     "tipo": "national_press",
+     "citazione": "Sofyan Amrabat",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Morocco",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "sport.le360.ma",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/",
+     "seen": "2026-10-02T22:27:57.183169"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-02T22:27:57.183169",
+   "last_seen": "2026-10-02T22:27:57.183169",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 608,
+   "name": "Abde Ezzalzouli",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Le360 Sport",
+     "tipo": "national_press",
+     "citazione": "Abde Ezzalzouli",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Morocco",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "sport.le360.ma",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/",
+     "seen": "2026-10-02T22:27:57.183169"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-02T22:27:57.183169",
+   "last_seen": "2026-10-02T22:27:57.183169",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
