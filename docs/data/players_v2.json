@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-02T06:28:26.198437+00:00",
+ "generated_at": "2026-10-02T13:30:07.761885+00:00",
  "version": "1.0.0",
- "build": "6c95ffb",
- "total": 591,
+ "build": "4a2ec58",
+ "total": 599,
  "publishable": 115,
- "tracking": 476,
- "shown": 591,
+ "tracking": 484,
+ "shown": 599,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -15420,7 +15420,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 50
+    "detection_count": 51
    },
    "n_sources": 4,
    "sources": [
@@ -15465,7 +15465,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 50 rilevamenti"
+     "Segnale persistente: 51 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15480,7 +15480,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 50 detections"
+     "Persistent signal: 51 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -15648,7 +15648,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 54
+    "detection_count": 55
    },
    "n_sources": 3,
    "sources": [
@@ -15688,7 +15688,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 54 rilevamenti"
+     "Segnale persistente: 55 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15703,7 +15703,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 54 detections"
+     "Persistent signal: 55 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17421,6 +17421,123 @@
    }
   },
   {
+   "id": 44,
+   "name": "Gabriel Mec",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Gabriel Mec - Player profile 2026",
+     "url": "https://www.transfermarkt.us/gabriel-mec/profil/spieler/1228661"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Gabriel Mec, 18 anni, Grêmio Foot-Ball Porto Alegrense",
+     "url": "https://www.transfermarkt.us/gabriel-mec/profil/spieler/1228661"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "CAM",
+   "club": "Bahia",
+   "league": "Campeonato Brasileiro Série A (youth)",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 19,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 48
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "gremionews.com.br",
+     "url": "https://www.gremionews.com.br/geral/4519-joia-milionaria-do-gremio-destaque-da-selecao-sub-20",
+     "seen": "2026-06-12T14:59:14.299313"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/gabriel-mec/profil/spieler/1228661",
+     "seen": "2026-07-18T08:21:52.280337"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/gabriel-mec/S03HEI2l/",
+     "seen": "2026-10-02T13:02:20.814188"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "senza_fonte_primary,eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-06-12T14:59:14.299313",
+   "last_seen": null,
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "3 domini distinti lo nominano",
+     "Segnale persistente: 48 rilevamenti"
+    ],
+    "cautions": [
+     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Minor context: potentially underpriced",
+     "3 distinct domains mention him",
+     "Persistent signal: 48 detections"
+    ],
+    "cautions_en": [
+     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Look for a primary press/federation source to bring it to the full standard",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 110,
    "name": "Hermen Andrés Landázuri Landázuri",
    "age": null,
@@ -18011,7 +18128,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 47
+    "detection_count": 48
    },
    "n_sources": 2,
    "sources": [
@@ -18046,7 +18163,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 47 rilevamenti"
+     "Segnale persistente: 48 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18061,119 +18178,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 47 detections"
-    ],
-    "cautions_en": [
-     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Look for a primary press/federation source to bring it to the full standard",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 44,
-   "name": "Gabriel Mec",
-   "age": 18,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Gabriel Mec - Player profile 2026",
-     "url": "https://www.transfermarkt.us/gabriel-mec/profil/spieler/1228661"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Gabriel Mec, 18 anni, Grêmio Foot-Ball Porto Alegrense",
-     "url": "https://www.transfermarkt.us/gabriel-mec/profil/spieler/1228661"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "CAM",
-   "club": "Bahia",
-   "league": "Campeonato Brasileiro Série A (youth)",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 18,
-   "confidence": 0.93,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 46
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "gremionews.com.br",
-     "url": "https://www.gremionews.com.br/geral/4519-joia-milionaria-do-gremio-destaque-da-selecao-sub-20",
-     "seen": "2026-06-12T14:59:14.299313"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/gabriel-mec/profil/spieler/1228661",
-     "seen": "2026-07-18T08:21:52.280337"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "senza_fonte_primary,eta_dichiarato,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-06-12T14:59:14.299313",
-   "last_seen": null,
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Giovane (18 anni)",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano",
-     "Segnale persistente: 46 rilevamenti"
-    ],
-    "cautions": [
-     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Young (18 yo)",
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him",
-     "Persistent signal: 46 detections"
+     "Persistent signal: 48 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20940,7 +20945,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 46
+    "detection_count": 47
    },
    "n_sources": 4,
    "sources": [
@@ -20985,7 +20990,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 46 rilevamenti"
+     "Segnale persistente: 47 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20998,7 +21003,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 46 detections"
+     "Persistent signal: 47 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21292,7 +21297,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 47
+    "detection_count": 48
    },
    "n_sources": 2,
    "sources": [
@@ -21327,7 +21332,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 47 rilevamenti"
+     "Segnale persistente: 48 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21340,7 +21345,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 47 detections"
+     "Persistent signal: 48 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21619,7 +21624,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 46
+    "detection_count": 47
    },
    "n_sources": 2,
    "sources": [
@@ -21654,7 +21659,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 46 rilevamenti"
+     "Segnale persistente: 47 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -21669,7 +21674,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 46 detections"
+     "Persistent signal: 47 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22798,7 +22803,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 56
+    "detection_count": 58
    },
    "n_sources": 3,
    "sources": [
@@ -22837,7 +22842,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 56 rilevamenti"
+     "Segnale persistente: 58 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22849,7 +22854,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 56 detections"
+     "Persistent signal: 58 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22909,7 +22914,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 58
+    "detection_count": 59
    },
    "n_sources": 3,
    "sources": [
@@ -22948,7 +22953,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 58 rilevamenti"
+     "Segnale persistente: 59 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22960,7 +22965,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 58 detections"
+     "Persistent signal: 59 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24261,6 +24266,108 @@
    }
   },
   {
+   "id": 595,
+   "name": "Dastan Satpayev",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Astana Times — Sport",
+     "tipo": "national_press",
+     "citazione": "Chelsea forward Dastan Satpayev, currently on loan at Burnley, has regained the top spot among Kazakhstan’s most valuable footballers",
+     "url": "https://astanatimes.com/2026/10/dastan-satpayev-becomes-kazakhstans-most-valuable-footballer/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Astana Times — Sport",
+     "tipo": "national_press",
+     "citazione": "Chelsea forward Dastan Satpayev, currently on loan at Burnley, has regained the top spot among Kazakhstan’s most valuable footballers",
+     "url": "https://astanatimes.com/2026/10/dastan-satpayev-becomes-kazakhstans-most-valuable-footballer/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "forward",
+   "club": "Burnley",
+   "league": "Championship",
+   "region": "Kazakhstan",
+   "gender": "male",
+   "score": 9,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "astanatimes.com",
+     "url": "https://astanatimes.com/2026/10/dastan-satpayev-becomes-kazakhstans-most-valuable-footballer/",
+     "seen": "2026-10-02T13:02:20.814188"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-02T13:02:20.814188",
+   "last_seen": "2026-10-02T13:02:20.814188",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Astana Times — Sport"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Astana Times — Sport"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 10,
    "name": "Luiz Fernando (Luizinho)",
    "age": 20,
@@ -25217,6 +25324,110 @@
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 593,
+   "name": "Đình Bắc",
+   "age": 22,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "VnExpress — Bóng đá",
+     "tipo": "national_press",
+     "citazione": "Đình Bắc ghi bàn, còn Đình Bắc trực tiếp góp công vào ba pha lập công",
+     "url": "https://vnexpress.net/ket-qua-viet-nam-vs-pakistan-5127670-tong-thuat.html#box_comment_vne"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Nguyễn Đình Bắc, 22 anni, Cong An Ha Noi FC",
+     "url": "https://www.transfermarkt.com/dinh-bac-nguyen/profil/spieler/1032711"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "forward",
+   "club": "Cong An Ha Noi FC",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/dinh-bac-nguyen/profil/spieler/1032711",
+     "seen": "2026-10-02T13:02:20.814188"
+    },
+    {
+     "domain": "vnexpress.net",
+     "url": "https://vnexpress.net/ket-qua-viet-nam-vs-pakistan-5127670-tong-thuat.html#box_comment_vne",
+     "seen": "2026-10-02T13:02:20.814188"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-02T13:02:20.814188",
+   "last_seen": "2026-10-02T13:02:20.814188",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da VnExpress — Bóng đá",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by VnExpress — Bóng đá",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -29247,7 +29458,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 2,
    "sources": [
@@ -29273,7 +29484,7 @@
    "review_flags": "club_mancante,eta_dedotto,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-07T12:56:51.184114",
-   "last_seen": "2026-09-26T21:24:20.749174",
+   "last_seen": "2026-10-02T13:02:20.814188",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -52062,6 +52273,134 @@
    }
   },
   {
+   "id": 307,
+   "name": "Phan Tuấn Tài",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Vietnam Football Federation",
+     "tipo": "federation",
+     "citazione": "Phan Tuấn Tài flashed across the face of goal",
+     "url": "http://en.vff.org.vn/asean-hyundai-cup-2026-semi-final-2nd-leg-vietnam-2-0-malaysia-vietnam-win-4-0-on-aggregate/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "en.vff.org.vn",
+     "url": "http://en.vff.org.vn/asean-hyundai-cup-2026-semi-final-2nd-leg-vietnam-2-0-malaysia-vietnam-win-4-0-on-aggregate/",
+     "seen": "2026-08-31T05:57:51.267979"
+    },
+    {
+     "domain": "vnexpress.net",
+     "url": "https://vnexpress.net/ket-qua-viet-nam-vs-pakistan-5127670-tong-thuat.html#box_comment_vne",
+     "seen": "2026-10-02T13:02:20.814188"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-08-31T05:57:51.267979",
+   "last_seen": "2026-10-02T13:02:20.814188",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Vietnam Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Vietnam Football Federation",
+      "url": "http://en.vff.org.vn/asean-hyundai-cup-2026-semi-final-2nd-leg-vietnam-2-0-malaysia-vietnam-win-4-0-on-aggregate/"
+     }
+    ],
+    "fonte": "Vietnam Football Federation",
+    "frase_en": "Called up 1 times by Vietnam Football Federation."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 313,
    "name": "Vusi Moyo",
    "age": null,
@@ -56143,6 +56482,312 @@
    }
   },
   {
+   "id": 597,
+   "name": "Bakhtiyor Zaynutdinov",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Astana Times — Sport",
+     "tipo": "national_press",
+     "citazione": "Türkiye’s Beşiktaş midfielder Bakhtiyor Zaynutdinov at €3.5 million",
+     "url": "https://astanatimes.com/2026/10/dastan-satpayev-becomes-kazakhstans-most-valuable-footballer/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Astana Times — Sport",
+     "tipo": "national_press",
+     "citazione": "Türkiye’s Beşiktaş midfielder Bakhtiyor Zaynutdinov at €3.5 million",
+     "url": "https://astanatimes.com/2026/10/dastan-satpayev-becomes-kazakhstans-most-valuable-footballer/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "midfielder",
+   "club": "Beşiktaş",
+   "league": null,
+   "region": "Kazakhstan",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "astanatimes.com",
+     "url": "https://astanatimes.com/2026/10/dastan-satpayev-becomes-kazakhstans-most-valuable-footballer/",
+     "seen": "2026-10-02T13:02:20.814188"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-02T13:02:20.814188",
+   "last_seen": "2026-10-02T13:02:20.814188",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Astana Times — Sport"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Astana Times — Sport"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 598,
+   "name": "Nuraly Alip",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Astana Times — Sport",
+     "tipo": "national_press",
+     "citazione": "Russia’s Zenit defender Nuraly Alip at €3 million",
+     "url": "https://astanatimes.com/2026/10/dastan-satpayev-becomes-kazakhstans-most-valuable-footballer/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Astana Times — Sport",
+     "tipo": "national_press",
+     "citazione": "Russia’s Zenit defender Nuraly Alip at €3 million",
+     "url": "https://astanatimes.com/2026/10/dastan-satpayev-becomes-kazakhstans-most-valuable-footballer/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "defender",
+   "club": "Zenit",
+   "league": null,
+   "region": "Kazakhstan",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "astanatimes.com",
+     "url": "https://astanatimes.com/2026/10/dastan-satpayev-becomes-kazakhstans-most-valuable-footballer/",
+     "seen": "2026-10-02T13:02:20.814188"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-02T13:02:20.814188",
+   "last_seen": "2026-10-02T13:02:20.814188",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Astana Times — Sport"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Astana Times — Sport"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 599,
+   "name": "Islam Chesnokov",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Astana Times — Sport",
+     "tipo": "national_press",
+     "citazione": "RF Krylia Sovetov attacking midfielder Islam Chesnokov completes the top five",
+     "url": "https://astanatimes.com/2026/10/dastan-satpayev-becomes-kazakhstans-most-valuable-footballer/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Astana Times — Sport",
+     "tipo": "national_press",
+     "citazione": "RF Krylia Sovetov attacking midfielder Islam Chesnokov completes the top five",
+     "url": "https://astanatimes.com/2026/10/dastan-satpayev-becomes-kazakhstans-most-valuable-footballer/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "attacking midfielder",
+   "club": "RF Krylia Sovetov",
+   "league": null,
+   "region": "Kazakhstan",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "astanatimes.com",
+     "url": "https://astanatimes.com/2026/10/dastan-satpayev-becomes-kazakhstans-most-valuable-footballer/",
+     "seen": "2026-10-02T13:02:20.814188"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-02T13:02:20.814188",
+   "last_seen": "2026-10-02T13:02:20.814188",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Astana Times — Sport"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Astana Times — Sport"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 129,
    "name": "Juana Flores",
    "age": null,
@@ -58935,122 +59580,6 @@
    }
   },
   {
-   "id": 307,
-   "name": "Phan Tuấn Tài",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Vietnam Football Federation",
-     "tipo": "federation",
-     "citazione": "Phan Tuấn Tài flashed across the face of goal",
-     "url": "http://en.vff.org.vn/asean-hyundai-cup-2026-semi-final-2nd-leg-vietnam-2-0-malaysia-vietnam-win-4-0-on-aggregate/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Vietnam",
-   "gender": "male",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "en.vff.org.vn",
-     "url": "http://en.vff.org.vn/asean-hyundai-cup-2026-semi-final-2nd-leg-vietnam-2-0-malaysia-vietnam-win-4-0-on-aggregate/",
-     "seen": "2026-08-31T05:57:51.267979"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-08-31T05:57:51.267979",
-   "last_seen": "2026-08-31T05:57:51.267979",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Vietnam Football Federation.",
-    "dal": "",
-    "al": "",
-    "categorie": [],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "Vietnam Football Federation",
-      "url": "http://en.vff.org.vn/asean-hyundai-cup-2026-semi-final-2nd-leg-vietnam-2-0-malaysia-vietnam-win-4-0-on-aggregate/"
-     }
-    ],
-    "fonte": "Vietnam Football Federation",
-    "frase_en": "Called up 1 times by Vietnam Football Federation."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "id": 308,
    "name": "Azri Ghani",
    "age": null,
@@ -59163,6 +59692,116 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 354,
+   "name": "Mohamed Ouahbi",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Le360 Sport",
+     "tipo": "national_press",
+     "citazione": "Mondial U20: qui est Mohamed Ouahbi, le faiseur de rêves marocain?",
+     "url": "https://sport.le360.ma/football/lions-atlas/mondial-u20-qui-est-mohamed-ouahbi-le-faiseur-de-reves-marocain_462QLNTTPRFMHH6NVBF4GCVDF4/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Morocco",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "sport.le360.ma",
+     "url": "https://sport.le360.ma/football/lions-atlas/mondial-u20-qui-est-mohamed-ouahbi-le-faiseur-de-reves-marocain_462QLNTTPRFMHH6NVBF4GCVDF4/",
+     "seen": "2026-09-01T11:56:15.018093"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/ouahbi-mohamed/zovu3nQH/",
+     "seen": "2026-10-02T13:02:20.814188"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-01T11:56:15.018093",
+   "last_seen": "2026-10-02T13:02:20.814188",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
     ]
    }
   },
@@ -60973,6 +61612,116 @@
    }
   },
   {
+   "id": 594,
+   "name": "Minh Hoàng",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "VnExpress — Bóng đá",
+     "tipo": "national_press",
+     "citazione": "Đình Bắc chia vui cùng Minh Hoàng (trái) sau bàn nâng tỷ số lên 4-2",
+     "url": "https://vnexpress.net/ket-qua-viet-nam-vs-pakistan-5127670-tong-thuat.html#box_comment_vne"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/nguy-n-tr-ng-minh-hoang-460045",
+     "seen": "2026-10-02T13:02:20.814188"
+    },
+    {
+     "domain": "vnexpress.net",
+     "url": "https://vnexpress.net/ket-qua-viet-nam-vs-pakistan-5127670-tong-thuat.html#box_comment_vne",
+     "seen": "2026-10-02T13:02:20.814188"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-02T13:02:20.814188",
+   "last_seen": "2026-10-02T13:02:20.814188",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 79,
    "name": "Valentino Acu",
    "age": null,
@@ -61945,104 +62694,6 @@
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-01T05:30:45.135627",
    "last_seen": "2026-09-01T05:30:45.135627",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 354,
-   "name": "Mohamed Ouahbi",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Le360 Sport",
-     "tipo": "national_press",
-     "citazione": "Mondial U20: qui est Mohamed Ouahbi, le faiseur de rêves marocain?",
-     "url": "https://sport.le360.ma/football/lions-atlas/mondial-u20-qui-est-mohamed-ouahbi-le-faiseur-de-reves-marocain_462QLNTTPRFMHH6NVBF4GCVDF4/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Morocco",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "sport.le360.ma",
-     "url": "https://sport.le360.ma/football/lions-atlas/mondial-u20-qui-est-mohamed-ouahbi-le-faiseur-de-reves-marocain_462QLNTTPRFMHH6NVBF4GCVDF4/",
-     "seen": "2026-09-01T11:56:15.018093"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-01T11:56:15.018093",
-   "last_seen": "2026-09-01T11:56:15.018093",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -64852,6 +65503,207 @@
    "coverage_tier": "standard",
    "first_detected": "2026-09-29T13:14:01.475469",
    "last_seen": "2026-09-29T13:14:01.475469",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 592,
+   "name": "Hai Long",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "VnExpress — Bóng đá",
+     "tipo": "national_press",
+     "citazione": "Phan Tuấn Tài kiến tạo cho Hai Long và Đình Bắc ghi bàn",
+     "url": "https://vnexpress.net/ket-qua-viet-nam-vs-pakistan-5127670-tong-thuat.html#box_comment_vne"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "vnexpress.net",
+     "url": "https://vnexpress.net/ket-qua-viet-nam-vs-pakistan-5127670-tong-thuat.html#box_comment_vne",
+     "seen": "2026-10-02T13:02:20.814188"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-02T13:02:20.814188",
+   "last_seen": "2026-10-02T13:02:20.814188",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 596,
+   "name": "Maksim Samorodov",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Astana Times — Sport",
+     "tipo": "national_press",
+     "citazione": "The 18-year-old surpassed Kazakhstan national team teammate Maksim Samorodov, whose market value is €4 million",
+     "url": "https://astanatimes.com/2026/10/dastan-satpayev-becomes-kazakhstans-most-valuable-footballer/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Kazakhstan",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "astanatimes.com",
+     "url": "https://astanatimes.com/2026/10/dastan-satpayev-becomes-kazakhstans-most-valuable-footballer/",
+     "seen": "2026-10-02T13:02:20.814188"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-02T13:02:20.814188",
+   "last_seen": "2026-10-02T13:02:20.814188",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
