@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-03T17:05:44.228752+00:00",
+ "generated_at": "2026-10-03T22:05:43.174601+00:00",
  "version": "1.0.0",
- "build": "f9b1d5f",
+ "build": "2bc42a8",
  "total": 613,
  "publishable": 117,
  "tracking": 496,
@@ -15426,7 +15426,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 46
+    "detection_count": 47
    },
    "n_sources": 4,
    "sources": [
@@ -15471,7 +15471,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 46 rilevamenti"
+     "Segnale persistente: 47 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -15482,7 +15482,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 46 detections"
+     "Persistent signal: 47 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -15647,7 +15647,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 55
+    "detection_count": 56
    },
    "n_sources": 4,
    "sources": [
@@ -15692,7 +15692,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 55 rilevamenti"
+     "Segnale persistente: 56 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15707,7 +15707,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 55 detections"
+     "Persistent signal: 56 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -15769,7 +15769,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 3
+    "detection_count": 4
    },
    "n_sources": 3,
    "sources": [
@@ -15795,7 +15795,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-23T11:59:53.215187",
-   "last_seen": "2026-09-28T05:44:27.066725",
+   "last_seen": "2026-10-03T21:40:24.585803",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -15875,7 +15875,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 59
+    "detection_count": 60
    },
    "n_sources": 3,
    "sources": [
@@ -15915,7 +15915,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 59 rilevamenti"
+     "Segnale persistente: 60 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15930,7 +15930,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 59 detections"
+     "Persistent signal: 60 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16336,6 +16336,119 @@
     ],
     "next_steps_en": [
      "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 32,
+   "name": "Joaquín Muñoz",
+   "age": 17,
+   "age_stato": "dedotto",
+   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Joaquín Muñoz - Perfil del jugador",
+     "url": "https://www.transfermarkt.es/joaquin-munoz/profil/spieler/1379945"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dedotto",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Forward",
+   "club": "Malaga",
+   "league": "Youth Tournament (Torneo Promesas de Córdoba)",
+   "region": "Chile",
+   "gender": "male",
+   "score": 21,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "anfp.cl",
+     "url": "https://www.anfp.cl/la-roja-sub-17-vencio-a-argentina-en-el-debut-del-torneo-promesas-de-cordoba-2026/",
+     "seen": "2026-06-03T04:06:32.617834"
+    },
+    {
+     "domain": "transfermarkt.es",
+     "url": "https://www.transfermarkt.es/joaquin-munoz/profil/spieler/1379945",
+     "seen": "2026-08-01T08:41:41.920525"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/munoz-joaquin/fmp1pdv1/",
+     "seen": "2026-10-03T21:40:24.585803"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dedotto,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-06-03T04:06:32.617834",
+   "last_seen": "2026-10-03T21:40:24.585803",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "L'età (17) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-17)",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The age (17) is not stated by any source: it is inferred from the tournament category (U-17)",
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
      "Get performance stats (match reports)"
     ]
    }
@@ -17815,7 +17928,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 52
+    "detection_count": 53
    },
    "n_sources": 3,
    "sources": [
@@ -17855,7 +17968,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 52 rilevamenti"
+     "Segnale persistente: 53 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17870,7 +17983,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 52 detections"
+     "Persistent signal: 53 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18586,7 +18699,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 47
+    "detection_count": 48
    },
    "n_sources": 2,
    "sources": [
@@ -18621,7 +18734,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 47 rilevamenti"
+     "Segnale persistente: 48 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -18634,7 +18747,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 47 detections"
+     "Persistent signal: 48 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21396,7 +21509,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 52
+    "detection_count": 53
    },
    "n_sources": 3,
    "sources": [
@@ -21436,7 +21549,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 52 rilevamenti"
+     "Segnale persistente: 53 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -21451,7 +21564,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 52 detections"
+     "Persistent signal: 53 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -21747,7 +21860,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 51
+    "detection_count": 52
    },
    "n_sources": 2,
    "sources": [
@@ -21782,7 +21895,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 51 rilevamenti"
+     "Segnale persistente: 52 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21795,7 +21908,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 51 detections"
+     "Persistent signal: 52 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23141,7 +23254,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 62
+    "detection_count": 63
    },
    "n_sources": 3,
    "sources": [
@@ -23180,7 +23293,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 62 rilevamenti"
+     "Segnale persistente: 63 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23192,7 +23305,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 62 detections"
+     "Persistent signal: 63 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23252,7 +23365,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 63
+    "detection_count": 64
    },
    "n_sources": 3,
    "sources": [
@@ -23291,7 +23404,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 63 rilevamenti"
+     "Segnale persistente: 64 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23303,7 +23416,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 63 detections"
+     "Persistent signal: 64 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24407,6 +24520,117 @@
    }
   },
   {
+   "id": 189,
+   "name": "Santiago Flores",
+   "age": 25,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Santiago Flores Defensa Central 25 25/03/2001 1.83",
+     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Promiedos",
+     "tipo": "results_stats",
+     "citazione": "Santiago Flores Defensa Central 25 25/03/2001 1.83",
+     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defensa Central",
+   "club": "Estudiantes de La Plata",
+   "league": null,
+   "region": "Argentina",
+   "gender": "male",
+   "score": 9,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 10
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "origin.app.promiedos.com.ar",
+     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh",
+     "seen": "2026-07-29T09:23:20.822740"
+    },
+    {
+     "domain": "transfermarkt.de",
+     "url": "https://www.transfermarkt.de/santiago-flores/profil/spieler/1400394",
+     "seen": "2026-07-29T09:23:20.822740"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/santiago-flores/profil/spieler/1011266",
+     "seen": "2026-08-30T12:09:12.375789"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-30T12:09:12.375789",
+   "last_seen": "2026-10-03T21:40:24.585803",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "3 domini distinti lo nominano",
+     "Segnale persistente: 10 rilevamenti"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "3 distinct domains mention him",
+     "Persistent signal: 10 detections"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 391,
    "name": "Kyllian Wiako",
    "age": 19,
@@ -24828,117 +25052,6 @@
     ],
     "next_steps_en": [
      "Look for a primary press/federation source to bring it to the full standard",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 189,
-   "name": "Santiago Flores",
-   "age": 25,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Santiago Flores Defensa Central 25 25/03/2001 1.83",
-     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Promiedos",
-     "tipo": "results_stats",
-     "citazione": "Santiago Flores Defensa Central 25 25/03/2001 1.83",
-     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Defensa Central",
-   "club": "Estudiantes de La Plata",
-   "league": null,
-   "region": "Argentina",
-   "gender": "male",
-   "score": 8,
-   "confidence": 0.91,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 9
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "origin.app.promiedos.com.ar",
-     "url": "https://origin.app.promiedos.com.ar/team/estudiantes-de-la-plata/igh",
-     "seen": "2026-07-29T09:23:20.822740"
-    },
-    {
-     "domain": "transfermarkt.de",
-     "url": "https://www.transfermarkt.de/santiago-flores/profil/spieler/1400394",
-     "seen": "2026-07-29T09:23:20.822740"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/santiago-flores/profil/spieler/1011266",
-     "seen": "2026-08-30T12:09:12.375789"
-    }
-   ],
-   "n_sources_registro": 3,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-30T12:09:12.375789",
-   "last_seen": "2026-09-27T21:31:32.127223",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano",
-     "Segnale persistente: 9 rilevamenti"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "3 distinct domains mention him",
-     "Persistent signal: 9 detections"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
      "Get performance stats (match reports)"
     ]
    }
@@ -26436,7 +26549,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 3,
    "sources": [
@@ -26467,7 +26580,7 @@
    "review_flags": "eta_dichiarato,club_assente,club_e_una_descrizione_non_un_nome",
    "coverage_tier": "standard",
    "first_detected": "2026-06-06T13:43:55.807655",
-   "last_seen": "2026-09-27T21:31:32.127223",
+   "last_seen": "2026-10-03T21:40:24.585803",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -26475,7 +26588,7 @@
     "pros": [
      "Giovane (19 anni)",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -26488,7 +26601,7 @@
     "pros_en": [
      "Young (19 yo)",
      "3 distinct domains mention him",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -26542,16 +26655,16 @@
    "region": "Guinea",
    "gender": "male",
    "score": 0,
-   "confidence": 0.73,
+   "confidence": 0.91,
    "breakdown": {
     "youth": 11.0,
     "production": 0.0,
     "asymmetry": -20.0,
     "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 3
+    "n_sources": 3,
+    "detection_count": 4
    },
-   "n_sources": 2,
+   "n_sources": 3,
    "sources": [
     {
      "domain": "tiktok.com",
@@ -26562,9 +26675,14 @@
      "domain": "transfermarkt.com",
      "url": "https://www.transfermarkt.com/robinio-vaz/profil/spieler/1131161",
      "seen": "2026-07-28T09:18:44.128588"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/vaz-robinio/Sfrt3uIh/",
+     "seen": "2026-10-03T21:40:24.585803"
     }
    ],
-   "n_sources_registro": 1,
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -26575,13 +26693,13 @@
    "review_flags": "copertura_bassa_sperimentale,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-06-08T15:53:26.419652",
-   "last_seen": null,
+   "last_seen": "2026-10-03T21:40:24.585803",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
    "assessment": {
     "pros": [
-     "2 domini distinti lo nominano"
+     "3 domini distinti lo nominano"
     ],
     "cautions": [
      "Regione a bassa copertura mediatica: verificato con criteri adattati, senza fonte di stampa primaria — non lo stesso standard degli altri profili",
@@ -26596,7 +26714,7 @@
      "Recuperare statistiche di rendimento (referti gara)"
     ],
     "pros_en": [
-     "2 distinct domains mention him"
+     "3 distinct domains mention him"
     ],
     "cautions_en": [
      "Low media-coverage region: verified under adapted criteria, without a primary press source — not the same standard as other profiles",
@@ -29973,7 +30091,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 8
+    "detection_count": 9
    },
    "n_sources": 3,
    "sources": [
@@ -30004,7 +30122,7 @@
    "review_flags": "club_mancante,senza_fonte_primary,eta_assente,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-03-01T18:34:38.117964",
-   "last_seen": "2026-09-23T11:59:53.215187",
+   "last_seen": "2026-10-03T21:40:24.585803",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -30012,7 +30130,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 8 rilevamenti"
+     "Segnale persistente: 9 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -30029,7 +30147,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 8 detections"
+     "Persistent signal: 9 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -32237,7 +32355,7 @@
     "asymmetry": 8.0,
     "selection": 14.0,
     "n_sources": 2,
-    "detection_count": 3
+    "detection_count": 4
    },
    "n_sources": 2,
    "sources": [
@@ -32263,7 +32381,7 @@
    "review_flags": "eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-27T21:31:32.127223",
-   "last_seen": "2026-09-27T21:31:32.127223",
+   "last_seen": "2026-10-03T21:40:24.585803",
    "selezione": {
     "quante": 2,
     "frase": "Convocato 2 volte da South African Football Association.",
@@ -33706,113 +33824,6 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 32,
-   "name": "Joaquín Muñoz",
-   "age": 17,
-   "age_stato": "dedotto",
-   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Joaquín Muñoz - Perfil del jugador",
-     "url": "https://www.transfermarkt.es/joaquin-munoz/profil/spieler/1379945"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dedotto",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": "Youth Tournament (Torneo Promesas de Córdoba)",
-   "region": "Chile",
-   "gender": "male",
-   "score": 14,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "anfp.cl",
-     "url": "https://www.anfp.cl/la-roja-sub-17-vencio-a-argentina-en-el-debut-del-torneo-promesas-de-cordoba-2026/",
-     "seen": "2026-06-03T04:06:32.617834"
-    },
-    {
-     "domain": "transfermarkt.es",
-     "url": "https://www.transfermarkt.es/joaquin-munoz/profil/spieler/1379945",
-     "seen": "2026-08-01T08:41:41.920525"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_dedotto,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-06-03T04:06:32.617834",
-   "last_seen": "2026-07-12T19:06:33.505542",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "L'età (17) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-17)",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Very young (17 yo): plenty of room to develop",
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The age (17) is not stated by any source: it is inferred from the tournament category (U-17)",
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Get performance stats (match reports)"
     ]
    }
   },
@@ -42632,6 +42643,114 @@
    "coverage_tier": "standard",
    "first_detected": "2026-08-27T10:10:07.490060",
    "last_seen": "2026-08-27T16:37:11.453695",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 371,
+   "name": "Mehdi Ghaedi",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "UFF.uz",
+     "tipo": "national_press",
+     "citazione": "Esteghlal’s Mehdi Ghaedi looked to make his way into the penalty box",
+     "url": "https://uff.uz/en/article/217294/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Forward",
+   "club": "Esteghlal",
+   "league": null,
+   "region": "Uzbekistan",
+   "gender": "male",
+   "score": 9,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "uff.uz",
+     "url": "https://uff.uz/en/article/217294/",
+     "seen": "2026-09-02T04:56:55.584928"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/ghaedi-mehdi/jk1UU7QQ/",
+     "seen": "2026-10-03T21:40:24.585803"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-02T04:56:55.584928",
+   "last_seen": "2026-10-03T21:40:24.585803",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -53840,113 +53959,6 @@
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-01T11:56:15.018093",
    "last_seen": "2026-09-01T11:56:15.018093",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 371,
-   "name": "Mehdi Ghaedi",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "UFF.uz",
-     "tipo": "national_press",
-     "citazione": "Esteghlal’s Mehdi Ghaedi looked to make his way into the penalty box",
-     "url": "https://uff.uz/en/article/217294/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Esteghlal",
-   "league": null,
-   "region": "Uzbekistan",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "uff.uz",
-     "url": "https://uff.uz/en/article/217294/",
-     "seen": "2026-09-02T04:56:55.584928"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-02T04:56:55.584928",
-   "last_seen": "2026-09-02T04:56:55.584928",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
