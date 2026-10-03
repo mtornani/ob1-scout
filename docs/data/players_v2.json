@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-02T22:42:18.302701+00:00",
+ "generated_at": "2026-10-03T06:08:00.801279+00:00",
  "version": "1.0.0",
- "build": "263922d",
- "total": 608,
- "publishable": 115,
- "tracking": 493,
- "shown": 608,
+ "build": "db633ca",
+ "total": 610,
+ "publishable": 116,
+ "tracking": 494,
+ "shown": 610,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -13533,6 +13533,109 @@
    }
   },
   {
+   "id": 604,
+   "name": "Chadi Riad",
+   "age": 23,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Le360 Sport",
+     "tipo": "national_press",
+     "citazione": "Chadi Riad",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Chadi Riad Dnanou, شادي رياض دنانو, 23 anni, Crystal Palace",
+     "url": "https://www.transfermarkt.us/chadi-riad/profil/spieler/689637"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Chadi Riad Dnanou, شادي رياض دنانو, 23 anni, Crystal Palace",
+     "url": "https://www.transfermarkt.us/chadi-riad/profil/spieler/689637"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Centre-Back",
+   "club": "Crystal Palace",
+   "league": null,
+   "region": "Morocco",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "sport.le360.ma",
+     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/",
+     "seen": "2026-10-02T22:27:57.183169"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/chadi-riad/profil/spieler/689637",
+     "seen": "2026-10-03T05:37:11.830027"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-02T22:27:57.183169",
+   "last_seen": "2026-10-03T05:37:11.830027",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "id": 12,
    "name": "Fode Diallo",
    "age": 14,
@@ -15420,7 +15523,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 52
+    "detection_count": 53
    },
    "n_sources": 4,
    "sources": [
@@ -15465,7 +15568,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 52 rilevamenti"
+     "Segnale persistente: 53 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15480,7 +15583,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 52 detections"
+     "Persistent signal: 53 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -15648,7 +15751,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 56
+    "detection_count": 57
    },
    "n_sources": 3,
    "sources": [
@@ -15688,7 +15791,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 56 rilevamenti"
+     "Segnale persistente: 57 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15703,7 +15806,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 56 detections"
+     "Persistent signal: 57 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17588,7 +17691,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 49
+    "detection_count": 50
    },
    "n_sources": 3,
    "sources": [
@@ -17628,7 +17731,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 49 rilevamenti"
+     "Segnale persistente: 50 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17643,7 +17746,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 49 detections"
+     "Persistent signal: 50 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18247,7 +18350,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 49
+    "detection_count": 50
    },
    "n_sources": 2,
    "sources": [
@@ -18282,7 +18385,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 49 rilevamenti"
+     "Segnale persistente: 50 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18297,7 +18400,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 49 detections"
+     "Persistent signal: 50 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18359,7 +18462,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 44
+    "detection_count": 45
    },
    "n_sources": 2,
    "sources": [
@@ -18394,7 +18497,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 44 rilevamenti"
+     "Segnale persistente: 45 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -18407,7 +18510,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 44 detections"
+     "Persistent signal: 45 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -20945,7 +21048,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 48
+    "detection_count": 49
    },
    "n_sources": 4,
    "sources": [
@@ -20990,7 +21093,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 48 rilevamenti"
+     "Segnale persistente: 49 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21003,7 +21106,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 48 detections"
+     "Persistent signal: 49 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21297,7 +21400,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 49
+    "detection_count": 50
    },
    "n_sources": 2,
    "sources": [
@@ -21332,7 +21435,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 49 rilevamenti"
+     "Segnale persistente: 50 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21345,7 +21448,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 49 detections"
+     "Persistent signal: 50 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21624,7 +21727,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 48
+    "detection_count": 49
    },
    "n_sources": 2,
    "sources": [
@@ -21659,7 +21762,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 48 rilevamenti"
+     "Segnale persistente: 49 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -21674,7 +21777,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 48 detections"
+     "Persistent signal: 49 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22803,7 +22906,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 59
+    "detection_count": 60
    },
    "n_sources": 3,
    "sources": [
@@ -22842,7 +22945,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 59 rilevamenti"
+     "Segnale persistente: 60 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22854,7 +22957,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 59 detections"
+     "Persistent signal: 60 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22914,7 +23017,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 60
+    "detection_count": 61
    },
    "n_sources": 3,
    "sources": [
@@ -22953,7 +23056,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 60 rilevamenti"
+     "Segnale persistente: 61 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22965,7 +23068,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 60 detections"
+     "Persistent signal: 61 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -38462,7 +38565,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 2,
    "sources": [
@@ -38488,7 +38591,7 @@
    "review_flags": "eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-01T16:50:33.171492",
-   "last_seen": "2026-09-27T05:36:31.644864",
+   "last_seen": "2026-10-03T05:37:11.830027",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -38496,7 +38599,8 @@
     "pros": [
      "Continuità documentata: 1 presenze",
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
+     "2 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -38508,7 +38612,8 @@
     "pros_en": [
      "Documented continuity: 1 appearances",
      "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
+     "2 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -50434,6 +50539,133 @@
    }
   },
   {
+   "id": 609,
+   "name": "Md Saad Uddin",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Bangladesh Football Federation",
+     "tipo": "federation",
+     "citazione": "Playing for the renowned Abahani Club of Dhaka, Saad has made his name for his power shots on target and scoring ability.",
+     "url": "https://www.bff.com.bd/news/bd-u23-–-players-to-look-out-for"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Forward",
+   "club": "Abahani Club of Dhaka",
+   "league": null,
+   "region": "Bangladesh",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "bff.com.bd",
+     "url": "https://www.bff.com.bd/news/bd-u23-–-players-to-look-out-for",
+     "seen": "2026-10-03T05:37:11.830027"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-03T05:37:11.830027",
+   "last_seen": "2026-10-03T05:37:11.830027",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Bangladesh Football Federation, Sub-23.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-23"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-23",
+      "fonte": "Bangladesh Football Federation",
+      "url": "https://www.bff.com.bd/news/bd-u23-–-players-to-look-out-for"
+     }
+    ],
+    "fonte": "Bangladesh Football Federation",
+    "frase_en": "Called up 1 times by Bangladesh Football Federation, U23."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Bangladesh Football Federation"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Bangladesh Football Federation"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 125,
    "name": "Maureen Kenneth",
    "age": null,
@@ -61936,6 +62168,129 @@
    }
   },
   {
+   "id": 610,
+   "name": "Sohel Rana",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Bangladesh Football Federation",
+     "tipo": "federation",
+     "citazione": "Now leading the U23 team, Sohel Rana has been an indispensable",
+     "url": "https://www.bff.com.bd/news/bd-u23-–-players-to-look-out-for"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Midfielder",
+   "club": null,
+   "league": null,
+   "region": "Bangladesh",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "bff.com.bd",
+     "url": "https://www.bff.com.bd/news/bd-u23-–-players-to-look-out-for",
+     "seen": "2026-10-03T05:37:11.830027"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-03T05:37:11.830027",
+   "last_seen": "2026-10-03T05:37:11.830027",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Bangladesh Football Federation, Sub-23.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-23"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-23",
+      "fonte": "Bangladesh Football Federation",
+      "url": "https://www.bff.com.bd/news/bd-u23-–-players-to-look-out-for"
+     }
+    ],
+    "fonte": "Bangladesh Football Federation",
+    "frase_en": "Called up 1 times by Bangladesh Football Federation, U23."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "id": 79,
    "name": "Valentino Acu",
    "age": null,
@@ -66064,104 +66419,6 @@
      "fonte": "Le360 Sport",
      "tipo": "national_press",
      "citazione": "Youssef Lekhedim alias Yusi",
-     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Morocco",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "sport.le360.ma",
-     "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/",
-     "seen": "2026-10-02T22:27:57.183169"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-10-02T22:27:57.183169",
-   "last_seen": "2026-10-02T22:27:57.183169",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 604,
-   "name": "Chadi Riad",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Le360 Sport",
-     "tipo": "national_press",
-     "citazione": "Chadi Riad",
      "url": "https://sport.le360.ma/football/pourquoi-les-joueurs-bi-nationaux-choisissent-le-maroc-de-plus-en-plus-jeunes_MEEBWBI63NAKHJYDZQL4ZETWSQ/"
     },
     "club": {
