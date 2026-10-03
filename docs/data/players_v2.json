@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-03T06:08:00.801279+00:00",
+ "generated_at": "2026-10-03T12:24:32.034549+00:00",
  "version": "1.0.0",
- "build": "db633ca",
- "total": 610,
- "publishable": 116,
- "tracking": 494,
- "shown": 610,
+ "build": "f9415f9",
+ "total": 612,
+ "publishable": 117,
+ "tracking": 495,
+ "shown": 612,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -5650,6 +5650,130 @@
     "cautions_en": [
      "Last call-up 20 months ago (February 2025): the run has stopped — worth finding out why"
     ],
+    "next_steps_en": [
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 611,
+   "name": "Alassane Gueye",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Alassane Guèye, 19 anni, Teungueth FC",
+     "url": "https://www.transfermarkt.us/alassane-gueye/profil/spieler/1496256"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Alassane Guèye, 19 anni, Teungueth FC",
+     "url": "https://www.transfermarkt.us/alassane-gueye/profil/spieler/1496256"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Alassane Guèye, 19 anni, Teungueth FC",
+     "url": "https://www.transfermarkt.us/alassane-gueye/profil/spieler/1496256"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Left Winger",
+   "club": "Teungueth FC",
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 15,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 4.5,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/actualites/u20-le-senegal-prend-le-dessus-sur-la-rdc-avant-lufoa-a/",
+     "seen": "2026-10-03T11:55:55.082667"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/alassane-gueye/profil/spieler/1496256",
+     "seen": "2026-10-03T11:55:55.082667"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-03T11:55:55.082667",
+   "last_seen": "2026-10-03T11:55:55.082667",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/actualites/u20-le-senegal-prend-le-dessus-sur-la-rdc-avant-lufoa-a/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U20."
+   },
+   "anomalie": [],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Produzione documentata: 1 gol in 1 presenze",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt"
+    ],
+    "cautions": [],
+    "next_steps": [
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (19 yo)",
+     "Documented output: 1 goals in 1 appearances",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt"
+    ],
+    "cautions_en": [],
     "next_steps_en": [
      "Request video or schedule a live viewing",
      "Call the club: confirm identity and contract status"
@@ -15302,7 +15426,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 44
+    "detection_count": 45
    },
    "n_sources": 4,
    "sources": [
@@ -15347,7 +15471,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 44 rilevamenti"
+     "Segnale persistente: 45 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -15358,7 +15482,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 44 detections"
+     "Persistent signal: 45 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -15523,7 +15647,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 53
+    "detection_count": 54
    },
    "n_sources": 4,
    "sources": [
@@ -15568,7 +15692,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 53 rilevamenti"
+     "Segnale persistente: 54 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15583,7 +15707,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 53 detections"
+     "Persistent signal: 54 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -15751,7 +15875,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 57
+    "detection_count": 58
    },
    "n_sources": 3,
    "sources": [
@@ -15791,7 +15915,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 57 rilevamenti"
+     "Segnale persistente: 58 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15806,7 +15930,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 57 detections"
+     "Persistent signal: 58 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17691,7 +17815,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 50
+    "detection_count": 51
    },
    "n_sources": 3,
    "sources": [
@@ -17731,7 +17855,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 50 rilevamenti"
+     "Segnale persistente: 51 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17746,7 +17870,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 50 detections"
+     "Persistent signal: 51 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18350,7 +18474,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 50
+    "detection_count": 51
    },
    "n_sources": 2,
    "sources": [
@@ -18385,7 +18509,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 50 rilevamenti"
+     "Segnale persistente: 51 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18400,7 +18524,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 50 detections"
+     "Persistent signal: 51 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18462,7 +18586,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 45
+    "detection_count": 46
    },
    "n_sources": 2,
    "sources": [
@@ -18497,7 +18621,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 45 rilevamenti"
+     "Segnale persistente: 46 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -18510,7 +18634,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 45 detections"
+     "Persistent signal: 46 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21048,7 +21172,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 49
+    "detection_count": 51
    },
    "n_sources": 4,
    "sources": [
@@ -21093,7 +21217,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 49 rilevamenti"
+     "Segnale persistente: 51 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21106,7 +21230,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 49 detections"
+     "Persistent signal: 51 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21400,7 +21524,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 50
+    "detection_count": 51
    },
    "n_sources": 2,
    "sources": [
@@ -21435,7 +21559,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 50 rilevamenti"
+     "Segnale persistente: 51 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21448,7 +21572,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 50 detections"
+     "Persistent signal: 51 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21727,7 +21851,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 49
+    "detection_count": 50
    },
    "n_sources": 2,
    "sources": [
@@ -21762,7 +21886,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 49 rilevamenti"
+     "Segnale persistente: 50 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -21777,7 +21901,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 49 detections"
+     "Persistent signal: 50 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22906,7 +23030,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 60
+    "detection_count": 61
    },
    "n_sources": 3,
    "sources": [
@@ -22945,7 +23069,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 60 rilevamenti"
+     "Segnale persistente: 61 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22957,7 +23081,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 60 detections"
+     "Persistent signal: 61 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23017,7 +23141,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 61
+    "detection_count": 62
    },
    "n_sources": 3,
    "sources": [
@@ -23056,7 +23180,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 61 rilevamenti"
+     "Segnale persistente: 62 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23068,7 +23192,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 61 detections"
+     "Persistent signal: 62 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -33989,7 +34113,7 @@
     "asymmetry": 0.0,
     "selection": 4.0,
     "n_sources": 3,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 3,
    "sources": [
@@ -34010,12 +34134,17 @@
     }
    ],
    "n_sources_registro": 2,
-   "stats": {},
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
    "identity_complete": false,
    "review_flags": "club_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-07T21:43:15.578513",
-   "last_seen": "2026-09-22T17:11:07.869378",
+   "last_seen": "2026-10-03T11:55:55.082667",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (settembre 2026).",
@@ -34042,7 +34171,7 @@
    "assessment": {
     "pros": [
      "3 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -34057,7 +34186,7 @@
     ],
     "pros_en": [
      "3 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -41032,6 +41161,114 @@
    }
   },
   {
+   "id": 575,
+   "name": "Shadreck Kalyati",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "SuperSport Football",
+     "tipo": "national_press",
+     "citazione": "Shadreck Kalyati",
+     "url": "https://supersport.com/football/team/da861eb4-1daa-45ff-9e38-6e6cfc991b4a/squad"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Goalkeeper",
+   "club": "SK",
+   "league": "U17",
+   "region": "South Africa",
+   "gender": "male",
+   "score": 10,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "supersport.com",
+     "url": "https://supersport.com/football/team/da861eb4-1daa-45ff-9e38-6e6cfc991b4a/squad",
+     "seen": "2026-09-27T05:36:31.644864"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/kalyati-shadreck/Gld2sg4Q/",
+     "seen": "2026-09-27T12:21:16.875644"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-27T05:36:31.644864",
+   "last_seen": "2026-10-03T11:55:55.082667",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 19,
    "name": "Alan Santos",
    "age": null,
@@ -42637,114 +42874,6 @@
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-23T11:59:53.215187",
    "last_seen": "2026-09-28T05:44:27.066725",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 575,
-   "name": "Shadreck Kalyati",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "SuperSport Football",
-     "tipo": "national_press",
-     "citazione": "Shadreck Kalyati",
-     "url": "https://supersport.com/football/team/da861eb4-1daa-45ff-9e38-6e6cfc991b4a/squad"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Goalkeeper",
-   "club": "SK",
-   "league": "U17",
-   "region": "South Africa",
-   "gender": "male",
-   "score": 9,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "supersport.com",
-     "url": "https://supersport.com/football/team/da861eb4-1daa-45ff-9e38-6e6cfc991b4a/squad",
-     "seen": "2026-09-27T05:36:31.644864"
-    },
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/kalyati-shadreck/Gld2sg4Q/",
-     "seen": "2026-09-27T12:21:16.875644"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-27T05:36:31.644864",
-   "last_seen": "2026-09-27T12:21:16.875644",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -51541,6 +51670,133 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 612,
+   "name": "Adama Sagne",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Fédération Sénégalaise de Football",
+     "tipo": "federation",
+     "citazione": "Adama Sagne, à la 63e minute, a inscrit le deuxième but sénégalais.",
+     "url": "https://fsfoot.sn/actualites/u20-le-senegal-prend-le-dessus-sur-la-rdc-avant-lufoa-a/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 7,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.5,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/actualites/u20-le-senegal-prend-le-dessus-sur-la-rdc-avant-lufoa-a/",
+     "seen": "2026-10-03T11:55:55.082667"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-03T11:55:55.082667",
+   "last_seen": "2026-10-03T11:55:55.082667",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/actualites/u20-le-senegal-prend-le-dessus-sur-la-rdc-avant-lufoa-a/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U20."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol in 1 presenze"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals in 1 appearances"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
