@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-05T06:31:46.987705+00:00",
+ "generated_at": "2026-10-05T15:30:00.369615+00:00",
  "version": "1.0.0",
- "build": "c28b382",
- "total": 614,
+ "build": "0b3f976",
+ "total": 622,
  "publishable": 117,
- "tracking": 497,
- "shown": 614,
+ "tracking": 505,
+ "shown": 622,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 1,
@@ -3647,6 +3647,155 @@
    }
   },
   {
+   "id": 611,
+   "name": "Alassane Gueye",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Alassane Guèye, 19 anni, Teungueth FC",
+     "url": "https://www.transfermarkt.us/alassane-gueye/profil/spieler/1496256"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Alassane Guèye, 19 anni, Teungueth FC",
+     "url": "https://www.transfermarkt.us/alassane-gueye/profil/spieler/1496256"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Alassane Guèye, 19 anni, Teungueth FC",
+     "url": "https://www.transfermarkt.us/alassane-gueye/profil/spieler/1496256"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Left Winger",
+   "club": "Teungueth FC",
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 24,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 4.5,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/actualites/u20-le-senegal-prend-le-dessus-sur-la-rdc-avant-lufoa-a/",
+     "seen": "2026-10-03T11:55:55.082667"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/alassane-gueye/profil/spieler/1496256",
+     "seen": "2026-10-03T11:55:55.082667"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-03T11:55:55.082667",
+   "last_seen": "2026-10-05T15:10:26.247557",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Fédération Sénégalaise de Football, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/actualites/match-amical-les-lionceaux-dominent-la-rdc/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/actualites/u20-le-senegal-prend-le-dessus-sur-la-rdc-avant-lufoa-a/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 2 times by Fédération Sénégalaise de Football, U20."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Fédération Sénégalaise de Football, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Fédération Sénégalaise de Football, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fsfoot.sn/actualites/match-amical-les-lionceaux-dominent-la-rdc/",
+      "https://fsfoot.sn/actualites/u20-le-senegal-prend-le-dessus-sur-la-rdc-avant-lufoa-a/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Produzione documentata: 1 gol in 1 presenze",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt"
+    ],
+    "cautions": [],
+    "next_steps": [
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (19 yo)",
+     "Documented output: 1 goals in 1 appearances",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt"
+    ],
+    "cautions_en": [],
+    "next_steps_en": [
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "id": 217,
    "name": "Mouhamed Wagne",
    "age": 17,
@@ -5650,130 +5799,6 @@
     "cautions_en": [
      "Last call-up 20 months ago (February 2025): the run has stopped — worth finding out why"
     ],
-    "next_steps_en": [
-     "Request video or schedule a live viewing",
-     "Call the club: confirm identity and contract status"
-    ]
-   }
-  },
-  {
-   "id": 611,
-   "name": "Alassane Gueye",
-   "age": 19,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Alassane Guèye, 19 anni, Teungueth FC",
-     "url": "https://www.transfermarkt.us/alassane-gueye/profil/spieler/1496256"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Alassane Guèye, 19 anni, Teungueth FC",
-     "url": "https://www.transfermarkt.us/alassane-gueye/profil/spieler/1496256"
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Alassane Guèye, 19 anni, Teungueth FC",
-     "url": "https://www.transfermarkt.us/alassane-gueye/profil/spieler/1496256"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Left Winger",
-   "club": "Teungueth FC",
-   "league": null,
-   "region": "Senegal",
-   "gender": "male",
-   "score": 15,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 4.5,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fsfoot.sn",
-     "url": "https://fsfoot.sn/actualites/u20-le-senegal-prend-le-dessus-sur-la-rdc-avant-lufoa-a/",
-     "seen": "2026-10-03T11:55:55.082667"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/alassane-gueye/profil/spieler/1496256",
-     "seen": "2026-10-03T11:55:55.082667"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 1,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_dichiarato",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-10-03T11:55:55.082667",
-   "last_seen": "2026-10-03T11:55:55.082667",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Fédération Sénégalaise de Football",
-      "url": "https://fsfoot.sn/actualites/u20-le-senegal-prend-le-dessus-sur-la-rdc-avant-lufoa-a/"
-     }
-    ],
-    "fonte": "Fédération Sénégalaise de Football",
-    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U20."
-   },
-   "anomalie": [],
-   "publishable": true,
-   "assessment": {
-    "pros": [
-     "Giovane (19 anni)",
-     "Produzione documentata: 1 gol in 1 presenze",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Transfermarkt"
-    ],
-    "cautions": [],
-    "next_steps": [
-     "Richiedere video o programmare una visione diretta",
-     "Telefonata al club: conferma anagrafica e status contrattuale"
-    ],
-    "pros_en": [
-     "Young (19 yo)",
-     "Documented output: 1 goals in 1 appearances",
-     "Minor context: potentially underpriced",
-     "Name and club stated by Transfermarkt"
-    ],
-    "cautions_en": [],
     "next_steps_en": [
      "Request video or schedule a live viewing",
      "Call the club: confirm identity and contract status"
@@ -15426,7 +15451,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 51
+    "detection_count": 52
    },
    "n_sources": 4,
    "sources": [
@@ -15471,7 +15496,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 51 rilevamenti"
+     "Segnale persistente: 52 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -15482,7 +15507,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 51 detections"
+     "Persistent signal: 52 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -15647,7 +15672,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 60
+    "detection_count": 61
    },
    "n_sources": 4,
    "sources": [
@@ -15692,7 +15717,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 60 rilevamenti"
+     "Segnale persistente: 61 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15707,7 +15732,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 60 detections"
+     "Persistent signal: 61 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -15875,7 +15900,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 64
+    "detection_count": 65
    },
    "n_sources": 3,
    "sources": [
@@ -15915,7 +15940,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 64 rilevamenti"
+     "Segnale persistente: 65 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15930,7 +15955,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 64 detections"
+     "Persistent signal: 65 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18034,7 +18059,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 57
+    "detection_count": 58
    },
    "n_sources": 3,
    "sources": [
@@ -18074,7 +18099,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 57 rilevamenti"
+     "Segnale persistente: 58 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18089,7 +18114,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 57 detections"
+     "Persistent signal: 58 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18693,7 +18718,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 55
+    "detection_count": 56
    },
    "n_sources": 2,
    "sources": [
@@ -18728,7 +18753,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 55 rilevamenti"
+     "Segnale persistente: 56 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18743,7 +18768,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 55 detections"
+     "Persistent signal: 56 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18805,7 +18830,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 52
+    "detection_count": 53
    },
    "n_sources": 2,
    "sources": [
@@ -18840,7 +18865,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 52 rilevamenti"
+     "Segnale persistente: 53 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -18853,7 +18878,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 52 detections"
+     "Persistent signal: 53 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21615,7 +21640,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 56
+    "detection_count": 57
    },
    "n_sources": 3,
    "sources": [
@@ -21655,7 +21680,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 56 rilevamenti"
+     "Segnale persistente: 57 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -21670,7 +21695,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 56 detections"
+     "Persistent signal: 57 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -21966,7 +21991,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 55
+    "detection_count": 56
    },
    "n_sources": 2,
    "sources": [
@@ -22001,7 +22026,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 55 rilevamenti"
+     "Segnale persistente: 56 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22014,7 +22039,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 55 detections"
+     "Persistent signal: 56 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23259,7 +23284,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 67
+    "detection_count": 68
    },
    "n_sources": 3,
    "sources": [
@@ -23298,7 +23323,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 67 rilevamenti"
+     "Segnale persistente: 68 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23310,7 +23335,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 67 detections"
+     "Persistent signal: 68 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -39817,6 +39842,157 @@
    }
   },
   {
+   "id": 612,
+   "name": "Adama Sagne",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Fédération Sénégalaise de Football",
+     "tipo": "federation",
+     "citazione": "Adama Sagne, à la 63e minute, a inscrit le deuxième but sénégalais.",
+     "url": "https://fsfoot.sn/actualites/u20-le-senegal-prend-le-dessus-sur-la-rdc-avant-lufoa-a/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 11,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.5,
+    "asymmetry": 0.0,
+    "selection": 14.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/actualites/u20-le-senegal-prend-le-dessus-sur-la-rdc-avant-lufoa-a/",
+     "seen": "2026-10-03T11:55:55.082667"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-03T11:55:55.082667",
+   "last_seen": "2026-10-05T15:10:26.247557",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Fédération Sénégalaise de Football, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/actualites/match-amical-les-lionceaux-dominent-la-rdc/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/actualites/u20-le-senegal-prend-le-dessus-sur-la-rdc-avant-lufoa-a/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 2 times by Fédération Sénégalaise de Football, U20."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Fédération Sénégalaise de Football, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Fédération Sénégalaise de Football, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fsfoot.sn/actualites/match-amical-les-lionceaux-dominent-la-rdc/",
+      "https://fsfoot.sn/actualites/u20-le-senegal-prend-le-dessus-sur-la-rdc-avant-lufoa-a/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol in 1 presenze"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals in 1 appearances"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "id": 272,
    "name": "Pietra Lucci",
    "age": null,
@@ -51107,6 +51283,113 @@
    }
   },
   {
+   "id": 615,
+   "name": "Anushka Kumari",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Khel Now Football",
+     "tipo": "national_press",
+     "citazione": "Anushka Kumari, Silky Devi Sorokhaibam, Thandamoni Baskey and Nira Chanu Longjam were India’s scorers in the first half, while Anushka Kumari added two more in the second and was adjudged as the Playe",
+     "url": "https://khelnow.com/football/indian-football-afc-u-17-womens-asian-cup-qualifiers-india-vs-iraq-match-report"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "India",
+   "gender": "female",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 12.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "khelnow.com",
+     "url": "https://khelnow.com/football/indian-football-afc-u-17-womens-asian-cup-qualifiers-india-vs-iraq-match-report",
+     "seen": "2026-10-05T15:10:26.247557"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 3,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-05T15:10:26.247557",
+   "last_seen": "2026-10-05T15:10:26.247557",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 3 gol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 3 goals"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "id": 125,
    "name": "Maureen Kenneth",
    "age": null,
@@ -51982,133 +52265,6 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 612,
-   "name": "Adama Sagne",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Fédération Sénégalaise de Football",
-     "tipo": "federation",
-     "citazione": "Adama Sagne, à la 63e minute, a inscrit le deuxième but sénégalais.",
-     "url": "https://fsfoot.sn/actualites/u20-le-senegal-prend-le-dessus-sur-la-rdc-avant-lufoa-a/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Senegal",
-   "gender": "male",
-   "score": 7,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 4.5,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fsfoot.sn",
-     "url": "https://fsfoot.sn/actualites/u20-le-senegal-prend-le-dessus-sur-la-rdc-avant-lufoa-a/",
-     "seen": "2026-10-03T11:55:55.082667"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 1,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-10-03T11:55:55.082667",
-   "last_seen": "2026-10-03T11:55:55.082667",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Fédération Sénégalaise de Football",
-      "url": "https://fsfoot.sn/actualites/u20-le-senegal-prend-le-dessus-sur-la-rdc-avant-lufoa-a/"
-     }
-    ],
-    "fonte": "Fédération Sénégalaise de Football",
-    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U20."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol in 1 presenze"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals in 1 appearances"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
@@ -57709,6 +57865,363 @@
    }
   },
   {
+   "id": 619,
+   "name": "Abhista Basnett",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Khel Now Football",
+     "tipo": "national_press",
+     "citazione": "Skipper and centre-back Abhista Basnett headed home two goals",
+     "url": "https://khelnow.com/football/indian-football-afc-u-17-womens-asian-cup-qualifiers-india-vs-iraq-match-report"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "centre-back",
+   "club": null,
+   "league": null,
+   "region": "India",
+   "gender": "female",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 8.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "khelnow.com",
+     "url": "https://khelnow.com/football/indian-football-afc-u-17-womens-asian-cup-qualifiers-india-vs-iraq-match-report",
+     "seen": "2026-10-05T15:10:26.247557"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 2,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-05T15:10:26.247557",
+   "last_seen": "2026-10-05T15:10:26.247557",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 2 gol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 2 goals"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 621,
+   "name": "Moussa Gueye",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Fédération Sénégalaise de Football",
+     "tipo": "federation",
+     "citazione": "Moussa Gueye a doublé la mise à la suite d’une passe d’Ahmadou Bamba Faye",
+     "url": "https://fsfoot.sn/actualites/match-amical-les-lionceaux-dominent-la-rdc/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/actualites/match-amical-les-lionceaux-dominent-la-rdc/",
+     "seen": "2026-10-05T15:10:26.247557"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-05T15:10:26.247557",
+   "last_seen": "2026-10-05T15:10:26.247557",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Fédération Sénégalaise de Football.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/actualites/match-amical-les-lionceaux-dominent-la-rdc/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 622,
+   "name": "Ahmadou Bamba Faye",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 2.5,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/actualites/match-amical-les-lionceaux-dominent-la-rdc/",
+     "seen": "2026-10-05T15:10:26.247557"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 1,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-05T15:10:26.247557",
+   "last_seen": "2026-10-05T15:10:26.247557",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Fédération Sénégalaise de Football.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/actualites/match-amical-les-lionceaux-dominent-la-rdc/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 assist"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 assists"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "id": 129,
    "name": "Juana Flores",
    "age": null,
@@ -62743,6 +63256,434 @@
      "Single source: not yet corroborated",
      "No documented performance stats",
      "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 616,
+   "name": "Silky Devi Sorokhaibam",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Khel Now Football",
+     "tipo": "national_press",
+     "citazione": "Anushka Kumari, Silky Devi Sorokhaibam, Thandamoni Baskey and Nira Chanu Longjam were India’s scorers in the first half",
+     "url": "https://khelnow.com/football/indian-football-afc-u-17-womens-asian-cup-qualifiers-india-vs-iraq-match-report"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "India",
+   "gender": "female",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "khelnow.com",
+     "url": "https://khelnow.com/football/indian-football-afc-u-17-womens-asian-cup-qualifiers-india-vs-iraq-match-report",
+     "seen": "2026-10-05T15:10:26.247557"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-05T15:10:26.247557",
+   "last_seen": "2026-10-05T15:10:26.247557",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 617,
+   "name": "Thandamoni Baskey",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Khel Now Football",
+     "tipo": "national_press",
+     "citazione": "Anushka Kumari, Silky Devi Sorokhaibam, Thandamoni Baskey and Nira Chanu Longjam were India’s scorers in the first half",
+     "url": "https://khelnow.com/football/indian-football-afc-u-17-womens-asian-cup-qualifiers-india-vs-iraq-match-report"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "India",
+   "gender": "female",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "khelnow.com",
+     "url": "https://khelnow.com/football/indian-football-afc-u-17-womens-asian-cup-qualifiers-india-vs-iraq-match-report",
+     "seen": "2026-10-05T15:10:26.247557"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-05T15:10:26.247557",
+   "last_seen": "2026-10-05T15:10:26.247557",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 618,
+   "name": "Nira Chanu Longjam",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Khel Now Football",
+     "tipo": "national_press",
+     "citazione": "Anushka Kumari, Silky Devi Sorokhaibam, Thandamoni Baskey and Nira Chanu Longjam were India’s scorers in the first half",
+     "url": "https://khelnow.com/football/indian-football-afc-u-17-womens-asian-cup-qualifiers-india-vs-iraq-match-report"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "India",
+   "gender": "female",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "khelnow.com",
+     "url": "https://khelnow.com/football/indian-football-afc-u-17-womens-asian-cup-qualifiers-india-vs-iraq-match-report",
+     "seen": "2026-10-05T15:10:26.247557"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-05T15:10:26.247557",
+   "last_seen": "2026-10-05T15:10:26.247557",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 620,
+   "name": "Alva Devi Senjam",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Khel Now Football",
+     "tipo": "national_press",
+     "citazione": "while Joya and Alva Devi Senjam completed the record tally",
+     "url": "https://khelnow.com/football/indian-football-afc-u-17-womens-asian-cup-qualifiers-india-vs-iraq-match-report"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "India",
+   "gender": "female",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "khelnow.com",
+     "url": "https://khelnow.com/football/indian-football-afc-u-17-womens-asian-cup-qualifiers-india-vs-iraq-match-report",
+     "seen": "2026-10-05T15:10:26.247557"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-05T15:10:26.247557",
+   "last_seen": "2026-10-05T15:10:26.247557",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
     ],
     "next_steps_en": [
      "Verify the current club",
