@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-07T14:16:36.143234+00:00",
+ "generated_at": "2026-10-07T23:44:22.582697+00:00",
  "version": "1.0.0",
- "build": "5724a0b",
+ "build": "80dbe09",
  "total": 635,
- "publishable": 118,
- "tracking": 517,
+ "publishable": 119,
+ "tracking": 516,
  "shown": 635,
  "tracking_capped": 0,
  "outcomes": {
@@ -10664,6 +10664,111 @@
    }
   },
   {
+   "id": 635,
+   "name": "Arthur Dias",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Arthur dos Santos Barbosa Dias, 19 anni, Club Athletico Paranaense",
+     "url": "https://www.transfermarkt.us/arthur-dias/profil/spieler/1233473"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Arthur dos Santos Barbosa Dias, 19 anni, Club Athletico Paranaense",
+     "url": "https://www.transfermarkt.us/arthur-dias/profil/spieler/1233473"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Arthur dos Santos Barbosa Dias, 19 anni, Club Athletico Paranaense",
+     "url": "https://www.transfermarkt.us/arthur-dias/profil/spieler/1233473"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Zagueiro",
+   "club": "Athletico",
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 9,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "trivela.com.br",
+     "url": "https://trivela.com.br/espanha/la-liga/alem-nome-selecao-barcelona-tambem-mira-zagueiro-brasileiro-premier-league/",
+     "seen": "2026-10-07T13:45:30.900996"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/arthur-dias/profil/spieler/1233473",
+     "seen": "2026-10-07T23:15:35.537249"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-10-07T13:45:30.900996",
+   "last_seen": "2026-10-07T23:15:35.537249",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (19 yo)",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "id": 70,
    "name": "Santino Barbi",
    "age": 21,
@@ -15159,7 +15264,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 3,
-    "detection_count": 3
+    "detection_count": 4
    },
    "n_sources": 3,
    "sources": [
@@ -15190,7 +15295,7 @@
    "review_flags": "eta_dedotto,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-10-01T06:24:11.557538",
-   "last_seen": "2026-10-01T06:24:11.557538",
+   "last_seen": "2026-10-07T23:15:35.537249",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (giugno 2026).",
@@ -15567,7 +15672,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 57
+    "detection_count": 59
    },
    "n_sources": 4,
    "sources": [
@@ -15612,7 +15717,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 57 rilevamenti"
+     "Segnale persistente: 59 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -15623,7 +15728,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 57 detections"
+     "Persistent signal: 59 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -15788,7 +15893,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 66
+    "detection_count": 68
    },
    "n_sources": 4,
    "sources": [
@@ -15833,7 +15938,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 66 rilevamenti"
+     "Segnale persistente: 68 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15848,7 +15953,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 66 detections"
+     "Persistent signal: 68 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16016,7 +16121,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 70
+    "detection_count": 72
    },
    "n_sources": 3,
    "sources": [
@@ -16056,7 +16161,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 70 rilevamenti"
+     "Segnale persistente: 72 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16071,7 +16176,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 70 detections"
+     "Persistent signal: 72 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18175,7 +18280,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 62
+    "detection_count": 63
    },
    "n_sources": 3,
    "sources": [
@@ -18215,7 +18320,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 62 rilevamenti"
+     "Segnale persistente: 63 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18230,7 +18335,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 62 detections"
+     "Persistent signal: 63 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18834,7 +18939,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 61
+    "detection_count": 62
    },
    "n_sources": 2,
    "sources": [
@@ -18869,7 +18974,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 61 rilevamenti"
+     "Segnale persistente: 62 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18884,7 +18989,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 61 detections"
+     "Persistent signal: 62 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18946,7 +19051,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 58
+    "detection_count": 59
    },
    "n_sources": 2,
    "sources": [
@@ -18981,7 +19086,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 58 rilevamenti"
+     "Segnale persistente: 59 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -18994,7 +19099,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 58 detections"
+     "Persistent signal: 59 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21638,7 +21743,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 61
+    "detection_count": 62
    },
    "n_sources": 4,
    "sources": [
@@ -21683,7 +21788,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 61 rilevamenti"
+     "Segnale persistente: 62 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21696,7 +21801,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 61 detections"
+     "Persistent signal: 62 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21756,7 +21861,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 62
+    "detection_count": 63
    },
    "n_sources": 3,
    "sources": [
@@ -21796,7 +21901,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 62 rilevamenti"
+     "Segnale persistente: 63 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -21811,7 +21916,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 62 detections"
+     "Persistent signal: 63 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22107,7 +22212,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 61
+    "detection_count": 62
    },
    "n_sources": 2,
    "sources": [
@@ -22142,7 +22247,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 61 rilevamenti"
+     "Segnale persistente: 62 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22155,7 +22260,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 61 detections"
+     "Persistent signal: 62 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23511,7 +23616,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 72
+    "detection_count": 73
    },
    "n_sources": 3,
    "sources": [
@@ -23550,7 +23655,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 72 rilevamenti"
+     "Segnale persistente: 73 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23562,7 +23667,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 72 detections"
+     "Persistent signal: 73 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25842,108 +25947,6 @@
      "No documented performance stats"
     ],
     "next_steps_en": [
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 635,
-   "name": "Arthur Dias",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 19 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Zagueiro",
-   "club": "Athletico",
-   "league": null,
-   "region": "Brazil",
-   "gender": "male",
-   "score": 7,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "trivela.com.br",
-     "url": "https://trivela.com.br/espanha/la-liga/alem-nome-selecao-barcelona-tambem-mira-zagueiro-brasileiro-premier-league/",
-     "seen": "2026-10-07T13:45:30.900996"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": true,
-   "review_flags": "fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-10-07T13:45:30.900996",
-   "last_seen": "2026-10-07T13:45:30.900996",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
    }
@@ -28885,7 +28888,7 @@
     "asymmetry": 8.0,
     "selection": 24.0,
     "n_sources": 2,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 2,
    "sources": [
@@ -28911,7 +28914,7 @@
    "review_flags": "eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-21T05:18:51.145487",
-   "last_seen": "2026-10-01T06:24:11.557538",
+   "last_seen": "2026-10-07T23:15:35.537249",
    "selezione": {
     "quante": 9,
     "frase": "Convocato 9 volte da South African Football Association, Sub-20.",
