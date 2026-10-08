@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-08T07:04:47.172629+00:00",
+ "generated_at": "2026-10-08T19:30:32.521922+00:00",
  "version": "1.0.0",
- "build": "5eb48a1",
+ "build": "c5c4b1b",
  "total": 635,
  "publishable": 119,
  "tracking": 516,
@@ -15672,7 +15672,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 60
+    "detection_count": 61
    },
    "n_sources": 4,
    "sources": [
@@ -15717,7 +15717,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 60 rilevamenti"
+     "Segnale persistente: 61 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -15728,7 +15728,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 60 detections"
+     "Persistent signal: 61 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -15893,7 +15893,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 69
+    "detection_count": 70
    },
    "n_sources": 4,
    "sources": [
@@ -15938,7 +15938,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 69 rilevamenti"
+     "Segnale persistente: 70 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15953,7 +15953,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 69 detections"
+     "Persistent signal: 70 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16121,7 +16121,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 73
+    "detection_count": 74
    },
    "n_sources": 3,
    "sources": [
@@ -16161,7 +16161,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 73 rilevamenti"
+     "Segnale persistente: 74 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16176,7 +16176,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 73 detections"
+     "Persistent signal: 74 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16520,7 +16520,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 3,
    "sources": [
@@ -16551,7 +16551,7 @@
    "review_flags": "eta_assente,club_assente,club_e_una_descrizione_non_un_nome",
    "coverage_tier": "standard",
    "first_detected": "2026-06-01T04:04:27.385838",
-   "last_seen": "2026-09-26T05:19:46.483477",
+   "last_seen": "2026-10-08T18:58:07.616964",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -16559,7 +16559,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -16573,7 +16573,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -16926,6 +16926,114 @@
      "The club appears in no source: re-verify before relying on it"
     ],
     "next_steps_en": []
+   }
+  },
+  {
+   "id": 518,
+   "name": "Nguyễn Trần Trọng Hiệp",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "Lê Hoàng Gia Bảo, Nguyễn Phúc Gia Huy, Vương Đình Minh Quang, Phạm Tuấn Kiệt, Đặng Cao Duy, Nguyễn Trần Trọng Hiệp, Hoàng Trung Anh và Nguyễn Xuân Thành",
+     "url": "https://pvf.com.vn/pvf-dong-gop-9-thanh-vien-cho-u16-viet-nam-trong-dot-hoi-quan-thang-9-2026/#respond"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Trong Phong Nguyen, 17 anni, PVF Football Academy",
+     "url": "https://www.transfermarkt.com/trong-phong-nguyen/profil/spieler/1415710"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Midfield",
+   "club": "PVF",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 21,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 5
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/pvf-dong-gop-9-thanh-vien-cho-u16-viet-nam-trong-dot-hoi-quan-thang-9-2026/#respond",
+     "seen": "2026-09-17T17:12:41.594570"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/trong-phong-nguyen/profil/spieler/1415710",
+     "seen": "2026-09-23T17:23:12.775965"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/anh-hiep-nguyen-698838",
+     "seen": "2026-10-08T18:58:07.616964"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-17T17:12:41.594570",
+   "last_seen": "2026-10-08T18:58:07.616964",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "3 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "3 distinct domains mention him",
+     "Persistent signal: 5 detections"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
    }
   },
   {
@@ -18280,7 +18388,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 64
+    "detection_count": 65
    },
    "n_sources": 3,
    "sources": [
@@ -18320,7 +18428,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 64 rilevamenti"
+     "Segnale persistente: 65 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18335,7 +18443,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 64 detections"
+     "Persistent signal: 65 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18939,7 +19047,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 63
+    "detection_count": 64
    },
    "n_sources": 2,
    "sources": [
@@ -18974,7 +19082,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 63 rilevamenti"
+     "Segnale persistente: 64 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18989,7 +19097,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 63 detections"
+     "Persistent signal: 64 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19051,7 +19159,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 60
+    "detection_count": 61
    },
    "n_sources": 2,
    "sources": [
@@ -19086,7 +19194,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 60 rilevamenti"
+     "Segnale persistente: 61 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -19099,7 +19207,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 60 detections"
+     "Persistent signal: 61 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21493,107 +21601,6 @@
    }
   },
   {
-   "id": 518,
-   "name": "Nguyễn Trần Trọng Hiệp",
-   "age": 17,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "PVF Football Academy",
-     "tipo": "academy",
-     "citazione": "Lê Hoàng Gia Bảo, Nguyễn Phúc Gia Huy, Vương Đình Minh Quang, Phạm Tuấn Kiệt, Đặng Cao Duy, Nguyễn Trần Trọng Hiệp, Hoàng Trung Anh và Nguyễn Xuân Thành",
-     "url": "https://pvf.com.vn/pvf-dong-gop-9-thanh-vien-cho-u16-viet-nam-trong-dot-hoi-quan-thang-9-2026/#respond"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Trong Phong Nguyen, 17 anni, PVF Football Academy",
-     "url": "https://www.transfermarkt.com/trong-phong-nguyen/profil/spieler/1415710"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Midfield",
-   "club": "PVF",
-   "league": null,
-   "region": "Vietnam",
-   "gender": "male",
-   "score": 17,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 4
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "pvf.com.vn",
-     "url": "https://pvf.com.vn/pvf-dong-gop-9-thanh-vien-cho-u16-viet-nam-trong-dot-hoi-quan-thang-9-2026/#respond",
-     "seen": "2026-09-17T17:12:41.594570"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/trong-phong-nguyen/profil/spieler/1415710",
-     "seen": "2026-09-23T17:23:12.775965"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {},
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-17T17:12:41.594570",
-   "last_seen": "2026-09-24T12:05:44.306392",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Very young (17 yo): plenty of room to develop",
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 565,
    "name": "Nguyễn Văn Dương",
    "age": 16,
@@ -21743,7 +21750,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 63
+    "detection_count": 64
    },
    "n_sources": 4,
    "sources": [
@@ -21788,7 +21795,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 63 rilevamenti"
+     "Segnale persistente: 64 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21801,7 +21808,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 63 detections"
+     "Persistent signal: 64 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21861,7 +21868,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 64
+    "detection_count": 65
    },
    "n_sources": 3,
    "sources": [
@@ -21901,7 +21908,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 64 rilevamenti"
+     "Segnale persistente: 65 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -21916,7 +21923,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 64 detections"
+     "Persistent signal: 65 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22212,7 +22219,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 63
+    "detection_count": 64
    },
    "n_sources": 2,
    "sources": [
@@ -22247,7 +22254,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 63 rilevamenti"
+     "Segnale persistente: 64 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22260,7 +22267,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 63 detections"
+     "Persistent signal: 64 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23611,7 +23618,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 74
+    "detection_count": 75
    },
    "n_sources": 3,
    "sources": [
@@ -23650,7 +23657,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 74 rilevamenti"
+     "Segnale persistente: 75 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23662,7 +23669,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 74 detections"
+     "Persistent signal: 75 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23722,7 +23729,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 74
+    "detection_count": 75
    },
    "n_sources": 3,
    "sources": [
@@ -23761,7 +23768,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 74 rilevamenti"
+     "Segnale persistente: 75 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23773,7 +23780,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 74 detections"
+     "Persistent signal: 75 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -29431,7 +29438,7 @@
     "asymmetry": 8.0,
     "selection": 19.0,
     "n_sources": 3,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 3,
    "sources": [
@@ -29462,7 +29469,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-13T16:34:39.358956",
-   "last_seen": "2026-10-01T13:46:38.571574",
+   "last_seen": "2026-10-08T18:58:07.616964",
    "selezione": {
     "quante": 3,
     "frase": "Convocato 3 volte da Nigeria Football Federation, Sub-20.",
@@ -29763,7 +29770,7 @@
     "asymmetry": 8.0,
     "selection": 14.0,
     "n_sources": 3,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 3,
    "sources": [
@@ -29794,7 +29801,7 @@
    "review_flags": "club_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-13T16:34:39.358956",
-   "last_seen": "2026-10-01T13:46:38.571574",
+   "last_seen": "2026-10-08T18:58:07.616964",
    "selezione": {
     "quante": 2,
     "frase": "Convocato 2 volte da Nigeria Football Federation, Sub-20.",
@@ -32496,7 +32503,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 3,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 3,
    "sources": [
@@ -32527,7 +32534,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-13T16:34:39.358956",
-   "last_seen": "2026-10-01T13:46:38.571574",
+   "last_seen": "2026-10-08T18:58:07.616964",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
@@ -32556,7 +32563,7 @@
      "Produzione documentata: 1 gol",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -32571,7 +32578,7 @@
      "Documented output: 1 goals",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -36764,6 +36771,138 @@
    }
   },
   {
+   "id": 479,
+   "name": "Amber Ogbolu",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "introducing Amber Ogbolu, Victory Lucky and B",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": "2026 FIFA U-20 Women's World Cup",
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 13,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
+     "seen": "2026-09-13T16:34:39.358956"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/ogbolu-amber/I7sD5Sdd/",
+     "seen": "2026-10-01T22:50:50.386863"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-13T16:34:39.358956",
+   "last_seen": "2026-10-08T18:58:07.616964",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 481,
    "name": "Victory Lucky",
    "age": null,
@@ -40602,138 +40741,6 @@
      "Age not confirmed"
     ],
     "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 479,
-   "name": "Amber Ogbolu",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "introducing Amber Ogbolu, Victory Lucky and B",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": "2026 FIFA U-20 Women's World Cup",
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 11,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
-     "seen": "2026-09-13T16:34:39.358956"
-    },
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/ogbolu-amber/I7sD5Sdd/",
-     "seen": "2026-10-01T22:50:50.386863"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-13T16:34:39.358956",
-   "last_seen": "2026-10-01T22:50:50.386863",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
      "Confirm the birth year with the club",
      "Get performance stats (match reports)"
     ]
