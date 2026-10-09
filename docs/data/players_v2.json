@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-08T19:30:32.521922+00:00",
+ "generated_at": "2026-10-09T06:59:54.733641+00:00",
  "version": "1.0.0",
- "build": "c5c4b1b",
- "total": 635,
+ "build": "4309320",
+ "total": 638,
  "publishable": 119,
- "tracking": 516,
- "shown": 635,
+ "tracking": 519,
+ "shown": 638,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 2,
@@ -14887,6 +14887,118 @@
    }
   },
   {
+   "id": 415,
+   "name": "Jemmanuel Siwoine",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "a double from striker Jemmanuel Siwoine",
+     "url": "https://www.oceaniafootball.com/new-caledonia-join-solomon-islands-in-semi-finals/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Jemmanuel Siwoine, 17 anni, Unknown",
+     "url": "https://www.transfermarkt.us/jemmanuel-siwoine/profil/spieler/1291092"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "striker",
+   "club": "New Caledonia (national youth team)",
+   "league": "OFC U-19 Men's Championship",
+   "region": "Pacific Islands",
+   "gender": "male",
+   "score": 31,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 8.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 4,
+    "detection_count": 4
+   },
+   "n_sources": 4,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/new-caledonia-join-solomon-islands-in-semi-finals/",
+     "seen": "2026-09-07T05:05:59.266107"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/jemmanuel-siwoine/profil/spieler/1291092",
+     "seen": "2026-09-07T12:56:51.184114"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/matches/siwoine-j-3866413",
+     "seen": "2026-09-26T16:38:10.776124"
+    },
+    {
+     "domain": "au.soccerway.com",
+     "url": "https://au.soccerway.com/player/siwoine-jemmanuel/QTpnuq1c/injury-history/",
+     "seen": "2026-10-09T06:32:56.093208"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {
+    "goals": 2,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-07T05:05:59.266107",
+   "last_seen": "2026-10-09T06:32:56.093208",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Produzione documentata: 2 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "4 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo"
+    ],
+    "next_steps": [],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Documented output: 2 goals",
+     "Minor context: potentially underpriced",
+     "4 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it"
+    ],
+    "next_steps_en": []
+   }
+  },
+  {
    "id": 490,
    "name": "Natalie Collins",
    "age": null,
@@ -15517,113 +15629,6 @@
    }
   },
   {
-   "id": 415,
-   "name": "Jemmanuel Siwoine",
-   "age": 17,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "a double from striker Jemmanuel Siwoine",
-     "url": "https://www.oceaniafootball.com/new-caledonia-join-solomon-islands-in-semi-finals/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Jemmanuel Siwoine, 17 anni, Unknown",
-     "url": "https://www.transfermarkt.us/jemmanuel-siwoine/profil/spieler/1291092"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "striker",
-   "club": "New Caledonia (national youth team)",
-   "league": "OFC U-19 Men's Championship",
-   "region": "Pacific Islands",
-   "gender": "male",
-   "score": 28,
-   "confidence": 0.91,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 8.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 3
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/new-caledonia-join-solomon-islands-in-semi-finals/",
-     "seen": "2026-09-07T05:05:59.266107"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/jemmanuel-siwoine/profil/spieler/1291092",
-     "seen": "2026-09-07T12:56:51.184114"
-    },
-    {
-     "domain": "besoccer.com",
-     "url": "https://www.besoccer.com/player/matches/siwoine-j-3866413",
-     "seen": "2026-09-26T16:38:10.776124"
-    }
-   ],
-   "n_sources_registro": 3,
-   "stats": {
-    "goals": 2,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-07T05:05:59.266107",
-   "last_seen": "2026-09-26T16:38:10.776124",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Produzione documentata: 2 gol",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo"
-    ],
-    "next_steps": [],
-    "pros_en": [
-     "Very young (17 yo): plenty of room to develop",
-     "Documented output: 2 goals",
-     "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it"
-    ],
-    "next_steps_en": []
-   }
-  },
-  {
    "id": 31,
    "name": "Yan Diomande",
    "age": 19,
@@ -15672,7 +15677,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 61
+    "detection_count": 62
    },
    "n_sources": 4,
    "sources": [
@@ -15717,7 +15722,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 61 rilevamenti"
+     "Segnale persistente: 62 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -15728,7 +15733,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 61 detections"
+     "Persistent signal: 62 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -15893,7 +15898,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 70
+    "detection_count": 71
    },
    "n_sources": 4,
    "sources": [
@@ -15938,7 +15943,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 70 rilevamenti"
+     "Segnale persistente: 71 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15953,7 +15958,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 70 detections"
+     "Persistent signal: 71 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16121,7 +16126,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 74
+    "detection_count": 75
    },
    "n_sources": 3,
    "sources": [
@@ -16161,7 +16166,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 74 rilevamenti"
+     "Segnale persistente: 75 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16176,7 +16181,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 74 detections"
+     "Persistent signal: 75 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18270,7 +18275,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 4,
    "sources": [
@@ -18306,7 +18311,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-03-07T08:58:35.986874",
-   "last_seen": "2026-10-02T06:02:31.750362",
+   "last_seen": "2026-10-09T06:32:56.093208",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -18315,7 +18320,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -18328,7 +18333,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -18388,7 +18393,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 65
+    "detection_count": 66
    },
    "n_sources": 3,
    "sources": [
@@ -18428,7 +18433,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 65 rilevamenti"
+     "Segnale persistente: 66 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18443,7 +18448,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 65 detections"
+     "Persistent signal: 66 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19047,7 +19052,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 64
+    "detection_count": 65
    },
    "n_sources": 2,
    "sources": [
@@ -19082,7 +19087,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 64 rilevamenti"
+     "Segnale persistente: 65 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19097,7 +19102,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 64 detections"
+     "Persistent signal: 65 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19159,7 +19164,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 61
+    "detection_count": 62
    },
    "n_sources": 2,
    "sources": [
@@ -19194,7 +19199,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 61 rilevamenti"
+     "Segnale persistente: 62 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -19207,7 +19212,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 61 detections"
+     "Persistent signal: 62 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21750,7 +21755,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 64
+    "detection_count": 65
    },
    "n_sources": 4,
    "sources": [
@@ -21795,7 +21800,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 64 rilevamenti"
+     "Segnale persistente: 65 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21808,7 +21813,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 64 detections"
+     "Persistent signal: 65 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21868,7 +21873,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 65
+    "detection_count": 66
    },
    "n_sources": 3,
    "sources": [
@@ -21908,7 +21913,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 65 rilevamenti"
+     "Segnale persistente: 66 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -21923,7 +21928,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 65 detections"
+     "Persistent signal: 66 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22219,7 +22224,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 64
+    "detection_count": 65
    },
    "n_sources": 2,
    "sources": [
@@ -22254,7 +22259,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 64 rilevamenti"
+     "Segnale persistente: 65 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22267,7 +22272,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 64 detections"
+     "Persistent signal: 65 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23618,7 +23623,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 75
+    "detection_count": 76
    },
    "n_sources": 3,
    "sources": [
@@ -23657,7 +23662,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 75 rilevamenti"
+     "Segnale persistente: 76 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23669,7 +23674,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 75 detections"
+     "Persistent signal: 76 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23729,7 +23734,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 75
+    "detection_count": 76
    },
    "n_sources": 3,
    "sources": [
@@ -23768,7 +23773,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 75 rilevamenti"
+     "Segnale persistente: 76 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23780,7 +23785,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 75 detections"
+     "Persistent signal: 76 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -27952,7 +27957,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 4,
    "sources": [
@@ -27988,7 +27993,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-01T11:56:15.018093",
-   "last_seen": "2026-10-02T06:02:31.750362",
+   "last_seen": "2026-10-09T06:32:56.093208",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -32640,7 +32645,7 @@
     "asymmetry": 0.0,
     "selection": 22.0,
     "n_sources": 2,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 2,
    "sources": [
@@ -32666,7 +32671,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-21T22:08:09.181084",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T06:32:56.093208",
    "selezione": {
     "quante": 4,
     "frase": "Convocato 4 volte da South African Football Association.",
@@ -36951,7 +36956,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 2,
    "sources": [
@@ -36977,7 +36982,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-13T16:34:39.358956",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T06:32:56.093208",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
@@ -37004,7 +37009,8 @@
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
+     "2 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -37019,7 +37025,8 @@
     ],
     "pros_en": [
      "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
+     "2 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -41384,7 +41391,7 @@
     "asymmetry": 0.0,
     "selection": 4.0,
     "n_sources": 3,
-    "detection_count": 3
+    "detection_count": 4
    },
    "n_sources": 3,
    "sources": [
@@ -41415,7 +41422,7 @@
    "review_flags": "club_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-04T11:36:31.699164",
-   "last_seen": "2026-10-02T06:02:31.750362",
+   "last_seen": "2026-10-09T06:32:56.093208",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Ghana Football Association, Sub-20.",
@@ -43267,6 +43274,250 @@
       "categoria": "sub-17",
       "fonte": "Ghana Football Association",
       "url": "https://www.ghanafa.org/kgl-u17-colts-2026-prempeh-elite-academy-cruise-past-volta-as-eastern-region-thrash-ashanti-region"
+     }
+    ],
+    "fonte": "Ghana Football Association",
+    "frase_en": "Called up 1 times by Ghana Football Association, U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 636,
+   "name": "Yusif Sabits",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Ghana Football Association",
+     "tipo": "federation",
+     "citazione": "Yusif Sabits, who was later named the Most Valuable Player, scored the decisive goal in the final Group A fixture",
+     "url": "https://www.ghanafa.org/kgl-u17-colts-2026-prempeh-elite-academy-lead-as-championship-enters-semifinals"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Prempeh Elite Academy",
+   "league": "KGL Foundation Inter-Regional U17 Colts Championship",
+   "region": "Ghana",
+   "gender": "male",
+   "score": 10,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "ghanafa.org",
+     "url": "https://www.ghanafa.org/kgl-u17-colts-2026-prempeh-elite-academy-lead-as-championship-enters-semifinals",
+     "seen": "2026-10-09T06:32:56.093208"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-09T06:32:56.093208",
+   "last_seen": "2026-10-09T06:32:56.093208",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Ghana Football Association, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Ghana Football Association",
+      "url": "https://www.ghanafa.org/kgl-u17-colts-2026-prempeh-elite-academy-lead-as-championship-enters-semifinals"
+     }
+    ],
+    "fonte": "Ghana Football Association",
+    "frase_en": "Called up 1 times by Ghana Football Association, U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 637,
+   "name": "Adjei Kobby Emmanuel Obene",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Ghana Football Association",
+     "tipo": "federation",
+     "citazione": "Adjei Kobby Emmanuel Obene scored the only goal of the match in the 72nd minute",
+     "url": "https://www.ghanafa.org/kgl-u17-colts-2026-prempeh-elite-academy-lead-as-championship-enters-semifinals"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Northern Region",
+   "league": "KGL Foundation Inter-Regional U17 Colts Championship",
+   "region": "Ghana",
+   "gender": "male",
+   "score": 10,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "ghanafa.org",
+     "url": "https://www.ghanafa.org/kgl-u17-colts-2026-prempeh-elite-academy-lead-as-championship-enters-semifinals",
+     "seen": "2026-10-09T06:32:56.093208"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-09T06:32:56.093208",
+   "last_seen": "2026-10-09T06:32:56.093208",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Ghana Football Association, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Ghana Football Association",
+      "url": "https://www.ghanafa.org/kgl-u17-colts-2026-prempeh-elite-academy-lead-as-championship-enters-semifinals"
      }
     ],
     "fonte": "Ghana Football Association",
@@ -52867,6 +53118,128 @@
     ],
     "fonte": "Nigeria Football Federation",
     "frase_en": "Called up 1 times by Nigeria Football Federation."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 638,
+   "name": "Halifa Iddrisu",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Ghana Football Association",
+     "tipo": "federation",
+     "citazione": "Halifa Iddrisu was named the game’s MVP",
+     "url": "https://www.ghanafa.org/kgl-u17-colts-2026-prempeh-elite-academy-lead-as-championship-enters-semifinals"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Northern Region",
+   "league": "KGL Foundation Inter-Regional U17 Colts Championship",
+   "region": "Ghana",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "ghanafa.org",
+     "url": "https://www.ghanafa.org/kgl-u17-colts-2026-prempeh-elite-academy-lead-as-championship-enters-semifinals",
+     "seen": "2026-10-09T06:32:56.093208"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-09T06:32:56.093208",
+   "last_seen": "2026-10-09T06:32:56.093208",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Ghana Football Association, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Ghana Football Association",
+      "url": "https://www.ghanafa.org/kgl-u17-colts-2026-prempeh-elite-academy-lead-as-championship-enters-semifinals"
+     }
+    ],
+    "fonte": "Ghana Football Association",
+    "frase_en": "Called up 1 times by Ghana Football Association, U17."
    },
    "anomalie": [],
    "publishable": false,
@@ -64150,7 +64523,7 @@
     "asymmetry": 0.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 3
+    "detection_count": 4
    },
    "n_sources": 2,
    "sources": [
@@ -64171,7 +64544,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-21T22:08:09.181084",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T06:32:56.093208",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
