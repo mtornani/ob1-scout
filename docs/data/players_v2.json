@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-09T18:57:29.606833+00:00",
+ "generated_at": "2026-10-09T23:20:33.629426+00:00",
  "version": "1.0.0",
- "build": "7c20ff8",
- "total": 640,
+ "build": "6b3b390",
+ "total": 646,
  "publishable": 119,
- "tracking": 521,
- "shown": 640,
+ "tracking": 527,
+ "shown": 646,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 2,
@@ -14546,6 +14546,186 @@
    }
   },
   {
+   "id": 490,
+   "name": "Natalie Collins",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 19 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "19-year-old Natalie Collins scored a late equalizer just minutes after coming off the bench.",
+     "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Forward",
+   "club": "Philippine Women's National Football Team",
+   "league": "Asian Games",
+   "region": "Philippines",
+   "gender": "female",
+   "score": 43,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 24.0,
+    "n_sources": 3,
+    "detection_count": 10
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/",
+     "seen": "2026-09-14T13:13:27.808740"
+    },
+    {
+     "domain": "ng.soccerway.com",
+     "url": "https://ng.soccerway.com/player/collins-natalie/fw0Riy6N/injury-history/",
+     "seen": "2026-09-18T11:40:09.300963"
+    },
+    {
+     "domain": "uk.soccerway.com",
+     "url": "https://uk.soccerway.com/player/collins-natalie/fw0Riy6N/injury-history/",
+     "seen": "2026-10-09T22:50:41.270287"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-14T13:13:27.808740",
+   "last_seen": "2026-10-09T22:50:41.270287",
+   "selezione": {
+    "quante": 6,
+    "frase": "Convocato 6 volte da Philippine Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#breadcrumblist"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#listItem"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#organizationLogo"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#webpage"
+     }
+    ],
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 6 times by Philippine Football Federation."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "6 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "6 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/",
+      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting",
+      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#breadcrumblist",
+      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#listItem"
+     ],
+     "dati": {
+      "convocazioni": 6,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced",
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "id": 85,
    "name": "José Rafael Escor",
    "age": null,
@@ -14996,180 +15176,6 @@
      "The club appears in no source: re-verify before relying on it"
     ],
     "next_steps_en": []
-   }
-  },
-  {
-   "id": 490,
-   "name": "Natalie Collins",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 19 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Philippine Football Federation",
-     "tipo": "federation",
-     "citazione": "19-year-old Natalie Collins scored a late equalizer just minutes after coming off the bench.",
-     "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Forward",
-   "club": "Philippine Women's National Football Team",
-   "league": "Asian Games",
-   "region": "Philippines",
-   "gender": "female",
-   "score": 31,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 4.0,
-    "asymmetry": 8.0,
-    "selection": 24.0,
-    "n_sources": 2,
-    "detection_count": 9
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "pff.org.ph",
-     "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/",
-     "seen": "2026-09-14T13:13:27.808740"
-    },
-    {
-     "domain": "ng.soccerway.com",
-     "url": "https://ng.soccerway.com/player/collins-natalie/fw0Riy6N/injury-history/",
-     "seen": "2026-09-18T11:40:09.300963"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-14T13:13:27.808740",
-   "last_seen": "2026-09-27T05:36:31.644864",
-   "selezione": {
-    "quante": 6,
-    "frase": "Convocato 6 volte da Philippine Football Federation.",
-    "dal": "",
-    "al": "",
-    "categorie": [],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/"
-     },
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting"
-     },
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#breadcrumblist"
-     },
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#listItem"
-     },
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#organizationLogo"
-     },
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#webpage"
-     }
-    ],
-    "fonte": "Philippine Football Federation",
-    "frase_en": "Called up 6 times by Philippine Football Federation."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "6 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "6 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/",
-      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#blogposting",
-      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#breadcrumblist",
-      "https://pff.org.ph/filipinas-show-heart-snatch-draw-vs-uzbekistan-in-asian-games-opener/#listItem"
-     ],
-     "dati": {
-      "convocazioni": 6,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals",
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club"
-    ]
    }
   },
   {
@@ -15677,7 +15683,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 63
+    "detection_count": 64
    },
    "n_sources": 4,
    "sources": [
@@ -15722,7 +15728,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 63 rilevamenti"
+     "Segnale persistente: 64 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -15733,7 +15739,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 63 detections"
+     "Persistent signal: 64 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -15898,7 +15904,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 72
+    "detection_count": 73
    },
    "n_sources": 4,
    "sources": [
@@ -15943,7 +15949,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 72 rilevamenti"
+     "Segnale persistente: 73 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15958,7 +15964,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 72 detections"
+     "Persistent signal: 73 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16126,7 +16132,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 76
+    "detection_count": 77
    },
    "n_sources": 3,
    "sources": [
@@ -16166,7 +16172,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 76 rilevamenti"
+     "Segnale persistente: 77 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16181,7 +16187,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 76 detections"
+     "Persistent signal: 77 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18156,7 +18162,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 10
+    "detection_count": 11
    },
    "n_sources": 3,
    "sources": [
@@ -18187,7 +18193,7 @@
    "review_flags": "senza_fonte_primary,eta_assente,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-03-03T12:58:52.925498",
-   "last_seen": "2026-10-02T22:27:57.183169",
+   "last_seen": "2026-10-09T22:50:41.270287",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -18195,7 +18201,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 10 rilevamenti"
+     "Segnale persistente: 11 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18211,7 +18217,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 10 detections"
+     "Persistent signal: 11 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18393,7 +18399,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 68
+    "detection_count": 69
    },
    "n_sources": 3,
    "sources": [
@@ -18433,7 +18439,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 68 rilevamenti"
+     "Segnale persistente: 69 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18448,7 +18454,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 68 detections"
+     "Persistent signal: 69 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19052,7 +19058,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 66
+    "detection_count": 67
    },
    "n_sources": 2,
    "sources": [
@@ -19087,7 +19093,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 66 rilevamenti"
+     "Segnale persistente: 67 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19102,7 +19108,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 66 detections"
+     "Persistent signal: 67 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19164,7 +19170,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 63
+    "detection_count": 64
    },
    "n_sources": 2,
    "sources": [
@@ -19199,7 +19205,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 63 rilevamenti"
+     "Segnale persistente: 64 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -19212,7 +19218,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 63 detections"
+     "Persistent signal: 64 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21755,7 +21761,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 66
+    "detection_count": 67
    },
    "n_sources": 4,
    "sources": [
@@ -21800,7 +21806,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 66 rilevamenti"
+     "Segnale persistente: 67 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21813,7 +21819,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 66 detections"
+     "Persistent signal: 67 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21873,7 +21879,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 67
+    "detection_count": 68
    },
    "n_sources": 3,
    "sources": [
@@ -21913,7 +21919,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 67 rilevamenti"
+     "Segnale persistente: 68 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -21928,7 +21934,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 67 detections"
+     "Persistent signal: 68 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22224,7 +22230,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 66
+    "detection_count": 67
    },
    "n_sources": 2,
    "sources": [
@@ -22259,7 +22265,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 66 rilevamenti"
+     "Segnale persistente: 67 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22272,7 +22278,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 66 detections"
+     "Persistent signal: 67 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23623,7 +23629,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 78
+    "detection_count": 79
    },
    "n_sources": 3,
    "sources": [
@@ -23662,7 +23668,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 78 rilevamenti"
+     "Segnale persistente: 79 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23674,7 +23680,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 78 detections"
+     "Persistent signal: 79 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23734,7 +23740,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 77
+    "detection_count": 78
    },
    "n_sources": 3,
    "sources": [
@@ -23773,7 +23779,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 77 rilevamenti"
+     "Segnale persistente: 78 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23785,7 +23791,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 77 detections"
+     "Persistent signal: 78 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -60355,6 +60361,259 @@
    }
   },
   {
+   "id": 641,
+   "name": "Joy Igbokwe",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "Eguavoen handed a starting berth to immediate past U20 skipper Joy Igbokwe, who anchored the midfield to earn her senior debut.",
+     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "midfielder",
+   "club": null,
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/igbokwe-joy/zocy0yZH/?rd=www.soccer24.com",
+     "seen": "2026-10-09T22:50:41.270287"
+    },
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/",
+     "seen": "2026-10-09T22:50:41.270287"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-09T22:50:41.270287",
+   "last_seen": "2026-10-09T22:50:41.270287",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, maggiore.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "maggiore"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "maggiore",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, maggiore."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 645,
+   "name": "Michelle Alozie",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "allowing Michelle Alozie to break the deadlock with a composed right-footed tap-in.",
+     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defender",
+   "club": null,
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/",
+     "seen": "2026-10-09T22:50:41.270287"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/alozie-michelle/p0bWwi0E/",
+     "seen": "2026-10-09T22:50:41.270287"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-09T22:50:41.270287",
+   "last_seen": "2026-10-09T22:50:41.270287",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 129,
    "name": "Juana Flores",
    "age": null,
@@ -65778,6 +66037,354 @@
       "categoria": "",
       "fonte": "Nigeria Football Federation",
       "url": "https://thenff.com/la-2028-olympics-race-goal-happy-nkor-oladipo-moshood-11-others-train-in-ikenne/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 642,
+   "name": "Toni Payne",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/",
+     "seen": "2026-10-09T22:50:41.270287"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-09T22:50:41.270287",
+   "last_seen": "2026-10-09T22:50:41.270287",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 644,
+   "name": "Glory Ogbona",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "before Glory Ogbona failed to direct the rebound home.",
+     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/",
+     "seen": "2026-10-09T22:50:41.270287"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-09T22:50:41.270287",
+   "last_seen": "2026-10-09T22:50:41.270287",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 646,
+   "name": "Uchenna Kanu",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "Uchenna Kanu reacted quickest at",
+     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/",
+     "seen": "2026-10-09T22:50:41.270287"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-09T22:50:41.270287",
+   "last_seen": "2026-10-09T22:50:41.270287",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
      }
     ],
     "fonte": "Nigeria Football Federation",
@@ -71871,6 +72478,127 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 643,
+   "name": "Rasheedat Ajibade",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "setting up Rasheedat Ajibade, whose strike crashed against the crossbar before Glory Ogbona failed to direct the rebound home.",
+     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "PSG",
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 0,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": -20.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/ajibade-rasheedat/tIgP08Sp/",
+     "seen": "2026-10-09T22:50:41.270287"
+    },
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/",
+     "seen": "2026-10-09T22:50:41.270287"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_assente,gia_coperto_da_tutti",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-09T22:50:41.270287",
+   "last_seen": "2026-10-09T22:50:41.270287",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "High-visibility club/league: low asymmetry, competition likely"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
      "Get performance stats (match reports)"
     ]
    }
