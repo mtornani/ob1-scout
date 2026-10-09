@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-09T06:59:54.733641+00:00",
+ "generated_at": "2026-10-09T18:57:29.606833+00:00",
  "version": "1.0.0",
- "build": "4309320",
- "total": 638,
+ "build": "7c20ff8",
+ "total": 640,
  "publishable": 119,
- "tracking": 519,
- "shown": 638,
+ "tracking": 521,
+ "shown": 640,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 2,
@@ -15677,7 +15677,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 62
+    "detection_count": 63
    },
    "n_sources": 4,
    "sources": [
@@ -15722,7 +15722,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 62 rilevamenti"
+     "Segnale persistente: 63 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -15733,7 +15733,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 62 detections"
+     "Persistent signal: 63 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -15898,7 +15898,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 71
+    "detection_count": 72
    },
    "n_sources": 4,
    "sources": [
@@ -15943,7 +15943,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 71 rilevamenti"
+     "Segnale persistente: 72 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -15958,7 +15958,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 71 detections"
+     "Persistent signal: 72 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16126,7 +16126,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 75
+    "detection_count": 76
    },
    "n_sources": 3,
    "sources": [
@@ -16166,7 +16166,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 75 rilevamenti"
+     "Segnale persistente: 76 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16181,7 +16181,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 75 detections"
+     "Persistent signal: 76 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16753,7 +16753,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 1,
    "sources": [
@@ -16769,7 +16769,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -16798,7 +16798,7 @@
      "Molto giovane (15 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -16813,7 +16813,7 @@
      "Very young (15 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -17302,7 +17302,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 1,
    "sources": [
@@ -17318,7 +17318,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -17347,7 +17347,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -17362,7 +17362,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -17424,7 +17424,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 1,
    "sources": [
@@ -17440,7 +17440,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -17469,7 +17469,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -17484,7 +17484,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -17546,7 +17546,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 1,
    "sources": [
@@ -17562,7 +17562,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -17591,7 +17591,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -17606,7 +17606,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -17668,7 +17668,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 1,
    "sources": [
@@ -17684,7 +17684,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -17713,7 +17713,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -17728,7 +17728,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -17790,7 +17790,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 1,
    "sources": [
@@ -17806,7 +17806,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -17835,7 +17835,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -17850,7 +17850,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -17912,7 +17912,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 10
+    "detection_count": 11
    },
    "n_sources": 1,
    "sources": [
@@ -17928,7 +17928,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:40:56.884177",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -17957,7 +17957,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 10 rilevamenti"
+     "Segnale persistente: 11 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -17972,7 +17972,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 10 detections"
+     "Persistent signal: 11 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -18034,7 +18034,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 10
+    "detection_count": 11
    },
    "n_sources": 1,
    "sources": [
@@ -18050,7 +18050,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:40:56.884177",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -18079,7 +18079,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 10 rilevamenti"
+     "Segnale persistente: 11 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -18094,7 +18094,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 10 detections"
+     "Persistent signal: 11 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -18393,7 +18393,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 66
+    "detection_count": 68
    },
    "n_sources": 3,
    "sources": [
@@ -18433,7 +18433,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 66 rilevamenti"
+     "Segnale persistente: 68 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18448,7 +18448,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 66 detections"
+     "Persistent signal: 68 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19052,7 +19052,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 65
+    "detection_count": 66
    },
    "n_sources": 2,
    "sources": [
@@ -19087,7 +19087,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 65 rilevamenti"
+     "Segnale persistente: 66 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19102,7 +19102,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 65 detections"
+     "Persistent signal: 66 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19164,7 +19164,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 62
+    "detection_count": 63
    },
    "n_sources": 2,
    "sources": [
@@ -19199,7 +19199,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 62 rilevamenti"
+     "Segnale persistente: 63 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -19212,7 +19212,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 62 detections"
+     "Persistent signal: 63 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -19272,7 +19272,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 1,
    "sources": [
@@ -19288,7 +19288,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -19317,7 +19317,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -19332,7 +19332,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -19394,7 +19394,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 1,
    "sources": [
@@ -19410,7 +19410,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -19439,7 +19439,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -19454,7 +19454,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -19516,7 +19516,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 1,
    "sources": [
@@ -19532,7 +19532,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -19561,7 +19561,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -19576,7 +19576,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -19638,7 +19638,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 1,
    "sources": [
@@ -19654,7 +19654,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -19683,7 +19683,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -19698,7 +19698,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -19760,7 +19760,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 1,
    "sources": [
@@ -19776,7 +19776,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -19805,7 +19805,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -19820,7 +19820,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -19882,7 +19882,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 1,
    "sources": [
@@ -19898,7 +19898,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -19927,7 +19927,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -19942,7 +19942,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -20004,7 +20004,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 1,
    "sources": [
@@ -20020,7 +20020,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -20049,7 +20049,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -20064,7 +20064,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -20126,7 +20126,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 1,
    "sources": [
@@ -20142,7 +20142,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -20171,7 +20171,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -20186,7 +20186,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -20248,7 +20248,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 1,
    "sources": [
@@ -20264,7 +20264,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -20293,7 +20293,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -20308,7 +20308,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -20370,7 +20370,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 1,
    "sources": [
@@ -20386,7 +20386,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -20415,7 +20415,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -20430,7 +20430,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -20492,7 +20492,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 1,
    "sources": [
@@ -20508,7 +20508,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -20537,7 +20537,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -20552,7 +20552,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -20614,7 +20614,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 10
+    "detection_count": 11
    },
    "n_sources": 1,
    "sources": [
@@ -20630,7 +20630,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:40:56.884177",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -20659,7 +20659,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 10 rilevamenti"
+     "Segnale persistente: 11 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -20674,7 +20674,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 10 detections"
+     "Persistent signal: 11 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -21755,7 +21755,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 65
+    "detection_count": 66
    },
    "n_sources": 4,
    "sources": [
@@ -21800,7 +21800,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 65 rilevamenti"
+     "Segnale persistente: 66 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21813,7 +21813,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 65 detections"
+     "Persistent signal: 66 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21873,7 +21873,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 66
+    "detection_count": 67
    },
    "n_sources": 3,
    "sources": [
@@ -21913,7 +21913,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 66 rilevamenti"
+     "Segnale persistente: 67 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -21928,7 +21928,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 66 detections"
+     "Persistent signal: 67 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22224,7 +22224,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 65
+    "detection_count": 66
    },
    "n_sources": 2,
    "sources": [
@@ -22259,7 +22259,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 65 rilevamenti"
+     "Segnale persistente: 66 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22272,7 +22272,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 65 detections"
+     "Persistent signal: 66 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23623,7 +23623,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 76
+    "detection_count": 78
    },
    "n_sources": 3,
    "sources": [
@@ -23662,7 +23662,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 76 rilevamenti"
+     "Segnale persistente: 78 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23674,7 +23674,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 76 detections"
+     "Persistent signal: 78 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23734,7 +23734,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 76
+    "detection_count": 77
    },
    "n_sources": 3,
    "sources": [
@@ -23773,7 +23773,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 76 rilevamenti"
+     "Segnale persistente: 77 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23785,7 +23785,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 76 detections"
+     "Persistent signal: 77 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25868,6 +25868,115 @@
    }
   },
   {
+   "id": 593,
+   "name": "Đình Bắc",
+   "age": 22,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "VnExpress — Bóng đá",
+     "tipo": "national_press",
+     "citazione": "Đình Bắc ghi bàn, còn Đình Bắc trực tiếp góp công vào ba pha lập công",
+     "url": "https://vnexpress.net/ket-qua-viet-nam-vs-pakistan-5127670-tong-thuat.html#box_comment_vne"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Nguyễn Đình Bắc, 22 anni, Cong An Ha Noi FC",
+     "url": "https://www.transfermarkt.com/dinh-bac-nguyen/profil/spieler/1032711"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "forward",
+   "club": "Cong An Ha Noi FC",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/dinh-bac-nguyen/profil/spieler/1032711",
+     "seen": "2026-10-02T13:02:20.814188"
+    },
+    {
+     "domain": "vnexpress.net",
+     "url": "https://vnexpress.net/ket-qua-viet-nam-vs-pakistan-5127670-tong-thuat.html#box_comment_vne",
+     "seen": "2026-10-02T13:02:20.814188"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/dinh-bac-nguyen-3296443",
+     "seen": "2026-10-09T18:28:11.515942"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-02T13:02:20.814188",
+   "last_seen": "2026-10-09T18:28:11.515942",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da VnExpress — Bóng đá",
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by VnExpress — Bóng đá",
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 519,
    "name": "Hoàng Trung Anh",
    "age": 22,
@@ -26065,110 +26174,6 @@
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 593,
-   "name": "Đình Bắc",
-   "age": 22,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "VnExpress — Bóng đá",
-     "tipo": "national_press",
-     "citazione": "Đình Bắc ghi bàn, còn Đình Bắc trực tiếp góp công vào ba pha lập công",
-     "url": "https://vnexpress.net/ket-qua-viet-nam-vs-pakistan-5127670-tong-thuat.html#box_comment_vne"
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Nguyễn Đình Bắc, 22 anni, Cong An Ha Noi FC",
-     "url": "https://www.transfermarkt.com/dinh-bac-nguyen/profil/spieler/1032711"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "forward",
-   "club": "Cong An Ha Noi FC",
-   "league": null,
-   "region": "Vietnam",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 1.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/dinh-bac-nguyen/profil/spieler/1032711",
-     "seen": "2026-10-02T13:02:20.814188"
-    },
-    {
-     "domain": "vnexpress.net",
-     "url": "https://vnexpress.net/ket-qua-viet-nam-vs-pakistan-5127670-tong-thuat.html#box_comment_vne",
-     "seen": "2026-10-02T13:02:20.814188"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_dichiarato",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-10-02T13:02:20.814188",
-   "last_seen": "2026-10-02T13:02:20.814188",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da VnExpress — Bóng đá",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by VnExpress — Bóng đá",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
      "No documented performance stats"
     ],
     "next_steps_en": [
@@ -27711,7 +27716,7 @@
     "asymmetry": -20.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 20
+    "detection_count": 21
    },
    "n_sources": 2,
    "sources": [
@@ -27732,7 +27737,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-08T06:31:45.040268",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -27761,7 +27766,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 20 rilevamenti"
+     "Segnale persistente: 21 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -27774,7 +27779,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "2 distinct domains mention him",
-     "Persistent signal: 20 detections"
+     "Persistent signal: 21 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -27834,7 +27839,7 @@
     "asymmetry": -20.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 19
+    "detection_count": 20
    },
    "n_sources": 2,
    "sources": [
@@ -27855,7 +27860,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-08T06:31:45.040268",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -27884,7 +27889,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 19 rilevamenti"
+     "Segnale persistente: 20 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -27897,7 +27902,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "2 distinct domains mention him",
-     "Persistent signal: 19 detections"
+     "Persistent signal: 20 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -30126,7 +30131,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 2,
    "sources": [
@@ -30152,7 +30157,7 @@
    "review_flags": "club_mancante,eta_dedotto,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-07T12:56:51.184114",
-   "last_seen": "2026-10-02T13:02:20.814188",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -33732,6 +33737,160 @@
    }
   },
   {
+   "id": 342,
+   "name": "Jhojan Felipe Zuñiga Gomez",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Jhojan Felipe Zuñiga Gomez – Independiente Santa Fe",
+     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Jhojan Felipe Zuñiga Gomez – Independiente Santa Fe",
+     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Independiente Santa Fe",
+   "league": "Selección Colombia Masculina Sub-19",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 18,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 19.0,
+    "n_sources": 1,
+    "detection_count": 3
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
+     "seen": "2026-07-31T04:02:04.097438"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-07-31T04:02:04.097438",
+   "last_seen": "2026-10-09T18:28:11.515942",
+   "selezione": {
+    "quante": 3,
+    "frase": "Convocato 3 volte da Federación Colombiana de Fútbol tra luglio 2026 e ottobre 2026, dal Sub-19 al Sub-20.",
+    "dal": "2026-07-27",
+    "al": "2026-10-09",
+    "categorie": [
+     "sub-19",
+     "sub-20"
+    ],
+    "progressione": true,
+    "mesi_di_arco": 3,
+    "eventi": [
+     {
+      "data": "2026-07-27",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
+     },
+     {
+      "data": "2026-09-06",
+      "categoria": "sub-19",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
+     },
+     {
+      "data": "2026-10-09",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/10/09/convocatoria-de-la-selecciones-colombia-masculinas-sub20-y-mayores-de-futsal-para-la-conmebol-liga-evolucion-zona-norte-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 3 times by Federación Colombiana de Fútbol between July 2026 and October 2026, from U19 to U20."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "3 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "3 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
+      "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/",
+      "https://fcf.com.co/2026/10/09/convocatoria-de-la-selecciones-colombia-masculinas-sub20-y-mayores-de-futsal-para-la-conmebol-liga-evolucion-zona-norte-2026/"
+     ],
+     "dati": {
+      "convocazioni": 3,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 345,
    "name": "Luis Eduardo Maturana Moreno",
    "age": null,
@@ -36507,152 +36666,6 @@
    }
   },
   {
-   "id": 342,
-   "name": "Jhojan Felipe Zuñiga Gomez",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Jhojan Felipe Zuñiga Gomez – Independiente Santa Fe",
-     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Jhojan Felipe Zuñiga Gomez – Independiente Santa Fe",
-     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Independiente Santa Fe",
-   "league": "Selección Colombia Masculina Sub-19",
-   "region": "Colombia",
-   "gender": "male",
-   "score": 13,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 14.0,
-    "n_sources": 1,
-    "detection_count": 2
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
-     "seen": "2026-07-31T04:02:04.097438"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-07-31T04:02:04.097438",
-   "last_seen": "2026-09-06T15:40:50.095365",
-   "selezione": {
-    "quante": 2,
-    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra luglio 2026 e settembre 2026, Sub-19.",
-    "dal": "2026-07-27",
-    "al": "2026-09-06",
-    "categorie": [
-     "sub-19"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 2,
-    "eventi": [
-     {
-      "data": "2026-07-27",
-      "categoria": "sub-19",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/"
-     },
-     {
-      "data": "2026-09-06",
-      "categoria": "sub-19",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between July 2026 and September 2026, U19."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "http://www.fcf.com.co/2026/07/27/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-centroamericanos-y-del-caribe-santo-domingo-2026/",
-      "https://fcf.com.co/2026/09/06/convocatoria-de-la-seleccion-colombia-masculina-sub19-para-los-juegos-suramericanos-santa-fe-2026/"
-     ],
-     "dati": {
-      "convocazioni": 2,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Federación Colombiana de Fútbol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by Federación Colombiana de Fútbol"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 393,
    "name": "Sintia Cabezas",
    "age": null,
@@ -37037,6 +37050,590 @@
     "next_steps_en": [
      "Verify the current club",
      "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 493,
+   "name": "Angelo Jaramillo Acevedo",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Angelo Jaramillo Acevedo – C.D El Carmen De Viboral",
+     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Angelo Jaramillo Acevedo – C.D El Carmen De Viboral",
+     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "C.D El Carmen De Viboral",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/",
+     "seen": "2026-09-14T21:57:46.100597"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-14T21:57:46.100597",
+   "last_seen": "2026-10-09T18:28:11.515942",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra settembre 2026 e ottobre 2026, Sub-20.",
+    "dal": "2026-09-14",
+    "al": "2026-10-09",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 1,
+    "eventi": [
+     {
+      "data": "2026-09-14",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
+     },
+     {
+      "data": "2026-10-09",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/10/09/convocatoria-de-la-selecciones-colombia-masculinas-sub20-y-mayores-de-futsal-para-la-conmebol-liga-evolucion-zona-norte-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between September 2026 and October 2026, U20."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/",
+      "https://fcf.com.co/2026/10/09/convocatoria-de-la-selecciones-colombia-masculinas-sub20-y-mayores-de-futsal-para-la-conmebol-liga-evolucion-zona-norte-2026/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 495,
+   "name": "Emanuel Martínez Medina",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Emanuel Martínez Medina – C.D El Carmen De Viboral",
+     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Emanuel Martínez Medina – C.D El Carmen De Viboral",
+     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "C.D El Carmen De Viboral",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/",
+     "seen": "2026-09-14T21:57:46.100597"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-14T21:57:46.100597",
+   "last_seen": "2026-10-09T18:28:11.515942",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra settembre 2026 e ottobre 2026, Sub-20.",
+    "dal": "2026-09-14",
+    "al": "2026-10-09",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 1,
+    "eventi": [
+     {
+      "data": "2026-09-14",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
+     },
+     {
+      "data": "2026-10-09",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/10/09/convocatoria-de-la-selecciones-colombia-masculinas-sub20-y-mayores-de-futsal-para-la-conmebol-liga-evolucion-zona-norte-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between September 2026 and October 2026, U20."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/",
+      "https://fcf.com.co/2026/10/09/convocatoria-de-la-selecciones-colombia-masculinas-sub20-y-mayores-de-futsal-para-la-conmebol-liga-evolucion-zona-norte-2026/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 496,
+   "name": "Julián Andrés Motta Ramírez",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Julián Andrés Motta Ramírez – Šk Podlužany (Svk)",
+     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Julián Andrés Motta Ramírez – Šk Podlužany (Svk)",
+     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Šk Podlužany (Svk)",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/",
+     "seen": "2026-09-14T21:57:46.100597"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-14T21:57:46.100597",
+   "last_seen": "2026-10-09T18:28:11.515942",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra settembre 2026 e ottobre 2026, Sub-20.",
+    "dal": "2026-09-14",
+    "al": "2026-10-09",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 1,
+    "eventi": [
+     {
+      "data": "2026-09-14",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
+     },
+     {
+      "data": "2026-10-09",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/10/09/convocatoria-de-la-selecciones-colombia-masculinas-sub20-y-mayores-de-futsal-para-la-conmebol-liga-evolucion-zona-norte-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between September 2026 and October 2026, U20."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/",
+      "https://fcf.com.co/2026/10/09/convocatoria-de-la-selecciones-colombia-masculinas-sub20-y-mayores-de-futsal-para-la-conmebol-liga-evolucion-zona-norte-2026/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 497,
+   "name": "Davier Duvan Baza David",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Davier Duvan Baza David – Champions Huila Fc",
+     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Davier Duvan Baza David – Champions Huila Fc",
+     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Champions Huila Fc",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/",
+     "seen": "2026-09-14T21:57:46.100597"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-14T21:57:46.100597",
+   "last_seen": "2026-10-09T18:28:11.515942",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Federación Colombiana de Fútbol tra settembre 2026 e ottobre 2026, Sub-20.",
+    "dal": "2026-09-14",
+    "al": "2026-10-09",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 1,
+    "eventi": [
+     {
+      "data": "2026-09-14",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
+     },
+     {
+      "data": "2026-10-09",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/10/09/convocatoria-de-la-selecciones-colombia-masculinas-sub20-y-mayores-de-futsal-para-la-conmebol-liga-evolucion-zona-norte-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 2 times by Federación Colombiana de Fútbol between September 2026 and October 2026, U20."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Federación Colombiana de Fútbol, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Federación Colombiana de Fútbol, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/",
+      "https://fcf.com.co/2026/10/09/convocatoria-de-la-selecciones-colombia-masculinas-sub20-y-mayores-de-futsal-para-la-conmebol-liga-evolucion-zona-norte-2026/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
    }
@@ -37846,7 +38443,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 1,
    "sources": [
@@ -37862,7 +38459,7 @@
    "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-10-01T22:50:50.386863",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -37890,7 +38487,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -37906,7 +38503,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -51375,128 +51972,6 @@
    }
   },
   {
-   "id": 493,
-   "name": "Angelo Jaramillo Acevedo",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Angelo Jaramillo Acevedo – C.D El Carmen De Viboral",
-     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Angelo Jaramillo Acevedo – C.D El Carmen De Viboral",
-     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "C.D El Carmen De Viboral",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 8,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/",
-     "seen": "2026-09-14T21:57:46.100597"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-14T21:57:46.100597",
-   "last_seen": "2026-09-14T21:57:46.100597",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (settembre 2026).",
-    "dal": "2026-09-14",
-    "al": "2026-09-14",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-09-14",
-      "categoria": "sub-20",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Federación Colombiana de Fútbol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by Federación Colombiana de Fútbol"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 494,
    "name": "Nicolas Rios Londoño",
    "age": null,
@@ -51534,372 +52009,6 @@
    },
    "position": null,
    "club": "C.D Lugo 13",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 8,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/",
-     "seen": "2026-09-14T21:57:46.100597"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-14T21:57:46.100597",
-   "last_seen": "2026-09-14T21:57:46.100597",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (settembre 2026).",
-    "dal": "2026-09-14",
-    "al": "2026-09-14",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-09-14",
-      "categoria": "sub-20",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Federación Colombiana de Fútbol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by Federación Colombiana de Fútbol"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 495,
-   "name": "Emanuel Martínez Medina",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Emanuel Martínez Medina – C.D El Carmen De Viboral",
-     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Emanuel Martínez Medina – C.D El Carmen De Viboral",
-     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "C.D El Carmen De Viboral",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 8,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/",
-     "seen": "2026-09-14T21:57:46.100597"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-14T21:57:46.100597",
-   "last_seen": "2026-09-14T21:57:46.100597",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (settembre 2026).",
-    "dal": "2026-09-14",
-    "al": "2026-09-14",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-09-14",
-      "categoria": "sub-20",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Federación Colombiana de Fútbol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by Federación Colombiana de Fútbol"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 496,
-   "name": "Julián Andrés Motta Ramírez",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Julián Andrés Motta Ramírez – Šk Podlužany (Svk)",
-     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Julián Andrés Motta Ramírez – Šk Podlužany (Svk)",
-     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Šk Podlužany (Svk)",
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 8,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/",
-     "seen": "2026-09-14T21:57:46.100597"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-14T21:57:46.100597",
-   "last_seen": "2026-09-14T21:57:46.100597",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (settembre 2026).",
-    "dal": "2026-09-14",
-    "al": "2026-09-14",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-09-14",
-      "categoria": "sub-20",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Federación Colombiana de Fútbol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "Name and club stated by Federación Colombiana de Fútbol"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 497,
-   "name": "Davier Duvan Baza David",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Davier Duvan Baza David – Champions Huila Fc",
-     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Davier Duvan Baza David – Champions Huila Fc",
-     "url": "https://fcf.com.co/2026/09/14/convocatoria-de-la-seleccion-colombia-masculina-para-el-conmebol-sub20-de-futsal/"
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Champions Huila Fc",
    "league": null,
    "region": "Colombia",
    "gender": "male",
@@ -53265,6 +53374,250 @@
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
      "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 639,
+   "name": "Deiby Alexander Molano Zapata",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Deiby Alexander Molano Zapata – C.D Llaneros",
+     "url": "https://fcf.com.co/2026/10/09/convocatoria-de-la-selecciones-colombia-masculinas-sub20-y-mayores-de-futsal-para-la-conmebol-liga-evolucion-zona-norte-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Deiby Alexander Molano Zapata – C.D Llaneros",
+     "url": "https://fcf.com.co/2026/10/09/convocatoria-de-la-selecciones-colombia-masculinas-sub20-y-mayores-de-futsal-para-la-conmebol-liga-evolucion-zona-norte-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "C.D Llaneros",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/10/09/convocatoria-de-la-selecciones-colombia-masculinas-sub20-y-mayores-de-futsal-para-la-conmebol-liga-evolucion-zona-norte-2026/",
+     "seen": "2026-10-09T18:28:11.515942"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-10-09T18:28:11.515942",
+   "last_seen": "2026-10-09T18:28:11.515942",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (ottobre 2026).",
+    "dal": "2026-10-09",
+    "al": "2026-10-09",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-10-09",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/10/09/convocatoria-de-la-selecciones-colombia-masculinas-sub20-y-mayores-de-futsal-para-la-conmebol-liga-evolucion-zona-norte-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 640,
+   "name": "Nicolás David Gutiérrez Quintero",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Nicolás David Gutiérrez Quintero – U. Sergio Arbol",
+     "url": "https://fcf.com.co/2026/10/09/convocatoria-de-la-selecciones-colombia-masculinas-sub20-y-mayores-de-futsal-para-la-conmebol-liga-evolucion-zona-norte-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Nicolás David Gutiérrez Quintero – U. Sergio Arbol",
+     "url": "https://fcf.com.co/2026/10/09/convocatoria-de-la-selecciones-colombia-masculinas-sub20-y-mayores-de-futsal-para-la-conmebol-liga-evolucion-zona-norte-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "U. Sergio Arbol",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/10/09/convocatoria-de-la-selecciones-colombia-masculinas-sub20-y-mayores-de-futsal-para-la-conmebol-liga-evolucion-zona-norte-2026/",
+     "seen": "2026-10-09T18:28:11.515942"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-10-09T18:28:11.515942",
+   "last_seen": "2026-10-09T18:28:11.515942",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (ottobre 2026).",
+    "dal": "2026-10-09",
+    "al": "2026-10-09",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-10-09",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/10/09/convocatoria-de-la-selecciones-colombia-masculinas-sub20-y-mayores-de-futsal-para-la-conmebol-liga-evolucion-zona-norte-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
      "Single source: not yet corroborated",
      "No documented performance stats",
      "Age not confirmed"
@@ -62926,14 +63279,14 @@
    "region": "Morocco",
    "gender": "male",
    "score": 4,
-   "confidence": 0.63,
+   "confidence": 0.73,
    "breakdown": {
     "youth": 6.0,
     "production": 0.0,
     "asymmetry": 0.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 2
+    "detection_count": 3
    },
    "n_sources": 2,
    "sources": [
@@ -62959,7 +63312,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-01T11:56:15.018093",
-   "last_seen": "2026-10-02T13:02:20.814188",
+   "last_seen": "2026-10-09T18:28:11.515942",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
