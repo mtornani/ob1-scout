@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-10T06:50:28.879258+00:00",
+ "generated_at": "2026-10-10T13:27:20.189707+00:00",
  "version": "1.0.0",
- "build": "88594f4",
+ "build": "8f04198",
  "total": 646,
  "publishable": 119,
  "tracking": 527,
@@ -15683,7 +15683,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 65
+    "detection_count": 66
    },
    "n_sources": 4,
    "sources": [
@@ -15728,7 +15728,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 65 rilevamenti"
+     "Segnale persistente: 66 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -15739,7 +15739,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 65 detections"
+     "Persistent signal: 66 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -16132,7 +16132,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 78
+    "detection_count": 79
    },
    "n_sources": 3,
    "sources": [
@@ -16172,7 +16172,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 78 rilevamenti"
+     "Segnale persistente: 79 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16187,7 +16187,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 78 detections"
+     "Persistent signal: 79 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16480,6 +16480,113 @@
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
+   }
+  },
+  {
+   "id": 400,
+   "name": "Bailey Ferguson",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "half-time substitute Bailey Ferguson pouncing on a rebound inside the penalty box",
+     "url": "https://www.oceaniafootball.com/defending-champions-advance-after-second-matchday-in-group-b/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Bailey Kendall Ferguson, 18 anni, Without Club",
+     "url": "https://www.transfermarkt.us/bailey-ferguson/profil/spieler/1490070"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Right Winger",
+   "club": "New Zealand (Junior All Whites)",
+   "league": "OFC U-19 Men's Championship 2026",
+   "region": "Pacific Islands",
+   "gender": "male",
+   "score": 23,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 10
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/defending-champions-advance-after-second-matchday-in-group-b/",
+     "seen": "2026-09-05T04:51:08.752162"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/bailey-ferguson/profil/spieler/1490070",
+     "seen": "2026-09-05T04:51:08.752162"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/ferguson-bailey/nkM0Khh3/",
+     "seen": "2026-09-08T05:03:28.858009"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-05T04:51:08.752162",
+   "last_seen": "2026-10-10T12:55:47.645119",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo"
+    ],
+    "next_steps": [],
+    "pros_en": [
+     "Young (18 yo)",
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced",
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it"
+    ],
+    "next_steps_en": []
    }
   },
   {
@@ -16830,113 +16937,6 @@
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
-   }
-  },
-  {
-   "id": 400,
-   "name": "Bailey Ferguson",
-   "age": 18,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "half-time substitute Bailey Ferguson pouncing on a rebound inside the penalty box",
-     "url": "https://www.oceaniafootball.com/defending-champions-advance-after-second-matchday-in-group-b/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Bailey Kendall Ferguson, 18 anni, Without Club",
-     "url": "https://www.transfermarkt.us/bailey-ferguson/profil/spieler/1490070"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Right Winger",
-   "club": "New Zealand (Junior All Whites)",
-   "league": "OFC U-19 Men's Championship 2026",
-   "region": "Pacific Islands",
-   "gender": "male",
-   "score": 21,
-   "confidence": 0.91,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 4.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 9
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/defending-champions-advance-after-second-matchday-in-group-b/",
-     "seen": "2026-09-05T04:51:08.752162"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/bailey-ferguson/profil/spieler/1490070",
-     "seen": "2026-09-05T04:51:08.752162"
-    },
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/ferguson-bailey/nkM0Khh3/",
-     "seen": "2026-09-08T05:03:28.858009"
-    }
-   ],
-   "n_sources_registro": 3,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-05T04:51:08.752162",
-   "last_seen": "2026-10-03T16:36:29.898535",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Giovane (18 anni)",
-     "Produzione documentata: 1 gol",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo"
-    ],
-    "next_steps": [],
-    "pros_en": [
-     "Young (18 yo)",
-     "Documented output: 1 goals",
-     "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it"
-    ],
-    "next_steps_en": []
    }
   },
   {
@@ -18399,7 +18399,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 70
+    "detection_count": 71
    },
    "n_sources": 3,
    "sources": [
@@ -18439,7 +18439,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 70 rilevamenti"
+     "Segnale persistente: 71 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18454,7 +18454,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 70 detections"
+     "Persistent signal: 71 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19058,7 +19058,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 68
+    "detection_count": 69
    },
    "n_sources": 2,
    "sources": [
@@ -19093,7 +19093,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 68 rilevamenti"
+     "Segnale persistente: 69 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19108,7 +19108,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 68 detections"
+     "Persistent signal: 69 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19170,7 +19170,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 65
+    "detection_count": 66
    },
    "n_sources": 2,
    "sources": [
@@ -19205,7 +19205,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 65 rilevamenti"
+     "Segnale persistente: 66 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -19218,7 +19218,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 65 detections"
+     "Persistent signal: 66 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21761,7 +21761,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 68
+    "detection_count": 70
    },
    "n_sources": 4,
    "sources": [
@@ -21806,7 +21806,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 68 rilevamenti"
+     "Segnale persistente: 70 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21819,7 +21819,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 68 detections"
+     "Persistent signal: 70 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21878,10 +21878,10 @@
     "production": 0.0,
     "asymmetry": 8.0,
     "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 69
+    "n_sources": 4,
+    "detection_count": 71
    },
-   "n_sources": 3,
+   "n_sources": 4,
    "sources": [
     {
      "domain": "tiktok.com",
@@ -21897,9 +21897,14 @@
      "domain": "us.soccerway.com",
      "url": "https://us.soccerway.com/player/petit-gonzalo/db2nz6Pq/",
      "seen": "2026-10-03T16:36:29.898535"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/petit-gonzalo/db2nz6Pq/",
+     "seen": "2026-10-10T12:55:47.645119"
     }
    ],
-   "n_sources_registro": 1,
+   "n_sources_registro": 2,
    "stats": {
     "goals": 0,
     "assists": 0,
@@ -21918,8 +21923,8 @@
     "pros": [
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano",
-     "Segnale persistente: 69 rilevamenti"
+     "4 domini distinti lo nominano",
+     "Segnale persistente: 71 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -21933,8 +21938,8 @@
     "pros_en": [
      "Young (19 yo)",
      "Minor context: potentially underpriced",
-     "3 distinct domains mention him",
-     "Persistent signal: 69 detections"
+     "4 distinct domains mention him",
+     "Persistent signal: 71 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -21996,7 +22001,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 3,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 3,
    "sources": [
@@ -22027,7 +22032,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-09-14T21:57:46.100597",
-   "last_seen": "2026-09-14T21:57:46.100597",
+   "last_seen": "2026-10-10T12:55:47.645119",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol.",
@@ -22052,7 +22057,8 @@
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
+     "3 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22063,7 +22069,8 @@
     ],
     "pros_en": [
      "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
+     "3 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22230,7 +22237,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 68
+    "detection_count": 69
    },
    "n_sources": 2,
    "sources": [
@@ -22265,7 +22272,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 68 rilevamenti"
+     "Segnale persistente: 69 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22278,7 +22285,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 68 detections"
+     "Persistent signal: 69 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23629,7 +23636,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 80
+    "detection_count": 81
    },
    "n_sources": 3,
    "sources": [
@@ -23668,7 +23675,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 80 rilevamenti"
+     "Segnale persistente: 81 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23680,7 +23687,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 80 detections"
+     "Persistent signal: 81 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23740,7 +23747,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 79
+    "detection_count": 80
    },
    "n_sources": 3,
    "sources": [
@@ -23779,7 +23786,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 79 rilevamenti"
+     "Segnale persistente: 80 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23791,7 +23798,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 79 detections"
+     "Persistent signal: 80 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -36672,6 +36679,134 @@
    }
   },
   {
+   "id": 368,
+   "name": "Luisa Agudelo",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Luisa Agudelo se integra a la Selección Colombia Femenina Sub-20",
+     "url": "https://fcf.com.co/2026/08/31/luisa-agudelo-se-integra-a-la-seleccion-colombia-femenina-sub-20/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Goalkeeper",
+   "club": "San Diego Wave",
+   "league": "Selección Colombia Femenina Sub-20",
+   "region": "Colombia",
+   "gender": "female",
+   "score": 13,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/08/31/luisa-agudelo-se-integra-a-la-seleccion-colombia-femenina-sub-20/",
+     "seen": "2026-09-01T21:14:30.444821"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/agudelo-luisa/8KO5Or90/",
+     "seen": "2026-10-03T16:36:29.898535"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-01T21:14:30.444821",
+   "last_seen": "2026-10-10T12:55:47.645119",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (agosto 2026).",
+    "dal": "2026-08-31",
+    "al": "2026-08-31",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-08-31",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/08/31/luisa-agudelo-se-integra-a-la-seleccion-colombia-femenina-sub-20/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 393,
    "name": "Sintia Cabezas",
    "age": null,
@@ -40877,134 +41012,6 @@
    }
   },
   {
-   "id": 368,
-   "name": "Luisa Agudelo",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Luisa Agudelo se integra a la Selección Colombia Femenina Sub-20",
-     "url": "https://fcf.com.co/2026/08/31/luisa-agudelo-se-integra-a-la-seleccion-colombia-femenina-sub-20/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Goalkeeper",
-   "club": "San Diego Wave",
-   "league": "Selección Colombia Femenina Sub-20",
-   "region": "Colombia",
-   "gender": "female",
-   "score": 11,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/08/31/luisa-agudelo-se-integra-a-la-seleccion-colombia-femenina-sub-20/",
-     "seen": "2026-09-01T21:14:30.444821"
-    },
-    {
-     "domain": "us.soccerway.com",
-     "url": "https://us.soccerway.com/player/agudelo-luisa/8KO5Or90/",
-     "seen": "2026-10-03T16:36:29.898535"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-01T21:14:30.444821",
-   "last_seen": "2026-10-03T16:36:29.898535",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (agosto 2026).",
-    "dal": "2026-08-31",
-    "al": "2026-08-31",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-08-31",
-      "categoria": "sub-20",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/08/31/luisa-agudelo-se-integra-a-la-seleccion-colombia-femenina-sub-20/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 402,
    "name": "Brenda Cardona",
    "age": null,
@@ -43356,7 +43363,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 3
+    "detection_count": 4
    },
    "n_sources": 2,
    "sources": [
@@ -43382,7 +43389,7 @@
    "review_flags": "eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-27T05:36:31.644864",
-   "last_seen": "2026-10-03T11:55:55.082667",
+   "last_seen": "2026-10-10T12:55:47.645119",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
