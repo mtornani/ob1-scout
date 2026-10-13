@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-12T16:24:54.878163+00:00",
+ "generated_at": "2026-10-13T01:27:01.737999+00:00",
  "version": "1.0.0",
- "build": "38b80fa",
+ "build": "0fcadc0",
  "total": 659,
- "publishable": 120,
- "tracking": 539,
+ "publishable": 121,
+ "tracking": 538,
  "shown": 659,
  "tracking_capped": 0,
  "outcomes": {
@@ -6724,6 +6724,107 @@
     ],
     "pros_en": [
      "Young (18 yo)",
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt"
+    ],
+    "cautions_en": [],
+    "next_steps_en": [
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 463,
+   "name": "Nalau Moses",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "It took just five minutes for Nalau Moses to score the opener",
+     "url": "https://www.oceaniafootball.com/papua-new-guinea-and-samoa-finish-on-a-high-at-ofc-u-19-mens-championship/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Nalau Moses, 19 anni, Lae City FC",
+     "url": "https://www.transfermarkt.com/nalau-moses/profil/spieler/1284630"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Nalau Moses, 19 anni, Lae City FC",
+     "url": "https://www.transfermarkt.com/nalau-moses/profil/spieler/1284630"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attack",
+   "club": "Lae City FC",
+   "league": null,
+   "region": "Papua New Guinea",
+   "gender": "male",
+   "score": 14,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 7
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/papua-new-guinea-and-samoa-finish-on-a-high-at-ofc-u-19-mens-championship/",
+     "seen": "2026-09-12T04:54:03.412363"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/nalau-moses/profil/spieler/1284630",
+     "seen": "2026-09-12T11:09:04.963733"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 1
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-12T04:54:03.412363",
+   "last_seen": "2026-10-13T00:55:22.772585",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt"
+    ],
+    "cautions": [],
+    "next_steps": [
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (19 yo)",
      "Documented output: 1 goals",
      "Minor context: potentially underpriced",
      "Name and club stated by Transfermarkt"
@@ -16029,7 +16130,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 80
+    "detection_count": 81
    },
    "n_sources": 4,
    "sources": [
@@ -16074,7 +16175,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 80 rilevamenti"
+     "Segnale persistente: 81 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16089,7 +16190,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 80 detections"
+     "Persistent signal: 81 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16372,7 +16473,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 85
+    "detection_count": 86
    },
    "n_sources": 3,
    "sources": [
@@ -16412,7 +16513,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 85 rilevamenti"
+     "Segnale persistente: 86 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16427,7 +16528,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 85 detections"
+     "Persistent signal: 86 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17060,9 +17161,9 @@
   {
    "id": 323,
    "name": "Ezequiel Fernández",
-   "age": 15,
-   "age_stato": "dichiarato",
-   "age_nota": "",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 15 non è scritto da nessuna fonte competente",
    "claims": {
     "nome": {
      "stato": "dichiarato",
@@ -17079,11 +17180,11 @@
      "url": "https://www.auf.org.uy/sub-17/"
     },
     "eta": {
-     "stato": "dichiarato",
-     "fonte": "AUF — Asociación Uruguaya de Fútbol",
-     "tipo": "federation",
-     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Ezequiel Fernández, Difensore, nato il 13/10/2010, Peñarol",
-     "url": "https://www.auf.org.uy/sub-17/"
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
     },
     "stats": {
      "stato": "assente",
@@ -17119,7 +17220,7 @@
    "n_sources_registro": 1,
    "stats": {},
    "identity_complete": true,
-   "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
+   "review_flags": "fonte_singola,eta_assente,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
    "last_seen": "2026-10-09T18:28:11.515942",
@@ -17148,7 +17249,6 @@
    "publishable": false,
    "assessment": {
     "pros": [
-     "Molto giovane (15 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "Segnale persistente: 12 rilevamenti"
@@ -17156,14 +17256,15 @@
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
      "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
     ],
     "next_steps": [
+     "Confermare l'anno di nascita con la società",
      "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
      "Recuperare statistiche di rendimento (referti gara)"
     ],
     "pros_en": [
-     "Very young (15 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "Persistent signal: 12 detections"
@@ -17171,9 +17272,11 @@
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
      "Single source: not yet corroborated",
-     "No documented performance stats"
+     "No documented performance stats",
+     "Age not confirmed"
     ],
     "next_steps_en": [
+     "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
@@ -18646,7 +18749,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 76
+    "detection_count": 77
    },
    "n_sources": 3,
    "sources": [
@@ -18686,7 +18789,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 76 rilevamenti"
+     "Segnale persistente: 77 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18701,7 +18804,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 76 detections"
+     "Persistent signal: 77 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19417,7 +19520,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 72
+    "detection_count": 73
    },
    "n_sources": 2,
    "sources": [
@@ -19452,7 +19555,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 72 rilevamenti"
+     "Segnale persistente: 73 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -19465,7 +19568,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 72 detections"
+     "Persistent signal: 73 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22013,7 +22116,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 76
+    "detection_count": 77
    },
    "n_sources": 4,
    "sources": [
@@ -22058,7 +22161,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 76 rilevamenti"
+     "Segnale persistente: 77 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22071,7 +22174,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 76 detections"
+     "Persistent signal: 77 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22131,7 +22234,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 77
+    "detection_count": 78
    },
    "n_sources": 4,
    "sources": [
@@ -22176,7 +22279,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 77 rilevamenti"
+     "Segnale persistente: 78 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -22191,7 +22294,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 77 detections"
+     "Persistent signal: 78 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22489,7 +22592,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 74
+    "detection_count": 75
    },
    "n_sources": 2,
    "sources": [
@@ -22524,7 +22627,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 74 rilevamenti"
+     "Segnale persistente: 75 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22537,7 +22640,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 74 detections"
+     "Persistent signal: 75 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23888,7 +23991,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 87
+    "detection_count": 88
    },
    "n_sources": 3,
    "sources": [
@@ -23927,7 +24030,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 87 rilevamenti"
+     "Segnale persistente: 88 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23939,7 +24042,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 87 detections"
+     "Persistent signal: 88 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23999,7 +24102,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 87
+    "detection_count": 88
    },
    "n_sources": 3,
    "sources": [
@@ -24038,7 +24141,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 87 rilevamenti"
+     "Segnale persistente: 88 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24050,7 +24153,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 87 detections"
+     "Persistent signal: 88 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -30455,6 +30558,126 @@
    }
   },
   {
+   "id": 161,
+   "name": "Lovro Majer",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Title: Lovro Majer - Player profile 26/27",
+     "url": "https://www.transfermarkt.com/lovro-majer/profil/spieler/387106"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Soccerway",
+     "tipo": "aggregator",
+     "citazione": "Lovro Majer (AEK Athens) Stats",
+     "url": "https://www.soccerway.com/player/majer-lovro/444Jw1Mr/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Midfielder",
+   "club": "AEK Athens",
+   "league": null,
+   "region": "Croatia",
+   "gender": "male",
+   "score": 29,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 15.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 4,
+    "detection_count": 4
+   },
+   "n_sources": 4,
+   "sources": [
+    {
+     "domain": "budiponosan.hns-cff.hr",
+     "url": "https://budiponosan.hns-cff.hr/en/players/126153/lovro-majer/",
+     "seen": "2026-07-22T09:10:40.233331"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/lovro-majer/profil/spieler/387106",
+     "seen": "2026-08-26T13:52:17.702316"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/majer-lovro/444Jw1Mr/",
+     "seen": "2026-10-05T06:05:10.895235"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/majer-lovro/444Jw1Mr/",
+     "seen": "2026-10-13T00:55:22.772585"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 3,
+    "assists": 0,
+    "apps": 6,
+    "minutes": 294
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,senza_fonte_primary,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-26T13:52:17.702316",
+   "last_seen": "2026-10-13T00:55:22.772585",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 3 gol in 6 presenze",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Soccerway",
+     "4 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented output: 3 goals in 6 appearances",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Soccerway",
+     "4 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Look for a primary press/federation source to bring it to the full standard",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "id": 571,
    "name": "Oarabile Booysen",
    "age": null,
@@ -30872,121 +31095,6 @@
     "next_steps_en": [
      "Look for a primary press/federation source to bring it to the full standard",
      "Verify the current club",
-     "Confirm the birth year with the club"
-    ]
-   }
-  },
-  {
-   "id": 161,
-   "name": "Lovro Majer",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Title: Lovro Majer - Player profile 26/27",
-     "url": "https://www.transfermarkt.com/lovro-majer/profil/spieler/387106"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Midfielder",
-   "club": "AEK Athens",
-   "league": null,
-   "region": "Croatia",
-   "gender": "male",
-   "score": 26,
-   "confidence": 0.91,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 15.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 3
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "budiponosan.hns-cff.hr",
-     "url": "https://budiponosan.hns-cff.hr/en/players/126153/lovro-majer/",
-     "seen": "2026-07-22T09:10:40.233331"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/lovro-majer/profil/spieler/387106",
-     "seen": "2026-08-26T13:52:17.702316"
-    },
-    {
-     "domain": "us.soccerway.com",
-     "url": "https://us.soccerway.com/player/majer-lovro/444Jw1Mr/",
-     "seen": "2026-10-05T06:05:10.895235"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 3,
-    "assists": 0,
-    "apps": 6,
-    "minutes": 294
-   },
-   "identity_complete": false,
-   "review_flags": "eta_mancante,senza_fonte_primary,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-26T13:52:17.702316",
-   "last_seen": "2026-10-05T06:05:10.895235",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 3 gol in 6 presenze",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
-     "Confermare l'anno di nascita con la società"
-    ],
-    "pros_en": [
-     "Documented output: 3 goals in 6 appearances",
-     "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
-     "The club appears in no source: re-verify before relying on it",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Look for a primary press/federation source to bring it to the full standard",
      "Confirm the birth year with the club"
     ]
    }
@@ -55630,113 +55738,6 @@
    }
   },
   {
-   "id": 463,
-   "name": "Nalau Moses",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "It took just five minutes for Nalau Moses to score the opener",
-     "url": "https://www.oceaniafootball.com/papua-new-guinea-and-samoa-finish-on-a-high-at-ofc-u-19-mens-championship/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Papua New Guinea",
-   "gender": "male",
-   "score": 7,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 4.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 6
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/papua-new-guinea-and-samoa-finish-on-a-high-at-ofc-u-19-mens-championship/",
-     "seen": "2026-09-12T04:54:03.412363"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/nalau-moses/profil/spieler/1284630",
-     "seen": "2026-09-12T11:09:04.963733"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 1
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-12T04:54:03.412363",
-   "last_seen": "2026-10-05T06:05:10.895235",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol",
-     "2 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals",
-     "2 distinct domains mention him",
-     "Persistent signal: 6 detections"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club"
-    ]
-   }
-  },
-  {
    "id": 540,
    "name": "Joy Jegede",
    "age": null,
@@ -65325,6 +65326,116 @@
    }
   },
   {
+   "id": 434,
+   "name": "Amsatou Diouf",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Wiwsport",
+     "tipo": "national_press",
+     "citazione": "Amsatou Diouf et Aliou Dieye, premières impressions",
+     "url": "https://wiwsport.com/2026/09/08/carnet-ufoa-a-u17-jour-1-amsatou-diouf-et-aliou-dieye-premieres-impressions/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Senegal",
+   "gender": "female",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "wiwsport.com",
+     "url": "https://wiwsport.com/2026/09/08/carnet-ufoa-a-u17-jour-1-amsatou-diouf-et-aliou-dieye-premieres-impressions/",
+     "seen": "2026-09-08T21:20:18.348983"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/amsatou-diouf/profil/spieler/1589289",
+     "seen": "2026-10-13T00:55:22.772585"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-08T21:20:18.348983",
+   "last_seen": "2026-10-13T00:55:22.772585",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 446,
    "name": "Wilkenson Siosi",
    "age": null,
@@ -70126,109 +70237,6 @@
    "coverage_tier": "standard",
    "first_detected": "2026-09-06T20:42:15.699513",
    "last_seen": "2026-09-06T20:42:15.699513",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 434,
-   "name": "Amsatou Diouf",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Wiwsport",
-     "tipo": "national_press",
-     "citazione": "Amsatou Diouf et Aliou Dieye, premières impressions",
-     "url": "https://wiwsport.com/2026/09/08/carnet-ufoa-a-u17-jour-1-amsatou-diouf-et-aliou-dieye-premieres-impressions/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Senegal",
-   "gender": "female",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "wiwsport.com",
-     "url": "https://wiwsport.com/2026/09/08/carnet-ufoa-a-u17-jour-1-amsatou-diouf-et-aliou-dieye-premieres-impressions/",
-     "seen": "2026-09-08T21:20:18.348983"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-08T21:20:18.348983",
-   "last_seen": "2026-09-08T21:20:18.348983",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
