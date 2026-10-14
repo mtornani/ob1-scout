@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-14T18:01:21.731592+00:00",
+ "generated_at": "2026-10-14T22:19:59.544958+00:00",
  "version": "1.0.0",
- "build": "7ce1902",
+ "build": "02bdc46",
  "total": 668,
  "publishable": 121,
  "tracking": 547,
@@ -15617,7 +15617,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 3,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 3,
    "sources": [
@@ -15648,7 +15648,7 @@
    "review_flags": "eta_dedotto,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-10-01T06:24:11.557538",
-   "last_seen": "2026-10-07T23:15:35.537249",
+   "last_seen": "2026-10-14T21:53:14.645526",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (giugno 2026).",
@@ -15918,7 +15918,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 76
+    "detection_count": 77
    },
    "n_sources": 4,
    "sources": [
@@ -15954,7 +15954,7 @@
    "review_flags": "eta_dichiarato,club_assente,gia_coperto_da_tutti",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-06-02T16:26:08.016372",
-   "last_seen": null,
+   "last_seen": "2026-10-14T21:53:14.645526",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -15963,7 +15963,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 76 rilevamenti"
+     "Segnale persistente: 77 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -15974,7 +15974,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 76 detections"
+     "Persistent signal: 77 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -16139,7 +16139,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 85
+    "detection_count": 86
    },
    "n_sources": 4,
    "sources": [
@@ -16184,7 +16184,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 85 rilevamenti"
+     "Segnale persistente: 86 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16199,7 +16199,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 85 detections"
+     "Persistent signal: 86 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16482,7 +16482,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 89
+    "detection_count": 91
    },
    "n_sources": 3,
    "sources": [
@@ -16522,7 +16522,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 89 rilevamenti"
+     "Segnale persistente: 91 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16537,7 +16537,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 89 detections"
+     "Persistent signal: 91 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18758,7 +18758,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 81
+    "detection_count": 82
    },
    "n_sources": 3,
    "sources": [
@@ -18798,7 +18798,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 81 rilevamenti"
+     "Segnale persistente: 82 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18813,7 +18813,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 81 detections"
+     "Persistent signal: 82 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19417,7 +19417,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 79
+    "detection_count": 80
    },
    "n_sources": 2,
    "sources": [
@@ -19452,7 +19452,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 79 rilevamenti"
+     "Segnale persistente: 80 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19467,7 +19467,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 79 detections"
+     "Persistent signal: 80 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19529,7 +19529,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 78
+    "detection_count": 79
    },
    "n_sources": 2,
    "sources": [
@@ -19564,7 +19564,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 78 rilevamenti"
+     "Segnale persistente: 79 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -19577,7 +19577,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 78 detections"
+     "Persistent signal: 79 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22243,7 +22243,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 81
+    "detection_count": 82
    },
    "n_sources": 4,
    "sources": [
@@ -22288,7 +22288,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 81 rilevamenti"
+     "Segnale persistente: 82 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -22303,7 +22303,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 81 detections"
+     "Persistent signal: 82 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22601,7 +22601,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 79
+    "detection_count": 80
    },
    "n_sources": 2,
    "sources": [
@@ -22636,7 +22636,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 79 rilevamenti"
+     "Segnale persistente: 80 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22649,7 +22649,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 79 detections"
+     "Persistent signal: 80 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24000,7 +24000,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 92
+    "detection_count": 93
    },
    "n_sources": 3,
    "sources": [
@@ -24039,7 +24039,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 92 rilevamenti"
+     "Segnale persistente: 93 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24051,7 +24051,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 92 detections"
+     "Persistent signal: 93 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24111,7 +24111,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 92
+    "detection_count": 93
    },
    "n_sources": 3,
    "sources": [
@@ -24150,7 +24150,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 92 rilevamenti"
+     "Segnale persistente: 93 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24162,7 +24162,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 92 detections"
+     "Persistent signal: 93 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -30671,6 +30671,167 @@
    }
   },
   {
+   "id": 548,
+   "name": "Manelis Mazibuko",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "midfielder Manelis Mazibuko had his goal ruled out as early as the sixth minute by the match official for offside.",
+     "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "midfielder",
+   "club": "South African U20 Men's National team (Amajita)",
+   "league": "CAF U20 Men's Africa Cup of Nations COSAFA qualifiers",
+   "region": "South Africa",
+   "gender": "male",
+   "score": 30,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.5,
+    "asymmetry": 8.0,
+    "selection": 19.0,
+    "n_sources": 3,
+    "detection_count": 6
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "safa.net",
+     "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/",
+     "seen": "2026-09-20T21:00:06.097088"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/manelis-mazibuko-3650042",
+     "seen": "2026-09-21T05:18:51.145487"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/mazibuko-manelis/vPv3aCn9/injury-history/",
+     "seen": "2026-10-14T21:53:14.645526"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 1,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-20T21:00:06.097088",
+   "last_seen": "2026-10-14T21:53:14.645526",
+   "selezione": {
+    "quante": 3,
+    "frase": "Convocato 3 volte da South African Football Association.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#breadcrumb"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#primaryimage"
+     }
+    ],
+    "fonte": "South African Football Association",
+    "frase_en": "Called up 3 times by South African Football Association."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "3 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "3 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/",
+      "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#breadcrumb",
+      "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#primaryimage"
+     ],
+     "dati": {
+      "convocazioni": 3,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Continuità documentata: 1 presenze",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented continuity: 1 appearances",
+     "Minor context: potentially underpriced",
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "id": 161,
    "name": "Lovro Majer",
    "age": null,
@@ -31667,162 +31828,6 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 548,
-   "name": "Manelis Mazibuko",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "South African Football Association",
-     "tipo": "federation",
-     "citazione": "midfielder Manelis Mazibuko had his goal ruled out as early as the sixth minute by the match official for offside.",
-     "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "midfielder",
-   "club": "South African U20 Men's National team (Amajita)",
-   "league": "CAF U20 Men's Africa Cup of Nations COSAFA qualifiers",
-   "region": "South Africa",
-   "gender": "male",
-   "score": 24,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.5,
-    "asymmetry": 8.0,
-    "selection": 19.0,
-    "n_sources": 2,
-    "detection_count": 5
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "safa.net",
-     "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/",
-     "seen": "2026-09-20T21:00:06.097088"
-    },
-    {
-     "domain": "besoccer.com",
-     "url": "https://www.besoccer.com/player/manelis-mazibuko-3650042",
-     "seen": "2026-09-21T05:18:51.145487"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 1,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-20T21:00:06.097088",
-   "last_seen": "2026-09-25T17:28:00.639658",
-   "selezione": {
-    "quante": 3,
-    "frase": "Convocato 3 volte da South African Football Association.",
-    "dal": "",
-    "al": "",
-    "categorie": [],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/"
-     },
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#breadcrumb"
-     },
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#primaryimage"
-     }
-    ],
-    "fonte": "South African Football Association",
-    "frase_en": "Called up 3 times by South African Football Association."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "3 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "3 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/",
-      "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#breadcrumb",
-      "https://www.safa.net/amajita/amajita-begin-title-defence-with-a-convincing-win-over-lesotho-in-the-cosafa-cup/#primaryimage"
-     ],
-     "dati": {
-      "convocazioni": 3,
-      "tipi_fonte": [
-       "aggregator",
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Continuità documentata: 1 presenze",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società"
-    ],
-    "pros_en": [
-     "Documented continuity: 1 appearances",
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club"
     ]
    }
   },
