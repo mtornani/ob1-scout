@@ -1,16 +1,25 @@
 {
- "generated_at": "2026-10-14T05:43:05.923021+00:00",
+ "generated_at": "2026-10-14T12:44:28.587037+00:00",
  "version": "1.0.0",
- "build": "6637ae0",
- "total": 663,
+ "build": "2bb73b8",
+ "total": 668,
  "publishable": 121,
- "tracking": 542,
- "shown": 663,
+ "tracking": 547,
+ "shown": 668,
  "tracking_capped": 0,
  "outcomes": {
-  "checked": 2,
-  "avg_lead_time_days": 24.0,
+  "checked": 3,
+  "avg_lead_time_days": 32.7,
   "casi": [
+   {
+    "player_id": 279,
+    "nome": "João Pedro Murilo",
+    "club": "Vasco",
+    "giorni": 50,
+    "url": "https://trivela.com.br/inglaterra/capitao-chelsea-reserva-reece-james-prejudicado-evolucao-tatica-xabi-alonso/",
+    "dominio": "trivela.com.br",
+    "quando": "2026-10-14T12:15:44.319634"
+   },
    {
     "player_id": 279,
     "nome": "João Pedro Murilo",
@@ -15909,7 +15918,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 74
+    "detection_count": 75
    },
    "n_sources": 4,
    "sources": [
@@ -15954,7 +15963,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 74 rilevamenti"
+     "Segnale persistente: 75 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -15965,7 +15974,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 74 detections"
+     "Persistent signal: 75 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -16130,7 +16139,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 83
+    "detection_count": 84
    },
    "n_sources": 4,
    "sources": [
@@ -16175,7 +16184,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 83 rilevamenti"
+     "Segnale persistente: 84 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16190,7 +16199,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 83 detections"
+     "Persistent signal: 84 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16473,7 +16482,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 88
+    "detection_count": 89
    },
    "n_sources": 3,
    "sources": [
@@ -16513,7 +16522,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 88 rilevamenti"
+     "Segnale persistente: 89 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16528,7 +16537,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 88 detections"
+     "Persistent signal: 89 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18749,7 +18758,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 79
+    "detection_count": 80
    },
    "n_sources": 3,
    "sources": [
@@ -18789,7 +18798,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 79 rilevamenti"
+     "Segnale persistente: 80 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18804,7 +18813,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 79 detections"
+     "Persistent signal: 80 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19408,7 +19417,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 77
+    "detection_count": 78
    },
    "n_sources": 2,
    "sources": [
@@ -19443,7 +19452,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 77 rilevamenti"
+     "Segnale persistente: 78 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19458,7 +19467,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 77 detections"
+     "Persistent signal: 78 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19520,7 +19529,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 76
+    "detection_count": 77
    },
    "n_sources": 2,
    "sources": [
@@ -19555,7 +19564,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 76 rilevamenti"
+     "Segnale persistente: 77 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -19568,7 +19577,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 76 detections"
+     "Persistent signal: 77 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22116,7 +22125,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 79
+    "detection_count": 80
    },
    "n_sources": 4,
    "sources": [
@@ -22161,7 +22170,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 79 rilevamenti"
+     "Segnale persistente: 80 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22174,7 +22183,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 79 detections"
+     "Persistent signal: 80 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22234,7 +22243,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 80
+    "detection_count": 81
    },
    "n_sources": 4,
    "sources": [
@@ -22279,7 +22288,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 80 rilevamenti"
+     "Segnale persistente: 81 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -22294,7 +22303,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 80 detections"
+     "Persistent signal: 81 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22592,7 +22601,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 77
+    "detection_count": 78
    },
    "n_sources": 2,
    "sources": [
@@ -22627,7 +22636,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 77 rilevamenti"
+     "Segnale persistente: 78 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22640,7 +22649,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 77 detections"
+     "Persistent signal: 78 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23991,7 +24000,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 90
+    "detection_count": 91
    },
    "n_sources": 3,
    "sources": [
@@ -24030,7 +24039,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 90 rilevamenti"
+     "Segnale persistente: 91 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24042,7 +24051,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 90 detections"
+     "Persistent signal: 91 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24102,7 +24111,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 90
+    "detection_count": 91
    },
    "n_sources": 3,
    "sources": [
@@ -24141,7 +24150,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 90 rilevamenti"
+     "Segnale persistente: 91 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24153,7 +24162,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 90 detections"
+     "Persistent signal: 91 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25035,6 +25044,114 @@
    }
   },
   {
+   "id": 279,
+   "name": "João Pedro Murilo",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 19 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "volante",
+   "club": "Vasco",
+   "league": "Campeonato Brasileiro",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 11,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "trivela.com.br",
+     "url": "https://trivela.com.br/brasil/jp-vasco-promessa-selecao-sub20/",
+     "seen": "2026-08-25T02:03:52.774865"
+    },
+    {
+     "domain": "ge.globo.com",
+     "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2025/11/14/heroi-da-classificacao-do-brasil-no-mundial-sub-17-comecou-no-futsal-e-virou-goleiro-por-causa-da-altura.ghtml",
+     "seen": "2026-10-06T18:33:10.753023"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-25T02:03:52.774865",
+   "last_seen": "2026-10-14T12:15:44.319634",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 26,
    "name": "Axel Alfonzo",
    "age": null,
@@ -25592,114 +25709,6 @@
      "No documented performance stats"
     ],
     "next_steps_en": [
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 279,
-   "name": "João Pedro Murilo",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 19 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "volante",
-   "club": "Vasco",
-   "league": "Campeonato Brasileiro",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 9,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 7.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "trivela.com.br",
-     "url": "https://trivela.com.br/brasil/jp-vasco-promessa-selecao-sub20/",
-     "seen": "2026-08-25T02:03:52.774865"
-    },
-    {
-     "domain": "ge.globo.com",
-     "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2025/11/14/heroi-da-classificacao-do-brasil-no-mundial-sub-17-comecou-no-futsal-e-virou-goleiro-por-causa-da-altura.ghtml",
-     "seen": "2026-10-06T18:33:10.753023"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-25T02:03:52.774865",
-   "last_seen": "2026-10-06T18:33:10.753023",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
      "Get performance stats (match reports)"
     ]
    }
@@ -62679,6 +62688,312 @@
    }
   },
   {
+   "id": 666,
+   "name": "Ibrahim Mbaye",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Wiwsport",
+     "tipo": "national_press",
+     "citazione": "mercato-le-fc-porto-nouveau-pretendant-pour-ibrahim-mbaye",
+     "url": "https://wiwsport.com/post-sitemap6.xml"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Wiwsport",
+     "tipo": "national_press",
+     "citazione": "mercato-le-fc-porto-nouveau-pretendant-pour-ibrahim-mbaye",
+     "url": "https://wiwsport.com/post-sitemap6.xml"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "FC Porto",
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "wiwsport.com",
+     "url": "https://wiwsport.com/post-sitemap6.xml",
+     "seen": "2026-10-14T12:15:44.319634"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-14T12:15:44.319634",
+   "last_seen": "2026-10-14T12:15:44.319634",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Wiwsport"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Wiwsport"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 667,
+   "name": "Fara Mendy",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Wiwsport",
+     "tipo": "national_press",
+     "citazione": "mercato-fara-mendy-quitte-dakar-sacre-coeur-pour-la-serbie",
+     "url": "https://wiwsport.com/post-sitemap6.xml"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Wiwsport",
+     "tipo": "national_press",
+     "citazione": "mercato-fara-mendy-quitte-dakar-sacre-coeur-pour-la-serbie",
+     "url": "https://wiwsport.com/post-sitemap6.xml"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Dakar Sacre Coeur",
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "wiwsport.com",
+     "url": "https://wiwsport.com/post-sitemap6.xml",
+     "seen": "2026-10-14T12:15:44.319634"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-14T12:15:44.319634",
+   "last_seen": "2026-10-14T12:15:44.319634",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Wiwsport"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Wiwsport"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 668,
+   "name": "Cheikh Koité",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Wiwsport",
+     "tipo": "national_press",
+     "citazione": "mercato-cheikh-koite-ancien-de-letoile-lusitana-rejoint-anderlecht",
+     "url": "https://wiwsport.com/post-sitemap6.xml"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Wiwsport",
+     "tipo": "national_press",
+     "citazione": "mercato-cheikh-koite-ancien-de-letoile-lusitana-rejoint-anderlecht",
+     "url": "https://wiwsport.com/post-sitemap6.xml"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Anderlecht",
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "wiwsport.com",
+     "url": "https://wiwsport.com/post-sitemap6.xml",
+     "seen": "2026-10-14T12:15:44.319634"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-14T12:15:44.319634",
+   "last_seen": "2026-10-14T12:15:44.319634",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Wiwsport"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Wiwsport"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 129,
    "name": "Juana Flores",
    "age": null,
@@ -78750,6 +79065,216 @@
      "No documented performance stats",
      "Age not confirmed",
      "Weak identity: incomplete name or nickname"
+    ],
+    "next_steps_en": [
+     "Resolve the identity: needs a verifiable full name",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 664,
+   "name": "Caicedo",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Trivela",
+     "tipo": "local_press",
+     "citazione": "Henderson e Caicedo como substitutos no meio-campo do Chelsea",
+     "url": "https://trivela.com.br/inglaterra/capitao-chelsea-reserva-reece-james-prejudicado-evolucao-tatica-xabi-alonso/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Trivela",
+     "tipo": "local_press",
+     "citazione": "Henderson e Caicedo como substitutos no meio-campo do Chelsea",
+     "url": "https://trivela.com.br/inglaterra/capitao-chelsea-reserva-reece-james-prejudicado-evolucao-tatica-xabi-alonso/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Chelsea",
+   "league": "Premier League",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 0,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": -20.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "trivela.com.br",
+     "url": "https://trivela.com.br/inglaterra/capitao-chelsea-reserva-reece-james-prejudicado-evolucao-tatica-xabi-alonso/",
+     "seen": "2026-10-14T12:15:44.319634"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "nome_singolo,eta_mancante,fonte_singola,eta_assente,club_dichiarato,gia_coperto_da_tutti",
+   "coverage_tier": "standard",
+   "first_detected": "2026-10-14T12:15:44.319634",
+   "last_seen": "2026-10-14T12:15:44.319634",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Nome e club scritti da Trivela"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Identità debole: nome incompleto o soprannome"
+    ],
+    "next_steps": [
+     "Risolvere l'identità: serve un nome completo verificabile",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Name and club stated by Trivela"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Weak identity: incomplete name or nickname"
+    ],
+    "next_steps_en": [
+     "Resolve the identity: needs a verifiable full name",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 665,
+   "name": "Rogers",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Trivela",
+     "tipo": "local_press",
+     "citazione": "João Pedro, Rogers e Henderson marcaram gols",
+     "url": "https://trivela.com.br/inglaterra/capitao-chelsea-reserva-reece-james-prejudicado-evolucao-tatica-xabi-alonso/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Chelsea",
+   "league": "Premier League",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 0,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": -20.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "trivela.com.br",
+     "url": "https://trivela.com.br/inglaterra/capitao-chelsea-reserva-reece-james-prejudicado-evolucao-tatica-xabi-alonso/",
+     "seen": "2026-10-14T12:15:44.319634"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "nome_singolo,eta_mancante,fonte_singola,eta_assente,club_assente,gia_coperto_da_tutti",
+   "coverage_tier": "standard",
+   "first_detected": "2026-10-14T12:15:44.319634",
+   "last_seen": "2026-10-14T12:15:44.319634",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Risolvere l'identità: serve un nome completo verificabile",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
     ],
     "next_steps_en": [
      "Resolve the identity: needs a verifiable full name",
