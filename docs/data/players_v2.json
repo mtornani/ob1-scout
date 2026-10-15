@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-15T17:34:55.987787+00:00",
+ "generated_at": "2026-10-15T22:05:09.261745+00:00",
  "version": "1.0.0",
- "build": "6b17fd0",
+ "build": "d7ac329",
  "total": 669,
  "publishable": 121,
  "tracking": 548,
@@ -15918,7 +15918,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 80
+    "detection_count": 81
    },
    "n_sources": 4,
    "sources": [
@@ -15963,7 +15963,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 80 rilevamenti"
+     "Segnale persistente: 81 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -15974,7 +15974,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 80 detections"
+     "Persistent signal: 81 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -16139,7 +16139,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 90
+    "detection_count": 91
    },
    "n_sources": 4,
    "sources": [
@@ -16184,7 +16184,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 90 rilevamenti"
+     "Segnale persistente: 91 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16199,7 +16199,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 90 detections"
+     "Persistent signal: 91 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16482,7 +16482,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 93
+    "detection_count": 94
    },
    "n_sources": 3,
    "sources": [
@@ -16522,7 +16522,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 93 rilevamenti"
+     "Segnale persistente: 94 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16537,7 +16537,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 93 detections"
+     "Persistent signal: 94 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16599,7 +16599,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 4,
    "sources": [
@@ -16635,7 +16635,7 @@
    "review_flags": "senza_fonte_primary,eta_dedotto,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-06-03T16:49:26.441555",
-   "last_seen": "2026-10-02T06:02:31.750362",
+   "last_seen": "2026-10-15T21:39:32.169519",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -16643,7 +16643,8 @@
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "4 domini distinti lo nominano"
+     "4 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16658,7 +16659,8 @@
     "pros_en": [
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
-     "4 distinct domains mention him"
+     "4 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18758,7 +18760,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 85
+    "detection_count": 86
    },
    "n_sources": 3,
    "sources": [
@@ -18798,7 +18800,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 85 rilevamenti"
+     "Segnale persistente: 86 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18813,7 +18815,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 85 detections"
+     "Persistent signal: 86 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19417,7 +19419,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 83
+    "detection_count": 84
    },
    "n_sources": 2,
    "sources": [
@@ -19452,7 +19454,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 83 rilevamenti"
+     "Segnale persistente: 84 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19467,7 +19469,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 83 detections"
+     "Persistent signal: 84 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19529,7 +19531,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 81
+    "detection_count": 82
    },
    "n_sources": 2,
    "sources": [
@@ -19564,7 +19566,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 81 rilevamenti"
+     "Segnale persistente: 82 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -19577,7 +19579,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 81 detections"
+     "Persistent signal: 82 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22125,7 +22127,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 84
+    "detection_count": 85
    },
    "n_sources": 4,
    "sources": [
@@ -22170,7 +22172,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 84 rilevamenti"
+     "Segnale persistente: 85 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22183,7 +22185,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 84 detections"
+     "Persistent signal: 85 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22243,7 +22245,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 84
+    "detection_count": 85
    },
    "n_sources": 4,
    "sources": [
@@ -22288,7 +22290,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 84 rilevamenti"
+     "Segnale persistente: 85 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -22303,7 +22305,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 84 detections"
+     "Persistent signal: 85 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22601,7 +22603,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 83
+    "detection_count": 84
    },
    "n_sources": 2,
    "sources": [
@@ -22636,7 +22638,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 83 rilevamenti"
+     "Segnale persistente: 84 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22649,7 +22651,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 83 detections"
+     "Persistent signal: 84 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24000,7 +24002,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 96
+    "detection_count": 97
    },
    "n_sources": 3,
    "sources": [
@@ -24039,7 +24041,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 96 rilevamenti"
+     "Segnale persistente: 97 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24051,7 +24053,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 96 detections"
+     "Persistent signal: 97 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24111,7 +24113,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 96
+    "detection_count": 97
    },
    "n_sources": 3,
    "sources": [
@@ -24150,7 +24152,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 96 rilevamenti"
+     "Segnale persistente: 97 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24162,7 +24164,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 96 detections"
+     "Persistent signal: 97 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -67742,7 +67744,7 @@
     "asymmetry": 0.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 2,
    "sources": [
@@ -67763,13 +67765,14 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-21T22:08:09.181084",
-   "last_seen": "2026-10-09T06:32:56.093208",
+   "last_seen": "2026-10-15T21:39:32.169519",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
    "assessment": {
     "pros": [
-     "2 domini distinti lo nominano"
+     "2 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -67783,7 +67786,8 @@
      "Recuperare statistiche di rendimento (referti gara)"
     ],
     "pros_en": [
-     "2 distinct domains mention him"
+     "2 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
