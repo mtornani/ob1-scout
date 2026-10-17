@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-16T22:03:01.922340+00:00",
+ "generated_at": "2026-10-17T05:19:25.612372+00:00",
  "version": "1.0.0",
- "build": "8abde33",
+ "build": "7c06b8c",
  "total": 672,
  "publishable": 121,
  "tracking": 551,
@@ -15918,7 +15918,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 84
+    "detection_count": 85
    },
    "n_sources": 4,
    "sources": [
@@ -15963,7 +15963,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 84 rilevamenti"
+     "Segnale persistente: 85 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -15974,7 +15974,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 84 detections"
+     "Persistent signal: 85 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -16139,7 +16139,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 95
+    "detection_count": 96
    },
    "n_sources": 4,
    "sources": [
@@ -16184,7 +16184,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 95 rilevamenti"
+     "Segnale persistente: 96 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16199,7 +16199,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 95 detections"
+     "Persistent signal: 96 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16482,7 +16482,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 97
+    "detection_count": 98
    },
    "n_sources": 3,
    "sources": [
@@ -16522,7 +16522,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 97 rilevamenti"
+     "Segnale persistente: 98 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16537,7 +16537,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 97 detections"
+     "Persistent signal: 98 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18475,6 +18475,123 @@
    }
   },
   {
+   "id": 4,
+   "name": "Ryan Evaristo",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Ryan Evaristo - Player profile",
+     "url": "https://www.transfermarkt.com/ryan-evaristo/profil/spieler/1568200"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Ryan Evaristo, 18 anni, SC Corinthians U20",
+     "url": "https://www.transfermarkt.com/ryan-evaristo/profil/spieler/1568200"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "ST",
+   "club": "São Paulo",
+   "league": "Youth (Copinha)",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 19,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 90
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "instagram.com",
+     "url": "https://www.instagram.com/p/DVRpeUHDlup/",
+     "seen": "2026-03-01T18:34:20.455948"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/ryan-evaristo/profil/spieler/1568200",
+     "seen": "2026-07-21T09:11:23.011662"
+    },
+    {
+     "domain": "za.soccerway.com",
+     "url": "https://za.soccerway.com/player/evaristo-ryan/fyXN0IXP/",
+     "seen": "2026-10-17T04:52:42.757502"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "senza_fonte_primary,eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-03-01T18:34:20.455948",
+   "last_seen": null,
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "3 domini distinti lo nominano",
+     "Segnale persistente: 90 rilevamenti"
+    ],
+    "cautions": [
+     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Minor context: potentially underpriced",
+     "3 distinct domains mention him",
+     "Persistent signal: 90 detections"
+    ],
+    "cautions_en": [
+     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Look for a primary press/federation source to bring it to the full standard",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 9,
    "name": "Diego Reyes",
    "age": null,
@@ -18760,7 +18877,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 90
+    "detection_count": 91
    },
    "n_sources": 3,
    "sources": [
@@ -18800,7 +18917,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 90 rilevamenti"
+     "Segnale persistente: 91 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18815,7 +18932,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 90 detections"
+     "Persistent signal: 91 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19371,118 +19488,6 @@
    }
   },
   {
-   "id": 4,
-   "name": "Ryan Evaristo",
-   "age": 18,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Ryan Evaristo - Player profile",
-     "url": "https://www.transfermarkt.com/ryan-evaristo/profil/spieler/1568200"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Ryan Evaristo, 18 anni, SC Corinthians U20",
-     "url": "https://www.transfermarkt.com/ryan-evaristo/profil/spieler/1568200"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "ST",
-   "club": "São Paulo",
-   "league": "Youth (Copinha)",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 18,
-   "confidence": 0.93,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 88
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "instagram.com",
-     "url": "https://www.instagram.com/p/DVRpeUHDlup/",
-     "seen": "2026-03-01T18:34:20.455948"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/ryan-evaristo/profil/spieler/1568200",
-     "seen": "2026-07-21T09:11:23.011662"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "senza_fonte_primary,eta_dichiarato,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-03-01T18:34:20.455948",
-   "last_seen": null,
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Giovane (18 anni)",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano",
-     "Segnale persistente: 88 rilevamenti"
-    ],
-    "cautions": [
-     "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Cercare una fonte di stampa/federazione primaria per portarlo allo standard pieno",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Young (18 yo)",
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him",
-     "Persistent signal: 88 detections"
-    ],
-    "cautions_en": [
-     "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Look for a primary press/federation source to bring it to the full standard",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 54,
    "name": "Hugo Sochurek",
    "age": 18,
@@ -19531,7 +19536,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 86
+    "detection_count": 87
    },
    "n_sources": 2,
    "sources": [
@@ -19566,7 +19571,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 86 rilevamenti"
+     "Segnale persistente: 87 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -19579,7 +19584,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 86 detections"
+     "Persistent signal: 87 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22127,7 +22132,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 87
+    "detection_count": 89
    },
    "n_sources": 4,
    "sources": [
@@ -22172,7 +22177,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 87 rilevamenti"
+     "Segnale persistente: 89 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22185,7 +22190,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 87 detections"
+     "Persistent signal: 89 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22245,7 +22250,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 89
+    "detection_count": 90
    },
    "n_sources": 4,
    "sources": [
@@ -22290,7 +22295,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 89 rilevamenti"
+     "Segnale persistente: 90 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -22305,7 +22310,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 89 detections"
+     "Persistent signal: 90 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22367,7 +22372,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 3,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 3,
    "sources": [
@@ -22398,7 +22403,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-09-14T21:57:46.100597",
-   "last_seen": "2026-10-10T12:55:47.645119",
+   "last_seen": "2026-10-17T04:52:42.757502",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol.",
@@ -22424,7 +22429,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22436,7 +22441,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22603,7 +22608,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 87
+    "detection_count": 88
    },
    "n_sources": 2,
    "sources": [
@@ -22638,7 +22643,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 87 rilevamenti"
+     "Segnale persistente: 88 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22651,7 +22656,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 87 detections"
+     "Persistent signal: 88 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24002,7 +24007,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 101
+    "detection_count": 102
    },
    "n_sources": 3,
    "sources": [
@@ -24041,7 +24046,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 101 rilevamenti"
+     "Segnale persistente: 102 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24053,7 +24058,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 101 detections"
+     "Persistent signal: 102 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24113,7 +24118,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 101
+    "detection_count": 102
    },
    "n_sources": 3,
    "sources": [
@@ -24152,7 +24157,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 101 rilevamenti"
+     "Segnale persistente: 102 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24164,7 +24169,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 101 detections"
+     "Persistent signal: 102 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -45734,7 +45739,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 2,
    "sources": [
@@ -45760,14 +45765,15 @@
    "review_flags": "eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-27T05:36:31.644864",
-   "last_seen": "2026-10-10T12:55:47.645119",
+   "last_seen": "2026-10-17T04:52:42.757502",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
+     "2 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -45780,7 +45786,8 @@
     ],
     "pros_en": [
      "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
+     "2 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
