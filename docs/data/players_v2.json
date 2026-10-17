@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-17T05:19:25.612372+00:00",
+ "generated_at": "2026-10-17T11:23:10.265596+00:00",
  "version": "1.0.0",
- "build": "7c06b8c",
+ "build": "86f5a89",
  "total": 672,
  "publishable": 121,
  "tracking": 551,
@@ -15918,7 +15918,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 85
+    "detection_count": 86
    },
    "n_sources": 4,
    "sources": [
@@ -15963,7 +15963,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 85 rilevamenti"
+     "Segnale persistente: 86 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -15974,7 +15974,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 85 detections"
+     "Persistent signal: 86 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -16139,7 +16139,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 96
+    "detection_count": 97
    },
    "n_sources": 4,
    "sources": [
@@ -16184,7 +16184,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 96 rilevamenti"
+     "Segnale persistente: 97 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16199,7 +16199,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 96 detections"
+     "Persistent signal: 97 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16883,7 +16883,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 10
+    "detection_count": 11
    },
    "n_sources": 3,
    "sources": [
@@ -16914,7 +16914,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-09-05T04:51:08.752162",
-   "last_seen": "2026-10-10T12:55:47.645119",
+   "last_seen": "2026-10-17T11:04:24.454664",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -18523,7 +18523,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 90
+    "detection_count": 91
    },
    "n_sources": 3,
    "sources": [
@@ -18563,7 +18563,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 90 rilevamenti"
+     "Segnale persistente: 91 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18578,7 +18578,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 90 detections"
+     "Persistent signal: 91 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18877,7 +18877,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 91
+    "detection_count": 92
    },
    "n_sources": 3,
    "sources": [
@@ -18917,7 +18917,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 91 rilevamenti"
+     "Segnale persistente: 92 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18932,7 +18932,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 91 detections"
+     "Persistent signal: 92 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19488,6 +19488,124 @@
    }
   },
   {
+   "id": 401,
+   "name": "Aaron Cartwright",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "an impressive run down the right from player of the match Aaron Cartwright",
+     "url": "https://www.oceaniafootball.com/defending-champions-advance-after-second-matchday-in-group-b/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Aaron Cen Cartwright, 18 anni, Auckland FC",
+     "url": "https://www.transfermarkt.us/aaron-cartwright/profil/spieler/1291443"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Right Winger",
+   "club": "New Zealand (Junior All Whites)",
+   "league": "OFC U-19 Men's Championship 2026",
+   "region": "Pacific Islands",
+   "gender": "male",
+   "score": 19,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 4,
+    "detection_count": 5
+   },
+   "n_sources": 4,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/defending-champions-advance-after-second-matchday-in-group-b/",
+     "seen": "2026-09-05T04:51:08.752162"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/aaron-cartwright/profil/spieler/1291443",
+     "seen": "2026-09-08T11:38:42.619417"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/cartwright-aaron/hSr25yuo",
+     "seen": "2026-10-03T16:36:29.898535"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/cartwright-aaron/hSr25yuo/",
+     "seen": "2026-10-17T11:04:24.454664"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-05T04:51:08.752162",
+   "last_seen": "2026-10-17T11:04:24.454664",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "4 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Minor context: potentially underpriced",
+     "4 distinct domains mention him",
+     "Persistent signal: 5 detections"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 54,
    "name": "Hugo Sochurek",
    "age": 18,
@@ -19536,7 +19654,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 87
+    "detection_count": 88
    },
    "n_sources": 2,
    "sources": [
@@ -19571,7 +19689,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 87 rilevamenti"
+     "Segnale persistente: 88 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -19584,7 +19702,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 87 detections"
+     "Persistent signal: 88 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21765,117 +21883,6 @@
    }
   },
   {
-   "id": 401,
-   "name": "Aaron Cartwright",
-   "age": 18,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "an impressive run down the right from player of the match Aaron Cartwright",
-     "url": "https://www.oceaniafootball.com/defending-champions-advance-after-second-matchday-in-group-b/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Aaron Cen Cartwright, 18 anni, Auckland FC",
-     "url": "https://www.transfermarkt.us/aaron-cartwright/profil/spieler/1291443"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Right Winger",
-   "club": "New Zealand (Junior All Whites)",
-   "league": "OFC U-19 Men's Championship 2026",
-   "region": "Pacific Islands",
-   "gender": "male",
-   "score": 17,
-   "confidence": 0.91,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 4
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/defending-champions-advance-after-second-matchday-in-group-b/",
-     "seen": "2026-09-05T04:51:08.752162"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/aaron-cartwright/profil/spieler/1291443",
-     "seen": "2026-09-08T11:38:42.619417"
-    },
-    {
-     "domain": "us.soccerway.com",
-     "url": "https://us.soccerway.com/player/cartwright-aaron/hSr25yuo",
-     "seen": "2026-10-03T16:36:29.898535"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-05T04:51:08.752162",
-   "last_seen": "2026-10-10T21:56:03.133058",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Giovane (18 anni)",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Young (18 yo)",
-     "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 417,
    "name": "Gregory Diko",
    "age": 19,
@@ -22132,7 +22139,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 89
+    "detection_count": 90
    },
    "n_sources": 4,
    "sources": [
@@ -22177,7 +22184,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 89 rilevamenti"
+     "Segnale persistente: 90 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22190,7 +22197,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 89 detections"
+     "Persistent signal: 90 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22250,7 +22257,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 90
+    "detection_count": 92
    },
    "n_sources": 4,
    "sources": [
@@ -22295,7 +22302,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 90 rilevamenti"
+     "Segnale persistente: 92 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -22310,7 +22317,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 90 detections"
+     "Persistent signal: 92 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22608,7 +22615,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 88
+    "detection_count": 89
    },
    "n_sources": 2,
    "sources": [
@@ -22643,7 +22650,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 88 rilevamenti"
+     "Segnale persistente: 89 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22656,7 +22663,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 88 detections"
+     "Persistent signal: 89 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24118,7 +24125,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 102
+    "detection_count": 103
    },
    "n_sources": 3,
    "sources": [
@@ -24157,7 +24164,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 102 rilevamenti"
+     "Segnale persistente: 103 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24169,7 +24176,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 102 detections"
+     "Persistent signal: 103 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
