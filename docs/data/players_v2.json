@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-19T14:15:10.005385+00:00",
+ "generated_at": "2026-10-19T23:01:40.342605+00:00",
  "version": "1.0.0",
- "build": "ad4da5b",
+ "build": "f5b5223",
  "total": 677,
  "publishable": 123,
  "tracking": 554,
@@ -2220,6 +2220,156 @@
    }
   },
   {
+   "id": 651,
+   "name": "Abdul Latif Wunzalgu",
+   "age": 15,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Ghana Football Association",
+     "tipo": "federation",
+     "citazione": "Abdul Latif Wunzalgu wins Man of the Match in Black Starlets’ 1-0 win over Togo",
+     "url": "https://www.ghanafa.org/wafu-b-u17-abdul-latif-wunzalgu-wins-man-of-the-match-in-black-starlets-1-0-win-over-togo"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Abdul Latif Wunzalgu Zakiu, 15 anni, Gaz Nobles FC",
+     "url": "https://www.transfermarkt.us/abdul-latif-wunzalgu-zakiu/profil/spieler/1548326"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Abdul Latif Wunzalgu Zakiu, 15 anni, Gaz Nobles FC",
+     "url": "https://www.transfermarkt.us/abdul-latif-wunzalgu-zakiu/profil/spieler/1548326"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attack",
+   "club": "Gaz Nobles FC",
+   "league": null,
+   "region": "Ghana",
+   "gender": "male",
+   "score": 31,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 20.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "ghanafa.org",
+     "url": "https://www.ghanafa.org/wafu-b-u17-abdul-latif-wunzalgu-wins-man-of-the-match-in-black-starlets-1-0-win-over-togo",
+     "seen": "2026-10-11T06:15:11.761343"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/abdul-latif-wunzalgu-zakiu/profil/spieler/1548326",
+     "seen": "2026-10-11T06:15:11.761343"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-11T06:15:11.761343",
+   "last_seen": "2026-10-19T22:34:13.216665",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Ghana Football Association, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Ghana Football Association",
+      "url": "https://www.ghanafa.org/wafu-b-u17-abdul-latif-wunzalgu-wins-man-of-the-match-in-black-starlets-1-0-win-over-togo"
+     },
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Ghana Football Association",
+      "url": "https://www.ghanafa.org/wafu-b-u17-black-starlets-winger-abdul-latif-insists-his-best-will-come-against-ivory-coast"
+     }
+    ],
+    "fonte": "Ghana Football Association",
+    "frase_en": "Called up 2 times by Ghana Football Association, U17."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Ghana Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Ghana Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://www.ghanafa.org/wafu-b-u17-abdul-latif-wunzalgu-wins-man-of-the-match-in-black-starlets-1-0-win-over-togo",
+      "https://www.ghanafa.org/wafu-b-u17-black-starlets-winger-abdul-latif-insists-his-best-will-come-against-ivory-coast"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Molto giovane (15 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Very young (15 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "id": 553,
    "name": "Emile Witbooi",
    "age": 18,
@@ -4300,131 +4450,6 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by Federación Colombiana de Fútbol",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Get performance stats (match reports)",
-     "Request video or schedule a live viewing",
-     "Call the club: confirm identity and contract status"
-    ]
-   }
-  },
-  {
-   "id": 651,
-   "name": "Abdul Latif Wunzalgu",
-   "age": 15,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Ghana Football Association",
-     "tipo": "federation",
-     "citazione": "Abdul Latif Wunzalgu wins Man of the Match in Black Starlets’ 1-0 win over Togo",
-     "url": "https://www.ghanafa.org/wafu-b-u17-abdul-latif-wunzalgu-wins-man-of-the-match-in-black-starlets-1-0-win-over-togo"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Abdul Latif Wunzalgu Zakiu, 15 anni, Gaz Nobles FC",
-     "url": "https://www.transfermarkt.us/abdul-latif-wunzalgu-zakiu/profil/spieler/1548326"
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Abdul Latif Wunzalgu Zakiu, 15 anni, Gaz Nobles FC",
-     "url": "https://www.transfermarkt.us/abdul-latif-wunzalgu-zakiu/profil/spieler/1548326"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Attack",
-   "club": "Gaz Nobles FC",
-   "league": null,
-   "region": "Ghana",
-   "gender": "male",
-   "score": 20,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 20.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "ghanafa.org",
-     "url": "https://www.ghanafa.org/wafu-b-u17-abdul-latif-wunzalgu-wins-man-of-the-match-in-black-starlets-1-0-win-over-togo",
-     "seen": "2026-10-11T06:15:11.761343"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/abdul-latif-wunzalgu-zakiu/profil/spieler/1548326",
-     "seen": "2026-10-11T06:15:11.761343"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {},
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_dichiarato",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-10-11T06:15:11.761343",
-   "last_seen": "2026-10-11T06:15:11.761343",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Ghana Football Association, Sub-17.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Ghana Football Association",
-      "url": "https://www.ghanafa.org/wafu-b-u17-abdul-latif-wunzalgu-wins-man-of-the-match-in-black-starlets-1-0-win-over-togo"
-     }
-    ],
-    "fonte": "Ghana Football Association",
-    "frase_en": "Called up 1 times by Ghana Football Association, U17."
-   },
-   "anomalie": [],
-   "publishable": true,
-   "assessment": {
-    "pros": [
-     "Molto giovane (15 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Transfermarkt",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)",
-     "Richiedere video o programmare una visione diretta",
-     "Telefonata al club: conferma anagrafica e status contrattuale"
-    ],
-    "pros_en": [
-     "Very young (15 yo): plenty of room to develop",
-     "Minor context: potentially underpriced",
-     "Name and club stated by Transfermarkt",
      "2 distinct domains mention him"
     ],
     "cautions_en": [
@@ -16148,7 +16173,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 93
+    "detection_count": 94
    },
    "n_sources": 4,
    "sources": [
@@ -16193,7 +16218,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 93 rilevamenti"
+     "Segnale persistente: 94 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -16204,7 +16229,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 93 detections"
+     "Persistent signal: 94 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -16369,7 +16394,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 104
+    "detection_count": 105
    },
    "n_sources": 4,
    "sources": [
@@ -16414,7 +16439,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 104 rilevamenti"
+     "Segnale persistente: 105 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16429,7 +16454,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 104 detections"
+     "Persistent signal: 105 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16712,7 +16737,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 105
+    "detection_count": 106
    },
    "n_sources": 3,
    "sources": [
@@ -16752,7 +16777,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 105 rilevamenti"
+     "Segnale persistente: 106 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16767,7 +16792,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 105 detections"
+     "Persistent signal: 106 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18753,7 +18778,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 97
+    "detection_count": 98
    },
    "n_sources": 3,
    "sources": [
@@ -18793,7 +18818,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 97 rilevamenti"
+     "Segnale persistente: 98 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18808,7 +18833,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 97 detections"
+     "Persistent signal: 98 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19107,7 +19132,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 99
+    "detection_count": 100
    },
    "n_sources": 3,
    "sources": [
@@ -19147,7 +19172,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 99 rilevamenti"
+     "Segnale persistente: 100 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19162,7 +19187,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 99 detections"
+     "Persistent signal: 100 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19884,7 +19909,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 95
+    "detection_count": 96
    },
    "n_sources": 2,
    "sources": [
@@ -19919,7 +19944,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 95 rilevamenti"
+     "Segnale persistente: 96 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -19932,7 +19957,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 95 detections"
+     "Persistent signal: 96 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22369,7 +22394,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 98
+    "detection_count": 99
    },
    "n_sources": 4,
    "sources": [
@@ -22414,7 +22439,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 98 rilevamenti"
+     "Segnale persistente: 99 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22427,7 +22452,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 98 detections"
+     "Persistent signal: 99 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22845,7 +22870,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 97
+    "detection_count": 98
    },
    "n_sources": 2,
    "sources": [
@@ -22880,7 +22905,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 97 rilevamenti"
+     "Segnale persistente: 98 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22893,7 +22918,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 97 detections"
+     "Persistent signal: 98 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24244,7 +24269,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 109
+    "detection_count": 110
    },
    "n_sources": 3,
    "sources": [
@@ -24283,7 +24308,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 109 rilevamenti"
+     "Segnale persistente: 110 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24295,7 +24320,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 109 detections"
+     "Persistent signal: 110 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24355,7 +24380,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 112
+    "detection_count": 113
    },
    "n_sources": 3,
    "sources": [
@@ -24394,7 +24419,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 112 rilevamenti"
+     "Segnale persistente: 113 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24406,7 +24431,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 112 detections"
+     "Persistent signal: 113 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -29447,7 +29472,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 3,
    "sources": [
@@ -29473,14 +29498,15 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-29T13:14:01.475469",
-   "last_seen": "2026-10-13T14:29:30.311828",
+   "last_seen": "2026-10-19T22:34:13.216665",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
    "assessment": {
     "pros": [
      "Nome e club scritti da Transfermarkt",
-     "3 domini distinti lo nominano"
+     "3 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -29491,7 +29517,8 @@
     ],
     "pros_en": [
      "Name and club stated by Transfermarkt",
-     "3 distinct domains mention him"
+     "3 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -40307,6 +40334,112 @@
    }
   },
   {
+   "id": 617,
+   "name": "Thandamoni Baskey",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Khel Now Football",
+     "tipo": "national_press",
+     "citazione": "Anushka Kumari, Silky Devi Sorokhaibam, Thandamoni Baskey and Nira Chanu Longjam were India’s scorers in the first half",
+     "url": "https://khelnow.com/football/indian-football-afc-u-17-womens-asian-cup-qualifiers-india-vs-iraq-match-report"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Midfielder",
+   "club": "East Bengal",
+   "league": null,
+   "region": "India",
+   "gender": "female",
+   "score": 13,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "khelnow.com",
+     "url": "https://khelnow.com/football/indian-football-afc-u-17-womens-asian-cup-qualifiers-india-vs-iraq-match-report",
+     "seen": "2026-10-05T15:10:26.247557"
+    },
+    {
+     "domain": "ie.soccerway.com",
+     "url": "https://ie.soccerway.com/player/baskey-thandamoni/IPli6JIq/",
+     "seen": "2026-10-13T14:29:30.311828"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-05T15:10:26.247557",
+   "last_seen": "2026-10-19T22:34:13.216665",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "id": 130,
    "name": "Ana Pérez",
    "age": null,
@@ -44033,112 +44166,6 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 617,
-   "name": "Thandamoni Baskey",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Khel Now Football",
-     "tipo": "national_press",
-     "citazione": "Anushka Kumari, Silky Devi Sorokhaibam, Thandamoni Baskey and Nira Chanu Longjam were India’s scorers in the first half",
-     "url": "https://khelnow.com/football/indian-football-afc-u-17-womens-asian-cup-qualifiers-india-vs-iraq-match-report"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "East Bengal",
-   "league": null,
-   "region": "India",
-   "gender": "female",
-   "score": 11,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 4.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "khelnow.com",
-     "url": "https://khelnow.com/football/indian-football-afc-u-17-womens-asian-cup-qualifiers-india-vs-iraq-match-report",
-     "seen": "2026-10-05T15:10:26.247557"
-    },
-    {
-     "domain": "ie.soccerway.com",
-     "url": "https://ie.soccerway.com/player/baskey-thandamoni/IPli6JIq/",
-     "seen": "2026-10-13T14:29:30.311828"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-10-05T15:10:26.247557",
-   "last_seen": "2026-10-13T14:29:30.311828",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals",
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club"
     ]
    }
   },
