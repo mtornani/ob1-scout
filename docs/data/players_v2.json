@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-20T05:33:28.401803+00:00",
+ "generated_at": "2026-10-20T12:24:46.922752+00:00",
  "version": "1.0.0",
- "build": "69d8380",
+ "build": "744243d",
  "total": 680,
  "publishable": 123,
  "tracking": 557,
@@ -16173,7 +16173,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 95
+    "detection_count": 96
    },
    "n_sources": 4,
    "sources": [
@@ -16218,7 +16218,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 95 rilevamenti"
+     "Segnale persistente: 96 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -16229,7 +16229,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 95 detections"
+     "Persistent signal: 96 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -16394,7 +16394,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 106
+    "detection_count": 107
    },
    "n_sources": 4,
    "sources": [
@@ -16439,7 +16439,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 106 rilevamenti"
+     "Segnale persistente: 107 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16454,7 +16454,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 106 detections"
+     "Persistent signal: 107 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16629,7 +16629,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 5
+    "detection_count": 7
    },
    "n_sources": 3,
    "sources": [
@@ -16655,7 +16655,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-23T11:59:53.215187",
-   "last_seen": "2026-10-11T13:20:00.599022",
+   "last_seen": "2026-10-20T11:58:06.401513",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -16664,7 +16664,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -16677,7 +16677,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -16737,7 +16737,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 107
+    "detection_count": 108
    },
    "n_sources": 3,
    "sources": [
@@ -16777,7 +16777,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 107 rilevamenti"
+     "Segnale persistente: 108 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16792,7 +16792,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 107 detections"
+     "Persistent signal: 108 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17694,7 +17694,7 @@
    },
    "position": "Centre-Back",
    "club": "PVF",
-   "league": null,
+   "league": "K League Youth Cup",
    "region": "Vietnam",
    "gender": "male",
    "score": 21,
@@ -17705,7 +17705,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 3
+    "detection_count": 6
    },
    "n_sources": 3,
    "sources": [
@@ -17731,7 +17731,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-23T11:59:53.215187",
-   "last_seen": "2026-10-04T06:12:41.131813",
+   "last_seen": "2026-10-20T11:58:06.401513",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -17739,7 +17739,8 @@
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
+     "3 domini distinti lo nominano",
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -17751,7 +17752,8 @@
     "pros_en": [
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
+     "3 distinct domains mention him",
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -17811,7 +17813,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 3,
    "sources": [
@@ -17842,7 +17844,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-23T11:59:53.215187",
-   "last_seen": "2026-10-11T13:20:00.599022",
+   "last_seen": "2026-10-20T11:58:06.401513",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -17851,7 +17853,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -17864,7 +17866,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -18778,7 +18780,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 99
+    "detection_count": 100
    },
    "n_sources": 3,
    "sources": [
@@ -18818,7 +18820,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 99 rilevamenti"
+     "Segnale persistente: 100 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18833,7 +18835,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 99 detections"
+     "Persistent signal: 100 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19132,7 +19134,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 101
+    "detection_count": 102
    },
    "n_sources": 3,
    "sources": [
@@ -19172,7 +19174,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 101 rilevamenti"
+     "Segnale persistente: 102 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19187,7 +19189,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 101 detections"
+     "Persistent signal: 102 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22245,6 +22247,107 @@
    }
   },
   {
+   "id": 566,
+   "name": "Lê Sỹ Bách",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "cùng 9 cầu thủ: Lý Xuân Hòa, Nguyễn Việt Dũng, Nguyễn Ngọc Anh Hào, Bùi Trung Hiếu, Nguyễn Huỳnh Đăng Khoa, Nguyễn Văn Dương, Lê Sỹ Bách, Nguyễn Trọng Phong và Trương Nguyễn Duy Khang.",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Lê Sỹ Bách, 17 anni, PVF Football Academy",
+     "url": "https://www.transfermarkt.com/sy-bach-le/profil/spieler/1415715"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Right Winger",
+   "club": "PVF",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 17,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/",
+     "seen": "2026-09-23T11:59:53.215187"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/sy-bach-le/profil/spieler/1415715",
+     "seen": "2026-09-28T05:44:27.066725"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-23T11:59:53.215187",
+   "last_seen": "2026-10-20T11:58:06.401513",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 565,
    "name": "Nguyễn Văn Dương",
    "age": 16,
@@ -22512,7 +22615,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 99
+    "detection_count": 100
    },
    "n_sources": 4,
    "sources": [
@@ -22557,7 +22660,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 99 rilevamenti"
+     "Segnale persistente: 100 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -22572,7 +22675,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 99 detections"
+     "Persistent signal: 100 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22870,7 +22973,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 99
+    "detection_count": 100
    },
    "n_sources": 2,
    "sources": [
@@ -22905,7 +23008,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 99 rilevamenti"
+     "Segnale persistente: 100 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22918,7 +23021,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 99 detections"
+     "Persistent signal: 100 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23692,11 +23795,11 @@
    }
   },
   {
-   "id": 566,
-   "name": "Lê Sỹ Bách",
+   "id": 560,
+   "name": "Lý Xuân Hòa",
    "age": 17,
-   "age_stato": "dichiarato",
-   "age_nota": "",
+   "age_stato": "dedotto",
+   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
    "claims": {
     "nome": {
      "stato": "dichiarato",
@@ -23713,11 +23816,11 @@
      "url": ""
     },
     "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Lê Sỹ Bách, 17 anni, PVF Football Academy",
-     "url": "https://www.transfermarkt.com/sy-bach-le/profil/spieler/1415715"
+     "stato": "dedotto",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
     },
     "stats": {
      "stato": "assente",
@@ -23727,67 +23830,170 @@
      "url": ""
     }
    },
-   "position": "Right Winger",
+   "position": null,
    "club": "PVF",
    "league": null,
    "region": "Vietnam",
    "gender": "male",
-   "score": 14,
-   "confidence": 0.63,
+   "score": 13,
+   "confidence": 0.55,
    "breakdown": {
     "youth": 15.0,
     "production": 0.0,
     "asymmetry": 8.0,
     "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
+    "n_sources": 1,
+    "detection_count": 3
    },
-   "n_sources": 2,
+   "n_sources": 1,
    "sources": [
     {
      "domain": "pvf.com.vn",
      "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/",
      "seen": "2026-09-23T11:59:53.215187"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/sy-bach-le/profil/spieler/1415715",
-     "seen": "2026-09-28T05:44:27.066725"
     }
    ],
-   "n_sources_registro": 2,
+   "n_sources_registro": 1,
    "stats": {},
    "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_assente",
+   "review_flags": "fonte_singola,eta_dedotto,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-23T11:59:53.215187",
-   "last_seen": "2026-09-28T05:44:27.066725",
+   "last_seen": "2026-10-20T11:58:06.401513",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
    "assessment": {
     "pros": [
      "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
+     "Contesto minore: valore potenzialmente sottoprezzato"
     ],
     "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "L'età (17) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-17)",
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
      "Nessuna statistica di rendimento documentata"
     ],
     "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
      "Recuperare statistiche di rendimento (referti gara)"
     ],
     "pros_en": [
      "Very young (17 yo): plenty of room to develop",
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
+     "Minor context: potentially underpriced"
     ],
     "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The age (17) is not stated by any source: it is inferred from the tournament category (U-17)",
      "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
      "No documented performance stats"
     ],
     "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 561,
+   "name": "Nguyễn Việt Dũng",
+   "age": 17,
+   "age_stato": "dedotto",
+   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "cùng 9 cầu thủ: Lý Xuân Hòa, Nguyễn Việt Dũng, Nguyễn Ngọc Anh Hào, Bùi Trung Hiếu, Nguyễn Huỳnh Đăng Khoa, Nguyễn Văn Dương, Lê Sỹ Bách, Nguyễn Trọng Phong và Trương Nguyễn Duy Khang.",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dedotto",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "goalkeeper",
+   "club": "PVF",
+   "league": "K League Youth Cup",
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 4
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/",
+     "seen": "2026-09-23T11:59:53.215187"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "fonte_singola,eta_dedotto,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-23T11:59:53.215187",
+   "last_seen": "2026-10-20T11:58:06.401513",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "L'età (17) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-17)",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The age (17) is not stated by any source: it is inferred from the tournament category (U-17)",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
    }
@@ -24269,7 +24475,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 111
+    "detection_count": 112
    },
    "n_sources": 3,
    "sources": [
@@ -24308,7 +24514,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 111 rilevamenti"
+     "Segnale persistente: 112 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24320,7 +24526,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 111 detections"
+     "Persistent signal: 112 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24380,7 +24586,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 114
+    "detection_count": 115
    },
    "n_sources": 3,
    "sources": [
@@ -24419,7 +24625,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 114 rilevamenti"
+     "Segnale persistente: 115 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24431,7 +24637,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 114 detections"
+     "Persistent signal: 115 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -28049,7 +28255,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 3,
    "sources": [
@@ -28080,7 +28286,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-08-27T22:30:15.991675",
-   "last_seen": "2026-10-14T05:15:05.053983",
+   "last_seen": "2026-10-20T11:58:06.401513",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -28088,7 +28294,7 @@
     "pros": [
      "Nome e club scritti da Transfermarkt",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -28100,7 +28306,7 @@
     "pros_en": [
      "Name and club stated by Transfermarkt",
      "3 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -61800,210 +62006,6 @@
     "next_steps_en": [
      "Verify the current club",
      "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 560,
-   "name": "Lý Xuân Hòa",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "PVF Football Academy",
-     "tipo": "academy",
-     "citazione": "cùng 9 cầu thủ: Lý Xuân Hòa, Nguyễn Việt Dũng, Nguyễn Ngọc Anh Hào, Bùi Trung Hiếu, Nguyễn Huỳnh Đăng Khoa, Nguyễn Văn Dương, Lê Sỹ Bách, Nguyễn Trọng Phong và Trương Nguyễn Duy Khang.",
-     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "PVF",
-   "league": null,
-   "region": "Vietnam",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "pvf.com.vn",
-     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/",
-     "seen": "2026-09-23T11:59:53.215187"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-23T11:59:53.215187",
-   "last_seen": "2026-09-23T11:59:53.215187",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 561,
-   "name": "Nguyễn Việt Dũng",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "PVF Football Academy",
-     "tipo": "academy",
-     "citazione": "cùng 9 cầu thủ: Lý Xuân Hòa, Nguyễn Việt Dũng, Nguyễn Ngọc Anh Hào, Bùi Trung Hiếu, Nguyễn Huỳnh Đăng Khoa, Nguyễn Văn Dương, Lê Sỹ Bách, Nguyễn Trọng Phong và Trương Nguyễn Duy Khang.",
-     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "PVF",
-   "league": null,
-   "region": "Vietnam",
-   "gender": "male",
-   "score": 6,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "pvf.com.vn",
-     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/",
-     "seen": "2026-09-23T11:59:53.215187"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-23T11:59:53.215187",
-   "last_seen": "2026-09-23T11:59:53.215187",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
    }
