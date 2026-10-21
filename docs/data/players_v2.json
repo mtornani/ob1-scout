@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-21T05:42:05.184739+00:00",
+ "generated_at": "2026-10-21T12:38:38.682707+00:00",
  "version": "1.0.0",
- "build": "7852f8b",
- "total": 680,
+ "build": "ec64121",
+ "total": 695,
  "publishable": 123,
- "tracking": 557,
- "shown": 680,
+ "tracking": 572,
+ "shown": 695,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 3,
@@ -15872,7 +15872,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 3,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 3,
    "sources": [
@@ -15903,7 +15903,7 @@
    "review_flags": "eta_dedotto,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-10-01T06:24:11.557538",
-   "last_seen": "2026-10-14T21:53:14.645526",
+   "last_seen": "2026-10-21T12:13:31.645781",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (giugno 2026).",
@@ -16173,7 +16173,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 99
+    "detection_count": 101
    },
    "n_sources": 4,
    "sources": [
@@ -16218,7 +16218,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 99 rilevamenti"
+     "Segnale persistente: 101 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -16229,7 +16229,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 99 detections"
+     "Persistent signal: 101 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -16394,7 +16394,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 110
+    "detection_count": 111
    },
    "n_sources": 4,
    "sources": [
@@ -16439,7 +16439,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 110 rilevamenti"
+     "Segnale persistente: 111 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16454,7 +16454,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 110 detections"
+     "Persistent signal: 111 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16737,7 +16737,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 111
+    "detection_count": 113
    },
    "n_sources": 3,
    "sources": [
@@ -16777,7 +16777,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 111 rilevamenti"
+     "Segnale persistente: 113 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16792,7 +16792,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 111 detections"
+     "Persistent signal: 113 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18780,7 +18780,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 103
+    "detection_count": 104
    },
    "n_sources": 3,
    "sources": [
@@ -18820,7 +18820,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 103 rilevamenti"
+     "Segnale persistente: 104 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18835,7 +18835,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 103 detections"
+     "Persistent signal: 104 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19134,7 +19134,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 105
+    "detection_count": 106
    },
    "n_sources": 3,
    "sources": [
@@ -19174,7 +19174,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 105 rilevamenti"
+     "Segnale persistente: 106 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19189,7 +19189,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 105 detections"
+     "Persistent signal: 106 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19911,7 +19911,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 99
+    "detection_count": 100
    },
    "n_sources": 2,
    "sources": [
@@ -19946,7 +19946,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 99 rilevamenti"
+     "Segnale persistente: 100 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -19959,7 +19959,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 99 detections"
+     "Persistent signal: 100 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22497,7 +22497,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 103
+    "detection_count": 104
    },
    "n_sources": 4,
    "sources": [
@@ -22542,7 +22542,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 103 rilevamenti"
+     "Segnale persistente: 104 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22555,7 +22555,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 103 detections"
+     "Persistent signal: 104 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22615,7 +22615,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 103
+    "detection_count": 104
    },
    "n_sources": 4,
    "sources": [
@@ -22660,7 +22660,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 103 rilevamenti"
+     "Segnale persistente: 104 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -22675,7 +22675,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 103 detections"
+     "Persistent signal: 104 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22973,7 +22973,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 102
+    "detection_count": 103
    },
    "n_sources": 2,
    "sources": [
@@ -23008,7 +23008,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 102 rilevamenti"
+     "Segnale persistente: 103 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23021,7 +23021,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 102 detections"
+     "Persistent signal: 103 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24475,7 +24475,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 115
+    "detection_count": 116
    },
    "n_sources": 3,
    "sources": [
@@ -24514,7 +24514,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 115 rilevamenti"
+     "Segnale persistente: 116 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24526,7 +24526,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 115 detections"
+     "Persistent signal: 116 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24586,7 +24586,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 117
+    "detection_count": 118
    },
    "n_sources": 3,
    "sources": [
@@ -24625,7 +24625,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 117 rilevamenti"
+     "Segnale persistente: 118 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24637,7 +24637,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 117 detections"
+     "Persistent signal: 118 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -35651,6 +35651,638 @@
    }
   },
   {
+   "id": 687,
+   "name": "Juan Carlo Felipe Morales",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Juan Carlo Felipe Morales (FA Manila, NCR/Panabo, Davao del Norte);",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Juan Carlo Felipe Morales (FA Manila, NCR/Panabo, Davao del Norte);",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defender",
+   "club": "FA Manila",
+   "league": null,
+   "region": "Philippines",
+   "gender": "male",
+   "score": 18,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 19.0,
+    "n_sources": 1,
+    "detection_count": 3
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/",
+     "seen": "2026-10-21T12:13:31.645781"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-21T12:13:31.645781",
+   "last_seen": "2026-10-21T12:13:31.645781",
+   "selezione": {
+    "quante": 3,
+    "frase": "Convocato 3 volte da Philippine Football Federation, Sub-15.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#webpage"
+     }
+    ],
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 3 times by Philippine Football Federation, U15."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "3 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "3 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/",
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting",
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#webpage"
+     ],
+     "dati": {
+      "convocazioni": 3,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Philippine Football Federation"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Philippine Football Federation"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 688,
+   "name": "Frank Jonas Oliverio",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Frank Jonas Oliverio (Makati FC, NCR/Negros Occidental);",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Frank Jonas Oliverio (Makati FC, NCR/Negros Occidental);",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defender",
+   "club": "Makati FC",
+   "league": null,
+   "region": "Philippines",
+   "gender": "male",
+   "score": 18,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 19.0,
+    "n_sources": 1,
+    "detection_count": 3
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/",
+     "seen": "2026-10-21T12:13:31.645781"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-21T12:13:31.645781",
+   "last_seen": "2026-10-21T12:13:31.645781",
+   "selezione": {
+    "quante": 3,
+    "frase": "Convocato 3 volte da Philippine Football Federation, Sub-15.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#webpage"
+     }
+    ],
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 3 times by Philippine Football Federation, U15."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "3 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "3 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/",
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting",
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#webpage"
+     ],
+     "dati": {
+      "convocazioni": 3,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Philippine Football Federation"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Philippine Football Federation"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 689,
+   "name": "Nathan Caligdong",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Nathan Caligdong (Barotac Nuevo, Iloilo);",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Nathan Caligdong (Barotac Nuevo, Iloilo);",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Midfielder",
+   "club": "Barotac Nuevo",
+   "league": null,
+   "region": "Philippines",
+   "gender": "male",
+   "score": 18,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 19.0,
+    "n_sources": 1,
+    "detection_count": 3
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/",
+     "seen": "2026-10-21T12:13:31.645781"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-21T12:13:31.645781",
+   "last_seen": "2026-10-21T12:13:31.645781",
+   "selezione": {
+    "quante": 3,
+    "frase": "Convocato 3 volte da Philippine Football Federation, Sub-15.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#webpage"
+     }
+    ],
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 3 times by Philippine Football Federation, U15."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "3 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "3 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/",
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting",
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#webpage"
+     ],
+     "dati": {
+      "convocazioni": 3,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Philippine Football Federation"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Philippine Football Federation"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 690,
+   "name": "John Zhian Enario",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "John Zhian Enario (FA Manila, NCR);",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "John Zhian Enario (FA Manila, NCR);",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Midfielder",
+   "club": "FA Manila",
+   "league": null,
+   "region": "Philippines",
+   "gender": "male",
+   "score": 18,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 19.0,
+    "n_sources": 1,
+    "detection_count": 3
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/",
+     "seen": "2026-10-21T12:13:31.645781"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-21T12:13:31.645781",
+   "last_seen": "2026-10-21T12:13:31.645781",
+   "selezione": {
+    "quante": 3,
+    "frase": "Convocato 3 volte da Philippine Football Federation, Sub-15.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#webpage"
+     }
+    ],
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 3 times by Philippine Football Federation, U15."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "3 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "3 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/",
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting",
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#webpage"
+     ],
+     "dati": {
+      "convocazioni": 3,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Philippine Football Federation"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Philippine Football Federation"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 143,
    "name": "Yeiler Mosquera Caicedo",
    "age": null,
@@ -40550,6 +41182,127 @@
    }
   },
   {
+   "id": 515,
+   "name": "Vương Đình Minh Quang",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "Lê Hoàng Gia Bảo, Nguyễn Phúc Gia Huy, Vương Đình Minh Quang, Phạm Tuấn Kiệt, Đặng Cao Duy, Nguyễn Trần Trọng Hiệp, Hoàng Trung Anh và Nguyễn Xuân Thành",
+     "url": "https://pvf.com.vn/pvf-dong-gop-9-thanh-vien-cho-u16-viet-nam-trong-dot-hoi-quan-thang-9-2026/#respond"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "goalkeeper",
+   "club": "PVF",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 4
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/pvf-dong-gop-9-thanh-vien-cho-u16-viet-nam-trong-dot-hoi-quan-thang-9-2026/#respond",
+     "seen": "2026-09-17T17:12:41.594570"
+    },
+    {
+     "domain": "en.vff.org.vn",
+     "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/",
+     "seen": "2026-10-21T12:13:31.645781"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-17T17:12:41.594570",
+   "last_seen": "2026-10-21T12:13:31.645781",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Vietnam Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Vietnam Football Federation",
+      "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/"
+     }
+    ],
+    "fonte": "Vietnam Football Federation",
+    "frase_en": "Called up 1 times by Vietnam Football Federation."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 617,
    "name": "Thandamoni Baskey",
    "age": null,
@@ -40652,6 +41405,761 @@
     ],
     "next_steps_en": [
      "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "id": 691,
+   "name": "Jordan Tan",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Jordan Tan (Makati FC, NCR)",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Jordan Tan (Makati FC, NCR)",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Goalkeeper",
+   "club": "Makati FC",
+   "league": null,
+   "region": "Philippines",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting",
+     "seen": "2026-10-21T12:13:31.645781"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-21T12:13:31.645781",
+   "last_seen": "2026-10-21T12:13:31.645781",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Philippine Football Federation, Sub-15.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#webpage"
+     }
+    ],
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 2 times by Philippine Football Federation, U15."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting",
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#webpage"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Philippine Football Federation"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Philippine Football Federation"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 692,
+   "name": "Paolo Enrique Fernandez",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Paolo Enrique Fernandez (PAREF Southridge, NCR)",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Paolo Enrique Fernandez (PAREF Southridge, NCR)",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defender",
+   "club": "PAREF Southridge",
+   "league": null,
+   "region": "Philippines",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting",
+     "seen": "2026-10-21T12:13:31.645781"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-21T12:13:31.645781",
+   "last_seen": "2026-10-21T12:13:31.645781",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Philippine Football Federation, Sub-15.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#webpage"
+     }
+    ],
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 2 times by Philippine Football Federation, U15."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting",
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#webpage"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Philippine Football Federation"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Philippine Football Federation"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 693,
+   "name": "Matthew Zamora",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Matthew Zamora (Arayat FC, NCR)",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Matthew Zamora (Arayat FC, NCR)",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defender",
+   "club": "Arayat FC",
+   "league": null,
+   "region": "Philippines",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting",
+     "seen": "2026-10-21T12:13:31.645781"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-21T12:13:31.645781",
+   "last_seen": "2026-10-21T12:13:31.645781",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Philippine Football Federation, Sub-15.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#webpage"
+     }
+    ],
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 2 times by Philippine Football Federation, U15."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting",
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#webpage"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Philippine Football Federation"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Philippine Football Federation"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 694,
+   "name": "Micah Alva",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Micah Alva (Philadelphia, USA)",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Micah Alva (Philadelphia, USA)",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Midfielder",
+   "club": "Philadelphia, USA",
+   "league": null,
+   "region": "Philippines",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting",
+     "seen": "2026-10-21T12:13:31.645781"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-21T12:13:31.645781",
+   "last_seen": "2026-10-21T12:13:31.645781",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Philippine Football Federation, Sub-15.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#webpage"
+     }
+    ],
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 2 times by Philippine Football Federation, U15."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting",
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#webpage"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Philippine Football Federation"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Philippine Football Federation"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 695,
+   "name": "Quito Alexander Pascual",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Quito Alexander Pascual (LA Galaxy Acade",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Quito Alexander Pascual (LA Galaxy Acade",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Midfielder",
+   "club": "LA Galaxy Acade",
+   "league": null,
+   "region": "Philippines",
+   "gender": "male",
+   "score": 13,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting",
+     "seen": "2026-10-21T12:13:31.645781"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-21T12:13:31.645781",
+   "last_seen": "2026-10-21T12:13:31.645781",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Philippine Football Federation, Sub-15.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#webpage"
+     }
+    ],
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 2 times by Philippine Football Federation, U15."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#blogposting",
+      "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#webpage"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Philippine Football Federation"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Philippine Football Federation"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
     ]
    }
   },
@@ -55011,108 +56519,6 @@
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 515,
-   "name": "Vương Đình Minh Quang",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "PVF Football Academy",
-     "tipo": "academy",
-     "citazione": "Lê Hoàng Gia Bảo, Nguyễn Phúc Gia Huy, Vương Đình Minh Quang, Phạm Tuấn Kiệt, Đặng Cao Duy, Nguyễn Trần Trọng Hiệp, Hoàng Trung Anh và Nguyễn Xuân Thành",
-     "url": "https://pvf.com.vn/pvf-dong-gop-9-thanh-vien-cho-u16-viet-nam-trong-dot-hoi-quan-thang-9-2026/#respond"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "PVF",
-   "league": null,
-   "region": "Vietnam",
-   "gender": "male",
-   "score": 8,
-   "confidence": 0.55,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 3
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "pvf.com.vn",
-     "url": "https://pvf.com.vn/pvf-dong-gop-9-thanh-vien-cho-u16-viet-nam-trong-dot-hoi-quan-thang-9-2026/#respond",
-     "seen": "2026-09-17T17:12:41.594570"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-17T17:12:41.594570",
-   "last_seen": "2026-09-24T12:05:44.306392",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
      "Single source: not yet corroborated",
      "No documented performance stats",
      "Age not confirmed"
@@ -70500,6 +71906,702 @@
     ],
     "fonte": "Vietnam Football Federation",
     "frase_en": "Called up 1 times by Vietnam Football Federation, U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 681,
+   "name": "Huynh Van Hoai",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Vietnam Football Federation",
+     "tipo": "federation",
+     "citazione": "Other young players, including Huynh Van Hoai, Nguyen Trong Kien, Nguyen Hoang Quan, Bui Duc Quyen, Tran Le Bo and Nguyen Thac Hieu, also feature in the squad.",
+     "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "en.vff.org.vn",
+     "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/",
+     "seen": "2026-10-21T12:13:31.645781"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-21T12:13:31.645781",
+   "last_seen": "2026-10-21T12:13:31.645781",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Vietnam Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Vietnam Football Federation",
+      "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/"
+     }
+    ],
+    "fonte": "Vietnam Football Federation",
+    "frase_en": "Called up 1 times by Vietnam Football Federation."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 682,
+   "name": "Nguyen Trong Kien",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Vietnam Football Federation",
+     "tipo": "federation",
+     "citazione": "Other young players, including Huynh Van Hoai, Nguyen Trong Kien, Nguyen Hoang Quan, Bui Duc Quyen, Tran Le Bo and Nguyen Thac Hieu, also feature in the squad.",
+     "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "en.vff.org.vn",
+     "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/",
+     "seen": "2026-10-21T12:13:31.645781"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-21T12:13:31.645781",
+   "last_seen": "2026-10-21T12:13:31.645781",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Vietnam Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Vietnam Football Federation",
+      "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/"
+     }
+    ],
+    "fonte": "Vietnam Football Federation",
+    "frase_en": "Called up 1 times by Vietnam Football Federation."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 683,
+   "name": "Nguyen Hoang Quan",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Vietnam Football Federation",
+     "tipo": "federation",
+     "citazione": "Other young players, including Huynh Van Hoai, Nguyen Trong Kien, Nguyen Hoang Quan, Bui Duc Quyen, Tran Le Bo and Nguyen Thac Hieu, also feature in the squad.",
+     "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "en.vff.org.vn",
+     "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/",
+     "seen": "2026-10-21T12:13:31.645781"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-21T12:13:31.645781",
+   "last_seen": "2026-10-21T12:13:31.645781",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Vietnam Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Vietnam Football Federation",
+      "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/"
+     }
+    ],
+    "fonte": "Vietnam Football Federation",
+    "frase_en": "Called up 1 times by Vietnam Football Federation."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 684,
+   "name": "Bui Duc Quyen",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Vietnam Football Federation",
+     "tipo": "federation",
+     "citazione": "Other young players, including Huynh Van Hoai, Nguyen Trong Kien, Nguyen Hoang Quan, Bui Duc Quyen, Tran Le Bo and Nguyen Thac Hieu, also feature in the squad.",
+     "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "en.vff.org.vn",
+     "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/",
+     "seen": "2026-10-21T12:13:31.645781"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-21T12:13:31.645781",
+   "last_seen": "2026-10-21T12:13:31.645781",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Vietnam Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Vietnam Football Federation",
+      "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/"
+     }
+    ],
+    "fonte": "Vietnam Football Federation",
+    "frase_en": "Called up 1 times by Vietnam Football Federation."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 685,
+   "name": "Tran Le Bo",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Vietnam Football Federation",
+     "tipo": "federation",
+     "citazione": "Other young players, including Huynh Van Hoai, Nguyen Trong Kien, Nguyen Hoang Quan, Bui Duc Quyen, Tran Le Bo and Nguyen Thac Hieu, also feature in the squad.",
+     "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "en.vff.org.vn",
+     "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/",
+     "seen": "2026-10-21T12:13:31.645781"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-21T12:13:31.645781",
+   "last_seen": "2026-10-21T12:13:31.645781",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Vietnam Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Vietnam Football Federation",
+      "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/"
+     }
+    ],
+    "fonte": "Vietnam Football Federation",
+    "frase_en": "Called up 1 times by Vietnam Football Federation."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 686,
+   "name": "Nguyen Thac Hieu",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Vietnam Football Federation",
+     "tipo": "federation",
+     "citazione": "Other young players, including Huynh Van Hoai, Nguyen Trong Kien, Nguyen Hoang Quan, Bui Duc Quyen, Tran Le Bo and Nguyen Thac Hieu, also feature in the squad.",
+     "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "en.vff.org.vn",
+     "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/",
+     "seen": "2026-10-21T12:13:31.645781"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-21T12:13:31.645781",
+   "last_seen": "2026-10-21T12:13:31.645781",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Vietnam Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Vietnam Football Federation",
+      "url": "http://en.vff.org.vn/vietnam-futsal-team-begin-preparations-for-aimag-2026-with-several-new-faces/"
+     }
+    ],
+    "fonte": "Vietnam Football Federation",
+    "frase_en": "Called up 1 times by Vietnam Football Federation."
    },
    "anomalie": [],
    "publishable": false,
