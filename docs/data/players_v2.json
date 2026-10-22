@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-22T05:41:35.339092+00:00",
+ "generated_at": "2026-10-22T12:48:08.556434+00:00",
  "version": "1.0.0",
- "build": "4df286d",
- "total": 697,
- "publishable": 123,
+ "build": "8a171f4",
+ "total": 698,
+ "publishable": 124,
  "tracking": 574,
- "shown": 697,
+ "shown": 698,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 3,
@@ -4709,6 +4709,131 @@
     ],
     "cautions_en": [],
     "next_steps_en": [
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 669,
+   "name": "Issah Abdul Rafiu",
+   "age": 16,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Ghana Football Association",
+     "tipo": "federation",
+     "citazione": "‘We aren’t going to relax against Burkina Faso’ – Issah Abdul Rafiu",
+     "url": "https://www.ghanafa.org/wafu-b-u17-we-arent-going-to-relax-against-burkina-faso-issah-abdul-rafiu"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Issah Abdul Rafiu, 16 anni, Benab Football Club",
+     "url": "https://www.transfermarkt.com/issah-rafiu/profil/spieler/1259004"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Issah Abdul Rafiu, 16 anni, Benab Football Club",
+     "url": "https://www.transfermarkt.com/issah-rafiu/profil/spieler/1259004"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Centre-Back",
+   "club": "Benab Football Club",
+   "league": null,
+   "region": "Ghana",
+   "gender": "male",
+   "score": 19,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "ghanafa.org",
+     "url": "https://www.ghanafa.org/wafu-b-u17-we-arent-going-to-relax-against-burkina-faso-issah-abdul-rafiu",
+     "seen": "2026-10-15T17:16:32.826775"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/issah-rafiu/profil/spieler/1259004",
+     "seen": "2026-10-22T12:16:11.588379"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-15T17:16:32.826775",
+   "last_seen": "2026-10-22T12:16:11.588379",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Ghana Football Association, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Ghana Football Association",
+      "url": "https://www.ghanafa.org/wafu-b-u17-we-arent-going-to-relax-against-burkina-faso-issah-abdul-rafiu"
+     }
+    ],
+    "fonte": "Ghana Football Association",
+    "frase_en": "Called up 1 times by Ghana Football Association, U17."
+   },
+   "anomalie": [],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Very young (16 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
      "Request video or schedule a live viewing",
      "Call the club: confirm identity and contract status"
     ]
@@ -16173,7 +16298,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 104
+    "detection_count": 105
    },
    "n_sources": 4,
    "sources": [
@@ -16218,7 +16343,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 104 rilevamenti"
+     "Segnale persistente: 105 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -16229,7 +16354,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 104 detections"
+     "Persistent signal: 105 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -16394,7 +16519,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 115
+    "detection_count": 116
    },
    "n_sources": 4,
    "sources": [
@@ -16439,7 +16564,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 115 rilevamenti"
+     "Segnale persistente: 116 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16454,7 +16579,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 115 detections"
+     "Persistent signal: 116 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16737,7 +16862,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 116
+    "detection_count": 117
    },
    "n_sources": 3,
    "sources": [
@@ -16777,7 +16902,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 116 rilevamenti"
+     "Segnale persistente: 117 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16792,7 +16917,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 116 detections"
+     "Persistent signal: 117 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18780,7 +18905,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 107
+    "detection_count": 108
    },
    "n_sources": 3,
    "sources": [
@@ -18820,7 +18945,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 107 rilevamenti"
+     "Segnale persistente: 108 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18835,7 +18960,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 107 detections"
+     "Persistent signal: 108 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19134,7 +19259,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 109
+    "detection_count": 110
    },
    "n_sources": 3,
    "sources": [
@@ -19174,7 +19299,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 109 rilevamenti"
+     "Segnale persistente: 110 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19189,7 +19314,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 109 detections"
+     "Persistent signal: 110 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22497,7 +22622,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 107
+    "detection_count": 108
    },
    "n_sources": 4,
    "sources": [
@@ -22542,7 +22667,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 107 rilevamenti"
+     "Segnale persistente: 108 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22555,7 +22680,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 107 detections"
+     "Persistent signal: 108 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22615,7 +22740,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 107
+    "detection_count": 108
    },
    "n_sources": 4,
    "sources": [
@@ -22660,7 +22785,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 107 rilevamenti"
+     "Segnale persistente: 108 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -22675,7 +22800,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 107 detections"
+     "Persistent signal: 108 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22975,7 +23100,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 106
+    "detection_count": 107
    },
    "n_sources": 2,
    "sources": [
@@ -23010,7 +23135,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 106 rilevamenti"
+     "Segnale persistente: 107 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23023,7 +23148,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 106 detections"
+     "Persistent signal: 107 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24477,7 +24602,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 119
+    "detection_count": 120
    },
    "n_sources": 3,
    "sources": [
@@ -24516,7 +24641,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 119 rilevamenti"
+     "Segnale persistente: 120 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24528,7 +24653,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 119 detections"
+     "Persistent signal: 120 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24588,7 +24713,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 121
+    "detection_count": 122
    },
    "n_sources": 3,
    "sources": [
@@ -24627,7 +24752,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 121 rilevamenti"
+     "Segnale persistente: 122 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24639,7 +24764,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 121 detections"
+     "Persistent signal: 122 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -26672,7 +26797,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 3,
    "sources": [
@@ -26698,7 +26823,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-17T17:12:41.594570",
-   "last_seen": "2026-10-15T11:57:16.114130",
+   "last_seen": "2026-10-22T12:16:11.588379",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -26706,7 +26831,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -26718,7 +26843,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -29577,16 +29702,16 @@
    "club": "Paris Saint-Germain",
    "league": null,
    "region": "Brazil",
-   "gender": "unknown",
+   "gender": "male",
    "score": 0,
-   "confidence": 0.63,
+   "confidence": 0.73,
    "breakdown": {
     "youth": 1.0,
     "production": 0.0,
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 2
+    "detection_count": 3
    },
    "n_sources": 2,
    "sources": [
@@ -29607,7 +29732,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-29T13:14:01.475469",
-   "last_seen": "2026-09-29T22:31:32.518078",
+   "last_seen": "2026-10-22T12:16:11.588379",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -30975,7 +31100,7 @@
     "asymmetry": 8.0,
     "selection": 14.0,
     "n_sources": 3,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 3,
    "sources": [
@@ -31006,7 +31131,7 @@
    "review_flags": "club_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-13T16:34:39.358956",
-   "last_seen": "2026-10-15T11:57:16.114130",
+   "last_seen": "2026-10-22T12:16:11.588379",
    "selezione": {
     "quante": 2,
     "frase": "Convocato 2 volte da Nigeria Football Federation, Sub-20.",
@@ -32434,6 +32559,165 @@
    }
   },
   {
+   "id": 480,
+   "name": "Tumininu Adeshina",
+   "age": 20,
+   "age_stato": "dedotto",
+   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-20)",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "Tumininu Adeshina and Tosin Rafiu delivered a series of corners",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dedotto",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defender",
+   "club": null,
+   "league": "2026 FIFA U-20 Women's World Cup",
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 24,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 3,
+    "detection_count": 6
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
+     "seen": "2026-09-13T16:34:39.358956"
+    },
+    {
+     "domain": "ke.soccerway.com",
+     "url": "https://ke.soccerway.com/player/adeshina-tumininu/tWi5P8BP/",
+     "seen": "2026-09-13T21:03:18.523174"
+    },
+    {
+     "domain": "ca.soccerway.com",
+     "url": "https://ca.soccerway.com/player/adeshina-tumininu/tWi5P8BP/",
+     "seen": "2026-10-22T12:16:11.588379"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_dedotto,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-13T16:34:39.358956",
+   "last_seen": "2026-10-22T12:16:11.588379",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Nigeria Football Federation, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-gallant-falconets-bow-out-after-narrow-defeat-by-colombia/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 2 times by Nigeria Football Federation, U20."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Nigeria Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Nigeria Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
+      "https://thenff.com/fifa-u20-womens-world-cup-gallant-falconets-bow-out-after-narrow-defeat-by-colombia/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "L'età (20) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-20)",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The age (20) is not stated by any source: it is inferred from the tournament category (U-20)",
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 205,
    "name": "Kener Nicolás González Mosquera",
    "age": null,
@@ -32735,6 +33019,173 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 554,
+   "name": "Milimo Nalumango",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "introducing new arrivals in the camp Emile Witbooi and Cayden Fortune for Milimo Nalumango and Kamohelo Mareletse",
+     "url": "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "South Africa",
+   "gender": "male",
+   "score": 23,
+   "confidence": 0.83,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 22.0,
+    "n_sources": 2,
+    "detection_count": 10
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "safa.net",
+     "url": "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/",
+     "seen": "2026-09-21T22:08:09.181084"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/nalumango-milimo/0GUOpSAI/",
+     "seen": "2026-09-22T05:17:03.073375"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-21T22:08:09.181084",
+   "last_seen": "2026-10-22T12:16:11.588379",
+   "selezione": {
+    "quante": 4,
+    "frase": "Convocato 4 volte da South African Football Association.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/#article"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/#breadcrumb"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/#primaryimage"
+     }
+    ],
+    "fonte": "South African Football Association",
+    "frase_en": "Called up 4 times by South African Football Association."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "4 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "4 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/",
+      "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/#article",
+      "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/#breadcrumb",
+      "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/#primaryimage"
+     ],
+     "dati": {
+      "convocazioni": 4,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
     ]
    }
   },
@@ -35911,173 +36362,6 @@
    }
   },
   {
-   "id": 554,
-   "name": "Milimo Nalumango",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "South African Football Association",
-     "tipo": "federation",
-     "citazione": "introducing new arrivals in the camp Emile Witbooi and Cayden Fortune for Milimo Nalumango and Kamohelo Mareletse",
-     "url": "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "South Africa",
-   "gender": "male",
-   "score": 20,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 22.0,
-    "n_sources": 2,
-    "detection_count": 9
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "safa.net",
-     "url": "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/",
-     "seen": "2026-09-21T22:08:09.181084"
-    },
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/nalumango-milimo/0GUOpSAI/",
-     "seen": "2026-09-22T05:17:03.073375"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-21T22:08:09.181084",
-   "last_seen": "2026-10-15T17:16:32.826775",
-   "selezione": {
-    "quante": 4,
-    "frase": "Convocato 4 volte da South African Football Association.",
-    "dal": "",
-    "al": "",
-    "categorie": [],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/"
-     },
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/#article"
-     },
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/#breadcrumb"
-     },
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/#primaryimage"
-     }
-    ],
-    "fonte": "South African Football Association",
-    "frase_en": "Called up 4 times by South African Football Association."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "4 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "4 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/",
-      "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/#article",
-      "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/#breadcrumb",
-      "https://www.safa.net/amajita/amajita-edge-closer-to-the-semifinals-with-a-win-over-angola-in-the-cosafa-cup-in-mozambique/#primaryimage"
-     ],
-     "dati": {
-      "convocazioni": 4,
-      "tipi_fonte": [
-       "aggregator",
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 582,
    "name": "Martinho Começar",
    "age": null,
@@ -36395,160 +36679,6 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 480,
-   "name": "Tumininu Adeshina",
-   "age": 20,
-   "age_stato": "dedotto",
-   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-20)",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "Tumininu Adeshina and Tosin Rafiu delivered a series of corners",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dedotto",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Defender",
-   "club": null,
-   "league": "2026 FIFA U-20 Women's World Cup",
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 19,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 4.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 14.0,
-    "n_sources": 2,
-    "detection_count": 5
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
-     "seen": "2026-09-13T16:34:39.358956"
-    },
-    {
-     "domain": "ke.soccerway.com",
-     "url": "https://ke.soccerway.com/player/adeshina-tumininu/tWi5P8BP/",
-     "seen": "2026-09-13T21:03:18.523174"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_dedotto,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-13T16:34:39.358956",
-   "last_seen": "2026-10-01T22:50:50.386863",
-   "selezione": {
-    "quante": 2,
-    "frase": "Convocato 2 volte da Nigeria Football Federation, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
-     },
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-gallant-falconets-bow-out-after-narrow-defeat-by-colombia/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 2 times by Nigeria Football Federation, U20."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "2 convocazioni di Nigeria Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "2 call-ups by Nigeria Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
-      "https://thenff.com/fifa-u20-womens-world-cup-gallant-falconets-bow-out-after-narrow-defeat-by-colombia/"
-     ],
-     "dati": {
-      "convocazioni": 2,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "L'età (20) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-20)",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The age (20) is not stated by any source: it is inferred from the tournament category (U-20)",
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Get performance stats (match reports)"
     ]
    }
   },
@@ -41480,7 +41610,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 2,
    "sources": [
@@ -41506,7 +41636,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-13T16:34:39.358956",
-   "last_seen": "2026-10-15T17:16:32.826775",
+   "last_seen": "2026-10-22T12:16:11.588379",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
@@ -41533,7 +41663,8 @@
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
+     "2 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -41548,7 +41679,8 @@
     ],
     "pros_en": [
      "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
+     "2 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -41612,7 +41744,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 2,
    "sources": [
@@ -41638,7 +41770,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-13T16:34:39.358956",
-   "last_seen": "2026-10-15T17:16:32.826775",
+   "last_seen": "2026-10-22T12:16:11.588379",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
@@ -41666,7 +41798,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -41682,7 +41814,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -69434,6 +69566,111 @@
    }
   },
   {
+   "id": 513,
+   "name": "Susahna Peacock",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "OFC — Oceania Football Confederation",
+     "tipo": "confederation",
+     "citazione": "forced a save out of Susahna Peacock from close range",
+     "url": "https://www.oceaniafootball.com/samoa-and-cook-islands-finish-with-wins-at-ofc-u-16-womens-championship/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Pacific Islands",
+   "gender": "female",
+   "score": 4,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "oceaniafootball.com",
+     "url": "https://www.oceaniafootball.com/samoa-and-cook-islands-finish-with-wins-at-ofc-u-16-womens-championship/",
+     "seen": "2026-09-17T17:12:41.594570"
+    },
+    {
+     "domain": "uk.soccerway.com",
+     "url": "https://uk.soccerway.com/player/peacock-susahna/n1COAjXi/",
+     "seen": "2026-10-22T12:16:11.588379"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-09-17T17:12:41.594570",
+   "last_seen": "2026-10-22T12:16:11.588379",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 522,
    "name": "Sladjan Nikolic",
    "age": null,
@@ -70285,7 +70522,7 @@
     "asymmetry": 0.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 2,
    "sources": [
@@ -70306,14 +70543,14 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-21T22:08:09.181084",
-   "last_seen": "2026-10-15T21:39:32.169519",
+   "last_seen": "2026-10-22T12:16:11.588379",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
    "assessment": {
     "pros": [
      "2 domini distinti lo nominano",
-     "Segnale persistente: 5 rilevamenti"
+     "Segnale persistente: 6 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -70328,7 +70565,7 @@
     ],
     "pros_en": [
      "2 distinct domains mention him",
-     "Persistent signal: 5 detections"
+     "Persistent signal: 6 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -71548,124 +71785,6 @@
       "categoria": "sub-17",
       "fonte": "Ghana Football Association",
       "url": "https://www.ghanafa.org/wafu-b-u17-we-are-focused-on-making-it-to-the-semi-finals-hamza-mohammed"
-     }
-    ],
-    "fonte": "Ghana Football Association",
-    "frase_en": "Called up 1 times by Ghana Football Association, U17."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 669,
-   "name": "Issah Abdul Rafiu",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Ghana Football Association",
-     "tipo": "federation",
-     "citazione": "‘We aren’t going to relax against Burkina Faso’ – Issah Abdul Rafiu",
-     "url": "https://www.ghanafa.org/wafu-b-u17-we-arent-going-to-relax-against-burkina-faso-issah-abdul-rafiu"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Ghana",
-   "gender": "male",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "ghanafa.org",
-     "url": "https://www.ghanafa.org/wafu-b-u17-we-arent-going-to-relax-against-burkina-faso-issah-abdul-rafiu",
-     "seen": "2026-10-15T17:16:32.826775"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-10-15T17:16:32.826775",
-   "last_seen": "2026-10-15T17:16:32.826775",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Ghana Football Association, Sub-17.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Ghana Football Association",
-      "url": "https://www.ghanafa.org/wafu-b-u17-we-arent-going-to-relax-against-burkina-faso-issah-abdul-rafiu"
      }
     ],
     "fonte": "Ghana Football Association",
@@ -75911,104 +76030,6 @@
    }
   },
   {
-   "id": 513,
-   "name": "Susahna Peacock",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "OFC — Oceania Football Confederation",
-     "tipo": "confederation",
-     "citazione": "forced a save out of Susahna Peacock from close range",
-     "url": "https://www.oceaniafootball.com/samoa-and-cook-islands-finish-with-wins-at-ofc-u-16-womens-championship/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Pacific Islands",
-   "gender": "female",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "oceaniafootball.com",
-     "url": "https://www.oceaniafootball.com/samoa-and-cook-islands-finish-with-wins-at-ofc-u-16-womens-championship/",
-     "seen": "2026-09-17T17:12:41.594570"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-09-17T17:12:41.594570",
-   "last_seen": "2026-09-17T17:12:41.594570",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "id": 532,
    "name": "Sélapaié Sameke",
    "age": null,
@@ -79354,6 +79375,104 @@
    "coverage_tier": "standard",
    "first_detected": "2026-10-10T21:56:03.133058",
    "last_seen": "2026-10-11T06:15:11.761343",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 698,
+   "name": "Désiré Doué",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Trivela",
+     "tipo": "local_press",
+     "citazione": "contra 72 de Désiré Doué, e 23 de João Neves, ambos do PSG.",
+     "url": "https://trivela.com.br/europa/bola-de-ouro-vencedores-trofeu-kopa/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "PSG",
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 0,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": -20.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "trivela.com.br",
+     "url": "https://trivela.com.br/europa/bola-de-ouro-vencedores-trofeu-kopa/",
+     "seen": "2026-10-22T12:16:11.588379"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente,gia_coperto_da_tutti",
+   "coverage_tier": "standard",
+   "first_detected": "2026-10-22T12:16:11.588379",
+   "last_seen": "2026-10-22T12:16:11.588379",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
