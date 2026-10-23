@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-23T17:50:37.397299+00:00",
+ "generated_at": "2026-10-23T22:02:26.637663+00:00",
  "version": "1.0.0",
- "build": "dd3b828",
+ "build": "578bf04",
  "total": 698,
  "publishable": 124,
  "tracking": 574,
@@ -16298,7 +16298,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 110
+    "detection_count": 111
    },
    "n_sources": 4,
    "sources": [
@@ -16343,7 +16343,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 110 rilevamenti"
+     "Segnale persistente: 111 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -16354,7 +16354,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 110 detections"
+     "Persistent signal: 111 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -16519,7 +16519,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 121
+    "detection_count": 122
    },
    "n_sources": 4,
    "sources": [
@@ -16564,7 +16564,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 121 rilevamenti"
+     "Segnale persistente: 122 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16579,7 +16579,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 121 detections"
+     "Persistent signal: 122 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16862,7 +16862,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 122
+    "detection_count": 123
    },
    "n_sources": 3,
    "sources": [
@@ -16902,7 +16902,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 122 rilevamenti"
+     "Segnale persistente: 123 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16917,7 +16917,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 122 detections"
+     "Persistent signal: 123 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17262,10 +17262,10 @@
     "production": 4.0,
     "asymmetry": 8.0,
     "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 11
+    "n_sources": 4,
+    "detection_count": 12
    },
-   "n_sources": 3,
+   "n_sources": 4,
    "sources": [
     {
      "domain": "oceaniafootball.com",
@@ -17281,6 +17281,11 @@
      "domain": "soccerway.com",
      "url": "https://www.soccerway.com/player/ferguson-bailey/nkM0Khh3/",
      "seen": "2026-09-08T05:03:28.858009"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/ferguson-bailey/nkM0Khh3/injury-history/",
+     "seen": "2026-10-23T21:35:00.466563"
     }
    ],
    "n_sources_registro": 3,
@@ -17294,7 +17299,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-09-05T04:51:08.752162",
-   "last_seen": "2026-10-17T11:04:24.454664",
+   "last_seen": "2026-10-23T21:35:00.466563",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -17303,7 +17308,7 @@
      "Giovane (18 anni)",
      "Produzione documentata: 1 gol",
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
+     "4 domini distinti lo nominano"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo"
@@ -17313,7 +17318,7 @@
      "Young (18 yo)",
      "Documented output: 1 goals",
      "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
+     "4 distinct domains mention him"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it"
@@ -18903,7 +18908,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 113
+    "detection_count": 115
    },
    "n_sources": 3,
    "sources": [
@@ -18943,7 +18948,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 113 rilevamenti"
+     "Segnale persistente: 115 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18958,7 +18963,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 113 detections"
+     "Persistent signal: 115 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19257,7 +19262,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 115
+    "detection_count": 116
    },
    "n_sources": 3,
    "sources": [
@@ -19297,7 +19302,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 115 rilevamenti"
+     "Segnale persistente: 116 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19312,7 +19317,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 115 detections"
+     "Persistent signal: 116 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20034,7 +20039,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 108
+    "detection_count": 109
    },
    "n_sources": 2,
    "sources": [
@@ -20069,7 +20074,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 108 rilevamenti"
+     "Segnale persistente: 109 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20082,7 +20087,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 108 detections"
+     "Persistent signal: 109 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22620,7 +22625,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 113
+    "detection_count": 115
    },
    "n_sources": 4,
    "sources": [
@@ -22665,7 +22670,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 113 rilevamenti"
+     "Segnale persistente: 115 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22678,7 +22683,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 113 detections"
+     "Persistent signal: 115 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22738,7 +22743,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 113
+    "detection_count": 115
    },
    "n_sources": 4,
    "sources": [
@@ -22783,7 +22788,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 113 rilevamenti"
+     "Segnale persistente: 115 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -22798,7 +22803,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 113 detections"
+     "Persistent signal: 115 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22860,7 +22865,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 3,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 3,
    "sources": [
@@ -22891,7 +22896,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-09-14T21:57:46.100597",
-   "last_seen": "2026-10-17T04:52:42.757502",
+   "last_seen": "2026-10-23T21:35:00.466563",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol.",
@@ -22917,7 +22922,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22929,7 +22934,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23098,7 +23103,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 112
+    "detection_count": 113
    },
    "n_sources": 2,
    "sources": [
@@ -23133,7 +23138,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 112 rilevamenti"
+     "Segnale persistente: 113 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23146,7 +23151,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 112 detections"
+     "Persistent signal: 113 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24600,7 +24605,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 125
+    "detection_count": 126
    },
    "n_sources": 3,
    "sources": [
@@ -24639,7 +24644,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 125 rilevamenti"
+     "Segnale persistente: 126 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24651,7 +24656,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 125 detections"
+     "Persistent signal: 126 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24711,7 +24716,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 127
+    "detection_count": 128
    },
    "n_sources": 3,
    "sources": [
@@ -24750,7 +24755,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 127 rilevamenti"
+     "Segnale persistente: 128 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24762,7 +24767,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 127 detections"
+     "Persistent signal: 128 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -38546,6 +38551,148 @@
    }
   },
   {
+   "id": 424,
+   "name": "Daniela Ocampo",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Sintia Cabezas of Colombia runs with the ball under pressure from Daniela Ocampo of Costa Rica",
+     "url": "https://fcf.com.co/2026/09/07/copa-mundial-femenina-sub20-de-la-fifa-polonia-2026-colombia-vs-costa-rica-7-de-septiembre/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Midfielder",
+   "club": null,
+   "league": null,
+   "region": "Costa Rica",
+   "gender": "female",
+   "score": 15,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 4,
+    "detection_count": 7
+   },
+   "n_sources": 4,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/09/07/copa-mundial-femenina-sub20-de-la-fifa-polonia-2026-colombia-vs-costa-rica-7-de-septiembre/",
+     "seen": "2026-09-07T21:43:15.578513"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/ocampo-fernandez-daniela/02XayER3/",
+     "seen": "2026-09-08T05:03:28.858009"
+    },
+    {
+     "domain": "uk.soccerway.com",
+     "url": "https://uk.soccerway.com/player/ocampo-fernandez-daniela/02XayER3/",
+     "seen": "2026-09-22T17:11:07.869378"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/ocampo-fernandez-daniela/02XayER3/",
+     "seen": "2026-10-23T21:35:00.466563"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-07T21:43:15.578513",
+   "last_seen": "2026-10-23T21:35:00.466563",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (settembre 2026).",
+    "dal": "2026-09-07",
+    "al": "2026-09-07",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-09-07",
+      "categoria": "sub-20",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/09/07/copa-mundial-femenina-sub20-de-la-fifa-polonia-2026-colombia-vs-costa-rica-7-de-septiembre/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "4 domini distinti lo nominano",
+     "Segnale persistente: 7 rilevamenti"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "4 distinct domains mention him",
+     "Persistent signal: 7 detections"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 451,
    "name": "Christiana Uzoma",
    "age": null,
@@ -39251,143 +39398,6 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 424,
-   "name": "Daniela Ocampo",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Sintia Cabezas of Colombia runs with the ball under pressure from Daniela Ocampo of Costa Rica",
-     "url": "https://fcf.com.co/2026/09/07/copa-mundial-femenina-sub20-de-la-fifa-polonia-2026-colombia-vs-costa-rica-7-de-septiembre/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Midfielder",
-   "club": null,
-   "league": null,
-   "region": "Costa Rica",
-   "gender": "female",
-   "score": 14,
-   "confidence": 0.91,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 3,
-    "detection_count": 6
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/09/07/copa-mundial-femenina-sub20-de-la-fifa-polonia-2026-colombia-vs-costa-rica-7-de-septiembre/",
-     "seen": "2026-09-07T21:43:15.578513"
-    },
-    {
-     "domain": "us.soccerway.com",
-     "url": "https://us.soccerway.com/player/ocampo-fernandez-daniela/02XayER3/",
-     "seen": "2026-09-08T05:03:28.858009"
-    },
-    {
-     "domain": "uk.soccerway.com",
-     "url": "https://uk.soccerway.com/player/ocampo-fernandez-daniela/02XayER3/",
-     "seen": "2026-09-22T17:11:07.869378"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-07T21:43:15.578513",
-   "last_seen": "2026-10-03T11:55:55.082667",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (settembre 2026).",
-    "dal": "2026-09-07",
-    "al": "2026-09-07",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-09-07",
-      "categoria": "sub-20",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/09/07/copa-mundial-femenina-sub20-de-la-fifa-polonia-2026-colombia-vs-costa-rica-7-de-septiembre/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U20."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "3 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "3 distinct domains mention him",
-     "Persistent signal: 6 detections"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
      "Get performance stats (match reports)"
     ]
    }
