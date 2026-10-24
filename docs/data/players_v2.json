@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-24T11:50:11.177161+00:00",
+ "generated_at": "2026-10-24T16:30:53.230340+00:00",
  "version": "1.0.0",
- "build": "4dbdf04",
- "total": 702,
- "publishable": 125,
- "tracking": 577,
- "shown": 702,
+ "build": "f14917a",
+ "total": 704,
+ "publishable": 126,
+ "tracking": 578,
+ "shown": 704,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 3,
@@ -1091,6 +1091,153 @@
     ],
     "next_steps_en": [
      "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 669,
+   "name": "Issah Abdul Rafiu",
+   "age": 16,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Ghana Football Association",
+     "tipo": "federation",
+     "citazione": "‘We aren’t going to relax against Burkina Faso’ – Issah Abdul Rafiu",
+     "url": "https://www.ghanafa.org/wafu-b-u17-we-arent-going-to-relax-against-burkina-faso-issah-abdul-rafiu"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Issah Abdul Rafiu, 16 anni, Benab Football Club",
+     "url": "https://www.transfermarkt.com/issah-rafiu/profil/spieler/1259004"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Issah Abdul Rafiu, 16 anni, Benab Football Club",
+     "url": "https://www.transfermarkt.com/issah-rafiu/profil/spieler/1259004"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Centre-Back",
+   "club": "Benab Football Club",
+   "league": null,
+   "region": "Ghana",
+   "gender": "male",
+   "score": 35,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 8.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "ghanafa.org",
+     "url": "https://www.ghanafa.org/wafu-b-u17-we-arent-going-to-relax-against-burkina-faso-issah-abdul-rafiu",
+     "seen": "2026-10-15T17:16:32.826775"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/issah-rafiu/profil/spieler/1259004",
+     "seen": "2026-10-22T12:16:11.588379"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 2
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-15T17:16:32.826775",
+   "last_seen": "2026-10-24T16:10:31.096621",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Ghana Football Association.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-15",
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Ghana Football Association",
+      "url": "https://www.ghanafa.org/u-15-boys-thrash-uzbekistan-4-1-as-abdul-aziz-issah-and-jerry-owusu-hit-brace-each"
+     },
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Ghana Football Association",
+      "url": "https://www.ghanafa.org/wafu-b-u17-we-arent-going-to-relax-against-burkina-faso-issah-abdul-rafiu"
+     }
+    ],
+    "fonte": "Ghana Football Association",
+    "frase_en": "Called up 2 times by Ghana Football Association."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Ghana Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Ghana Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://www.ghanafa.org/u-15-boys-thrash-uzbekistan-4-1-as-abdul-aziz-issah-and-jerry-owusu-hit-brace-each",
+      "https://www.ghanafa.org/wafu-b-u17-we-arent-going-to-relax-against-burkina-faso-issah-abdul-rafiu"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Produzione documentata: 2 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt"
+    ],
+    "cautions": [],
+    "next_steps": [
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Very young (16 yo): plenty of room to develop",
+     "Documented output: 2 goals",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt"
+    ],
+    "cautions_en": [],
+    "next_steps_en": [
      "Request video or schedule a live viewing",
      "Call the club: confirm identity and contract status"
     ]
@@ -3964,6 +4111,128 @@
    }
   },
   {
+   "id": 32,
+   "name": "Joaquín Muñoz",
+   "age": 17,
+   "age_stato": "dedotto",
+   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Joaquín Muñoz - Perfil del jugador",
+     "url": "https://www.transfermarkt.es/joaquin-munoz/profil/spieler/1379945"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Soccerway",
+     "tipo": "aggregator",
+     "citazione": "Joaquin Munoz (Malaga) Stats",
+     "url": "https://www.soccerway.com/player/munoz-joaquin/fmp1pdv1/"
+    },
+    "eta": {
+     "stato": "dedotto",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Forward",
+   "club": "Malaga",
+   "league": "Youth Tournament (Torneo Promesas de Córdoba)",
+   "region": "Chile",
+   "gender": "male",
+   "score": 23,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 4,
+    "detection_count": 5
+   },
+   "n_sources": 4,
+   "sources": [
+    {
+     "domain": "anfp.cl",
+     "url": "https://www.anfp.cl/la-roja-sub-17-vencio-a-argentina-en-el-debut-del-torneo-promesas-de-cordoba-2026/",
+     "seen": "2026-06-03T04:06:32.617834"
+    },
+    {
+     "domain": "transfermarkt.es",
+     "url": "https://www.transfermarkt.es/joaquin-munoz/profil/spieler/1379945",
+     "seen": "2026-08-01T08:41:41.920525"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/munoz-joaquin/fmp1pdv1/",
+     "seen": "2026-10-03T21:40:24.585803"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/munoz-joaquin/fmp1pdv1/",
+     "seen": "2026-10-24T16:10:31.096621"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dedotto,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-06-03T04:06:32.617834",
+   "last_seen": "2026-10-24T16:10:31.096621",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Soccerway",
+     "4 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "L'età (17) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-17)",
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Soccerway",
+     "4 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The age (17) is not stated by any source: it is inferred from the tournament category (U-17)",
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "id": 217,
    "name": "Mouhamed Wagne",
    "age": 17,
@@ -4709,131 +4978,6 @@
     ],
     "cautions_en": [],
     "next_steps_en": [
-     "Request video or schedule a live viewing",
-     "Call the club: confirm identity and contract status"
-    ]
-   }
-  },
-  {
-   "id": 669,
-   "name": "Issah Abdul Rafiu",
-   "age": 16,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Ghana Football Association",
-     "tipo": "federation",
-     "citazione": "‘We aren’t going to relax against Burkina Faso’ – Issah Abdul Rafiu",
-     "url": "https://www.ghanafa.org/wafu-b-u17-we-arent-going-to-relax-against-burkina-faso-issah-abdul-rafiu"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Issah Abdul Rafiu, 16 anni, Benab Football Club",
-     "url": "https://www.transfermarkt.com/issah-rafiu/profil/spieler/1259004"
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Issah Abdul Rafiu, 16 anni, Benab Football Club",
-     "url": "https://www.transfermarkt.com/issah-rafiu/profil/spieler/1259004"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Centre-Back",
-   "club": "Benab Football Club",
-   "league": null,
-   "region": "Ghana",
-   "gender": "male",
-   "score": 19,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 18.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "ghanafa.org",
-     "url": "https://www.ghanafa.org/wafu-b-u17-we-arent-going-to-relax-against-burkina-faso-issah-abdul-rafiu",
-     "seen": "2026-10-15T17:16:32.826775"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/issah-rafiu/profil/spieler/1259004",
-     "seen": "2026-10-22T12:16:11.588379"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {},
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_dichiarato",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-10-15T17:16:32.826775",
-   "last_seen": "2026-10-22T12:16:11.588379",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Ghana Football Association, Sub-17.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Ghana Football Association",
-      "url": "https://www.ghanafa.org/wafu-b-u17-we-arent-going-to-relax-against-burkina-faso-issah-abdul-rafiu"
-     }
-    ],
-    "fonte": "Ghana Football Association",
-    "frase_en": "Called up 1 times by Ghana Football Association, U17."
-   },
-   "anomalie": [],
-   "publishable": true,
-   "assessment": {
-    "pros": [
-     "Molto giovane (16 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Transfermarkt",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)",
-     "Richiedere video o programmare una visione diretta",
-     "Telefonata al club: conferma anagrafica e status contrattuale"
-    ],
-    "pros_en": [
-     "Very young (16 yo): plenty of room to develop",
-     "Minor context: potentially underpriced",
-     "Name and club stated by Transfermarkt",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Get performance stats (match reports)",
      "Request video or schedule a live viewing",
      "Call the club: confirm identity and contract status"
     ]
@@ -16408,7 +16552,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 113
+    "detection_count": 114
    },
    "n_sources": 4,
    "sources": [
@@ -16453,7 +16597,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 113 rilevamenti"
+     "Segnale persistente: 114 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -16464,7 +16608,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 113 detections"
+     "Persistent signal: 114 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -16629,7 +16773,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 124
+    "detection_count": 125
    },
    "n_sources": 4,
    "sources": [
@@ -16674,7 +16818,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 124 rilevamenti"
+     "Segnale persistente: 125 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16689,7 +16833,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 124 detections"
+     "Persistent signal: 125 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -16972,7 +17116,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 125
+    "detection_count": 126
    },
    "n_sources": 3,
    "sources": [
@@ -17012,7 +17156,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 125 rilevamenti"
+     "Segnale persistente: 126 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17027,7 +17171,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 125 detections"
+     "Persistent signal: 126 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17547,119 +17691,6 @@
     ],
     "next_steps_en": [
      "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 32,
-   "name": "Joaquín Muñoz",
-   "age": 17,
-   "age_stato": "dedotto",
-   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Joaquín Muñoz - Perfil del jugador",
-     "url": "https://www.transfermarkt.es/joaquin-munoz/profil/spieler/1379945"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dedotto",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Forward",
-   "club": "Malaga",
-   "league": "Youth Tournament (Torneo Promesas de Córdoba)",
-   "region": "Chile",
-   "gender": "male",
-   "score": 21,
-   "confidence": 0.91,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 4
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "anfp.cl",
-     "url": "https://www.anfp.cl/la-roja-sub-17-vencio-a-argentina-en-el-debut-del-torneo-promesas-de-cordoba-2026/",
-     "seen": "2026-06-03T04:06:32.617834"
-    },
-    {
-     "domain": "transfermarkt.es",
-     "url": "https://www.transfermarkt.es/joaquin-munoz/profil/spieler/1379945",
-     "seen": "2026-08-01T08:41:41.920525"
-    },
-    {
-     "domain": "us.soccerway.com",
-     "url": "https://us.soccerway.com/player/munoz-joaquin/fmp1pdv1/",
-     "seen": "2026-10-03T21:40:24.585803"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "eta_dedotto,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-06-03T04:06:32.617834",
-   "last_seen": "2026-10-17T20:51:21.344818",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "L'età (17) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-17)",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Very young (17 yo): plenty of room to develop",
-     "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The age (17) is not stated by any source: it is inferred from the tournament category (U-17)",
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
      "Get performance stats (match reports)"
     ]
    }
@@ -19018,7 +19049,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 117
+    "detection_count": 118
    },
    "n_sources": 3,
    "sources": [
@@ -19058,7 +19089,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 117 rilevamenti"
+     "Segnale persistente: 118 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19073,7 +19104,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 117 detections"
+     "Persistent signal: 118 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19372,7 +19403,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 118
+    "detection_count": 119
    },
    "n_sources": 3,
    "sources": [
@@ -19412,7 +19443,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 118 rilevamenti"
+     "Segnale persistente: 119 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19427,7 +19458,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 118 detections"
+     "Persistent signal: 119 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20149,7 +20180,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 111
+    "detection_count": 112
    },
    "n_sources": 2,
    "sources": [
@@ -20184,7 +20215,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 111 rilevamenti"
+     "Segnale persistente: 112 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20197,7 +20228,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 111 detections"
+     "Persistent signal: 112 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22735,7 +22766,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 117
+    "detection_count": 118
    },
    "n_sources": 4,
    "sources": [
@@ -22780,7 +22811,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 117 rilevamenti"
+     "Segnale persistente: 118 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22793,7 +22824,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 117 detections"
+     "Persistent signal: 118 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22853,7 +22884,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 117
+    "detection_count": 118
    },
    "n_sources": 4,
    "sources": [
@@ -22898,7 +22929,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 117 rilevamenti"
+     "Segnale persistente: 118 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -22913,7 +22944,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 117 detections"
+     "Persistent signal: 118 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -23213,7 +23244,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 115
+    "detection_count": 116
    },
    "n_sources": 2,
    "sources": [
@@ -23248,7 +23279,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 115 rilevamenti"
+     "Segnale persistente: 116 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23261,7 +23292,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 115 detections"
+     "Persistent signal: 116 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24715,7 +24746,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 128
+    "detection_count": 129
    },
    "n_sources": 3,
    "sources": [
@@ -24754,7 +24785,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 128 rilevamenti"
+     "Segnale persistente: 129 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24766,7 +24797,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 128 detections"
+     "Persistent signal: 129 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24826,7 +24857,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 131
+    "detection_count": 132
    },
    "n_sources": 3,
    "sources": [
@@ -24865,7 +24896,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 131 rilevamenti"
+     "Segnale persistente: 132 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24877,7 +24908,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 131 detections"
+     "Persistent signal: 132 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -28172,7 +28203,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 3,
    "sources": [
@@ -28203,14 +28234,14 @@
    "review_flags": "copertura_bassa_sperimentale,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-06-08T15:53:26.419652",
-   "last_seen": "2026-10-17T20:51:21.344818",
+   "last_seen": "2026-10-24T16:10:31.096621",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
    "assessment": {
     "pros": [
      "3 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Regione a bassa copertura mediatica: verificato con criteri adattati, senza fonte di stampa primaria — non lo stesso standard degli altri profili",
@@ -28226,7 +28257,7 @@
     ],
     "pros_en": [
      "3 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "Low media-coverage region: verified under adapted criteria, without a primary press source — not the same standard as other profiles",
@@ -30948,6 +30979,170 @@
    }
   },
   {
+   "id": 581,
+   "name": "Alirio Cuna",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "the prolific marksman claimed the Top Goal Scorer Award ahead of Mozambique’s Alirio Cuna, who scored five.",
+     "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "South Africa",
+   "gender": "male",
+   "score": 35,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 20.0,
+    "asymmetry": 0.0,
+    "selection": 22.0,
+    "n_sources": 2,
+    "detection_count": 5
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "safa.net",
+     "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/",
+     "seen": "2026-09-27T21:31:32.127223"
+    },
+    {
+     "domain": "ie.soccerway.com",
+     "url": "https://ie.soccerway.com/player/cuna-alirio/GSplENu0/",
+     "seen": "2026-10-24T16:10:31.096621"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 5,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-27T21:31:32.127223",
+   "last_seen": "2026-10-24T16:10:31.096621",
+   "selezione": {
+    "quante": 4,
+    "frase": "Convocato 4 volte da South African Football Association.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#article"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#breadcrumb"
+     },
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#primaryimage"
+     }
+    ],
+    "fonte": "South African Football Association",
+    "frase_en": "Called up 4 times by South African Football Association."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "4 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "4 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/",
+      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#article",
+      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#breadcrumb",
+      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#primaryimage"
+     ],
+     "dati": {
+      "convocazioni": 4,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 5 gol",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented output: 5 goals",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "id": 477,
    "name": "Tosin Rafiu",
    "age": null,
@@ -32325,169 +32520,6 @@
      "Look for a primary press/federation source to bring it to the full standard",
      "Verify the current club",
      "Confirm the birth year with the club"
-    ]
-   }
-  },
-  {
-   "id": 581,
-   "name": "Alirio Cuna",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "South African Football Association",
-     "tipo": "federation",
-     "citazione": "the prolific marksman claimed the Top Goal Scorer Award ahead of Mozambique’s Alirio Cuna, who scored five.",
-     "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "South Africa",
-   "gender": "male",
-   "score": 26,
-   "confidence": 0.55,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 20.0,
-    "asymmetry": 0.0,
-    "selection": 22.0,
-    "n_sources": 1,
-    "detection_count": 4
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "safa.net",
-     "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/",
-     "seen": "2026-09-27T21:31:32.127223"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 5,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-27T21:31:32.127223",
-   "last_seen": "2026-09-27T21:31:32.127223",
-   "selezione": {
-    "quante": 4,
-    "frase": "Convocato 4 volte da South African Football Association.",
-    "dal": "",
-    "al": "",
-    "categorie": [],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/"
-     },
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#article"
-     },
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#breadcrumb"
-     },
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#primaryimage"
-     }
-    ],
-    "fonte": "South African Football Association",
-    "frase_en": "Called up 4 times by South African Football Association."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "4 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "4 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/",
-      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#article",
-      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#breadcrumb",
-      "https://www.safa.net/amajita/amajita-beat-hosts-mozambique-to-retain-their-cosafa-cup-title/#primaryimage"
-     ],
-     "dati": {
-      "convocazioni": 4,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 5 gol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 5 goals"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
@@ -36959,7 +36991,7 @@
     "asymmetry": 0.0,
     "selection": 24.0,
     "n_sources": 1,
-    "detection_count": 6
+    "detection_count": 8
    },
    "n_sources": 1,
    "sources": [
@@ -36980,10 +37012,10 @@
    "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-10-24T11:27:03.153796",
-   "last_seen": "2026-10-24T11:27:03.153796",
+   "last_seen": "2026-10-24T16:10:31.096621",
    "selezione": {
-    "quante": 6,
-    "frase": "Convocato 6 volte da Philippine Football Federation, Sub-15.",
+    "quante": 8,
+    "frase": "Convocato 8 volte da Philippine Football Federation, Sub-15.",
     "dal": "",
     "al": "",
     "categorie": [
@@ -36997,6 +37029,12 @@
       "categoria": "sub-15",
       "fonte": "Philippine Football Federation",
       "url": "https://pff.org.ph/ph-debuts-in-fifa-u15-world-cup-vs-morocco/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-debuts-in-fifa-u15-world-cup-vs-morocco/#authorImage"
      },
      {
       "data": "",
@@ -37020,6 +37058,12 @@
       "data": "",
       "categoria": "sub-15",
       "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-debuts-in-fifa-u15-world-cup-vs-morocco/#mainImage"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
       "url": "https://pff.org.ph/ph-debuts-in-fifa-u15-world-cup-vs-morocco/#organizationLogo"
      },
      {
@@ -37030,23 +37074,23 @@
      }
     ],
     "fonte": "Philippine Football Federation",
-    "frase_en": "Called up 6 times by Philippine Football Federation, U15."
+    "frase_en": "Called up 8 times by Philippine Football Federation, U15."
    },
    "anomalie": [
     {
      "codice": "asimmetria_copertura",
      "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "6 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "6 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "frase": "8 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "8 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
      "forza": "indicativa",
      "prove": [
       "https://pff.org.ph/ph-debuts-in-fifa-u15-world-cup-vs-morocco/",
+      "https://pff.org.ph/ph-debuts-in-fifa-u15-world-cup-vs-morocco/#authorImage",
       "https://pff.org.ph/ph-debuts-in-fifa-u15-world-cup-vs-morocco/#blogposting",
-      "https://pff.org.ph/ph-debuts-in-fifa-u15-world-cup-vs-morocco/#breadcrumblist",
-      "https://pff.org.ph/ph-debuts-in-fifa-u15-world-cup-vs-morocco/#listItem"
+      "https://pff.org.ph/ph-debuts-in-fifa-u15-world-cup-vs-morocco/#breadcrumblist"
      ],
      "dati": {
-      "convocazioni": 6,
+      "convocazioni": 8,
       "tipi_fonte": [
        "federation"
       ]
@@ -51373,6 +51417,148 @@
    }
   },
   {
+   "id": 704,
+   "name": "Dan Emmanuel Becera",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Cavite’s Dan Emmanuel Becera introduced himself to the world against African powerhouse Morocco.",
+     "url": "https://pff.org.ph/ph-debuts-in-fifa-u15-world-cup-vs-morocco/#authorImage"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Philippines",
+   "gender": "male",
+   "score": 9,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 14.0,
+    "n_sources": 1,
+    "detection_count": 2
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/ph-debuts-in-fifa-u15-world-cup-vs-morocco/#authorImage",
+     "seen": "2026-10-24T16:10:31.096621"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-24T16:10:31.096621",
+   "last_seen": "2026-10-24T16:10:31.096621",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Philippine Football Federation, Sub-15.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-debuts-in-fifa-u15-world-cup-vs-morocco/#authorImage"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-debuts-in-fifa-u15-world-cup-vs-morocco/#mainImage"
+     }
+    ],
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 2 times by Philippine Football Federation, U15."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://pff.org.ph/ph-debuts-in-fifa-u15-world-cup-vs-morocco/#authorImage",
+      "https://pff.org.ph/ph-debuts-in-fifa-u15-world-cup-vs-morocco/#mainImage"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "id": 87,
    "name": "Santiago Pérez Castaño",
    "age": null,
@@ -59533,6 +59719,130 @@
    }
   },
   {
+   "id": 703,
+   "name": "Jerry Owusu",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Ghana Football Association",
+     "tipo": "federation",
+     "citazione": "Abdul Aziz Issah and Jerry Owusu hit brace each",
+     "url": "https://www.ghanafa.org/u-15-boys-thrash-uzbekistan-4-1-as-abdul-aziz-issah-and-jerry-owusu-hit-brace-each"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Ghana",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 8.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "ghanafa.org",
+     "url": "https://www.ghanafa.org/u-15-boys-thrash-uzbekistan-4-1-as-abdul-aziz-issah-and-jerry-owusu-hit-brace-each",
+     "seen": "2026-10-24T16:10:31.096621"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 2
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-24T16:10:31.096621",
+   "last_seen": "2026-10-24T16:10:31.096621",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Ghana Football Association, Sub-15.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Ghana Football Association",
+      "url": "https://www.ghanafa.org/u-15-boys-thrash-uzbekistan-4-1-as-abdul-aziz-issah-and-jerry-owusu-hit-brace-each"
+     }
+    ],
+    "fonte": "Ghana Football Association",
+    "frase_en": "Called up 1 times by Ghana Football Association, U15."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 2 gol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 2 goals"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "id": 136,
    "name": "Andrea Montenegro",
    "age": null,
@@ -60225,7 +60535,7 @@
     "asymmetry": 0.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 3
+    "detection_count": 4
    },
    "n_sources": 2,
    "sources": [
@@ -60246,7 +60556,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-10-11T06:15:11.761343",
-   "last_seen": "2026-10-17T20:51:21.344818",
+   "last_seen": "2026-10-24T16:10:31.096621",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Ghana Football Association, Sub-17.",
