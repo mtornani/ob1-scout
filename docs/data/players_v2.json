@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-24T16:30:53.230340+00:00",
+ "generated_at": "2026-10-24T21:38:17.262981+00:00",
  "version": "1.0.0",
- "build": "f14917a",
+ "build": "a40a284",
  "total": 704,
  "publishable": 126,
  "tracking": 578,
@@ -15415,6 +15415,176 @@
    }
   },
   {
+   "id": 449,
+   "name": "Janet Akekoromowei",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "created the first clear opportunity through Janet Akekoromowei in the 17th minute",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Soccerway",
+     "tipo": "aggregator",
+     "citazione": "Janet Akekoromowei (SL Benfica) Stats",
+     "url": "https://www.soccerway.com/player/akekoromowei-janet/Kl7C5u5t/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "forward",
+   "club": "SL Benfica",
+   "league": "2026 FIFA U-20 Women's World Cup",
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 45,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 22.0,
+    "n_sources": 3,
+    "detection_count": 12
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/akekoromowei-janet/Kl7C5u5t/",
+     "seen": "2026-09-11T11:42:44.704482"
+    },
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/",
+     "seen": "2026-09-11T11:42:44.704482"
+    },
+    {
+     "domain": "ng.soccerway.com",
+     "url": "https://ng.soccerway.com/player/akekoromowei-janet/Kl7C5u5t/injury-history/",
+     "seen": "2026-09-28T05:44:27.066725"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-11T11:42:44.704482",
+   "last_seen": "2026-10-24T21:05:43.693438",
+   "selezione": {
+    "quante": 4,
+    "frase": "Convocato 4 volte da Nigeria Football Federation, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-trounce-englands-lionesses-3-0-to-reach-last-eight/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-gallant-falconets-bow-out-after-narrow-defeat-by-colombia/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 4 times by Nigeria Football Federation, U20."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "4 convocazioni di Nigeria Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "4 call-ups by Nigeria Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
+      "https://thenff.com/fifa-u20-womens-world-cup-falconets-trounce-englands-lionesses-3-0-to-reach-last-eight/",
+      "https://thenff.com/fifa-u20-womens-world-cup-gallant-falconets-bow-out-after-narrow-defeat-by-colombia/",
+      "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
+     ],
+     "dati": {
+      "convocazioni": 4,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Soccerway",
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Soccerway",
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "id": 490,
    "name": "Natalie Collins",
    "age": null,
@@ -16552,7 +16722,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 114
+    "detection_count": 115
    },
    "n_sources": 4,
    "sources": [
@@ -16597,7 +16767,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 114 rilevamenti"
+     "Segnale persistente: 115 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -16608,7 +16778,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 114 detections"
+     "Persistent signal: 115 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -16773,7 +16943,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 125
+    "detection_count": 126
    },
    "n_sources": 4,
    "sources": [
@@ -16818,7 +16988,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 125 rilevamenti"
+     "Segnale persistente: 126 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -16833,7 +17003,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 125 detections"
+     "Persistent signal: 126 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17116,7 +17286,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 126
+    "detection_count": 127
    },
    "n_sources": 3,
    "sources": [
@@ -17156,7 +17326,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 126 rilevamenti"
+     "Segnale persistente: 127 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17171,7 +17341,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 126 detections"
+     "Persistent signal: 127 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17960,7 +18130,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 3,
    "sources": [
@@ -17991,7 +18161,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-23T11:59:53.215187",
-   "last_seen": "2026-10-20T11:58:06.401513",
+   "last_seen": "2026-10-24T21:05:43.693438",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -18000,7 +18170,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -18013,7 +18183,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -19049,7 +19219,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 118
+    "detection_count": 119
    },
    "n_sources": 3,
    "sources": [
@@ -19089,7 +19259,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 118 rilevamenti"
+     "Segnale persistente: 119 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19104,7 +19274,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 118 detections"
+     "Persistent signal: 119 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19403,7 +19573,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 119
+    "detection_count": 120
    },
    "n_sources": 3,
    "sources": [
@@ -19443,7 +19613,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 119 rilevamenti"
+     "Segnale persistente: 120 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19458,7 +19628,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 119 detections"
+     "Persistent signal: 120 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20180,7 +20350,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 112
+    "detection_count": 113
    },
    "n_sources": 2,
    "sources": [
@@ -20215,7 +20385,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 112 rilevamenti"
+     "Segnale persistente: 113 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20228,7 +20398,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 112 detections"
+     "Persistent signal: 113 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22884,7 +23054,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 118
+    "detection_count": 119
    },
    "n_sources": 4,
    "sources": [
@@ -22929,7 +23099,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 118 rilevamenti"
+     "Segnale persistente: 119 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -22944,7 +23114,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 118 detections"
+     "Persistent signal: 119 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -23244,7 +23414,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 116
+    "detection_count": 117
    },
    "n_sources": 2,
    "sources": [
@@ -23279,7 +23449,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 116 rilevamenti"
+     "Segnale persistente: 117 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23292,7 +23462,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 116 detections"
+     "Persistent signal: 117 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24746,7 +24916,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 129
+    "detection_count": 130
    },
    "n_sources": 3,
    "sources": [
@@ -24785,7 +24955,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 129 rilevamenti"
+     "Segnale persistente: 130 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24797,7 +24967,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 129 detections"
+     "Persistent signal: 130 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24857,7 +25027,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 132
+    "detection_count": 133
    },
    "n_sources": 3,
    "sources": [
@@ -24896,7 +25066,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 132 rilevamenti"
+     "Segnale persistente: 133 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24908,7 +25078,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 132 detections"
+     "Persistent signal: 133 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -30636,180 +30806,6 @@
    }
   },
   {
-   "id": 449,
-   "name": "Janet Akekoromowei",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "created the first clear opportunity through Janet Akekoromowei in the 17th minute",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "forward",
-   "club": null,
-   "league": "2026 FIFA U-20 Women's World Cup",
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 45,
-   "confidence": 1.0,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 4.0,
-    "asymmetry": 8.0,
-    "selection": 22.0,
-    "n_sources": 3,
-    "detection_count": 11
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/akekoromowei-janet/Kl7C5u5t/",
-     "seen": "2026-09-11T11:42:44.704482"
-    },
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/",
-     "seen": "2026-09-11T11:42:44.704482"
-    },
-    {
-     "domain": "ng.soccerway.com",
-     "url": "https://ng.soccerway.com/player/akekoromowei-janet/Kl7C5u5t/injury-history/",
-     "seen": "2026-09-28T05:44:27.066725"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-11T11:42:44.704482",
-   "last_seen": "2026-10-18T04:59:43.937423",
-   "selezione": {
-    "quante": 4,
-    "frase": "Convocato 4 volte da Nigeria Football Federation, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
-     },
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-trounce-englands-lionesses-3-0-to-reach-last-eight/"
-     },
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-gallant-falconets-bow-out-after-narrow-defeat-by-colombia/"
-     },
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 4 times by Nigeria Football Federation, U20."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "4 convocazioni di Nigeria Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "4 call-ups by Nigeria Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
-      "https://thenff.com/fifa-u20-womens-world-cup-falconets-trounce-englands-lionesses-3-0-to-reach-last-eight/",
-      "https://thenff.com/fifa-u20-womens-world-cup-gallant-falconets-bow-out-after-narrow-defeat-by-colombia/",
-      "https://thenff.com/fifa-u20-womens-world-cup-motivated-falconets-battle-china-to-scoreless-draw/"
-     ],
-     "dati": {
-      "convocazioni": 4,
-      "tipi_fonte": [
-       "aggregator",
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals",
-     "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club"
-    ]
-   }
-  },
-  {
    "id": 124,
    "name": "Favour Nkwocha",
    "age": null,
@@ -33279,6 +33275,156 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 527,
+   "name": "Oluwakemi Adegbuyi",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "The breakthrough came in the 33rd minute when Oluwakemi Adegbuyi broke the deadlock with an excellent finish to give Nigeria a 1-0 lead.",
+     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Flamingos",
+   "league": "WAFU-B U17 Girls Championship",
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 23,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/",
+     "seen": "2026-09-19T04:54:29.466675"
+    },
+    {
+     "domain": "ca.soccerway.com",
+     "url": "https://ca.soccerway.com/player/adegbuyi-oluwakemi/zB2SMy9k/",
+     "seen": "2026-10-24T21:05:43.693438"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-19T04:54:29.466675",
+   "last_seen": "2026-10-24T21:05:43.693438",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Nigeria Football Federation, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/la-2028-olympics-race-goal-happy-nkor-oladipo-moshood-11-others-train-in-ikenne/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 2 times by Nigeria Football Federation, U17."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Nigeria Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Nigeria Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://thenff.com/la-2028-olympics-race-goal-happy-nkor-oladipo-moshood-11-others-train-in-ikenne/",
+      "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club"
     ]
    }
   },
@@ -36670,7 +36816,7 @@
     "asymmetry": 8.0,
     "selection": 14.0,
     "n_sources": 2,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 2,
    "sources": [
@@ -36696,7 +36842,7 @@
    "review_flags": "eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-27T21:31:32.127223",
-   "last_seen": "2026-10-17T20:51:21.344818",
+   "last_seen": "2026-10-24T21:05:43.693438",
    "selezione": {
     "quante": 2,
     "frase": "Convocato 2 volte da South African Football Association.",
@@ -40416,155 +40562,6 @@
     ],
     "next_steps_en": [
      "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 527,
-   "name": "Oluwakemi Adegbuyi",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "The breakthrough came in the 33rd minute when Oluwakemi Adegbuyi broke the deadlock with an excellent finish to give Nigeria a 1-0 lead.",
-     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Flamingos",
-   "league": "WAFU-B U17 Girls Championship",
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 14,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 4.0,
-    "asymmetry": 8.0,
-    "selection": 14.0,
-    "n_sources": 1,
-    "detection_count": 2
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/",
-     "seen": "2026-09-19T04:54:29.466675"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-19T04:54:29.466675",
-   "last_seen": "2026-10-06T06:44:40.959832",
-   "selezione": {
-    "quante": 2,
-    "frase": "Convocato 2 volte da Nigeria Football Federation, Sub-17.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/la-2028-olympics-race-goal-happy-nkor-oladipo-moshood-11-others-train-in-ikenne/"
-     },
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 2 times by Nigeria Football Federation, U17."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "2 convocazioni di Nigeria Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "2 call-ups by Nigeria Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://thenff.com/la-2028-olympics-race-goal-happy-nkor-oladipo-moshood-11-others-train-in-ikenne/",
-      "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
-     ],
-     "dati": {
-      "convocazioni": 2,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol",
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals",
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
     ]
@@ -47104,6 +47101,129 @@
     ],
     "fonte": "Mi Selección (Federación Mexicana de Fútbol)",
     "frase_en": "Called up 1 times by Mi Selección (Federación Mexicana de Fútbol), U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 675,
+   "name": "Wiktoria Skrzypczak",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "Wiktoria Skrzypczak converted to give Poland the lead",
+     "url": "https://thenff.com/fifa-u17-womens-world-cup-golden-eaglets-flamingos-falter-in-ouagadougou-rabat/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Forward",
+   "club": "Parma W",
+   "league": "Ekstraliga Women",
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 11,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/fifa-u17-womens-world-cup-golden-eaglets-flamingos-falter-in-ouagadougou-rabat/",
+     "seen": "2026-10-17T20:51:21.344818"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/skrzypczak-wiktoria/8IgnbRp2/",
+     "seen": "2026-10-24T21:05:43.693438"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-17T20:51:21.344818",
+   "last_seen": "2026-10-24T21:05:43.693438",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u17-womens-world-cup-golden-eaglets-flamingos-falter-in-ouagadougou-rabat/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U17."
    },
    "anomalie": [],
    "publishable": false,
@@ -72903,124 +73023,6 @@
    "league": null,
    "region": "Nigeria",
    "gender": "male",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/fifa-u17-womens-world-cup-golden-eaglets-flamingos-falter-in-ouagadougou-rabat/",
-     "seen": "2026-10-17T20:51:21.344818"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-10-17T20:51:21.344818",
-   "last_seen": "2026-10-17T20:51:21.344818",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, Sub-17.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u17-womens-world-cup-golden-eaglets-flamingos-falter-in-ouagadougou-rabat/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, U17."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 675,
-   "name": "Wiktoria Skrzypczak",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "Wiktoria Skrzypczak converted to give Poland the lead",
-     "url": "https://thenff.com/fifa-u17-womens-world-cup-golden-eaglets-flamingos-falter-in-ouagadougou-rabat/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Nigeria",
-   "gender": "female",
    "score": 4,
    "confidence": 0.45,
    "breakdown": {
