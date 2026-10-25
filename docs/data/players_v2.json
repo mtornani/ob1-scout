@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-25T17:09:17.829370+00:00",
+ "generated_at": "2026-10-25T21:39:12.837520+00:00",
  "version": "1.0.0",
- "build": "7d6ec2d",
- "total": 704,
- "publishable": 126,
- "tracking": 578,
- "shown": 704,
+ "build": "7c6de07",
+ "total": 705,
+ "publishable": 128,
+ "tracking": 577,
+ "shown": 705,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 3,
@@ -4719,6 +4719,116 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by Federación Colombiana de Fútbol",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 434,
+   "name": "Amsatou Diouf",
+   "age": 15,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Wiwsport",
+     "tipo": "national_press",
+     "citazione": "Amsatou Diouf et Aliou Dieye, premières impressions",
+     "url": "https://wiwsport.com/2026/09/08/carnet-ufoa-a-u17-jour-1-amsatou-diouf-et-aliou-dieye-premieres-impressions/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Amsatou Diouf, 15 anni, Diambars FC U20",
+     "url": "https://www.transfermarkt.com/amsatou-diouf/profil/spieler/1589289"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Amsatou Diouf, 15 anni, Diambars FC U20",
+     "url": "https://www.transfermarkt.com/amsatou-diouf/profil/spieler/1589289"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attack",
+   "club": "Diambars FC U20",
+   "league": null,
+   "region": "Senegal",
+   "gender": "female",
+   "score": 20,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 20.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 4
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "wiwsport.com",
+     "url": "https://wiwsport.com/2026/09/08/carnet-ufoa-a-u17-jour-1-amsatou-diouf-et-aliou-dieye-premieres-impressions/",
+     "seen": "2026-09-08T21:20:18.348983"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/amsatou-diouf/profil/spieler/1589289",
+     "seen": "2026-10-13T00:55:22.772585"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-08T21:20:18.348983",
+   "last_seen": "2026-10-25T21:07:56.738736",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Molto giovane (15 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Very young (15 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
      "2 distinct domains mention him"
     ],
     "cautions_en": [
@@ -14770,6 +14880,114 @@
    }
   },
   {
+   "id": 705,
+   "name": "Guillaume Restes",
+   "age": 21,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Trivela",
+     "tipo": "local_press",
+     "citazione": "O jogador é Guillaume Restes, de 21 anos.",
+     "url": "https://trivela.com.br/franca/como-convocacao-zidane-mudou-mercado-joia-alvo-psg-ficar-pequeno/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Guillaume Lino Restes, 21 anni, FC Toulouse",
+     "url": "https://www.transfermarkt.us/guillaume-restes/profil/spieler/912902"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Trivela",
+     "tipo": "local_press",
+     "citazione": "O jogador é Guillaume Restes, de 21 anos.",
+     "url": "https://trivela.com.br/franca/como-convocacao-zidane-mudou-mercado-joia-alvo-psg-ficar-pequeno/"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "goalkeeper",
+   "club": "Toulouse",
+   "league": null,
+   "region": "Brazil",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/guillaume-restes/profil/spieler/912902",
+     "seen": "2026-10-25T21:07:56.738736"
+    },
+    {
+     "domain": "trivela.com.br",
+     "url": "https://trivela.com.br/franca/como-convocacao-zidane-mudou-mercado-joia-alvo-psg-ficar-pequeno/",
+     "seen": "2026-10-25T21:07:56.738736"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-10-25T21:07:56.738736",
+   "last_seen": "2026-10-25T21:07:56.738736",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "id": 12,
    "name": "Fode Diallo",
    "age": 14,
@@ -16722,7 +16940,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 118
+    "detection_count": 119
    },
    "n_sources": 4,
    "sources": [
@@ -16767,7 +16985,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 118 rilevamenti"
+     "Segnale persistente: 119 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -16778,7 +16996,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 118 detections"
+     "Persistent signal: 119 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -16943,7 +17161,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 127
+    "detection_count": 128
    },
    "n_sources": 4,
    "sources": [
@@ -16988,7 +17206,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 127 rilevamenti"
+     "Segnale persistente: 128 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17003,7 +17221,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 127 detections"
+     "Persistent signal: 128 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19219,7 +19437,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 122
+    "detection_count": 123
    },
    "n_sources": 3,
    "sources": [
@@ -19259,7 +19477,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 122 rilevamenti"
+     "Segnale persistente: 123 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19274,7 +19492,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 122 detections"
+     "Persistent signal: 123 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19573,7 +19791,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 123
+    "detection_count": 124
    },
    "n_sources": 3,
    "sources": [
@@ -19613,7 +19831,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 123 rilevamenti"
+     "Segnale persistente: 124 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19628,7 +19846,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 123 detections"
+     "Persistent signal: 124 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20350,7 +20568,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 115
+    "detection_count": 116
    },
    "n_sources": 2,
    "sources": [
@@ -20385,7 +20603,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 115 rilevamenti"
+     "Segnale persistente: 116 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20398,7 +20616,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 115 detections"
+     "Persistent signal: 116 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -22936,7 +23154,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 121
+    "detection_count": 122
    },
    "n_sources": 4,
    "sources": [
@@ -22981,7 +23199,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 121 rilevamenti"
+     "Segnale persistente: 122 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22994,7 +23212,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 121 detections"
+     "Persistent signal: 122 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23054,7 +23272,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 120
+    "detection_count": 121
    },
    "n_sources": 4,
    "sources": [
@@ -23099,7 +23317,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 120 rilevamenti"
+     "Segnale persistente: 121 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -23114,7 +23332,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 120 detections"
+     "Persistent signal: 121 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -23414,7 +23632,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 120
+    "detection_count": 121
    },
    "n_sources": 2,
    "sources": [
@@ -23449,7 +23667,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 120 rilevamenti"
+     "Segnale persistente: 121 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23462,7 +23680,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 120 detections"
+     "Persistent signal: 121 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24916,7 +25134,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 132
+    "detection_count": 133
    },
    "n_sources": 3,
    "sources": [
@@ -24955,7 +25173,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 132 rilevamenti"
+     "Segnale persistente: 133 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24967,7 +25185,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 132 detections"
+     "Persistent signal: 133 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25027,7 +25245,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 136
+    "detection_count": 137
    },
    "n_sources": 3,
    "sources": [
@@ -25066,7 +25284,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 136 rilevamenti"
+     "Segnale persistente: 137 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -25078,7 +25296,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 136 detections"
+     "Persistent signal: 137 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -36770,6 +36988,137 @@
    }
   },
   {
+   "id": 462,
+   "name": "Serigne Aliou Diop",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Fédération Sénégalaise de Football",
+     "tipo": "federation",
+     "citazione": "Serigne Aliou Diop ne parachève le succès sénégalais à la 82e minute.",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "BeSoccer",
+     "tipo": "aggregator",
+     "citazione": "Title: Profile Serigne Sam Saliou Diop today, Thonon Évian",
+     "url": "https://www.besoccer.com/player/serigne-sam-saliou-diop-3895673"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Thonon Évian",
+   "league": "UFOA A U17",
+   "region": "Senegal",
+   "gender": "male",
+   "score": 20,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "fsfoot.sn",
+     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/",
+     "seen": "2026-09-12T04:54:03.412363"
+    },
+    {
+     "domain": "wiwsport.com",
+     "url": "https://wiwsport.com/2026/09/13/ufoa-a-u17-serigne-aliou-diop-et-daouda-fofana-fall-titulaires-face-a-la-gambie/",
+     "seen": "2026-09-13T16:34:39.358956"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/serigne-sam-saliou-diop-3895673",
+     "seen": "2026-10-25T21:07:56.738736"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-12T04:54:03.412363",
+   "last_seen": "2026-10-25T21:07:56.738736",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fédération Sénégalaise de Football",
+      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
+     }
+    ],
+    "fonte": "Fédération Sénégalaise de Football",
+    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da BeSoccer",
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced",
+     "Name and club stated by BeSoccer",
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
    "id": 582,
    "name": "Martinho Começar",
    "age": null,
@@ -40307,136 +40656,6 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 462,
-   "name": "Serigne Aliou Diop",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Fédération Sénégalaise de Football",
-     "tipo": "federation",
-     "citazione": "Serigne Aliou Diop ne parachève le succès sénégalais à la 82e minute.",
-     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": "UFOA A U17",
-   "region": "Senegal",
-   "gender": "male",
-   "score": 14,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 4.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "fsfoot.sn",
-     "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/",
-     "seen": "2026-09-12T04:54:03.412363"
-    },
-    {
-     "domain": "wiwsport.com",
-     "url": "https://wiwsport.com/2026/09/13/ufoa-a-u17-serigne-aliou-diop-et-daouda-fofana-fall-titulaires-face-a-la-gambie/",
-     "seen": "2026-09-13T16:34:39.358956"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-12T04:54:03.412363",
-   "last_seen": "2026-09-13T16:34:39.358956",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Fédération Sénégalaise de Football, Sub-17.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Fédération Sénégalaise de Football",
-      "url": "https://fsfoot.sn/ufoa-a-u17-le-senegal-corrige-la-sierra-leone-et-confirme-sa-suprematie/"
-     }
-    ],
-    "fonte": "Fédération Sénégalaise de Football",
-    "frase_en": "Called up 1 times by Fédération Sénégalaise de Football, U17."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 gol",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società"
-    ],
-    "pros_en": [
-     "Documented output: 1 goals",
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club"
     ]
    }
   },
@@ -70170,116 +70389,6 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 434,
-   "name": "Amsatou Diouf",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Wiwsport",
-     "tipo": "national_press",
-     "citazione": "Amsatou Diouf et Aliou Dieye, premières impressions",
-     "url": "https://wiwsport.com/2026/09/08/carnet-ufoa-a-u17-jour-1-amsatou-diouf-et-aliou-dieye-premieres-impressions/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Senegal",
-   "gender": "female",
-   "score": 4,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 3
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "wiwsport.com",
-     "url": "https://wiwsport.com/2026/09/08/carnet-ufoa-a-u17-jour-1-amsatou-diouf-et-aliou-dieye-premieres-impressions/",
-     "seen": "2026-09-08T21:20:18.348983"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/amsatou-diouf/profil/spieler/1589289",
-     "seen": "2026-10-13T00:55:22.772585"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-08T21:20:18.348983",
-   "last_seen": "2026-10-19T05:07:28.449102",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
     ]
    }
   },
