@@ -8,7 +8,7 @@ from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
 from pathlib import Path
 
 API_URL = "https://api.anycrawl.dev"
-API_KEY = "ac-fb691ff39385b4a7c158c73f2c3ba"
+API_KEY = os.environ.get("OB1_API_KEY", "")
 HEADERS = {"Content-Type": "application/json", "Authorization": f"Bearer {API_KEY}"}
 
 # ---------- packs/queries ----------
