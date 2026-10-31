@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-30T22:51:19.399620+00:00",
+ "generated_at": "2026-10-31T06:35:45.321475+00:00",
  "version": "1.0.0",
- "build": "bf904a5",
- "total": 722,
+ "build": "0e8222b",
+ "total": 723,
  "publishable": 128,
- "tracking": 594,
- "shown": 722,
+ "tracking": 595,
+ "shown": 723,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 3,
@@ -15850,10 +15850,10 @@
     "production": 4.0,
     "asymmetry": 8.0,
     "selection": 24.0,
-    "n_sources": 3,
-    "detection_count": 11
+    "n_sources": 4,
+    "detection_count": 12
    },
-   "n_sources": 3,
+   "n_sources": 4,
    "sources": [
     {
      "domain": "pff.org.ph",
@@ -15869,6 +15869,11 @@
      "domain": "uk.soccerway.com",
      "url": "https://uk.soccerway.com/player/collins-natalie/fw0Riy6N/injury-history/",
      "seen": "2026-10-09T22:50:41.270287"
+    },
+    {
+     "domain": "ke.soccerway.com",
+     "url": "https://ke.soccerway.com/player/collins-natalie/fw0Riy6N/",
+     "seen": "2026-10-31T06:09:11.807977"
     }
    ],
    "n_sources_registro": 2,
@@ -15882,7 +15887,7 @@
    "review_flags": "eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-14T13:13:27.808740",
-   "last_seen": "2026-10-23T11:57:20.063535",
+   "last_seen": "2026-10-31T06:09:11.807977",
    "selezione": {
     "quante": 6,
     "frase": "Convocato 6 volte da Philippine Football Federation.",
@@ -15959,7 +15964,7 @@
     "pros": [
      "Produzione documentata: 1 gol",
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
+     "4 domini distinti lo nominano"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -15971,7 +15976,7 @@
     "pros_en": [
      "Documented output: 1 goals",
      "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
+     "4 distinct domains mention him"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -16940,7 +16945,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 135
+    "detection_count": 136
    },
    "n_sources": 4,
    "sources": [
@@ -16985,7 +16990,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 135 rilevamenti"
+     "Segnale persistente: 136 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -16996,7 +17001,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 135 detections"
+     "Persistent signal: 136 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -17161,7 +17166,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 142
+    "detection_count": 143
    },
    "n_sources": 4,
    "sources": [
@@ -17206,7 +17211,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 142 rilevamenti"
+     "Segnale persistente: 143 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17221,7 +17226,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 142 detections"
+     "Persistent signal: 143 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17504,7 +17509,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 144
+    "detection_count": 145
    },
    "n_sources": 3,
    "sources": [
@@ -17544,7 +17549,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 144 rilevamenti"
+     "Segnale persistente: 145 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17559,7 +17564,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 144 detections"
+     "Persistent signal: 145 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19437,7 +19442,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 138
+    "detection_count": 139
    },
    "n_sources": 3,
    "sources": [
@@ -19477,7 +19482,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 138 rilevamenti"
+     "Segnale persistente: 139 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19492,7 +19497,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 138 detections"
+     "Persistent signal: 139 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19554,7 +19559,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 12
+    "detection_count": 13
    },
    "n_sources": 3,
    "sources": [
@@ -19585,7 +19590,7 @@
    "review_flags": "senza_fonte_primary,eta_assente,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-03-03T12:58:52.925498",
-   "last_seen": "2026-10-16T11:47:39.521416",
+   "last_seen": "2026-10-31T06:09:11.807977",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -19593,7 +19598,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 12 rilevamenti"
+     "Segnale persistente: 13 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19609,7 +19614,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 12 detections"
+     "Persistent signal: 13 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19791,7 +19796,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 140
+    "detection_count": 141
    },
    "n_sources": 3,
    "sources": [
@@ -19831,7 +19836,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 140 rilevamenti"
+     "Segnale persistente: 141 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19846,7 +19851,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 140 detections"
+     "Persistent signal: 141 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20568,7 +20573,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 131
+    "detection_count": 132
    },
    "n_sources": 2,
    "sources": [
@@ -20603,7 +20608,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 131 rilevamenti"
+     "Segnale persistente: 132 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20616,7 +20621,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 131 detections"
+     "Persistent signal: 132 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23154,7 +23159,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 137
+    "detection_count": 138
    },
    "n_sources": 4,
    "sources": [
@@ -23199,7 +23204,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 137 rilevamenti"
+     "Segnale persistente: 138 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23212,7 +23217,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 137 detections"
+     "Persistent signal: 138 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23272,7 +23277,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 135
+    "detection_count": 136
    },
    "n_sources": 4,
    "sources": [
@@ -23317,7 +23322,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 135 rilevamenti"
+     "Segnale persistente: 136 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -23332,7 +23337,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 135 detections"
+     "Persistent signal: 136 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -23632,7 +23637,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 136
+    "detection_count": 137
    },
    "n_sources": 2,
    "sources": [
@@ -23667,7 +23672,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 136 rilevamenti"
+     "Segnale persistente: 137 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23680,7 +23685,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 136 detections"
+     "Persistent signal: 137 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25134,7 +25139,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 148
+    "detection_count": 149
    },
    "n_sources": 3,
    "sources": [
@@ -25173,7 +25178,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 148 rilevamenti"
+     "Segnale persistente: 149 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -25185,7 +25190,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 148 detections"
+     "Persistent signal: 149 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25245,7 +25250,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 150
+    "detection_count": 151
    },
    "n_sources": 3,
    "sources": [
@@ -25284,7 +25289,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 150 rilevamenti"
+     "Segnale persistente: 151 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -25296,7 +25301,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 150 detections"
+     "Persistent signal: 151 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -32363,7 +32368,7 @@
     "asymmetry": 8.0,
     "selection": 24.0,
     "n_sources": 1,
-    "detection_count": 14
+    "detection_count": 15
    },
    "n_sources": 1,
    "sources": [
@@ -32384,10 +32389,10 @@
    "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-10-24T16:10:31.096621",
-   "last_seen": "2026-10-30T13:23:23.989372",
+   "last_seen": "2026-10-31T06:09:11.807977",
    "selezione": {
-    "quante": 14,
-    "frase": "Convocato 14 volte da Philippine Football Federation, Sub-15.",
+    "quante": 15,
+    "frase": "Convocato 15 volte da Philippine Football Federation, Sub-15.",
     "dal": "",
     "al": "",
     "categorie": [
@@ -32454,6 +32459,12 @@
       "data": "",
       "categoria": "sub-15",
       "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#organizationLogo"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
       "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#webpage"
      },
      {
@@ -32482,14 +32493,14 @@
      }
     ],
     "fonte": "Philippine Football Federation",
-    "frase_en": "Called up 14 times by Philippine Football Federation, U15."
+    "frase_en": "Called up 15 times by Philippine Football Federation, U15."
    },
    "anomalie": [
     {
      "codice": "asimmetria_copertura",
      "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "14 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "14 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "frase": "15 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "15 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
      "forza": "indicativa",
      "prove": [
       "https://pff.org.ph/3-in-a-row-for-ph-in-fifa-u15-world-cup/",
@@ -32498,7 +32509,7 @@
       "https://pff.org.ph/3-in-a-row-for-ph-in-fifa-u15-world-cup/#breadcrumblist"
      ],
      "dati": {
-      "convocazioni": 14,
+      "convocazioni": 15,
       "tipi_fonte": [
        "federation"
       ]
@@ -34254,7 +34265,7 @@
     "asymmetry": 8.0,
     "selection": 24.0,
     "n_sources": 1,
-    "detection_count": 13
+    "detection_count": 15
    },
    "n_sources": 1,
    "sources": [
@@ -34275,10 +34286,10 @@
    "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-10-21T12:13:31.645781",
-   "last_seen": "2026-10-30T13:23:23.989372",
+   "last_seen": "2026-10-31T06:09:11.807977",
    "selezione": {
-    "quante": 13,
-    "frase": "Convocato 13 volte da Philippine Football Federation, Sub-15.",
+    "quante": 15,
+    "frase": "Convocato 15 volte da Philippine Football Federation, Sub-15.",
     "dal": "",
     "al": "",
     "categorie": [
@@ -34345,6 +34356,12 @@
       "data": "",
       "categoria": "sub-15",
       "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#authorImage"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
       "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#blogposting"
      },
      {
@@ -34363,18 +34380,24 @@
       "data": "",
       "categoria": "sub-15",
       "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#organizationLogo"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
       "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#webpage"
      }
     ],
     "fonte": "Philippine Football Federation",
-    "frase_en": "Called up 13 times by Philippine Football Federation, U15."
+    "frase_en": "Called up 15 times by Philippine Football Federation, U15."
    },
    "anomalie": [
     {
      "codice": "asimmetria_copertura",
      "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "13 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "13 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "frase": "15 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "15 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
      "forza": "indicativa",
      "prove": [
       "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/",
@@ -34383,7 +34406,7 @@
       "https://pff.org.ph/pff-names-14-man-pmnft-u15-for-fifa-u15-world-cup-festival/#breadcrumblist"
      ],
      "dati": {
-      "convocazioni": 13,
+      "convocazioni": 15,
       "tipi_fonte": [
        "federation"
       ]
@@ -34680,7 +34703,7 @@
     "asymmetry": 0.0,
     "selection": 24.0,
     "n_sources": 2,
-    "detection_count": 6
+    "detection_count": 8
    },
    "n_sources": 2,
    "sources": [
@@ -34706,10 +34729,10 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-10-30T13:23:23.989372",
-   "last_seen": "2026-10-30T22:35:18.635100",
+   "last_seen": "2026-10-31T06:09:11.807977",
    "selezione": {
-    "quante": 5,
-    "frase": "Convocato 5 volte da Philippine Football Federation, Sub-15.",
+    "quante": 7,
+    "frase": "Convocato 7 volte da Philippine Football Federation, Sub-15.",
     "dal": "",
     "al": "",
     "categorie": [
@@ -34723,6 +34746,12 @@
       "categoria": "sub-15",
       "fonte": "Philippine Football Federation",
       "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#authorImage"
      },
      {
       "data": "",
@@ -34746,27 +34775,218 @@
       "data": "",
       "categoria": "sub-15",
       "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#organizationLogo"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
       "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#webpage"
      }
     ],
     "fonte": "Philippine Football Federation",
-    "frase_en": "Called up 5 times by Philippine Football Federation, U15."
+    "frase_en": "Called up 7 times by Philippine Football Federation, U15."
    },
    "anomalie": [
     {
      "codice": "asimmetria_copertura",
      "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "5 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "5 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "frase": "7 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "7 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
      "forza": "indicativa",
      "prove": [
       "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/",
+      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#authorImage",
       "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#blogposting",
-      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#breadcrumblist",
-      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#listItem"
+      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#breadcrumblist"
      ],
      "dati": {
-      "convocazioni": 5,
+      "convocazioni": 7,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "id": 720,
+   "name": "Jordi Puig",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Andorran defender Jordi Puig shooting from the far right",
+     "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "defender",
+   "club": null,
+   "league": null,
+   "region": "Philippines",
+   "gender": "male",
+   "score": 25,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 0.0,
+    "selection": 24.0,
+    "n_sources": 2,
+    "detection_count": 8
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/",
+     "seen": "2026-10-30T13:23:23.989372"
+    },
+    {
+     "domain": "transfermarkt.pe",
+     "url": "https://www.transfermarkt.pe/jordi-puig/profil/spieler/1467847",
+     "seen": "2026-10-30T22:35:18.635100"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-30T13:23:23.989372",
+   "last_seen": "2026-10-31T06:09:11.807977",
+   "selezione": {
+    "quante": 7,
+    "frase": "Convocato 7 volte da Philippine Football Federation, Sub-15.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#authorImage"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#blogposting"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#breadcrumblist"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#listItem"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#organizationLogo"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#webpage"
+     }
+    ],
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 7 times by Philippine Football Federation, U15."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "7 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "7 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/",
+      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#authorImage",
+      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#blogposting",
+      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#breadcrumblist"
+     ],
+     "dati": {
+      "convocazioni": 7,
       "tipi_fonte": [
        "aggregator",
        "federation"
@@ -36553,7 +36773,7 @@
     "asymmetry": 0.0,
     "selection": 24.0,
     "n_sources": 2,
-    "detection_count": 6
+    "detection_count": 8
    },
    "n_sources": 2,
    "sources": [
@@ -36579,10 +36799,10 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-10-30T13:23:23.989372",
-   "last_seen": "2026-10-30T22:35:18.635100",
+   "last_seen": "2026-10-31T06:09:11.807977",
    "selezione": {
-    "quante": 5,
-    "frase": "Convocato 5 volte da Philippine Football Federation, Sub-15.",
+    "quante": 7,
+    "frase": "Convocato 7 volte da Philippine Football Federation, Sub-15.",
     "dal": "",
     "al": "",
     "categorie": [
@@ -36596,6 +36816,12 @@
       "categoria": "sub-15",
       "fonte": "Philippine Football Federation",
       "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#authorImage"
      },
      {
       "data": "",
@@ -36619,176 +36845,7 @@
       "data": "",
       "categoria": "sub-15",
       "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#webpage"
-     }
-    ],
-    "fonte": "Philippine Football Federation",
-    "frase_en": "Called up 5 times by Philippine Football Federation, U15."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "5 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "5 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/",
-      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#blogposting",
-      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#breadcrumblist",
-      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#listItem"
-     ],
-     "dati": {
-      "convocazioni": 5,
-      "tipi_fonte": [
-       "aggregator",
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 720,
-   "name": "Jordi Puig",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Philippine Football Federation",
-     "tipo": "federation",
-     "citazione": "Andorran defender Jordi Puig shooting from the far right",
-     "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "defender",
-   "club": null,
-   "league": null,
-   "region": "Philippines",
-   "gender": "male",
-   "score": 22,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 24.0,
-    "n_sources": 2,
-    "detection_count": 6
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "pff.org.ph",
-     "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/",
-     "seen": "2026-10-30T13:23:23.989372"
-    },
-    {
-     "domain": "transfermarkt.pe",
-     "url": "https://www.transfermarkt.pe/jordi-puig/profil/spieler/1467847",
-     "seen": "2026-10-30T22:35:18.635100"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-10-30T13:23:23.989372",
-   "last_seen": "2026-10-30T22:35:18.635100",
-   "selezione": {
-    "quante": 5,
-    "frase": "Convocato 5 volte da Philippine Football Federation, Sub-15.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-15"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-15",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/"
-     },
-     {
-      "data": "",
-      "categoria": "sub-15",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#blogposting"
-     },
-     {
-      "data": "",
-      "categoria": "sub-15",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#breadcrumblist"
-     },
-     {
-      "data": "",
-      "categoria": "sub-15",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#listItem"
+      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#organizationLogo"
      },
      {
       "data": "",
@@ -36798,23 +36855,23 @@
      }
     ],
     "fonte": "Philippine Football Federation",
-    "frase_en": "Called up 5 times by Philippine Football Federation, U15."
+    "frase_en": "Called up 7 times by Philippine Football Federation, U15."
    },
    "anomalie": [
     {
      "codice": "asimmetria_copertura",
      "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "5 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "5 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "frase": "7 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "7 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
      "forza": "indicativa",
      "prove": [
       "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/",
+      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#authorImage",
       "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#blogposting",
-      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#breadcrumblist",
-      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#listItem"
+      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#breadcrumblist"
      ],
      "dati": {
-      "convocazioni": 5,
+      "convocazioni": 7,
       "tipi_fonte": [
        "aggregator",
        "federation"
@@ -41262,7 +41319,7 @@
     "asymmetry": 0.0,
     "selection": 24.0,
     "n_sources": 1,
-    "detection_count": 5
+    "detection_count": 7
    },
    "n_sources": 1,
    "sources": [
@@ -41283,10 +41340,10 @@
    "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-10-30T13:23:23.989372",
-   "last_seen": "2026-10-30T13:23:23.989372",
+   "last_seen": "2026-10-31T06:09:11.807977",
    "selezione": {
-    "quante": 5,
-    "frase": "Convocato 5 volte da Philippine Football Federation, Sub-15.",
+    "quante": 7,
+    "frase": "Convocato 7 volte da Philippine Football Federation, Sub-15.",
     "dal": "",
     "al": "",
     "categorie": [
@@ -41300,6 +41357,12 @@
       "categoria": "sub-15",
       "fonte": "Philippine Football Federation",
       "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#authorImage"
      },
      {
       "data": "",
@@ -41323,27 +41386,33 @@
       "data": "",
       "categoria": "sub-15",
       "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#organizationLogo"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
       "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#webpage"
      }
     ],
     "fonte": "Philippine Football Federation",
-    "frase_en": "Called up 5 times by Philippine Football Federation, U15."
+    "frase_en": "Called up 7 times by Philippine Football Federation, U15."
    },
    "anomalie": [
     {
      "codice": "asimmetria_copertura",
      "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "5 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "5 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "frase": "7 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "7 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
      "forza": "indicativa",
      "prove": [
       "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/",
+      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#authorImage",
       "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#blogposting",
-      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#breadcrumblist",
-      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#listItem"
+      "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#breadcrumblist"
      ],
      "dati": {
-      "convocazioni": 5,
+      "convocazioni": 7,
       "tipi_fonte": [
        "federation"
       ]
@@ -46248,7 +46317,7 @@
     "asymmetry": -20.0,
     "selection": 24.0,
     "n_sources": 1,
-    "detection_count": 13
+    "detection_count": 15
    },
    "n_sources": 1,
    "sources": [
@@ -46269,10 +46338,10 @@
    "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-10-26T22:49:50.955905",
-   "last_seen": "2026-10-30T13:23:23.989372",
+   "last_seen": "2026-10-31T06:09:11.807977",
    "selezione": {
-    "quante": 13,
-    "frase": "Convocato 13 volte da Philippine Football Federation, Sub-15.",
+    "quante": 15,
+    "frase": "Convocato 15 volte da Philippine Football Federation, Sub-15.",
     "dal": "",
     "al": "",
     "categorie": [
@@ -46327,6 +46396,12 @@
       "data": "",
       "categoria": "sub-15",
       "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#authorImage"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
       "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#blogposting"
      },
      {
@@ -46340,6 +46415,12 @@
       "categoria": "sub-15",
       "fonte": "Philippine Football Federation",
       "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#listItem"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/ph-110th-of-189-nations-in-2026-fifa-u15-world-cup/#organizationLogo"
      },
      {
       "data": "",
@@ -46361,14 +46442,14 @@
      }
     ],
     "fonte": "Philippine Football Federation",
-    "frase_en": "Called up 13 times by Philippine Football Federation, U15."
+    "frase_en": "Called up 15 times by Philippine Football Federation, U15."
    },
    "anomalie": [
     {
      "codice": "asimmetria_copertura",
      "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "13 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "13 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "frase": "15 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "15 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
      "forza": "indicativa",
      "prove": [
       "https://pff.org.ph/3-in-a-row-for-ph-in-fifa-u15-world-cup/",
@@ -46377,7 +46458,7 @@
       "https://pff.org.ph/3-in-a-row-for-ph-in-fifa-u15-world-cup/#breadcrumblist"
      ],
      "dati": {
-      "convocazioni": 13,
+      "convocazioni": 15,
       "tipi_fonte": [
        "federation"
       ]
@@ -62205,6 +62286,126 @@
    }
   },
   {
+   "id": 723,
+   "name": "Juan José Rosa Arboleda",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "JUAN JOSÉ ROSA ARBOLEDA",
+     "url": "https://fcf.com.co/2026/10/30/resolucion-super-copa-juvenil-no-032-de-2026-30-de-octubre-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Atlético Nacional",
+   "league": "Supercopa Juvenil FCF",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/10/30/resolucion-super-copa-juvenil-no-032-de-2026-30-de-octubre-2026/",
+     "seen": "2026-10-31T06:09:11.807977"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-10-31T06:09:11.807977",
+   "last_seen": "2026-10-31T06:09:11.807977",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol (ottobre 2026).",
+    "dal": "2026-10-30",
+    "al": "2026-10-30",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-10-30",
+      "categoria": "",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/10/30/resolucion-super-copa-juvenil-no-032-de-2026-30-de-octubre-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 136,
    "name": "Andrea Montenegro",
    "age": null,
@@ -69555,6 +69756,131 @@
    }
   },
   {
+   "id": 716,
+   "name": "Oluebube Umejiaku",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "The deadlock was broken in the 40th minute after a solo effort by Oluebube Umejiaku who took the ball in the midst of three defenders and slotted it past goalkeeper Lopez.",
+     "url": "https://thenff.com/fifa-u17-womens-world-cup-flamingos-reach-quarter-finals-with-2-1-win-over-mexico/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 6,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/fifa-u17-womens-world-cup-flamingos-reach-quarter-finals-with-2-1-win-over-mexico/",
+     "seen": "2026-10-30T13:23:23.989372"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/umejiaku-oluebube/WxdyLFw2/",
+     "seen": "2026-10-31T06:09:11.807977"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-30T13:23:23.989372",
+   "last_seen": "2026-10-31T06:09:11.807977",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u17-womens-world-cup-flamingos-reach-quarter-finals-with-2-1-win-over-mexico/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 129,
    "name": "Juana Flores",
    "age": null,
@@ -76669,124 +76995,6 @@
      "fonte": "Nigeria Football Federation",
      "tipo": "federation",
      "citazione": "opponents made quick attempts from Citlalli Reyes and Natalia Perez in the 4th and 7th minute of play.",
-     "url": "https://thenff.com/fifa-u17-womens-world-cup-flamingos-reach-quarter-finals-with-2-1-win-over-mexico/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/fifa-u17-womens-world-cup-flamingos-reach-quarter-finals-with-2-1-win-over-mexico/",
-     "seen": "2026-10-30T13:23:23.989372"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-10-30T13:23:23.989372",
-   "last_seen": "2026-10-30T13:23:23.989372",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, Sub-17.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u17-womens-world-cup-flamingos-reach-quarter-finals-with-2-1-win-over-mexico/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, U17."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 716,
-   "name": "Oluebube Umejiaku",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "The deadlock was broken in the 40th minute after a solo effort by Oluebube Umejiaku who took the ball in the midst of three defenders and slotted it past goalkeeper Lopez.",
      "url": "https://thenff.com/fifa-u17-womens-world-cup-flamingos-reach-quarter-finals-with-2-1-win-over-mexico/"
     },
     "club": {
