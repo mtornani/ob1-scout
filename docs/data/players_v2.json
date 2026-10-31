@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-31T06:35:45.321475+00:00",
+ "generated_at": "2026-10-31T13:28:30.005344+00:00",
  "version": "1.0.0",
- "build": "0e8222b",
+ "build": "bfcde3c",
  "total": 723,
- "publishable": 128,
- "tracking": 595,
+ "publishable": 129,
+ "tracking": 594,
  "shown": 723,
  "tracking_capped": 0,
  "outcomes": {
@@ -8859,6 +8859,129 @@
    }
   },
   {
+   "id": 723,
+   "name": "Juan José Rosa Arboleda",
+   "age": 19,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "JUAN JOSÉ ROSA ARBOLEDA",
+     "url": "https://fcf.com.co/2026/10/30/resolucion-super-copa-juvenil-no-032-de-2026-30-de-octubre-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Juan José Rosa Arboleda, 19 anni, Atlético Nacional U20",
+     "url": "https://www.transfermarkt.us/juan-rosa/profil/spieler/1274488"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Juan José Rosa Arboleda, 19 anni, Atlético Nacional U20",
+     "url": "https://www.transfermarkt.us/juan-rosa/profil/spieler/1274488"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Right Winger",
+   "club": "Atlético Nacional",
+   "league": "Supercopa Juvenil FCF",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 12,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 7.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/10/30/resolucion-super-copa-juvenil-no-032-de-2026-30-de-octubre-2026/",
+     "seen": "2026-10-31T06:09:11.807977"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/juan-rosa/profil/spieler/1274488",
+     "seen": "2026-10-31T12:57:39.986250"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-10-31T06:09:11.807977",
+   "last_seen": "2026-10-31T12:57:39.986250",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol (ottobre 2026).",
+    "dal": "2026-10-30",
+    "al": "2026-10-30",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-10-30",
+      "categoria": "",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/10/30/resolucion-super-copa-juvenil-no-032-de-2026-30-de-octubre-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol."
+   },
+   "anomalie": [],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Giovane (19 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (19 yo)",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "id": 71,
    "name": "Alvaro Busso",
    "age": 19,
@@ -16945,7 +17068,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 136
+    "detection_count": 137
    },
    "n_sources": 4,
    "sources": [
@@ -16990,7 +17113,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 136 rilevamenti"
+     "Segnale persistente: 137 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -17001,7 +17124,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 136 detections"
+     "Persistent signal: 137 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -17166,7 +17289,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 143
+    "detection_count": 144
    },
    "n_sources": 4,
    "sources": [
@@ -17211,7 +17334,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 143 rilevamenti"
+     "Segnale persistente: 144 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17226,7 +17349,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 143 detections"
+     "Persistent signal: 144 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17509,7 +17632,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 145
+    "detection_count": 146
    },
    "n_sources": 3,
    "sources": [
@@ -17549,7 +17672,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 145 rilevamenti"
+     "Segnale persistente: 146 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17564,7 +17687,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 145 detections"
+     "Persistent signal: 146 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19442,7 +19565,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 139
+    "detection_count": 140
    },
    "n_sources": 3,
    "sources": [
@@ -19482,7 +19605,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 139 rilevamenti"
+     "Segnale persistente: 140 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19497,7 +19620,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 139 detections"
+     "Persistent signal: 140 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -23277,7 +23400,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 136
+    "detection_count": 137
    },
    "n_sources": 4,
    "sources": [
@@ -23322,7 +23445,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 136 rilevamenti"
+     "Segnale persistente: 137 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -23337,7 +23460,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 136 detections"
+     "Persistent signal: 137 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -23637,7 +23760,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 137
+    "detection_count": 138
    },
    "n_sources": 2,
    "sources": [
@@ -23672,7 +23795,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 137 rilevamenti"
+     "Segnale persistente: 138 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23685,7 +23808,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 137 detections"
+     "Persistent signal: 138 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25139,7 +25262,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 149
+    "detection_count": 150
    },
    "n_sources": 3,
    "sources": [
@@ -25178,7 +25301,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 149 rilevamenti"
+     "Segnale persistente: 150 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -25190,7 +25313,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 149 detections"
+     "Persistent signal: 150 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25250,7 +25373,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 151
+    "detection_count": 152
    },
    "n_sources": 3,
    "sources": [
@@ -25289,7 +25412,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 151 rilevamenti"
+     "Segnale persistente: 152 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -25301,7 +25424,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 151 detections"
+     "Persistent signal: 152 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -31973,6 +32096,171 @@
    }
   },
   {
+   "id": 721,
+   "name": "Camden Schaper",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "Camden Schaper top of the list on nine goals",
+     "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "South Africa",
+   "gender": "male",
+   "score": 32,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 30,
+    "asymmetry": 0.0,
+    "selection": 22.0,
+    "n_sources": 1,
+    "detection_count": 4
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "safa.net",
+     "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/",
+     "seen": "2026-10-30T22:35:18.635100"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 9,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-30T22:35:18.635100",
+   "last_seen": "2026-10-31T12:57:39.986250",
+   "selezione": {
+    "quante": 4,
+    "frase": "Convocato 4 volte da South African Football Association, Sub-15.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#article"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#breadcrumb"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#primaryimage"
+     }
+    ],
+    "fonte": "South African Football Association",
+    "frase_en": "Called up 4 times by South African Football Association, U15."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "4 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "4 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/",
+      "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#article",
+      "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#breadcrumb",
+      "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#primaryimage"
+     ],
+     "dati": {
+      "convocazioni": 4,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 9 gol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 9 goals"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "id": 657,
    "name": "Alpi Akter",
    "age": null,
@@ -32549,164 +32837,6 @@
    }
   },
   {
-   "id": 721,
-   "name": "Camden Schaper",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "South African Football Association",
-     "tipo": "federation",
-     "citazione": "Camden Schaper top of the list on nine goals",
-     "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "South Africa",
-   "gender": "male",
-   "score": 30,
-   "confidence": 0.55,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 30,
-    "asymmetry": 0.0,
-    "selection": 19.0,
-    "n_sources": 1,
-    "detection_count": 3
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "safa.net",
-     "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/",
-     "seen": "2026-10-30T22:35:18.635100"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 9,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-10-30T22:35:18.635100",
-   "last_seen": "2026-10-30T22:35:18.635100",
-   "selezione": {
-    "quante": 3,
-    "frase": "Convocato 3 volte da South African Football Association, Sub-15.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-15"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-15",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/"
-     },
-     {
-      "data": "",
-      "categoria": "sub-15",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#article"
-     },
-     {
-      "data": "",
-      "categoria": "sub-15",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#primaryimage"
-     }
-    ],
-    "fonte": "South African Football Association",
-    "frase_en": "Called up 3 times by South African Football Association, U15."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "3 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "3 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/",
-      "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#article",
-      "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#primaryimage"
-     ],
-     "dati": {
-      "convocazioni": 3,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 9 gol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 9 goals"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "id": 161,
    "name": "Lovro Majer",
    "age": null,
@@ -32823,6 +32953,171 @@
     "next_steps_en": [
      "Look for a primary press/federation source to bring it to the full standard",
      "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "id": 722,
+   "name": "Tshiamo Mashishi",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "South African Football Association",
+     "tipo": "federation",
+     "citazione": "closely followed by Tshiamo Mashishi on 6",
+     "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "South Africa",
+   "gender": "male",
+   "score": 29,
+   "confidence": 0.55,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 24.0,
+    "asymmetry": 0.0,
+    "selection": 22.0,
+    "n_sources": 1,
+    "detection_count": 4
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "safa.net",
+     "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/",
+     "seen": "2026-10-30T22:35:18.635100"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 6,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-30T22:35:18.635100",
+   "last_seen": "2026-10-31T12:57:39.986250",
+   "selezione": {
+    "quante": 4,
+    "frase": "Convocato 4 volte da South African Football Association, Sub-15.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#article"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#breadcrumb"
+     },
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "South African Football Association",
+      "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#primaryimage"
+     }
+    ],
+    "fonte": "South African Football Association",
+    "frase_en": "Called up 4 times by South African Football Association, U15."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "4 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "4 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/",
+      "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#article",
+      "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#breadcrumb",
+      "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#primaryimage"
+     ],
+     "dati": {
+      "convocazioni": 4,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 6 gol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 6 goals"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
     ]
    }
   },
@@ -33713,164 +34008,6 @@
      "Age not confirmed"
     ],
     "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 722,
-   "name": "Tshiamo Mashishi",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "South African Football Association",
-     "tipo": "federation",
-     "citazione": "closely followed by Tshiamo Mashishi on 6",
-     "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "South Africa",
-   "gender": "male",
-   "score": 27,
-   "confidence": 0.55,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 24.0,
-    "asymmetry": 0.0,
-    "selection": 19.0,
-    "n_sources": 1,
-    "detection_count": 3
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "safa.net",
-     "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/",
-     "seen": "2026-10-30T22:35:18.635100"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 6,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-10-30T22:35:18.635100",
-   "last_seen": "2026-10-30T22:35:18.635100",
-   "selezione": {
-    "quante": 3,
-    "frase": "Convocato 3 volte da South African Football Association, Sub-15.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-15"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-15",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/"
-     },
-     {
-      "data": "",
-      "categoria": "sub-15",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#article"
-     },
-     {
-      "data": "",
-      "categoria": "sub-15",
-      "fonte": "South African Football Association",
-      "url": "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#primaryimage"
-     }
-    ],
-    "fonte": "South African Football Association",
-    "frase_en": "Called up 3 times by South African Football Association, U15."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "3 convocazioni di South African Football Association, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "3 call-ups by South African Football Association, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/",
-      "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#article",
-      "https://www.safa.net/general-news/objectives-met-and-lessons-learnt-as-sa-u15-conclude-world-cup-journey/#primaryimage"
-     ],
-     "dati": {
-      "convocazioni": 3,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 6 gol"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [
-     "Documented output: 6 goals"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
     ]
@@ -40551,6 +40688,137 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 645,
+   "name": "Michelle Alozie",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "allowing Michelle Alozie to break the deadlock with a composed right-footed tap-in.",
+     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Soccerway",
+     "tipo": "aggregator",
+     "citazione": "Michelle Alozie (Chicago) Stats",
+     "url": "https://www.soccerway.com/player/alozie-michelle/p0bWwi0E/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defender",
+   "club": "Chicago",
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 16,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/",
+     "seen": "2026-10-09T22:50:41.270287"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/alozie-michelle/p0bWwi0E/",
+     "seen": "2026-10-09T22:50:41.270287"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/alozie-michelle/p0bWwi0E/",
+     "seen": "2026-10-31T12:57:39.986250"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-09T22:50:41.270287",
+   "last_seen": "2026-10-31T12:57:39.986250",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation.",
+    "dal": "",
+    "al": "",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Soccerway",
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Soccerway",
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
     ]
    }
   },
@@ -62286,126 +62554,6 @@
    }
   },
   {
-   "id": 723,
-   "name": "Juan José Rosa Arboleda",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "JUAN JOSÉ ROSA ARBOLEDA",
-     "url": "https://fcf.com.co/2026/10/30/resolucion-super-copa-juvenil-no-032-de-2026-30-de-octubre-2026/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Atlético Nacional",
-   "league": "Supercopa Juvenil FCF",
-   "region": "Colombia",
-   "gender": "male",
-   "score": 8,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/10/30/resolucion-super-copa-juvenil-no-032-de-2026-30-de-octubre-2026/",
-     "seen": "2026-10-31T06:09:11.807977"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-10-31T06:09:11.807977",
-   "last_seen": "2026-10-31T06:09:11.807977",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol (ottobre 2026).",
-    "dal": "2026-10-30",
-    "al": "2026-10-30",
-    "categorie": [],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-10-30",
-      "categoria": "",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/10/30/resolucion-super-copa-juvenil-no-032-de-2026-30-de-octubre-2026/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 136,
    "name": "Andrea Montenegro",
    "age": null,
@@ -62903,6 +63051,131 @@
     "pros_en": [
      "2 distinct domains mention him",
      "Persistent signal: 5 detections"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 641,
+   "name": "Joy Igbokwe",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "Eguavoen handed a starting berth to immediate past U20 skipper Joy Igbokwe, who anchored the midfield to earn her senior debut.",
+     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "midfielder",
+   "club": null,
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 7,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/igbokwe-joy/zocy0yZH/?rd=www.soccer24.com",
+     "seen": "2026-10-09T22:50:41.270287"
+    },
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/",
+     "seen": "2026-10-09T22:50:41.270287"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-09T22:50:41.270287",
+   "last_seen": "2026-10-31T12:57:39.986250",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, maggiore.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "maggiore"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "maggiore",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, maggiore."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "2 distinct domains mention him"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -68709,259 +68982,6 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 641,
-   "name": "Joy Igbokwe",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "Eguavoen handed a starting berth to immediate past U20 skipper Joy Igbokwe, who anchored the midfield to earn her senior debut.",
-     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "midfielder",
-   "club": null,
-   "league": null,
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 6,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/igbokwe-joy/zocy0yZH/?rd=www.soccer24.com",
-     "seen": "2026-10-09T22:50:41.270287"
-    },
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/",
-     "seen": "2026-10-09T22:50:41.270287"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-10-09T22:50:41.270287",
-   "last_seen": "2026-10-09T22:50:41.270287",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, maggiore.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "maggiore"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "maggiore",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, maggiore."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 645,
-   "name": "Michelle Alozie",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "allowing Michelle Alozie to break the deadlock with a composed right-footed tap-in.",
-     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Defender",
-   "club": null,
-   "league": null,
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 6,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/",
-     "seen": "2026-10-09T22:50:41.270287"
-    },
-    {
-     "domain": "us.soccerway.com",
-     "url": "https://us.soccerway.com/player/alozie-michelle/p0bWwi0E/",
-     "seen": "2026-10-09T22:50:41.270287"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-10-09T22:50:41.270287",
-   "last_seen": "2026-10-09T22:50:41.270287",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation.",
-    "dal": "",
-    "al": "",
-    "categorie": [],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/la-2028-olympics-race-alozie-kanu-steer-super-falcons-past-comoros-in-ikenne-remo/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
     ]
    }
   },
