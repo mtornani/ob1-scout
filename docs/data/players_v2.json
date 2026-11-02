@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-02T07:04:33.769857+00:00",
+ "generated_at": "2026-11-02T22:21:27.542176+00:00",
  "version": "1.0.0",
- "build": "45b0211",
- "total": 726,
+ "build": "57682c8",
+ "total": 727,
  "publishable": 129,
- "tracking": 597,
- "shown": 726,
+ "tracking": 598,
+ "shown": 727,
  "tracking_capped": 0,
  "outcomes": {
-  "checked": 3,
-  "avg_lead_time_days": 32.7,
+  "checked": 4,
+  "avg_lead_time_days": 33.0,
   "casi": [
    {
     "player_id": 279,
@@ -28,6 +28,15 @@
     "url": "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/noticia/2025/11/14/heroi-da-classificacao-do-brasil-no-mundial-sub-17-comecou-no-futsal-e-virou-goleiro-por-causa-da-altura.ghtml",
     "dominio": "ge.globo.com",
     "quando": "2026-10-06T18:33:10.753023"
+   },
+   {
+    "player_id": 586,
+    "nome": "Fadly Alberto Hengga",
+    "club": "Bhayangkara Presisi Lampung FC U20",
+    "giorni": 34,
+    "url": "https://m.tribunnews.com/superskor/7818854/sosok-fadly-alberto-hengga-pemain-timnas-indonesia-viral-karena-aksi-tendangan-kungfu-di-epa-u20?page=all&s=paging_new",
+    "dominio": "m.tribunnews.com",
+    "quando": "2026-11-02T21:52:37.962662"
    },
    {
     "player_id": 379,
@@ -6003,6 +6012,116 @@
    }
   },
   {
+   "id": 586,
+   "name": "Fadly Alberto Hengga",
+   "age": 18,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Tribunnews — Sepak Bola",
+     "tipo": "national_press",
+     "citazione": "Sosok Fadly Alberto Hengga, Pemain Timnas Indonesia Viral Karena Aksi Tendangan Kungfu di EPA U20",
+     "url": "https://www.tribunnews.com/superskor/7818854/sosok-fadly-alberto-hengga-pemain-timnas-indonesia-viral-karena-aksi-tendangan-kungfu-di-epa-u20"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Fadly Alberto Hengga, 18 anni, Bhayangkara Presisi Lampung FC U20",
+     "url": "https://www.transfermarkt.us/fadly-alberto/profil/spieler/1275391"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Fadly Alberto Hengga, 18 anni, Bhayangkara Presisi Lampung FC U20",
+     "url": "https://www.transfermarkt.us/fadly-alberto/profil/spieler/1275391"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Left Winger",
+   "club": "Bhayangkara Presisi Lampung FC U20",
+   "league": "Elite Pro Academy U-20",
+   "region": "Indonesia",
+   "gender": "male",
+   "score": 17,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 3
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "tribunnews.com",
+     "url": "https://www.tribunnews.com/superskor/7818854/sosok-fadly-alberto-hengga-pemain-timnas-indonesia-viral-karena-aksi-tendangan-kungfu-di-epa-u20",
+     "seen": "2026-09-28T23:26:49.044127"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/fadly-alberto/profil/spieler/1275391",
+     "seen": "2026-09-29T06:02:08.141497"
+    },
+    {
+     "domain": "m.tribunnews.com",
+     "url": "https://m.tribunnews.com/superskor/7818854/sosok-fadly-alberto-hengga-pemain-timnas-indonesia-viral-karena-aksi-tendangan-kungfu-di-epa-u20?page=all&s=paging_new",
+     "seen": "2026-11-02T21:52:37.962662"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-28T23:26:49.044127",
+   "last_seen": "2026-11-02T21:52:37.962662",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Giovane (18 anni)",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Young (18 yo)",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "id": 473,
    "name": "Daouda Fofana Fall",
    "age": 16,
@@ -8719,111 +8838,6 @@
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-26T11:42:09.730925",
    "last_seen": "2026-09-26T11:42:09.730925",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": true,
-   "assessment": {
-    "pros": [
-     "Giovane (18 anni)",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "Nome e club scritti da Transfermarkt",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Nessuna statistica di rendimento documentata"
-    ],
-    "next_steps": [
-     "Recuperare statistiche di rendimento (referti gara)",
-     "Richiedere video o programmare una visione diretta",
-     "Telefonata al club: conferma anagrafica e status contrattuale"
-    ],
-    "pros_en": [
-     "Young (18 yo)",
-     "Minor context: potentially underpriced",
-     "Name and club stated by Transfermarkt",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "No documented performance stats"
-    ],
-    "next_steps_en": [
-     "Get performance stats (match reports)",
-     "Request video or schedule a live viewing",
-     "Call the club: confirm identity and contract status"
-    ]
-   }
-  },
-  {
-   "id": 586,
-   "name": "Fadly Alberto Hengga",
-   "age": 18,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Tribunnews — Sepak Bola",
-     "tipo": "national_press",
-     "citazione": "Sosok Fadly Alberto Hengga, Pemain Timnas Indonesia Viral Karena Aksi Tendangan Kungfu di EPA U20",
-     "url": "https://www.tribunnews.com/superskor/7818854/sosok-fadly-alberto-hengga-pemain-timnas-indonesia-viral-karena-aksi-tendangan-kungfu-di-epa-u20"
-    },
-    "club": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Fadly Alberto Hengga, 18 anni, Bhayangkara Presisi Lampung FC U20",
-     "url": "https://www.transfermarkt.us/fadly-alberto/profil/spieler/1275391"
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Fadly Alberto Hengga, 18 anni, Bhayangkara Presisi Lampung FC U20",
-     "url": "https://www.transfermarkt.us/fadly-alberto/profil/spieler/1275391"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Left Winger",
-   "club": "Bhayangkara Presisi Lampung FC U20",
-   "league": null,
-   "region": "Indonesia",
-   "gender": "male",
-   "score": 12,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "tribunnews.com",
-     "url": "https://www.tribunnews.com/superskor/7818854/sosok-fadly-alberto-hengga-pemain-timnas-indonesia-viral-karena-aksi-tendangan-kungfu-di-epa-u20",
-     "seen": "2026-09-28T23:26:49.044127"
-    },
-    {
-     "domain": "transfermarkt.us",
-     "url": "https://www.transfermarkt.us/fadly-alberto/profil/spieler/1275391",
-     "seen": "2026-09-29T06:02:08.141497"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {},
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_dichiarato",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-28T23:26:49.044127",
-   "last_seen": "2026-09-29T06:02:08.141497",
    "selezione": {},
    "anomalie": [],
    "publishable": true,
@@ -17068,7 +17082,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 142
+    "detection_count": 143
    },
    "n_sources": 4,
    "sources": [
@@ -17113,7 +17127,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 142 rilevamenti"
+     "Segnale persistente: 143 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -17124,7 +17138,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 142 detections"
+     "Persistent signal: 143 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -17289,7 +17303,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 147
+    "detection_count": 148
    },
    "n_sources": 4,
    "sources": [
@@ -17334,7 +17348,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 147 rilevamenti"
+     "Segnale persistente: 148 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17349,7 +17363,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 147 detections"
+     "Persistent signal: 148 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -17524,7 +17538,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 3,
    "sources": [
@@ -17550,7 +17564,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-23T11:59:53.215187",
-   "last_seen": "2026-10-20T11:58:06.401513",
+   "last_seen": "2026-11-02T21:52:37.962662",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -17559,7 +17573,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -17572,7 +17586,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -17632,7 +17646,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 151
+    "detection_count": 152
    },
    "n_sources": 3,
    "sources": [
@@ -17672,7 +17686,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 151 rilevamenti"
+     "Segnale persistente: 152 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17687,7 +17701,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 151 detections"
+     "Persistent signal: 152 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18476,7 +18490,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 3,
    "sources": [
@@ -18507,7 +18521,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-23T11:59:53.215187",
-   "last_seen": "2026-10-24T21:05:43.693438",
+   "last_seen": "2026-11-02T21:52:37.962662",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -18516,7 +18530,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -18529,7 +18543,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -19565,7 +19579,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 144
+    "detection_count": 145
    },
    "n_sources": 3,
    "sources": [
@@ -19605,7 +19619,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 144 rilevamenti"
+     "Segnale persistente: 145 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19620,7 +19634,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 144 detections"
+     "Persistent signal: 145 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19919,7 +19933,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 146
+    "detection_count": 147
    },
    "n_sources": 3,
    "sources": [
@@ -19959,7 +19973,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 146 rilevamenti"
+     "Segnale persistente: 147 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19974,7 +19988,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 146 detections"
+     "Persistent signal: 147 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20696,7 +20710,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 136
+    "detection_count": 137
    },
    "n_sources": 2,
    "sources": [
@@ -20731,7 +20745,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 136 rilevamenti"
+     "Segnale persistente: 137 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20744,7 +20758,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 136 detections"
+     "Persistent signal: 137 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23400,7 +23414,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 142
+    "detection_count": 143
    },
    "n_sources": 4,
    "sources": [
@@ -23445,7 +23459,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 142 rilevamenti"
+     "Segnale persistente: 143 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -23460,7 +23474,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 142 detections"
+     "Persistent signal: 143 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -23880,7 +23894,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 143
+    "detection_count": 144
    },
    "n_sources": 2,
    "sources": [
@@ -23915,7 +23929,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 143 rilevamenti"
+     "Segnale persistente: 144 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23928,7 +23942,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 143 detections"
+     "Persistent signal: 144 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25382,7 +25396,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 155
+    "detection_count": 156
    },
    "n_sources": 3,
    "sources": [
@@ -25421,7 +25435,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 155 rilevamenti"
+     "Segnale persistente: 156 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -25433,7 +25447,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 155 detections"
+     "Persistent signal: 156 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25493,7 +25507,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 157
+    "detection_count": 158
    },
    "n_sources": 3,
    "sources": [
@@ -25532,7 +25546,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 157 rilevamenti"
+     "Segnale persistente: 158 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -25544,7 +25558,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 157 detections"
+     "Persistent signal: 158 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -33483,7 +33497,7 @@
     "asymmetry": 8.0,
     "selection": 19.0,
     "n_sources": 2,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 2,
    "sources": [
@@ -33509,7 +33523,7 @@
    "review_flags": "eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-19T04:54:29.466675",
-   "last_seen": "2026-10-30T13:23:23.989372",
+   "last_seen": "2026-11-02T21:52:37.962662",
    "selezione": {
     "quante": 3,
     "frase": "Convocato 3 volte da Nigeria Football Federation, Sub-17.",
@@ -41920,7 +41934,7 @@
     "asymmetry": 0.0,
     "selection": 14.0,
     "n_sources": 2,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 2,
    "sources": [
@@ -41946,7 +41960,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-11T11:42:44.704482",
-   "last_seen": "2026-10-25T05:08:14.361559",
+   "last_seen": "2026-11-02T21:52:37.962662",
    "selezione": {
     "quante": 2,
     "frase": "Convocato 2 volte da Nigeria Football Federation, Sub-20.",
@@ -49594,6 +49608,134 @@
      "2 distinct domains mention him"
     ],
     "cautions_en": [
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 529,
+   "name": "Elizabeth Adesuyi",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "The second half took a dramatic twist in the 59th minute when Nigeria were reduced to 10 players after defender Elizabeth Adesuyi was shown a straight red card for a foul on a Ghanaian attacker.",
+     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "defender",
+   "club": "Flamingos",
+   "league": "WAFU-B U17 Girls Championship",
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 11,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/",
+     "seen": "2026-09-19T04:54:29.466675"
+    },
+    {
+     "domain": "no.soccerway.com",
+     "url": "https://no.soccerway.com/player/adesuyi-elizabeth/MR85USAb/",
+     "seen": "2026-11-02T21:52:37.962662"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-19T04:54:29.466675",
+   "last_seen": "2026-11-02T21:52:37.962662",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -60872,133 +61014,6 @@
    }
   },
   {
-   "id": 529,
-   "name": "Elizabeth Adesuyi",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "The second half took a dramatic twist in the 59th minute when Nigeria were reduced to 10 players after defender Elizabeth Adesuyi was shown a straight red card for a foul on a Ghanaian attacker.",
-     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "defender",
-   "club": "Flamingos",
-   "league": "WAFU-B U17 Girls Championship",
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 8,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/",
-     "seen": "2026-09-19T04:54:29.466675"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-19T04:54:29.466675",
-   "last_seen": "2026-09-19T04:54:29.466675",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, Sub-17.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, U17."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato"
-    ],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced"
-    ],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 536,
    "name": "Luis Londoño Mazo",
    "age": null,
@@ -62744,7 +62759,7 @@
     "asymmetry": 0.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 2,
    "sources": [
@@ -62765,7 +62780,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-11T11:42:44.704482",
-   "last_seen": "2026-10-25T05:08:14.361559",
+   "last_seen": "2026-11-02T21:52:37.962662",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
@@ -62792,7 +62807,7 @@
    "assessment": {
     "pros": [
      "2 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -62807,7 +62822,7 @@
     ],
     "pros_en": [
      "2 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -77112,6 +77127,129 @@
     ],
     "fonte": "Nigeria Football Federation",
     "frase_en": "Called up 1 times by Nigeria Football Federation, U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 727,
+   "name": "Tran Huy Huynh",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Vietnam Football Federation",
+     "tipo": "federation",
+     "citazione": "In the 32nd minute, following a scramble inside the penalty area, Tran Huy Huynh reacted quickly to fire a diagonal shot and pull one back for Vietnam.",
+     "url": "http://en.vff.org.vn/u15-vietnam-finish-82nd-at-fifa-u15-world-cup-festival-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "en.vff.org.vn",
+     "url": "http://en.vff.org.vn/u15-vietnam-finish-82nd-at-fifa-u15-world-cup-festival-2026/",
+     "seen": "2026-11-02T21:52:37.962662"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-11-02T21:52:37.962662",
+   "last_seen": "2026-11-02T21:52:37.962662",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Vietnam Football Federation, Sub-15.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-15"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-15",
+      "fonte": "Vietnam Football Federation",
+      "url": "http://en.vff.org.vn/u15-vietnam-finish-82nd-at-fifa-u15-world-cup-festival-2026/"
+     }
+    ],
+    "fonte": "Vietnam Football Federation",
+    "frase_en": "Called up 1 times by Vietnam Football Federation, U15."
    },
    "anomalie": [],
    "publishable": false,
