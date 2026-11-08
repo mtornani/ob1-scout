@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-08T18:32:04.065356+00:00",
+ "generated_at": "2026-11-08T22:47:46.735616+00:00",
  "version": "1.0.0",
- "build": "b4af0b6",
- "total": 749,
- "publishable": 130,
+ "build": "958a112",
+ "total": 750,
+ "publishable": 131,
  "tracking": 619,
- "shown": 749,
+ "shown": 750,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 4,
@@ -4305,6 +4305,130 @@
     "pros_en": [
      "Young (19 yo)",
      "Documented output: 1 goals in 1 appearances",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt"
+    ],
+    "cautions_en": [],
+    "next_steps_en": [
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 750,
+   "name": "Kai Müller",
+   "age": 16,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Philippine Football Federation",
+     "tipo": "federation",
+     "citazione": "Filipino-German forward Kai Müller was a revelation on his national team debut, scoring a brace",
+     "url": "https://pff.org.ph/pmnft-u17-off-to-27-acq-winning-start/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Kai Müller, 16 anni, 1.FC Nürnberg U17",
+     "url": "https://www.transfermarkt.us/kai-muller/profil/spieler/1531041"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Kai Müller, 16 anni, 1.FC Nürnberg U17",
+     "url": "https://www.transfermarkt.us/kai-muller/profil/spieler/1531041"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "forward",
+   "club": "FC Nurnberg",
+   "league": null,
+   "region": "Philippines",
+   "gender": "male",
+   "score": 24,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 8.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/pmnft-u17-off-to-27-acq-winning-start/",
+     "seen": "2026-11-08T22:21:45.055193"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/kai-muller/profil/spieler/1531041",
+     "seen": "2026-11-08T22:21:45.055193"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 2,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-11-08T22:21:45.055193",
+   "last_seen": "2026-11-08T22:21:45.055193",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Philippine Football Federation, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/pmnft-u17-off-to-27-acq-winning-start/"
+     }
+    ],
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 1 times by Philippine Football Federation, U17."
+   },
+   "anomalie": [],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Produzione documentata: 2 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt"
+    ],
+    "cautions": [],
+    "next_steps": [
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Very young (16 yo): plenty of room to develop",
+     "Documented output: 2 goals",
      "Minor context: potentially underpriced",
      "Name and club stated by Transfermarkt"
     ],
@@ -17664,7 +17788,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 161
+    "detection_count": 162
    },
    "n_sources": 4,
    "sources": [
@@ -17709,7 +17833,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 161 rilevamenti"
+     "Segnale persistente: 162 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17724,7 +17848,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 161 detections"
+     "Persistent signal: 162 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19977,7 +20101,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 158
+    "detection_count": 159
    },
    "n_sources": 3,
    "sources": [
@@ -20017,7 +20141,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 158 rilevamenti"
+     "Segnale persistente: 159 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -20032,7 +20156,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 158 detections"
+     "Persistent signal: 159 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20331,7 +20455,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 160
+    "detection_count": 161
    },
    "n_sources": 3,
    "sources": [
@@ -20371,7 +20495,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 160 rilevamenti"
+     "Segnale persistente: 161 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -20386,7 +20510,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 160 detections"
+     "Persistent signal: 161 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20826,7 +20950,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 150
+    "detection_count": 151
    },
    "n_sources": 2,
    "sources": [
@@ -20861,7 +20985,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 150 rilevamenti"
+     "Segnale persistente: 151 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20874,7 +20998,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 150 detections"
+     "Persistent signal: 151 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23652,7 +23776,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 154
+    "detection_count": 155
    },
    "n_sources": 4,
    "sources": [
@@ -23697,7 +23821,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 154 rilevamenti"
+     "Segnale persistente: 155 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -23712,7 +23836,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 154 detections"
+     "Persistent signal: 155 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -24243,7 +24367,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 157
+    "detection_count": 158
    },
    "n_sources": 2,
    "sources": [
@@ -24278,7 +24402,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 157 rilevamenti"
+     "Segnale persistente: 158 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24291,7 +24415,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 157 detections"
+     "Persistent signal: 158 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25639,7 +25763,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 169
+    "detection_count": 170
    },
    "n_sources": 3,
    "sources": [
@@ -25678,7 +25802,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 169 rilevamenti"
+     "Segnale persistente: 170 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -25690,7 +25814,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 169 detections"
+     "Persistent signal: 170 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25750,7 +25874,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 170
+    "detection_count": 171
    },
    "n_sources": 3,
    "sources": [
@@ -25789,7 +25913,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 170 rilevamenti"
+     "Segnale persistente: 171 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -25801,7 +25925,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 170 detections"
+     "Persistent signal: 171 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -30320,7 +30444,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 10
+    "detection_count": 11
    },
    "n_sources": 4,
    "sources": [
@@ -30356,7 +30480,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-01T11:56:15.018093",
-   "last_seen": "2026-10-30T06:17:37.046524",
+   "last_seen": "2026-11-08T22:21:45.055193",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -35000,6 +35124,171 @@
    }
   },
   {
+   "id": 480,
+   "name": "Tumininu Adeshina",
+   "age": 20,
+   "age_stato": "dedotto",
+   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-20)",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "Tumininu Adeshina and Tosin Rafiu delivered a series of corners",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dedotto",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defender",
+   "club": null,
+   "league": "2026 FIFA U-20 Women's World Cup",
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 26,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 4.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 4,
+    "detection_count": 7
+   },
+   "n_sources": 4,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
+     "seen": "2026-09-13T16:34:39.358956"
+    },
+    {
+     "domain": "ke.soccerway.com",
+     "url": "https://ke.soccerway.com/player/adeshina-tumininu/tWi5P8BP/",
+     "seen": "2026-09-13T21:03:18.523174"
+    },
+    {
+     "domain": "ca.soccerway.com",
+     "url": "https://ca.soccerway.com/player/adeshina-tumininu/tWi5P8BP/",
+     "seen": "2026-10-22T12:16:11.588379"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/adeshina-tumininu/tWi5P8BP/",
+     "seen": "2026-11-08T22:21:45.055193"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_dedotto,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-13T16:34:39.358956",
+   "last_seen": "2026-11-08T22:21:45.055193",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Nigeria Football Federation, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-gallant-falconets-bow-out-after-narrow-defeat-by-colombia/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 2 times by Nigeria Football Federation, U20."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Nigeria Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Nigeria Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
+      "https://thenff.com/fifa-u20-womens-world-cup-gallant-falconets-bow-out-after-narrow-defeat-by-colombia/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "4 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "L'età (20) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-20)",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "4 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The age (20) is not stated by any source: it is inferred from the tournament category (U-20)",
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 688,
    "name": "Frank Jonas Oliverio",
    "age": null,
@@ -36322,165 +36611,6 @@
    }
   },
   {
-   "id": 480,
-   "name": "Tumininu Adeshina",
-   "age": 20,
-   "age_stato": "dedotto",
-   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-20)",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "Tumininu Adeshina and Tosin Rafiu delivered a series of corners",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dedotto",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Defender",
-   "club": null,
-   "league": "2026 FIFA U-20 Women's World Cup",
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 24,
-   "confidence": 0.91,
-   "breakdown": {
-    "youth": 4.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 14.0,
-    "n_sources": 3,
-    "detection_count": 6
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
-     "seen": "2026-09-13T16:34:39.358956"
-    },
-    {
-     "domain": "ke.soccerway.com",
-     "url": "https://ke.soccerway.com/player/adeshina-tumininu/tWi5P8BP/",
-     "seen": "2026-09-13T21:03:18.523174"
-    },
-    {
-     "domain": "ca.soccerway.com",
-     "url": "https://ca.soccerway.com/player/adeshina-tumininu/tWi5P8BP/",
-     "seen": "2026-10-22T12:16:11.588379"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_dedotto,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-13T16:34:39.358956",
-   "last_seen": "2026-10-22T12:16:11.588379",
-   "selezione": {
-    "quante": 2,
-    "frase": "Convocato 2 volte da Nigeria Football Federation, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
-     },
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-gallant-falconets-bow-out-after-narrow-defeat-by-colombia/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 2 times by Nigeria Football Federation, U20."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "2 convocazioni di Nigeria Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "2 call-ups by Nigeria Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
-      "https://thenff.com/fifa-u20-womens-world-cup-gallant-falconets-bow-out-after-narrow-defeat-by-colombia/"
-     ],
-     "dati": {
-      "convocazioni": 2,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "L'età (20) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-20)",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The age (20) is not stated by any source: it is inferred from the tournament category (U-20)",
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 205,
    "name": "Kener Nicolás González Mosquera",
    "age": null,
@@ -36834,7 +36964,7 @@
     "asymmetry": 0.0,
     "selection": 22.0,
     "n_sources": 2,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 2,
    "sources": [
@@ -36860,7 +36990,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-21T22:08:09.181084",
-   "last_seen": "2026-10-29T22:55:12.004188",
+   "last_seen": "2026-11-08T22:21:45.055193",
    "selezione": {
     "quante": 4,
     "frase": "Convocato 4 volte da South African Football Association.",
@@ -45916,7 +46046,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 8
+    "detection_count": 9
    },
    "n_sources": 2,
    "sources": [
@@ -45942,7 +46072,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-13T16:34:39.358956",
-   "last_seen": "2026-10-29T13:33:01.610772",
+   "last_seen": "2026-11-08T22:21:45.055193",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
@@ -45970,7 +46100,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 8 rilevamenti"
+     "Segnale persistente: 9 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -45986,7 +46116,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 8 detections"
+     "Persistent signal: 9 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -77275,7 +77405,7 @@
     "asymmetry": 0.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 2,
    "sources": [
@@ -77296,14 +77426,14 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-21T22:08:09.181084",
-   "last_seen": "2026-10-29T22:55:12.004188",
+   "last_seen": "2026-11-08T22:21:45.055193",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
    "assessment": {
     "pros": [
      "2 domini distinti lo nominano",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -77318,7 +77448,7 @@
     ],
     "pros_en": [
      "2 distinct domains mention him",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
