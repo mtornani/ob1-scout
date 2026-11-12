@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-11T20:14:58.149505+00:00",
+ "generated_at": "2026-11-12T07:58:08.882703+00:00",
  "version": "1.0.0",
- "build": "9baee21",
- "total": 751,
+ "build": "2bef785",
+ "total": 752,
  "publishable": 131,
- "tracking": 620,
- "shown": 751,
+ "tracking": 621,
+ "shown": 752,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 4,
@@ -281,7 +281,7 @@
     "asymmetry": 8.0,
     "selection": 27.0,
     "n_sources": 2,
-    "detection_count": 8
+    "detection_count": 9
    },
    "n_sources": 2,
    "sources": [
@@ -307,7 +307,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-12T20:49:27.356853",
-   "last_seen": "2026-11-04T19:58:13.553833",
+   "last_seen": "2026-11-12T07:34:54.677137",
    "selezione": {
     "quante": 6,
     "frase": "Convocato 6 volte da Federación Colombiana de Fútbol tra luglio 2025 e novembre 2026, dal Sub-16 al Sub-17.",
@@ -1489,7 +1489,7 @@
     "asymmetry": 8.0,
     "selection": 22.0,
     "n_sources": 2,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 2,
    "sources": [
@@ -1515,7 +1515,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-11-04T19:58:13.553833",
-   "last_seen": "2026-11-04T19:58:13.553833",
+   "last_seen": "2026-11-12T07:34:54.677137",
    "selezione": {
     "quante": 4,
     "frase": "Convocato 4 volte da Federación Colombiana de Fútbol tra gennaio 2026 e novembre 2026, Sub-17.",
@@ -2152,7 +2152,7 @@
     "asymmetry": 8.0,
     "selection": 19.0,
     "n_sources": 2,
-    "detection_count": 5
+    "detection_count": 6
    },
    "n_sources": 2,
    "sources": [
@@ -2178,7 +2178,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-11-04T19:58:13.553833",
-   "last_seen": "2026-11-04T19:58:13.553833",
+   "last_seen": "2026-11-12T07:34:54.677137",
    "selezione": {
     "quante": 3,
     "frase": "Convocato 3 volte da Federación Colombiana de Fútbol tra gennaio 2026 e novembre 2026, Sub-17.",
@@ -17567,7 +17567,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 163
+    "detection_count": 164
    },
    "n_sources": 4,
    "sources": [
@@ -17612,7 +17612,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 163 rilevamenti"
+     "Segnale persistente: 164 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -17623,7 +17623,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 163 detections"
+     "Persistent signal: 164 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -17788,7 +17788,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 168
+    "detection_count": 169
    },
    "n_sources": 4,
    "sources": [
@@ -17833,7 +17833,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 168 rilevamenti"
+     "Segnale persistente: 169 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17848,7 +17848,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 168 detections"
+     "Persistent signal: 169 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18290,7 +18290,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 169
+    "detection_count": 170
    },
    "n_sources": 3,
    "sources": [
@@ -18330,7 +18330,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 169 rilevamenti"
+     "Segnale persistente: 170 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18345,7 +18345,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 169 detections"
+     "Persistent signal: 170 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20101,7 +20101,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 163
+    "detection_count": 165
    },
    "n_sources": 3,
    "sources": [
@@ -20141,7 +20141,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 163 rilevamenti"
+     "Segnale persistente: 165 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -20156,7 +20156,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 163 detections"
+     "Persistent signal: 165 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20455,7 +20455,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 167
+    "detection_count": 168
    },
    "n_sources": 3,
    "sources": [
@@ -20495,7 +20495,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 167 rilevamenti"
+     "Segnale persistente: 168 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -20510,7 +20510,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 167 detections"
+     "Persistent signal: 168 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20950,7 +20950,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 157
+    "detection_count": 158
    },
    "n_sources": 2,
    "sources": [
@@ -20985,7 +20985,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 157 rilevamenti"
+     "Segnale persistente: 158 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20998,7 +20998,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 157 detections"
+     "Persistent signal: 158 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23658,7 +23658,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 161
+    "detection_count": 162
    },
    "n_sources": 4,
    "sources": [
@@ -23703,7 +23703,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 161 rilevamenti"
+     "Segnale persistente: 162 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23716,7 +23716,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 161 detections"
+     "Persistent signal: 162 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23776,7 +23776,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 160
+    "detection_count": 162
    },
    "n_sources": 4,
    "sources": [
@@ -23821,7 +23821,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 160 rilevamenti"
+     "Segnale persistente: 162 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -23836,7 +23836,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 160 detections"
+     "Persistent signal: 162 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -24367,7 +24367,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 164
+    "detection_count": 165
    },
    "n_sources": 2,
    "sources": [
@@ -24402,7 +24402,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 164 rilevamenti"
+     "Segnale persistente: 165 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24415,7 +24415,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 164 detections"
+     "Persistent signal: 165 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25763,7 +25763,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 174
+    "detection_count": 175
    },
    "n_sources": 3,
    "sources": [
@@ -25802,7 +25802,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 174 rilevamenti"
+     "Segnale persistente: 175 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -25814,7 +25814,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 174 detections"
+     "Persistent signal: 175 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25874,7 +25874,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 176
+    "detection_count": 177
    },
    "n_sources": 3,
    "sources": [
@@ -25913,7 +25913,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 176 rilevamenti"
+     "Segnale persistente: 177 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -25925,7 +25925,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 176 detections"
+     "Persistent signal: 177 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -41601,7 +41601,7 @@
     "asymmetry": 8.0,
     "selection": 19.0,
     "n_sources": 1,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 1,
    "sources": [
@@ -41617,7 +41617,7 @@
    "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-07-16T19:42:31.108991",
-   "last_seen": "2026-11-04T19:58:13.553833",
+   "last_seen": "2026-11-12T07:34:54.677137",
    "selezione": {
     "quante": 3,
     "frase": "Convocato 3 volte da Federación Colombiana de Fútbol tra gennaio 2026 e novembre 2026, Sub-17.",
@@ -43239,7 +43239,7 @@
     "asymmetry": 0.0,
     "selection": 4.0,
     "n_sources": 4,
-    "detection_count": 8
+    "detection_count": 9
    },
    "n_sources": 4,
    "sources": [
@@ -43275,7 +43275,7 @@
    "review_flags": "club_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-07T21:43:15.578513",
-   "last_seen": "2026-11-01T06:39:18.553243",
+   "last_seen": "2026-11-12T07:34:54.677137",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-20 (settembre 2026).",
@@ -43302,7 +43302,7 @@
    "assessment": {
     "pros": [
      "4 domini distinti lo nominano",
-     "Segnale persistente: 8 rilevamenti"
+     "Segnale persistente: 9 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -43317,7 +43317,7 @@
     ],
     "pros_en": [
      "4 distinct domains mention him",
-     "Persistent signal: 8 detections"
+     "Persistent signal: 9 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -65271,7 +65271,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 1
+    "detection_count": 2
    },
    "n_sources": 1,
    "sources": [
@@ -65287,7 +65287,7 @@
    "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-11-04T19:58:13.553833",
-   "last_seen": "2026-11-04T19:58:13.553833",
+   "last_seen": "2026-11-12T07:34:54.677137",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (novembre 2026).",
@@ -89923,6 +89923,124 @@
     ],
     "fonte": "Vietnam Football Federation",
     "frase_en": "Called up 1 times by Vietnam Football Federation, U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Risolvere l'identità: serve un nome completo verificabile",
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Resolve the identity: needs a verifiable full name",
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "id": 752,
+   "name": "Eider",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Eider",
+     "url": "https://fcf.com.co/2026/11/11/convocatoria-de-la-seleccion-colombia-masculina-para-la-copa-mundial-sub17-de-la-fifa-qatar-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/11/11/convocatoria-de-la-seleccion-colombia-masculina-para-la-copa-mundial-sub17-de-la-fifa-qatar-2026/",
+     "seen": "2026-11-12T07:34:54.677137"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "nome_singolo,club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-11-12T07:34:54.677137",
+   "last_seen": "2026-11-12T07:34:54.677137",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (novembre 2026).",
+    "dal": "2026-11-11",
+    "al": "2026-11-11",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-11-11",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/11/11/convocatoria-de-la-seleccion-colombia-masculina-para-la-copa-mundial-sub17-de-la-fifa-qatar-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
    "anomalie": [],
    "publishable": false,
