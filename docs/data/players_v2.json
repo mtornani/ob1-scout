@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-14T18:50:46.315517+00:00",
+ "generated_at": "2026-11-14T23:08:38.411876+00:00",
  "version": "1.0.0",
- "build": "b299c87",
- "total": 756,
+ "build": "0be5ab7",
+ "total": 757,
  "publishable": 131,
- "tracking": 625,
- "shown": 756,
+ "tracking": 626,
+ "shown": 757,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 4,
@@ -17341,6 +17341,126 @@
    }
   },
   {
+   "id": 19,
+   "name": "Alan Santos",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 3 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Alan Santos - Profil zawodnika",
+     "url": "https://www.transfermarkt.pl/alan-santos/profil/spieler/1355837"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attacker",
+   "club": "Flamengo U20",
+   "league": "Libertadores U20, Campeonato Carioca",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 28,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 20.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 4,
+    "detection_count": 5
+   },
+   "n_sources": 4,
+   "sources": [
+    {
+     "domain": "ge.globo.com",
+     "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/03/16/quem-sao-os-jovens-que-se-destacam-na-libertadores-sub-20-e-podem-aparecer-no-profissional-do-flamengo.ghtml",
+     "seen": "2026-03-19T19:00:03.100674"
+    },
+    {
+     "domain": "transfermarkt.pl",
+     "url": "https://www.transfermarkt.pl/alan-santos/profil/spieler/1355837",
+     "seen": "2026-07-28T03:47:54.017488"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/alan-santos/25qhmcCb/",
+     "seen": "2026-10-12T06:22:13.288483"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/alan-santos/25qhmcCb/",
+     "seen": "2026-11-14T22:40:55.921694"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-03-19T19:00:03.100674",
+   "last_seen": "2026-11-14T22:40:55.921694",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "4 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "4 distinct domains mention him",
+     "Persistent signal: 5 detections"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 105,
    "name": "Edmilson Yosue Herazo Torres",
    "age": 17,
@@ -17567,7 +17687,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 169
+    "detection_count": 170
    },
    "n_sources": 4,
    "sources": [
@@ -17612,7 +17732,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 169 rilevamenti"
+     "Segnale persistente: 170 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -17623,7 +17743,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 169 detections"
+     "Persistent signal: 170 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -17788,7 +17908,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 174
+    "detection_count": 175
    },
    "n_sources": 4,
    "sources": [
@@ -17833,7 +17953,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 174 rilevamenti"
+     "Segnale persistente: 175 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17848,7 +17968,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 174 detections"
+     "Persistent signal: 175 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18021,119 +18141,6 @@
    }
   },
   {
-   "id": 19,
-   "name": "Alan Santos",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 3 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Alan Santos - Profil zawodnika",
-     "url": "https://www.transfermarkt.pl/alan-santos/profil/spieler/1355837"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Attacker",
-   "club": "Flamengo U20",
-   "league": "Libertadores U20, Campeonato Carioca",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 25,
-   "confidence": 0.91,
-   "breakdown": {
-    "youth": 20.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 4
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "ge.globo.com",
-     "url": "https://ge.globo.com/futebol/times/flamengo/noticia/2026/03/16/quem-sao-os-jovens-que-se-destacam-na-libertadores-sub-20-e-podem-aparecer-no-profissional-do-flamengo.ghtml",
-     "seen": "2026-03-19T19:00:03.100674"
-    },
-    {
-     "domain": "transfermarkt.pl",
-     "url": "https://www.transfermarkt.pl/alan-santos/profil/spieler/1355837",
-     "seen": "2026-07-28T03:47:54.017488"
-    },
-    {
-     "domain": "us.soccerway.com",
-     "url": "https://us.soccerway.com/player/alan-santos/25qhmcCb/",
-     "seen": "2026-10-12T06:22:13.288483"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-03-19T19:00:03.100674",
-   "last_seen": "2026-11-03T07:08:16.562861",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
    "id": 562,
    "name": "Nguyễn Ngọc Anh Hào",
    "age": 16,
@@ -18290,7 +18297,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 174
+    "detection_count": 175
    },
    "n_sources": 3,
    "sources": [
@@ -18330,7 +18337,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 174 rilevamenti"
+     "Segnale persistente: 175 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18345,7 +18352,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 174 detections"
+     "Persistent signal: 175 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20101,7 +20108,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 169
+    "detection_count": 170
    },
    "n_sources": 3,
    "sources": [
@@ -20141,7 +20148,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 169 rilevamenti"
+     "Segnale persistente: 170 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -20156,7 +20163,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 169 detections"
+     "Persistent signal: 170 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20455,7 +20462,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 173
+    "detection_count": 174
    },
    "n_sources": 3,
    "sources": [
@@ -20495,7 +20502,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 173 rilevamenti"
+     "Segnale persistente: 174 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -20510,7 +20517,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 173 detections"
+     "Persistent signal: 174 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20950,7 +20957,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 163
+    "detection_count": 164
    },
    "n_sources": 2,
    "sources": [
@@ -20985,7 +20992,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 163 rilevamenti"
+     "Segnale persistente: 164 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -20998,7 +21005,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 163 detections"
+     "Persistent signal: 164 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23658,7 +23665,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 167
+    "detection_count": 168
    },
    "n_sources": 4,
    "sources": [
@@ -23703,7 +23710,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 167 rilevamenti"
+     "Segnale persistente: 168 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23716,7 +23723,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 167 detections"
+     "Persistent signal: 168 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23776,7 +23783,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 167
+    "detection_count": 168
    },
    "n_sources": 4,
    "sources": [
@@ -23821,7 +23828,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 167 rilevamenti"
+     "Segnale persistente: 168 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -23836,7 +23843,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 167 detections"
+     "Persistent signal: 168 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -24370,7 +24377,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 170
+    "detection_count": 171
    },
    "n_sources": 2,
    "sources": [
@@ -24405,7 +24412,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 170 rilevamenti"
+     "Segnale persistente: 171 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24418,7 +24425,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 170 detections"
+     "Persistent signal: 171 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25877,7 +25884,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 182
+    "detection_count": 183
    },
    "n_sources": 3,
    "sources": [
@@ -25916,7 +25923,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 182 rilevamenti"
+     "Segnale persistente: 183 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -25928,7 +25935,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 182 detections"
+     "Persistent signal: 183 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -32257,6 +32264,197 @@
    }
   },
   {
+   "id": 657,
+   "name": "Alpi Akter",
+   "age": 17,
+   "age_stato": "dedotto",
+   "age_nota": "nessuna fonte scrive l'età: ricavata dalla categoria del torneo (Sub-17)",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dedotto",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "striker",
+   "club": null,
+   "league": null,
+   "region": "Bangladesh",
+   "gender": "female",
+   "score": 39,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 24.0,
+    "n_sources": 3,
+    "detection_count": 10
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "pff.org.ph",
+     "url": "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/",
+     "seen": "2026-10-11T22:19:57.180817"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/akter-alpi/zNM2WXPr/",
+     "seen": "2026-10-12T06:22:13.288483"
+    },
+    {
+     "domain": "au.soccerway.com",
+     "url": "https://au.soccerway.com/player/akter-alpi/zNM2WXPr/transfers/",
+     "seen": "2026-11-14T22:40:55.921694"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_dedotto,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-10-11T22:19:57.180817",
+   "last_seen": "2026-11-14T22:40:55.921694",
+   "selezione": {
+    "quante": 7,
+    "frase": "Convocato 7 volte da Philippine Football Federation, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/#authorImage"
+     },
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/#blogposting"
+     },
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/#breadcrumblist"
+     },
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/#listItem"
+     },
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/#mainImage"
+     },
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Philippine Football Federation",
+      "url": "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/#webpage"
+     }
+    ],
+    "fonte": "Philippine Football Federation",
+    "frase_en": "Called up 7 times by Philippine Football Federation, U17."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "7 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "7 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/",
+      "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/#authorImage",
+      "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/#blogposting",
+      "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/#breadcrumblist"
+     ],
+     "dati": {
+      "convocazioni": 7,
+      "tipi_fonte": [
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "L'età (17) non è scritta da nessuna fonte: è dedotta dalla categoria del torneo (Sub-17)",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The age (17) is not stated by any source: it is inferred from the tournament category (U-17)",
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 457,
    "name": "Precious Oscar",
    "age": null,
@@ -32305,7 +32503,7 @@
     "asymmetry": 0.0,
     "selection": 19.0,
     "n_sources": 4,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 4,
    "sources": [
@@ -32341,7 +32539,7 @@
    "review_flags": "club_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-11T11:42:44.704482",
-   "last_seen": "2026-11-03T07:08:16.562861",
+   "last_seen": "2026-11-14T22:40:55.921694",
    "selezione": {
     "quante": 3,
     "frase": "Convocato 3 volte da Nigeria Football Federation.",
@@ -33278,192 +33476,6 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 657,
-   "name": "Alpi Akter",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 16 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "striker",
-   "club": null,
-   "league": null,
-   "region": "Bangladesh",
-   "gender": "female",
-   "score": 31,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 18.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 24.0,
-    "n_sources": 2,
-    "detection_count": 9
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "pff.org.ph",
-     "url": "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/",
-     "seen": "2026-10-11T22:19:57.180817"
-    },
-    {
-     "domain": "us.soccerway.com",
-     "url": "https://us.soccerway.com/player/akter-alpi/zNM2WXPr/",
-     "seen": "2026-10-12T06:22:13.288483"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-10-11T22:19:57.180817",
-   "last_seen": "2026-11-03T07:08:16.562861",
-   "selezione": {
-    "quante": 7,
-    "frase": "Convocato 7 volte da Philippine Football Federation, Sub-17.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/"
-     },
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/#authorImage"
-     },
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/#blogposting"
-     },
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/#breadcrumblist"
-     },
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/#listItem"
-     },
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/#mainImage"
-     },
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Philippine Football Federation",
-      "url": "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/#webpage"
-     }
-    ],
-    "fonte": "Philippine Football Federation",
-    "frase_en": "Called up 7 times by Philippine Football Federation, U17."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "7 convocazioni di Philippine Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "7 call-ups by Philippine Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/",
-      "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/#authorImage",
-      "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/#blogposting",
-      "https://pff.org.ph/3rd-asian-cup-stint-for-filipinas-u17-after-27-qualifier-sweep/#breadcrumblist"
-     ],
-     "dati": {
-      "convocazioni": 7,
-      "tipi_fonte": [
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
     ]
    }
   },
@@ -44700,7 +44712,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 6
+    "detection_count": 7
    },
    "n_sources": 3,
    "sources": [
@@ -44731,7 +44743,7 @@
    "review_flags": "eta_mancante,senza_fonte_primary,eta_assente,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-06-01T11:34:15.903191",
-   "last_seen": "2026-11-03T07:08:16.562861",
+   "last_seen": "2026-11-14T22:40:55.921694",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -44739,7 +44751,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -44755,7 +44767,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -44921,7 +44933,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 3,
    "sources": [
@@ -44952,14 +44964,15 @@
    "review_flags": "eta_mancante,senza_fonte_primary,eta_assente,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-06-18T03:58:48.847661",
-   "last_seen": "2026-11-03T07:08:16.562861",
+   "last_seen": "2026-11-14T22:40:55.921694",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
+     "3 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -44974,7 +44987,8 @@
     ],
     "pros_en": [
      "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
+     "3 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -52751,7 +52765,7 @@
     "asymmetry": 0.0,
     "selection": 4.0,
     "n_sources": 3,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 3,
    "sources": [
@@ -52782,7 +52796,7 @@
    "review_flags": "club_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-11T11:42:44.704482",
-   "last_seen": "2026-11-03T07:08:16.562861",
+   "last_seen": "2026-11-14T22:40:55.921694",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
@@ -52809,7 +52823,7 @@
    "assessment": {
     "pros": [
      "3 domini distinti lo nominano",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -52824,7 +52838,7 @@
     ],
     "pros_en": [
      "3 distinct domains mention him",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -62364,7 +62378,7 @@
     "asymmetry": 0.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 2,
    "sources": [
@@ -62390,7 +62404,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-11T11:42:44.704482",
-   "last_seen": "2026-11-03T07:08:16.562861",
+   "last_seen": "2026-11-14T22:40:55.921694",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
@@ -62417,7 +62431,7 @@
    "assessment": {
     "pros": [
      "2 domini distinti lo nominano",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -62432,7 +62446,7 @@
     ],
     "pros_en": [
      "2 distinct domains mention him",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -65804,6 +65818,126 @@
      "Verify the current club",
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 757,
+   "name": "Juan Diego Verdeza Mora",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "JUAN DIEGO VERDEZA MORA Junior F.C. Semifinal (ida)",
+     "url": "https://fcf.com.co/2026/11/14/resolucion-supercopa-juvenil-no-033-de-2026-13-de-noviembre-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "JUAN DIEGO VERDEZA MORA Junior F.C. Semifinal (ida)",
+     "url": "https://fcf.com.co/2026/11/14/resolucion-supercopa-juvenil-no-033-de-2026-13-de-noviembre-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Junior F.C.",
+   "league": "Supercopa Juvenil FCF",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/11/14/resolucion-supercopa-juvenil-no-033-de-2026-13-de-noviembre-2026/",
+     "seen": "2026-11-14T22:40:55.921694"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-11-14T22:40:55.921694",
+   "last_seen": "2026-11-14T22:40:55.921694",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol (novembre 2026).",
+    "dal": "2026-11-14",
+    "al": "2026-11-14",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-11-14",
+      "categoria": "",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/11/14/resolucion-supercopa-juvenil-no-033-de-2026-13-de-noviembre-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
     ]
    }
   },
