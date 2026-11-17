@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-16T22:54:08.999346+00:00",
+ "generated_at": "2026-11-17T08:47:39.686234+00:00",
  "version": "1.0.0",
- "build": "8272f1d",
+ "build": "f93c358",
  "total": 761,
- "publishable": 131,
- "tracking": 630,
+ "publishable": 132,
+ "tracking": 629,
  "shown": 761,
  "tracking_capped": 0,
  "outcomes": {
@@ -15446,6 +15446,133 @@
    }
   },
   {
+   "id": 761,
+   "name": "Gorka Abascal",
+   "age": 16,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Gorka Abascal no se unirá a la concentración de la Selección Colombia Masculina Sub-17",
+     "url": "https://fcf.com.co/2026/11/16/gorka-abascal-no-se-unira-a-la-concentracion-de-la-seleccion-colombia-masculina-sub-17/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Gorka Abascal Martínez, 16 anni, Real Madrid U18",
+     "url": "https://www.transfermarkt.us/gorka-abascal/profil/spieler/1476134"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Gorka Abascal Martínez, 16 anni, Real Madrid U18",
+     "url": "https://www.transfermarkt.us/gorka-abascal/profil/spieler/1476134"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Central Midfield",
+   "club": "Real Madrid U18",
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 1,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": -20.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/11/16/gorka-abascal-no-se-unira-a-la-concentracion-de-la-seleccion-colombia-masculina-sub-17/",
+     "seen": "2026-11-16T22:26:29.997229"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/gorka-abascal/profil/spieler/1476134",
+     "seen": "2026-11-17T08:20:24.463400"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato,club_satellite_di_gigante",
+   "coverage_tier": "standard",
+   "first_detected": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-17T08:20:24.463400",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (novembre 2026).",
+    "dal": "2026-11-16",
+    "al": "2026-11-16",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-11-16",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/11/16/gorka-abascal-no-se-unira-a-la-concentracion-de-la-seleccion-colombia-masculina-sub-17/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
+   },
+   "anomalie": [],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "'Real Madrid U18' porta il nome di Real Madrid: più visibile di un club satellite qualunque per il nome da solo",
+     "Nessuna statistica di rendimento documentata",
+     "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Very young (16 yo): plenty of room to develop",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "'Real Madrid U18' carries Real Madrid's name: more visible than an ordinary satellite club on the name alone",
+     "No documented performance stats",
+     "High-visibility club/league: low asymmetry, competition likely"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
    "id": 12,
    "name": "Fode Diallo",
    "age": 14,
@@ -17687,7 +17814,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 174
+    "detection_count": 175
    },
    "n_sources": 4,
    "sources": [
@@ -17732,7 +17859,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 174 rilevamenti"
+     "Segnale persistente: 175 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -17743,7 +17870,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 174 detections"
+     "Persistent signal: 175 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -17908,7 +18035,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 179
+    "detection_count": 180
    },
    "n_sources": 4,
    "sources": [
@@ -17953,7 +18080,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 179 rilevamenti"
+     "Segnale persistente: 180 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -17968,7 +18095,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 179 detections"
+     "Persistent signal: 180 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18297,7 +18424,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 179
+    "detection_count": 180
    },
    "n_sources": 3,
    "sources": [
@@ -18337,7 +18464,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 179 rilevamenti"
+     "Segnale persistente: 180 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18352,7 +18479,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 179 detections"
+     "Persistent signal: 180 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20108,7 +20235,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 173
+    "detection_count": 174
    },
    "n_sources": 3,
    "sources": [
@@ -20148,7 +20275,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 173 rilevamenti"
+     "Segnale persistente: 174 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -20163,7 +20290,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 173 detections"
+     "Persistent signal: 174 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20462,7 +20589,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 177
+    "detection_count": 178
    },
    "n_sources": 3,
    "sources": [
@@ -20502,7 +20629,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 177 rilevamenti"
+     "Segnale persistente: 178 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -20517,7 +20644,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 177 detections"
+     "Persistent signal: 178 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20957,7 +21084,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 168
+    "detection_count": 169
    },
    "n_sources": 2,
    "sources": [
@@ -20992,7 +21119,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 168 rilevamenti"
+     "Segnale persistente: 169 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21005,7 +21132,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 168 detections"
+     "Persistent signal: 169 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23665,7 +23792,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 172
+    "detection_count": 173
    },
    "n_sources": 4,
    "sources": [
@@ -23710,7 +23837,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 172 rilevamenti"
+     "Segnale persistente: 173 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23723,7 +23850,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 172 detections"
+     "Persistent signal: 173 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23783,7 +23910,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 171
+    "detection_count": 172
    },
    "n_sources": 4,
    "sources": [
@@ -23828,7 +23955,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 171 rilevamenti"
+     "Segnale persistente: 172 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -23843,7 +23970,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 171 detections"
+     "Persistent signal: 172 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -24377,7 +24504,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 175
+    "detection_count": 176
    },
    "n_sources": 2,
    "sources": [
@@ -24412,7 +24539,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 175 rilevamenti"
+     "Segnale persistente: 176 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24425,7 +24552,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 175 detections"
+     "Persistent signal: 176 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25773,7 +25900,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 184
+    "detection_count": 185
    },
    "n_sources": 3,
    "sources": [
@@ -25812,7 +25939,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 184 rilevamenti"
+     "Segnale persistente: 185 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -25824,7 +25951,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 184 detections"
+     "Persistent signal: 185 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25884,7 +26011,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 187
+    "detection_count": 188
    },
    "n_sources": 3,
    "sources": [
@@ -25923,7 +26050,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 187 rilevamenti"
+     "Segnale persistente: 188 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -25935,7 +26062,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 187 detections"
+     "Persistent signal: 188 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -32142,10 +32269,10 @@
     "production": 0.0,
     "asymmetry": 8.0,
     "selection": 19.0,
-    "n_sources": 3,
-    "detection_count": 11
+    "n_sources": 4,
+    "detection_count": 12
    },
-   "n_sources": 3,
+   "n_sources": 4,
    "sources": [
     {
      "domain": "thenff.com",
@@ -32161,6 +32288,11 @@
      "domain": "uk.soccerway.com",
      "url": "https://uk.soccerway.com/player/nkwocha-favour/Sz0UlqgC/",
      "seen": "2026-09-29T22:31:32.518078"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/nkwocha-favour/Sz0UlqgC/",
+     "seen": "2026-11-17T08:20:24.463400"
     }
    ],
    "n_sources_registro": 2,
@@ -32174,7 +32306,7 @@
    "review_flags": "club_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-16T05:06:41.281138",
-   "last_seen": "2026-10-26T13:27:44.083636",
+   "last_seen": "2026-11-17T08:20:24.463400",
    "selezione": {
     "quante": 3,
     "frase": "Convocato 3 volte da Nigeria Football Federation, Sub-20.",
@@ -32233,7 +32365,7 @@
    "assessment": {
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
+     "4 domini distinti lo nominano"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -32248,7 +32380,7 @@
     ],
     "pros_en": [
      "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
+     "4 distinct domains mention him"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -42017,6 +42149,146 @@
    }
   },
   {
+   "id": 541,
+   "name": "Esther Sunday",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "Ukaonu, Joy Jegede, Esther Sunday and Desire Oparanozie scored in the ensuing penalty shoot-out",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-aim-for-first-semi-final-appearance-in-12-years/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Forward",
+   "club": "Khovd Western",
+   "league": null,
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 18,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 4,
+    "detection_count": 7
+   },
+   "n_sources": 4,
+   "sources": [
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/sunday-esther/GfKvwJ2E/transfers/",
+     "seen": "2026-09-19T20:55:21.601467"
+    },
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-aim-for-first-semi-final-appearance-in-12-years/",
+     "seen": "2026-09-19T20:55:21.601467"
+    },
+    {
+     "domain": "sg.soccerway.com",
+     "url": "https://sg.soccerway.com/player/sunday-esther/GfKvwJ2E/",
+     "seen": "2026-11-05T07:12:31.916508"
+    },
+    {
+     "domain": "au.soccerway.com",
+     "url": "https://au.soccerway.com/player/sunday-esther/GfKvwJ2E/",
+     "seen": "2026-11-17T08:20:24.463400"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-19T20:55:21.601467",
+   "last_seen": "2026-11-17T08:20:24.463400",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-aim-for-first-semi-final-appearance-in-12-years/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "4 domini distinti lo nominano",
+     "Segnale persistente: 7 rilevamenti"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "4 distinct domains mention him",
+     "Persistent signal: 7 detections"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 143,
    "name": "Yeiler Mosquera Caicedo",
    "age": null,
@@ -42182,141 +42454,6 @@
     "next_steps_en": [
      "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 541,
-   "name": "Esther Sunday",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "Ukaonu, Joy Jegede, Esther Sunday and Desire Oparanozie scored in the ensuing penalty shoot-out",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-aim-for-first-semi-final-appearance-in-12-years/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Khovd Western",
-   "league": null,
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 16,
-   "confidence": 0.91,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 3,
-    "detection_count": 6
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/sunday-esther/GfKvwJ2E/transfers/",
-     "seen": "2026-09-19T20:55:21.601467"
-    },
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-aim-for-first-semi-final-appearance-in-12-years/",
-     "seen": "2026-09-19T20:55:21.601467"
-    },
-    {
-     "domain": "sg.soccerway.com",
-     "url": "https://sg.soccerway.com/player/sunday-esther/GfKvwJ2E/",
-     "seen": "2026-11-05T07:12:31.916508"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-19T20:55:21.601467",
-   "last_seen": "2026-11-05T07:12:31.916508",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-aim-for-first-semi-final-appearance-in-12-years/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, U20."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "3 distinct domains mention him",
-     "Persistent signal: 6 detections"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
      "Get performance stats (match reports)"
     ]
    }
@@ -56523,7 +56660,7 @@
     "asymmetry": 0.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 11
+    "detection_count": 12
    },
    "n_sources": 2,
    "sources": [
@@ -56549,7 +56686,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-08-31T08:50:48.742491",
-   "last_seen": "2026-10-26T13:27:44.083636",
+   "last_seen": "2026-11-17T08:20:24.463400",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
@@ -56576,7 +56713,7 @@
    "assessment": {
     "pros": [
      "2 domini distinti lo nominano",
-     "Segnale persistente: 11 rilevamenti"
+     "Segnale persistente: 12 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -56591,7 +56728,7 @@
     ],
     "pros_en": [
      "2 distinct domains mention him",
-     "Persistent signal: 11 detections"
+     "Persistent signal: 12 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -80738,124 +80875,6 @@
     ],
     "fonte": "Vietnam Football Federation",
     "frase_en": "Called up 1 times by Vietnam Football Federation, U15."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
-   "id": 761,
-   "name": "Gorka Abascal",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Federación Colombiana de Fútbol",
-     "tipo": "federation",
-     "citazione": "Gorka Abascal no se unirá a la concentración de la Selección Colombia Masculina Sub-17",
-     "url": "https://fcf.com.co/2026/11/16/gorka-abascal-no-se-unira-a-la-concentracion-de-la-seleccion-colombia-masculina-sub-17/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Colombia",
-   "gender": "male",
-   "score": 4,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 4.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "fcf.com.co",
-     "url": "https://fcf.com.co/2026/11/16/gorka-abascal-no-se-unira-a-la-concentracion-de-la-seleccion-colombia-masculina-sub-17/",
-     "seen": "2026-11-16T22:26:29.997229"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-11-16T22:26:29.997229",
-   "last_seen": "2026-11-16T22:26:29.997229",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (novembre 2026).",
-    "dal": "2026-11-16",
-    "al": "2026-11-16",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "2026-11-16",
-      "categoria": "sub-17",
-      "fonte": "Federación Colombiana de Fútbol",
-      "url": "https://fcf.com.co/2026/11/16/gorka-abascal-no-se-unira-a-la-concentracion-de-la-seleccion-colombia-masculina-sub-17/"
-     }
-    ],
-    "fonte": "Federación Colombiana de Fútbol",
-    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
    },
    "anomalie": [],
    "publishable": false,
