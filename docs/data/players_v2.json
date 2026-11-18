@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-17T21:46:08.308007+00:00",
+ "generated_at": "2026-11-18T08:22:03.192356+00:00",
  "version": "1.0.0",
- "build": "a4fea74",
+ "build": "cda958f",
  "total": 761,
  "publishable": 132,
  "tracking": 629,
@@ -17814,7 +17814,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 176
+    "detection_count": 177
    },
    "n_sources": 4,
    "sources": [
@@ -17859,7 +17859,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 176 rilevamenti"
+     "Segnale persistente: 177 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -17870,7 +17870,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 176 detections"
+     "Persistent signal: 177 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -18035,7 +18035,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 181
+    "detection_count": 182
    },
    "n_sources": 4,
    "sources": [
@@ -18080,7 +18080,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 181 rilevamenti"
+     "Segnale persistente: 182 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18095,7 +18095,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 181 detections"
+     "Persistent signal: 182 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18424,7 +18424,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 180
+    "detection_count": 181
    },
    "n_sources": 3,
    "sources": [
@@ -18464,7 +18464,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 180 rilevamenti"
+     "Segnale persistente: 181 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18479,7 +18479,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 180 detections"
+     "Persistent signal: 181 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19381,7 +19381,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 1,
    "sources": [
@@ -19397,7 +19397,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -19426,7 +19426,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -19441,7 +19441,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -19503,7 +19503,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 1,
    "sources": [
@@ -19519,7 +19519,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -19548,7 +19548,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -19563,7 +19563,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -19625,7 +19625,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 1,
    "sources": [
@@ -19641,7 +19641,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -19670,7 +19670,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -19685,7 +19685,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -19747,7 +19747,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 1,
    "sources": [
@@ -19763,7 +19763,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -19792,7 +19792,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -19807,7 +19807,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -19869,7 +19869,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 1,
    "sources": [
@@ -19885,7 +19885,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -19914,7 +19914,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -19929,7 +19929,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -19991,7 +19991,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 1,
    "sources": [
@@ -20007,7 +20007,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -20036,7 +20036,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -20051,7 +20051,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -20113,7 +20113,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 20
+    "detection_count": 21
    },
    "n_sources": 1,
    "sources": [
@@ -20129,7 +20129,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:40:56.884177",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -20158,7 +20158,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 20 rilevamenti"
+     "Segnale persistente: 21 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -20173,7 +20173,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 20 detections"
+     "Persistent signal: 21 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -20235,7 +20235,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 175
+    "detection_count": 176
    },
    "n_sources": 3,
    "sources": [
@@ -20275,7 +20275,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 175 rilevamenti"
+     "Segnale persistente: 176 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -20290,7 +20290,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 175 detections"
+     "Persistent signal: 176 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20589,7 +20589,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 179
+    "detection_count": 180
    },
    "n_sources": 3,
    "sources": [
@@ -20629,7 +20629,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 179 rilevamenti"
+     "Segnale persistente: 180 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -20644,7 +20644,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 179 detections"
+     "Persistent signal: 180 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -21084,7 +21084,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 170
+    "detection_count": 171
    },
    "n_sources": 2,
    "sources": [
@@ -21119,7 +21119,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 170 rilevamenti"
+     "Segnale persistente: 171 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21132,7 +21132,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 170 detections"
+     "Persistent signal: 171 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -21192,7 +21192,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 1,
    "sources": [
@@ -21208,7 +21208,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -21237,7 +21237,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -21252,7 +21252,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -21314,7 +21314,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 1,
    "sources": [
@@ -21330,7 +21330,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -21359,7 +21359,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -21374,7 +21374,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -21436,7 +21436,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 1,
    "sources": [
@@ -21452,7 +21452,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -21481,7 +21481,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -21496,7 +21496,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -21558,7 +21558,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 1,
    "sources": [
@@ -21574,7 +21574,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -21603,7 +21603,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -21618,7 +21618,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -21680,7 +21680,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 1,
    "sources": [
@@ -21696,7 +21696,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -21725,7 +21725,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -21740,7 +21740,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -21802,7 +21802,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 1,
    "sources": [
@@ -21818,7 +21818,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -21847,7 +21847,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -21862,7 +21862,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -21924,7 +21924,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 1,
    "sources": [
@@ -21940,7 +21940,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -21969,7 +21969,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -21984,7 +21984,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -22046,7 +22046,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 1,
    "sources": [
@@ -22062,7 +22062,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -22091,7 +22091,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -22106,7 +22106,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -22168,7 +22168,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 1,
    "sources": [
@@ -22184,7 +22184,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -22213,7 +22213,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -22228,7 +22228,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -22290,7 +22290,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 1,
    "sources": [
@@ -22306,7 +22306,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -22335,7 +22335,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -22350,7 +22350,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -22412,7 +22412,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 1,
    "sources": [
@@ -22428,7 +22428,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -22457,7 +22457,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -22472,7 +22472,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -22534,7 +22534,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 20
+    "detection_count": 21
    },
    "n_sources": 1,
    "sources": [
@@ -22550,7 +22550,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:40:56.884177",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -22579,7 +22579,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 20 rilevamenti"
+     "Segnale persistente: 21 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -22594,7 +22594,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 20 detections"
+     "Persistent signal: 21 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -22656,7 +22656,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 20
+    "detection_count": 21
    },
    "n_sources": 1,
    "sources": [
@@ -22672,7 +22672,7 @@
    "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:40:56.884177",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -22701,7 +22701,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 20 rilevamenti"
+     "Segnale persistente: 21 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -22716,7 +22716,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 20 detections"
+     "Persistent signal: 21 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -23792,7 +23792,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 174
+    "detection_count": 175
    },
    "n_sources": 4,
    "sources": [
@@ -23837,7 +23837,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 174 rilevamenti"
+     "Segnale persistente: 175 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23850,7 +23850,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 174 detections"
+     "Persistent signal: 175 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23910,7 +23910,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 173
+    "detection_count": 174
    },
    "n_sources": 4,
    "sources": [
@@ -23955,7 +23955,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 173 rilevamenti"
+     "Segnale persistente: 174 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -23970,7 +23970,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 173 detections"
+     "Persistent signal: 174 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -24504,7 +24504,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 177
+    "detection_count": 178
    },
    "n_sources": 2,
    "sources": [
@@ -24539,7 +24539,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 177 rilevamenti"
+     "Segnale persistente: 178 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24552,7 +24552,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 177 detections"
+     "Persistent signal: 178 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -25900,7 +25900,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 186
+    "detection_count": 187
    },
    "n_sources": 3,
    "sources": [
@@ -25939,7 +25939,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 186 rilevamenti"
+     "Segnale persistente: 187 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -25951,7 +25951,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 186 detections"
+     "Persistent signal: 187 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -26011,7 +26011,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 189
+    "detection_count": 190
    },
    "n_sources": 3,
    "sources": [
@@ -26050,7 +26050,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 189 rilevamenti"
+     "Segnale persistente: 190 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -26062,7 +26062,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 189 detections"
+     "Persistent signal: 190 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -30342,7 +30342,7 @@
     "asymmetry": -20.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 34
+    "detection_count": 35
    },
    "n_sources": 2,
    "sources": [
@@ -30363,7 +30363,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -30392,7 +30392,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 34 rilevamenti"
+     "Segnale persistente: 35 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -30405,7 +30405,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "2 distinct domains mention him",
-     "Persistent signal: 34 detections"
+     "Persistent signal: 35 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -30465,7 +30465,7 @@
     "asymmetry": -20.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 33
+    "detection_count": 34
    },
    "n_sources": 2,
    "sources": [
@@ -30486,7 +30486,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -30515,7 +30515,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 33 rilevamenti"
+     "Segnale persistente: 34 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -30528,7 +30528,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "2 distinct domains mention him",
-     "Persistent signal: 33 detections"
+     "Persistent signal: 34 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -30803,7 +30803,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 3,
    "sources": [
@@ -30834,7 +30834,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-09T11:44:42.024423",
-   "last_seen": "2026-11-06T19:38:05.584741",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -30842,7 +30842,8 @@
     "pros": [
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Nome e club scritti da Trivela",
-     "3 domini distinti lo nominano"
+     "3 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -30854,7 +30855,8 @@
     "pros_en": [
      "Very young (16 yo): plenty of room to develop",
      "Name and club stated by Trivela",
-     "3 distinct domains mention him"
+     "3 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -31019,7 +31021,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 7
+    "detection_count": 8
    },
    "n_sources": 4,
    "sources": [
@@ -31055,7 +31057,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-16T17:13:35.864048",
-   "last_seen": "2026-10-27T12:35:09.081522",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -31063,7 +31065,7 @@
     "pros": [
      "Nome e club scritti da Transfermarkt",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 7 rilevamenti"
+     "Segnale persistente: 8 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -31075,7 +31077,7 @@
     "pros_en": [
      "Name and club stated by Transfermarkt",
      "4 distinct domains mention him",
-     "Persistent signal: 7 detections"
+     "Persistent signal: 8 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -31931,30 +31933,30 @@
   {
    "id": 745,
    "name": "Brian Fariñas",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 20 non è scritto da nessuna fonte competente",
+   "age": 20,
+   "age_stato": "dichiarato",
+   "age_nota": "",
    "claims": {
     "nome": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Brian Fariñas Pérez, 20 anni, FC Barcelona",
+     "url": "https://www.transfermarkt.us/brian-farinas/profil/spieler/938154"
     },
     "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Brian Fariñas Pérez, 20 anni, FC Barcelona",
+     "url": "https://www.transfermarkt.us/brian-farinas/profil/spieler/938154"
     },
     "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Brian Fariñas Pérez, 20 anni, FC Barcelona",
+     "url": "https://www.transfermarkt.us/brian-farinas/profil/spieler/938154"
     },
     "stats": {
      "stato": "assente",
@@ -31970,58 +31972,59 @@
    "region": "Brazil",
    "gender": "male",
    "score": 0,
-   "confidence": 0.45,
+   "confidence": 0.63,
    "breakdown": {
     "youth": 4.0,
     "production": 0.0,
     "asymmetry": -20.0,
     "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
+    "n_sources": 2,
+    "detection_count": 2
    },
-   "n_sources": 1,
+   "n_sources": 2,
    "sources": [
     {
      "domain": "trivela.com.br",
      "url": "https://trivela.com.br/espanha/brian-farinas-barcelona-de-bruyne-yamal/",
      "seen": "2026-11-06T19:38:05.584741"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/brian-farinas/profil/spieler/938154",
+     "seen": "2026-11-18T07:51:23.889778"
     }
    ],
-   "n_sources_registro": 1,
+   "n_sources_registro": 2,
    "stats": {},
    "identity_complete": true,
-   "review_flags": "fonte_singola,eta_assente,club_assente,gia_coperto_da_tutti",
+   "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-11-06T19:38:05.584741",
-   "last_seen": "2026-11-06T19:38:05.584741",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
    "assessment": {
-    "pros": [],
+    "pros": [
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
     "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
      "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
+     "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
     ],
     "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
      "Recuperare statistiche di rendimento (referti gara)"
     ],
-    "pros_en": [],
+    "pros_en": [
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
     "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
      "No documented performance stats",
-     "Age not confirmed"
+     "High-visibility club/league: low asymmetry, competition likely"
     ],
     "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
    }
@@ -44243,7 +44246,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 2,
    "sources": [
@@ -44269,7 +44272,7 @@
    "review_flags": "eta_mancante,eta_assente,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-10-06T18:33:10.753023",
-   "last_seen": "2026-10-27T05:26:04.784250",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (giugno 2026).",
@@ -44297,7 +44300,8 @@
     "pros": [
      "Continuità documentata: 2 presenze",
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
+     "2 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -44309,7 +44313,8 @@
     "pros_en": [
      "Documented continuity: 2 appearances",
      "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
+     "2 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -48637,6 +48642,116 @@
    }
   },
   {
+   "id": 272,
+   "name": "Pietra Lucci",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Lance!",
+     "tipo": "national_press",
+     "citazione": "pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17",
+     "url": "https://www.lance.com.br/futebol-feminino/pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17-e-exalta-formacao-na-base-do-sao-paulo.html"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "midfielder",
+   "club": "São Paulo",
+   "league": null,
+   "region": "Brazil",
+   "gender": "female",
+   "score": 12,
+   "confidence": 0.83,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 10
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "lance.com.br",
+     "url": "https://www.lance.com.br/futebol-feminino/pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17-e-exalta-formacao-na-base-do-sao-paulo.html",
+     "seen": "2026-08-24T13:31:36.232233"
+    },
+    {
+     "domain": "besoccer.com",
+     "url": "https://www.besoccer.com/player/pietra-lucci-3815810",
+     "seen": "2026-08-28T15:47:13.194942"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-08-24T13:31:36.232233",
+   "last_seen": "2026-11-18T07:51:23.889778",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano",
+     "Segnale persistente: 10 rilevamenti"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him",
+     "Persistent signal: 10 detections"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 336,
    "name": "Vicente Pesce",
    "age": null,
@@ -48685,7 +48800,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 1,
-    "detection_count": 21
+    "detection_count": 22
    },
    "n_sources": 1,
    "sources": [
@@ -48701,7 +48816,7 @@
    "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-16T22:26:29.997229",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -48729,7 +48844,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
-     "Segnale persistente: 21 rilevamenti"
+     "Segnale persistente: 22 rilevamenti"
     ],
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
@@ -48745,7 +48860,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
-     "Persistent signal: 21 detections"
+     "Persistent signal: 22 detections"
     ],
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
@@ -52332,116 +52447,6 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 272,
-   "name": "Pietra Lucci",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Lance!",
-     "tipo": "national_press",
-     "citazione": "pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17",
-     "url": "https://www.lance.com.br/futebol-feminino/pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17-e-exalta-formacao-na-base-do-sao-paulo.html"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "midfielder",
-   "club": "São Paulo",
-   "league": null,
-   "region": "Brazil",
-   "gender": "female",
-   "score": 10,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 9
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "lance.com.br",
-     "url": "https://www.lance.com.br/futebol-feminino/pietra-lucci-revela-trajetoria-da-peneira-a-selecao-sub-17-e-exalta-formacao-na-base-do-sao-paulo.html",
-     "seen": "2026-08-24T13:31:36.232233"
-    },
-    {
-     "domain": "besoccer.com",
-     "url": "https://www.besoccer.com/player/pietra-lucci-3815810",
-     "seen": "2026-08-28T15:47:13.194942"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "standard",
-   "first_detected": "2026-08-24T13:31:36.232233",
-   "last_seen": "2026-11-06T19:38:05.584741",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano",
-     "Segnale persistente: 9 rilevamenti"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him",
-     "Persistent signal: 9 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -66909,7 +66914,7 @@
     "asymmetry": 0.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 2,
    "sources": [
@@ -66935,7 +66940,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-10-14T05:15:05.053983",
-   "last_seen": "2026-11-06T07:13:29.825660",
+   "last_seen": "2026-11-18T07:51:23.889778",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Ghana Football Association, Sub-17.",
@@ -66961,7 +66966,8 @@
    "publishable": false,
    "assessment": {
     "pros": [
-     "2 domini distinti lo nominano"
+     "2 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -66975,7 +66981,8 @@
      "Recuperare statistiche di rendimento (referti gara)"
     ],
     "pros_en": [
-     "2 distinct domains mention him"
+     "2 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
