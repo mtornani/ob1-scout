@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-19T08:15:16.090505+00:00",
+ "generated_at": "2026-11-19T21:18:20.444481+00:00",
  "version": "1.0.0",
- "build": "b54a06f",
- "total": 763,
+ "build": "91de3fa",
+ "total": 764,
  "publishable": 132,
- "tracking": 631,
- "shown": 763,
+ "tracking": 632,
+ "shown": 764,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 4,
@@ -16962,7 +16962,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 4,
-    "detection_count": 8
+    "detection_count": 9
    },
    "n_sources": 4,
    "sources": [
@@ -16998,7 +16998,7 @@
    "review_flags": "eta_dedotto,club_assente",
    "coverage_tier": "standard",
    "first_detected": "2026-10-01T06:24:11.557538",
-   "last_seen": "2026-11-07T22:13:01.552863",
+   "last_seen": "2026-11-19T20:54:17.291856",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (giugno 2026).",
@@ -17814,7 +17814,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 179
+    "detection_count": 180
    },
    "n_sources": 4,
    "sources": [
@@ -17859,7 +17859,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 179 rilevamenti"
+     "Segnale persistente: 180 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -17870,7 +17870,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 179 detections"
+     "Persistent signal: 180 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -18035,7 +18035,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 184
+    "detection_count": 185
    },
    "n_sources": 4,
    "sources": [
@@ -18080,7 +18080,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 184 rilevamenti"
+     "Segnale persistente: 185 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18095,7 +18095,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 184 detections"
+     "Persistent signal: 185 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18424,7 +18424,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 183
+    "detection_count": 184
    },
    "n_sources": 3,
    "sources": [
@@ -18464,7 +18464,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 183 rilevamenti"
+     "Segnale persistente: 184 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18479,7 +18479,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 183 detections"
+     "Persistent signal: 184 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20235,7 +20235,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 177
+    "detection_count": 178
    },
    "n_sources": 3,
    "sources": [
@@ -20275,7 +20275,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 177 rilevamenti"
+     "Segnale persistente: 178 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -20290,7 +20290,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 177 detections"
+     "Persistent signal: 178 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20589,7 +20589,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 182
+    "detection_count": 183
    },
    "n_sources": 3,
    "sources": [
@@ -20629,7 +20629,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 182 rilevamenti"
+     "Segnale persistente: 183 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -20644,7 +20644,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 182 detections"
+     "Persistent signal: 183 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -21084,7 +21084,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 172
+    "detection_count": 173
    },
    "n_sources": 2,
    "sources": [
@@ -21119,7 +21119,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 172 rilevamenti"
+     "Segnale persistente: 173 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21132,7 +21132,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 172 detections"
+     "Persistent signal: 173 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23792,7 +23792,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 177
+    "detection_count": 178
    },
    "n_sources": 4,
    "sources": [
@@ -23837,7 +23837,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 177 rilevamenti"
+     "Segnale persistente: 178 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23850,7 +23850,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 177 detections"
+     "Persistent signal: 178 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23910,7 +23910,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 175
+    "detection_count": 176
    },
    "n_sources": 4,
    "sources": [
@@ -23955,7 +23955,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 175 rilevamenti"
+     "Segnale persistente: 176 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -23970,7 +23970,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 175 detections"
+     "Persistent signal: 176 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -24504,7 +24504,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 179
+    "detection_count": 180
    },
    "n_sources": 2,
    "sources": [
@@ -24539,7 +24539,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 179 rilevamenti"
+     "Segnale persistente: 180 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24552,7 +24552,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 179 detections"
+     "Persistent signal: 180 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -26004,7 +26004,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 189
+    "detection_count": 190
    },
    "n_sources": 3,
    "sources": [
@@ -26043,7 +26043,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 189 rilevamenti"
+     "Segnale persistente: 190 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -26055,7 +26055,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 189 detections"
+     "Persistent signal: 190 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -26115,7 +26115,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 191
+    "detection_count": 192
    },
    "n_sources": 3,
    "sources": [
@@ -26154,7 +26154,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 191 rilevamenti"
+     "Segnale persistente: 192 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -26166,7 +26166,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 191 detections"
+     "Persistent signal: 192 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -30446,7 +30446,7 @@
     "asymmetry": -20.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 35
+    "detection_count": 36
    },
    "n_sources": 2,
    "sources": [
@@ -30467,7 +30467,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-18T07:51:23.889778",
+   "last_seen": "2026-11-19T20:54:17.291856",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -30496,7 +30496,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 35 rilevamenti"
+     "Segnale persistente: 36 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -30509,7 +30509,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "2 distinct domains mention him",
-     "Persistent signal: 35 detections"
+     "Persistent signal: 36 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -30569,7 +30569,7 @@
     "asymmetry": -20.0,
     "selection": 4.0,
     "n_sources": 2,
-    "detection_count": 34
+    "detection_count": 35
    },
    "n_sources": 2,
    "sources": [
@@ -30590,7 +30590,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
-   "last_seen": "2026-11-18T07:51:23.889778",
+   "last_seen": "2026-11-19T20:54:17.291856",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da AUF — Asociación Uruguaya de Fútbol, Sub-17.",
@@ -30619,7 +30619,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 34 rilevamenti"
+     "Segnale persistente: 35 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -30632,7 +30632,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "2 distinct domains mention him",
-     "Persistent signal: 34 detections"
+     "Persistent signal: 35 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -74004,6 +74004,113 @@
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
      "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 764,
+   "name": "Riquelme Felipe",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "ge.globo (Globo Esporte)",
+     "tipo": "national_press",
+     "citazione": "Riquelme Felipe: Atacante do Fluminense é convocado para Seleção sub-20",
+     "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/31/sem-espaco-no-fluminense-riquelme-tem-chance-de-retomada-com-a-selecao-sub-20.ghtml"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "ge.globo (Globo Esporte)",
+     "tipo": "national_press",
+     "citazione": "Riquelme Felipe: Atacante do Fluminense é convocado para Seleção sub-20",
+     "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/31/sem-espaco-no-fluminense-riquelme-tem-chance-de-retomada-com-a-selecao-sub-20.ghtml"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Atacante",
+   "club": "Fluminense",
+   "league": "Série A",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "ge.globo.com",
+     "url": "https://ge.globo.com/futebol/times/fluminense/noticia/2026/10/31/sem-espaco-no-fluminense-riquelme-tem-chance-de-retomada-com-a-selecao-sub-20.ghtml",
+     "seen": "2026-11-19T20:54:17.291856"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-11-19T20:54:17.291856",
+   "last_seen": "2026-11-19T20:54:17.291856",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da ge.globo (Globo Esporte)"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by ge.globo (Globo Esporte)"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
      "Single source: not yet corroborated",
      "No documented performance stats",
      "Age not confirmed"
