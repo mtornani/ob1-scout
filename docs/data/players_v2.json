@@ -1,16 +1,34 @@
 {
- "generated_at": "2026-11-21T08:01:28.651143+00:00",
+ "generated_at": "2026-11-21T20:12:10.592533+00:00",
  "version": "1.0.0",
- "build": "c0bb1ea",
- "total": 767,
- "publishable": 132,
- "tracking": 635,
- "shown": 767,
+ "build": "b3bc385",
+ "total": 769,
+ "publishable": 133,
+ "tracking": 636,
+ "shown": 769,
  "tracking_capped": 0,
  "outcomes": {
-  "checked": 4,
-  "avg_lead_time_days": 33.0,
+  "checked": 6,
+  "avg_lead_time_days": 41.7,
   "casi": [
+   {
+    "player_id": 566,
+    "nome": "Lê Sỹ Bách",
+    "club": "PVF",
+    "giorni": 59,
+    "url": "https://vnexpress.net/moto-nuoc-ho-tong-ngon-duoc-dai-hoi-the-thao-toan-quoc-tren-song-sai-gon-5147530.html#box_comment_vne",
+    "dominio": "vnexpress.net",
+    "quando": "2026-11-21T19:40:42.931550"
+   },
+   {
+    "player_id": 566,
+    "nome": "Lê Sỹ Bách",
+    "club": "PVF",
+    "giorni": 59,
+    "url": "https://vnexpress.net/sy-bach-khong-ngo-pha-danh-got-thanh-ban-vao-luoi-bi-tai-u17-world-cup-5147491.html#box_comment_vne",
+    "dominio": "vnexpress.net",
+    "quando": "2026-11-21T19:40:42.931550"
+   },
    {
     "player_id": 279,
     "nome": "João Pedro Murilo",
@@ -6618,6 +6636,111 @@
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-21T05:18:51.145487",
    "last_seen": "2026-09-21T13:12:26.817521",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": true,
+   "assessment": {
+    "pros": [
+     "Molto giovane (16 anni): ampio margine di sviluppo",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)",
+     "Richiedere video o programmare una visione diretta",
+     "Telefonata al club: conferma anagrafica e status contrattuale"
+    ],
+    "pros_en": [
+     "Very young (16 yo): plenty of room to develop",
+     "Minor context: potentially underpriced",
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)",
+     "Request video or schedule a live viewing",
+     "Call the club: confirm identity and contract status"
+    ]
+   }
+  },
+  {
+   "id": 767,
+   "name": "Sega Fall Mbodji",
+   "age": 16,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Wiwsport",
+     "tipo": "national_press",
+     "citazione": "Mondial U17 : En vidéo, le but de Sega Fall Mbodji qui église pour les Lionceaux face à la Croatie",
+     "url": "https://wiwsport.com/2026/11/20/mondial-u17-en-video-le-but-de-sega-fall-mbodji-qui-eglise-pour-les-lionceaux-face-a-la-croatie/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Sega Fall Mbodji, 16 anni, Génération Foot",
+     "url": "https://www.transfermarkt.us/sega-mbodji/profil/spieler/1475230"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Sega Fall Mbodji, 16 anni, Génération Foot",
+     "url": "https://www.transfermarkt.us/sega-mbodji/profil/spieler/1475230"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Right Winger",
+   "club": "Génération Foot",
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 16,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "wiwsport.com",
+     "url": "https://wiwsport.com/2026/11/20/mondial-u17-en-video-le-but-de-sega-fall-mbodji-qui-eglise-pour-les-lionceaux-face-a-la-croatie/",
+     "seen": "2026-11-21T07:37:08.422975"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/sega-mbodji/profil/spieler/1475230",
+     "seen": "2026-11-21T19:40:42.931550"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-11-21T07:37:08.422975",
+   "last_seen": "2026-11-21T19:40:42.931550",
    "selezione": {},
    "anomalie": [],
    "publishable": true,
@@ -17814,7 +17937,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 183
+    "detection_count": 184
    },
    "n_sources": 4,
    "sources": [
@@ -17859,7 +17982,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 183 rilevamenti"
+     "Segnale persistente: 184 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -17870,7 +17993,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 183 detections"
+     "Persistent signal: 184 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -18035,7 +18158,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 188
+    "detection_count": 189
    },
    "n_sources": 4,
    "sources": [
@@ -18080,7 +18203,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 188 rilevamenti"
+     "Segnale persistente: 189 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18095,7 +18218,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 188 detections"
+     "Persistent signal: 189 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -18268,6 +18391,113 @@
    }
   },
   {
+   "id": 566,
+   "name": "Lê Sỹ Bách",
+   "age": 17,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "PVF Football Academy",
+     "tipo": "academy",
+     "citazione": "cùng 9 cầu thủ: Lý Xuân Hòa, Nguyễn Việt Dũng, Nguyễn Ngọc Anh Hào, Bùi Trung Hiếu, Nguyễn Huỳnh Đăng Khoa, Nguyễn Văn Dương, Lê Sỹ Bách, Nguyễn Trọng Phong và Trương Nguyễn Duy Khang.",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Lê Sỹ Bách, 17 anni, PVF Football Academy",
+     "url": "https://www.transfermarkt.com/sy-bach-le/profil/spieler/1415715"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Right Winger",
+   "club": "PVF",
+   "league": null,
+   "region": "Vietnam",
+   "gender": "male",
+   "score": 25,
+   "confidence": 0.91,
+   "breakdown": {
+    "youth": 15.0,
+    "production": 4.0,
+    "asymmetry": 8.0,
+    "selection": 0.0,
+    "n_sources": 3,
+    "detection_count": 6
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "pvf.com.vn",
+     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/",
+     "seen": "2026-09-23T11:59:53.215187"
+    },
+    {
+     "domain": "transfermarkt.com",
+     "url": "https://www.transfermarkt.com/sy-bach-le/profil/spieler/1415715",
+     "seen": "2026-09-28T05:44:27.066725"
+    },
+    {
+     "domain": "vnexpress.net",
+     "url": "https://vnexpress.net/moto-nuoc-ho-tong-ngon-duoc-dai-hoi-the-thao-toan-quoc-tren-song-sai-gon-5147530.html#box_comment_vne",
+     "seen": "2026-11-21T19:40:42.931550"
+    }
+   ],
+   "n_sources_registro": 3,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-23T11:59:53.215187",
+   "last_seen": "2026-11-21T19:40:42.931550",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Molto giovane (17 anni): ampio margine di sviluppo",
+     "Produzione documentata: 1 gol",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo"
+    ],
+    "next_steps": [],
+    "pros_en": [
+     "Very young (17 yo): plenty of room to develop",
+     "Documented output: 1 goals",
+     "Minor context: potentially underpriced",
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it"
+    ],
+    "next_steps_en": []
+   }
+  },
+  {
    "id": 562,
    "name": "Nguyễn Ngọc Anh Hào",
    "age": 16,
@@ -18424,7 +18654,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 187
+    "detection_count": 188
    },
    "n_sources": 3,
    "sources": [
@@ -18464,7 +18694,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 187 rilevamenti"
+     "Segnale persistente: 188 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18479,7 +18709,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 187 detections"
+     "Persistent signal: 188 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20187,108 +20417,6 @@
    }
   },
   {
-   "id": 566,
-   "name": "Lê Sỹ Bách",
-   "age": 17,
-   "age_stato": "dichiarato",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "PVF Football Academy",
-     "tipo": "academy",
-     "citazione": "cùng 9 cầu thủ: Lý Xuân Hòa, Nguyễn Việt Dũng, Nguyễn Ngọc Anh Hào, Bùi Trung Hiếu, Nguyễn Huỳnh Đăng Khoa, Nguyễn Văn Dương, Lê Sỹ Bách, Nguyễn Trọng Phong và Trương Nguyễn Duy Khang.",
-     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "dichiarato",
-     "fonte": "Transfermarkt",
-     "tipo": "aggregator",
-     "citazione": "Scheda Transfermarkt: Lê Sỹ Bách, 17 anni, PVF Football Academy",
-     "url": "https://www.transfermarkt.com/sy-bach-le/profil/spieler/1415715"
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Right Winger",
-   "club": "PVF",
-   "league": null,
-   "region": "Vietnam",
-   "gender": "male",
-   "score": 20,
-   "confidence": 0.73,
-   "breakdown": {
-    "youth": 15.0,
-    "production": 4.0,
-    "asymmetry": 8.0,
-    "selection": 0.0,
-    "n_sources": 2,
-    "detection_count": 4
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "pvf.com.vn",
-     "url": "https://pvf.com.vn/12-thanh-vien-pvf-hoi-quan-cung-u17-viet-nam-huong-toi-u17-world-cup-2026/",
-     "seen": "2026-09-23T11:59:53.215187"
-    },
-    {
-     "domain": "transfermarkt.com",
-     "url": "https://www.transfermarkt.com/sy-bach-le/profil/spieler/1415715",
-     "seen": "2026-09-28T05:44:27.066725"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 1,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": true,
-   "review_flags": "eta_dichiarato,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-23T11:59:53.215187",
-   "last_seen": "2026-11-20T20:39:16.968360",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Molto giovane (17 anni): ampio margine di sviluppo",
-     "Produzione documentata: 1 gol",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo"
-    ],
-    "next_steps": [],
-    "pros_en": [
-     "Very young (17 yo): plenty of room to develop",
-     "Documented output: 1 goals",
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it"
-    ],
-    "next_steps_en": []
-   }
-  },
-  {
    "id": 4,
    "name": "Ryan Evaristo",
    "age": 18,
@@ -20337,7 +20465,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 181
+    "detection_count": 182
    },
    "n_sources": 3,
    "sources": [
@@ -20377,7 +20505,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 181 rilevamenti"
+     "Segnale persistente: 182 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -20392,7 +20520,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 181 detections"
+     "Persistent signal: 182 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -21186,7 +21314,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 176
+    "detection_count": 177
    },
    "n_sources": 2,
    "sources": [
@@ -21221,7 +21349,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 176 rilevamenti"
+     "Segnale persistente: 177 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21234,7 +21362,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 176 detections"
+     "Persistent signal: 177 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23793,7 +23921,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 181
+    "detection_count": 182
    },
    "n_sources": 4,
    "sources": [
@@ -23838,7 +23966,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 181 rilevamenti"
+     "Segnale persistente: 182 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -23851,7 +23979,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 181 detections"
+     "Persistent signal: 182 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -23911,7 +24039,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 179
+    "detection_count": 180
    },
    "n_sources": 4,
    "sources": [
@@ -23956,7 +24084,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 179 rilevamenti"
+     "Segnale persistente: 180 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -23971,7 +24099,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 179 detections"
+     "Persistent signal: 180 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -24512,7 +24640,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 183
+    "detection_count": 184
    },
    "n_sources": 2,
    "sources": [
@@ -24547,7 +24675,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 183 rilevamenti"
+     "Segnale persistente: 184 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24560,7 +24688,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 183 detections"
+     "Persistent signal: 184 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -26012,7 +26140,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 193
+    "detection_count": 194
    },
    "n_sources": 3,
    "sources": [
@@ -26051,7 +26179,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 193 rilevamenti"
+     "Segnale persistente: 194 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -26063,7 +26191,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 193 detections"
+     "Persistent signal: 194 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -32150,6 +32278,105 @@
    }
   },
   {
+   "id": 766,
+   "name": "Rayan Cherki",
+   "age": 23,
+   "age_stato": "dichiarato",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Trivela",
+     "tipo": "local_press",
+     "citazione": "como encaixar Enzo Fernández, Elliot Anderson e Rayan Cherki sem deixar enormes espaços quando perde a bola?",
+     "url": "https://trivela.com.br/inglaterra/maresca-dilema-enzo-fernandez-bouaddi-pode-ser-solucao-manchester-city/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Mathis Rayan Cherki, 23 anni, Manchester City",
+     "url": "https://www.transfermarkt.us/rayan-cherki/profil/spieler/607223"
+    },
+    "eta": {
+     "stato": "dichiarato",
+     "fonte": "Transfermarkt",
+     "tipo": "aggregator",
+     "citazione": "Scheda Transfermarkt: Mathis Rayan Cherki, 23 anni, Manchester City",
+     "url": "https://www.transfermarkt.us/rayan-cherki/profil/spieler/607223"
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Attacking Midfield",
+   "club": "Manchester City",
+   "league": "Premier League",
+   "region": "Brazil",
+   "gender": "male",
+   "score": 0,
+   "confidence": 0.63,
+   "breakdown": {
+    "youth": 1.0,
+    "production": 0.0,
+    "asymmetry": -20.0,
+    "selection": 0.0,
+    "n_sources": 2,
+    "detection_count": 2
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "trivela.com.br",
+     "url": "https://trivela.com.br/inglaterra/maresca-dilema-enzo-fernandez-bouaddi-pode-ser-solucao-manchester-city/",
+     "seen": "2026-11-21T07:37:08.422975"
+    },
+    {
+     "domain": "transfermarkt.us",
+     "url": "https://www.transfermarkt.us/rayan-cherki/profil/spieler/607223",
+     "seen": "2026-11-21T19:40:42.931550"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {},
+   "identity_complete": true,
+   "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
+   "coverage_tier": "standard",
+   "first_detected": "2026-11-21T07:37:08.422975",
+   "last_seen": "2026-11-21T19:40:42.931550",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Nome e club scritti da Transfermarkt",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Nessuna statistica di rendimento documentata",
+     "Club/lega ad alta visibilità: poca asimmetria, concorrenza probabile"
+    ],
+    "next_steps": [
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Name and club stated by Transfermarkt",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "No documented performance stats",
+     "High-visibility club/league: low asymmetry, competition likely"
+    ],
+    "next_steps_en": [
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
    "id": 551,
    "name": "Steven Mendes",
    "age": null,
@@ -32931,7 +33158,7 @@
     "asymmetry": 8.0,
     "selection": 19.0,
     "n_sources": 3,
-    "detection_count": 10
+    "detection_count": 11
    },
    "n_sources": 3,
    "sources": [
@@ -32962,7 +33189,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-13T16:34:39.358956",
-   "last_seen": "2026-11-08T18:01:09.356425",
+   "last_seen": "2026-11-21T19:40:42.931550",
    "selezione": {
     "quante": 3,
     "frase": "Convocato 3 volte da Nigeria Football Federation, Sub-20.",
@@ -33035,6 +33262,166 @@
     ],
     "pros_en": [
      "Documented output: 1 goals",
+     "Minor context: potentially underpriced",
+     "3 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club"
+    ]
+   }
+  },
+  {
+   "id": 478,
+   "name": "Onyedikachi Ekezie",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "with the assist provided by Onyedikachi Ekezie.",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "Defender",
+   "club": null,
+   "league": "2026 FIFA U-20 Women's World Cup",
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 36,
+   "confidence": 1.0,
+   "breakdown": {
+    "youth": 11.0,
+    "production": 2.5,
+    "asymmetry": 8.0,
+    "selection": 14.0,
+    "n_sources": 3,
+    "detection_count": 10
+   },
+   "n_sources": 3,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
+     "seen": "2026-09-13T16:34:39.358956"
+    },
+    {
+     "domain": "ie.soccerway.com",
+     "url": "https://ie.soccerway.com/player/ekezie-onyedikachi/vuPi0XKG/",
+     "seen": "2026-09-26T05:19:46.483477"
+    },
+    {
+     "domain": "soccerway.com",
+     "url": "https://www.soccerway.com/player/ekezie-onyedikachi/vuPi0XKG/",
+     "seen": "2026-10-01T13:46:38.571574"
+    }
+   ],
+   "n_sources_registro": 2,
+   "stats": {
+    "goals": 0,
+    "assists": 1,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-13T16:34:39.358956",
+   "last_seen": "2026-11-21T19:40:42.931550",
+   "selezione": {
+    "quante": 2,
+    "frase": "Convocato 2 volte da Nigeria Football Federation, Sub-20.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-20"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
+     },
+     {
+      "data": "",
+      "categoria": "sub-20",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/fifa-u20-womens-world-cup-gallant-falconets-bow-out-after-narrow-defeat-by-colombia/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 2 times by Nigeria Football Federation, U20."
+   },
+   "anomalie": [
+    {
+     "codice": "asimmetria_copertura",
+     "titolo": "Scelto dalla federazione, assente dalla stampa",
+     "frase": "2 convocazioni di Nigeria Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
+     "frase_en": "2 call-ups by Nigeria Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
+     "forza": "indicativa",
+     "prove": [
+      "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
+      "https://thenff.com/fifa-u20-womens-world-cup-gallant-falconets-bow-out-after-narrow-defeat-by-colombia/"
+     ],
+     "dati": {
+      "convocazioni": 2,
+      "tipi_fonte": [
+       "aggregator",
+       "federation"
+      ]
+     }
+    }
+   ],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 assist",
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "3 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società"
+    ],
+    "pros_en": [
+     "Documented output: 1 assists",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him"
     ],
@@ -33396,166 +33783,6 @@
     ],
     "pros_en": [
      "Documented output: 1 goals",
-     "3 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
-     "Age not confirmed",
-     "Club not identified"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club"
-    ]
-   }
-  },
-  {
-   "id": 478,
-   "name": "Onyedikachi Ekezie",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "il valore 18 non è scritto da nessuna fonte competente",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "with the assist provided by Onyedikachi Ekezie.",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "Defender",
-   "club": null,
-   "league": "2026 FIFA U-20 Women's World Cup",
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 32,
-   "confidence": 0.91,
-   "breakdown": {
-    "youth": 11.0,
-    "production": 2.5,
-    "asymmetry": 8.0,
-    "selection": 14.0,
-    "n_sources": 3,
-    "detection_count": 9
-   },
-   "n_sources": 3,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
-     "seen": "2026-09-13T16:34:39.358956"
-    },
-    {
-     "domain": "ie.soccerway.com",
-     "url": "https://ie.soccerway.com/player/ekezie-onyedikachi/vuPi0XKG/",
-     "seen": "2026-09-26T05:19:46.483477"
-    },
-    {
-     "domain": "soccerway.com",
-     "url": "https://www.soccerway.com/player/ekezie-onyedikachi/vuPi0XKG/",
-     "seen": "2026-10-01T13:46:38.571574"
-    }
-   ],
-   "n_sources_registro": 2,
-   "stats": {
-    "goals": 0,
-    "assists": 1,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-13T16:34:39.358956",
-   "last_seen": "2026-11-08T18:01:09.356425",
-   "selezione": {
-    "quante": 2,
-    "frase": "Convocato 2 volte da Nigeria Football Federation, Sub-20.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-20"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/"
-     },
-     {
-      "data": "",
-      "categoria": "sub-20",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/fifa-u20-womens-world-cup-gallant-falconets-bow-out-after-narrow-defeat-by-colombia/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 2 times by Nigeria Football Federation, U20."
-   },
-   "anomalie": [
-    {
-     "codice": "asimmetria_copertura",
-     "titolo": "Scelto dalla federazione, assente dalla stampa",
-     "frase": "2 convocazioni di Nigeria Football Federation, e nessuna delle fonti di stampa che seguiamo lo ha mai scritto. Chi decide lo conosce, chi racconta no.",
-     "frase_en": "2 call-ups by Nigeria Football Federation, and none of the press outlets we track has ever written about him. The people who pick him know him; the people who report don't.",
-     "forza": "indicativa",
-     "prove": [
-      "https://thenff.com/fifa-u20-womens-world-cup-falconets-rout-new-caledonia-10-1-to-play-england/",
-      "https://thenff.com/fifa-u20-womens-world-cup-gallant-falconets-bow-out-after-narrow-defeat-by-colombia/"
-     ],
-     "dati": {
-      "convocazioni": 2,
-      "tipi_fonte": [
-       "aggregator",
-       "federation"
-      ]
-     }
-    }
-   ],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Produzione documentata: 1 assist",
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Età non confermata",
-     "Club non identificato"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società"
-    ],
-    "pros_en": [
-     "Documented output: 1 assists",
-     "Minor context: potentially underpriced",
      "3 distinct domains mention him"
     ],
     "cautions_en": [
@@ -37845,10 +38072,10 @@
     "production": 4.0,
     "asymmetry": 8.0,
     "selection": 4.0,
-    "n_sources": 3,
-    "detection_count": 12
+    "n_sources": 4,
+    "detection_count": 13
    },
-   "n_sources": 3,
+   "n_sources": 4,
    "sources": [
     {
      "domain": "fifa.com",
@@ -37864,6 +38091,11 @@
      "domain": "soccerway.com",
      "url": "https://www.soccerway.com/player/kareem-ramotalahi/2JokWSOk/",
      "seen": "2026-09-13T21:03:18.523174"
+    },
+    {
+     "domain": "ie.soccerway.com",
+     "url": "https://ie.soccerway.com/player/kareem-ramotalahi/2JokWSOk",
+     "seen": "2026-11-21T19:40:42.931550"
     }
    ],
    "n_sources_registro": 2,
@@ -37877,7 +38109,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-13T16:34:39.358956",
-   "last_seen": "2026-11-08T18:01:09.356425",
+   "last_seen": "2026-11-21T19:40:42.931550",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Nigeria Football Federation, Sub-20.",
@@ -37905,8 +38137,8 @@
     "pros": [
      "Produzione documentata: 1 gol",
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano",
-     "Segnale persistente: 12 rilevamenti"
+     "4 domini distinti lo nominano",
+     "Segnale persistente: 13 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -37920,8 +38152,8 @@
     "pros_en": [
      "Documented output: 1 goals",
      "Minor context: potentially underpriced",
-     "3 distinct domains mention him",
-     "Persistent signal: 12 detections"
+     "4 distinct domains mention him",
+     "Persistent signal: 13 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -74144,6 +74376,257 @@
    }
   },
   {
+   "id": 768,
+   "name": "Adán Sánchez",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Mi Selección (Federación Mexicana de Fútbol)",
+     "tipo": "federation",
+     "citazione": "Adán Sánchez, quien al minuto 55 marcó el único tanto del encuentro con un auténtico golazo",
+     "url": "https://miseleccion.mx/noticia/6720-Sub-17-|-M%C3%A9xico-inicia-su-camino-mundialista-con-triunfo-ante-Rumania"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Mexico",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "miseleccion.mx",
+     "url": "https://miseleccion.mx/noticia/6720-Sub-17-|-M%C3%A9xico-inicia-su-camino-mundialista-con-triunfo-ante-Rumania",
+     "seen": "2026-11-21T19:40:42.931550"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-11-21T19:40:42.931550",
+   "last_seen": "2026-11-21T19:40:42.931550",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Mi Selección (Federación Mexicana de Fútbol), Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Mi Selección (Federación Mexicana de Fútbol)",
+      "url": "https://miseleccion.mx/noticia/6720-Sub-17-|-M%C3%A9xico-inicia-su-camino-mundialista-con-triunfo-ante-Rumania"
+     }
+    ],
+    "fonte": "Mi Selección (Federación Mexicana de Fútbol)",
+    "frase_en": "Called up 1 times by Mi Selección (Federación Mexicana de Fútbol), U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 769,
+   "name": "Samuel Martínez",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "Samuel Martínez anotó el tanto del triunfo tras un cobro de penalti",
+     "url": "https://fcf.com.co/2026/11/21/la-seleccion-colombia-masculina-sub-17-debuto-con-triunfo-ante-japon-en-la-copa-mundial-de-la-fifa-catar-2026/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Colombia",
+   "gender": "male",
+   "score": 6,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 4.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/11/21/la-seleccion-colombia-masculina-sub-17-debuto-con-triunfo-ante-japon-en-la-copa-mundial-de-la-fifa-catar-2026/",
+     "seen": "2026-11-21T19:40:42.931550"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 1,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-11-21T19:40:42.931550",
+   "last_seen": "2026-11-21T19:40:42.931550",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol, Sub-17 (novembre 2026).",
+    "dal": "2026-11-21",
+    "al": "2026-11-21",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-11-21",
+      "categoria": "sub-17",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/11/21/la-seleccion-colombia-masculina-sub-17-debuto-con-triunfo-ante-japon-en-la-copa-mundial-de-la-fifa-catar-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol, U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Produzione documentata: 1 gol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Età non confermata",
+     "Club non identificato"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [
+     "Documented output: 1 goals"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "Age not confirmed",
+     "Club not identified"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
    "id": 129,
    "name": "Juana Flores",
    "age": null,
@@ -86234,104 +86717,6 @@
    }
   },
   {
-   "id": 767,
-   "name": "Sega Fall Mbodji",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Wiwsport",
-     "tipo": "national_press",
-     "citazione": "Mondial U17 : En vidéo, le but de Sega Fall Mbodji qui église pour les Lionceaux face à la Croatie",
-     "url": "https://wiwsport.com/2026/11/20/mondial-u17-en-video-le-but-de-sega-fall-mbodji-qui-eglise-pour-les-lionceaux-face-a-la-croatie/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": null,
-   "league": null,
-   "region": "Senegal",
-   "gender": "male",
-   "score": 3,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 0.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "wiwsport.com",
-     "url": "https://wiwsport.com/2026/11/20/mondial-u17-en-video-le-but-de-sega-fall-mbodji-qui-eglise-pour-les-lionceaux-face-a-la-croatie/",
-     "seen": "2026-11-21T07:37:08.422975"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-11-21T07:37:08.422975",
-   "last_seen": "2026-11-21T07:37:08.422975",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Verificare il club attuale",
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Verify the current club",
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)"
-    ]
-   }
-  },
-  {
    "id": 162,
    "name": "Dominik Kotarski",
    "age": null,
@@ -88526,104 +88911,6 @@
   {
    "id": 765,
    "name": "Elliot Anderson",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Trivela",
-     "tipo": "local_press",
-     "citazione": "como encaixar Enzo Fernández, Elliot Anderson e Rayan Cherki sem deixar enormes espaços quando perde a bola?",
-     "url": "https://trivela.com.br/inglaterra/maresca-dilema-enzo-fernandez-bouaddi-pode-ser-solucao-manchester-city/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": null,
-   "club": "Manchester City",
-   "league": "Premier League",
-   "region": "Brazil",
-   "gender": "male",
-   "score": 0,
-   "confidence": 0.45,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": -20.0,
-    "selection": 0.0,
-    "n_sources": 1,
-    "detection_count": 1
-   },
-   "n_sources": 1,
-   "sources": [
-    {
-     "domain": "trivela.com.br",
-     "url": "https://trivela.com.br/inglaterra/maresca-dilema-enzo-fernandez-bouaddi-pode-ser-solucao-manchester-city/",
-     "seen": "2026-11-21T07:37:08.422975"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {},
-   "identity_complete": false,
-   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_assente,gia_coperto_da_tutti",
-   "coverage_tier": "standard",
-   "first_detected": "2026-11-21T07:37:08.422975",
-   "last_seen": "2026-11-21T07:37:08.422975",
-   "selezione": {},
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [],
-    "cautions": [
-     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [],
-    "cautions_en": [
-     "Only one domain says anything concrete: the other sources merely confirm the name exists",
-     "The club appears in no source: re-verify before relying on it",
-     "Single source: not yet corroborated",
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Find a second independent source (aggregators, local press)",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 766,
-   "name": "Rayan Cherki",
    "age": null,
    "age_stato": "assente",
    "age_nota": "",
