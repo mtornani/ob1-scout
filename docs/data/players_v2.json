@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-25T22:17:37.747163+00:00",
+ "generated_at": "2026-11-26T09:09:47.824789+00:00",
  "version": "1.0.0",
- "build": "e452104",
- "total": 782,
+ "build": "3e0acd4",
+ "total": 783,
  "publishable": 136,
- "tracking": 646,
- "shown": 782,
+ "tracking": 647,
+ "shown": 783,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 6,
@@ -18520,7 +18520,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 190
+    "detection_count": 191
    },
    "n_sources": 4,
    "sources": [
@@ -18565,7 +18565,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 190 rilevamenti"
+     "Segnale persistente: 191 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -18576,7 +18576,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 190 detections"
+     "Persistent signal: 191 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -18741,7 +18741,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 196
+    "detection_count": 197
    },
    "n_sources": 4,
    "sources": [
@@ -18786,7 +18786,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 196 rilevamenti"
+     "Segnale persistente: 197 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18801,7 +18801,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 196 detections"
+     "Persistent signal: 197 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19237,7 +19237,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 196
+    "detection_count": 197
    },
    "n_sources": 3,
    "sources": [
@@ -19277,7 +19277,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 196 rilevamenti"
+     "Segnale persistente: 197 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19292,7 +19292,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 196 detections"
+     "Persistent signal: 197 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -20636,9 +20636,9 @@
   {
    "id": 334,
    "name": "Nicolás Scotti",
-   "age": 16,
-   "age_stato": "dichiarato",
-   "age_nota": "",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 16 non è scritto da nessuna fonte competente",
    "claims": {
     "nome": {
      "stato": "dichiarato",
@@ -20655,11 +20655,11 @@
      "url": "https://www.auf.org.uy/sub-17/"
     },
     "eta": {
-     "stato": "dichiarato",
-     "fonte": "AUF — Asociación Uruguaya de Fútbol",
-     "tipo": "federation",
-     "citazione": "AUF — Convocatoria al CONMEBOL sub-17 2026 (Del 3 al 19 de abril): Nicolás Scotti, Attaccante, nato il 26/11/2009, Defensor Sp.",
-     "url": "https://www.auf.org.uy/sub-17/"
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
     },
     "stats": {
      "stato": "assente",
@@ -20695,7 +20695,7 @@
    "n_sources_registro": 1,
    "stats": {},
    "identity_complete": true,
-   "review_flags": "fonte_singola,eta_dichiarato,club_dichiarato",
+   "review_flags": "fonte_singola,eta_assente,club_dichiarato",
    "coverage_tier": "standard",
    "first_detected": "2026-09-01T08:32:38.659540",
    "last_seen": "2026-11-21T07:37:08.422975",
@@ -20724,7 +20724,6 @@
    "publishable": false,
    "assessment": {
     "pros": [
-     "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "Nome e club scritti da AUF — Asociación Uruguaya de Fútbol",
      "Segnale persistente: 23 rilevamenti"
@@ -20732,14 +20731,15 @@
     "cautions": [
      "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
      "Una sola fonte: non ancora corroborato",
-     "Nessuna statistica di rendimento documentata"
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
     ],
     "next_steps": [
+     "Confermare l'anno di nascita con la società",
      "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
      "Recuperare statistiche di rendimento (referti gara)"
     ],
     "pros_en": [
-     "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "Name and club stated by AUF — Asociación Uruguaya de Fútbol",
      "Persistent signal: 23 detections"
@@ -20747,9 +20747,11 @@
     "cautions_en": [
      "Only one domain says anything concrete: the other sources merely confirm the name exists",
      "Single source: not yet corroborated",
-     "No documented performance stats"
+     "No documented performance stats",
+     "Age not confirmed"
     ],
     "next_steps_en": [
+     "Confirm the birth year with the club",
      "Find a second independent source (aggregators, local press)",
      "Get performance stats (match reports)"
     ]
@@ -21902,7 +21904,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 184
+    "detection_count": 185
    },
    "n_sources": 2,
    "sources": [
@@ -21937,7 +21939,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 184 rilevamenti"
+     "Segnale persistente: 185 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -21950,7 +21952,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 184 detections"
+     "Persistent signal: 185 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24638,7 +24640,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 190
+    "detection_count": 191
    },
    "n_sources": 4,
    "sources": [
@@ -24683,7 +24685,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 190 rilevamenti"
+     "Segnale persistente: 191 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -24696,7 +24698,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 190 detections"
+     "Persistent signal: 191 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -24756,7 +24758,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 188
+    "detection_count": 189
    },
    "n_sources": 4,
    "sources": [
@@ -24801,7 +24803,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 188 rilevamenti"
+     "Segnale persistente: 189 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -24816,7 +24818,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 188 detections"
+     "Persistent signal: 189 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -25105,7 +25107,7 @@
     "asymmetry": 8.0,
     "selection": 4.0,
     "n_sources": 3,
-    "detection_count": 4
+    "detection_count": 5
    },
    "n_sources": 3,
    "sources": [
@@ -25136,7 +25138,7 @@
    "review_flags": "eta_dichiarato,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-10-24T04:55:35.776867",
-   "last_seen": "2026-11-13T07:05:12.237890",
+   "last_seen": "2026-11-26T08:46:43.071280",
    "selezione": {
     "quante": 1,
     "frase": "Convocato una volta da Fédération Sénégalaise de Football.",
@@ -25162,7 +25164,8 @@
     "pros": [
      "Produzione documentata: 1 gol",
      "Contesto minore: valore potenzialmente sottoprezzato",
-     "3 domini distinti lo nominano"
+     "3 domini distinti lo nominano",
+     "Segnale persistente: 5 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo"
@@ -25171,7 +25174,8 @@
     "pros_en": [
      "Documented output: 1 goals",
      "Minor context: potentially underpriced",
-     "3 distinct domains mention him"
+     "3 distinct domains mention him",
+     "Persistent signal: 5 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it"
@@ -25228,7 +25232,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 191
+    "detection_count": 192
    },
    "n_sources": 2,
    "sources": [
@@ -25263,7 +25267,7 @@
      "Giovane (19 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 191 rilevamenti"
+     "Segnale persistente: 192 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -25276,7 +25280,7 @@
      "Young (19 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 191 detections"
+     "Persistent signal: 192 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -26839,7 +26843,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 202
+    "detection_count": 204
    },
    "n_sources": 3,
    "sources": [
@@ -26878,7 +26882,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 202 rilevamenti"
+     "Segnale persistente: 204 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -26890,7 +26894,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 202 detections"
+     "Persistent signal: 204 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -32385,16 +32389,16 @@
    "region": "Mexico",
    "gender": "male",
    "score": 0,
-   "confidence": 0.91,
+   "confidence": 1.0,
    "breakdown": {
     "youth": 11.0,
     "production": 0.0,
     "asymmetry": -20.0,
     "selection": 0.0,
-    "n_sources": 3,
-    "detection_count": 6
+    "n_sources": 4,
+    "detection_count": 7
    },
-   "n_sources": 3,
+   "n_sources": 4,
    "sources": [
     {
      "domain": "record.com.mx",
@@ -32410,6 +32414,11 @@
      "domain": "soccerway.com",
      "url": "https://www.soccerway.com/player/pietuszewski-oskar/nyNSVjF0/",
      "seen": "2026-10-17T15:50:18.439940"
+    },
+    {
+     "domain": "us.soccerway.com",
+     "url": "https://us.soccerway.com/player/pietuszewski-oskar/nyNSVjF0/",
+     "seen": "2026-11-26T08:46:43.071280"
     }
    ],
    "n_sources_registro": 3,
@@ -32423,7 +32432,7 @@
    "review_flags": "eta_dichiarato,club_dichiarato,gia_coperto_da_tutti",
    "coverage_tier": "standard",
    "first_detected": "2026-10-10T21:56:03.133058",
-   "last_seen": "2026-11-13T07:05:12.237890",
+   "last_seen": "2026-11-26T08:46:43.071280",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
@@ -32431,8 +32440,8 @@
     "pros": [
      "Giovane (18 anni)",
      "Nome e club scritti da Transfermarkt",
-     "3 domini distinti lo nominano",
-     "Segnale persistente: 6 rilevamenti"
+     "4 domini distinti lo nominano",
+     "Segnale persistente: 7 rilevamenti"
     ],
     "cautions": [
      "Nessuna statistica di rendimento documentata",
@@ -32444,8 +32453,8 @@
     "pros_en": [
      "Young (18 yo)",
      "Name and club stated by Transfermarkt",
-     "3 distinct domains mention him",
-     "Persistent signal: 6 detections"
+     "4 distinct domains mention him",
+     "Persistent signal: 7 detections"
     ],
     "cautions_en": [
      "No documented performance stats",
@@ -88158,6 +88167,104 @@
    "coverage_tier": "low_coverage",
    "first_detected": "2026-11-25T21:55:44.233732",
    "last_seen": "2026-11-25T21:55:44.233732",
+   "selezione": {},
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 783,
+   "name": "Cheikh Dieng",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Wiwsport",
+     "tipo": "national_press",
+     "citazione": "Mondial U17 : « Nous considérons tous les matchs comme des finales », Cheikh Dieng",
+     "url": "https://wiwsport.com/2026/11/26/mondial-u17-nous-considerons-tous-les-matchs-comme-des-finales-cheikh-dieng/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Senegal",
+   "gender": "male",
+   "score": 3,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 0.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "wiwsport.com",
+     "url": "https://wiwsport.com/2026/11/26/mondial-u17-nous-considerons-tous-les-matchs-comme-des-finales-cheikh-dieng/",
+     "seen": "2026-11-26T08:46:43.071280"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-11-26T08:46:43.071280",
+   "last_seen": "2026-11-26T08:46:43.071280",
    "selezione": {},
    "anomalie": [],
    "publishable": false,
