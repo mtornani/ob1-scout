@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-27T22:02:23.508775+00:00",
+ "generated_at": "2026-11-28T08:43:42.894979+00:00",
  "version": "1.0.0",
- "build": "520bc0e",
- "total": 784,
+ "build": "535d37a",
+ "total": 787,
  "publishable": 137,
- "tracking": 647,
- "shown": 784,
+ "tracking": 650,
+ "shown": 787,
  "tracking_capped": 0,
  "outcomes": {
   "checked": 6,
@@ -18686,7 +18686,7 @@
     "asymmetry": -20.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 194
+    "detection_count": 195
    },
    "n_sources": 4,
    "sources": [
@@ -18731,7 +18731,7 @@
      "Giovane (19 anni)",
      "Produzione documentata: 12 gol e 9 assist in 33 presenze",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 194 rilevamenti"
+     "Segnale persistente: 195 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -18742,7 +18742,7 @@
      "Young (19 yo)",
      "Documented output: 12 goals and 9 assists in 33 appearances",
      "4 distinct domains mention him",
-     "Persistent signal: 194 detections"
+     "Persistent signal: 195 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -18907,7 +18907,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 4,
-    "detection_count": 200
+    "detection_count": 201
    },
    "n_sources": 4,
    "sources": [
@@ -18952,7 +18952,7 @@
      "Molto giovane (16 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "4 domini distinti lo nominano",
-     "Segnale persistente: 200 rilevamenti"
+     "Segnale persistente: 201 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -18967,7 +18967,7 @@
      "Very young (16 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "4 distinct domains mention him",
-     "Persistent signal: 200 detections"
+     "Persistent signal: 201 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19403,7 +19403,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 199
+    "detection_count": 200
    },
    "n_sources": 3,
    "sources": [
@@ -19443,7 +19443,7 @@
      "Molto giovane (17 anni): ampio margine di sviluppo",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 199 rilevamenti"
+     "Segnale persistente: 200 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -19458,7 +19458,7 @@
      "Very young (17 yo): plenty of room to develop",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 199 detections"
+     "Persistent signal: 200 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -19980,6 +19980,134 @@
      "The club appears in no source: re-verify before relying on it"
     ],
     "next_steps_en": []
+   }
+  },
+  {
+   "id": 529,
+   "name": "Elizabeth Adesuyi",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "il valore 16 non è scritto da nessuna fonte competente",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Nigeria Football Federation",
+     "tipo": "federation",
+     "citazione": "The second half took a dramatic twist in the 59th minute when Nigeria were reduced to 10 players after defender Elizabeth Adesuyi was shown a straight red card for a foul on a Ghanaian attacker.",
+     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": "defender",
+   "club": "Flamingos",
+   "league": "WAFU-B U17 Girls Championship",
+   "region": "Nigeria",
+   "gender": "female",
+   "score": 22,
+   "confidence": 0.73,
+   "breakdown": {
+    "youth": 18.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 2,
+    "detection_count": 3
+   },
+   "n_sources": 2,
+   "sources": [
+    {
+     "domain": "thenff.com",
+     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/",
+     "seen": "2026-09-19T04:54:29.466675"
+    },
+    {
+     "domain": "no.soccerway.com",
+     "url": "https://no.soccerway.com/player/adesuyi-elizabeth/MR85USAb/",
+     "seen": "2026-11-02T21:52:37.962662"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {
+    "goals": 0,
+    "assists": 0,
+    "apps": 0,
+    "minutes": 0
+   },
+   "identity_complete": true,
+   "review_flags": "eta_assente,club_assente",
+   "coverage_tier": "low_coverage",
+   "first_detected": "2026-09-19T04:54:29.466675",
+   "last_seen": "2026-11-28T08:18:57.747110",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Nigeria Football Federation, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Nigeria Football Federation",
+      "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
+     }
+    ],
+    "fonte": "Nigeria Football Federation",
+    "frase_en": "Called up 1 times by Nigeria Football Federation, U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "2 domini distinti lo nominano"
+    ],
+    "cautions": [
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "2 distinct domains mention him"
+    ],
+    "cautions_en": [
+     "The club appears in no source: re-verify before relying on it",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Get performance stats (match reports)"
+    ]
    }
   },
   {
@@ -21575,7 +21703,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 197
+    "detection_count": 198
    },
    "n_sources": 3,
    "sources": [
@@ -21615,7 +21743,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 197 rilevamenti"
+     "Segnale persistente: 198 rilevamenti"
     ],
     "cautions": [
      "2+ fonti ma nessuna di stampa primaria: non basta ancora per il gate standard",
@@ -21630,7 +21758,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 197 detections"
+     "Persistent signal: 198 detections"
     ],
     "cautions_en": [
      "2+ sources but none is a primary press outlet: not enough yet for the standard gate",
@@ -22070,7 +22198,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 2,
-    "detection_count": 187
+    "detection_count": 188
    },
    "n_sources": 2,
    "sources": [
@@ -22105,7 +22233,7 @@
      "Giovane (18 anni)",
      "Contesto minore: valore potenzialmente sottoprezzato",
      "2 domini distinti lo nominano",
-     "Segnale persistente: 187 rilevamenti"
+     "Segnale persistente: 188 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -22118,7 +22246,7 @@
      "Young (18 yo)",
      "Minor context: potentially underpriced",
      "2 distinct domains mention him",
-     "Persistent signal: 187 detections"
+     "Persistent signal: 188 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -27027,7 +27155,7 @@
     "asymmetry": 8.0,
     "selection": 0.0,
     "n_sources": 3,
-    "detection_count": 204
+    "detection_count": 205
    },
    "n_sources": 3,
    "sources": [
@@ -27066,7 +27194,7 @@
     "pros": [
      "Contesto minore: valore potenzialmente sottoprezzato",
      "3 domini distinti lo nominano",
-     "Segnale persistente: 204 rilevamenti"
+     "Segnale persistente: 205 rilevamenti"
     ],
     "cautions": [
      "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
@@ -27078,7 +27206,7 @@
     "pros_en": [
      "Minor context: potentially underpriced",
      "3 distinct domains mention him",
-     "Persistent signal: 204 detections"
+     "Persistent signal: 205 detections"
     ],
     "cautions_en": [
      "The club appears in no source: re-verify before relying on it",
@@ -44585,7 +44713,7 @@
     "asymmetry": 0.0,
     "selection": 14.0,
     "n_sources": 2,
-    "detection_count": 8
+    "detection_count": 9
    },
    "n_sources": 2,
    "sources": [
@@ -44611,7 +44739,7 @@
    "review_flags": "club_mancante,eta_mancante,eta_assente,club_assente",
    "coverage_tier": "low_coverage",
    "first_detected": "2026-09-11T11:42:44.704482",
-   "last_seen": "2026-11-14T18:25:03.239861",
+   "last_seen": "2026-11-28T08:18:57.747110",
    "selezione": {
     "quante": 2,
     "frase": "Convocato 2 volte da Nigeria Football Federation, Sub-20.",
@@ -52836,134 +52964,6 @@
      "2 distinct domains mention him"
     ],
     "cautions_en": [
-     "No documented performance stats",
-     "Age not confirmed"
-    ],
-    "next_steps_en": [
-     "Confirm the birth year with the club",
-     "Get performance stats (match reports)"
-    ]
-   }
-  },
-  {
-   "id": 529,
-   "name": "Elizabeth Adesuyi",
-   "age": null,
-   "age_stato": "assente",
-   "age_nota": "",
-   "claims": {
-    "nome": {
-     "stato": "dichiarato",
-     "fonte": "Nigeria Football Federation",
-     "tipo": "federation",
-     "citazione": "The second half took a dramatic twist in the 59th minute when Nigeria were reduced to 10 players after defender Elizabeth Adesuyi was shown a straight red card for a foul on a Ghanaian attacker.",
-     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
-    },
-    "club": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "eta": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    },
-    "stats": {
-     "stato": "assente",
-     "fonte": "",
-     "tipo": "",
-     "citazione": "",
-     "url": ""
-    }
-   },
-   "position": "defender",
-   "club": "Flamingos",
-   "league": "WAFU-B U17 Girls Championship",
-   "region": "Nigeria",
-   "gender": "female",
-   "score": 11,
-   "confidence": 0.63,
-   "breakdown": {
-    "youth": 6.0,
-    "production": 0.0,
-    "asymmetry": 8.0,
-    "selection": 4.0,
-    "n_sources": 2,
-    "detection_count": 2
-   },
-   "n_sources": 2,
-   "sources": [
-    {
-     "domain": "thenff.com",
-     "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/",
-     "seen": "2026-09-19T04:54:29.466675"
-    },
-    {
-     "domain": "no.soccerway.com",
-     "url": "https://no.soccerway.com/player/adesuyi-elizabeth/MR85USAb/",
-     "seen": "2026-11-02T21:52:37.962662"
-    }
-   ],
-   "n_sources_registro": 1,
-   "stats": {
-    "goals": 0,
-    "assists": 0,
-    "apps": 0,
-    "minutes": 0
-   },
-   "identity_complete": false,
-   "review_flags": "eta_mancante,eta_assente,club_assente",
-   "coverage_tier": "low_coverage",
-   "first_detected": "2026-09-19T04:54:29.466675",
-   "last_seen": "2026-11-02T21:52:37.962662",
-   "selezione": {
-    "quante": 1,
-    "frase": "Convocato una volta da Nigeria Football Federation, Sub-17.",
-    "dal": "",
-    "al": "",
-    "categorie": [
-     "sub-17"
-    ],
-    "progressione": false,
-    "mesi_di_arco": 0,
-    "eventi": [
-     {
-      "data": "",
-      "categoria": "sub-17",
-      "fonte": "Nigeria Football Federation",
-      "url": "https://thenff.com/wafu-b-u17-girls-cup-flamingos-soar-over-black-princesses-in-six-goal-thriller/"
-     }
-    ],
-    "fonte": "Nigeria Football Federation",
-    "frase_en": "Called up 1 times by Nigeria Football Federation, U17."
-   },
-   "anomalie": [],
-   "publishable": false,
-   "assessment": {
-    "pros": [
-     "Contesto minore: valore potenzialmente sottoprezzato",
-     "2 domini distinti lo nominano"
-    ],
-    "cautions": [
-     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
-     "Nessuna statistica di rendimento documentata",
-     "Età non confermata"
-    ],
-    "next_steps": [
-     "Confermare l'anno di nascita con la società",
-     "Recuperare statistiche di rendimento (referti gara)"
-    ],
-    "pros_en": [
-     "Minor context: potentially underpriced",
-     "2 distinct domains mention him"
-    ],
-    "cautions_en": [
-     "The club appears in no source: re-verify before relying on it",
      "No documented performance stats",
      "Age not confirmed"
     ],
@@ -67234,6 +67234,126 @@
       "categoria": "",
       "fonte": "Federación Colombiana de Fútbol",
       "url": "https://fcf.com.co/2026/11/14/resolucion-supercopa-juvenil-no-033-de-2026-13-de-noviembre-2026/"
+     }
+    ],
+    "fonte": "Federación Colombiana de Fútbol",
+    "frase_en": "Called up 1 times by Federación Colombiana de Fútbol."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [
+     "Contesto minore: valore potenzialmente sottoprezzato",
+     "Nome e club scritti da Federación Colombiana de Fútbol"
+    ],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)",
+     "Recuperare statistiche di rendimento (referti gara)"
+    ],
+    "pros_en": [
+     "Minor context: potentially underpriced",
+     "Name and club stated by Federación Colombiana de Fútbol"
+    ],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)",
+     "Get performance stats (match reports)"
+    ]
+   }
+  },
+  {
+   "id": 787,
+   "name": "Ricardo Andrés Díaz Castaño",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "RICARDO ANDRÉS DÍAZ CASTAÑO (P .A ) Once Caldas S.A. Semifinal (vuelta ) Supercopa Juvenil FCF 2026",
+     "url": "https://fcf.com.co/2026/11/27/resolucion-supercopa-juvenil-no-034-de-2026-27-de-noviembre-2026/"
+    },
+    "club": {
+     "stato": "dichiarato",
+     "fonte": "Federación Colombiana de Fútbol",
+     "tipo": "federation",
+     "citazione": "RICARDO ANDRÉS DÍAZ CASTAÑO (P .A ) Once Caldas S.A. Semifinal (vuelta ) Supercopa Juvenil FCF 2026",
+     "url": "https://fcf.com.co/2026/11/27/resolucion-supercopa-juvenil-no-034-de-2026-27-de-noviembre-2026/"
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": "Once Caldas S.A.",
+   "league": "Supercopa Juvenil FCF",
+   "region": "Colombia",
+   "gender": "male",
+   "score": 8,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 8.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fcf.com.co",
+     "url": "https://fcf.com.co/2026/11/27/resolucion-supercopa-juvenil-no-034-de-2026-27-de-noviembre-2026/",
+     "seen": "2026-11-28T08:18:57.747110"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "eta_mancante,fonte_singola,eta_assente,club_dichiarato",
+   "coverage_tier": "standard",
+   "first_detected": "2026-11-28T08:18:57.747110",
+   "last_seen": "2026-11-28T08:18:57.747110",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Federación Colombiana de Fútbol (novembre 2026).",
+    "dal": "2026-11-27",
+    "al": "2026-11-27",
+    "categorie": [],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "2026-11-27",
+      "categoria": "",
+      "fonte": "Federación Colombiana de Fútbol",
+      "url": "https://fcf.com.co/2026/11/27/resolucion-supercopa-juvenil-no-034-de-2026-27-de-noviembre-2026/"
      }
     ],
     "fonte": "Federación Colombiana de Fútbol",
@@ -82831,6 +82951,242 @@
     ],
     "fonte": "Fudbalski savez Srbije",
     "frase_en": "Called up 1 times by Fudbalski savez Srbije, U21."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 785,
+   "name": "Vojin Marinković",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Serbia",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fss.rs",
+     "url": "https://fss.rs/fifa-u17-world-cup-igrac-utakmice-vojin-marinkovic-strelac-nebojsa-grujic-i-heroj-veljko-popovic-nakon-pobede-protiv-kolumbije/",
+     "seen": "2026-11-28T08:18:57.747110"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-11-28T08:18:57.747110",
+   "last_seen": "2026-11-28T08:18:57.747110",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Fudbalski savez Srbije, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fudbalski savez Srbije",
+      "url": "https://fss.rs/fifa-u17-world-cup-igrac-utakmice-vojin-marinkovic-strelac-nebojsa-grujic-i-heroj-veljko-popovic-nakon-pobede-protiv-kolumbije/"
+     }
+    ],
+    "fonte": "Fudbalski savez Srbije",
+    "frase_en": "Called up 1 times by Fudbalski savez Srbije, U17."
+   },
+   "anomalie": [],
+   "publishable": false,
+   "assessment": {
+    "pros": [],
+    "cautions": [
+     "Un solo dominio dice qualcosa di concreto: le altre fonti confermano solo che il nome esiste",
+     "Il club non compare in nessuna fonte: da riverificare prima di usarlo",
+     "Una sola fonte: non ancora corroborato",
+     "Nessuna statistica di rendimento documentata",
+     "Età non confermata"
+    ],
+    "next_steps": [
+     "Verificare il club attuale",
+     "Confermare l'anno di nascita con la società",
+     "Trovare una seconda fonte indipendente (aggregatori, stampa locale)"
+    ],
+    "pros_en": [],
+    "cautions_en": [
+     "Only one domain says anything concrete: the other sources merely confirm the name exists",
+     "The club appears in no source: re-verify before relying on it",
+     "Single source: not yet corroborated",
+     "No documented performance stats",
+     "Age not confirmed"
+    ],
+    "next_steps_en": [
+     "Verify the current club",
+     "Confirm the birth year with the club",
+     "Find a second independent source (aggregators, local press)"
+    ]
+   }
+  },
+  {
+   "id": 786,
+   "name": "Nebojša Grujić",
+   "age": null,
+   "age_stato": "assente",
+   "age_nota": "",
+   "claims": {
+    "nome": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "club": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "eta": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    },
+    "stats": {
+     "stato": "assente",
+     "fonte": "",
+     "tipo": "",
+     "citazione": "",
+     "url": ""
+    }
+   },
+   "position": null,
+   "club": null,
+   "league": null,
+   "region": "Serbia",
+   "gender": "male",
+   "score": 4,
+   "confidence": 0.45,
+   "breakdown": {
+    "youth": 6.0,
+    "production": 0.0,
+    "asymmetry": 0.0,
+    "selection": 4.0,
+    "n_sources": 1,
+    "detection_count": 1
+   },
+   "n_sources": 1,
+   "sources": [
+    {
+     "domain": "fss.rs",
+     "url": "https://fss.rs/fifa-u17-world-cup-igrac-utakmice-vojin-marinkovic-strelac-nebojsa-grujic-i-heroj-veljko-popovic-nakon-pobede-protiv-kolumbije/",
+     "seen": "2026-11-28T08:18:57.747110"
+    }
+   ],
+   "n_sources_registro": 1,
+   "stats": {},
+   "identity_complete": false,
+   "review_flags": "club_mancante,eta_mancante,fonte_singola,eta_assente,club_assente",
+   "coverage_tier": "standard",
+   "first_detected": "2026-11-28T08:18:57.747110",
+   "last_seen": "2026-11-28T08:18:57.747110",
+   "selezione": {
+    "quante": 1,
+    "frase": "Convocato una volta da Fudbalski savez Srbije, Sub-17.",
+    "dal": "",
+    "al": "",
+    "categorie": [
+     "sub-17"
+    ],
+    "progressione": false,
+    "mesi_di_arco": 0,
+    "eventi": [
+     {
+      "data": "",
+      "categoria": "sub-17",
+      "fonte": "Fudbalski savez Srbije",
+      "url": "https://fss.rs/fifa-u17-world-cup-igrac-utakmice-vojin-marinkovic-strelac-nebojsa-grujic-i-heroj-veljko-popovic-nakon-pobede-protiv-kolumbije/"
+     }
+    ],
+    "fonte": "Fudbalski savez Srbije",
+    "frase_en": "Called up 1 times by Fudbalski savez Srbije, U17."
    },
    "anomalie": [],
    "publishable": false,
